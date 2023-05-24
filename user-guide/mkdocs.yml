@@ -4,9 +4,10 @@ site_url: https://designsafe-ci.org/user-guide/
 plugins:
   - search
 
-theme: 
+theme:
     name: readthedocs
     navigation_depth: 2
+    collapse_navigation: false
     highlightjs: true
     features:
       - navigation.top
@@ -23,15 +24,12 @@ markdown_extensions:
   - admonition
   - attr_list
   - abbr
+  - pymdownx.snippets:
+      base_path: docs
 
 nav:
   - Data Depot:
-    - Managing Data:
-      - Data Depot: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
-      - Data Management Plan Guidance: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+    - Managing Data: managingdata.md
     - Curating &amp; Publishing Projects:
       - Curation &amp; Publication Guides: curating/guides.md
       - Best Practices: curating/bestpractices.md

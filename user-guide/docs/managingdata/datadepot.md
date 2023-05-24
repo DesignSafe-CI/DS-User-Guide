@@ -1,5 +1,3 @@
-# DATA DEPOT USER GUIDE 
-
 The [Data Depot](https://www.designsafe-ci.org/data/browser/public/) is the data repository for DesignSafe. The web interface to the Data Depot allows you to browse, upload, download, share, curate and publish data stored within the repository. You are encouraged to use the Data Depot not only for curation and publication of research results, but as a working “scratch” area for any of your own data and work in progress. Scientific applications in the [Workspace](https://agave.designsafe-ci.org/authenticationendpoint/login.do) can access your Data Depot files, enablling data analysis directly in the DesignSafe portal that minimizes the need to transfer data to your laptop. The Data Depot hosts both public and private data associated with a project, with the following directories:
 
 * **My Data**: Private directory for your data.
@@ -10,7 +8,7 @@ The [Data Depot](https://www.designsafe-ci.org/data/browser/public/) is the data
 * **Published**: Curated data/projects with DOI’s.
 * **Community Data**: Non-curated user-contributed data.
  
-## [Browsing, Upload, and Download](#browsing) { #browsing } 
+### [Browsing, Upload, and Download](#browsing) { #browsing } 
 
 ![Figure 1. Data Depot](./imgs/datadepotfigure.jpg)
 
@@ -26,7 +24,7 @@ Click on the blue "+Add" button above the list of directories to create a New Fo
 
 A number of data transfer methods are supported for uploading and downloading files. The [Data Transfer Guide](../datatransfer) provides details regarding the various methods and recommendations based on the quantity and size of your files.
 
-## [Data Sharing, Collaboration, Curation & Publication](#sharing) { #sharing }
+### [Data Sharing, Collaboration, Curation & Publication](#sharing) { #sharing }
 
 My Projects is the simplest way to share data with your collaborators and to curate and ultimately publish your data and receive a Digital Object Identifier (DOI). Any team member in a project has both read and write access to the entire contents of the project. The Data Curation & Publication User Guide provides instructions for creating projects, managing team members, curating and publishing your data.
 
