@@ -36,14 +36,7 @@ nav:
 
   - Tools and Apps:
     - Jupyter Hub: tools/jupyterhub.md
-    - Simulation Applications:
-      - Overview: tools/simulation/overview.md
-      - ADCIRC: tools/simulation/adcirc.md
-      - Clawpack: tools/simulation/clawpack.md
-      - Dakota: tools/simulation/dakota.md
-      - LS-DYNA: tools/simulation/lsdyna.md
-      - OpenFOAM: tools/simulation/openfoam.md
-      - OpenSEES: tools/simulation/opensees.md
+    - Simulation Applications: tools/simulation.md
     - Visualization Applications:
       - Overview: tools/visualization/overview.md
       - FigureGen: tools/visualization/figuregen.md

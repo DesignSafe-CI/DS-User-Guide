@@ -1,4 +1,4 @@
-# ADCIRC User Guide
+## ADCIRC User Guide
 
 ADCIRC (ADvanced CIRCulation model) is a system of computer programs often used in Coastal Engineering Storm Surge research for solving time dependent, free surface circulation and transport problems in two and three dimensions. These programs utilize the finite element method in space allowing the use of highly flexible, unstructured grids. SWAN (Simulating WAves Nearshore) adds shallow water modeling. Typical research topics include:
 
@@ -35,7 +35,8 @@ Multiple configurations and versions of ADCIRC are available in the Workspace:
 More detailed information and ADCIRC user documentation can be found at the <a href="http://adcirc.org/" target="_blank">ADCIRC website</a>.  
 
 <hr>
-## How to submit an ADCIRC Job in the Workspace
+
+### How to submit an ADCIRC Job in the Workspace
 
 <ul>
 	<li>Select the appropriate ADCIRC application from the Simulation tab in the Workspace.</li>

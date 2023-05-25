@@ -1,4 +1,4 @@
-# Dakota User Guide
+## Dakota User Guide
 
 The Dakota project delivers both state-of-the-art research and robust, usable software for optimization and uncertainty quantification. Broadly, the Dakota software's advanced parametric analyses enable design exploration, model calibration, risk analysis, and quantification of margins and uncertainty with computational models. The Dakota toolkit provides a flexible, extensible interface between such simulation codes (e.g. OpenSees) and its iterative systems analysis methods, which include:
 
@@ -15,7 +15,7 @@ More detailed information and Dakota user documentation can be found at the <a h
 
 <hr>
 
-## How to Submit a Dakota Job in the Workspace
+### How to Submit a Dakota Job in the Workspace
 
 <ul>
 	<li>Select the Dakota appication from the Simulation tab in the Workspace.</li>
