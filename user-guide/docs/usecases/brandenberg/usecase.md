@@ -1,4 +1,4 @@
-# Next Generation Liquefaction (NGL) Database Jupyter Notebooks
+### Next Generation Liquefaction (NGL) Database Jupyter Notebooks
 
 **Brandenberg, S.J. - UCLA**<br/>
 **Ulmer, K.J. - Southwest Research Institute**<br/>
@@ -9,8 +9,8 @@ The example makes use of the following DesignSafe resources:
 [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
 [NGL Database](https://www.nextgenerationliquefaction.org/){target=_blank}<br/>
 
-## Background
-### Citations and Licensing
+#### Background
+##### Citations and Licensing
 
 * Please cite [Zimmaro, P., et al. (2019)](https://doi.org/10.21222/C2J040){target=_blank} to acknowledge the use of the NGL Database. Data in the NGL database has been gathered from [these](https://nextgenerationliquefaction.org/citations.php){target=_blank} published sources. If you use specific data in the database, please cite the original source.
 
@@ -19,7 +19,7 @@ The example makes use of the following DesignSafe resources:
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
 
 
-### Description  
+##### Description  
 The Next Generation Liquefaction (NGL) Project is advancing the state of the art in liquefaction research 
 and working toward providing end users with a consensus approach to assess liquefaction potential within 
 a probabilistic and risk-informed framework. Specifically, NGL’s goal is to first collect and organize 
@@ -41,7 +41,7 @@ but they cannot use the GUI to develop an end-to-end workflow to make scientific
 from the data. To facilitate end-to-end workflows, the NGL database is replicated daily to [DesignSafe](https://www.designsafe-ci.org){target=_blank}, where 
 users can interact with it using Jupyter notebooks.
 
-## Understanding the Database Schema
+#### Understanding the Database Schema
 
 The NGL database is organized into tables that are related to each other via keys. To query the database, 
 you will need to understand the organizational structure of the database, called the schema. The database 
@@ -49,7 +49,7 @@ schema is documented at the following URL:
 
 [https://nextgenerationliquefaction.org/schema/index.html](https://nextgenerationliquefaction.org/schema/index.html){target=_blank}
   
-## Querying Data via Jupyter Notebooks
+#### Querying Data via Jupyter Notebooks
 
 Jupyter notebooks provide the capability to query NGL data, and subsequently process, visualize, and learn from the data in an end-to-end workflow. Jupyter notebooks run in the cloud on DesignSafe, and provide a number of benefits compared with a more traditional local mode of operation:
 
@@ -60,7 +60,7 @@ Jupyter notebooks provide the capability to query NGL data, and subsequently pro
 
 This documentation first demonstrates how to install the database connection script, followed by several example scripts intended to serve as starting points for users who wish to develop their own tools.
 
-## Installing Database Connection Script
+#### Installing Database Connection Script
  
 Connecting to a relational database requires credentials, like username, password, database name, and hostname. 
 Rather than requiring users to know these credentials and create their own database connections, we have created a Python package that allows users to
@@ -70,7 +70,7 @@ query the database. This code installs the package containing the database conne
 !pip install git+https://github.com/sjbrandenberg/designsafe_db
 ```
 
-## Example Queries
+#### Example Queries
 
 This notebook contains example queries to illustrate how to extract data from the NGL database into Pandas dataframe objects using Python scripts in Jupyter notebooks. The notebook contains cells that perform the following operations:
 
@@ -83,7 +83,7 @@ This notebook contains example queries to illustrate how to extract data from th
 
 [ExampleQueries.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/ExampleQueries.ipynb){target=_blank}
 
-## Cone Penetration Test Viewer
+#### Cone Penetration Test Viewer
 
 The cone penetration test viewer demonstrates the following:
 
@@ -99,7 +99,7 @@ Cone penetration test data plotted in the notebook include tip resistance, sleev
 [CPT_viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/CPT_viewer.ipynb){target=_blank}
 
 
-## V<sub>S</sub> (Invasive) Test Viewer
+#### V<sub>S</sub> (Invasive) Test Viewer
 
 The V<sub>s</sub> (Invasive) Test Viewer demonstrates the following:
 
@@ -113,7 +113,7 @@ The V<sub>s</sub> (Invasive) Test Viewer demonstrates the following:
 [VS_Invasive_viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/VS_Invasive_viewer.ipynb){target=_blank}
 
 
-## October 2021 DesignSafe Webinar
+#### October 2021 DesignSafe Webinar
 
 The DesignSafe_Webinar_Oct2021 notebook was created during a webinar/workshop hosted by DesignSafe and the Pacific Earthquake Engineering Research (PEER) center.
 
@@ -131,7 +131,7 @@ Cone penetration test data plotted in the notebook include tip resistance, sleev
 
 [DesignSafe Workshop YouTube video](https://youtu.be/_nKpSqa1rso){target=_blank}
 
-## Direct Simple Shear Laboratory Test Viewer
+#### Direct Simple Shear Laboratory Test Viewer
 
 The Direct Simple Shear Laboratory Test Viewer is a graphical interface that plots direct simple shear tests in the NGL database. It demonstrates the following:
 

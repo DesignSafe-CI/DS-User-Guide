@@ -1,4 +1,4 @@
-# Integrated Workflow of Experiments using Jupyter Notebooks: From Experimental Design to Publication
+### Integrated Workflow of Experiments using Jupyter Notebooks: From Experimental Design to Publication
 
 **Enrique Simbort and Gilberto Mosqueda - University of California, San Diego**  
 
@@ -6,14 +6,14 @@ Jupyter Notebooks can provide fully integrated workflows of experiments from doc
 
 [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
 
-## Background 
-### Citation and Licensing
+#### Background 
+##### Citation and Licensing
 
 * Please cite [Mosqueda et al. (2017)](https://12ncee.org/){target=_blank} to acknowledge the use of resources from this use case with additional data sources referenced below.
 * Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
 
-## Description
+#### Description
 
 As the cyberinfrastructure for The Natural Hazard Engineering Research Infrastructure (NHERI), DesignSafe, see [Rathje et al. (2020)](https://doi.org/10.3389/fbuil.2020.547706){target=_blank}, provides a collaborative workspace for cloud-based data analysis, data sharing, curation and publication of models and data. Within this workspace, Jupyter Notebooks can be applied to perform data analysis in an interactive environment with access to published data. A rich set of data from natural hazard experiments and field studies is available from NHERI projects and its predecessor the Network for Earthquake Engineering Simulation (NEES). Since one of the major goals of DesignSafe is to provide a collaborative workspace by means of data sharing and access for data reuses, the main objective of this document is to demonstrate the use of Jupyter Notebook for viewing and analyzing published data using cloud-based tools.
 
@@ -25,10 +25,10 @@ This use case includes a series of Jupyter Notebooks aimed to serve as a learnin
 
 3.	The third module is a Jupyter notebook for viewing and analyzing data from tests on a 3-story steel Modular Testbed Building (MTB2) conducted on the recently upgrades 6DOF shake table at the UC San Diego NHEIR Experimental Facilty as reported by [Van Den Einde et al (2020)](https://doi.org/10.3389/fbuil.2020.580333){target=_blank}. These tests will examine the shake table performance and structural response for the 3D structure.  These tests are currently in progress with the notebook under development concurrently.
 
-## Jupyter Notebooks for Experimental Data
+#### Jupyter Notebooks for Experimental Data
 Jupyter Notebooks work as an interactive development environment to code and view data in a report format. Within the notebook, the combination of cells enables formatted text and interactive plotting for viewing and analyzing data.  Users can select data files and data channels for viewing and processing with the ability to view and print complete reports. Jupyter Notebooks are accessible in DesignSafe through the workspace analysis tools and can access private or public data in Data Depot. Sample modules are presented here that have been developed using published data in Data Depot including those by [Vega et al. (2018)](https://doi.org/10.17603/DS2C687){target=_blank} and [Masroor et al. (2010)](https://doi.org/10.4231/D3HH6C57D){target=_blank}. These modules will be configured and applied within the workflow of the MTB2 during shakedown testing.
 
-### Case 1. Shake table performance
+##### Case 1. Shake table performance
 [Jupyter Notebook for shake table peformance](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data){target=_blank}
 
 A set of modules have been developed to evaluate the performance of the shake table using data from past experiments conducted to demonstrate the hybrid testing capabilities of LHPOST, see [Vega et al (2020)](https://www.inderscienceonline.com/doi/abs/10.1504/IJLCPE.2020.108939){target=_blank}. For these hybrid tests, separate Jupyter Notebooks have been developed to consider the various sources of generated data including i) Shake Table Controller, ii) the primary Data Acquisition System (DAQ), and iii) additional computational sources for hybrid testing. In a typical shake table test, the first two sources of data would be included plus any other user specified data acquisition system.  
@@ -38,7 +38,7 @@ Data collected by the shake table controller is expected to be standard across m
 
 Figure 1. Evaluation of shake table performance through comparison of command reference and feedback including a) Fourier Transform and b) response spectra .
 
-### Case 2. Module for Structural Response and System Identification
+##### Case 2. Module for Structural Response and System Identification
 
 [Jupyter Notebook for Module for Structural Response and System Identification](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products%2FShake%20Table%20Experimental%20Data){target=_blank}
 
@@ -55,7 +55,7 @@ Figure 2. System identification of three story moment frame, by [Masroor et al. 
 
 Figure 3. Mode shapes estimation from 3-story building subjected to white noise on shake table.
 
-### Case 3. Integration of Notebooks in Experimental Workflow
+##### Case 3. Integration of Notebooks in Experimental Workflow
 
 [Jupyter Notebook for experimental workflow](https://www.designsafe-ci.org/data/browser/projects/954727520918105625-242ac11c-0001-012/Jupyter_Notebook_Code_documents/Jupyter_Notebook_Project){target=_blank}
 
@@ -67,10 +67,10 @@ The Modular Testbed Building (MTB2), described in Morano et al. (2021), is desig
 
 Figure 4.   MTB2 building: a) SMF configuration (left), b) BRB-1 configuration (center), and c) BRB-2 configuration (right).
 
-## Summary
+#### Summary
 The Jupyter Notebooks developed for use through DesignSafe will facilitate the viewing and analysis of data sharing with collaborators from testing through data publication. A key advantage is the cloud-based approach that facilitates interactive data viewing and analysis in a report format without having to download large datasets. These tools are intended to make data more readily accessible and promote data reuse. The Jupyter Notebook presented here includes routines to evaluate the performance of the shake table and carry out system identification of structural models. 
 
-### References
+##### References
 
 * [Rathje et al. (2020)](https://doi.org/10.3389/fbuil.2020.547706){target=_blank} “Enhancing research in natural hazard engineering through the DesignSafe cyberinfrastructure”. Frontiers in Built Environment, 6:213.
 * [Vega et al (2020)](https://www.inderscienceonline.com/doi/abs/10.1504/IJLCPE.2020.108939){target=_blank} “Implementation of real-time hybrid shake table testing using the UCSD large high-performance outdoor shake table”. Int. J. Lifecycle Performance Engineering, Vol. 4, p.80-102.

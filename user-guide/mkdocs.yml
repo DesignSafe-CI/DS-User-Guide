@@ -6,7 +6,7 @@ plugins:
 
 theme:
     name: readthedocs
-    navigation_depth: 3
+    navigation_depth: 2
     collapse_navigation: false
     highlightjs: true
     features:
@@ -74,20 +74,4 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - Use Cases Products:
-      - Overview: usecases/index.md
-      - Taggit - Image Tagging: usecases/haan/usecase.md
-      - ML and AI: usecases/vantassel_and_zhang/usecase.md
-      - NGL Database: usecases/brandenberg/usecase.md
-      - MPM Landslide: usecases/kumar/usecase.md
-      - Large-Scale Storm Surge: usecases/dawson/usecase.md
-      - Creating an ADCIRC dataset: usecases/dawson/usecase2.md
-      - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
-      - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
-      - Field Sensing Wind Events: usecases/pinelli/usecase.md
-      - OpenSees Model Calibration: usecases/arduino/usecase.md
-      - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
-      - Soil Structure Interaction: usecases/rathje/usecase.md
-      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
-      - Application Programming Interfaces: usecases/brandenberg/apiusecases/usecase.md
-
+    - Use Cases Products: usecases.md

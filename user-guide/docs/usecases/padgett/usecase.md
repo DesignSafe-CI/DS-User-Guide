@@ -1,4 +1,4 @@
-# Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems
+### Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems
 
 **Catalina González-Dueñas and Jamie E. Padgett - Rice University**<br/>
 **Miku Fukatsu - Tokyo University of Science**
@@ -8,9 +8,9 @@ This use case study shows how to automate the extraction of storm intensity para
 [Geospatial data analysis and Visualization on DS - QGIS](https://www.designsafe-ci.org/rw/workspace/#!/qgis-duvd-3.16.3u2){target=_blank}<br/>
 [Jupyter notebooks on DS Jupyterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}
 
-## Background 
+#### Background 
 
-### Citation and Licensing
+##### Citation and Licensing
 
 * Please cite [González-Dueñas and Padgett (2022)](https://doi.org/10.17603/ds2-3zdj-493){target=_blank} to acknowledge the use of any resources from this use case.
 
@@ -18,7 +18,7 @@ This use case study shows how to automate the extraction of storm intensity para
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
 
-### Description 
+##### Description 
 
 This case study aims to support pre-data processing workflows for machine learning applications and regional risk analysis. When developing predictive or surrogate models for the response of distributed infrastructure and structural systems, intensity measures (IMs) need to be associated with each component of the system (e.g., buildings, bridges, roads) under varying hazard intensity or different hazard scenarios. To accomplish this and given the different resolutions of the hazard and infrastructure data, geographical tools need to be used to associate the intensity measures with the distributed infrastructure or portfolio components. In this case study, python codes were developed to automate geospatial analysis and visualization tasks using QGIS. 
 
@@ -29,7 +29,7 @@ This case study is divided into four basic components:
 > 3. Geospatial analysis via QGIS
 > 4. Visualization of the outputs
 
-## Introduction and workflow of analysis
+#### Introduction and workflow of analysis
 
 In this example, the automated procedure to extract intensity measures is leveraged to obtain the maximum surge elevation and significant wave height at specific house locations for different storm scenarios. The surge elevation and the significant wave height are important parameters when evaluating the structural performance of houses under hurricane loads, and have been used to formulate different building fragility functions (e.g., [Tomiczek, Kennedy, and Rogers (2014)](https://doi.org/10.1061/(ASCE)WW.1943-5460.0000212){target=_blank}; [Nofal et al. (2021)](https://doi.org/10.1061/(ASCE)ST.1943-541X.0003144)){target=_blank}. As a proof of concept, the intensity measures (i.e., surge elevation and significant wave height) will be extracted for 3 different storms using the building portfolio of Galveston Island, Texas. The storms correspond to synthetic variations of storm FEMA 33, a probabilistic storm approximately equivalent to a 100-year return period storm in the Houston-Galveston region. The storms are simulated using ADCIC+SWAN numerical models of storm FEMA33, with varying forward storm velocity and sea-level rise. For more details on the storm definition, the user can refer to [Ebad et al. (2020)](https://doi.org/10.3389/fbuil.2020.00104){target=_blank} and [González-Dueñas and Padgett (2021)](https://doi.org/10.3389/fbuil.2021.690715). 
 
@@ -37,7 +37,7 @@ In order to relate the storm data to the building portfolio data, it is necessar
 
 ![caption](img/Fig1_Updated.jpg)
 
-## Storm data analysis using Jupyter notebooks
+#### Storm data analysis using Jupyter notebooks
 
 To read the ADCIRC+SWAN storm simulation outputs, two Jupyter notebooks are provided, which can extract the maximum surge elevation and significant wave height values within a particular region. The [Read_Surge](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/Read_ADCIRC){target=_blank} Jupyter notebook takes as an input the *fort.63.nc* ADCIRC+SWAN output file and provides a csv file with the maximum surge elevation value at each of the points within the region specified by the user. Specifying a region helps to reduce the computational time and to provide the outputs only on the region of interest for the user. Similarly, the [Read_WaveHS](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/Read_ADCIRC){target=_blank} Jupyter notebook, reads the *swan_HS.63.nc* file and provides the maximum significant wave height in the grid points of the specified area. 
 
@@ -48,19 +48,19 @@ To use the Jupyter notebooks, the user must:
 3. Change the coordinates of the area of interest in [6]:
 
 ``` python
-# Example of a polygon that contains Galveston Island, TX (The coordinates can be obtained from Google maps)
+### Example of a polygon that contains Galveston Island, TX (The coordinates can be obtained from Google maps)
 polygon = Polygon([(-95.20669, 29.12035), (-95.14008, 29.04294), (-94.67968, 29.35433), (-94.75487, 29.41924), (-95.20669, 29.12035)])
 ```
 4. Modify the name of the output csv file in [8] (if desired):
 ``` python
-# In this example, the output name of the csv surge elevation file is "surge_max"
+### In this example, the output name of the csv surge elevation file is "surge_max"
 with open('surge_max.csv','w') as f1:
 ```
 Once the Jupyter notebooks run, two output csv files containing the maximum surge elevation and significant wave height in the area of interest will be generated and saved in your folder. The first two columns of the csv file correspond to the geographical coordinates (i.e., longitud and latitude) of the grid point, and the third one corresponds to the respective intensity measure (maximum surge elevation or significant wave height).
 
-## Geospatial analysis via QGIS
+#### Geospatial analysis via QGIS
 
-### Opening a QGIS session in DesignSafe
+##### Opening a QGIS session in DesignSafe
 
 To access QGIS via DesignSafe go to [Workspace -> Tools & Applications -> Visualization -> QGIS Desktop 3.16](https://www.designsafe-ci.org/rw/workspace/#!/qgis-duvd-3.16.3u2){target=_blank}. You will be prompted the following window:
 
@@ -74,7 +74,7 @@ You will be directed to an interactive QGIS session, create a new project by cli
 
 ![Fig4](img/Fig4.jpg)
 
-### Modify user inputs and run the python script
+##### Modify user inputs and run the python script
 
 A python script called [IM_Extract](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QGIS/IM_Extract){target=_blank} is provided to extract the desired IMs at specific locations. Follow these steps to use this code:
 
@@ -101,17 +101,17 @@ path= r"/home/ubuntu/mydata/**name of your folder**"
 If desired, you can change the interpolation method *(line 75 of the script)* and the cell size used for the interpolation *(line 22 of the script)*:
 
 ``` python
-# Line 22
+### Line 22
     # 2. Change cell size (defalt is 0.001)
     cell_size = 0.001
-# Line 75
+### Line 75
     # Interpolation method
       alg = "qgis:tininterpolation"
 ```
 
 Once you finish the modifications, click *Run Script*.
 
-## Visualization of the outputs
+#### Visualization of the outputs
 
 Once the script finish running, the time taken to run the script will appear in the python console and the layers created in the analysis will be displayed in the *Layers* section (left-bottom window) in QGIS:
 
