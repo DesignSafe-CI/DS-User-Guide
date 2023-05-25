@@ -35,10 +35,7 @@ nav:
       - Recon Portal Guide: tools/recon.md
 
   - Tools and Apps:
-    - Jupyter Hub:
-      - Jupyter Guide: tools/jupyterhub/jupyterhub.md
-      - Example Notebooks: tools/jupyterhub/examplenotebooks.md
-      - Publishing Notebooks: tools/jupyterhub/publishingnotebooks.md
+    - Jupyter Hub: jupyterhub.md
     - Simulation Applications:
       - Overview: tools/simulation/overview.md
       - ADCIRC: tools/simulation/adcirc.md

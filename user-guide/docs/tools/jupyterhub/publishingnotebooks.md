@@ -1,4 +1,4 @@
-# Publishing Notebooks
+## Publishing Notebooks
 
 More and more researchers are publishing projects that contain Jupyter Notebooks as part of their data. They can be used to provide sample queries on the published data as well as providing digital data reports.
 

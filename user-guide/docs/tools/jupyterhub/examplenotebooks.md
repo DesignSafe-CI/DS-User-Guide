@@ -1,6 +1,6 @@
-# Example Notebooks
+## Example Notebooks
 
-## Examples of Jupyter Notebooks Available via DesignSafe
+### Examples of Jupyter Notebooks Available via DesignSafe
 
 <ol>
 	<li dir="ltr">
@@ -110,7 +110,7 @@
 	</li>
 </ol>
 
-## Jupyter Notebooks for Civil Engineering Courses
+### Jupyter Notebooks for Civil Engineering Courses
 
 <ol>
 	<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Oregon%20State%20Univ%20_%20Structural%20Analysis">Oregon State Univ_Structural Analysis</a></li>
