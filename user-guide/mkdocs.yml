@@ -74,16 +74,19 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    - Arduino: usecases/arduino/usecase.md
-    - Brandenberg: usecases/brandenberg/usecase.md
-    - Dawson: usecases/dawson/usecase.md
-    - Haan: usecases/haan/usecase.md
-    - Kareem: usecases/kareem/usecase.md
-    - Kumar: usecases/kumar/usecase.md
-    - Lowes: usecases/lowes/usecase.md
-    - Mosqueda: usecases/mosqueda/usecase.md
-    - Padgett: usecases//brandenbergdgettusecase.md
-    - Pinelli: usecases/pinelli/usecase.md
-    - Rathje: usecases/rathje/usecase.md
-    - Usgs_api: usecases/USGS/usecase.md
-    - Vantassel &amp; zhang: usecases/vantassel-zhang/usecase.md
+    - Use Cases Products: usecases/index.md
+    - Taggit - Image Tagging: usecases/haan/usecase.md
+    - ML and AI: usecases/vantassel_and_zhang/usecase.md
+    - NGL Database: usecases/brandenberg/usecase.md
+    - MPM Landslide: usecases/kumar/usecase.md
+    - Large-Scale Storm Surge: usecases/dawson/usecase.md
+    - Creating an ADCIRC dataset: usecases/dawson/usecase2.md
+    - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
+    - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
+    - Field Sensing Wind Events: usecases/pinelli/usecase.md
+    - OpenSees Model Calibration: usecases/arduino/usecase.md
+    - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
+    - Soil Structure Interaction: usecases/rathje/usecase.md
+    - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
+    - Application Programming Interfaces: usecases/brandenberg/apiusecases/usecase.md
+
