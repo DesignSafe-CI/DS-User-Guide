@@ -1,10 +1,10 @@
-# FigureGen User Guide
+## FigureGen User Guide
 
 FigureGen is a Fortran program that creates images for ADCIRC files. It reads mesh files (fort.14, etc.), nodal attributes files (fort.13, etc.) and output files (fort.63, fort.64, maxele.63, etc.). It plots contours, contour lines, and vectors. Using FigureGen, you can go directly from the ADCIRC input and output files to a presentation-quality figure, for one or multiple time snaps. In contrast to the other Visualization Applications in the Workspace, FigureGen is not an interactive but rather it submits a batch job and output files are returned to the user.
 
 More detailed information and FigureGen user documentation can be found on the <a href="https://ccht.ccee.ncsu.edu/figuregen-v-49/" title="FigureGen Website" target="_blank">FigureGen website</a>.
 
-## How to Submit a FigureGen Job in the Workspace
+### How to Submit a FigureGen Job in the Workspace
 
 <ul>
 <li>Select the FigureGen application from the Visualization tab in the Workspace.</li>

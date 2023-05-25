@@ -37,17 +37,7 @@ nav:
   - Tools and Apps:
     - Jupyter Hub: tools/jupyterhub.md
     - Simulation Applications: tools/simulation.md
-    - Visualization Applications:
-      - Overview: tools/visualization/overview.md
-      - FigureGen: tools/visualization/figuregen.md
-      - Hazmapper: tools/visualization/hazmapper.md
-      - Kalpana: tools/visualization/kalpana.md
-      - Paraview: tools/visualization/paraview.md
-      - Potree Converter: tools/visualization/potree-converter.md
-      - Potree Viewer: tools/visualization/potree-viewer.md
-      - QGIS: tools/visualization/qgis.md
-      - STKO: tools/visualization/stko.md
-      - VisIt: tools/visualization/visit.md
+    - Visualization Applications: tools/visualization.md
     - Analysis Applications:
        - Overview: analysis/overview.md
        - HVSRweb: analysis/hvsrweb.md
