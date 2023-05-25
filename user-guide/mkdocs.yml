@@ -39,9 +39,7 @@ nav:
     - Simulation Applications: tools/simulation.md
     - Visualization Applications: tools/visualization.md
     - Analysis Applications: analysis.md
-    - Hazard Apps & Utilities:
-      - Hazard Applications: tools/hazard.md
-      - Utilities: tools/utilities.md
+    - Hazard Apps & Utilities: tools/hazard_utils.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
