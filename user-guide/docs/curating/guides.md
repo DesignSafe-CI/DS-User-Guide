@@ -1,5 +1,3 @@
-# Curation &amp; Publication User Guides
-
 Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information on Data Depot policies, project types, and curation/publication can be found at:
 
 * <a href="../policies/">Data Depot Repository (DDR) Policies</a></li>
@@ -7,10 +5,10 @@ Below are step-by-step guides on how to create projects in the Data Depot, and c
 * <a href="../faq">Curation &amp; Publication FAQs</a>.</li>
 
 ---
-## [Experimental](#experimental)
+### [Experimental](#experimental)
 
 ---
-### [1. Add a Project](#step1) { #experimental-step1 }
+#### [1. Add a Project](#step1) { #experimental-step1 }
     
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
@@ -30,7 +28,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 
 ---
-### [2. Add an Experiment](#step2) { #step2 }
+#### [2. Add an Experiment](#step2) { #step2 }
 
 To begin curation and add an experiment, click on the <strong>Curation Directory</strong> and select <strong>Experimental</strong> as your Project Type.
 
@@ -52,7 +50,7 @@ Click <strong>+</strong> <strong>Add Experiment</strong> when you are done and i
 You can edit an experiment from the inventory.
 
 ---
-### [3. Add Categories](#step3) { #step3 }
+#### [3. Add Categories](#step3) { #step3 }
 
     
 Click <strong>Add Categories</strong> to begin.
@@ -74,7 +72,7 @@ Categories group files together based on a shared purpose in an experiment. Be s
 After filling out the fields, click <strong>+ Add Category</strong> and it will appear below in your inventory. If you make any mistakes, expand the category and click <strong>Edit</strong>.
 
 ---
-### [4. Relate Data](#step4) { #step4 }
+#### [4. Relate Data](#step4) { #step4 }
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -85,7 +83,7 @@ Relating Data allows you to relate categories to each other and to an experiment
 When published, this diagram will help others understand the structure of your experiment at a glance.
 
 ---
-### [5. Assign Categories to Files](#step5) { #step5 }
+#### [5. Assign Categories to Files](#step5) { #step5 }
 
 
 <img src="../imgs/guide-experimental-5a.png">
@@ -101,7 +99,7 @@ Click <strong>Remove</strong> if you make any mistakes.
 <img src="../imgs/guide-experimental-5b.png">
 
 ---
-### [6. Tag Files](#step6) { #step6 }
+#### [6. Tag Files](#step6) { #step6 }
 
 <img src="../imgs/guide-experimental-6.png">
 
@@ -114,7 +112,7 @@ These tags are optional, but recommended.
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
 ---
-### [7. Publication Preview](#step7) { #step7 }
+#### [7. Publication Preview](#step7) { #step7 }
 
 <img src="../imgs/guide-experimental-7a.png">
     
@@ -125,7 +123,7 @@ All of the curation work is done in the Curation Directory, while the Publicatio
 Look through the Publication Preview early and often to catch any mistakes. If you are working collaboratively with others, this is a good way to proofread changes they make.
 
 ---
-### [8. Prepare to Publish](#step8) { #step8 }
+#### [8. Prepare to Publish](#step8) { #step8 }
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 
@@ -144,10 +142,10 @@ In <strong>Licenses</strong>, select one or more licenses that best fit your dat
 
 Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agreement to publish your work.
 
-## [Simulation](#simulation) { #simulation }
+### [Simulation](#simulation) { #simulation }
 
 ---
-### [1. Add a Project](#simulation-step1) { #simulation-step1 }
+#### [1. Add a Project](#simulation-step1) { #simulation-step1 }
 
 You can start a project at the very beginning of its lifespan, upload and curate data incrementally, then publish sets of data at your convenience.
 
@@ -166,7 +164,7 @@ You can edit all these fields later if you make any mistakes.
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
 ---
-### [2. Add a Simulation](#simulation-step2) { #simulation-step2 }
+#### [2. Add a Simulation](#simulation-step2) { #simulation-step2 }
     
 To begin curation and add a simulation, click on the <strong>Curation Directory</strong> and select <b>Simulation</b> as your Project Type.
 
@@ -187,7 +185,7 @@ Click <strong>+</strong> <strong>Add Simulation</strong> when you are done and i
 You can edit a simulation from the inventory.
 
 ---
-### [3. Add Categories](#simulation-step3) { #simulation-step3 }
+#### [3. Add Categories](#simulation-step3) { #simulation-step3 }
 
     
 Click <strong>Add Categories</strong> to begin.
@@ -209,7 +207,7 @@ Categories group files together based on a shared purpose in a simulation. Be su
 After filling out the fields, click <strong>+ Add Category</strong> and it will appear below in your inventory. If you make any mistakes, expand the category and click <strong>Edit</strong>.
 
 ---
-### [4. Relate Data](#simulation-step4) { #simulation-step4 }
+#### [4. Relate Data](#simulation-step4) { #simulation-step4 }
 
 
     
@@ -222,7 +220,7 @@ Relating Data allows you to relate categories to each other and to an simulation
 When published, this diagram will help others understand the structure of your simulation at a glance.
 
 ---
-### [5. Assign Categories to Files](#simulation-step5) { #simulation-step5 }
+#### [5. Assign Categories to Files](#simulation-step5) { #simulation-step5 }
 
 As you create categories, they will appear in a dropdown by each file. This allows you to group files in each category. Click <strong>Save</strong> to confirm the category.
 
@@ -235,7 +233,7 @@ A file can belong to one or more categories.
 Click <strong>Remove</strong> if you make any mistakes.
 
 ---
-### [6. Tag Files](#simulation-step6) { #simulation-step6 }
+#### [6. Tag Files](#simulation-step6) { #simulation-step6 }
 
 
 After putting files in categories, dropdowns will appear to allow you to tag specific files. 
@@ -249,7 +247,7 @@ These tags are optional, but recommended.
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
 ---
-### [7. Publication Preview](#simulation-step7) { #simulation-step7 }
+#### [7. Publication Preview](#simulation-step7) { #simulation-step7 }
 
 All of the curation work is done in the Curation Directory, while the Publication Preview lets you examine the layout of your publication to give you a peace of mind about how your work will appear to other researchers once published.
     
@@ -260,7 +258,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 <img src="../imgs/guide-simulation-7b.png">
 
 ---
-### [8. Prepare to Publish](#simulation-step8) { #simulation-step8 }
+#### [8. Prepare to Publish](#simulation-step8) { #simulation-step8 }
 
 <img src="../imgs/guide-simulation-8a.png">
     
@@ -281,16 +279,16 @@ In <strong>Licenses</strong>, select one or more licenses that best fit your dat
 
 Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agreement to publish your work.
 
-## [Hybrid Simulation](#hybrid) { #hybrid }
+### [Hybrid Simulation](#hybrid) { #hybrid }
 
 <b>Hybrid Simulation User Guide in progress.</b>
 
-## [Field Research](#fieldresearch) { #fieldresearch }
+### [Field Research](#fieldresearch) { #fieldresearch }
 
 <b><i>Field Research User Guide is in progress.</i></b>
 
 ---
-### [1. Add a Project](#fieldresearch-step1) { #fieldresearch-step1 } 
+#### [1. Add a Project](#fieldresearch-step1) { #fieldresearch-step1 } 
 
 <img src="../imgs/guide-allguides-1a.jpg">
     
@@ -309,7 +307,7 @@ You can edit all these fields later.
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
 ---
-### [2. Add a Mission](#fieldresearch-step2) { #fieldresearch-step2 } 
+#### [2. Add a Mission](#fieldresearch-step2) { #fieldresearch-step2 } 
 
 To begin curation, click on the <strong>Curation Directory</strong> and select <strong>Field Research</strong> as your Project Type.
 
@@ -338,7 +336,7 @@ You can edit a mission from the mission inventory.
 <a name="step4d"> </a>
 
 ---
-### [3. Add Collections](#fieldresearch-step3) { #fieldresearch-step3 } 
+#### [3. Add Collections](#fieldresearch-step3) { #fieldresearch-step3 } 
 
 Click <strong>Add Collections</strong> to begin.
 
@@ -364,7 +362,7 @@ After filling out the fields, click <strong>+ Add Collection</strong> and it wil
     
 
 ---
-### [4. Relate Data](#fieldresearch-step4) { #fieldresearch-step4 } 
+#### [4. Relate Data](#fieldresearch-step4) { #fieldresearch-step4 } 
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -377,7 +375,7 @@ When published, this diagram will help others understand the structure of your F
 <img src="../imgs/guide-fieldresearch-4.png">
     
 ---
-### [5. Assign Collections to Files](#fieldresearch-step5) { #fieldresearch-step5 } 
+#### [5. Assign Collections to Files](#fieldresearch-step5) { #fieldresearch-step5 } 
 
 As you create collections, they will appear in a dropdown next to each file. This allows you select collections for any file in your project and group them under each collection. Click <strong>Save</strong> to confirm the collection.
 
@@ -395,7 +393,7 @@ Click <strong>Remove</strong> if you make any mistakes.
     
 
 ---
-### [6. Tag Files](#fieldresearch-step6) { #fieldresearch-step6 } 
+#### [6. Tag Files](#fieldresearch-step6) { #fieldresearch-step6 } 
 
 After putting files in collections, dropdowns will appear to allow you to tag/describe unique files. 
 
@@ -410,7 +408,7 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
     
 
 ---
-### [7. Publication Preview](#fieldresearch-step7) { #fieldresearch-step7 } 
+#### [7. Publication Preview](#fieldresearch-step7) { #fieldresearch-step7 } 
 
 All of the curation work is done in the Curation Directory. The Publication Preview lets you examine the layout of your publication so you can visualize/verify how your work will appear once published.
 
@@ -424,7 +422,7 @@ Look through the Publication Preview early and often to make changes or catch mi
     
 
 ---
-### [8. Prepare to Publish](#fieldresearch-step8) { #fieldresearch-step8 } 
+#### [8. Prepare to Publish](#fieldresearch-step8) { #fieldresearch-step8 } 
 
 When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
 
@@ -447,10 +445,10 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 <img src="../imgs/guide-fieldresearch-8.jpg">
     
     
-## [Other](#other)
+### [Other](#other)
 
 ---
-### [1. Add a Project](#other-step1) { #other-step1 }
+#### [1. Add a Project](#other-step1) { #other-step1 }
 
 To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.  
 
@@ -468,7 +466,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 
 ---
-### [2. Begin Curation](#other-step2) { #other-step2 }
+#### [2. Begin Curation](#other-step2) { #other-step2 }
     
 To begin curating and tagging your files, click on the <strong>Curation Directory</strong> and select <b>Other</b> as your Project Type.
 
@@ -479,7 +477,7 @@ Fill out additional required fields in the <strong>Edit Project</strong> window,
 <img src="../imgs/guide-other-step2b.png">
 
 ---
-### [3. Tag Files](#other-step3) { #other-step3 }
+#### [3. Tag Files](#other-step3) { #other-step3 }
     
 Dropdowns will appear by each file to allow you to tag specific files. 
 
@@ -490,7 +488,7 @@ These tags are optional, but recommended. The help other users understand your d
 If you do not see a file tag that fits, you can select <strong>Other</strong> and write in your own.
 
 ---
-### [4. Prepare to Publish](#other-step4) { #other-step4 }
+#### [4. Prepare to Publish](#other-step4) { #other-step4 }
 
     
 When you are satisfied with your work and wish to publish it and recieve a DOI, click Prepare to Publish in the Publication Preview.

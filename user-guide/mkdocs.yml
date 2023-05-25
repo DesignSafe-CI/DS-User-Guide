@@ -6,7 +6,7 @@ plugins:
 
 theme:
     name: readthedocs
-    navigation_depth: 2
+    navigation_depth: 3
     collapse_navigation: false
     highlightjs: true
     features:
@@ -30,19 +30,7 @@ markdown_extensions:
 nav:
   - Data Depot:
     - Managing Data: managingdata.md
-    - Curating &amp; Publishing Projects:
-      - Curation &amp; Publication Guides: curating/guides.md
-      - Best Practices: curating/bestpractices.md
-      - Data Depot/Curation Office Hours: curating/officehours.md
-      - Metrics Documentation: curating/metrics.md
-      - Curation &amp; Publication FAQ: curating/faq.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries:
-        - Experimental: dictionary/experimental.md
-        - Simulation: dictionary/simulation.md
-        - Hybrid: dictionary/hybrid.md
-        - Field: dictionary/field.md
-        - Other: dictionary/other.md
+    - Curating &amp; Publishing Projects: curating.md
     - Recon Portal:
       - Recon Portal Guide: tools/recon.md
 
