@@ -31,8 +31,7 @@ nav:
   - Data Depot:
     - Managing Data: managingdata.md
     - Curating &amp; Publishing Projects: curating.md
-    - Recon Portal:
-      - Recon Portal Guide: tools/recon.md
+    - Recon Portal: recon.md
 
   - Tools and Apps:
     - Jupyter Hub: tools/jupyterhub.md
