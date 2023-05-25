@@ -38,11 +38,7 @@ nav:
     - Jupyter Hub: tools/jupyterhub.md
     - Simulation Applications: tools/simulation.md
     - Visualization Applications: tools/visualization.md
-    - Analysis Applications:
-       - Overview: analysis/overview.md
-       - HVSRweb: analysis/hvsrweb.md
-       - MATLAB: analysis/matlab.md
-       - SWbatch: analysis/swbatch.md
+    - Analysis Applications: analysis.md
     - Hazard Apps & Utilities:
       - Hazard Applications: tools/hazard.md
       - Utilities: tools/utilities.md
