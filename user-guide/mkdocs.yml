@@ -35,7 +35,7 @@ nav:
       - Recon Portal Guide: tools/recon.md
 
   - Tools and Apps:
-    - Jupyter Hub: jupyterhub.md
+    - Jupyter Hub: tools/jupyterhub.md
     - Simulation Applications:
       - Overview: tools/simulation/overview.md
       - ADCIRC: tools/simulation/adcirc.md
