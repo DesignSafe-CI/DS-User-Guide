@@ -9,11 +9,11 @@ SRC =   \
 	padgett/usecase.md \
 	kareem/usecase.md \
 	pinelli/usecase.md \
-	arduino/usecase.md 
-#	lowes/usecase.md \
-#	rathje/usecase.md \
-#	mosqueda/usecase.md \
-#	brandenberg/apiusecases/usecase.md
+	arduino/usecase.md \
+	lowes/usecase.md  \
+	rathje/usecase.md \
+	mosqueda/usecase.md \
+	brandenberg/apiusecases/usecase.md
 
 
 usecases:	$(SRC) 

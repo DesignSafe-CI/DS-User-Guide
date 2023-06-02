@@ -1,4 +1,6 @@
-## From Constitutive Parameter Calibration to Site Response Analysis { #arduino }
+## OpenSees Model Calibration { #arduino }
+
+**From Constitutive Parameter Calibration to Site Response Analysis**
 
 **Pedro Arduino - University of Washington**
 

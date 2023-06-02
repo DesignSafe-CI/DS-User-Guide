@@ -28,5 +28,6 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#lowes) (OpenSees, Jupyter, HPC)
 * [**Soil-Structure-Interaction Simulations**](#rathje) (OpenSees, STKO, Jupyter, HPC)
 * [**Experimental Visualization of Shaking Table Data**](#mosqueda) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
-* [**Application Programming Interfaces**](brandenberg/apiusecases/usecase.md) (Jupyter, API, requests)
+* [**Application Programming Interfaces**](#apiusecases) (Jupyter, API, requests)
+
 ---

@@ -1,4 +1,6 @@
-## Modeling Reinforced Concrete Walls with Shell Elements to Simulate Through Opensees and Using Jupyter to Post Process Results { #lowes }
+## Seismic Response of Concrete Walls { #lowes }
+
+**Modeling Reinforced Concrete Walls with Shell Elements to Simulate Through Opensees and Using Jupyter to Post Process Results**
 
 **Josh Stokley and Laura Lowes - University of Washington**  
 
