@@ -1,4 +1,4 @@
-### From Constitutive Parameter Calibration to Site Response Analysis
+## From Constitutive Parameter Calibration to Site Response Analysis { #arduino }
 
 **Pedro Arduino - University of Washington**
 
@@ -7,8 +7,8 @@ A collection of educational notebooks to introduce model parameter calibration a
 [Simulation on DS - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){target=_blank}<br/>
 [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
 
-#### Background 
-##### Citation and Licensing
+### Background 
+#### Citation and Licensing
 
 * Please cite [Chen, L. et al. (2021)](https://peer.berkeley.edu/sites/default/files/2021_chen_final.pdf){target=_blank} to acknowledge the use of resources from this use case.
 
@@ -16,11 +16,11 @@ A collection of educational notebooks to introduce model parameter calibration a
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
 
-#### Description
+### Description
 Site response analysis for liquefiable soils is fundamental in the estimation of demands on civil infrastructure including buildings and lifelines. Current state of the art in numerical methods in geotechnical engineering require the use of advance constitutive models and fully couple nonlinear finite element (FEM) tools. Advanced constitutive models require calibration of material parameters based on experimental tests. These parameters include uncertainties that in turn propagate to uncertenties in the estimation of demands. The products included in this use-case provide simple examples showing how to achieve site response analysis including parameter identification and uncertainty quantification using SimCenter tools and the DesignSafe cyber infrastructure.
 
 <p align="center">
-<img src="../img/SRschematic2.PNG" alt="Propagation of vertical waves in site response analysis" width="600"/>
+<img src="./imgs/arduino/SRschematic2.PNG" alt="Propagation of vertical waves in site response analysis" width="600"/>
 </p>
 <p align="center"> <b>Fig.1 - Site response problem</b> </p>
     
@@ -35,7 +35,7 @@ This document presents a suite of Jupyter Notebooks published in DesignSafe that
 This first version of this use-case page includes details on the site response workflow notebook. The parameter calibration and propagation of uncertainties notebooks will be updated in a second version.
 
 
-#### Site response workflow notebook
+### Site response workflow notebook
 The *site response workflow notebook* introduces typical steps used in the evaluation of the surface response for a site with liquefiable soil.
 The notebook takes advantage of the site response problem to introduce a general numerical analysis workflow shown in Figure 2 that includes: 
 
@@ -45,7 +45,7 @@ The notebook takes advantage of the site response problem to introduce a general
 4. Creating animated plots using visualization widgets. 
 
 <p align="center">
-<img src="../img/DSworkflow.png" alt=" OpenSees numericla simulation workflow" width="200"/>
+<img src="./imgs/arduino/DSworkflow.png" alt=" OpenSees numericla simulation workflow" width="200"/>
 </p>
 <p align="center"> <b>Fig.2 - OpenSees numerical simulation workflow</b> </p>
 
@@ -53,7 +53,7 @@ The notebook takes advantage of the site response problem to introduce a general
 The soil profile shown in Figure 3 includes a 5.0m loose sand underlain by a 1.0 m dense soil.The loose sand is modeled using the PM4Sand constitutive model for liquefiable soils available in OpenSees. The dense sand is considered linear elastic. The groundwter table is assumed at 2.0 m making the lower 3.0 m of the loose sand susceptible to liquefaction. The soil profile is subject to a dynamic excitation at its base. The site response of interest includes (i) the surface acceleration, (ii) profiles of lateral displacement, horizontal acceleration, maximum shear strain, and cyclic stress ratio and (iii) stress strain and pore pressure plots for a point in the middle of the soil profile.  The opensees model definition, analysis steps, and recorders are contained in the [N10_T3.tcl](FreeField-JupyterNB/N10_T3.tcl) file, and the input signal is in [velocity.input](FreeField-JupyterNB/velocity.input). The model can be run using OpenSees in any OS framework.
 
 <p align="center">
-<img src="../img/SPschematic.png" alt="N10_T3 soil profile with liquefiable layer" width="200"/>
+<img src="./imgs/arduino/SPschematic.png" alt="N10_T3 soil profile with liquefiable layer" width="200"/>
 </p>
 <p align="center"> <b>Fig.3 - N10_T3 soil profile with liquefiable layer</b> </p>
 
@@ -72,11 +72,11 @@ The notebook can be broken down into four main components:
 It is emphasize that the main motivation of this notebook is to take advantage of DesignSafe resources. 
 Therefore, relevant details for each component as it pertains to access to DesignSafe-CI resources are described here.
 
-##### Setup tapis/agave app and run OpenSees job
+#### Setup tapis/agave app and run OpenSees job
 
 The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP. 
 
-###### Setup job description
+##### Setup job description
 
 A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (opensees), version (current), and opensees input file to run. For the site response case the *OpenseesSp-3.3.0u1* app is selected. The main steps required to setup an agave job are: 
 
@@ -136,7 +136,7 @@ job_description["inputs"]     = inputs
 job_description["parameters"] = parameters
 ```
 
-###### Run OpenSees Job
+##### Run OpenSees Job
 
 Submitting a job using DesignSafe HPC resources requires the use of agave job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  When submitting a job, agave copies all the files present in the input folder to a temporary location that is used during execution. After completion agave copies all the results to an archived folder. 
 
@@ -153,11 +153,11 @@ while status != "FINISHED":
     time.sleep(60)
 ```    
 
-##### Postprocess Results
+#### Postprocess Results
 
 Postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose. 
 
-###### Identify job, archived location and user
+##### Identify job, archived location and user
 
 ``` python
 jobinfo = ag.jobs.get(jobId=job.id)
@@ -172,7 +172,7 @@ if not os.path.exists(cur_dir_name):
     os.makedirs(cur_dir_name)
 os.chdir(cur_dir_name)    
 ```
-###### Plot Results
+##### Plot Results
 
 Once in the archived folder (cur_dir_name), postprocessing can be done using python scripts that operate on output files. For the particualar case of the site response analysis used in this notebook three scripts are used to evaluate:
 1. surface acceleration time history and its response spectrum, 
@@ -188,8 +188,8 @@ plot_acc()
 ```
 
 <p align="center">
-<img src="../img/surfaceAccel.png" alt="Surface acceleration" width="300"/>
-<img src="../img/logSpectra.png" alt="Response spectrum" width="300"/>
+<img src="./imgs/arduino/surfaceAccel.png" alt="Surface acceleration" width="300"/>
+<img src="./imgs/arduino/logSpectra.png" alt="Response spectrum" width="300"/>
 </p>
 <p align="center"> <b>Fig.4 - Surface acceleratio and response spectrum</b> </p>
 
@@ -201,7 +201,7 @@ plot_profile()
 ```
 
 <p align="center">
-<img src="../img/profilePlot.png" alt="Profiles" width="600"/>
+<img src="./imgs/arduino/profilePlot.png" alt="Profiles" width="600"/>
 </p>
 <p align="center"> <b>Fig.5 - Profiles of max displacement, PHA, Max shear strain and cyclic stress ratio</b> </p>
 
@@ -212,13 +212,13 @@ plot_porepressure()
 ```
 
 <p align="center">
-<img src="../img/stressstrain.png" alt="Stress strain" width="300"/>
-<img src="../img/porePressure.png" alt="Pore pressure" width="300"/>
+<img src="./imgs/arduino/stressstrain.png" alt="Stress strain" width="300"/>
+<img src="./imgs/arduino/porePressure.png" alt="Pore pressure" width="300"/>
 </p>
 <p align="center"> <b>Fig.6 - stress strain and pore pressure in the middle of liquefiable layer</b> </p>
 
 
-###### Generate report 
+##### Generate report 
 
 Generating a summary report is a convenient way to present results from lengthy simulations prcesses. In jupyter this can be done invoking any posprocessor available in the docker container image. Among them rst2pdf is commonly distributed with python. For the site response notebook a simple ShortReport.rst file is included that collects the results and plots generated in a simple pdf file. The python code shown below, exemplifies this process and include:
 1. Running rst2pdf on [ShortReport.rst](FreeField-JupyterNB/ShortReport.rst)
@@ -253,29 +253,29 @@ class PDF(object):
     return r'\includegraphics[width=1.0\textwidth]{{{0}}}'.format(self.pdf)
 ```
 
-###### Create Interactive Plots
+##### Create Interactive Plots
 
 Finally, jupyter notebooks offer flexibility to invoke GUI widgets that can help present results in a dynamic and interactive manner. The python scripts shown below create interactive plots for pore water pressure and soil profile lateral displacements. The horizontal bars allow users interrogate each plot for results at any particular time. Complete pyhon scripts are included in the [interactiveplot.py](FreeField-JupyterNB/interactiveplot.py) available in community.   
 
-###### Pore water pressure
+##### Pore water pressure
 
 ``` python
 from interactiveplot import createpwpplot, createDispplot
 createpwpplot()
 ```
 <p align="center">
-<img src="../img/widget-1.PNG" alt="Pore pressure interatvie plot" width="400"/>
+<img src="./imgs/arduino/widget-1.PNG" alt="Pore pressure interatvie plot" width="400"/>
 </p>
 <p align="center"> <b>Fig.7 - Pore pressure interactive plot</b> </p>
 
-###### Displacement
+##### Displacement
 
 ``` python
 createDispplot()
 ```
 
 <p align="center">
-<img src="../img/widget-2.PNG" alt="Displacement profile interatvie plot" width="400"/>
+<img src="./imgs/arduino/widget-2.PNG" alt="Displacement profile interatvie plot" width="400"/>
 </p>
 <p align="center"> <b>Fig.8 - Displacement proficle interactive plot</b> </p>
 
