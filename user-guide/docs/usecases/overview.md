@@ -26,4 +26,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Simulating the Seismic Performance of Reinforced Concrete Walls**](lowes/usecase.md) (OpenSees, Jupyter, HPC)
 * [**Soil-Structure-Interaction Simulations**](rathje/usecase.md) (OpenSees, STKO, Jupyter, HPC)
 * [**Experimental Visualization of Shaking Table Data**](mosqueda/usecase.md) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
+<!-- NOTE: the file is disabled until it does not freeze build -->
+<!--
 * [**Application Programming Interfaces**](brandenberg/apiusecases/usecase.md) (Jupyter, API, requests)
+-->

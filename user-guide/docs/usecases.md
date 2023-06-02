@@ -54,6 +54,9 @@
 
 {% include-markdown 'usecases/mosqueda/usecase.md' %}
 
+<!-- NOTE: the file is disabled until it does not freeze build -->
+<!--
 ## Application Programming Interfaces
 
 {% include-markdown 'usecases/brandenberg/apiusecases/usecase.md' %}
+-->
