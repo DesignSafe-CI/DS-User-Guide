@@ -1,3 +1,3 @@
 # Recon Portal
 
---8<-- "tools/recon.md"
+{% include-markdown 'tools/recon.md' %}

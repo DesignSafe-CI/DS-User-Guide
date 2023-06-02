@@ -1,19 +1,19 @@
 ### Experimental
 
---8<-- "dictionary/experimental.md"
+{% include-markdown 'dictionary/experimental.md' %}
 
 ### Simulation
 
---8<-- "dictionary/simulation.md"
+{% include-markdown 'dictionary/simulation.md' %}
 
 ### Hybrid
 
---8<-- "dictionary/hybrid.md"
+{% include-markdown 'dictionary/hybrid.md' %}
 
 ### Field
 
---8<-- "dictionary/field.md"
+{% include-markdown 'dictionary/field.md' %}
 
 ### Other
 
---8<-- "dictionary/other.md"
+{% include-markdown 'dictionary/other.md' %}

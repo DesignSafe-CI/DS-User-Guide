@@ -1,9 +1,9 @@
 # Analysis
 
---8<-- "analysis/overview.md"
+{% include-markdown 'analysis/overview.md' %}
 
---8<-- "analysis/hvsrweb.md"
+{% include-markdown 'analysis/hvsrweb.md' %}
 
---8<-- "analysis/matlab.md"
+{% include-markdown 'analysis/matlab.md' %}
 
---8<-- "analysis/swbatch.md"
+{% include-markdown 'analysis/swbatch.md' %}

@@ -1,15 +1,15 @@
 # Simulation
 
---8<-- "tools/simulation/overview.md"
+{% include-markdown 'tools/simulation/overview.md' %}
 
---8<-- "tools/simulation/adcirc.md"
+{% include-markdown 'tools/simulation/adcirc.md' %}
 
---8<-- "tools/simulation/clawpack.md"
+{% include-markdown 'tools/simulation/clawpack.md' %}
 
---8<-- "tools/simulation/dakota.md"
+{% include-markdown 'tools/simulation/dakota.md' %}
 
---8<-- "tools/simulation/lsdyna.md"
+{% include-markdown 'tools/simulation/lsdyna.md' %}
 
---8<-- "tools/simulation/openfoam.md"
+{% include-markdown 'tools/simulation/openfoam.md' %}
 
---8<-- "tools/simulation/opensees.md"
+{% include-markdown 'tools/simulation/opensees.md' %}

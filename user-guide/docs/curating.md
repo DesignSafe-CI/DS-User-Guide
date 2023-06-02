@@ -2,28 +2,28 @@
 
 ## Curation &amp; Publication Guides
 
---8<-- "curating/guides.md"
+{% include-markdown 'curating/guides.md' %}
 
 ## Best Practices
 
---8<-- "curating/bestpractices.md"
+{% include-markdown 'curating/bestpractices.md' %}
 
 ## Data Depot/Curation Office Hours
 
---8<-- "curating/officehours.md"
+{% include-markdown 'curating/officehours.md' %}
 
 ## Metrics Documentation
 
---8<-- "curating/metrics.md"
+{% include-markdown 'curating/metrics.md' %}
 
 ## Curation &amp; Publication FAQ
 
---8<-- "curating/faq.md"
+{% include-markdown 'curating/faq.md' %}
 
 ## Policies
 
---8<-- "curating/policies.md"
+{% include-markdown 'curating/policies.md' %}
 
 ## Metadata Dictionaries
 
---8<-- "dictionary.md"
+{% include-markdown 'dictionary.md' %}

@@ -1,5 +1,5 @@
 # Hazard Apps & Utilities
 
---8<-- "tools/hazard.md"
+{% include-markdown 'tools/hazard.md' %}
 
---8<-- "tools/utilities.md"
+{% include-markdown 'tools/utilities.md' %}
