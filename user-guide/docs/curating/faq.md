@@ -1,5 +1,3 @@
-## Curation &amp; Publication FAQ
-
 ### [Selecting Files & Data](#selecting) { #selecting }
 
 **Q: What are the best file formats for data publications?**  

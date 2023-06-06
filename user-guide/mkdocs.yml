@@ -33,14 +33,7 @@ markdown_extensions:
 nav:
   - Data Depot:
     - Managing Data: managingdata.md
-    - Curating &amp; Publishing Projects:
-      - Curation &amp; Publication Guides: curating/guides.md
-      - Best Practices: curating/bestpractices.md
-      - Data Depot/Curation Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Metrics Documentation: curating/metrics.md
-      - Curation &amp; Publication FAQ: curating/faq.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
+    - Curating &amp; Publishing Projects: curating.md
     - Recon Portal: recon.md
 
   - Tools and Apps:

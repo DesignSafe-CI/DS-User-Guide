@@ -1,5 +1,3 @@
-## Data Depot/Curation Office Hours
-
 ### NHERI Virtual Office Hours
 
 Virtual Office hours is the newest way to connect with experts in the NHERI network. Using the links below, schedule a time to meet with facility personnel to answer your questions. If you don’t see the facility you are interested in, email us at <a href="mailto:eco-feedback@designsafe-ci.org" target="_blank">eco-feedback@designsafe-ci.org</a>.
