@@ -6,12 +6,8 @@ $('.wy-menu-vertical li:has(li)').each(function() {
 });
 
 /* To change specific internal links to external links */
-[
-  {
-    oldHref: 'data-depotcuration-office-hours',
-    newHref: 'https://www.designsafe-ci.org/facilities/virtual-office-hours/'
-  }
-].forEach( dict => {
+/* FAQ: The array should be an array of dictionaries of oldHref and newHref */
+(window.DS_NAVIGATION_REDIRECTS || []).forEach( dict => {
   const link = document.querySelector('[href*="' + dict.oldHref + '"]');
   const subnav = link.parentNode.getElementsByTagName('ul')[ 0 ];
 

@@ -13,6 +13,9 @@ theme:
     highlightjs: true
     features:
       - navigation.top
+    ds_navigation_redirects:
+      - before: '#data-depotcuration-office-hours'
+        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
 
 extra_css:
     - css/ds-docs.css
