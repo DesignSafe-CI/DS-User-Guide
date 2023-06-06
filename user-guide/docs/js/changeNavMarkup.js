@@ -5,8 +5,25 @@ $('.wy-menu-vertical li:has(li)').each(function() {
   this.classList.add('has-list');
 });
 
+/* To change specific internal links to external links */
+[
+  {
+    oldHref: 'data-depotcuration-office-hours',
+    newHref: 'https://www.designsafe-ci.org/facilities/virtual-office-hours/'
+  }
+].forEach( dict => {
+  const link = document.querySelector('[href*="' + dict.oldHref + '"]');
+  const subnav = link.parentNode.getElementsByTagName('ul')[ 0 ];
+
+  subnav.remove();
+  link.href = dict.newHref;
+});
+
 /* To add icon to nav items that are external links */
-document.querySelectorAll('.wy-menu-vertical a:not(.internal)').forEach( a => {
+document.querySelectorAll(`
+  .wy-menu-vertical a:not(.internal),
+  .wy-menu-vertical a[href^="http"]
+`).forEach( a => {
   const icon = document.createElement('i');
 
   icon.classList.add('fa', 'fa-external-link');
