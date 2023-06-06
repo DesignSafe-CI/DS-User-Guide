@@ -13,9 +13,13 @@
     background: none;
     padding: 0;
 }
-.wy-menu-vertical a:hover i.fa-external-link {
-    color: #d9d9d9;
-}
+
+/* To color external link icons like expand buttons */
+.wy-menu-vertical li i.fa-external-link { color: #4d4d4d; }
+.wy-menu-vertical a:hover i.fa-external-link { color: #d9d9d9; }
+/* WARNING: This CSS works but deep nav links are buggy on ReadTheDocs theme */
+.wy-menu-vertical li.toctree-l2 i.fa-external-link { color: #a3a3a3; }
+.wy-menu-vertical li.toctree-l2 a:hover i.fa-external-link { color: grey; }
 
 
 
