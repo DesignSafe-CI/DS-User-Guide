@@ -28,11 +28,14 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 * [**Simulating the Seismic Performance of Reinforced Concrete Walls**](#seismic-response-of-concrete-walls) (OpenSees, Jupyter, HPC)
 * [**Soil-Structure-Interaction Simulations**](#soil-structure-interaction) (OpenSees, STKO, Jupyter, HPC)
 * [**Experimental Visualization of Shaking Table Data**](#experimental-shake-table-testing) (Jupyter, Interactive Data Analysis, UCSD NHERI Facility)
+
+<b> API Use Cases </b>
+
 <!-- NOTE: This doc, internally, is disabled until it does not freeze build -->
 <!--
 * [**Application Programming Interfaces**](brandenberg/apiusecases/usecase.md) (Jupyter, API, requests)
 -->
-* [**Application Programming Interfaces**](https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F){ targe="_blank" } (Jupyter, API, requests)
+* <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F"><i class="fa fa-external-link" target="_blank" aria-label="(external url)"></i> **Design Safe: Use Cases: Application Programming Interfaces**</a> (Jupyter, API, requests)
 
 ## Taggit - Image Tagging
 
@@ -86,9 +89,10 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 {% include-markdown 'usecases/mosqueda/usecase.md' %}
 
-<!-- NOTE: This doc is disabled until it does not freeze build -->
-<!--
 ## Application Programming Interfaces
 
+<!-- NOTE: This doc, internally, is disabled until it does not freeze build -->
+<!--
 {% include-markdown 'usecases/brandenberg/apiusecases/usecase.md' %}
 -->
+See <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F"><i class="fa fa-external-link" target="_blank" aria-label="(external url)"></i> Design Safe: Use Cases: Application Programming Interfaces</a>.
