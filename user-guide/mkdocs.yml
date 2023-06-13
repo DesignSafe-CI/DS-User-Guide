@@ -55,6 +55,4 @@ nav:
     - DesignSafe FAQ: tools/advanced/dsfaq.md
 
   - Use Cases:
-    # NOTE: These documents are disabled until a certain one does not freeze build
-    # - Use Cases Products: usecases.md
-    - Use Cases Products: https://www.designsafe-ci.org/rw/use-cases/
+    - Use Cases Products: usecases.md
