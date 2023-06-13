@@ -35,7 +35,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 <!--
 * [**Application Programming Interfaces**](brandenberg/apiusecases/usecase.md) (Jupyter, API, requests)
 -->
-* <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F"><i class="fa fa-external-link" target="_blank" aria-label="(external url)"></i> **Design Safe: Use Cases: Application Programming Interfaces**</a> (Jupyter, API, requests)
+* <a href="https://www.designsafe-ci.org/rw/use-cases/#!#brandenberg%2Fapiusecases%2Fusecase%2F"><i class="fa fa-external-link" target="_blank" aria-label="(external url)"></i> **Application Programming Interfaces**</a> (Jupyter, API, requests)
 
 ## Taggit - Image Tagging
 
