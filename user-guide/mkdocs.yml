@@ -84,7 +84,12 @@ nav:
 
   - Use Cases:
     - Overview: usecases/contents.md
-    - Data Analytics: usecases/dataanalytics.md
+    - Data Analytics: 
+      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
+      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
+      - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
+      - ML and AI: usecases/vantassel_and_zhang/usecase.md
+      - API: usecases/brandenberg-api/usecase.md
 
     - GeoHazard: 
       - NGL Database: usecases/brandenberg-ngl/usecase.md
