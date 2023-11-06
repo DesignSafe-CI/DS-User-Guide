@@ -45,10 +45,42 @@ nav:
 
   - Tools and Apps:
     - Jupyter Hub: tools/jupyterhub.md
-    - Simulation Applications: tools/simulation.md
+    #- Simulation Applications: tools/simulation.md
     - Visualization Applications: tools/visualization.md
     - Analysis Applications: analysis.md
     - Hazard Apps & Utilities: tools/hazard_utils.md
+
+  - Simulation Applications: 
+    - Overview: tools/simulation/overview.md
+    - ADCIRC: tools/simulation/adcirc.md
+    - ClawPack: tools/simulation/clawpack.md
+    - Dakota: tools/simulation/dakota.md
+    - LS-DYNA: tools/simulation/lsdyna.md
+    - OpenSees : 
+      - OpenSees on DesignSafe:
+        - Overview: tools/simulation/opensees/openseesOverview.md
+        - Project Size: tools/simulation/opensees/openseesProjectSize.md
+        - Decision Matrix - Applications: tools/simulation/opensees/openseesDecisionMatrixApplication.md
+        - Decision Matrix - Platforms: tools/simulation/opensees/openseesDecisionMatrixPlatform.md
+        - OpenSees at the Linux Terminal: tools/simulation/opensees/openseesRunLinux.md
+        - Resources: tools/simulation/opensees/openseesResources.md
+      - OpenSees Applications : 
+        - Overview: tools/simulation/opensees/openseesApplications.md
+        - 1. OpenSees-Express: tools/simulation/opensees/openseesExpress.md
+        - 2. OpenSeesSP: tools/simulation/opensees/openseesSP.md
+        - 3. OpenSeesMP: tools/simulation/opensees/openseesMP.md
+        - 4. OpenSeesPy: tools/simulation/opensees/openseesPy.md
+      - DesignSafe Platforms for OpenSees:
+        - Overview: tools/simulation/opensees/openseesRunning.md
+        - 1. The Interactive VM: tools/simulation/opensees/openseesRunVM.md
+        - ...1a. Specifications: tools/simulation/opensees/openseesRunVM_Specs.md
+        - 2. DesignSafe WebPortal: tools/simulation/opensees/openseesRunWebPortal.md
+        - ...2a. Form Input: tools/simulation/opensees/openseesRunWebPortal_Form.md
+        - ...2b. Specifications: tools/simulation/opensees/openseesRunWebPortal_Specs.md
+        - 3. Jupyter & OpenSeesPy: tools/simulation/opensees/openseesRunJupyterPy.md
+        - 4. Jupyter & HPC: tools/simulation/opensees/openseesRunJupyterHPC.md
+        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
+    - OpenFoam: tools/simulation/openfoam.md
 
   - Use Cases:
     - Overview: usecases/contents.md
@@ -78,4 +110,6 @@ nav:
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - DesignSafe FAQ: tools/advanced/dsfaq.md
+
+
 

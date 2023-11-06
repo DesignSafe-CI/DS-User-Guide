@@ -1,5 +1,5 @@
 # DesignSafe User Guides
-*October 31, 2023*
+*November 6, 2023*
 
 Welcome to DesignSafe Documentation.
 
