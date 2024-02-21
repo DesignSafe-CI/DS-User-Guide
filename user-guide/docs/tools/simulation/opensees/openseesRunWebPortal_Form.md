@@ -1,6 +1,6 @@
+##### Web Portal Form Input Parameters
 
-## Web Portal Form Input Parameters
-<p>Here is a list and description of all the form input parameters for the Web Form <i>(Figure 1 and 2)</i>.<br>
+Here is a list and description of all the form input parameters for the Web Form <i>(Figure 1 and 2)</i>.<br>
 Note: not all applications require all the input:<br>
 OpenSees-Express: Figure 1 and OpenSeesMP: Figure2
     <ul>
@@ -18,7 +18,6 @@ OpenSees-Express: Figure 1 and OpenSeesMP: Figure2
             </ul>
         </li>
     </ul>
-</p>
 
 
 <small><i><b>Figure 1</b>: Sample Form for OpenSees-Express</i><br></small>

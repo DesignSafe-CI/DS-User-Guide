@@ -600,4 +600,3 @@ As briefly mentioned in the <a href="https://www.designsafe-ci.org/rw/user-guide
 
 Any map can have a public version of the map through the <a href="https://www.designsafe-ci.org/rw/user-guides/tools-applications/visualization/hazmapper#public-tab">public tab of the manage panel</a>. The generated link will be permanent unless the owner of the map makes the map private, or unless the owner of the map deletes the original map.
 
----

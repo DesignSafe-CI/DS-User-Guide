@@ -1,4 +1,6 @@
-## Running OpenSees on DesignSafe
+## OpenSees Platforms 
+
+### Running OpenSees on DesignSafe
 
 There are several ways you can run OpenSees on DesigSafe. The variety of DesignSafe platforms and interfaces allow you to work with evolving levels of scalability:
 <ol style="margin-top:-20px;">

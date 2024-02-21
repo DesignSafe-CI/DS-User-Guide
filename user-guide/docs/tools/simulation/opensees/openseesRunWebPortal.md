@@ -1,4 +1,4 @@
-## Running OpenSees via DesignSafe Web Portal
+### Running OpenSees via DesignSafe Web Portal
 
 <p>Submitting your OpenSees Job to the HPC system via DesignSafe's WebPortal allows you to scale up your project easily through a simple web-form submittal. The Web Portal provides two access points, one for sequential analyses, one for parallel ones:
     <ul>
@@ -10,7 +10,8 @@
 </p>
 <p> Being able to submit multiple jobs simultaneously via the simple web form makes the <b>DesignSafe Web Portal</b> the ideal solution for most projects (<i>see below for user limits on multiple jobs</i>). The only significant drawback is the fact that you do not have access to the results until the analysis is finished. Wait times in the queue can seem an inconvience, but the ability to run many analysis in parallel effectively reduces the total job time.</p>
 
-## File Management when running the Web-Portal Jobs
+#### File Management when running the Web-Portal Jobs
+
 <p>Job submission via the Web Portal is easy and efficient because it only requires you to fill out a web form and press the run button. All the keyboarding work from that point on is done for you via automation. Understanding what is happening behind the courtain will help you plan your script and data management.</p>
 <p>Because file I/O is fastest closest to the CPU, the input directory you specify in your job-submittal form gets cloned to the compute node that will run OpenSees. During the OpenSees run all the output and recorder files you defined in your input script will be written in that location. Once the OpenSees job is finished, the entire folder that was cloned, with the additional output files, will be moved to the output folder you specify in your job-submittal form. </p>
 <p>A few important notes about the file management:
@@ -28,7 +29,7 @@
     </ol>
 </p>
 
-### Using the DesignSafe WebPortal
+#### Using the DesignSafe WebPortal
 <p>Before starting your project, make sure you read the File-Management section as it will help you plan your file and data structure</p>
 <p>Follow these steps to run your OpenSees job via the WebPortal:
     <ol style="margin-top:-20px;">

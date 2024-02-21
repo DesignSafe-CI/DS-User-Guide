@@ -17,4 +17,3 @@ More detailed information and FigureGen user documentation can be found on the <
 <li>Check the job status by clicking on the arrow in the upper right of the job submission form.</li>
 </ul>
 
----

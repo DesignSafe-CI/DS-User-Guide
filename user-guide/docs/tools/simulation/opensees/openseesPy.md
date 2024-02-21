@@ -1,4 +1,4 @@
-## OpenSeesPy
+### OpenSeesPy
 
 <p>OpenSeesPy is the Python-Interpreter version of OpenSees. Because it is produced from the same source code, it has the same features as OpenSees. Even though the input format is structured in Python, the commands follow the same order as those of the Tcl version. OpenSeesPy has the following unique features:</p>
 <ul style="margin-top:-20px;">

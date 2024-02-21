@@ -36,4 +36,3 @@ You can track the status of your job to the right side of the same page. The sta
 Once the status changed to “FINISHED”, you can find the outputs in data depot by navigating to the archived location. If not specified by the user, the job output including the converted shapefile can be found at: My Data / archive / jobs / ${YYYY-MM-DD} / ${JOB_NAME}-${JOB_ID}
 
 
----

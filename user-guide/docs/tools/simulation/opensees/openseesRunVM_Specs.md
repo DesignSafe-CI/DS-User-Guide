@@ -1,5 +1,5 @@
+##### Interactive-VM Specifications
 
-#### Interactive-VM Specifications
 The specifications for the Interactive VM are given below. This VM is a shared resource: there is only one instance of it and all users connected to it share the same processors and RAM.
 Because of these limitations, the VM is intended for building and testing your OpenSees script and its workflow before scaling up in DesignSafe.<br>
 

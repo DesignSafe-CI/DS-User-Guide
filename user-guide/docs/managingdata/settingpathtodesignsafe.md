@@ -15,7 +15,7 @@ Replace <strong>&lt;username&gt;</strong> with your username. You can find your 
 
 ### [Path to My Projects](#myprojects) { #myprojects }
 
-For <strong>My Projects</strong> set Path to <strong>/corral-repl/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
+For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
 
 Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifier (UID). You can find your projects UID by examining the URL in My Projects, see figure below.
 
@@ -23,7 +23,7 @@ Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifie
 
 ### [Path to Published](#published-nheri) { #published-nheri }
 
-For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral-repl/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>
+For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>
 
 Replace <strong>&lt;PRJ-XXXX&gt;</strong> with your project's number. You can find your project number by examining the URL in Published, see figure below.
 
@@ -32,7 +32,7 @@ Replace <strong>&lt;PRJ-XXXX&gt;</strong> with your project's number. You can fi
 
 ### [Path to Published (NEES)](#published-nees) { #published-nees } 
 
-For <strong>Published (NEES)</strong> projects set Path to <strong>/corral-repl/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;</strong>
+For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;</strong>
 
 Replace <strong>&lt;NEES-XXXX-XXXX.groups&gt;</strong> with the NEES project number. You can find the NEES project number by examining the URL in Published (NEES), see figure below.
 

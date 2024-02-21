@@ -165,9 +165,9 @@ Examples in this guide:
 #### [Launching batch of jobs via Command Line Interface (CLI)](#launch-batchcli) { #launch-batchcli }
 
 <ul>
-	<li>Connect to stampede2 using SSH Client (Putty or Terminal - a complete guide to ssh is available at: https://portal.tacc.utexas.edu/user-guides/stampede2 ):
+	<li>Connect to Frontera using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/frontera/):
 	<ul>
-		<li>Host name: stampede2.tacc.utexas.edu;</li>
+		<li>Host name: frontera.tacc.utexas.edu;</li>
 		<li>Username and Password should be the same ones as for DesignSafe.</li>
 	</ul>
 	</li>
@@ -176,7 +176,7 @@ Examples in this guide:
 ![](./imgs/ls-dyna-11.png)
 
 <ul>
-	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede2 (via Globus);</li>
+	<li>Transfer LS-Dyna k files to /scratch or /work directory on Frontera (via Globus);</li>
 	<li>Generate 3 files:
 	<ul>
 		<li>A batch file (<em>launcherLs_Dyna.slurm</em>) that contains all the information about the resources that you need for the parallel job and calls input files (see example file below);</li>

@@ -1,4 +1,4 @@
-## Integrate OpenSeesPy directly into Jupyter Notebook
+### Integrate OpenSeesPy directly into Jupyter Notebook
 
 Jupyter-Hub environment is user friendly and .... 
 you can query OpenSees Model interactively

@@ -1,4 +1,6 @@
-## OpenSees Express
+## OpenSees Applications
+
+### OpenSees Express
 
 <p>The Sequential OpenSees application, called OpenSees-Express on DesignSafe, runs on a single core in a dedicated Virtual Machine (VM) on DesignSafe. This application should be your starting point for any analysis. </p>
 <p>Start here with a Minimum Working Example (MWE) -- a simple script that has all the features of your final one, but uses a small model and few, short, analyses. While some MWEs can be tested on your local manchine, a final test should be done here in "production mode" on DesignSafe.</p>
@@ -21,6 +23,7 @@
 </ul>
 
 #### Disadvantages
+
 <ul style="margin-top:-20px;">
 <li>The model and the analysis are handled by a single processor, so all analyses are run sequentially.</li>
 <li>The VM is a shared resource.</li>

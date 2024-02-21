@@ -1,12 +1,10 @@
-## OpenSees-Project "Size"
+### OpenSees-Project "Size"
 
-<p>As you plan your OpenSees project on DesignSafe, you need to have an idea of the project's "size," which is defined by its scope. The project scope is defined by the size of your model and the type and number of parametric analyses.</p>
-<p>Understanding the scope of your project, and how that scope grows in "size", will help you choose the right OpenSees application as well as DesignSafe platform. </p>
+As you plan your OpenSees project on DesignSafe, you need to have an idea of the project's "size," which is defined by its scope. The project scope is defined by the size of your model and the type and number of parametric analyses.
 
+Understanding the scope of your project, and how that scope grows in "size", will help you choose the right OpenSees application as well as DesignSafe platform. 
 
-<p>
-<ol style="margin-top:-20px;">
-<li>The <b>Model Size</b> affects the size of the system of equations that must be solved (the matrix that needs to be inverted) as well as the number of nonlinear state determinations which can be iterative. <br>
+1. The <b>Model Size</b> affects the size of the system of equations that must be solved (the matrix that needs to be inverted) as well as the number of nonlinear state determinations which can be iterative. <br>
 Here are a few items that affect Model Size:
     <ul>
         <li>Model dimensions (1-3).</li>
@@ -19,8 +17,8 @@ Here are a few items that affect Model Size:
         <li>Memory management: Some OpenSees objects may not have the most optimized memory management system.</li>
     </ul>
 
-</li>
-<li>The <b>Analysis Parametrization</b> is defined by the different configurations being analyzed, which defines how many times you need to run an OpenSees analysis, and how:
+
+1. The <b>Analysis Parametrization</b> is defined by the different configurations being analyzed, which defines how many times you need to run an OpenSees analysis, and how:
     <ul>
         <li> <b>Model Parametrization</b>: Variations of a model characteristics, such as building configuration, soil-layer discretization, material properties, etc.</li>
         <li> <b>Loading Parametrization</b>: Variations of loading, such number of earthquake ground motions or different wind-load incident angles.</li>
@@ -29,7 +27,6 @@ Here are a few items that affect Model Size:
             --> In optimization problems trying to find a local minimum, for example, the input-parameter values of one analysis are <b>dependent</b> on the results of a previous analysis. In this case the analyses need to run <b>sequentially</b>. Many studies can be a combination of these two types or parametrization.
         </li>
     </ul>
-</ol>
 
 
 

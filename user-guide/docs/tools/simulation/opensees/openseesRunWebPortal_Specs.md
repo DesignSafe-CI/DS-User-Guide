@@ -1,5 +1,6 @@
-#### Web-Portal Specifications
-<p>Sequential and parallel jobs are sent to different systems:
+##### Web-Portal Specifications
+
+Sequential and parallel jobs are sent to different systems:
     <ul style="margin-top:-20px;">
         <li><b>OpenSees-Express</b> jobs are sent to a dedicated VM and are run immediately after upload.
             <ul>
@@ -31,7 +32,6 @@
             </ul>
         </li>
     </ul>
-</p>
 
 
 

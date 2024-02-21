@@ -1,6 +1,5 @@
 <!-- # Grouping and Tagging Image Files -->
-## Grouping and Tagging Image Files
-
+## Taggit: Grouping and Tagging Image Files
 
 **Using Taggit to categorize image files with groups and tags**  
 **Fred Haan – Calvin University**

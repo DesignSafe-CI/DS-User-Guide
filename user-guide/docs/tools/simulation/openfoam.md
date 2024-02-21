@@ -4,7 +4,6 @@ The OpenFOAM (Open Field Operation and Manipulation) CFD (Computational Fluid Dy
 
 More detailed information and OpenFOAM user documentation can be found at the <a href="https://openfoam.org/" target="_blank">OpenFOAM website</a>. 
 
-<hr>
 
 ### How to Submit an OpenFOAM Job in the Workspace
 

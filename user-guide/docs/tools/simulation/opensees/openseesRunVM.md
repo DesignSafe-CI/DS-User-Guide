@@ -1,4 +1,4 @@
-## The Interactive Virtual Machine (Interactive-VM)
+### The Interactive Virtual Machine (Interactive-VM)
 
 <p> The Interactive Virtual Machine is a new platform intended to help you in the early stages of building your OpenSees Model by providing you direct interactivity with OpenSees for both Sequential and Parallel applications for immediate feedback for each line of input.</p>
 <p>This NEW dedicated VM has been built for OpenSees. All OpenSees applications (OpenSees, OpenSeesSP, OpenSeesMP, and OpenSeesPy) have been pre-installed and can be run interactively in a user-friendly environment with an integrated terminal window, file editor, and file-tree navigation. This VM has limited shared resources and is intended for building and testing your OpenSees script.
@@ -7,9 +7,9 @@
 Interactivity allows you to monitor the analysis in real time. The workspace, with its multiple tabs, allows you to run your OpenSees in one tab while editing a file in another. Direct interaction to OpenSees via a <b>Linux terminal</b> allows you to check your model as you develop it, as you have immediate access to warning, errors, or echoed data.
 </p>
 
-### Connecting to the Interactive-VM
+#### Connecting to the Interactive-VM
 
-The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: Tools & Applications > Simulation > OpenSees (<a href="https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation target="_blank">Click here to access it</a>)
+The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: Tools & Applications > Simulation > OpenSees (<a href="https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation">Click here to access it</a>)
 <ol>
     <li>Once you have reached the OpenSees page, select the first option in the portal's OpenSees-Application menu: "Interactive VM for OpenSees...": option with the latest version of OpenSees.<i>(Figure 1)</i></li>
     <li>Once you have made the selection, the following simple form will appear. There is no need to edit the Job name. <i>(Figure 2)</i></li>
@@ -29,6 +29,7 @@ The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: To
 
 
 #### The Interactive-VM Environment & Workflow
+
 Once you have started your instance of the OpenSees VM, you will be redirected to the Jupyter-Lab Launcher environment in your browser. Here you can interact with your data as well as your analysis processes.
 Here are the step necessary to run OpenSees in the Interactive-VM <i>(Figure 4)</i>:
 <ol style="margin-top:-3px;">

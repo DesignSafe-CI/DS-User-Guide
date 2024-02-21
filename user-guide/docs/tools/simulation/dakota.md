@@ -13,8 +13,6 @@ These capabilities may be used on their own or as components within advanced str
 
 More detailed information and Dakota user documentation can be found at the <a href="https://dakota.sandia.gov/content/manuals" title="Dakota Website" target="_blank">Dakota website</a>.
 
-<hr>
-
 ### How to Submit a Dakota Job in the Workspace
 
 <ul>
