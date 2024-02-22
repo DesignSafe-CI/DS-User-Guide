@@ -17,7 +17,7 @@
 
 2. GitHub will create a forked repo in your user account.
 
-    > [!NOTE]
+    > **Note**
     > The new repo will say it was forked from the original [DS-User-Guide].
 
     <!-- ![forked-repo](docs/images/02-forked-repo.png) -->
@@ -28,7 +28,7 @@
 
 4. Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
-    > [!NOTE]
+    > **Note**
     > The document is written in plain text, but also supports [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
     <!-- ![Edit usecase md](docs/images/04-edit-usecasemd.png) -->
