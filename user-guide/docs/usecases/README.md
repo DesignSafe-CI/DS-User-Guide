@@ -61,7 +61,7 @@
     <!-- ![mpm algorithm](img/mpm-algorithm.png) -->
     ```
 
-   > ***Note:**
+   > **Note:**
    > Use a relative path `img/mpm-algorithm.png`, **do not use a full path** (e.g., [`https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png`](https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png)).
 
    You can use the "Preview" tab to check images and text formatting before commiting your changes.
