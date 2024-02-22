@@ -17,7 +17,7 @@
 
 2. GitHub will create a forked repo in your user account.
 
-    > **Note**
+    > **Note:**
     > The new repo will say it was forked from the original [DS-User-Guide].
 
     <!-- ![forked-repo](docs/images/02-forked-repo.png) -->
@@ -28,7 +28,7 @@
 
 4. Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
-    > **Note**
+    > **Note:**
     > The document is written in plain text, but also supports [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
     <!-- ![Edit usecase md](docs/images/04-edit-usecasemd.png) -->
@@ -61,8 +61,8 @@
     <!-- ![mpm algorithm](img/mpm-algorithm.png) -->
     ```
 
-   > [!NOTE]
-   <!-- > Use a relative path `img/mpm-algorithm.png`, **do not use a full path** (e.g., [`https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png`](https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png)). -->
+   > ***Note:**
+   > Use a relative path `img/mpm-algorithm.png`, **do not use a full path** (e.g., [`https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png`](https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png)).
 
    You can use the "Preview" tab to check images and text formatting before commiting your changes.
 
