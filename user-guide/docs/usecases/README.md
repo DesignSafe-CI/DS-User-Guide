@@ -7,58 +7,58 @@
 
 1. The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
 
-    <!-- ![fork](docs/images/00-fork.png) -->
+    ![fork](docs/images/00-fork.png)
 
-    <!-- ![forking](docs/images/01-forking.png) -->
+    ![forking](docs/images/01-forking.png)
 
     The PI can later [add their students as collaborators in the Settings page](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository):
 
-    <!-- ![collaborator](docs/images/collaborator.png) -->
+    ![collaborator](docs/images/collaborator.png)
 
 2. GitHub will create a forked repo in your user account.
 
     > **Note:**
     > The new repo will say it was forked from the original [DS-User-Guide].
 
-    <!-- ![forked-repo](docs/images/02-forked-repo.png) -->
+    ![forked-repo](docs/images/02-forked-repo.png)
 
 3. Navigate to your use case folder, which is located in the `user-guide/docs/usecases` folder. The folders are named after the PI, so find the folder with your name to edit your template. **Always check you are only editing your use case folder**.
 
-    <!-- ![PI use case folder](docs/images/03-pi-usecase-folder.png) -->
+    ![PI use case folder](docs/images/03-pi-usecase-folder.png)
 
 4. Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
     > **Note:**
     > The document is written in plain text, but also supports [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-    <!-- ![Edit usecase md](docs/images/04-edit-usecasemd.png) -->
+    ![Edit usecase md](docs/images/04-edit-usecasemd.png)
 
-    <!-- ![Edited usecase](docs/images/05-edit-usecase.png) -->
+    ![Edited usecase](docs/images/05-edit-usecase.png)
 
-5. Once you have completed editing your use case, you save your changes by commiting. Scroll down to the bottom of the page and type a descriptive phrase explaining the changes you have made and click "Commit changes". These changes will be saved only on your repo and will not be reflected in the [original DS User Guide repo][DS-User-Guide] until you create a Pull Request (PR) (that step is explained later).
+5. Once you have completed editing your use case, you save your changes by [commiting](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits). Scroll down to the bottom of the page and type a descriptive phrase explaining the changes you have made and click "Commit changes". These changes will be saved only on your repo and will not be reflected in the [original DS User Guide repo][DS-User-Guide] until you create a Pull Request (PR) (that step is explained later).
 
-    <!-- ![commit edits](docs/images/06-commit-usecase-edits.png) -->
+    ![commit edits](docs/images/06-commit-usecase-edits.png)
 
 6. To add images to your use case, navigate to your use case folder and select the `img` folder. **Ensure that you are in your usecase `img` folder** before adding images.
 
-    <!-- ![img folder](docs/images/07-img-folder.png) -->
+    ![img folder](docs/images/07-img-folder.png)
 
-    <!-- ![add image](docs/images/08-add-img.png) -->
+    ![add image](docs/images/08-add-img.png)
 
 7. [Select image files (you can select multiple files) and upload.](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) Once the images are added, type a descriptive commit message and click "Commit changes" to add relevant images to your folder.
 
-    <!-- ![upload image](docs/images/09-upload-image.png) -->
+    ![upload image](docs/images/09-upload-image.png)
 
 8. To insert the image in your `usecase.md` file, add syntax like this into the text:
 
     ```md
-    <!-- ![alternate text](image-location.png) -->
+    ![alternate text](image-location.png)
     ```
 
    In this case, we added an image called `mpm-algorithm.png`, which is located in the use case folder `img`. We can reference it in the text usingg:
 
     ```md
-    <!-- ![mpm algorithm](img/mpm-algorithm.png) -->
+    ![MPM Algorithm](img/mpm-algorithm.png)
     ```
 
    > **Note:**
@@ -66,39 +66,49 @@
 
    You can use the "Preview" tab to check images and text formatting before commiting your changes.
 
-   <!-- ![preview image](docs/images/11-preview-img.png) -->
+   ![preview image](docs/images/11-preview-img.png)
 
    Commit your changes to GitHub with a meaningful message.
 
-   <!-- ![image commit](docs/images/12-image-commit.png) -->
+   ![image commit](docs/images/12-image-commit.png)
 
 9. Before you are ready to make changes to the [original DS-User-Guide repo][DS-User-Guide]. Make sure your repository on GitHub is up to date with all the changes from the original repo. You can do this by navigating your repo and click on "Fetch upstream". It will probably say there is nothing new to fetch.
 
-    <!-- ![fetch upstream](docs/images/16-fetch-upstream.png) -->
+    ![fetch upstream](docs/images/16-fetch-upstream.png)
 
     If there are any new changes you can fetch and merge.
 
-    <!-- ![fetch merge](docs/images/17-fetch-merge.png) -->
+    ![fetch merge](docs/images/17-fetch-merge.png)
 
-10. Once you have completed making changes, you'll now [create a Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to request that your changes be merged to the main DesignSafe Use Case repo. Go to your repo on GitHub (in my case it is https://github.com/kks32/DS-User-Guide). And select "Contribute". Before opening a pull request, verify the page states
+10. Once you have completed making changes, you'll now [create a Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to request that your changes be merged to the main DesignSafe Use Case repo. Go to your repo on GitHub (in my case it is https://github.com/wesleyboar/DS-User-Guide). And select "Contribute". Before opening a pull request, verify the page states:
 
     > This branch is _N_ commit(s) **ahead** of DesignSafe-CI master
 
-    <!-- ![Open PR](docs/images/18-open-pr.png) -->
+    ![Open PR](docs/images/18-open-pr.png)
 
     Complete the title and description of your PR and select "Open pull request".
 
-    <!-- ![Create PR](docs/images/19-create-pr.png) -->
+    ![Verify Diff](docs/images/18-verify-diff.png)
+
+    Verify the changes you've made and select "Create pull request".
+
+    ![Create PR](docs/images/19-create-pr.png)
 
     The PR will show all the changes you have made in the "Files changed" tab.
 
-    <!-- ![PR changes](docs/images/20-pr-file-changes.png) -->
+    ![PR changes](docs/images/20-pr-file-changes.png)
+
+<details><summary>to Preview Deployment (feature not available yet)</summary>
 
 11. After a minute or so a preview deployment of your use case will be available on the pull request page. Select the preview link generated by Netlify to view your changes similar to how it would be rendered in the final version. If you want to make some tweaks. Visit *your* GitHub repo of the DS Use Case and make changes. As long as the current PR remains open GitHub will automatically pull your changes.
 
+    > **No Image Yet:** Until an image is available, you may view an [outdated image](docs/images/21-pr.png).
     <!-- ![PR](docs/images/21-pr.png) -->
 
+    > **No Image Yet:** Until an image is available, you may view an [outdated image](docs/images/22-preview.png).
     <!-- ![preview Web](docs/images/22-preview.png) -->
+
+</details>
 
 [DS-User-Guide]: https://github.com/DesignSafe-CI/DS-User-Guide/
 [DS_Use_Case_template]: https://github.com/DesignSafe-CI/DS_Use_Case_template/
