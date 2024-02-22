@@ -1,8 +1,5 @@
 # DesignSafe Use Case Template
 
-> [!IMPORTANT]
-> The screenshots reference a deprecated repository, [DS_Use_Case_template]. Use [DS-User-Guide] instead.
-
 ## A Guide to Adding Your Use Case Project
 
 1. The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
