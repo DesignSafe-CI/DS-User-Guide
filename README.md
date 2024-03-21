@@ -16,31 +16,37 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 
 ## Local Development
 
-### Using Local Environment
+### A. Via Python
 
-> More control. More caveats.
+0. Have Python installed.
+1. Navigate into your clone of this repo.
+2. Install dependencies:
+    ```shell
+    pip install poetry
+    poetry install
+    ```
+4. Serve the docs:
+    ```shell
+    poetry shell
+    cd user-guide
+    mkdocs serve
+    ```
+    <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
+5. Open the website at the URL provided e.g.
+    http://127.0.0.1:8000/user-guide/
 
-If you have not already, create a virtual environment that uses Python 3.11.
+### B. Via Docker
 
-```shell
-cd DS-User-Guide
-pip install poetry
-poetry install
-cd user-guide
-mkdocs serve
-```
-
-### Using Pre-Configured Environment
-
-> Less control. Less caveats.
-
-If you have not already, follow [TACC/TACC-Docs prequisites for running the docs "via Docker"](https://github.com/TACC/TACC-Docs#via-docker).
-
-```shell
-cd DS-User-Guide
-make build
-make start
-```
+0. Have Docker installed.\
+    <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
+1. Navigate into your clone of this repository.
+2. Start the Docker container to serve the docs.
+    ```shell
+    make build
+    make start
+    ```
+3. Open the website at the URL provided e.g.
+    http://0.0.0.1:8000/user-guide/
 
 ## Releases
 
