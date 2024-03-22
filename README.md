@@ -21,7 +21,8 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
 1. Navigate into your clone of this repo.
-2. Install dependencies:
+2. Install dependencies:\
+    <sup>You should only need to do this once.</sup>
     ```shell
     pip install poetry
     poetry install
@@ -33,7 +34,7 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
     mkdocs serve
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
-5. Open the website at the URL provided e.g.
+5. Open the website _at the URL echoed by the program_, e.g.
     http://127.0.0.1:8000/user-guide/
 
 ### B. Via Docker
