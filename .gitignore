@@ -1,5 +1,13 @@
 # Ignore site
 user-guide/site/
 
+# Ignore files cloned from TACC
+user-guide/mkdocs.base.yml
+poetry.lock
+pyproject.toml
+
 # Temporary files
 .DS_Store
+
+# TACC-Docs files within Docker-synced directories
+user-guide/docs/**/core

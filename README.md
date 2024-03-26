@@ -18,12 +18,16 @@ DesignSafe ReadTheDocs Documentation with [MkDocs](https://mkdocs.readthedocs.io
 
 ### A. Via Python
 
+> [!NOTE]
+> This solution uses a different theme than https://designsafe-ci.org/user-guide/.
+
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
 1. Navigate into your clone of this repo.
 2. Install dependencies:\
-    <sup>You should only need to do this once.</sup>
+    <sup>You should only need to do this once, or after a major update.</sup>
     ```shell
+    ./bin/tacc-setup.sh
     pip install poetry
     poetry install
     ```

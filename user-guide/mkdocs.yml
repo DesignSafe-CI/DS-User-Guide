@@ -1,39 +1,44 @@
+INHERIT: ./mkdocs.base.yml
+
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
-plugins:
-  - search
-  - include-markdown
+# NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
+site_favicon: https://www.designsafe-ci.org/favicon.ico
 
 theme:
     name: readthedocs
-    navigation_depth: 3
-    collapse_navigation: false
-    custom_dir: themes/ds-readthedocs
-    highlightjs: true
+    logo: https://www.designsafe-ci.org/static/images/org_logos/Horizontal-DS.b190a072b800.jpg
+    cms_url: https://designsafe-ci.org/ # TACC Feature
+    cms_name: designsafe-ci.org # TACC Feature
     features:
       - navigation.top
-    ds_navigation_redirects:
-      - before: '#data-depotcuration-office-hours'
-        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-    analytics:
-      gtag: G-D96RT1T24K
 
 extra_css:
-    - css/ds-docs.css
-
-extra_javascript:
-    - js/changeNavMarkup.js
-    # some JavaScript is included as modules in `./themes/ds-readthedocs/`
+  # TACC/TACC-Docs:/mkdocs.base.yml
+  - css/core/bootstrap.css
+  - css/core/core-styles.css
+  - css/core/tacc-docs.css
+  # DesignSafe/DS-User-Guide
+  - css/ds-docs.css
 
 markdown_extensions:
+  # TACC/TACC-Docs:/mkdocs.base.yml
   - footnotes
   - def_list
   - admonition
   - attr_list
   - abbr
-  - toc:
-      permalink: True
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.saneheaders
+  - pymdownx.details
+  - pymdownx.blocks.tab
+  - pymdownx.blocks.html
+
+plugins:
+  - search
+  - include-markdown
 
 nav:
   - Data Depot:
@@ -120,4 +125,3 @@ nav:
 #      - Soil Structure Interaction: usecases/rathje/usecase.md
 #      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
 #      - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
-
