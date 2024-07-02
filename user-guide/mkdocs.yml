@@ -34,6 +34,10 @@ plugins:
   - include-markdown
 
 nav:
+  - DesignSafe Essentials:
+    - Account Access: accounts.md
+    - Documentation Overview: index.md
+
   - Data Depot:
     - Managing Data: managingdata.md
     - Curating &amp; Publishing Projects: curating.md
