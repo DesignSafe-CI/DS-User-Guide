@@ -16,7 +16,7 @@ OpenSeesSP is an OpenSees interpreter intended for high performance computers fo
 
 OpenSeesMP is an OpenSees interpreter intended for high performance computers for performing finite element simulations with parameteric studies and very large models on parallel machines. OpenSeesMP requires understanding of parallel processing and the capabilities to write parallel scripts. <!-- OpenSeesMP runs on up to 12 KNL Nodes on Stampede2, with 64 cores per Node. -->
 
-### [How to Submit an OpenSees Job in the Workspace](#submit) { #submit } 
+### How to Submit an OpenSees Job in the Workspace { #submit } 
 
 1. Select the OpenSees application from the simulation tab in the workspace.
 
@@ -55,7 +55,7 @@ OpenSeesMP is an OpenSees interpreter intended for high performance computers fo
 
 
 
-### [DesignSafe Tutorial: OpenSees &amp; DesignSafe, October 31, 2018](#tutorial) { #tutorial } 
+### DesignSafe Tutorial: OpenSees &amp; DesignSafe, October 31, 2018 { #tutorial } 
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item"
@@ -74,9 +74,9 @@ For detailed explanation of slides below, watch the tutorial above.
 </ul>
 
 
-### [Additional Resources](#resources) { #resources }
+### Additional Resources { #resources }
 
-#### [Examples in Community Data](#resources-communitydata) { #resources-communitydata }
+#### Examples in Community Data { #resources-communitydata }
 
 <ul>
 	<li>OpenSees-EXPRESS:
@@ -102,7 +102,7 @@ For detailed explanation of slides below, watch the tutorial above.
 </ul>
 
 
-#### [Powerpoint Presentations](#resources-ppt) { #resources-ppt } 
+#### Powerpoint Presentations { #resources-ppt } 
 
 * <a href="/media/filer_public/34/e9/34e9dd3c-e954-4a78-9376-e65d1b793277/openseesexpress.pdf" target="_blank">OpenSees-EXPRESS</a>
 * <a href="/media/filer_public/1d/58/1d58638b-6cd4-48a1-b1b8-ce7313986e4e/openseessp.pdf" target="_blank">OpenSees SP</a>

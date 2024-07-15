@@ -19,7 +19,7 @@ The main Ls-Dyna capabilities are:
 	<li>Large library of elements (shell, discrete, solid, etc).</li>
 </ul>
 
-### [Ls-Dyna on DesignSafe](#ds) { #ds }
+### Ls-Dyna on DesignSafe { #ds }
 
 In the Workspace are available the following apps:
 
@@ -28,7 +28,7 @@ In the Workspace are available the following apps:
 	<li>LS-Dyna: Actual solver (version 9.1.0) – serial and parallel versions (after activation - <i>Workspace &gt; My Apps &gt; LS-DYNA</i>).</li>
 </ul>
 
-### [Activate Ls-Dyna on DesignSafe](#activate) { #activate }
+### Activate Ls-Dyna on DesignSafe { #activate }
 
 DesignSafe (through TACC) has negotiated with LSTC to allow LS-DYNA access on TACC systems for academic research. Users can submit a ticket (https://www.designsafe-ci.org/help/new-ticket/) requesting LS-DYNA access and are granted access upon verification with LSTC that they have an existing academic departmental license or that you acquire such license.
 
@@ -38,7 +38,7 @@ A <i>Request Activation</i> button is also available in <i>Workspace &gt; Simula
 
 Once activated, Ls-Dyna will appear in <i>Workspace &gt; My Apps tab</i>.
 
-### [How to launch LS-Dyna](#launch) { #launch }
+### How to launch LS-Dyna { #launch }
 
 Examples in this guide:
 
@@ -49,7 +49,7 @@ Examples in this guide:
 	<li>Launching batch of jobs via Command Line Interface.</li>
 </ul>
 
-#### [Launching LS-Pre/Post](#launch-prepost) { #launch-prepost }
+#### Launching LS-Pre/Post { #launch-prepost }
 
 <ul>
 	<li>Select the LS-Pre/Post app from the drop-drown menu at (<i>Workspace &gt; Simulation &gt; LS-DYNA</i>):</li>
@@ -86,7 +86,7 @@ Examples in this guide:
 
 ![](./imgs/ls-dyna-5.png)
 
-#### [Launching a single job via DesignSafe web portal](#launch-singlejob) { #launch-singlejob }
+#### Launching a single job via DesignSafe web portal { #launch-singlejob }
 
 <ul>
 	<li>Select LS-DYNA (Serial) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
@@ -121,7 +121,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-#### [Launching batch of jobs via DesignSafe web portal](#launch-batch) { #launch-batch }
+#### Launching batch of jobs via DesignSafe web portal { #launch-batch }
 
 <ul>
 	<li>Select LS-DYNA (Parallel) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
@@ -162,7 +162,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-#### [Launching batch of jobs via Command Line Interface (CLI)](#launch-batchcli) { #launch-batchcli }
+#### Launching batch of jobs via Command Line Interface (CLI) { #launch-batchcli }
 
 <ul>
 	<li>Connect to Frontera using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/frontera/):
