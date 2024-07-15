@@ -4,7 +4,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 
 ---
 
-## [FAQ Categories](#categories) { #categories }
+## FAQ Categories { #categories }
 
 <ul>
 	<li><b><a href="#faq-users">Users and Accounts</a></b></li>
@@ -23,7 +23,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 </ul>
 
 <hr>
-## [Users and Accounts](#faq-users) { #faq-users } 
+## Users and Accounts { #faq-users } 
 
 <strong>Q: Who can be a DesignSafe User?</strong><br>
 A: Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers.
@@ -51,7 +51,7 @@ A: With an account, you can:
 A: Upon receiving your new user account, you will be sent an email to join our <a href="https://www.designsafe-ci.org/community/slack-online-collaboration/" target="_blank">Slack team</a> to participate in discussions and give your input on the site. 
 
 <hr>
-## [Training](#faq-training) { #faq-training }
+## Training { #faq-training }
 
 <strong>Q: Does DesignSafe provide training on how to use the Data Depot and the applications in Tools & Applications?</strong><br>
 A: <a href="https://www.designsafe-ci.org/learning-center/training/" target="_blank">Upcoming training opportunities</a> are posted in the DesignSafe Learning Center, announced via email, and posted on DesignSafe Slack. Webinars covering DesignSafe features are hosted roughly monthly during the academic year.
@@ -60,7 +60,7 @@ A: <a href="https://www.designsafe-ci.org/learning-center/training/" target="_bl
 A: Webinars are recorded and made available on our <a href="https://www.youtube.com/@DesignSafe" target="_blank">YouTube Channel</a>.
 
 <hr>
-## [Data Depot](#faq-datadepot) { #faq-datadepot }
+## Data Depot { #faq-datadepot }
 
 <strong>Q: What data can I upload to the Data Depot?</strong><br>
 A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="https://www.designsafe-ci.org/user-guide/curating/#protectedddr" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
@@ -82,13 +82,13 @@ A: This will require contacting your IT department to make sure your company/uni
 A: The Published directory in the Data Depot holds the <a href="https://www.designsafe-ci.org/data/browser/public-legacy/" target="_blank">NEES Public Data</a>. Projects published using DesignSafe will be hosted there as well. The DOIs for the NEES Public Data point to the Data Depot.
 
 <hr>
-## [Tools & Applications](#faq-workspace) { #faq-workspace }
+## Tools & Applications { #faq-workspace }
 
 <strong>Q: I don't see the application I need in the Tools & Applications. How can I use my application?</strong><br>
 A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/submit-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="https://www.designsafe-ci.org/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
 
 <hr>
-## [MATLAB](#faq-matlab) { #faq-matlab }
+## MATLAB { #faq-matlab }
 
 <strong>Q: Do I need to provide my own license to run MATLAB?</strong><br>
 A: No, you don’t need to provide your own license to run MATLAB in the Discovery Workspace. Our license with MathWorks allows for academic use and you can be from any academic institution. We have a process whereby you request access to MATLAB and we then verify you are an academic user prior to adding you to the license. Simply click on MATLAB in the Discovery Workspace to start the process of requesting access.
@@ -103,7 +103,7 @@ A: If you are starting up with a folder that has a large number of files and/or 
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## [Jupyter](#faq-jupyter) { #faq-jupyter }
+## Jupyter { #faq-jupyter }
 
 <strong>Q: What is Jupyter?</strong><br>
 A: The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. A more detailed description including a list of more than 40 supported programming languages can be found on the <a href="http://jupyter.org/" target="_blank">Jupyter website</a>.
@@ -112,7 +112,7 @@ A: The Jupyter Notebook is a web application that allows you to create and share
 A: Many people use Jupyter in a similar fashion as they use MATLAB to analyze and plot their data. We will be sharing example Jupyter Notebooks soon that you can copy into your My Data and customize for your research. We also provide <a href="../../../tools/jupyterhub/#jupyterhub-guide">Jupyter training</a>.
 
 <hr>
-## [OpenSees](#faq-opensees") { #faq-opensees }
+## OpenSees { #faq-opensees }
 
 <strong>Q: What research is enabled by OpenSees?</strong><br>
 A: The Open System for Earthquake Engineering Simulation (OpenSees) is a software framework for simulating the seismic response of structural and geotechnical systems.<br>
@@ -128,7 +128,7 @@ A: OpenSees Express performs analysis using a single Tcl script, and runs on a v
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## [ADCIRC](#faq-adcirc) { #faq-adcirc }
+## ADCIRC { #faq-adcirc }
 
 <strong>Q: What research is enabled by ADCIRC?</strong><br>
 A: ADCIRC is a system of computer programs for solving time dependent, free surface circulation and transport problems in two and three dimensions. These programs utilize the finite element method in space allowing the use of highly flexible, unstructured grids. Typical ADCIRC applications have included:
@@ -150,7 +150,7 @@ A: If you do not specify a location, the default output is shown in the grayed-o
 A: If you do not specify a location, the default output is shown in the grayed out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## [OpenFOAM](#faq-openfoam) { #faq-openfoam }
+## OpenFOAM { #faq-openfoam }
 
 <strong>Q: What research is enabled by OpenFOAM?</strong><br>
 A: OpenFOAM has an extensive range of features to solve anything from complex fluid flows involving chemical reactions, turbulence and heat transfer, to acoustics, solid mechanics and electromagnetics.<br>
@@ -160,7 +160,7 @@ A more detailed description can be found on the <a href="http://openfoam.com/" t
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## [ParaView](#faq-paraview) { #faq-paraview }
+## ParaView { #faq-paraview }
 
 <strong>Q: What data analysis and visualization capabilities are enabled by ParaView?</strong><br>
 A: ParaView is an open-source data analysis and visualization application. ParaView users can quickly build visualizations to analyze their data using qualitative and quantitative techniques.
@@ -171,7 +171,7 @@ A more detailed description can be found on the <a href="http://www.paraview.org
 A: If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
 
 <hr>
-## [Experimental Facilities](#faq-ef) { #faq-ef }
+## Experimental Facilities { #faq-ef }
 
 <strong>Q: What Experimental Facilities are available to the natural hazards engineering community?</strong><br>
 A: You can explore the NSF NHERI Program <a href="/facilities/experimental/">Experimental Facilities</a> on our website. Research instruments at the facilities include wind tunnels, shake tables, centrifuges, wave pools, and mobile shaker trucks.
@@ -180,7 +180,7 @@ A: You can explore the NSF NHERI Program <a href="/facilities/experimental/">Exp
 A: Each facility hosts <a href="/learning-center/training/">workshops</a> to provide prospective users with the knowledge of a facility's capabilities and discuss details toward developing research proposals, such as to the <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505177" target="_blank">NSF Engineering for Natural Hazards Program</a>.
 
 <hr>
-## [Citing DesignSafe](#faq-citation) { #faq-citation }
+## Citing DesignSafe { #faq-citation }
 
 <strong>Q: How do I cite my use of DesignSafe in my papers, presentations, and publications?</strong><br>
 A: DesignSafe has published a marker paper that you can cite as a reference:
