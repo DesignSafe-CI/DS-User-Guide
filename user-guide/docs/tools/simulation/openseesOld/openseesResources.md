@@ -1,6 +1,6 @@
-### [Additional Resources](#resources) { #resources }
+### Additional Resources { #resources }
 
-#### [Examples in Community Data](#resources-communitydata) { #resources-communitydata }
+#### Examples in Community Data { #resources-communitydata }
 
 <ul>
 	<li>OpenSees-EXPRESS:
@@ -26,7 +26,7 @@
 </ul>
 
 
-#### [Powerpoint Presentations](#resources-ppt) { #resources-ppt } 
+#### Powerpoint Presentations { #resources-ppt } 
 
 * <a href="/media/filer_public/34/e9/34e9dd3c-e954-4a78-9376-e65d1b793277/openseesexpress.pdf" target="_blank">OpenSees-EXPRESS</a>
 * <a href="/media/filer_public/1d/58/1d58638b-6cd4-48a1-b1b8-ce7313986e4e/openseessp.pdf" target="_blank">OpenSees SP</a>

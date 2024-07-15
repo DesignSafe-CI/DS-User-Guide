@@ -1,8 +1,8 @@
-### [DesignSafe-EF Onboarding Checklist for Data Curation](#onboarding) { #onboarding }
+### DesignSafe-EF Onboarding Checklist for Data Curation { #onboarding }
 
 DesignSafe has been developed as a comprehensive research environment supporting a range of activities from research planning to cloud-based data analysis to data curation/publication.  We encourage users to take full advantage of the DesignSafe capabilities associated with both the Data Depot data repository and the Tools and Apps.  To learn more about all of these capabilities, watch this <a href="https://www.youtube.com/watch?v=5Yus9MjtcTM&amp;feature=youtu.be" target="_blank">Introductory Webinar</a>.
 
-### [Phase 1 - Before arriving to the Experimental Facility (EF):](#phase1) { #phase1 }
+### Phase 1 - Before arriving to the Experimental Facility (EF): { #phase1 }
 
 * Create an account on DesignSafe: <a href="https://www.designsafe-ci.org/account/register/">Account Registration</a>
 * Familiarize yourself with the Data Depot and the curation process.
@@ -30,7 +30,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 	* PIs and co-PIs should be informed and contribute to curation decisions including final publication.
 
 
-### [Phase 2 - At the EF:](#phase2) { #phase2 }
+### Phase 2 - At the EF: { #phase2 }
 
 * The following steps will be completed as a team.
 * Upload project data files into your Project as soon as you gather and produce them.
@@ -40,7 +40,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 * You may begin the curation process as soon as you start uploading files to DesignSafe. You will continue this process after your work at the EF.
 
 
-### [Phase 3 – After the EF:](#phase3) { #phase3 }
+### Phase 3 – After the EF: { #phase3 }
 
 * Attend Virtual Curation Office Hours. As a team, make an appointment with the DesignSafe Data Curator to discuss data management. Office hours are every Tuesday and Thursday at 1 pm central:
 	* Curation Office Hours <a href="https://designsafe-ci.zoom.us/j/730745593?pwd=U0VyaG1nVHgya3RZaS9hZng1MU82UT09" target="_blank">Zoom Link</a>
@@ -54,7 +54,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 	* Publish your project using the Prepare to Publish button within the Publication Preview.  Confirm the project metadata, files to be published, etc., and then click Request DOI and Publish.
 	* The project will be publicly available in the Published section of the Data Depot within about 24 hours.
 
-### [General Comments](#comments) { #comments }
+### General Comments { #comments }
 
 * Publishing the data from your project quickly will help you comply with the requirements of your funding sources, allow you to cite your data with a DOI in your upcoming publications and presentations, and bring prompt attention to your work.
 * DesignSafe provides the possibility to publish one experiment at a time, so you do not need to finish your entire research project to publish all the experiments.

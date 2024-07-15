@@ -1,4 +1,4 @@
-### [How to Submit an OpenSees Job in the Workspace](#submit) { #submit } 
+### How to Submit an OpenSees Job in the Workspace { #submit } 
 
 1. Select the OpenSees application from the simulation tab in the workspace.
 

@@ -1,4 +1,4 @@
-### [Selecting Files & Data](#selecting) { #selecting }
+### Selecting Files & Data { #selecting }
 
 **Q: What are the best file formats for data publications?**  
 **A**: For long-term preservation purposes it is best to publish data in interoperable and open formats. For example, instead of Excel spreadsheet files -which are proprietary- it is best to convert them to CSV for publication. And, instead of Matlab files -also proprietary- it is best to publish data as simple txt (ascii) so it can be used by many different software. However, be aware that conversion may distort the data structure, so retain an original copy of any structured data (e.g. Matlab, Excel files) before attempting conversions and then check between the two for fidelity. In addition, you may publish both the proprietary and the open format, and/or consult the Data Curation Primers to find out how to better curate research data.
@@ -24,7 +24,7 @@
 **Q: What should I consider before publishing Jupyter Notebooks?**  
 **A**: Please refer to our Jupyter User Guide document to find information on how to publish a Jupyter Notebook.
 
-### [Organizing & Describing Your Dataset](#organizing) { #organizing }
+### Organizing & Describing Your Dataset { #organizing }
 
 **Q: How should I organize the data files to be published in a project?**
 **A**: For each type of project publication, the best way to organize your data is to map them to the organizational schema provided by the data models available for each research type (simulation, experimental, hybrid simulation and field research). These models were designed by experts and represent the main data and documentation components required for others to understand and reuse your dataset. 
@@ -47,7 +47,7 @@
 **Q: I have another published work that is related to the project I am now planning to publish. How can I relate them?**  
 **A**: On the project landing page under Edit Project there is a "Related Work" field where you have the option to include one or more associated projects and publications to your current project. Here, you can provide the title as well as a link to that project or publication. This link can be a DOI or a URL for any content found inside or outside of DesignSafe. For DOIs, please make sure you are adding the entire DOI address starting with "http" to correctly link the webpage to the related project. 
 
-### [Publishing](#publishing) { #publishing }
+### Publishing { #publishing }
 
 **Q: Which license is appropriate for my publication?**  
 **A**: Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. You can find relevant information under licensing here: <https://www.designsafe-ci.org/rw/user-guides/data-publication-guidelines/>.
@@ -72,7 +72,7 @@
 
 <blockquote>Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., Arduino, P., Brandenberg, S.J., Cockerill, T., Dey, C., Esteva, M., Haan, Jr., F.L., Hanlon, M., Kareem, A., Lowes, L., Mock, S., and Mosqueda, G. 2017. "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering," ASCE Natural Hazards Review, doi:10.1061/(ASCE)NH.1527-6996.0000246.</blockquote>
 
-### [Data Reuse](#datareuse) { #datareuse }
+### Data Reuse { #datareuse }
 
 **Q: How can I contribute to the reuse of data?**  
 **A**: Datasets take a lot of work to produce; they are important research products. By creating a complete, clean, and clearly described data publication you are already inviting others to use and cite your data. Always cite your datasets and those of others that you have reused in the reference section of your papers using the citation language and DOI provided on DesignSafe, and encourage your peers and students to do the same. If you use social media or a presentation platform to talk about your research, always include the proper citation and DOI on your materials (ppts, abstracts, emails, etc.). Note that a researcher does not actually need to reuse a dataset to cite it, but rather may cite a dataset to reference something of note in the dataset (e.g., how it was collected, its uniqueness, etc.). This is similar to the process of citing other papers.

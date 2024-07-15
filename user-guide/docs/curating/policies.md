@@ -1,14 +1,14 @@
 ### DesignSafe Data Depot Repository Mission and History
 
-#### [Mission](#mission) { #mission }
+#### Mission { #mission }
 
 The Data Depot Repository (DDR) is the platform for curation and publication of datasets generated in the course of natural hazards research. The DDR is an <a href="https://www.budapestopenaccessinitiative.org/read">open access</a> data repository that enables data producers to safely store, share, organize, and describe research data, towards permanent publication, distribution and impact evaluation. The DDR allows data consumers to discover, search for, access, and reuse published data in an effort to accelerate research discovery.  The DDR is one component of the <a href="https://www.designsafe-ci.org/about/designsafe/">DesignSafe </a>cyberinfrastructure, which represents a comprehensive research environment that provides cloud-based tools to manage, analyze, understand, and publish critical data for research to understand the impacts of natural hazards.  DesignSafe is part of the NSF-supported Natural Hazards Engineering Research Infrastructure <a href="https://www.designsafe-ci.org/about/">(NHERI)</a>, and aligns with its mission to provide the natural hazards research community with <a href="https://doi.org/10.17603/ds2-4s85-mc54">open access, shared-use scholarship, education, and community resources</a> aimed at supporting civil infrastructure <a href="https://doi.org/10.17603/ds2-1f7x-9a52">prior to, during, and following natural disasters</a>. However, DesignSafe also supports the broader natural hazards research community that extends beyond the NHERI network.
 
-#### [History](#history) { #history }
+#### History { #history }
 
 The DDR has been in operation since 2016 and is currently supported by NSF through 2025.  The DDR preserves natural hazards research data published since its inception in 2016, and also provides access to legacy data dating from about 2005.  These legacy data were generated as part of the NSF-supported Network for Earthquake Engineering Simulation (NEES), a predecessor to NHERI.  Legacy data and metadata belonging to NEES were transferred to the DDR for continuous preservation and access. <a href="https://www.designsafe-ci.org/data/browser/public-legacy/">View the published NEES data here</a>.
 
-#### [Community](#community) { #community }
+#### Community { #community }
 
 The DDR serves the broader natural hazards research community both as data producers and consumers.  This research community includes, but is not limited to, the facilities that make up NHERI network - for which we are the designated data repository.  We work with each component of the NHERI network to meet the requirements and commitments of their distinct research focus and functions. As the only repository for open natural hazards research data, we welcome data produced in other national and international facilities and organizations.  At large, the repository serves a broad national and international audience of natural hazard researchers, students, practitioners, policy makers, as well as the general public.
 
@@ -18,7 +18,7 @@ The DDR serves the broader natural hazards research community both as data produ
 
 Policies for the DDR are driven by the Natural Hazards (NH) scientific community and informed by best practices in library and information sciences. The DDR operates under the leadership of the DesignSafe Management Team (DSMT), who establishes and updates policies, evaluates and recommends best practices, oversees its technical development, and prioritizes activities. The broad organizational structure under which the DDR operates is <a href="https://www.designsafe-ci.org/about/designsafe/">here</a>.
 
-#### [Repository Team](#repositoryteam) { #repositoryteam }
+#### Repository Team { #repositoryteam }
 
 An interdisciplinary repository team (RT) carries out ongoing design, development and day-to-day operations, gathering requirements and discussing solutions through formal monthly and bi-weekly meetings with the NHERI community and maintaining regular communications with members of the network, including monthly meetings with the<a href="https://www.designsafe-ci.org/facilities/experimental/"> Experimental Facilities</a>, <a href="https://rapid.designsafe-ci.org/">RAPID</a>, and <a href="https://rapid.designsafe-ci.org/">CONVERGE</a> staff. Based on these fluid communications, the RT designs functionalities, researches and develops best-practices, and implements agreed-upon solutions. The figure below shows the current formation of the RT, including their expertise.
 
@@ -26,13 +26,13 @@ An interdisciplinary repository team (RT) carries out ongoing design, developmen
 
 Formal mechanisms are in place for external evaluators to gather feedback and conduct structured assessments, in the form of usability studies and yearly user surveys, to ensure that the repository is meeting the community’s expectations and needs. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. All DDR activities are reported to the National Science Foundation on a quarterly and annual basis in terms of quantitative and qualitative progress.
 
-#### [Community Norms for DDR](#norms) { #norms }
+#### Community Norms for DDR { #norms }
 
 Within the broader conditions of use for DesignSafe we have established a set of Community Norms specific for DDR which have to be agreed upon at the point of registering an account on the platform. These norms, highlighting our existing policies, are the following:
 
 Users who either publish and use data in DDR must abide by both the <a href="https://portal.tacc.utexas.edu/tacc-usage-policy">TACC Acceptable Use Policy</a> and the <a href="https://www.designsafe-ci.org/account/terms-conditions/">DesignSafe Terms of Use</a>.
 
-##### [For users curating and publishing data in DDR:](#norms-curators) { #norms-curators }
+##### For users curating and publishing data in DDR: { #norms-curators }
 
 * Users understand that their data submissions to the DDR should follow our Data Policies and our Curation and Publication Best Practices to the best of their ability. 
 * Users agree to use DDR to publish only <a href="https://www.budapestopenaccessinitiative.org/read">open access </a>data, which they must document in a manner that does not hinder the ability of other users to reuse or reproduce it. 
@@ -42,7 +42,7 @@ Users who either publish and use data in DDR must abide by both the <a href="htt
 * Using DDR to publish data is entirely voluntary. None of these terms supersede any prior contractual obligations to confidentiality or proprietary information the user may have with third parties; thus, the user is entirely responsible for what they upload or share with DDR. .
 * Publications that do not fall within these norms may be removed. 
 
-##### [For users using data published in DDR:](#norms-users) { #norms-users }
+##### For users using data published in DDR: { #norms-users }
 
 * Users accessing and using DDR data agree to the following Data Use Agreement. 
 * Users agree to use DDR resources in accessing and reusing open access data in ways that respect the licenses established in the publications. 
@@ -51,17 +51,17 @@ Users who either publish and use data in DDR must abide by both the <a href="htt
 
 ### Data Collections Development
 
-#### [Data Types](#types) { #types }
+#### Data Types { #types }
 
 We accept engineering datasets, as well as social and behavioural sciences datasets, derived from research conducted in the context of natural hazards. In the area of engineering the primary focus is on data generated through simulation, hybrid simulation, experimental and field research methods regarding the impacts of wind, earthquake, and storm surge hazards. We also accept data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials. In social and behavioural sciences (SBE), accepted datasets encompass the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19, Fire Hazards, and Sustainable Material Management. 
 
 Users that deposit data that does not correspond to the accepted types will be alerted when possible prior to publication so they can remove their data from DDR, and will not be allowed to publish it. If a dataset non-compliant with the Collections Development policy gets published with a corresponding DOI, we will contact the authors and work with them to remove the data and leave a <a href="http://https://support.datacite.org/docs/tombstone-pages">tombstone</a> explaining why the data is not available. Curators review both in process and published data on a monthly basis. In both cases we will work with the authors to find an adequate repository for their dataset. 
 
-#### [Data Size](#size) { #size }
+#### Data Size { #size }
 
 Researchers in the natural hazards community generate very large datasets during large-scale experiments, simulations, and field research projects. At the moment the DDR does not pose limitations on the amount of data to be published, but we do recommend to be selective and publish data that is relevant to a project completeness and is adequately described for reuse. Our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-curation/">Data Curation Best Practices</a> include recommendations to achieve a quality data publication. We are observing trends in relation to sizes and subsequent data reuse of these products, which will inform if and how we will implement data size publication limit policies.
 
-#### [Data Formats](#formats) { #formats }
+#### Data Formats { #formats }
 
 We do not pose file format restrictions. The natural hazards research community utilizes diverse research methods to generate and record data in both open and proprietary formats, and there is continual <a href="https://rapid.designsafe-ci.org/equipment-portfolio/">update of equipment</a> used in the field. We do encourage our users to convert to open formats when possible. The DDR follows the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Format Statement</a> and has guidance in place to convert proprietary formats to open formats for long term preservation; see our<a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/"> Accepted and Recommended Data Formats</a> for more information. However, conversion can present challenges; Matlab, for example, allows saving complex data structures, yet not all of the files stored can be converted to a csv or a text file without losing some clarity and simplicity for handling and reusing the data. In addition, some proprietary formats such as jpeg, and excel have been considered standards for research and teaching for the last two decades. In attention to these reasons, we allow users to publish the data in both proprietary and open formats. Through our Fedora repository we keep file format identification information of all the datasets stored in DDR.
 ### Data Curation
@@ -70,17 +70,17 @@ Data curation involves the organization, description, representation, permanent 
 
 Our goal is to enable researchers to curate their data from the beginning of a research project and turn it into publications through interactive pipelines and consultation with data curators. The DDR has and continues to invest efforts in developing and testing curation and publication pipelines based on data models designed with input from the NHERI community.  
 
-#### [Data Management Plan](#management) { #management }
+#### Data Management Plan { #management }
 
 For natural hazards researchers submitting proposals to the NSF using any of the NHERI network facilities/resources, or alternative facilities/resources, we developed Data Management guidelines that explain how to use the DDR for data curation and publication. See Data Management Plan at: <a href="https://www.designsafe-ci.org/rw/user-guides/">https://www.designsafe-ci.org/rw/user-guides/</a> and <a href="https://converge.colorado.edu/data/data-management">https://converge.colorado.edu/data/data-management</a>
 
-#### [Data Models](#models) { #models }
+#### Data Models { #models }
 
 To facilitate data curation of the diverse and large datasets generated in the fields associated with natural hazards, we worked with experts in natural hazards research to develop<a href="https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/"> five data models </a>that encompass the following types of datasets: experimental, simulation, field research, hybrid simulation, and other data products (See: 10.3390/publications7030051; 10.2218/ijdc.v13i1.661) as well as lists of specialized vocabulary. Based on the <a href="http://icatproject-contrib.github.io/CSMD/">Core Scientific Metadata Model</a>, these data models were designed considering the <a href="https://www.youtube.com/watch?v=iYzvYi-SY8Q">community's research practices and workflows</a>, <a href="https://www.youtube.com/watch?v=xUyFJwZmyqM">the need for documenting these processes</a> (provenance), and using terms common to the field. The models highlight the structure and components of natural hazards research projects across time, tests, geographical locations, provenance, and instrumentation. Researchers in our community have presented on the design, implementation and use of these models broadly. 
 
 In the DDR web interface the data models are implemented as interactive functions with instructions that guide the researchers through the curation and publication tasks. As researchers move through the tion pipelines, the interactive features reinforce data and metadata completeness and thus the quality of the  publication. The process will not move forward if requirements for metadata are not in place (See <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-curation/">Metadata in Best Practices</a>), or if key files are missing.  
 
-#### [Metadata](#metadata) { #metadata }
+#### Metadata { #metadata }
 
 Up to date, there is no standard metadata schema to describe natural hazards data. In DDR we follow a combination of standard metadata schemas and expert-contributed vocabularies to help users describe and find data. 
 
@@ -92,7 +92,7 @@ To further describe datasets, the curation interface offers the possibility to a
 
 For purposes of metadata exchange and interoperability, the elements and tags in the data models are mapped to widely-used, standardized metadata schemas. These are: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core</a> for description of the dataset project, <a href="https://ddialliance.org/products/overview-of-current-products">DDI (Data Documentation Initiative)</a> for social science data, <a href="https://datacite.org/dois.html">DataCite</a> for DOI assignment and citation, and <a href="https://www.w3.org/2001/sw/wiki/PROV">PROV-O</a> to record the structure of the dataset. Metadata mapping is substantiated as the data is ingested into Fedora. Users can download the standardized metadata in the publications landing page. 
 
-#### [Metadata and Data Quality](#dataquality) { #dataquality }
+#### Metadata and Data Quality { #dataquality }
 
 The diversity and quantity of research methods, instruments, and data formats in natural hazards research is vast and highly specialized. For this reason, we conceive of data quality as a collaboration between the researchers and the DDR.  In consultation with the larger NHERI network we are continuously observing and defining best practices that emerge from our community's understanding and standards.
 
@@ -108,7 +108,7 @@ We also support citation best practices for datasets reused in our publications.
 
 Data publications review: Once a month, data curators meet to review new publications. These reviews show us how the community is using and understanding the models, and allows verifying the overall quality of the data publications. When we identify curation problems (e.g. insufficient or unclear descriptions, file or category  misplacement, etc.) that could not be automatically detected, we contact the researchers and work on solving these issues. Based on the feedback, users have the possibility to amend/improve their descriptions and to version their datasets (See amends and version control).
 
-#### [Curation and Publication Assistance ](#assistance) { #assistance }
+#### Curation and Publication Assistance  { #assistance }
 
 We believe that researchers are best prepared to tell the story of their projects through their data publications; our role is to enable them to communicate their research to the public by providing flexible and easy to use curation resources and guidance that abide by publication best practices. To support researchers organizing, categorizing and describing their data, we provide interactive pipelines with onboarding instructions, different modes of training and documentation, and one-on-one help.
 
@@ -122,7 +122,7 @@ Webinars by Researchers: Various researchers in our community contribute to our 
 
 ### Data Publication and Usage
 
-#### [Protected Data](#protecteddata) { #protecteddata }
+#### Protected Data { #protecteddata }
 
 Protected data are information subject to regulation under relevant privacy and data protection laws, such as <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">HIPAA</a>, <a href="https://studentprivacy.ed.gov/faq/what-ferpa">FERPA</a> and <a href="https://csrc.nist.gov/projects/risk-management/detailed-overview">FISMA</a>, as well as human subjects data containing <a href="https://security.utexas.edu/policies/irusp#definitions">Personally Identifiable Information (PII)</a> and data involving vulnerable populations and or containing <a href="https://en.wikipedia.org/wiki/Information_sensitivity">sensitive information</a>. 
 
@@ -136,23 +136,23 @@ It is the user’s responsibility to adhere to these policies and the procedures
 
 For any data not subject to IRB oversight but may still contain PII, such as Google Earth images containing images of people not studied in the scope of the research project, we recommend blocking out or blurring any information that could be considered PII before publishing the data in the DDR. We still invite any researchers that are interested in seeing the raw data to contact the PI of the research project to try and attain that. See our Protected Data<a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/"> Best Practices</a> for information on how to manage protected data in DDR.
 
-#### [Subsequent Publishing](#publishing) { #publishing }
+#### Subsequent Publishing { #publishing }
 
 Attending to the needs expressed by the community, we enable the possibility to publish data and other products subsequently within a project, each with a DOI. This arises from the longitudinal and/or tiered structure of some research projects such as experiments and field research missions which happen at different time periods, may involve multiple distinct teams, have the need to publish different types of materials or to release information promptly after a natural hazards event and later publish related products. Subsequent publishing is enabled in My Project interface where users and teams manage and curate their active data throughout their projects' lifecycle. 
 
-#### [Timely Data Publication  ](#timely) { #timely }
+#### Timely Data Publication   { #timely }
 
 Although no firm deadline requirements are specified for data publishing, as an NSF-funded platform we expect researchers to publish in a timely manner, so we provide recommended timelines for publishing different types of research data in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Timely Data Publication Best Practices.</a>
 
-#### [Peer Review](#peerreview) { #peerreview }
+#### Peer Review { #peerreview }
 
 Users that need to submit their data for revision prior to publishing and assigning a DOI have the opportunity to do so by: a) adding reviewers to their My Project, when there is no need for annonymous review, or b) by contacting the DesignSafe data curator through a Help ticket to obtain a Public Accessibility Data Delay (See below). Note that the data must be fully curated prior to requesting a Public Accessibility Delay. 
 
-#### [Public Accessibility Delay  ](#accessiblity) { #accessiblity }
+#### Public Accessibility Delay   { #accessiblity }
 
 Many researchers request a DOI for their data before it is made publicly available to include in papers submitted to journals for review. In order to assign a DOI in the DDR, the data has to be curated and ready to be published. Once the DOI is in place, we provide services to researchers with such commitments to delay the public accessibility of their data publication in the DDR, i.e. to make the user’s data publication, via their assigned DOI, not web indexable through DataCote and or not publicly available in DDR's data browser until the corresponding paper is published in a journal, or for up to one year after the data is deposited. The logic behind this policy is that once a DOI has been assigned, it will inevitably be published, so this delay can be used to provide reviewers access to a data publication before it is broadly distributed. Note that data should be fully curated, and that while not broadly it will be eventually indexed by search engines. Users that need to amend/correct their publications will be able to do so via version control. See our <a data-sk="tooltip_parent" data-stringify-link="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/" delay="150" href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/" rel="noopener noreferrer" target="_blank">Data Delay Best Practices</a> for more information on obtaining a public accessibility delay.
 
-#### [Data Licenses](#licenses) { #licenses }
+#### Data Licenses { #licenses }
 
 DDR provides users with 5 licensing options to accommodate the variety of research outputs generated and how researchers in this community want to be attributed. The following licenses were selected after discussions within our community. In general, DDR users are keen about sharing their data openly but expect attribution. In addition to data, our community issues reports, survey instruments, presentations, learning materials, and code. The licenses are: Creative Commons Attribution (CC-BY 4.0), Creative Commons Public Domain Dedication (CC-0 1.0), Open Data Commons Attribution (ODC-BY 1.0), Open Data Commons Public Domain Dedication (ODC-PPDL 1.0), and GNU General Public License (GNU-GPL 3).  During the publication process  users have the option of selecting one license per publication with a DOI. More specifications of these license options and the works they can be applied to can be found in <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Licensing Best Practices</a>. 
 
@@ -160,7 +160,7 @@ DDR also requires that users reusing data from others in their projects do so in
 
 The expectations of DDR and the responsibilities of users in relation to the application and compliance with licenses are included in the DesignSafe Terms of Use, the Data Usage Agreement, and the Data Publication Agreement. As clearly stated in those documents, in the event that we note or are notified that the licencing policies and best practices are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
-#### [Data Citation](#citation) { #citation }
+#### Data Citation { #citation }
 
 DDR abides by and promotes the <a href="https://www.force11.org/datacitationprinciples">Joint Declaration of Data Citation Principles</a> amongst its users. 
 
@@ -172,7 +172,7 @@ The expectations of DDR and the responsibilities of users in relation to the app
 
 However, given that it is not feasible to know with certainty if users comply with data citation, our approach is to educate our community by reinforcing citation in a positive way.  For this we implement outreach strategies to stimulate data citation.  Through diverse <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/faq/">documentation</a>, FAQs<a href="https://www.designsafe-ci.org/community/news/2017/importance-data-publishing-ellen-rathje/"> </a>webinars, and via emails, we regularly train our users on data citation best practices. And, by tracking and publishing information about the <a href="https://www.designsafe-ci.org/rw/impact-of-data-reuse/">impact and science contributions </a>of the works they publish citing the data that they use, we demonstrate the value of data reuse and further stimulate publishing and citing data.
 
-#### [Data Publication Agreement](#agreement) { #agreement }
+#### Data Publication Agreement { #agreement }
 
 This agreement is read and has to be accepted by the user prior to publishing a dataset. 
 
@@ -207,7 +207,7 @@ If applicable, I warrant that I am following the IRB agreements in place for my 
 
 I understand that the DDR does not approve data publications before they are posted; therefore, I am solely responsible for the submission, publication, and all possible confidentiality/privacy issues that may arise from the publication.
 
-#### [Data Usage Agreement](#datausage) { #datausage }
+#### Data Usage Agreement { #datausage }
 
 Users who access, preview, download or reuse data and metadata from the DesignSafe Data Depot Repository (DDR) agree to the following policies. If these policies are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
@@ -230,7 +230,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 	<li>Our system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. We only use this information in aggregate for metrics purposes and do not link it to the user’s identity.</li>
 </ul>
 
-#### [Amends and Version Control](#versioncontrol) { #versioncontrol }
+#### Amends and Version Control { #versioncontrol }
 
 Users can amend and version their data publications. Since the DDR came online, we have helped users correct and or improve the metadata applied to their datasets after publication. Most requests involve improving the text of the descriptions, changing the order of the authors, and adding references of papers publised using the data in the project; users also required the possibility to version their datasets. Our amends and version control policy derives from meeting our users needs. 
 
@@ -258,11 +258,11 @@ The Fedora repository manages all amends and versions so there is a record of al
 
 More information about the reasons for amends and versioning are in<a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/"> Publication Best Practices.</a>
 
-#### [Leave Data Feedback](#feedback) { #feedback }
+#### Leave Data Feedback { #feedback }
 
 Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the publication landing pages. We encourage users to provide constructive feedback and suggest themes they may want to discuss about the publication in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Leave Data Feedback Best Practices</a>
 
-#### [Data Impact](#impact) { #impact }
+#### Data Impact { #impact }
 
 We understand data impact as a strategy that includes complementary efforts at the crossroads of data discoverability, usage metrics, and scholarly communications. 
 
@@ -317,7 +317,7 @@ Data sustainability is a continuous effort that DDR accomplishes along with the 
 	<li>Identifying Data Guideline Needs for Community and Regional Resilience Modelling Workshop: <a href="http://resilience.colostate.edu/files/DATA/Agenda_DATA_20210316.pdf" target="_blank">http://resilience.colostate.edu/files/DATA/Agenda_DATA_20210316.pdf</a></li>
 </ul>
 
-#### [Continuity of Access](#continuity) { #continuity }
+#### Continuity of Access { #continuity }
 
 As part of the requirements of the current award we have a contingency pan in place to transfer all the DDR data, metadata and corresponding DOIs to a new awardee (should one be selected) without interruption of services and access to data. Fedora has <a href="https://wiki.lyrasis.org/display/FEDORA50/Import+and+Export+Tools">export capabilities </a>for transfer of data and metadata to another repository in a complete and validated fashion. The  portability plan is confirmed and updated in the Operations Project Execution Plan that we present anually to the NSF. 
 

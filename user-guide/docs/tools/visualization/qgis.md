@@ -19,7 +19,7 @@ By clicking on Connect, a new tab will be opened that comprises QGIS interactive
 QGIS has the following components:
 (1) Menu Bar, (2) Toolbars, (3) Browser Panel, (4) Layers Panel, (5) Map view, (6) Status Bar
 
-### [Load raster and vector layers from the sample dataset](#load) { #load }
+### Load raster and vector layers from the sample dataset { #load }
 
 You can either use Browser Panel to browse to your dataset (e.g. mydata or projects) and drag and drop it to Layers panel for visualization or from toolbar, you can select 'Add Raster Layer' and 'Add Vector Layer' icons to select raster or vector layers respectively.
 
