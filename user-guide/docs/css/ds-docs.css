@@ -115,3 +115,8 @@ hr.spacer {
 [data-page-name$="usecases/overview.md"] .wy-nav-content {
   padding-bottom: 0; /* undo theme.css */
 }
+
+/* To hide anchor link for deeper headings */
+:is(h4, h5, h6) .headerlink {
+  display: none;
+}
