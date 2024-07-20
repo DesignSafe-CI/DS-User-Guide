@@ -1,9 +1,15 @@
-<!-- # Grouping and Tagging Image Files -->
+/// html | header
+
 ## Taggit User Guide: Grouping and Tagging Image Files
 
-**Using Taggit to categorize image files with groups and tags**  
-**Fred Haan – Calvin University**
-**Key Words: Taggit, HazMapper, image tagging, image grouping, image labeling**
+Using Taggit to categorize image files with groups and tags
+/// 
+
+
+**Fred Haan – Calvin University **
+
+_Keywords: Taggit, HazMapper, image tagging, image grouping, image labeling_
+
 
 ### Resources 
 
