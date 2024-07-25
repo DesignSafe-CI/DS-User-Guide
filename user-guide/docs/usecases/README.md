@@ -158,7 +158,7 @@ The PR will show all the changes you have made in the "Files changed" tab.
 
 ### <a id="test-changes"></a> 11. Test Changes
 
-You can [**test your changes** on your local machine](../../../README#testing) using a command prompt (very few commands).
+You can [**test your changes** on your local machine](../../../README.md#testing) using a command prompt (very few commands).
 
 > **Note:**
 > GitHub preview is an inaccurate representation of what will appear on the site.

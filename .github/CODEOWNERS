@@ -1,17 +1,13 @@
 # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#example-of-a-codeowners-file
 
-# global
-# TODO: Ask @susanunit
-# * @susanunit
-
 # architecture
 /*                 @wesleyboar
 /.github/          @wesleyboar
 /user-guide/themes @wesleyboar
 
 # settings
-/user-guide/docs/index.md @wesleyboar @susanunit @cockerilltim
-/user-guide/mkdocs.yml    @wesleyboar @susanunit
+/user-guide/docs/index.md @wesleyboar
+/user-guide/mkdocs.yml    @wesleyboar
 
 # OpenSees
 /user-guide/docs/tools/simulation/opensees.md  @silviamazzoni
