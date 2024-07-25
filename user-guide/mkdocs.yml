@@ -20,6 +20,7 @@ theme:
         after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     analytics:
       gtag: G-D96RT1T24K
+    custom_dir: themes/ds-readthedocs
 
 extra_css:
   # TACC/TACC-Docs:/mkdocs.base.yml
