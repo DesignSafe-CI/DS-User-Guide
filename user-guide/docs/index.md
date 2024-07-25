@@ -1,5 +1,12 @@
-# DesignSafe User Guides
+# <em>Design</em>Safe User Guides
 *updated January 31, 2024*
+
+<style>
+h1 > em {
+    color: red;
+    font-style: normal;
+}
+</style>
 
 <strong>User Account Registration, Password Reset, and Reactivation</strong><br>
 Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. <a href="https://www.designsafe-ci.org/account/register/" target="_blank"><strong>Request a user account</strong></a>, and then follow the instructions in the email you receive to complete setting up your account. You will then be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
