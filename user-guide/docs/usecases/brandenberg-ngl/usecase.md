@@ -1,10 +1,6 @@
-/// html | header
-
 ## NGL Database
 
-Next Generation Liquefaction (NGL) Database Jupyter Notebooks
-
-/// 
+**Next Generation Liquefaction (NGL) Database Jupyter Notebooks**   
 
 **Brandenberg, S.J. - UCLA**<br/>
 **Ulmer, K.J. - Southwest Research Institute**<br/>

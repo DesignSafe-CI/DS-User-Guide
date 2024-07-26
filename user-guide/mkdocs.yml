@@ -84,44 +84,40 @@ nav:
 #        - 4. Jupyter & HPC: tools/simulation/opensees/openseesRunJupyterHPC.md
 #        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
 
-  # - Use Cases Flat:
-  #   - Overview: usecases/overview.md
-  #   - Data Analytics: usecases/dataanalyticsusecases.md
-  #   - GeoHazard: usecases/geohazardusecases.md
-  #   - Seismic: usecases/seismicusecases.md
-  #   - Wind and Storm Surge: usecases/windstormsurgeusecases.md
-
-
   - Use Cases:
     - Overview: usecases/overview.md
-    - Data Analytics: 
-      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
-      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
-      - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
-      - ML and AI: usecases/vantassel_and_zhang/usecase.md
-      - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
-      - Visualization of spatially distributed data: usecases/padgett/usecase_JN_viz.md
-    - GeoHazard:
-      - NGL Database: usecases/brandenberg-ngl/usecase.md
-      - MPM Landslide: usecases/kumar/usecase.md
-    - Seismic: 
-      - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
-      - Soil Structure Interaction: usecases/rathje/usecase.md
-      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
-      - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
-      - OpenSees Model Calibration: usecases/arduino/usecase.md
-    - Wind and Storm Surge: 
-      - Field Sensing Wind Events: usecases/pinelli/usecase.md
-      - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
-      - ADCIRC Datasets: usecases/dawson/usecase2.md
-      - Large-Scale Storm Surge: usecases/dawson/usecase.md
-      - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
-      - CFD Analysis of Winds on Low-Rise Building: usecases/kareem/usecase2.md
-      - Tamkang Database: usecases/kareem/usecase3.md
-      - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
+    - Data Analytics: usecases/dataanalyticsusecases.md
+    - GeoHazard: usecases/geohazardusecases.md
+    - Seismic: usecases/seismicusecases.md
+    - Wind and Storm Surge: usecases/windstormsurgeusecases.md
 
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - DesignSafe FAQ: tools/advanced/dsfaq.md
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
+
+
+# Old navigation for unflattened use cases
+#    - Data Analytics: usecases/dataanalytics-usecases.md
+#      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
+#      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
+#      - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
+#      - ML and AI: usecases/vantassel_and_zhang/usecase.md
+#      - API: usecases/brandenberg-api/usecase.md
+#    - GeoHazard: usecases/geohazard-usecases.md
+#      - NGL Database: usecases/brandenberg-ngl/usecase.md
+#      - MPM Landslide: usecases/kumar/usecase.md
+#    - Wind and Storm Surge: usecases/windstormsurge-usecases.md
+#      - Field Sensing Wind Events: usecases/pinelli/usecase.md
+#      - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
+#      - ADCIRC Datasets: usecases/dawson/usecase2.md
+#      - Large-Scale Storm Surge: usecases/dawson/usecase.md
+#      - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
+#      - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
+#    - Seismic: usecases/seismic-usecases.md
+#      - OpenSees Model Calibration: usecases/arduino/usecase.md
+#      - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
+#      - Soil Structure Interaction: usecases/rathje/usecase.md
+#      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
+#      - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md

@@ -1,19 +1,10 @@
-/// html | header
-
 ## Application Programming Interfaces
 
-Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems
-
-/// 
-
-**Scott J. Brandenberg - UCLA** <br>
-**Meera Kota - UCLA** <br>
-<br>
-_Keywords: API, Application Programming Interface, Jupyter, Python, requests, US Census, USGS, NASA, NOAA_
+__Scott J. Brandenberg and Meera Kota, UCLA__
 
 This use case provides some background information on application programming interfaces (API's) followed by examples that utilize the Python requests package to pull data from API's maintained by NASA, the US Census Bureau, the US Geological Survey, and the National Oceanic and Atmospheric Administration. 
 
-
+Key Words: API, Application Programming Interface, Jupyter, Python, requests, US Census, USGS, NASA, NOAA
 
 ### Resources
 

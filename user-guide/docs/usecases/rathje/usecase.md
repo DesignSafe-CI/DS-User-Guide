@@ -9,7 +9,7 @@ Integration of OpenSees-STKO-Jupyter to Simulate Seismic Response of Soil-Struct
 **Yu-Wei Hwang - University of Texas at Austin**  <br>
 **Ellen Rathje - University of Texas at Austin**  
 
-_Keywords: OpenSees, STKO, Jupyter, HPC_
+*Key Words: OpenSees, STKO, Jupyter, HPC*
 
 
 This use case example shows how to run an OpenSeesMP analysis on the high-performance computing (HPC) resources at [DesignSafe](https://www.designsafe-ci.org){:target="_blank"}  (DS) using the [STKO](https://asdeasoft.net/?product-stko){:target="_blank"}  graphical user interface and a Jupyter notebook. The example also post-processes the output results using python scripts, which allows the entire analysis workflow to be executed within DesignSafe without any download of output.

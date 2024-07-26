@@ -1,15 +1,10 @@
-/// html | header
-
+<!--# Multi-Data Set Image Analysis in Taggit -->
 ## Multi-Data Set Image Analysis in Taggit
 
-Combining Taggit analysis results with external data sets to do further analysis on image files
-/// 
 
-
-**Fred Haan – Calvin University **
-
-_Keywords: Taggit, QGIS, NWS Damage Assessment Toolkit (DAT), image tagging_
-
+**Combining Taggit analysis results with external data sets to do further analysis on image files**
+**Fred Haan – Calvin University**  
+**Key Words: Taggit, QGIS, NWS Damage Assessment Toolkit (DAT), image tagging**  
 
 ### Resources
 
