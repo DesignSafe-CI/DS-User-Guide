@@ -49,7 +49,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: designsafeci/ds-user-guide:latest,designsafeci/ds-user-guide:${{ steps.vars.outputs.sha_short }},designsafeci/ds-user-guide:${{ steps.vars.outputs.ref_short }}${{ inputs.tag_custom && ',designsafeci/ds-user-guide:' }}${{ inputs.tag_custom }}
+          tags: designsafeci/ds-user-guide:${{ inputs.tag_custom && inputs.tag_custom || 'latest' }},designsafeci/ds-user-guide:${{ steps.vars.outputs.sha_short }},designsafeci/ds-user-guide:${{ steps.vars.outputs.ref_short }}
       -
         name: Post build status in slack
         id: slack
