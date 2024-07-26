@@ -5,7 +5,7 @@ VisIt is an Open Source, interactive, scalable, visualization, animation and ana
 
 More detailed information and VisIt user documentation can be found on the <a href="https://wci.llnl.gov/simulation/computer-codes/visit/" title="VisIt Website" target="_blank">VisIt website</a>.
 
-### [How to Start a VisIt Interactive Session in the Workspace](#start) { #start }
+### How to Start a VisIt Interactive Session in the Workspace { #start }
 
 <ul>
 	<li>Select the VisIt application from the Visualization tab in the Workspace.</li>

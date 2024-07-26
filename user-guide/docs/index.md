@@ -1,4 +1,4 @@
-# DesignSafe User Guides
+# <u><b>Design</b>Safe</u> User Guides
 
 **Essentials**: [User Account Registration, Password Reset, and Reactivation](./accounts.md)
 

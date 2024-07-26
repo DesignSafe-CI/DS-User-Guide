@@ -26,6 +26,8 @@ extra_css:
   - css/core/bootstrap.css
   - css/core/core-styles.css
   - css/core/tacc-docs.css
+  - css/core/highlight-js.css
+  - css/core/permalink.css
   # DesignSafe/DS-User-Guide
   - css/ds-docs.css
 

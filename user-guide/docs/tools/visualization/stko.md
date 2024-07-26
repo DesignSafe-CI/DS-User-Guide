@@ -43,7 +43,7 @@ More detailed information and STKO user documentation can be found on the <a hre
 </li>
 </ol>
 
-### [Run OpenSees-STKO on DesignSafe](#run) { #run }
+### Run OpenSees-STKO on DesignSafe { #run }
 
 <ol>
 <li dir="ltr">
