@@ -1,4 +1,4 @@
-# DesignSafe User Guides
+# <u><b>Design</b>Safe</u> User Guides
 *updated January 31, 2024*
 
 <strong>User Account Registration, Password Reset, and Reactivation</strong><br>
