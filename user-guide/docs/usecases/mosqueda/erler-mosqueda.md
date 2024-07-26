@@ -9,7 +9,7 @@ Leveraging Machine Learning for Identification of Shake Table Data and Post Proc
 **Kayla Erler – University of California San Diego** <br>
 **Gilberto Mosqueda – University of California San Diego**
 
-*Key Words: machine learning, shake table, friction, data modeling*
+_Keywords: machine learning, shake table, friction, data modeling_
 
 ### Resources
  

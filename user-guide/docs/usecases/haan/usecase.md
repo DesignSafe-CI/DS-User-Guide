@@ -1,6 +1,15 @@
+/// html | header
+
 ## Taggit User Guide: Basic Image Browsing and Mapping
-**Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations**   
-**Fred Haan – Calvin University Key Words: Taggit, HazMapper, image browsing**
+
+Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations
+
+/// 
+
+
+**Fred Haan – Calvin University **
+
+_Keywords: Taggit, HazMapper, image browsing_
 
 ### Resources 
 
