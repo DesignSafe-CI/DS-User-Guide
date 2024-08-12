@@ -36,7 +36,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 > This solution uses a different theme than [designsafe-ci.org/user-guide](https://designsafe-ci.org/user-guide/) ([details](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)).
 
 0. Have Python installed.\
-    <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/6c22d2f/pyproject.toml).</sup>
+    <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/tacc/tacc-docs/pyproject.toml#L9).</sup>
 1. Navigate into your clone of this repo.
 2. Install dependencies:\
     <sup>You should only need to do this once, or after a new release.</sup>
