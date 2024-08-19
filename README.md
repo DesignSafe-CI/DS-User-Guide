@@ -38,21 +38,22 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/tacc/tacc-docs/pyproject.toml#L9).</sup>
 1. Navigate into your clone of this repo.
-2. Install dependencies:\
-    <sup>You should only need to do this once, or after a new release.</sup>
+2. Install software to manage dependencies:\
+    <sup>You should only need to do this once.</sup>
     ```shell
-    ./bin/tacc-setup.sh
     pip install poetry
 
     ```
-3. Isolate dependencies:
+3. Install/Update dependencies:\
+    <sup>You should only need to do this after new releases.</sup>
     ```shell
-    poetry shell
+    ./bin/tacc-setup.sh
+    poetry install
 
     ```
-4. Update & Serve the docs:
+4. Serve the docs:
     ```shell
-    poetry install
+    poetry shell
     cd user-guide
     mkdocs serve
 
