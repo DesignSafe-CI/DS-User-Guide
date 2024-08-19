@@ -10,7 +10,7 @@ Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization 
 **Sziklay, E. – Florida Tech**  <br> 
 **Ajaz, M.A. – Florida Tech**   
 
-*Key Words: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI*
+_Keywords: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI_
 
 ### Resources 
 
