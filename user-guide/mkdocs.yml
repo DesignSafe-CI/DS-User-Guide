@@ -34,8 +34,9 @@ plugins:
 
 nav:
   - Data Depot:
-    - Overview: managingdata/datadepot.md
+    - Overview: datadepot.md
     - Managing Data:
+      - Overview: managingdata/datadepot.md
       - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
       - Data Transfer Guides: managingdata/datatransfer.md
       - Data Management Plan: managingdata/datamanagementplan.md
