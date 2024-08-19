@@ -79,8 +79,8 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
     ```
    Windows user:
    ```shell
-    docker-compose -f docker-compose.yml build
-    docker-compose -f docker-compose.yml up
+    docker compose -f docker-compose.yml build
+    docker compose -f docker-compose.yml up
 
     ```
 4. Open the website at the URL provided e.g.
