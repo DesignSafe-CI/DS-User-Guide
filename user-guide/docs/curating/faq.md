@@ -1,3 +1,5 @@
+# Frequently Asked Questions
+
 ### Selecting Files & Data { #selecting }
 
 **Q: What are the best file formats for data publications?**  

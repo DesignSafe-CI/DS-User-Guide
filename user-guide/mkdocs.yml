@@ -15,9 +15,6 @@ theme:
     navigation_depth: 4
     features:
       - navigation.top
-    nav_redirects: # TACC Feature
-      - before: '#data-depotcuration-office-hours'
-        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     analytics:
       gtag: G-D96RT1T24K
 
@@ -37,11 +34,23 @@ plugins:
 
 nav:
   - Data Depot:
-    - Managing Data: managingdata.md
-    - Curating &amp; Publishing Projects: curating.md
-      # NOTE: External link is achieved via `js/changeNavMarkup.js`, NOT here
-      # - Data Depot/Curation Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-    - Recon Portal: recon.md
+    - Overview: managingdata/datadepot.md
+    - Managing Data:
+      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+      - Data Transfer Guides: managingdata/datatransfer.md
+      - Data Management Plan: managingdata/datamanagementplan.md
+      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+    - Data Depot Repository:
+      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+      - Curating &amp; Publication:
+        - Guides: curating/guides.md
+        - Frequently Asked Questions: curating/faq.md
+      - Best Practices: curating/bestpractices.md
+      - Metrics Documentation: curating/metrics.md
+      - Policies: curating/policies.md
+      - Metadata Dictionaries: dictionary.md
+    - Recon Portal:
+      - Recon Portal User Guide: tools/recon.md
 
   - Tools and Apps:
     - Analysis Applications: analysis.md

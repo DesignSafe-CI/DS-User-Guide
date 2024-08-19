@@ -1,3 +1,5 @@
+## Guides
+
 Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information on Data Depot policies, project types, and curation/publication can be found at:
 
 * <a href="#policies">Data Depot Repository (DDR) Policies</a></li>
