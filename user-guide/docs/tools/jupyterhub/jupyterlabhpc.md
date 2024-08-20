@@ -2,7 +2,7 @@
 
 On DesignSafe web portal, three versions of Jupyter have been created, including **Jupyter**, **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)**. **Jupyter** will be run on a virtual machine, while **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)** will be run on the CPU nodes on Stampede3 and GPU nodes on Frontera, respectively. In particular, the **Jupyter Lab HPC (GPU)** will be run on Frontera's NVIDIA RTX GPU nodes that have the best performance, and many commonly used Python packages for AI/ML applications have been pre-installed, including TensorFlow and PyTorch.
 
-   ![DS Jupyter](imgs/DS.png)
+   ![DS Jupyter](imgs/DSJupyter_new.png)
 
 | Application | Pro | Con |
 | --- | - | - |
