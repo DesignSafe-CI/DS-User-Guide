@@ -18,13 +18,13 @@ On DesignSafe web portal, three versions of Jupyter have been created, including
 
 1. Go to [DesignSafe website](https://www.designsafe-ci.org) and sign in to your DesignSage account. Then click "Use DesignSafe" > "Tools & Applications" > "Analysis" > "Jupyter" and select "Jupyter Lab HPC (GPU)".
 
-    ![DesignSafe Portal](imgs/DesignSafe_Portal.png)
+    ![DesignSafe Portal](imgs/DesignSafe_Portal_new.png)
 
-2. Once define your maximum Job runtime (no more than 48 hours) and Job name, click the "Run" buttton so the job will be submitted. Then you can monitor your job status on the right column.
+2. Once define Queue (rtx or rtx-dev) and maximum Job runtime (no more than 2 and 48 hours for rtx-dev and rtx queue, respetively) and your Allocation, click the "Submit Job" buttton so the job will be submitted. Then you can monitor your job status by clicking the "Job Status" buton on the left column.
 
-3. Once your job starts, the Job Status bar will show status as "RUNNING" and a small window will pop up. Then click the "CONNECT!" button to connect to your interactive session, i.e., JupyterLab.
+3. Once your job status shows as "Running", then click the "Open" button to connect to your interactive session, i.e., JupyterLab. And once you are done with your job, please click the "End" button to terminate your job.
 
-    ![Job Status](imgs/Job_status.png)
+    ![Job Status](imgs/Job_status_new.png)
 
 
 ## Launch the Jupyter Notebook
