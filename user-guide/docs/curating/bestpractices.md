@@ -1,3 +1,5 @@
+## Best Practices
+
 ### Data Collections Development
 
 #### Accepted Data  { #accepteddata }
