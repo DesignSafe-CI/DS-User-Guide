@@ -25,7 +25,7 @@ In the Workspace are available the following apps:
 
 <ul>
 	<li>LS-PrePost (DCV): Pre-processing and post-processing of models (<i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA&gt; LS-PrePost(DCV)</i>);</li>
-	<li>LS-Dyna: Actual solver (version 9.1.0) – serial and parallel versions (after activation - <i>Workspace &gt; My Apps &gt; LS-DYNA</i>).</li>
+	<li>LS-Dyna: Actual solver (version 2024R1) – single and double precisions (after activation - <i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA&gt; LS-DYNA</i>).</li>
 </ul>
 
 ### Activate Ls-Dyna on DesignSafe { #activate }
