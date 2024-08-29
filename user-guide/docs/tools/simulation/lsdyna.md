@@ -67,19 +67,19 @@ Examples in this guide:
 	</li>
 </ul>
 
-![](./imgs/ls-dyna-3.png)
+![](./imgs/ls-dyna-17.png)
 
 <ul>
-	<li>Once ready a new window will pop-up.
+	<li>Once ready a notification window will pop-up.
 	<ul>
-		<li>Click on Connect! and start using LS-Dyna Pre/Post.</li>
+		<li>Click on Open and then Connect! Enter your DesignSafe credentials and start using LS-Dyna PrePost.</li>
 	</ul>
 	</li>
 </ul>
 
-![](./imgs/ls-dyna-4.png)
+![](./imgs/ls-dyna-18.png)
 
-![](./imgs/ls-dyna-5.png)
+![](./imgs/ls-dyna-19.png)
 
 #### Launching a single job via DesignSafe web portal { #launch-singlejob }
 
