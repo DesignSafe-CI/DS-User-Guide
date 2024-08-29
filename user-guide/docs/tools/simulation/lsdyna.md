@@ -1,7 +1,7 @@
 ## LS-DYNA User Guide
 
 
-Ls-Dyna is a general-purpose multi-physics simulation software package. It was originated from DYNA3D, developed by John Hallquist at the Lawrence Livermore National Laboratory in 1976. The software was commercialized as LS-Dyna in 1988 by Livermore Software Technology Corporation (<a href="http://www.lstc.com" target="_blank">LSTC</a>).
+Ls-Dyna is a general-purpose multi-physics simulation software package. It was originated from DYNA3D, developed by John Hallquist at the Lawrence Livermore National Laboratory in 1976. The software was commercialized as LS-Dyna in 1988 by Livermore Software Technology Corporation and now it is part of Ansys (<a href="http://lsdyna.ansys.com" target="_blank">Ansys</a>).
 
 The main Ls-Dyna capabilities are:
 
@@ -30,7 +30,7 @@ In the Workspace are available the following apps:
 
 ### Activate Ls-Dyna on DesignSafe { #activate }
 
-DesignSafe (through TACC) has negotiated with LSTC to allow LS-DYNA access on TACC systems for academic research. Users can submit a ticket (https://www.designsafe-ci.org/help/new-ticket/) requesting LS-DYNA access and are granted access upon verification with LSTC that they have an existing academic departmental license or that you acquire such license.
+DesignSafe (through TACC) has negotiated with Ansys to allow LS-DYNA access on TACC systems for academic research. Users can submit a ticket (https://www.designsafe-ci.org/help/new-ticket/) requesting LS-DYNA access and are granted access upon verification with LSTC that they have an existing academic departmental license or that you acquire such license.
 
 A <i>Request Activation</i> button is also available in <i>Workspace &gt; Simulation &gt; LS-DYNA</i>:
 
