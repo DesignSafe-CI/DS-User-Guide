@@ -34,7 +34,7 @@ DesignSafe (through TACC) has negotiated with Ansys to allow LS-DYNA access on T
 
 A <i>Request Activation</i> button is also available in <i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA</i>:
 
-![](./imgs/ls-dyna-1.png)
+![](./imgs/ls-dyna-16.png)
 
 ### How to launch LS-Dyna { #launch }
 
