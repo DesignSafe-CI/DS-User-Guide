@@ -50,7 +50,7 @@ Examples in this guide:
 #### Launching LS-Pre/Post { #launch-prepost }
 
 <ul>
-	<li>Select the LS-PrePost app at (<i>Use DesignSafe &gt; Simulation &gt; Tools & Applications &gt; LS-DYNA</i>):</li>
+	<li>Select the LS-PrePost app at (<i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA</i>):</li>
 </ul>
 
 ![](./imgs/ls-dyna-16.png)
@@ -84,10 +84,10 @@ Examples in this guide:
 #### Launching a single job via DesignSafe web portal { #launch-singlejob }
 
 <ul>
-	<li>Select LS-DYNA (Serial) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
+	<li>Select LS-DYNA from the LS-DYNA app in (<i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA</i>):</li>
 </ul>
 
-![](./imgs/ls-dyna-6.png)
+![](./imgs/ls-dyna-20.png)
 
 <ul>
 	<li>Fill the form with the following information:
