@@ -62,7 +62,7 @@ Examples in this guide:
 		<li>Queue: the queue your job will be submitted to;</li>
 		<li>Maximum Job runtime: The maximum time you expect this job to run for. Note that after this amount of time your job will be killed by the job scheduler;</li>
 		<li>Allocation: the project allocation that this job will be used;</li>
-		<li>Click on _Submit Job_;</li>
+		<li>Click on <i>Submit Job</i>;</li>
 	</ul>
 	</li>
 </ul>
