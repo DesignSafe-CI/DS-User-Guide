@@ -34,7 +34,7 @@ DesignSafe (through TACC) has negotiated with Ansys to allow LS-DYNA access on T
 
 A <i>Request Activation</i> button is also available in <i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA</i>:
 
-![](./imgs/ls-dyna-16.png)
+![](./imgs/ls-dyna-1.png)
 
 ### How to launch LS-Dyna { #launch }
 
@@ -53,19 +53,16 @@ Examples in this guide:
 	<li>Select the LS-PrePost app at (<i>Use DesignSafe &gt; Simulation &gt; Tools & Applications &gt; LS-DYNA</i>):</li>
 </ul>
 
-![](./imgs/ls-dyna-2.png)
+![](./imgs/ls-dyna-16.png)
 
 <ul>
 	<li>Fill the form with the following information:
 	<ul>
-		<li>Working directory: that contains the files that you want to work on;</li>
-		<li>Desktop resolution: select the desktop screen size for the visualization;</li>
+		<li>Input Directory: that contains the files that you want to work on;</li>
+		<li>Queue: the queue your job will be submitted to;</li>
 		<li>Maximum Job runtime: The maximum time you expect this job to run for. Note that after this amount of time your job will be killed by the job scheduler;</li>
-		<li>Job name;</li>
-		<li>Job output archive location (optional): location where the job output should be archived;</li>
-		<li>Node Count: Number of requested process nodes for the job;</li>
-		<li>Processors per Node: numbers of cores per node for the job. The total number of cores used is equal to <i>NodeCount x ProcessorsPerNode</i>.</li>
-		<li>Click on Run;</li>
+		<li>Allocation: the project allocation that this job will be used;</li>
+		<li>Click on *Submit Job*;</li>
 	</ul>
 	</li>
 </ul>
