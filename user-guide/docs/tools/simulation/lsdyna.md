@@ -50,7 +50,7 @@ Examples in this guide:
 #### Launching LS-Pre/Post { #launch-prepost }
 
 <ul>
-	<li>Select the LS-Pre/Post app from the drop-drown menu at (<i>Workspace &gt; Simulation &gt; LS-DYNA</i>):</li>
+	<li>Select the LS-PrePost app at (<i>Use DesignSafe &gt; Simulation &gt; Tools & Applications &gt; LS-DYNA</i>):</li>
 </ul>
 
 ![](./imgs/ls-dyna-2.png)
