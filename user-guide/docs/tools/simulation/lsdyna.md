@@ -24,7 +24,7 @@ The main Ls-Dyna capabilities are:
 In the Workspace are available the following apps:
 
 <ul>
-	<li>LS-PrePost: Pre-processing and post-processing of models (<i>Workspace &gt; Simulation &gt;LS-DYNA&gt; LS-Pre/Post</i>);</li>
+	<li>LS-PrePost (DCV): Pre-processing and post-processing of models (<i>Use DesignSafe &gt; Tools & Applications &gt; LS-DYNA&gt; LS-PrePost(DCV)</i>);</li>
 	<li>LS-Dyna: Actual solver (version 9.1.0) – serial and parallel versions (after activation - <i>Workspace &gt; My Apps &gt; LS-DYNA</i>).</li>
 </ul>
 
