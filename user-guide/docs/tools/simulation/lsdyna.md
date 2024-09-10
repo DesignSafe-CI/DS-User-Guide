@@ -107,7 +107,7 @@ Examples in this guide:
 ![](./imgs/ls-dyna-22.png)
 
 <ul>
-	<li>Follow the Job Status on the left tab.</li>
+	<li>Follow the Job Status by clicking on <i>Job Status</i> on the left tab.</li>
 	<li>When the analysis is completed two options available:
 	<ul>
 		<li>Launching LS-PrePost again to visualize/extract results;</li>
