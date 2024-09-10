@@ -127,10 +127,10 @@ Examples in this guide:
 	</li>
 </ul>
 
-![](./imgs/ls-dyna-11.png)
+![](./imgs/ls-dyna-23.png)
 
 <ul>
-	<li>Transfer LS-Dyna k files to /scratch or /work directory on Frontera (via Globus);</li>
+	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede3 (via Globus or scp);</li>
 	<li>Generate 3 files:
 	<ul>
 		<li>A batch file (<em>launcherLs_Dyna.slurm</em>) that contains all the information about the resources that you need for the parallel job and calls input files (see example file below);</li>
