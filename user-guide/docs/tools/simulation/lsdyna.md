@@ -111,7 +111,7 @@ Examples in this guide:
 	<li>When the analysis is completed two options available:
 	<ul>
 		<li>Launching LS-PrePost again to visualize/extract results;</li>
-		<li>Transfer output files via Globus (see details at: <a href="https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus" target="_blank">[https://www.designsafe-ci.org/rw/user-guides/globus-data-transfer-guide/](https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus)</a>).</li>
+		<li>Transfer output files via Globus (see details at: <a href="https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus" target="_blank">(https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus)</a>).</li>
 	</ul>
 	</li>
 </ul>
