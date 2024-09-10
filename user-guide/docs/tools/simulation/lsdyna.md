@@ -43,7 +43,6 @@ Examples in this guide:
 <ul>
 	<li>Launching LS-PrePost to generate or visualize model via DesignSafe web portal;</li>
 	<li>Launching a single job via DesignSafe web portal;</li>
-	<li>Launching batch of jobs via DesignSafe web portal;</li>
 	<li>Launching batch of jobs via Command Line Interface.</li>
 </ul>
 
@@ -105,47 +104,6 @@ Examples in this guide:
 </ul>
 
 ![](./imgs/ls-dyna-7.png)
-
-<ul>
-	<li>Follow the Job Status on the right tab.</li>
-	<li>When the analysis is completed two options available:
-	<ul>
-		<li>Launching LS-PrePost again to visualize/extract results;</li>
-		<li>Transfer output files via Globus (see details at: <a href="https://www.designsafe-ci.org/rw/user-guides/globus-data-transfer-guide/" target="_blank">https://www.designsafe-ci.org/rw/user-guides/globus-data-transfer-guide/</a>).</li>
-	</ul>
-	</li>
-</ul>
-
-#### Launching batch of jobs via DesignSafe web portal { #launch-batch }
-
-<ul>
-	<li>Select LS-DYNA (Parallel) from the LS-DYNA app in (<i>Workspace &gt; My Apps &gt; LS-DYNA</i>):</li>
-</ul>
-
-![](./imgs/ls-dyna-8.png)
-
-<ul>
-	<li>Fill the form with the following information:
-	<ul>
-		<li>Working directory: that contains the files that you want to work on;</li>
-		<li>Number of Processors: insert the number of processors required to solve each job;</li>
-		<li>LS-DYNA Input: provide the input file name. This file should be a text file that lists the names of all jobs to run. All jobs need to be in the same directory (see example file below);</li>
-		<li>Maximum Job runtime: The maximum time you expect this job to run for. Note that after this amount of time your job will be killed by the job scheduler;</li>
-		<li>Job name;</li>
-		<li>Job output archive location (optional): location where the job output should be archived;</li>
-		<li>Node Count: Number of requested process nodes for the batch of jobs;</li>
-		<li>Processors per Node: numbers of cores per node for the batch of jobs. The total number of cores used is equal to NodeCount x ProcessorsPerNode;</li>
-		<li>Click on Run;</li>
-	</ul>
-	</li>
-</ul>
-
-![](./imgs/ls-dyna-9.png)
-
-<p><em>Example Ls-Dyna input file for parallel jobs.</em></p>
-
-
-![](./imgs/ls-dyna-10.png)
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
