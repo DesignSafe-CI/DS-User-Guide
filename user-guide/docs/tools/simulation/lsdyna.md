@@ -119,9 +119,9 @@ Examples in this guide:
 #### Launching batch of jobs via Command Line Interface (CLI) { #launch-batchcli }
 
 <ul>
-	<li>Connect to Frontera using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/frontera/):
+	<li>Connect to Stampede3 using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/stampede3/):
 	<ul>
-		<li>Host name: frontera.tacc.utexas.edu;</li>
+		<li>Host name: stampede3.tacc.utexas.edu;</li>
 		<li>Username and Password should be the same ones as for DesignSafe.</li>
 	</ul>
 	</li>
