@@ -104,7 +104,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-![](./imgs/ls-dyna-7.png)
+![](./imgs/ls-dyna-22.png)
 
 <ul>
 	<li>Follow the Job Status on the right tab.</li>
