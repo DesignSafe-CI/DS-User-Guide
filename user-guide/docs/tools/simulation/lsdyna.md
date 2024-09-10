@@ -91,14 +91,15 @@ Examples in this guide:
 <ul>
 	<li>Fill the form with the following information:
 	<ul>
-		<li>Working directory: that contains the files that you want to work on;</li>
-		<li>LS-DYNA Input: provide the input file name;</li>
+		<li>Input directory: that contains the files that you want to work on;</li>
+		<li>Input file: provide the input file name;</li>
+		<li>Precision: precision of your LS-Dyna solver;</li>
+		<li>Queue: the queue your job will be submitted to;</li>
 		<li>Maximum Job runtime: The maximum time you expect this job to run for. Note that after this amount of time your job will be killed by the job scheduler;</li>
-		<li>Job name;</li>
-		<li>Job output archive location (optional): location where the job output should be archived;</li>
 		<li>Node Count: Number of requested process nodes for the job;</li>
-		<li>Processors per Node: numbers of cores per node for the job. The total number of cores used is equal to NodeCount x ProcessorsPerNode;</li>
-		<li>Click on Run.</li>
+		<li>Cores per Node: numbers of cores per node for the job. The total number of cores used is equal to NodeCount x ProcessorsPerNode;</li>
+		<li>Allocation: the project allocation that this job will be used;</li>
+		<li>Click on <i>Submit Job</i>;</li>
 	</ul>
 	</li>
 </ul>
