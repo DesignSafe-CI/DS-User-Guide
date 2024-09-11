@@ -36,6 +36,5 @@ The following set of Community Norms encompassing DDR's [Policies](/user-guide/c
 * Users accessing and using DDR data agree to the [Data Usage Agreement](/user-guide/curating/policies/#datausage).
 * Users agree to use DDR datasets in ways that respect [the licenses](/user-guide/curating/policies/#licenses) established in the publications.
 * Users agree to properly cite the datasets they use in their works in accordance with the [Joint Declaration of Data Citation Principles](https://force11.org/info/joint-declaration-of-data-citation-principles-final/) by using the citations provided in the published datasets landing pages.
-* Publications that do not fall within these norms may be removed according to the [Tombstone Best Practices](https://support.datacite.org/docs/tombstone-pages).
 * Using DDR to publish data is entirely voluntary. None of these terms supersede any prior contractual obligations to confidentiality or proprietary information the user may have with third parties; thus, the user is entirely responsible for what they upload or share with DDR. 
 * We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms.
