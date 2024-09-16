@@ -43,6 +43,7 @@ Examples in this guide:
 <ul>
 	<li>Launching LS-PrePost to generate or visualize model via DesignSafe web portal;</li>
 	<li>Launching a single job via DesignSafe web portal;</li>
+	<li>Launching a single job via Command Line Interface.</li>
 	<li>Launching batch of jobs via Command Line Interface.</li>
 </ul>
 
@@ -114,6 +115,41 @@ Examples in this guide:
 		<li>Transfer output files via Globus (see details at: <a href="https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus" target="_blank">(https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus)</a>).</li>
 	</ul>
 	</li>
+</ul>
+
+#### Launching a single job via Command Line Interface (CLI) { #launch-batchcli }
+
+<ul>
+	<li>Connect to Stampede3 using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/stampede3/):
+	<ul>
+		<li>Host name: stampede3.tacc.utexas.edu;</li>
+		<li>Username and Password should be the same ones as for DesignSafe.</li>
+	</ul>
+	</li>
+</ul>
+
+![](./imgs/ls-dyna-23.png)
+
+<ul>
+	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede3 (via Globus or scp);</li>
+	<li>Prepare a batch file for job submission (see example file below):
+	</li>
+</ul>
+
+![](./imgs/ls-dyna-27.png)
+
+<p><em>Example batch file for Ls-Dyna via CLI.</em></p>
+
+<ul>
+	<li>Launch jobs using SSH client:
+	<ul>
+		<li><strong>cd</strong> directory_where_your_inputs_are</li>
+		<li><strong>sbatch</strong> <em>launcherLs_Dyna.slurm</em> (slurm file)</li>
+		<li><strong>squeue</strong> –u user_name (see status of job)</li>
+	</ul>
+	</li>
+	<li>Emails at begin and end of job will be sent to the email address provided in the batch file.</li>
+	<li>Once the analysis is completed, output files can be transferred using Globus (or SCP client) and used LS-PrePost (or else) to visualize them.</li>
 </ul>
 
 #### Launching batch of jobs via Command Line Interface (CLI) { #launch-batchcli }
