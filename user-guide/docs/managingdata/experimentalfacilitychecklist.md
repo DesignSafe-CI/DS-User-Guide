@@ -1,3 +1,5 @@
+## Experimental Facility Checklist
+
 ### DesignSafe-EF Onboarding Checklist for Data Curation { #onboarding }
 
 DesignSafe has been developed as a comprehensive research environment supporting a range of activities from research planning to cloud-based data analysis to data curation/publication.  We encourage users to take full advantage of the DesignSafe capabilities associated with both the Data Depot data repository and the Tools and Apps.  To learn more about all of these capabilities, watch this <a href="https://www.youtube.com/watch?v=5Yus9MjtcTM&amp;feature=youtu.be" target="_blank">Introductory Webinar</a>.
@@ -60,5 +62,3 @@ DesignSafe has been developed as a comprehensive research environment supporting
 * DesignSafe provides the possibility to publish one experiment at a time, so you do not need to finish your entire research project to publish all the experiments.
 * You may version your data and thus you can publish the raw data and add later analysis or processed results as version 2.
 * The project PI and co PI should be involved in the process to make sure they agree with the data presentation. Clarify with the team the authorship and order of authors.
-
----
