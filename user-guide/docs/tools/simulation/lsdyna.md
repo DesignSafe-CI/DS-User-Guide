@@ -140,7 +140,7 @@ Examples in this guide:
 			</li>
 		</ul>
 		</li>
-		<li><em>my_pylauncher_file.py</em>: it calls the application that allows to submit all the jobs in parallel. The number of cores assigned to each job is specified in cores (4 in this example). The script will call the file <em>parallellines</em> (see example file below);</li>
+		<li><em>my_pylauncher_file.py</em>: it calls Pylauncher that allows to submit all the jobs in parallel. The number of cores assigned to each job is specified in cores (4 in this example). The script will call the file <em>parallellines</em> (see example file below);</li>
 	</ul>
 	</li>
 </ul>
