@@ -1,8 +1,12 @@
-# DesignSafe User Guides
+# Getting Started
 
-**Essentials**: [User Account Registration, Password Reset, and Reactivation](./accounts.md)
 
----
+
+{% include-markdown './accounts.md' %}
+
+
+
+## Documentation Overview
 
 **Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
 

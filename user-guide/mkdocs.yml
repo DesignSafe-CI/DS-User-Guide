@@ -34,8 +34,8 @@ plugins:
 
 nav:
   - DesignSafe Essentials:
-    - Account Access: accounts.md
-    - Documentation Overview: index.md
+    - Getting Started: index.md
+    - Account Help: accounts.md
 
   - Data Depot:
     - Overview: datadepot.md
