@@ -148,15 +148,15 @@ Examples in this guide:
 	</li>
 </ul>
 
-![](./imgs/ls-dyna-23.png)
+![](./imgs/ls-dyna-24.png)
 
 <p><em>Example batch file for Ls-Dyna via CLI.</em></p>
 
-![](./imgs/ls-dyna-24.png)
+![](./imgs/ls-dyna-25.png)
 
 <p><em>Example my_pylauncher_file.py file.</em></p>
 
-![](./imgs/ls-dyna-25.png)
+![](./imgs/ls-dyna-26.png)
 
 <p><em>Example parallellines file.</em></p>
 
