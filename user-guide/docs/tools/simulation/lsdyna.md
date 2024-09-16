@@ -117,7 +117,7 @@ Examples in this guide:
 	</li>
 </ul>
 
-#### Launching a single job via Command Line Interface (CLI) { #launch-batchcli }
+#### Launching a single job via Command Line Interface (CLI) { #launch-singlecli }
 
 <ul>
 	<li>Connect to Stampede3 using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/stampede3/):
@@ -132,23 +132,23 @@ Examples in this guide:
 
 <ul>
 	<li>Transfer LS-Dyna k files to /scratch or /work directory on Stampede3 (via Globus or scp);</li>
-	<li>Prepare a batch file for job submission (see example file below):
+	<li>Prepare a slurm file for job submission (see example file below):
 	</li>
 </ul>
 
 ![](./imgs/ls-dyna-27.png)
 
-<p><em>Example batch file for Ls-Dyna via CLI.</em></p>
+<p><em>Example slurm for Ls-Dyna via CLI.</em></p>
 
 <ul>
 	<li>Launch jobs using SSH client:
 	<ul>
 		<li><strong>cd</strong> directory_where_your_inputs_are</li>
-		<li><strong>sbatch</strong> <em>launcherLs_Dyna.slurm</em> (slurm file)</li>
+		<li><strong>sbatch</strong> <em>Ls_Dyna.slurm</em> (slurm file)</li>
 		<li><strong>squeue</strong> –u user_name (see status of job)</li>
 	</ul>
 	</li>
-	<li>Emails at begin and end of job will be sent to the email address provided in the batch file.</li>
+	<li>Emails at begin and end of job will be sent to the email address provided in the slurm file.</li>
 	<li>Once the analysis is completed, output files can be transferred using Globus (or SCP client) and used LS-PrePost (or else) to visualize them.</li>
 </ul>
 
