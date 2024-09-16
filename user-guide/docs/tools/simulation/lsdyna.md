@@ -134,9 +134,9 @@ Examples in this guide:
 	<li>Generate 3 files:
 	<ul>
 		<li>A batch file (<em>launcherLs_Dyna.slurm</em>) that contains all the information about the resources that you need for the parallel job and calls input files (see example file below);</li>
-		<li>2 python routines to launch pylauncher that is a python-based parametric job launcher:
+		<li>A python routine to launch pylauncher that is a python-based parametric job launcher:
 		<ul>
-			<li><em>my_pylauncher_file.py</em>: it generates a file with the list of the <i>n</i> jobs that you need to run (see example file below);
+			<li><em>my_pylauncher_file.py</em>: it contains the list of the <i>n</i> jobs that you need to run (see example file below);
 			<ul>
 				<li>This routine will generate a <em>parallellines</em> file (for n=4) (see example file below);</li>
 			</ul>
@@ -148,21 +148,17 @@ Examples in this guide:
 	</li>
 </ul>
 
-![](./imgs/ls-dyna-12.png)
+![](./imgs/ls-dyna-23.png)
 
 <p><em>Example batch file for Ls-Dyna via CLI.</em></p>
 
-![](./imgs/ls-dyna-13.png)
+![](./imgs/ls-dyna-24.png)
 
-<p><em>Example myprallellines.py routine.</em></p>
+<p><em>Example my_pylauncher_file.py file.</em></p>
 
-![](./imgs/ls-dyna-14.png)
+![](./imgs/ls-dyna-25.png)
 
-<p><em>Example my_parallel_lines file.</em></p>
-
-![](./imgs/ls-dyna-15.png)
-
-<p><em>Example launcher_file.py routine.</em></p>
+<p><em>Example parallellines file.</em></p>
 
 <ul>
 	<li>Launch jobs using SSH client:
