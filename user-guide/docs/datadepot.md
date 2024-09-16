@@ -4,7 +4,7 @@ The <a href="https://www.designsafe-ci.org/data/browser/public/" target="_blank"
 
 * **My Data**: Private directory for your data.
 * **HPC Work**: Work directory on TACC HPC machines for use with Jupyter.
-* **My Projects**: Data to be curated and published must be in this directory. Also has group access that you control.\
+* **My Projects**: Data to be curated and published must be in this directory. Also has group access that you control.
 * **Shared with Me**: DEPRECATED. Use My Projects. Legacy directory we are no longer utilizing, but some very early users may have data. 
 * **Box.com**: Access to your Box files for copying to DesignSafe.
 * **Dropbox.com**: Access to your Dropbox for copying to DesignSafe.
