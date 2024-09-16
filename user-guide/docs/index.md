@@ -10,6 +10,20 @@ Any natural hazards researcher or practitioner that wants an environment to stor
 
 **Please note**: A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`.
 
+<!-- TODO: Use this when message box is smaller -->
+<!-- https://github.com/TACC/TACC-Docs/issues/54 >
+<!--
+!!! note "Please note"
+    A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`.
+-->
+<!-- HELP: This syntax does not work -->
+<!-- https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/#usage -->
+<!--
+/// note | Please Note
+A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`.
+///
+-->
+
 ## Documentation Overview
 
 **Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
