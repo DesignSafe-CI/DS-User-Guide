@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tag_custom:
-        description: 'A custom docker image tag e.g. "next"'
+        description: 'A custom docker image tag e.g. "dev"'
         required: false
         type: string
   push:

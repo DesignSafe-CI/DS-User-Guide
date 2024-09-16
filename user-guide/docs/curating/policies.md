@@ -1,3 +1,5 @@
+## Policies
+
 ### DesignSafe Data Depot Repository Mission and History
 
 #### Mission { #mission }
@@ -55,7 +57,7 @@ Users who either publish and use data in DDR must abide by both the <a href="htt
 
 We accept engineering datasets, as well as social and behavioural sciences datasets, derived from research conducted in the context of natural hazards. In the area of engineering the primary focus is on data generated through simulation, hybrid simulation, experimental and field research methods regarding the impacts of wind, earthquake, and storm surge hazards. We also accept data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials. In social and behavioural sciences (SBE), accepted datasets encompass the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19, Fire Hazards, and Sustainable Material Management. 
 
-Users that deposit data that does not correspond to the accepted types will be alerted when possible prior to publication so they can remove their data from DDR, and will not be allowed to publish it. If a dataset non-compliant with the Collections Development policy gets published with a corresponding DOI, we will contact the authors and work with them to remove the data and leave a <a href="http://https://support.datacite.org/docs/tombstone-pages">tombstone</a> explaining why the data is not available. Curators review both in process and published data on a monthly basis. In both cases we will work with the authors to find an adequate repository for their dataset. 
+Users that deposit data that does not correspond to the accepted types will be alerted when possible prior to publication so they can remove their data from DDR, and will not be allowed to publish it. If a dataset non-compliant with the Collections Development policy gets published with a corresponding DOI, we will contact the authors and work with them to remove the data and leave a <a href="https://support.datacite.org/docs/tombstone-pages">tombstone</a> explaining why the data is not available. Curators review both in process and published data on a monthly basis. In both cases we will work with the authors to find an adequate repository for their dataset. 
 
 #### Data Size { #size }
 
