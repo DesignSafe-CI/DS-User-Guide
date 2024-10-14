@@ -12,7 +12,7 @@ On DesignSafe web portal, three versions of Jupyter have been created, including
 
 **Note:** When using the **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)**, you need to place all your files/data/codes/Jupyter Notebooks inside the *Work* folder. This can be done on DesignSafe Data Depot page without submitting any jobs.
 
-   ![JupyterLab](imgs/HPCWork.png)
+   ![JupyterLab](imgs/Work.png)
 
 ## Launch the Jupyter Lab HPC (GPU)
 
