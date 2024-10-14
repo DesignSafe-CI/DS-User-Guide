@@ -29,13 +29,9 @@ On DesignSafe web portal, three versions of Jupyter have been created, including
 
 ## Launch the Jupyter Notebook
 
-1. Navigate to the "Work" folder. You need to place all your `data/codes/Jupyter Notebooks` inside this folder. 
-
-    ![JupyterLab](imgs/JupyterLab.png)
-
-2. Click on the `Python 3 (ipykernel)` button on the right to launch a new Jupyter Notebook. In this example, a Jupyter Notebook `Test.ipynb` was created. As seen, the PyTorch has been pre-installed and a total of four GPUs have been recognized. By typing `pip list`, you can view all the Python packages that have been pre-installed, including many popular ones, such as matplotlib, numpy, scipy, TensorFlow, PyTorch, etc.
+1. Click on the `Python 3 (ipykernel)` button on the right to launch a new Jupyter Notebook. In this example, a Jupyter Notebook `Test.ipynb` was created. As seen, the PyTorch has been pre-installed and a total of four GPUs have been recognized. By typing `pip list`, you can view all the Python packages that have been pre-installed, including many popular ones, such as matplotlib, numpy, scipy, TensorFlow, PyTorch, etc.
 
     ![JupyterNotebook](imgs/JupyterNotebook.png)
 
-3. To install a Python package, simply type `!pip3 install <Python Package Name>`.
+2. To install a Python package, simply type `!pip3 install <Python Package Name>`.
 
