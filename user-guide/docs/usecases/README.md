@@ -212,7 +212,7 @@ If you have added a Use Case, include it into one of the existing use case categ
 
 ---
 
-<!-- ## Description of yur use case -->
+<!-- ## Description of your use case -->
 
 {% include-markdown 'your-usecase/usecase.md' %}
 ```
