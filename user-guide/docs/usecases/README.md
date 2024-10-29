@@ -185,5 +185,39 @@ After a minute or so a preview deployment of your use case will be available on 
 
 </details>
 
+### <a id="add-to-guide"></a> 12. Add Content to User Guide
+
+Include your document into one of the existing use case categories —
+
+- [API](./apiusecases.md)
+- [Data Analytics](./dataanalyticsusecases.md)
+- [Geohazard](./geohazardusecases.md)
+- [Seismic](./seismicusecases.md)
+- [Wind and Storm Surge](./windstormsurgeusecases.md)
+
+— e.g. in [`dataanalyticsusecases.md`](./dataanalyticsusecases.md), under —
+
+```md
+
+---
+
+<!-- ## Visualization of spatially distributed data -->
+
+{% include-markdown 'padgett/usecase_JN_viz.md' %}
+```
+
+— add —
+
+```md
+
+---
+
+<!-- ## Description of yur use case -->
+
+{% include-markdown 'your-usecase/usecase.md' %}
+```
+
+— so that it will show up on this User Guide.
+
 [DS-User-Guide]: https://github.com/DesignSafe-CI/DS-User-Guide/
 [DS_Use_Case_template]: https://github.com/DesignSafe-CI/DS_Use_Case_template/
