@@ -185,15 +185,17 @@ After a minute or so a preview deployment of your use case will be available on 
 
 </details>
 
-### <a id="add-to-guide"></a> 12. Add New Use Case to User Guide
+### <a id="add-to-guide"></a> 12. Add Use Case New to User Guide
 
 If you have added a Use Case, include it into one of the existing use case category documents —
 
-- [`apiusecases.md` (API)](./apiusecases.md)
-- [`dataanalyticsusecases.md` (Data Analytics)](./dataanalyticsusecases.md)
-- [`geohazardusecases.md` (Geohazard)](./geohazardusecases.md)
-- [`seismicusecases.md` (Seismic)](./seismicusecases.md)
-- [`windstormsurgeusecases.md` (Wind and Storm Surge)](./windstormsurgeusecases.md)
+| Category | Document |
+| - | - |
+| API | [`apiusecases.md`](./apiusecases.md) |
+| Data Analytics | [`dataanalyticsusecases.md`](./dataanalyticsusecases.md) |
+| Geohazard | [`geohazardusecases.md`](./geohazardusecases.md) |
+| Seismic | [`seismicusecases.md`](./seismicusecases.md) |
+| Wind and Storm Surge | [`windstormsurgeusecases.md`](./windstormsurgeusecases.md) |
 
 — so that it will show up on this User Guide.
 
