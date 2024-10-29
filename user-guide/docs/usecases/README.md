@@ -185,9 +185,9 @@ After a minute or so a preview deployment of your use case will be available on 
 
 </details>
 
-### <a id="add-to-guide"></a> 12. Add Content to User Guide
+### <a id="add-to-guide"></a> 12. Add New Use Case to User Guide
 
-Include your document into one of the existing use case categories —
+If you have added a Use Case, include it into one of the existing use case categories —
 
 - [API](./apiusecases.md)
 - [Data Analytics](./dataanalyticsusecases.md)
