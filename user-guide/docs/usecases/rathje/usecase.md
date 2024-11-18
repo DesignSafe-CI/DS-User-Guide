@@ -20,10 +20,10 @@ This use case example shows how to run an OpenSeesMP analysis on the high-perfor
 #### Jupyter Notebooks
 The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
-| Scope | Notebook |
+| Scope | Jupyter Notebook | Jupyter Lab |
 | :-------: | :---------:  |
-| Submit job to STKO-compatible OpenSees | SSI_MainDriver.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/SSI_MainDriver.ipynb) |
-| Post-Processing in Jupyter | Example post-processing scripts.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb) |
+| Submit job to STKO-compatible OpenSees | SSI_MainDriver.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/SSI_MainDriver.ipynb) | SSI_MainDriver.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/OpenSees-STKO/SSI_MainDriver.ipynb) |
+| Post-Processing in Jupyter | Example post-processing scripts.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb) | Example post-processing scripts.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb) |
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
