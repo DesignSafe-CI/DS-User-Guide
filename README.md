@@ -4,8 +4,9 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 
 ## Contributing
 
-> [!NOTE]
-> For a detailed walkthrough of how to contribute to [Use Cases](https://www.designsafe-ci.org/user-guide/usecases/), see [its README](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/user-guide/docs/usecases/README.md).
+[How to Contirbute to **Use Cases**](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/user-guide/docs/usecases/README.md)
+
+How to Contribute **Other Changes**:
 
 1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository.\
     <sup>(unless you are a direct collaborator)</sup>
