@@ -1,10 +1,12 @@
-# DesignSafe Use Case Template
+# DesignSafe Use Cases
+
+How to contribute to [DesignSafe Use Cases](https://www.designsafe-ci.org/user-guide/usecases/overview/).
 
 ## A Guide to Adding Your Use Case Project
 
 ### <a id="fork-repo"></a> 1. Fork Repo
 
-The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
+The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
 
 | fork the repo |
 | - |
