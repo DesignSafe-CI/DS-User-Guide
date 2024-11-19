@@ -3,6 +3,8 @@ INHERIT: ./mkdocs.base.yml
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
+repo_url: https://github.com/DesignSafe-CI/DS-User-Guide
+edit_uri: edit/main/user-guide/docs/
 # NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
 site_favicon: https://www.designsafe-ci.org/favicon.ico
 
