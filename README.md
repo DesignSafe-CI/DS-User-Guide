@@ -65,9 +65,6 @@ How to Contribute **Other Changes**:
 
 ### B. Via Docker
 
-> [!WARNING]
-> This method does **not** work on macOS with an M1 nor M2 chip ([details](https://github.com/DesignSafe-CI/DS-User-Guide/issues/51)).
-
 0. Have Docker installed.\
     <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
 1. Navigate into your clone of this repository.
