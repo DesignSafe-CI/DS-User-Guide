@@ -67,6 +67,7 @@ nav:
   - Simulation Applications: 
     - Overview: tools/simulation/overview.md
     - ADCIRC: tools/simulation/adcirc/adcirc.md
+    - Ansys: tools/simulation/ansys.md
     - ClawPack: tools/simulation/clawpack.md
     - Dakota: tools/simulation/dakota.md
     - IN-CORE: tools/simulation/in-core.md
