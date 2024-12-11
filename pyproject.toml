@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tacc-docs"
+version = "0.12.0"
+description = ""
+package-mode = false
+authors = ["rstijerina <r.sal.tijerina@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+mkdocs = "~1.4.2"
+pymdown-extensions = "^10.4.0"
+mkdocs-exclude-search = "^0.6.5"
+# for {% include-markdown '…' %} (rel. paths in included files without warnings)
+mkdocs-include-markdown-plugin = "^5.1.0"
+# for {% include '…' %} (rel. paths in included files causes warnings) and more
+mkdocs-macros-plugin = "^1.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
