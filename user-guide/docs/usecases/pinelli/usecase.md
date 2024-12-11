@@ -9,6 +9,7 @@ Wind Data Analysis Tools
 **Soundarya Sridhar - Florida Institute of Technology**  
 **Jean-Paul Pinelli - Florida Institute of Technology**  
 **M.A. Ajaz - Florida Institute of Technology**
+**M. Bakhshandeh - Florida Institute of Technology**
 
 *Key Words: wireless sensors network, Tapis, Plotly, and Hurricane Ian*
 
