@@ -111,8 +111,9 @@ nav:
   - Use Cases:
     - Overview: usecases/overview.md
     - Data Analytics:
-      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
-      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
+# the following have been moved to the user guide. we need to remove these files from the directory in use cases
+#      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
+#      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
