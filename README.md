@@ -36,28 +36,20 @@ How to Contribute **Other Changes**:
 > [!IMPORTANT]
 > This method has different theme than [live website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) **and** bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
 
-0. Have Python installed.\
-    <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/tacc/tacc-docs/pyproject.toml#L9).</sup>
-1. Navigate into your clone of this repo.
-2. Install software to manage dependencies:\
+0. Have [Python](https://www.python.org/) installed.\
+    <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/TACC/TACC-Docs/blob/v0.10.1/pyproject.toml#L9).</sup>
+1. [Install Poetry](https://python-poetry.org/docs/#installation) to manage dependencies.\
     <sup>You should only need to do this once.</sup>
-    ```shell
-    pip install poetry
-
-    ```
-3. Install/Update dependencies:\
+2. Navigate into `/user-guide/` within your clone of this repo.
+3. Install/Update project dependencies:\
     <sup>You should only need to do this after new releases.</sup>
     ```shell
-    ./bin/tacc-setup.sh
     poetry install
-
     ```
 4. Serve the docs:
     ```shell
     poetry shell
-    cd user-guide
     mkdocs serve
-
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
 5. Open the website _at the URL echoed by the program_ e.g.
