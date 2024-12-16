@@ -40,11 +40,11 @@
 
 ---
 
-{% include-markdown 'visualization/taggit-view+map.md' %}
+{% include-markdown 'visualization/taggit-browse-map.md' %}
 
 ---
 
-{% include-markdown 'visualization/taggit-organize.md' %}
+{% include-markdown 'visualization/taggit-categorize.md' %}
 
 ---
 

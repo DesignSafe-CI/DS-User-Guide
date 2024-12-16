@@ -37,75 +37,75 @@ This example begins with a Gallery that has already been created. If you do not 
 
 As an example workflow, we will consider a damage survey dataset from the December 2021 Midwest tornado outbreak (see below) and create some groups to organize these images.
 
-![](imgs/taggit-organize-001.png)
+![](imgs/taggit-categorize-001.png)
 
 Clicking on any of the images, will put a blue border around the image and cause a Create Group to appear in the upper right corner as shown here:
 
-<!-- ![](imgs/taggit-organize-004.png) -->
+<!-- ![](imgs/taggit-categorize-004.png) -->
 
 Clicking on Create Group will bring up a window in which to type in a name for your new group as show here. I am creating a group for all the Grain bins. 
 
-![](imgs/taggit-organize-005.png)
+![](imgs/taggit-categorize-005.png)
 
 Two things then happen when you add this group. First, that image you selected become a part of the group, and you'll see a small colored square that indicates it is a part of the group (see below). Second, the Taggit button will appear in the upper right corner. 
 
-![](imgs/taggit-organize-007.png)
+![](imgs/taggit-categorize-007.png)
 
 If you hover your mouse near the colored square, you will see the name of the group like this:
 
-<!-- ![](imgs/taggit-organize-008.png) -->
+<!-- ![](imgs/taggit-categorize-008.png) -->
 
 If you click the Taggit button, the screen will switch from the Gallery view to the Taggit view as shown below. This view will show the groups you have created and the images that are in each group. You can click on each image name to show them enlarged on the left. The Gallery/Map button in the upper right will send you back to the Gallery view.
 
-![](imgs/taggit-organize-009.png)
+![](imgs/taggit-categorize-009.png)
 
 ### Adding Images to Groups
 
 To add more images to a group, you have two options. One option is to hover over an image and use the icons that appear (see below). The plus icon will bring up the option to add this image to a group. The magnifying glass and recycle bin allow you to enlarge the image or remove it from the Gallery, respectively. 
 
-![](imgs/taggit-organize-010.png)
+![](imgs/taggit-categorize-010.png)
 
 The other option is to select a few images and then use the Add to Group button that appears when you select images as shown here. I selected two more grain bin images for this example.
 
-![](imgs/taggit-organize-011.png)
+![](imgs/taggit-categorize-011.png)
 
 Any given image can belong to multiple groups as illustrated by the group icons here:
 
-![](imgs/taggit-organize-012.png)
+![](imgs/taggit-categorize-012.png)
 
 When you create more groups and assign images to each group, the Taggit view will list them all as show here:
 
-![](imgs/taggit-organize-013.png)
+![](imgs/taggit-categorize-013.png)
 
 ### Changing icons for each group
 
 In the list of Groups in the Taggit view (shown below), each group's icon is shown on the right. If you click on that icon, you can change use a pull-down menu to change it if you wish.
 
-![](imgs/taggit-organize-015.png)
+![](imgs/taggit-categorize-015.png)
 
 Modified icons are shown below for each of the groups. These icons are then used when that group's images are plotted in HazMapper. 
 
-![](imgs/taggit-organize-016.png)
+![](imgs/taggit-categorize-016.png)
 
 ### Creating Tags within each Group
 
 Within a given group, you can create custom Tags by clicking on the “+” icon in the Tag Images portion of the Taggit view (see below):
 
-![](imgs/taggit-organize-017.png)
+![](imgs/taggit-categorize-017.png)
 
 This will show the options for the types of Tags as shown below. You can create Tags that are just a text box (Text), a checkbox list, a radio button list, a dropdown menu of tag options, or a color tag. The color tag can be used to change the color that is displayed in HazMapper.
 
-![](imgs/taggit-organize-018.png)
+![](imgs/taggit-categorize-018.png)
 
 For this example, I am creating a Checkbox tag. The Tag itself has a Label and then you add as many Options are you wish by entering the name of each Option and then pressing the “+” button to add it to the list.  In what is shown below, I added “CMU” as an Option, pressed the “+” to add it.  Now I am adding Red brick as an Option, and am about to press the “+” to add it.
 
 Once I have added all my options with the “+” button, then I press Save and I now have a Checkbox for each image in my Masonry group.
 
-![](imgs/taggit-organize-020.png)
+![](imgs/taggit-categorize-020.png)
 
 Clicking one of the Checkbox options will cause a Save Tags button to appear (as shown below). You do not have to click the Save Tags button between every Tag you enter, but you will need to click it before leaving the tagging of that group and going back to Gallery view.
 
-![](imgs/taggit-organize-023.png)
+![](imgs/taggit-categorize-023.png)
 
 Groups and Tags can be exported using the Export Tags/Groups option in the pull-down menu. You can export to your local machine or to a folder in DesignSafe. This export option will generate one json file and also separate csv files for each group in the Gallery. 
 
