@@ -40,17 +40,11 @@
 
 ---
 
-<!-- ## Basic Image Browsing and Mapping -->
-<!-- moved from use cases -->
-
-{% include-markdown '../usecases/haan/usecase.md' %}
+{% include-markdown 'visualization/taggit-view+map.md' %}
 
 ---
 
-<!-- ## Grouping and Tagging Image Files -->
-<!-- moved from use cases -->
-
-{% include-markdown '../usecases/haan/usecase-2.md' %}
+{% include-markdown 'visualization/taggit-organize.md' %}
 
 ---
 
