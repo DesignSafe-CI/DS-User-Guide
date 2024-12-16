@@ -110,6 +110,7 @@ nav:
 
   - Use Cases:
     - Overview: usecases/overview.md
+    - Data Analytics:
 # the following have been moved to the user guide. we need to remove these files from the directory in use cases
 #      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
 #      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
