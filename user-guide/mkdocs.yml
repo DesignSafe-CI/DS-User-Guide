@@ -102,13 +102,6 @@ nav:
 #        - 4. Jupyter & HPC: tools/simulation/opensees/openseesRunJupyterHPC.md
 #        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
 
-  # - Use Cases Flat:
-  #   - Overview: usecases/overview.md
-  #   - Data Analytics: usecases/dataanalyticsusecases.md
-  #   - GeoHazard: usecases/geohazardusecases.md
-  #   - Seismic: usecases/seismicusecases.md
-  #   - Wind and Storm Surge: usecases/windstormsurgeusecases.md
-
 
   - Use Cases:
     - Overview: usecases/overview.md
