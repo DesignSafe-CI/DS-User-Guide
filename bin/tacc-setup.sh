@@ -2,7 +2,7 @@
 
 # To provide files via a CDN from a specific repo at a specific commit-ish
 # https://github.com/DesignSafe-CI/DS-User-Guide/pull/14
-BASE_URL="https://cdn.jsdelivr.net/gh/DesignSafe-CI/DS-User-Guide@016dcda"
+BASE_URL="https://cdn.jsdelivr.net/gh/DesignSafe-CI/DS-User-Guide@624d01be"
 
 # To avoid the error:
 # > ERROR - Config value 'theme': The path set in custom_dir
