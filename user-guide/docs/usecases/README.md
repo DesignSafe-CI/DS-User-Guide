@@ -187,49 +187,58 @@ After a minute or so a preview deployment of your use case will be available on 
 
 </details>
 
-### <a id="add-to-guide"></a> 12. Add Use Case New to User Guide
+### <a id="add-to-guide"></a> 12. Add New Use Case to User Guide
 
-If you have added a Use Case, include it into one of the existing use case category documents —
+If you have added a Use Case, add it to the [`nav` in `user-guide/mkdocs.yml`](https://github.com/DesignSafe-CI/DS-User-Guide/blob/v2.2.0/user-guide/mkdocs.yml#L112-L136) —
 
-| Category | Document |
-| - | - |
-| API | [`apiusecases.md`](./apiusecases.md) |
-| Data Analytics | [`dataanalyticsusecases.md`](./dataanalyticsusecases.md) |
-| Geohazard | [`geohazardusecases.md`](./geohazardusecases.md) |
-| Seismic | [`seismicusecases.md`](./seismicusecases.md) |
-| Wind and Storm Surge | [`windstormsurgeusecases.md`](./windstormsurgeusecases.md) |
+```yml
+  - Use Cases:
+    - Overview: usecases/overview.md
+    - Data Analytics:
+      - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
+      - ...
+    - GeoHazard:
+      - NGL Database: usecases/brandenberg-ngl/usecase.md
+      - ...
+    - Seismic: 
+      - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
+      - ...
+    - Wind and Storm Surge: 
+      - Field Sensing Wind Events: usecases/pinelli/usecase.md
+      - ...
+```
 
 — so that it will show up on this User Guide.
 
 #### Example
 
-To add to [`dataanalyticsusecases.md` (Data Analytics)](./dataanalyticsusecases.md):
+To add your use case to "Wind & Storm Surge":
 
-1. Find bottommost `{% include-markdown '…' %}` e.g.
+1. Open [`/user-guide/mkdocs.yml`](../../mkdocs.yml).
+2. Find the `nav` "Use Cases" hierarchy within "Wind & Storm Surge" category in "Use Cases":
+    ```yaml
+    nav:
+      - ...
+      - Use Cases:
+        - Overview: ...
+        - Data Analytics:
+          - ...
+        - GeoHazard:
+          - ...
+        - Seismic:
+          - ...
+        - Wind and Storm Surge: 
+          - ...
+    ```
+2. Add an entry for your use case within "Wind & Storm Surge" category in "Use Cases":
 
-    ```md
-
-    ---
-
-    <!-- ## Visualization of spatially distributed data -->
-
-    {% include-markdown 'padgett/usecase_JN_viz.md' %}
+    ```diff
+        - Wind and Storm Surge: 
+        - ...
+    +      - Your Use Case: your-usecase/usecase.md
     ```
 
-    <sup>Bottommost include may be different since last update.</sup>
-
-2. Add an include to your document in the same way:
-
-    ```md
-
-    ---
-
-    <!-- ## Description of yur use case -->
-
-    {% include-markdown 'your-usecase/usecase.md' %}
-    ```
-
-    <sup>Edit this include to point to your use case.</sup>
+    <sup>Edit the new line to reflect your use case.</sup>
 
 [DS-User-Guide]: https://github.com/DesignSafe-CI/DS-User-Guide/
 [DS_Use_Case_template]: https://github.com/DesignSafe-CI/DS_Use_Case_template/
