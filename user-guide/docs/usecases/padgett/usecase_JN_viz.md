@@ -13,18 +13,7 @@ _Keywords: visualization; risk and resilience; infrastructure systems; static, i
 
 ### Resources
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({  
-jax: ["input/TeX", "output/HTML-CSS"],
-extensions: ["tex2jax.js"],
-"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
-tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" }, 
-TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
-messageStyle: "none"  
-});
-
-</script> 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+{% include-markdown '../../mathjax.md' %}
 
 #### Jupyter Notebooks
 The following Jupyter notebook is the basis for the use case described in this section. You can access and run it directly on DesignSafe by clicking on the "Open in DesignSafe" button.
