@@ -30,6 +30,8 @@ extra_css:
 
 plugins:
   - search
+  - exclude-search:
+      exclude_unreferenced: true
   - include-markdown
 
 nav:
