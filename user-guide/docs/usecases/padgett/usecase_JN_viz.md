@@ -13,8 +13,6 @@ _Keywords: visualization; risk and resilience; infrastructure systems; static, i
 
 ### Resources
 
-{% include-markdown '../../mathjax.md' %}
-
 #### Jupyter Notebooks
 The following Jupyter notebook is the basis for the use case described in this section. You can access and run it directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
