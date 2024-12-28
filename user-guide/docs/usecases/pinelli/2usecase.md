@@ -13,7 +13,14 @@ Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization 
 _Keywords: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI_
 
 ### Resources 
+#### Jupyter Notebooks
+The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
+| Scope | Notebook |
+| :-------: | :---------:  |
+| Visualizing geospatial hurricane impact data |  FirstMap.ipynb<br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/FirstMap.ipynb) |
+
+#### DesignSafe Resources
 * <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Hazard-Exposure-Reconnaissance%20Integration%20and%20Visualization/FirstMap.ipynb">Jupyter notebook on DesignSafe Jupyterhub</a>
 * GitHub, <a href="https://github.com/keplergl/kepler.gl">https://github.com/keplergl/kepler.gl</a> 
 * StEER Network,<a href="../../../Containers/com.apple.mail/Data/Library/Mail%20Downloads/F826EEA0-D8C2-4F19-B0E4-C81BF6BFFC38/%20https:/www.steer.network"> https://www.steer.network</a>
