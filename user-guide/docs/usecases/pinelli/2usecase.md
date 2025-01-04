@@ -6,9 +6,9 @@ Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization 
 
 ///
 
-**Pinelli, J.-P. – Florida Institute of Technology**    <br> 
-**Sziklay, E. – Florida Institute of Technology**  <br> 
-**Ajaz, M.A. – Florida Institute of Technology**   
+**Pinelli, J-P. – Professor - Florida Institute of Technology - pinelli@fit.edu**    <br> 
+**Sziklay, E. – Graduate Student - Florida Institute of Technology - esziklay2018@my.fit.edu**  <br> 
+**Ajaz, M.A. – Graduate Student - Florida Institute of Technology - abdulajaz2023@my.fit.edu**   
 
 _Keywords: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI_
 
