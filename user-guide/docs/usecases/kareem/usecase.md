@@ -70,7 +70,7 @@ For better understanding, A Jupyter Notebook example, [Jupyter_PyFoam.ipynb](htt
 
 In addition, a baseline model housed in [DH_Baseline](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter){target=_blank} directory is provided that can be used to generate an input environment for an OpenFOAM simulation.
 
-It is worth noting that DesignSafe recently introduced a [Jupyterhub Spawner](https://www.designsafe-ci.org/rw/user-guides/tools-applications/jupyter/){target=_blank} for users to run one of two Jupyter server images. To run Jupyter Notebooks for CFD presented in this document, users should use the `Classic Jupyter Image` as the Jupyter server.
+It is worth noting that DesignSafe recently introduced a [Jupyterhub Spawner](../../../tools/jupyterhub/#spawner) for users to run one of two Jupyter server images. To run Jupyter Notebooks for CFD presented in this document, users should use the `Classic Jupyter Image` as the Jupyter server.
 
 ##### Using PyFoam utilities in the Jupyter Notebook
 
