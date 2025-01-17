@@ -268,7 +268,7 @@ $ tapis apps show padcirc-frontera-55.01u4
 | defaultNodeCount         | 3                                                                                                                                                           |
 | defaultMaxRunTime        | 02:00:00                                                                                                                                                    |
 | defaultQueue             | normal                                                                                                                                                      |
-| helpURI                  | https://www.designsafe-ci.org/rw/user-guides/tools-applications/simulation/adcirc/                                                                          |
+| helpURI                  | https://www.designsafe-ci.org/user-guide/tools/simulation/adcirc/adcirc/                                                                          |
 | deploymentPath           | /applications/padcirc-frontera-55.01u4.zip                                                                                                                  |
 | templatePath             | wrapper-frontera.sh                                                                                                                                         |
 | testPath                 | test/test.sh                                                                                                                                                |
