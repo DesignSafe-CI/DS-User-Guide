@@ -6,9 +6,9 @@ Wind Data Analysis Tools
 
 ///
 
-**Soundarya Sridhar - Florida Institute of Technology**  
-**Jean-Paul Pinelli - Florida Institute of Technology**  
-**M.A. Ajaz - Florida Institute of Technology**
+**Soundarya Sridhar - Florida Institute of Technology - ssridhar2017@my.fit.edu**  
+**Jean-Paul Pinelli - Florida Institute of Technology - pinelli@fit.edu**  
+**M.A. Ajaz - Florida Institute of Technology - abdulajaz2023@my.fit.edu**
 
 
 *Key Words: wireless sensors network, Tapis, Plotly, and Hurricane Ian*
@@ -27,11 +27,11 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 <span style="font-size:.75em;">
 
-| Scope | Notebook |
-| :-------: | :---------:  |
-| Metadata Collection Setup | WOW_6-22-21_NB1__Standardization File.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Sliding%20Patio%20Doors/WOW_6-22-21_NB1__Standardization%20File.ipynb) |
-| Data Integration and Cleanup | WoW_6-22-21_NB2_WSNS POST PROCESSING.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Sliding%20Patio%20Doors/WoW_6-22-21_NB2_WSNS%20POST%20PROCESSING.ipynb) |
-| WoW Test for Glass Sliding Doors, JUNE 2021 | WoW_6-22-21_NB3_INTERACTIVE ANALYSIS.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Sliding%20Patio%20Doors/WoW_6-22-21_NB3_INTERACTIVE%20ANALYSIS.ipynb) |
+| Scope | Notebook | Date of Experiment | Date of Publication |
+| :-------: | :---------:  | :---------:  | :---------:  |
+| Metadata Collection Setup | WOW_6-22-21_NB1__Standardization File.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Sliding%20Patio%20Doors/WOW_6-22-21_NB1__Standardization%20File.ipynb) | 2021-06 | 2024-02 |
+| Data Integration and Cleanup | WoW_6-22-21_NB2_WSNS POST PROCESSING.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Sliding%20Patio%20Doors/WoW_6-22-21_NB2_WSNS%20POST%20PROCESSING.ipynb) | 2021-06 | 2024-02 |
+| WoW Test for Glass Sliding Doors| WoW_6-22-21_NB3_INTERACTIVE ANALYSIS.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Sliding%20Patio%20Doors/WoW_6-22-21_NB3_INTERACTIVE%20ANALYSIS.ipynb) | 2021-06 | 2024-02 |
 
 </span>
 
@@ -39,11 +39,11 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 <span style="font-size:.75em;">
 
-| Scope | Notebook |
-| :-------: | :---------:  |
-| Metadata Collection Setup | WOW_8-10-21_NB1__Standardization File.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Storm%20Shield/WOW_8-10-21_NB1__Standardization%20File.ipynb) |
-| Data Integration and Cleanup | WoW_8-10-21_NB2_WSNS POST PROCESSING.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Storm%20Shield/WoW_8-10-21_NB2_WSNS%20POST%20PROCESSING.ipynb) |
-| WoW Test for Storm Shield, AUG 10, 2021 | WoW_8-10-21_NB3_INTERACTIVE ANALYSIS.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Storm%20Shield/WoW_8-10-21_NB3_INTERACTIVE%20ANALYSIS.ipynb) |
+| Scope | Notebook | Date of Experiment | Date of Publication |
+| :-------: | :---------:  | :---------:  | :---------:  |
+| Metadata Collection Setup | WOW_8-10-21_NB1__Standardization File.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Storm%20Shield/WOW_8-10-21_NB1__Standardization%20File.ipynb) | 2021-10 | 2024-02 |
+| Data Integration and Cleanup | WoW_8-10-21_NB2_WSNS POST PROCESSING.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Storm%20Shield/WoW_8-10-21_NB2_WSNS%20POST%20PROCESSING.ipynb) | 2021-10 | 2024-02 |
+| WoW Test for Storm Shield| WoW_8-10-21_NB3_INTERACTIVE ANALYSIS.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2890/Jupyter%20Notebooks%20for%20WOW_Storm%20Shield/WoW_8-10-21_NB3_INTERACTIVE%20ANALYSIS.ipynb) | 2021-10 | 2024-02 |
 
 </span>
 
