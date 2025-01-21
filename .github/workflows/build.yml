@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       tag_custom:
-        description: 'A custom docker image tag e.g. "next"'
+        # The tag "next" triggers deploy to designsafeci-next.tacc.utexas.edu.
+        # The tag "dev" (or, in the future, "pprd") triggers deploy to pprd.designsafe-ci.org.
+        description: 'Custom docker image tag e.g. "next", "dev"/"pprd"'
         required: false
         type: string
   push:
