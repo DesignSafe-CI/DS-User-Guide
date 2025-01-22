@@ -2,7 +2,7 @@
 
 DesignSafe provides you access to the Jupyter ecosystem via its JupyterHub. The most popular component of the Jupyter ecosystem is the Jupyter notebook that allows you to create and share documents (i.e., notebooks) that contain code, equations, visualizations, and narrative text. Jupyter notebooks can be used for many research-related tasks including data cleaning and transformation, numerical simulation, statistical modeling, data visualization, and machine learning.
 
-You can access DesignSafe's JupyterHub via the DesignSafe-CI workspace by selecting "Workspace" &gt; "Tools &amp; Applications" &gt; "Analysis" &gt; "Jupyter" &gt; Select "Jupyter" &gt; "Launch" or directly via <a href="https://jupyter.designsafe-ci.org" target="_blank">https://jupyter.designsafe-ci.org</a>. Upon entry you will be prompted to log in using your DesignSafe credentials.
+You can access DesignSafe's JupyterHub via the DesignSafe-CI workspace by selecting "Workspace" &gt; "Tools &amp; Applications" &gt; "Analysis" &gt; "Jupyter" &gt; Select "Jupyter" &gt; "Launch" or directly via [https://jupyter.designsafe-ci.org](https://jupyter.designsafe-ci.org){target="_blank"}. Upon entry you will be prompted to log in using your DesignSafe credentials.
 
 ### JupyterHub Spawner { #spawner }
 
@@ -73,7 +73,7 @@ Each Jupyter session is served through an Ubuntu-based Docker image and distribu
 
 #### High Performance Computing (HPC) Job Submission through Jupyter { #using-jobs }
 
-For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch the following webinar on leveraging DesignSafe using TAPIS <a href="https://youtu.be/-_1lNWW8CAg" target="_blank">here</a>.
+For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch the following webinar on leveraging DesignSafe using TAPIS [here](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
 
 ### Installing Packages { #installing }
 
@@ -110,7 +110,7 @@ conda create --name your_environment -y -c conda-forge pip python
 conda activate your_environment
 ```
 
-Note: you can create environments with specific versions of Python or specific packages. For more information check this <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank">link</a>.
+Note: You can [create environments with specific versions of Python or specific packages.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html){target="_blank"}.
 
 Install your environment as a jupyter kernel:
 
@@ -139,6 +139,6 @@ ipython kernel install --user --name=your_environment
 If you do not see your kernels reappear, wait a few seconds, refresh your browser, and return to the Launcher tab.
 
 
-<strong>If you have any issues using DesignSafe's JupyterHub, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
+**If you have any issues using DesignSafe's JupyterHub, please [create a ticket](https://designsafe-ci.org/help){target="_blank"}.**
 
 ---

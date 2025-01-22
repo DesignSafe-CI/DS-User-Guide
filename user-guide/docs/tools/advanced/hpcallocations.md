@@ -69,7 +69,7 @@ Every effort is made to avoid conflicts of interest. Reviewers are not allowed t
 
 ## How to apply for an Additional Allocation { #apply }
 
-A proposal for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the amount of resources requested. Detailed guidance is in the following sections. When the proposal is complete it can be submitted via a <a href="/rw/user-guides/help/" >help ticket</a>. 
+A proposal for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the amount of resources requested. Detailed guidance is in the following sections. When the proposal is complete it can be submitted via a <a href="/help/new-ticket/" >help ticket</a>. 
 
 ### Allocation Proposal Guidance { #guidance }
 

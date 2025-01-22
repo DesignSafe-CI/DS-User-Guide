@@ -1,7 +1,7 @@
 ## LS-DYNA User Guide
 
 
-Ls-Dyna is a general-purpose multi-physics simulation software package. It was originated from DYNA3D, developed by John Hallquist at the Lawrence Livermore National Laboratory in 1976. The software was commercialized as LS-Dyna in 1988 by Livermore Software Technology Corporation and now it is part of Ansys (<a href="http://lsdyna.ansys.com" target="_blank">Ansys</a>).
+Ls-Dyna is a general-purpose multi-physics simulation software package. It was originated from DYNA3D, developed by John Hallquist at the Lawrence Livermore National Laboratory in 1976. The software was commercialized as LS-Dyna in 1988 by Livermore Software Technology Corporation and now it is part of [Ansys](http://lsdyna.ansys.com){target="_blank"}.
 
 The main Ls-Dyna capabilities are:
 
@@ -112,7 +112,7 @@ Examples in this guide:
 	<li>When the analysis is completed two options available:
 	<ul>
 		<li>Launching LS-PrePost again to visualize/extract results;</li>
-		<li>Transfer output files via Globus (see details at: <a href="https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus" target="_blank">(https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus)</a>).</li>
+		<li>[Transfer output files via Globus.](https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus){target="_blank"}</li>
 	</ul>
 	</li>
 </ul>
