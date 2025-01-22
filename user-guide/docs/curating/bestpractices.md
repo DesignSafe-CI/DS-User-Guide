@@ -750,7 +750,7 @@ Depositing your data and associated research project materials in the DDR meets 
 Follow the curation and publication onboarding instructions and steps -documented in the <a href="#curation-publication-guides">Data Curation and Publication Guides</a> - to ensure that your data curation and publication process is smooth and that your public datasets are well organized, complete, and understandable to others.
 
 
-To facilitate long term access to your published data, when possible, we recommend using open file formats. Open file formats facilitate interoperability between datasets and with applications, which in turn facilitates long term access to the datasets. <!-- The Data Curation and Publication Best Practices have information about <a href="/rw/user-guides/curating-publishing-projects/best-practices/">file formats</a> . -->
+To facilitate long term access to your published data, when possible, we recommend using open file formats. Open file formats facilitate interoperability between datasets and with applications, which in turn facilitates long term access to the datasets. <!-- The Data Curation and Publication Best Practices have information about [file formats](/user-guide/curating/bestpractices/#acceptedfileformats). -->
 
 
 DDR data is stored in high performance storage (HPC) resources deployed at the <a href="https://www.tacc.utexas.edu" target="_blank">Texas Advanced Computing Center</a>. These storage resources are reliable, secure, monitored 24/7, and under a rigorous maintenance and update schedule.
