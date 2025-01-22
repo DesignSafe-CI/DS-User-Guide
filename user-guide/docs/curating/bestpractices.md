@@ -95,7 +95,7 @@ Excel and Matlab are two proprietary file formats highly used in this community.
 
 ##### Compressed Data { #bestpractices-compresseddata }
 
-Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using the extraction <a href="https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1">utility</a> available in the workspace before copying data to My Project for curation and publication.
+Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using [the extraction utility available in the workspace](https://www.designsafe-ci.org/rw/workspace/extract){target=_blank} before copying data to My Project for curation and publication.
 
 ##### Simulation Data { #bestpractices-simulationdata }
 

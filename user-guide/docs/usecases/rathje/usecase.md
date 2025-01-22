@@ -28,9 +28,9 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){:target="_blank"} <br/> 
-* [Visualization on DS - STKO](https://www.designsafe-ci.org/rw/workspace/#!/stko-ds-exec-01-1.0.0u1){:target="_blank"} <br/>
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){:target="_blank"} <br/>
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees){target="_blank"} <br/> 
+* [Visualization on DS - STKO](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/stko){target="_blank"} <br/>
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target="_blank"} <br/>
 
 
 ### Background 
@@ -137,7 +137,7 @@ The output from an OpenSeesMP-STKO analysis are provided in a number of '\*.mpco
 
 
 #### Visualize and extract data from STKO
-After the job is finished, the user can use [STKO](https://www.designsafe-ci.org/rw/workspace/#!/stko-ds-exec-01-1.0.0u1){:target="_blank"}  to visualize the results in the '\*.mpco' files that are located in the archive directory. If the user would like to extract data from the GUI of STKO, they can copy and paste the data using the "Leafpad" text editor within the DS virtual machine that serves STKO.  The user can then save the text file to a folder within the user's My Data directory.
+After the job is finished, the user can use [STKO](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/stko){target=_blank} to visualize the results in the '\*.mpco' files that are located in the archive directory. If the user would like to extract data from the GUI of STKO, they can copy and paste the data using the "Leafpad" text editor within the DS virtual machine that serves STKO.  The user can then save the text file to a folder within the user's My Data directory.
 
 ![Post_OPENSEES_STKO](img/Post_OPENSEES_STKO.png)
 

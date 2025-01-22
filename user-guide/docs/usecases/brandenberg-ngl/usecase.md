@@ -12,7 +12,7 @@ Next Generation Liquefaction (NGL) Database Jupyter Notebooks
 
 The example makes use of the following DesignSafe resources:
 
-[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target=_blank}<br/>
 [NGL Database](https://www.nextgenerationliquefaction.org/){target=_blank}<br/>
 
 ### Background

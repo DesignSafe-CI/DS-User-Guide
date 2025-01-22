@@ -46,7 +46,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were leveraged in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}.
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}.
 
 ### Background
 
@@ -62,7 +62,7 @@ For more information on running ADCIRC and documentation, see the following link
 - [ADCIRC Wiki](https://wiki.adcirc.org/Main_Page)
 - [ADCIRC Web Page](https://adcirc.org/)
 
-ADCIRC is available as a standalone app accessible via the [DesignSafe front-end](https://www.designsafe-ci.org/rw/workspace/#!/ADCIRC::Simulation).
+ADCIRC is available as a standalone app accessible via the [DesignSafe front-end](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/adcirc).
 
 #### ADCIRC Inputs
 

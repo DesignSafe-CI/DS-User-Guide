@@ -49,7 +49,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}
 * Subramanian, C., J. Pinelli, S. Lazarus, J. Zhang, S. Sridhar, H. Besing, A. Lebbar, (2023) "Wireless Sensor Network System Deployment During Hurricane Ian, Satellite Beach, FL, September 2022", in Hurricane IAN Data from Wireless Pressure Sensor Network and LiDAR. DesignSafe-CI. https://doi.org/10.17603/ds2-mshp-5q65
 * Video Tutorial (Timestamps - 28:01 to 35:04):  https://youtu.be/C2McrpQ8XmI?t=1678
 
@@ -93,7 +93,7 @@ Video Tutorial (Timestamps - 28:01 to 35:04): [https://www.youtube.com/watch?v=C
 
 ###### Using JupyterHub on DesignSafe######
 ###### Accessing JupyterHub######
-*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis">link</a> to go directly to the JupyterHub portal on DesignSafe.
+*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter">link</a> to go directly to the JupyterHub portal on DesignSafe.
 *Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
 *Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
 *To run this <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-4535v2" target="_blank">Project</a>, you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.

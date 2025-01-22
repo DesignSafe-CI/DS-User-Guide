@@ -47,7 +47,7 @@ More detailed information and STKO user documentation can be found on the <a hre
 
 <ol>
 <li dir="ltr">
-	After users create their Tcl scripts and mpco.cdata files in their folder (e.g., “STKO_example_1” in this example). Users can submit the OpenSees Job via OPENSEESMP (V 3.0)-STKO in this page: <a href="https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation" target="_blank">https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation</a>
+	After users create their Tcl scripts and mpco.cdata files in their folder (e.g., “STKO_example_1” in this example). Users can submit the OpenSees Job via [OPENSEESMP](https://www.designsafe-ci.org/workspace/opensees-mp-s3) (V 3.0)-STKO.
 </li>
 <li dir="ltr">
 	The input directory should contain OpenSees TCL script and mpco.cdata files. The filename is the OpenSees TCL script from STKO to execute. This file should reside in the input directory specified. If user use STKO to generate all the scripts, the default filename will be called 'main.tcl'.

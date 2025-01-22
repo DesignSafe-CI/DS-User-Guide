@@ -46,7 +46,7 @@ Figure 1.  Integration of Hazard, Reconnaissance and Exposure Data
 
 #### Using JupyterHub on DesignSafe####
 #### Accessing JupyterHub####
-*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis">link</a> to go directly to the JupyterHub portal on DesignSafe.
+*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter">link</a> to go directly to the JupyterHub portal on DesignSafe.
 *Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
 *Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
 *To run this Notebook, <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3903v3/FirstMap.ipynb" target="_blank">FirstMap.ipynb</a> you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.
