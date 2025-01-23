@@ -23,7 +23,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 
 
 * Familiarize yourself with the available Tools and Apps.
-	* <a href="https://www.designsafe-ci.org/rw/user-guide/workspace/">Tools and Apps User Guide</a>
+	* [Tools and Apps User Guide](https://www.designsafe-ci.org/use-designsafe/tools-applications/)
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
 * Add a Project within the Data Depot.
 	* This Project may be created by any research team member (PI/co-PI/student) or it may already exist from a previous phase of the research project.

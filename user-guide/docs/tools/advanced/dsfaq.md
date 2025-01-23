@@ -67,7 +67,7 @@ A: There are no restrictions on file types for the data that you upload to the D
 
 
 <strong>Q: How can I transfer data to/from my computer and the Data Depot?</strong><br>
-A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#data-transfer-guides" target="_blank">Data Transfer Guides</a> to see our recommended methods based on the amount of data you are transferring. 
+A: Explore the <a href="/user-guide/managingdata/datatransfer/" target="_blank">Data Transfer Guides</a> to see our recommended methods based on the amount of data you are transferring. 
 
 <strong>Q: What is My Projects?</strong><br>
 A: <a href="/data/browser/projects/" target="_blank">My Projects</a> is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
