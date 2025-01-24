@@ -55,7 +55,7 @@
 **A**: Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. [Read more.](/user-guide/curating/bestpractices/#licensing)
 
 **Q: What is a DOI?**  
-**A**: A Digital Object Identifier (DOI) is a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify a resource and provide a persistent link to its location on the Internet. You can find a registered resource by its DOI using the "Resolve a DOI Name" function at: [http://www.doi.org/](http://www.doi.org/). In addition, you may find the citation information for that DOI in DataCite at [https://search.datacite.org/](https://search.datacite.org/).
+**A**: A Digital Object Identifier (DOI) is a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify a resource and provide a persistent link to its location on the Internet. You can find a registered resource by its DOI using the "Resolve a DOI Name" function at: [http://www.doi.org/](http://www.doi.org/){target="_blank"}. In addition, you may find the citation information for that DOI in DataCite at [https://search.datacite.org/](https://search.datacite.org/){target="_blank"}.
 
 **Q: What is the relation between a DOI and a data citation?**  
 **A**: The DOI is a component of a citation for a work that is stored online. Therefore, it provides access to the permanent URL and the cited resource.
