@@ -44,6 +44,7 @@ How to Contribute **Other Changes**:
 3. Install/Update project dependencies:\
     <sup>You should only need to do this after new releases.</sup>
     ```shell
+    ./bin/tacc-setup.sh
     poetry install
     ```
 4. Serve the docs:
