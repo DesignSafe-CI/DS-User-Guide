@@ -73,7 +73,7 @@ Each Jupyter session is served through an Ubuntu-based Docker image and distribu
 
 #### High Performance Computing (HPC) Job Submission through Jupyter { #using-jobs }
 
-For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch the following webinar on leveraging DesignSafe using TAPIS [here](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
+For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch [this webinar on leveraging DesignSafe using TAPIS](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
 
 ### Installing Packages { #installing }
 
