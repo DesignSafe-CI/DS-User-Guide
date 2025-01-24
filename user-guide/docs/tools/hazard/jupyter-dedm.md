@@ -8,10 +8,11 @@
 Key Words: Database-enabled design, High-rise buildings, Wind loads, Wind response
 
 ### Resources
-The example makes use of the following DesignSafe resources:<br/>
-• [Jupyter Notebook for DEDM-HR: Step-by-step approach](https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/DEDM-HR/Jupyter%20DEDM-HR%20Step-by-step%20v1.0.ipynb)<br/>
-• [Jupyter Notebook for DEDM-HR: One-step approach](https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/DEDM-HR/Jupyer%20DEDM-HR%20One-step%20v1.0.ipynb)<br/>
-• [DesignSafe Tool: VORTEX-WINDS: DEDM-HR](https://www.designsafe-ci.org/rw/workspace/vortex){target=_blank}
+The example makes use of the following DesignSafe resources:
+
+* [Jupyter Notebook for DEDM-HR: Step-by-step approach](https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/DEDM-HR/Jupyter%20DEDM-HR%20Step-by-step%20v1.0.ipynb){target=_blank}
+* [Jupyter Notebook for DEDM-HR: One-step approach](https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/DEDM-HR/Jupyer%20DEDM-HR%20One-step%20v1.0.ipynb){target=_blank}
+* [DesignSafe Tool: VORTEX-WINDS: DEDM-HR](https://www.designsafe-ci.org/rw/workspace/vortex){target=_blank}
 
 ### Description
 
