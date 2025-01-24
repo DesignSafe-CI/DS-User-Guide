@@ -1,7 +1,7 @@
 ## LS-DYNA User Guide
 
 
-Ls-Dyna is a general-purpose multi-physics simulation software package. It was originated from DYNA3D, developed by John Hallquist at the Lawrence Livermore National Laboratory in 1976. The software was commercialized as LS-Dyna in 1988 by Livermore Software Technology Corporation and now it is part of [Ansys](http://lsdyna.ansys.com){target="_blank"}.
+Ls-Dyna is a general-purpose multi-physics simulation software package. It was originated from DYNA3D, developed by John Hallquist at the Lawrence Livermore National Laboratory in 1976. The software was commercialized as LS-Dyna in 1988 by Livermore Software Technology Corporation and now it is part of [Ansys](https://lsdyna.ansys.com){target="_blank"}.
 
 The main Ls-Dyna capabilities are:
 

@@ -19,7 +19,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 	
 	
 	* Read the FAQ regarding data curation and publication: <a href="/user-guide/curating/faq/">Frequently Asked Questions</a>
-	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="/user-guide/data-transfer-guide/">Data Transfer Guide</a>
+	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide</a>
 
 
 * Familiarize yourself with the available Tools and Apps.
