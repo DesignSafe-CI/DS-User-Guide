@@ -139,6 +139,6 @@ ipython kernel install --user --name=your_environment
 If you do not see your kernels reappear, wait a few seconds, refresh your browser, and return to the Launcher tab.
 
 
-**If you have any issues using DesignSafe's JupyterHub, please [create a ticket](https://designsafe-ci.org/help){target="_blank"}.**
+**If you have any issues using DesignSafe's JupyterHub, please [create a ticket](https://designsafe-ci.org/help/new-ticket/){target="_blank"}.**
 
 ---
