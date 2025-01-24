@@ -5,8 +5,8 @@ on:
     inputs:
       tag_custom:
         # The tag "next" triggers deploy to designsafeci-next.tacc.utexas.edu.
-        # The tag "dev" (or, in the future, "pprd") triggers deploy to pprd.designsafe-ci.org.
-        description: 'Custom docker image tag e.g. "next", "dev"/"pprd"'
+        # The tag "pprd" triggers deploy to pprd.designsafe-ci.org.
+        description: 'Custom docker image tag e.g. "next", "pprd"'
         required: false
         type: string
   push:
