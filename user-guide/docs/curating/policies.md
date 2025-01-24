@@ -191,7 +191,7 @@ I understand the type of license I choose to distribute my data, and I guarantee
 
 I warrant that I am lawfully entitled and have full authority to license the content submitted, as described in this agreement. None of the above supersedes any prior contractual obligations with third parties that require any information to be kept confidential. 
 
-If applicable, I warrant that I am following the IRB agreements in place for my research and following<a href="/user-guide/curating/bestpractices/#protecteddata"> Protected Data Best Practices</a>. 
+If applicable, I warrant that I am following the IRB agreements in place for my research and following [Protected Data Best Practices](/user-guide/curating/bestpractices/#protecteddata).
 
 I understand that the DDR does not approve data publications before they are posted; therefore, I am solely responsible for the submission, publication, and all possible confidentiality/privacy issues that may arise from the publication.
 
