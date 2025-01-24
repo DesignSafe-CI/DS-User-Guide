@@ -110,7 +110,7 @@ conda create --name your_environment -y -c conda-forge pip python
 conda activate your_environment
 ```
 
-Note: You can [create environments with specific versions of Python or specific packages.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html){target="_blank"}.
+Note: You can [create environments with specific versions of Python or specific packages](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html){target="_blank"}.
 
 Install your environment as a jupyter kernel:
 
