@@ -95,7 +95,7 @@
 
 1. If you have reused images from other sources (online, databases, publications, etc.), be aware that they may have copyrights. We recommend using the following instructions for how to cite them:
 
-	[https://guides.library.ubc.ca](https://guides.library.ubc.ca)
+	[https://guides.library.ubc.ca](https://guides.library.ubc.ca){target="_blank"}
 
 **Q: Are there any conditions regarding the usage of data published in DesignSafe?**
 **A**: Yes, users that download and reuse data agree to the Data Usage conditions published here: These conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality. 
