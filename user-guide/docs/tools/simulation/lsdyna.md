@@ -110,7 +110,7 @@ Examples in this guide:
 * Follow the Job Status by clicking on <i>Job Status</i> on the left tab.
 * When the analysis is completed two options available:
 	* Launching LS-PrePost again to visualize/extract results;
-	* [Transfer output files via Globus.](https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus){target="_blank"}
+	* [Transfer output files via Globus.](/user-guide/managingdata/datatransfer/#globus){target="_blank"}
 
 #### Launching a single job via Command Line Interface (CLI) { #launch-singlecli }
 

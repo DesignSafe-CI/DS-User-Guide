@@ -63,7 +63,7 @@ A: Webinars are recorded and made available on our <a href="https://www.youtube.
 ## Data Depot { #faq-datadepot }
 
 <strong>Q: What data can I upload to the Data Depot?</strong><br>
-A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="https://www.designsafe-ci.org/user-guide/curating/#protectedddr" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
+A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="/user-guide/curating/bestpractices/#protecteddata" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
 
 
 <strong>Q: How can I transfer data to/from my computer and the Data Depot?</strong><br>
@@ -85,7 +85,7 @@ A: The Published directory in the Data Depot holds the <a href="https://www.desi
 ## Tools & Applications { #faq-workspace }
 
 <strong>Q: I don't see the application I need in the Tools & Applications. How can I use my application?</strong><br>
-A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/submit-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="https://www.designsafe-ci.org/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
+A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/new-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
 
 <hr>
 ## MATLAB { #faq-matlab }
