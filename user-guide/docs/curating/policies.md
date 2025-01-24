@@ -180,26 +180,12 @@ This agreement is read and has to be accepted by the user prior to publishing a 
 
 This submission represents my original work and meets the policies and requirements established by the DesignSafe [Policies](/user-guide/curating/policies/) and [Best Practices](/user-guide/curating/bestpractices/). I grant the Data Depot Repository (DDR) all required permissions and licenses to make the work I publish in the DDR available for archiving and continued access.  These permissions include allowing DesignSafe to:
 
-<ol>
-	<li dir="ltr">
-	Disseminate the content in a variety of distribution formats according to the DDR [Policies](/user-guide/curating/policies/) and [Best Practices](/user-guide/curating/bestpractices/).
-	</li>
-	<li dir="ltr">
-	Promote and advertise the content publicly in DesignSafe.
-	</li>
-	<li dir="ltr">
-	Store, translate, copy, or re-format files in any way to ensure its future preservation and accessibility, 
-	</li>
-	<li dir="ltr">
-	Improve usability and/or protect respondent confidentiality.
-	</li>
-	<li dir="ltr">
-	Exchange and or incorporate metadata or documentation in the content into public access catalogues.
-	</li>
-	<li dir="ltr">
-	Transfer data, metadata with respective DOI to other institution for long-term accessibility if needed for continuos access. 
-	</li>
-</ol>
+1. Disseminate the content in a variety of distribution formats according to the DDR [Policies](/user-guide/curating/policies/) and [Best Practices](/user-guide/curating/bestpractices/).
+2. Promote and advertise the content publicly in DesignSafe.
+3. Store, translate, copy, or re-format files in any way to ensure its future preservation and accessibility, 
+4. Improve usability and/or protect respondent confidentiality.
+5. Exchange and or incorporate metadata or documentation in the content into public access catalogues.
+6. Transfer data, metadata with respective DOI to other institution for long-term accessibility if needed for continuos access. 
 
 I understand the type of license I choose to distribute my data, and I guarantee that I am entitled to grant the rights contained in them. I agree that when this submission is made public with a unique digital object identifier (DOI), this will result in a publication that cannot be changed. If the dataset requires  revision, a new version of the data publication will be published under the same DOI.
 
