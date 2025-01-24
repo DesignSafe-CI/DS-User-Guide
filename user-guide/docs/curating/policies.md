@@ -207,7 +207,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 		<li>the materials are accurate, complete, reliable or correct;</li>
 		<li>any defects or errors will be corrected;</li>
 		<li>the materials and accompanying files are free of viruses or other harmful components; or</li>
-		<li>the results of using the data will meet the user's requirements.</li>
+		<li>the results of using the data will meet the user’s requirements.</li>
 	</ol>
 	</li>
 	<li>Use of data in the DDR abides by the DesignSafe Privacy Policy.</li>
