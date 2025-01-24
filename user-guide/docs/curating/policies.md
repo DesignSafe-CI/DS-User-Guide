@@ -244,7 +244,7 @@ Documentation of versions requires including the name of the file/s changed, rem
 
 The Fedora repository manages all amends and versions so there is a record of all changes. Version number is passed to DataCite as metadata.
 
-More information about the reasons for amends and versioning are in<a href="/user-guide/curating/bestpractices/#data-publication"> Publication Best Practices.</a>
+More information about the reasons for amends and versioning are in [Publication Best Practices](/user-guide/curating/bestpractices/#data-publication).
 
 #### Leave Data Feedback { #feedback }
 
