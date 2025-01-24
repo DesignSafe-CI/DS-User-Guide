@@ -144,7 +144,7 @@ Attending to the needs expressed by the community, we enable the possibility to 
 
 #### Timely Data Publication   { #timely }
 
-Although no firm deadline requirements are specified for data publishing, as an NSF-funded platform we expect researchers to publish in a timely manner, so we provide recommended timelines for publishing different types of research data in our <a href="/user-guide/curating/bestpractices/#data-publication">Timely Data Publication Best Practices.</a>
+Although no firm deadline requirements are specified for data publishing, as an NSF-funded platform we expect researchers to publish in a timely manner, so we provide recommended timelines for publishing different types of research data in our [Timely Data Publication Best Practices](/user-guide/curating/bestpractices/#data-publication).
 
 #### Peer Review { #peerreview }
 
