@@ -248,7 +248,7 @@ More information about the reasons for amends and versioning are in [Publication
 
 #### Leave Data Feedback { #feedback }
 
-Users can click a "Leave Feedback" button on the projects' landing pages to provide comments on any publication. This feedback is forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the publication landing pages. We encourage users to provide constructive feedback and suggest themes they may want to discuss about the publication in our <a href="/user-guide/curating/bestpractices/#feedback">Leave Data Feedback Best Practices</a>
+Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the publication landing pages. We encourage users to provide constructive feedback and suggest themes they may want to discuss about the publication in our [Leave Data Feedback Best Practices](/user-guide/curating/bestpractices/#feedback).
 
 #### Data Impact { #impact }
 
