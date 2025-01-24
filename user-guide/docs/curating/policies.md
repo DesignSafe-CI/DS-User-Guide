@@ -215,7 +215,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 	<li>Users will not obtain personal information associated with DDR data that results in directly or indirectly identifying research subjects, individuals, or organizations with the aid of other information acquired elsewhere.</li>
 	<li>Users will not in any event hold the DDR or the data authors liable for any and all losses, costs, expenses, or damages arising from use of DDR data or any other violation of this agreement, including infringement of licenses, intellectual property rights, and other rights of people or entities contained in the data.</li>
 	<li>We do not gather IP addresses about public users that preview or download files from the DDR.</li>
-	<li>Our system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. We only use this information in aggregate for metrics purposes and do not link it to the user's identity.</li>
+	<li>Our system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. We only use this information in aggregate for metrics purposes and do not link it to the user’s identity.</li>
 </ul>
 
 #### Amends and Version Control { #versioncontrol }
