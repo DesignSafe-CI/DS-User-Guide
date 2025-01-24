@@ -136,7 +136,7 @@ The CB-Geo MPM code generates parallel `*.pvtp` files when the code is executed 
 
 The parameter `vtk_statevars` is an optional VTK output, which will print the value of the state variable for the particle. If the particle does not have the specified state variable, it will be set to NaN.
 
-You can view the results in [DesignSafe ParaView](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/paraview)
+You can view the results in [DesignSafe ParaView](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/paraview):
 
 ![ParaView MPM](img/paraview-viz.png)
 
