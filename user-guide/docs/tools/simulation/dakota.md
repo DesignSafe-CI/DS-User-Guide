@@ -11,7 +11,7 @@ The Dakota project delivers both state-of-the-art research and robust, usable so
 
 These capabilities may be used on their own or as components within advanced strategies such as hybrid optimization, surrogate-based optimization, mixed integer nonlinear programming, or optimization under uncertainty.
 
-More detailed information and Dakota user documentation can be found at the <a href="https://dakota.sandia.gov/content/manuals" title="Dakota Website" target="_blank">Dakota website</a>.
+More detailed information and Dakota user documentation can be found at the [Dakota website](https://dakota.sandia.gov/content/manuals){target="_blank"}.
 
 ### How to Submit a Dakota Job in the Workspace
 

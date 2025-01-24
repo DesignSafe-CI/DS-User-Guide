@@ -17,7 +17,7 @@ How to Contribute **Other Changes**:
     <sup>(if comfortable using a command prompt)</sup>
 6. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
     <sup>(a.k.a. create a "Pull Request")</sup>
-   
+
 ### Resources
 
 * [Markdown syntax (extended)](https://www.markdownguide.org/extended-syntax/) via [MkDocs' Markdown support](https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown)

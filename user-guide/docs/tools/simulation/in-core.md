@@ -42,7 +42,7 @@ After this, you may need to restart your kernel (click on Kernel/Restart Kernel 
 
 #### Installing pyincore creating a new environment (recommended) <a name="Title1.2"></a>
 
-To install the maintained version of the pyincore and the pyincore-viz packages, a particular environment using conda must be created. If you haven’t created a custom python environment, we recommend following the steps presented in the guide for installing <a href="https://www.designsafe-ci.org/user-guide/tools/jupyterhub/#installing-kernels" target="_blank">Custom User-Defined Kernels</a>. These steps are performed using a terminal within the Jupyter Notebook.
+To install the maintained version of the pyincore and the pyincore-viz packages, a particular environment using conda must be created. If you haven’t created a custom python environment, we recommend following the steps presented in the guide for installing [Custom User-Defined Kernels](/user-guide/tools/jupyterhub/#installing-kernels){target="_blank"}. These steps are performed using a terminal within the Jupyter Notebook.
 
 Using this guide, create a new environment called _pyincore_on_DS_ and install your environment as a jupyter kernel. Then, install the pyincore and pyincore-viz libraries. The steps are presented below, but the detailed explanation of <em>User-Defined Kernels</em> can be found in the link above.
 

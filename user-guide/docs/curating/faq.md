@@ -6,7 +6,7 @@
 **A**: For long-term preservation purposes it is best to publish data in interoperable and open formats. For example, instead of Excel spreadsheet files -which are proprietary- it is best to convert them to CSV for publication. And, instead of Matlab files -also proprietary- it is best to publish data as simple txt (ascii) so it can be used by many different software. However, be aware that conversion may distort the data structure, so retain an original copy of any structured data (e.g. Matlab, Excel files) before attempting conversions and then check between the two for fidelity. In addition, you may publish both the proprietary and the open format, and/or consult the Data Curation Primers to find out how to better curate research data.
 
 **Q: What does DesignSafe recommend for zip files?**  
-**A**: If you uploaded your data as zip files, you should unzip before publishing. Zip files prevent others from directly viewing and understanding your data in the cloud. You may upload zip files to your "MyData" and unzip them using the utilities available in the workspace at: <https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1> before copying them to your project.
+**A**: If you uploaded your data as zip files, you should unzip before publishing. Zip files prevent others from directly viewing and understanding your data in the cloud. You may upload zip files to your "MyData" and unzip them using the [Extract utility](https://www.designsafe-ci.org/workspace/extract) before copying them to your project.
 
 **Q: My project has many individual files. It will be cumbersome for a user to download them one by one. What do you suggest?**  
 **A**: Through the web interface, downloading a lot of individual files is cumbersome. However, DesignSafe offers a number of solutions for this issue. First, users may interact with data in the cloud, without the need to download, using Matlab scripts as well as Jupyter notebooks. In this case, users may find downloading large quantities of data to be unnecessary. If users want to download a large number of files from a project, we recommend that they use Globus or include zip files for your data files. However, if you include zip files you should include the unzipped files in your project as well. If you wish to make your data easy to download, it is best to aggregate small individual files into a smaller number of larger files when feasible.
@@ -52,10 +52,10 @@
 ### Publishing { #publishing }
 
 **Q: Which license is appropriate for my publication?**  
-**A**: Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. You can find relevant information under licensing here: <https://www.designsafe-ci.org/rw/user-guides/data-publication-guidelines/>.
+**A**: Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. [Read more.](/user-guide/curating/bestpractices/#licensing)
 
 **Q: What is a DOI?**  
-**A**: A Digital Object Identifier (DOI) is a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify a resource and provide a persistent link to its location on the Internet. You can find a registered resource by its DOI using the "Resolve a DOI Name" function at: <http://www.doi.org/>. In addition, you may find the citation information for that DOI in DataCite at <https://search.datacite.org/>.
+**A**: A Digital Object Identifier (DOI) is a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify a resource and provide a persistent link to its location on the Internet. You can find a registered resource by its DOI using the "Resolve a DOI Name" function at: [http://www.doi.org/](http://www.doi.org/){target="_blank"}. In addition, you may find the citation information for that DOI in DataCite at [https://search.datacite.org/](https://search.datacite.org/){target="_blank"}.
 
 **Q: What is the relation between a DOI and a data citation?**  
 **A**: The DOI is a component of a citation for a work that is stored online. Therefore, it provides access to the permanent URL and the cited resource.
@@ -72,7 +72,7 @@
 **Q: How can I give credit to DesignSafe?**  
 **A**: Please include the citation of the marker paper in the references/bibliography section of your publication. This is more effective than you providing in-text acknowledgements.
 
-<blockquote>Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., Arduino, P., Brandenberg, S.J., Cockerill, T., Dey, C., Esteva, M., Haan, Jr., F.L., Hanlon, M., Kareem, A., Lowes, L., Mock, S., and Mosqueda, G. 2017. "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering," ASCE Natural Hazards Review, doi:10.1061/(ASCE)NH.1527-6996.0000246.</blockquote>
+> Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., Arduino, P., Brandenberg, S.J., Cockerill, T., Dey, C., Esteva, M., Haan, Jr., F.L., Hanlon, M., Kareem, A., Lowes, L., Mock, S., and Mosqueda, G. 2017. "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering," ASCE Natural Hazards Review, doi:10.1061/(ASCE)NH.1527-6996.0000246.
 
 ### Data Reuse { #datareuse }
 
@@ -95,7 +95,7 @@
 
 1. If you have reused images from other sources (online, databases, publications, etc.), be aware that they may have copyrights. We recommend using the following instructions for how to cite them:
 
-	<http://guides.library.ubc.ca>
+	[https://guides.library.ubc.ca](https://guides.library.ubc.ca){target="_blank"}
 
 **Q: Are there any conditions regarding the usage of data published in DesignSafe?**
 **A**: Yes, users that download and reuse data agree to the Data Usage conditions published here: These conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality. 

@@ -892,7 +892,7 @@ Interactivity allows you to monitor the analysis in real time. The workspace, wi
 
 #### Connecting to the Interactive-VM
 
-The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: Tools & Applications > Simulation > OpenSees (<a href="https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation">Click here to access it</a>)
+The Interactive-VM is found on DesignSafe in the same Web Portal as OpenSees: [Tools & Applications > Simulation > OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/).
 <ol>
     <li>Once you have reached the OpenSees page, select the first option in the portal's OpenSees-Application menu: "Interactive VM for OpenSees...": option with the latest version of OpenSees.<i>(Figure 1)</i></li>
     <li>Once you have made the selection, the following simple form will appear. There is no need to edit the Job name. <i>(Figure 2)</i></li>

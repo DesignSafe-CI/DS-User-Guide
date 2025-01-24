@@ -41,7 +41,7 @@ A: If you are confident that you have entered the correct password for your acco
 A: With an account, you can:
 
 <ul>
-	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in <a href="https://www.designsafe-ci.org/rw/workspace/" target="_blank">Tools & Applications</a></li>
+	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in <a href="https://www.designsafe-ci.org/workspace/" target="_blank">Tools & Applications</a></li>
 	<li>Store your data in the <a href="https://www.designsafe-ci.org/data/" target="_blank">Data Depot</a></li>
 	<li>Collaborate and publish your work with other researchers in <a href="/data/browser/projects/" target="_blank">My Projects</a></li>
 	<li>Access data from other researchers in the <a href="/data/browser/public/" target="_blank">Published</a> directory</li>
@@ -67,13 +67,13 @@ A: There are no restrictions on file types for the data that you upload to the D
 
 
 <strong>Q: How can I transfer data to/from my computer and the Data Depot?</strong><br>
-A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#data-transfer-guides" target="_blank">Data Transfer Guides</a> to see our recommended methods based on the amount of data you are transferring. 
+A: Explore the [Data Transfer Guides](/user-guide/managingdata/datatransfer/) to see our recommended methods based on the amount of data you are transferring. 
 
 <strong>Q: What is My Projects?</strong><br>
 A: <a href="/data/browser/projects/" target="_blank">My Projects</a> is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
 
 <strong>Q: Can I easily copy data from my Cloud Data Provider (Dropbox, Box, etc)?</strong><br>
-A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#cloud" target="_blank">Cloud Storage Transfer</a> user guide to see which providers we currently connect with for direct data transfer.
+A: Explore the [Cloud Storage Transfer](/user-guide/managingdata/datatransfer/#cloud) user guide to see which providers we currently connect with for direct data transfer.
 
 <strong>Q: How do I add Designsafe's Box app to my company's/university's whitelist?</strong><br>
 A: This will require contacting your IT department to make sure your company/university is using a whitelist for Box apps. If they are, give them Designsafe's client id: <i>gh3tntr70zh1lxf3po7y893rkje696zp</i>.

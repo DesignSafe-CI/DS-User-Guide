@@ -30,8 +30,8 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){:target="_blank"} <br/> 
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){:target="_blank"}  
+* [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){:target="_blank"} <br/> 
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees){:target="_blank"}  
 
 
 ### Background
