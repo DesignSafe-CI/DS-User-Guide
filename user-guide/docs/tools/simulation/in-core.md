@@ -25,7 +25,7 @@ The user can install pyincore using any of these two options:
 1) the [temporary user installation](#Title1.1) 
 2) creating a [specific kernel for pyincore](#Title1.2)
 
-While option 1 may be faster, option 2 corresponds to the formal (recommended) approach for installing the IN-CORE Python packages. Additionally, some related packages to pyincore, e.g. pyincore-viz, may present installation conflicts when using the temporary option (option 1). For more information about installing Python libraries on DesignSafe-CI, refer to [Installing Packages](https://www.designsafe-ci.org/user-guide/tools/jupyterhub/#installing).
+While option 1 may be faster, option 2 corresponds to the formal (recommended) approach for installing the IN-CORE Python packages. Additionally, some related packages to pyincore, e.g. pyincore-viz, may present installation conflicts when using the temporary option (option 1). For more information about installing Python libraries on DesignSafe-CI, refer to [Installing Packages](/user-guide/tools/jupyterhub/#installing).
 
 To start, access DesignSafe JupyterHub via the DesignSafe-CI. Select "Tools & Applications" > "Analysis" > "Jupyter". When asked to select a notebook image, select the “Updated Jupyter Image” and click “Start My Server”.
 ![Figure 1. Access to the JupyterHub on DesignSafe-CI](./imgs/in-core-1.png)

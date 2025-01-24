@@ -286,7 +286,7 @@ Set "Server" to "data.tacc.utexas.edu".
 
 Enter your DesignSafe/TACC username and password.
 
-For the "Path", refer to <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral" target="_blank">Setting Path to DS on Corral</a>.
+For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
 
 If you do not see the "Path" option click the button "More Options" in the lower left.
 
@@ -326,7 +326,7 @@ A data transfer can be performed using the secure copy (scp) utility between any
 
 A file can be copied from your local system to the remote server by using the command:
 
-where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral" target="_blank">Setting Path to DS on Corral</a>.
+where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
 
 An entire folder can be copied from your local system to the remote server by using the command:
 
@@ -350,7 +350,7 @@ A file can be synced from your local system to the remote server by using the co
 
 	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral" target="_blank">Setting Path to DS on Corral</a>.
+where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
 
 An entire directory can be synced from your local system to the remote server by using the command:
 

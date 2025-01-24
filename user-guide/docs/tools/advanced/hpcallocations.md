@@ -6,7 +6,7 @@ The following are the policies governing allocations for compute time and storag
 
 ## Who is eligible for an Account { #account }
 
-DesignSafe is broadly available to any researcher or practitioner working in <em>open</em> Natural Hazards Engineering and Social Science research. By “<em>open</em>,” the expectation is that any research performed on DesignSafe is unclassified, and will result in publication in a broadly available journal or conference. We also strongly encourage you to <a href="https://www.designsafe-ci.org/user-guide/curating/" target="_blank">publish your datasets</a> in our CoreTrustSeal certified data repository.
+DesignSafe is broadly available to any researcher or practitioner working in <em>open</em> Natural Hazards Engineering and Social Science research. By “<em>open</em>,” the expectation is that any research performed on DesignSafe is unclassified, and will result in publication in a broadly available journal or conference. We also strongly encourage you to <a href="/user-guide/curating/guides/" target="_blank">publish your datasets</a> in our CoreTrustSeal certified data repository.
 
 ## Who is eligible for Allocations { #allocation }
 
