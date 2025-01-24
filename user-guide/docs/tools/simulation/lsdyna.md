@@ -107,26 +107,16 @@ Examples in this guide:
 
 ![](./imgs/ls-dyna-22.png)
 
-<ul>
-	<li>Follow the Job Status by clicking on <i>Job Status</i> on the left tab.</li>
-	<li>When the analysis is completed two options available:
-	<ul>
-		<li>Launching LS-PrePost again to visualize/extract results;</li>
-		<li>[Transfer output files via Globus.](https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus){target="_blank"}</li>
-	</ul>
-	</li>
-</ul>
+* Follow the Job Status by clicking on <i>Job Status</i> on the left tab.
+* When the analysis is completed two options available:
+	* Launching LS-PrePost again to visualize/extract results;
+	* [Transfer output files via Globus.](https://www.designsafe-ci.org/user-guide/managingdata/datatransfer/#globus){target="_blank"}
 
 #### Launching a single job via Command Line Interface (CLI) { #launch-singlecli }
 
-<ul>
-	<li>Connect to Stampede3 using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/stampede3/):
-	<ul>
-		<li>Host name: stampede3.tacc.utexas.edu;</li>
-		<li>Username and Password should be the same ones as for DesignSafe.</li>
-	</ul>
-	</li>
-</ul>
+* Connect to Stampede3 using SSH Client. See TACC's [Data Transfer &amp; Management Guide](https://docs.tacc.utexas.edu/hpc/stampede3/):
+	* Host name: stampede3.tacc.utexas.edu;
+	* Username and Password should be the same ones as for DesignSafe.
 
 ![](./imgs/ls-dyna-23.png)
 
