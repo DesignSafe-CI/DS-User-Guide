@@ -186,6 +186,9 @@ Attending to the needs expressed by the community, we enable the possibility to 
 
 Although no firm deadline requirements are specified for data publishing, as an NSF-funded platform we expect researchers to publish in a timely manner, so we provide recommended timelines for publishing different types of research data in our <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/best-practices/data-publication/">Timely Data Publication Best Practices.</a>
 
+#### Tombstone { #tombstone}
+A tombstone is a landing page that describes a dataset that has been removed from public access. Removal of datasets can be caused because of research retraction, because the data is not compliant with the accepted Data Types, or upon curation review because it does not meet with one or more Curation Policy or Best Practices. In the latter case the curator reviewing the dataset will first alert the author/s to improve their publication within 30 days, upon which the dataset will be tombstoned. A tombstoned landing page contains the data citation and the DOI, but the dataset is not accessible.
+
 ### Dissemination and Impact { #impact }
 
 We understand data impact as a strategy that includes complementary efforts at the crossroads of data discoverability, usage metrics, and scholarly communications.
