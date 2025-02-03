@@ -6,13 +6,8 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 ## Data Analytics
 
-* [**Damage Tagging of Field Images**](#taggit-image-tagging) (Taggit, HazMapper)
 * [**Machine Learning and AI Resources**](#ml-and-ai) (Jupyter, Interactive Data Analytics, HPC)
 * [**Visualization of spatially distributed data for risk and resilience analysis**](#visualization-of-spatially-distributed-data) (Jupyter, Interactive Data Visualization)
-
-### Taggit - Image Tagging
-
-{% include-markdown 'haan/usecase.md' %}
 
 ### ML and AI
 

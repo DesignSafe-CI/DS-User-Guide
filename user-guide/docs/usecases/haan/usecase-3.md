@@ -52,7 +52,7 @@ The U.S. National Weather Service (NWS) maintains a database called the Damage A
 
 QGIS is used in this example both to demonstrate how it works and to show how nicely it displays the NWS wind speed estimates. Launch QGIS from the Visualization tab of the DesignSafe Tools &amp; Applications menu. Select QGIS Desktop 3.16. 
 
-![](img3/image005.png)
+![](img3/DS_apps_QGIS.jpg)
 
 A full tutorial on the use of QGIS is beyond the scope of this document, but to be clear on how this example was done the initial setup of the map is explained in what follows. The coordinate reference system (CRS) can be found in the lower right corner as shown below. If you click there, you can confirm that the standard CRS of WGS 84 with Authority ID ESPG: 4326 was used. This is adequate for most projects.
 

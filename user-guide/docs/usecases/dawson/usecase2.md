@@ -46,7 +46,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were leveraged in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}.
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}.
 
 ### Background
 
@@ -62,7 +62,7 @@ For more information on running ADCIRC and documentation, see the following link
 - [ADCIRC Wiki](https://wiki.adcirc.org/Main_Page)
 - [ADCIRC Web Page](https://adcirc.org/)
 
-ADCIRC is available as a standalone app accessible via the [DesignSafe front-end](https://www.designsafe-ci.org/rw/workspace/#!/ADCIRC::Simulation).
+ADCIRC is available as a standalone app accessible via the [DesignSafe front-end](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/adcirc).
 
 #### ADCIRC Inputs
 
@@ -136,7 +136,7 @@ The steps for publishing ADCIRC data will be as follows
 2. Organize ADCIRC data and copy to project directory.
 3. Curate data by labeling and associating data appropriately.
 
-While DesignSafe has a whole [guide](https://www.designsafe-ci.org/rw/user-guides/data-curation-publication/) on how to curate and publish data, we note that the brief documentation below gives guidance on how to apply these curation guidelines to the particular case of ADCIRC simulation data. 
+While DesignSafe has a whole [guide](../../../curating/guides) on how to curate and publish data, we note that the brief documentation below gives guidance on how to apply these curation guidelines to the particular case of ADCIRC simulation data. 
 
 #### Setting up Project Directory
 
