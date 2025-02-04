@@ -1,6 +1,6 @@
-# Getting Started
+# Getting Started with DesignSafe
 
-## User Account Registration
+## New Account Registration
 
 Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account.
 
@@ -25,7 +25,7 @@ A DesignSafe account is a TACC user account, so you will sometimes see emails fr
 ///
 -->
 
-## Documentation Overview
+## Overview of DesignSafe Documentation
 
 **Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
 
@@ -35,4 +35,4 @@ A DesignSafe account is a TACC user account, so you will sometimes see emails fr
 
 **Use Cases**: To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research. Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below. The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
-**Advanced Topics**: This section of the user guide provides information for how to request an HPC allocation to gain access to TACC's high performance computing resources when your research needs larger scale computation than the our portal applications provide. For researchers who develop their own software tools, a guide to how to use our API to access your data and run applications is provided. 
+**Advanced Topics**: This section of the user guide provides information for how to request an HPC allocation to gain access to TACC's high performance computing resources when your research needs larger scale computation than the our portal applications provide. For researchers who develop their own software tools, a guide to how to use our API to access your data and run applications is provided.
