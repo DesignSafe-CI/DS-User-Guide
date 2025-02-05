@@ -32,6 +32,8 @@ extra_css:
 
 plugins:
   - search
+  - exclude-search:
+      exclude_unreferenced: true
   - include-markdown
 
 nav:
@@ -69,6 +71,7 @@ nav:
   - Simulation Applications: 
     - Overview: tools/simulation/overview.md
     - ADCIRC: tools/simulation/adcirc/adcirc.md
+    - Ansys: tools/simulation/ansys.md
     - ClawPack: tools/simulation/clawpack.md
     - Dakota: tools/simulation/dakota.md
     - IN-CORE: tools/simulation/in-core.md
@@ -111,9 +114,10 @@ nav:
 
   - Use Cases:
     - Overview: usecases/overview.md
-    - Data Analytics: 
-      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
-      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
+    - Data Analytics:
+# the following have been moved to the user guide. we need to remove these files from the directory in use cases, but doing so would break `{% include-markdown '../usecases/haan/usecase` in `user-guide/docs/tools/visualization.md`
+#      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
+#      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md

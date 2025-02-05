@@ -18,12 +18,12 @@ DesignSafe has been developed as a comprehensive research environment supporting
 		* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197" target="_blank">Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces</a>
 	
 	
-	* Read the FAQ regarding data curation and publication: <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/faq/">Frequently Asked Questions</a>
-	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="https://www.designsafe-ci.org/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>
+	* Read the FAQ regarding data curation and publication: <a href="/user-guide/curating/faq/">Frequently Asked Questions</a>
+	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide</a>
 
 
 * Familiarize yourself with the available Tools and Apps.
-	* <a href="https://www.designsafe-ci.org/rw/user-guide/workspace/">Tools and Apps User Guide</a>
+	* [Tools and Apps User Guide](https://www.designsafe-ci.org/use-designsafe/tools-applications/)
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
 * Add a Project within the Data Depot.
 	* This Project may be created by any research team member (PI/co-PI/student) or it may already exist from a previous phase of the research project.

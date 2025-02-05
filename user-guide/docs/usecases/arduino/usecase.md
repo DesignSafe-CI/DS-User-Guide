@@ -21,23 +21,23 @@ The following Jupyter notebooks are made available to facilitate the analysis of
 
 | Site Response | Notebook |
 | :-------: | :---------:  |
-| FreeField Response | freeFieldJupyterPM4Sand_Community.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb) |
+| FreeField Response | freeFieldJupyterPM4Sand_Community.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community-TAPISV3.ipynb) |
 
 ---
 
 | quoFEM | Notebook |
 | :-------: | :---------:  |
-| Sensitivity analysis     | quoFEM-Sensitivity.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/GlobalSensitivity/quoFEM-Sensitivity.ipynb)|
-| Bayessian calibration     | quoFEM-Bayesian.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/BayesianCalibration/quoFEM-Bayesian.ipynb)|
-| Forward propagation  | quoFEM-Propagation.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/ForwardPropagation/quoFEM-Propagation.ipynb)|
+| Sensitivity analysis     | quoFEM-Sensitivity.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/GlobalSensitivity/quoFEM-Sensitivity-TAPISV3.ipynb)|
+| Bayessian calibration     | quoFEM-Bayesian.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/BayesianCalibration/quoFEM-Bayesian-TAPISV3.ipynb)|
+| Forward propagation  | quoFEM-Propagation.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/ForwardPropagation/quoFEM-Propagation-TAPISV3.ipynb)|
 
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)
-* [SimCenter - quoFEM](https://simcenter.designsafe-ci.org/research-tools/quofem-application)
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation)
+* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/)
+* [SimCenter - quoFEM](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/quofem/)
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)
 
 
 ### Background

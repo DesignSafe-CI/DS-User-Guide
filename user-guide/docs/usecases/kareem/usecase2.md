@@ -24,7 +24,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 The following DesignSafe resources were leveraged in developing this use case.
 
-[OpenFoam](https://www.designsafe-ci.org/rw/workspace/#!/OpenFOAM::Simulation){target=_blank}<br/> 
+[OpenFoam](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/openfoam){target=_blank}<br/>
 
 
 

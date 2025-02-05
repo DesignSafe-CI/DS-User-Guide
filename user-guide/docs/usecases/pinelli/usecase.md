@@ -49,7 +49,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}
 * Subramanian, C., J. Pinelli, S. Lazarus, J. Zhang, S. Sridhar, H. Besing, A. Lebbar, (2023) "Wireless Sensor Network System Deployment During Hurricane Ian, Satellite Beach, FL, September 2022", in Hurricane IAN Data from Wireless Pressure Sensor Network and LiDAR. DesignSafe-CI. https://doi.org/10.17603/ds2-mshp-5q65
 * Video Tutorial (Timestamps - 28:01 to 35:04):  https://youtu.be/C2McrpQ8XmI?t=1678
 
@@ -91,31 +91,35 @@ Video Tutorial (Timestamps - 28:01 to 35:04): [https://www.youtube.com/watch?v=C
 
 ##### Instructions
 
-###### Using JupyterHub on DesignSafe######
-###### Accessing JupyterHub######
-*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis">link</a> to go directly to the JupyterHub portal on DesignSafe.
-*Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
-*Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
-*To run this <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-4535v2" target="_blank">Project</a>, you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.
+###### Using JupyterHub on DesignSafe
+###### Accessing JupyterHub
 
-1. Run the following command cell to copy the project to your MyData or change path to wherever you want to copy it to: after opening this Notebook in MyData you don't have to run the below cell again
-	!umask 0022; cp -r/home/jupyter/NHERI-Published/PRJ-4535v2 /home/jupyter/MyData/PRJ-4535;
-    chmod -R u+rw /home/jupyter/MyData/PRJ-4535
+1. Navigate to [JupyterHub portal on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter).
+2. Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
+3. Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
+4. To run this <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-4535v2" target="_blank">Project</a>, you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.
 
-2. Navigate to your 'MyData' directory.
-For illustrative purposes, input files have been created and shared in this project. These files have been pre-processed and conveniently organized used to illustrate the data collection, integration, and visualization on the map. The outcomes as follows: 
-    1.	CB_WSNS_WOW_6-22-21: This folder contains
-        a.	Calibration Constants_WSNS_WOW_6-22-21_ALL.csv file.  
-        b.	Standardization_Info_FITWSNS_WOW_6-22-21.csv file.
-        c.	CSV files and pkl files. 
-    2.	html_images: input and output are saved as html_images used are included in this folder 
-    3.	Res.csv :  contains, Sensor, WS (MPH),WD (deg), Min, Max, Mean (mbar), Stddev
-    4.	RW_WOW_6-21-2021_SlidingPatioDoors_WSNS
-    5.	Jupyter Notebooks for WOW_Sliding Patio Doors
-        a.	WOW_6-22-21_NB1__Standardization File.ipynb  
-        b.	WoW_6-22-21_NB2_WSNS POST PROCESSING.ipynb
-        c.	WoW_6-22-21_NB3_INTERACTIVE ANALYSIS.ipynb
-        d.	Box.jpg, SensorLoc_Glass Slider_6_22.jpg, Sliders.jpg.
+    1. Run the following command cell to copy the project to your MyData or change path to wherever you want to copy it to: after opening this Notebook in MyData you don't have to run the below cell again
+
+        ```
+        !umask 0022; cp -r/home/jupyter/NHERI-Published/PRJ-4535v2 /home/jupyter/MyData/PRJ-4535;
+        chmod -R u+rw /home/jupyter/MyData/PRJ-4535
+        ```
+
+    2. Navigate to your 'MyData' directory.
+    For illustrative purposes, input files have been created and shared in this project. These files have been pre-processed and conveniently organized used to illustrate the data collection, integration, and visualization on the map. The outcomes as follows: 
+        1.	CB_WSNS_WOW_6-22-21: This folder contains
+            a.	Calibration Constants_WSNS_WOW_6-22-21_ALL.csv file.  
+            b.	Standardization_Info_FITWSNS_WOW_6-22-21.csv file.
+            c.	CSV files and pkl files. 
+        2.	html_images: input and output are saved as html_images used are included in this folder 
+        3.	Res.csv :  contains, Sensor, WS (MPH),WD (deg), Min, Max, Mean (mbar), Stddev
+        4.	RW_WOW_6-21-2021_SlidingPatioDoors_WSNS
+        5.	Jupyter Notebooks for WOW_Sliding Patio Doors
+            a.	WOW_6-22-21_NB1__Standardization File.ipynb  
+            b.	WoW_6-22-21_NB2_WSNS POST PROCESSING.ipynb
+            c.	WoW_6-22-21_NB3_INTERACTIVE ANALYSIS.ipynb
+            d.	Box.jpg, SensorLoc_Glass Slider_6_22.jpg, Sliders.jpg.
 
 
 

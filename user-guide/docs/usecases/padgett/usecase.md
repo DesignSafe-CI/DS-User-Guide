@@ -26,8 +26,8 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 The following DesignSafe resources are leveraged in this example: 
 
-[Geospatial data analysis and Visualization on DS - QGIS](https://www.designsafe-ci.org/rw/workspace/#!/qgis-duvd-3.16.3u2){target=_blank}<br/>
-[Jupyter notebooks on DS Jupyterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}
+[Geospatial data analysis and Visualization on DS - QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis){target=_blank}<br/>
+[Jupyter notebooks on DS Jupyterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}
 
 ### Background 
 
@@ -83,7 +83,7 @@ Once the Jupyter notebooks run, two output csv files containing the maximum surg
 
 #### Opening a QGIS session in DesignSafe
 
-To access QGIS via DesignSafe go to [Workspace -> Tools & Applications -> Visualization -> QGIS Desktop 3.16](https://www.designsafe-ci.org/rw/workspace/#!/qgis-duvd-3.16.3u2){target=_blank}. You will be prompted the following window:
+To access QGIS via DesignSafe go to [Workspace -> Tools & Applications -> Visualization -> QGIS Desktop](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis){target=_blank}. You will be prompted the following window:
 
 ![Fig2](img/Fig2_Updated.jpg)
 
