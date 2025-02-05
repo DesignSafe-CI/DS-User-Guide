@@ -45,12 +45,14 @@ How to Contribute **Other Changes**:
     <sup>You should only need to do this after new releases.</sup>
     ```shell
     ../bin/tacc-setup.sh
-    poetry install
+    poetry install --sync
+
     ```
 4. Serve the docs:
     ```shell
     poetry shell
     mkdocs serve
+
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
 5. Open the website _at the URL echoed by the program_ e.g.
