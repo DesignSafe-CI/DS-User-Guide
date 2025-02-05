@@ -37,7 +37,7 @@ How to Contribute **Other Changes**:
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/TACC/TACC-Docs/blob/v0.10.1/pyproject.toml#L9).</sup>
 1. [Install Poetry](https://python-poetry.org/docs/#installation) to manage dependencies.\
     <sup>You should only need to do this once.</sup>
-2. Navigate into `/user-guide/` within your clone of this repo.
+2. Navigate into `user-guide/` within your clone of this repo.
 3. Install/Update project dependencies:\
     <sup>You should only need to do this after new releases.</sup>
     ```shell
