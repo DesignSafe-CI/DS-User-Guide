@@ -33,9 +33,6 @@ How to Contribute **Other Changes**:
 
 ### A. Via Python
 
-> [!IMPORTANT]
-> This method has different theme than [live website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) **and** bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
-
 0. Have [Python](https://www.python.org/) installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/TACC/TACC-Docs/blob/v0.10.1/pyproject.toml#L9).</sup>
 1. [Install Poetry](https://python-poetry.org/docs/#installation) to manage dependencies.\
