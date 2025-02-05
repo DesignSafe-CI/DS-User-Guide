@@ -11,5 +11,5 @@ mkdir -p ./user-guide/themes/tacc-readthedocs
 # To clone TACC files (so authors can preview without Docker)
 # TODO: Make TACC/TACC-Docs public, so we can load from TACC/TACC-Docs via CDN
 curl -o ./user-guide/mkdocs.base.yml ${BASE_URL}/mkdocs.base.yml
-curl -o ./poetry.lock ${BASE_URL}/poetry.lock
-curl -o ./pyproject.toml ${BASE_URL}/pyproject.toml
+curl -o ./user-guide/poetry.lock ${BASE_URL}/poetry.lock
+curl -o ./user-guide/pyproject.toml ${BASE_URL}/pyproject.toml
