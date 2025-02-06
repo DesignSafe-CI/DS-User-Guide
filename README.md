@@ -16,6 +16,6 @@ Testing is manual and requires using a command prompt. You can test [via Python]
 
 We automatically publish `main` branch commits. We manually release versions of DS-User-Guide. [Read more](./PUBLISHING.md).
 
-## Theming
+## Developing
 
-To theme your documentation like this project, please contact [@wesleyboar](https://www.github.com/wesleyboar) or mimic [DS-User-Guide](https://github.com/DesignSafe-CI/DS-User-Guide/).
+We use [Poetry](https://python-poetry.org/), [Docker](https://www.docker.com/), [MkDocs](https://mkdocs.readthedocs.io/) and a customized theme. [Read more](./DEVELOPING.md).
