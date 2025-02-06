@@ -1,6 +1,6 @@
-# TACC Docs
+# DesignSafe-CI User-Guide
 
-Built with [MkDocs](https://mkdocs.readthedocs.io/) and a **customized** [ReadTheDocs](https://www.mkdocs.org/user-guide/choosing-your-theme/#readthedocs) theme.
+DesignSafe-CI's user documentation at [designsafe-ci.org/user-guide](https://designsafe-ci.org/user-guide).
 
 ## Contributing
 
