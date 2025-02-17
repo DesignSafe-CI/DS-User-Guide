@@ -2,7 +2,7 @@
 
 ## User Account Registration
 
-Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. Detailed account registration instructions can be found  [[here](https://docs.tacc.utexas.edu/basics/accounts/)].
+Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. Detailed account registration instructions can be found [here](https://docs.tacc.utexas.edu/basics/accounts/).
 
 1. [**Request a user account**](https://www.designsafe-ci.org/account/register/)
 2. You will be redirected to the TACC account registration page.
