@@ -10,4 +10,4 @@ If you receive an **Authentication Failed** error when logging in, and you are c
 
 ## Additional Account Resources
 
-Go to [Managing Your TACC Account](https://docs.tacc.utexas.edu/basics/accounts/) for more detailed information.
+- [Managing Your TACC Account](https://docs.tacc.utexas.edu/basics/accounts/)
