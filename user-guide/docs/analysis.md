@@ -16,6 +16,4 @@
 
 ---
 
-{% include-markdown 'analysis/swbatch.md' %}
-
----
+[comment]: # {% include-markdown 'analysis/swbatch.md' %} remove for now
