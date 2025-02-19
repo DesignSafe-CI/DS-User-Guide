@@ -40,7 +40,7 @@ Start reading our newer docs and you'll get the hang of it. We optimize for read
 * We add a new line before starting a list
 * We indent using tab character
 * We create lists with asterisks
-* We should use [Markdown](https://www.markdownguide.org/extended-syntax/) where available[^1]
+* We should use [Markdown](https://www.markdownguide.org/) where possible[^1]
 * We use some [Python-Markdown extensions](https://python-markdown.github.io/extensions/) and [PyMdown exensions](https://facelessuser.github.io/pymdown-extensions/#extensions)[^2]
 * Use `cwd`-relative paths to images e.g. instead of `/hpc/imgs/blah.gif`, use `../imgs/blah.gif`.[^3]
 
