@@ -26,7 +26,7 @@ We define a large data transfer here as any file transfer that is  &gt; 2GB, or 
 
 	Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
-	See the <a href="#globuscli">Command-Line Data Transfer Guide</a> for instructions.
+	See the <a href="#cli">Command-Line Data Transfer Guide</a> for instructions.
 
 #### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer } 
 
