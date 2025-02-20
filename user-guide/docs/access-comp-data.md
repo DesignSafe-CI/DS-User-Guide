@@ -13,4 +13,4 @@ You will be redirected to the Onboarding Setup page, and you will then want to c
 
 ## Allocations to use the HPC-enabled Tools & Apps { #requestallocations }
 
-DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these, such as [OpenSeesMP] (https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/) and clicking on Get Started you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one.
+DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these, such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/) and clicking on "Get Started" you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one.
