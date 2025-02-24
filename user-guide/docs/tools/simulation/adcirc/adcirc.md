@@ -425,7 +425,7 @@ This path should be in my `MyData` directory, which I can view from the front en
 ![ADCIRC Tapis Job Outputs](./images/tapis-job-outputs.png)
 *Outputs will be found in `MyData` within the the DataDepot.*
 
-See guides on [FigureGen Document](../../visualization/figuregen.md) and [Kalpana Documentation](../../visualization/kalpana.md) for info on how ot visualize ADCIRC output files.  
+See guides on [FigureGen Document](../../visualization/figuregen.md) and [Kalpana Documentation](../../visualization/kalpana.md) for info on how to visualize ADCIRC output files.  
 
 ## ADCIRC Reference
 
