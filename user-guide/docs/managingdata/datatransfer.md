@@ -2,7 +2,7 @@
 
 DesignSafe supports multiple ways of moving data in and out of the Data Depot, the data transfer method that is best for you will depend on the quantity of data you wish to move. There are two broad categories of data transfer methods available; we will refer to these categories as large data transfer methods and normal data transfer methods. Large data transfer methods are for situations where you want to move a large amount of data (&gt; 2GB), a large numbers of files (&gt; 25), or folders. Whereas normal data transfer methods are for situations where you wish to move a small amount of data (&lt; 2GB) stored across a small number of files (&lt; 25).
 
-This document provides a brief description of the various methods available for moving data to DesignSafe to assist you in identifying the right data transfer method for your research needs. Once you have selected your data transfer method, each description concludes with a link to detailed instructions for initiating your transfer.
+This document provides a brief description of the various methods available for moving data to and from DesignSafe to assist you in identifying the right data transfer method for your research needs. Once you have selected your data transfer method, each description concludes with a link to detailed instructions for initiating your transfer.
 
 ### Recommended Data Transfer Methods { #recommended }
 
@@ -12,7 +12,7 @@ We define a large data transfer here as any file transfer that is  &gt; 2GB, or 
 
 1. Globus
 	
-	Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
+	Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once set up, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommended approach for moving large quantities of data to and from DesignSafe.
 
 	See the <a href="#globus">Globus Data Transfer Guide</a> for instructions. If you need to perform automated transfers using Globus, see the <a href="#globuscli">Globus CLI Automated Transfer Guide</a> for instructions.
 
@@ -44,9 +44,9 @@ We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folde
 
 	See below <a href="#jupyterbrowser">JupyterHub's Browser-Based Data Transfer Guide</a> for instructions.
 
-1. Cloud Storage Providers (Box, Dropbox, and Google Drive)
+1. Cloud Storage Provider (Dropbox)
 
-	DesignSafe provides the ability to directly transfer small amounts of data to and from your preferred cloud storage provider. DesignSafe currently supports integration with Box, Dropbox, and Google Drive. Note that DesignSafe does not synchronize your data with the selected cloud storage provider.
+	DesignSafe provides the ability to directly transfer data to and from a cloud storage provider. DesignSafe currently supports integration with Dropbox. Note that DesignSafe does not synchronize your data with the cloud storage provider, it only enables transfers.
 
 	See <a href="#cloud">Cloud Storage Data Transfer Guide</a> below for instructions.
 
@@ -121,6 +121,7 @@ To access your data on DesignSafe
 * For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
 * For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
 * For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
+* For <strong>Community Data</strong> set Path to <strong>/corral/projects/NHERI/community&gt;/</strong>
 
 For more information on path selection please see the detailed guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
@@ -440,7 +441,7 @@ The DesignSafe JupyterHub provides a convenient way to upload and download small
 
 #### To Upload a File Through Jupyter { #jupyterhubbrowser-upload }
 
-Launch Jupyter by logging into DesignSafe and going to **Workspace** &gt; **Tools &amp; Applications** &gt; **Analysis** &gt; **Jupyter** &gt; **Select Jupyter from dropdown**.
+Launch Jupyter by logging into DesignSafe and going to **Use DesignSafe** &gt; **Tools &amp; Applications** &gt; **Analysis** &gt; **Jupyter** &gt; **Select Jupyter from dropdown**.
 
 When your session has launched you will see a directory structure similar to that shown below.
 
@@ -480,15 +481,16 @@ If you would like to download an entire folder, please use one of the large data
 
 ### Cloud Storage Transfer { #cloud }
 
-DesignSafe provides users the capability to connect to their preferred cloud storage provider.
+DesignSafe provides users the capability to connect to a cloud storage provider.
 
-Once connected, data held on the selected cloud storage provider can be easily copied to and from DesignSafe. Note DesignSafe does not actively synchronize your data and so any copy operation must be initiated manually. Any changes you make to data transferred to DesignSafe from a cloud storage provider will not affect the files located on the cloud storage provider. To update the files on the cloud storage provider you must manually copy them back to the provider using the copy functionality in the DesignSafe browser interface.
+Once connected, data held on the cloud storage provider can be easily copied to and from DesignSafe. Note DesignSafe does not actively synchronize your data and so any copy operation must be initiated manually. Any changes you make to data transferred to DesignSafe from a cloud storage provider will not affect the files located on the cloud storage provider. To update the files on the cloud storage provider you must manually copy them back to the provider using the copy functionality in the DesignSafe browser interface.
 
-The three main cloud storage providers, <a href="#cloud-box">Box</a>, <a href="#cloud-dropbox">Dropbox</a>,and <a href="#cloud-googledrive">Google Drive</a>, are supported on DesignSafe. Detailed instructions for setting up these integrations is provided below.
+Currently Dropbox is supported. <!--The three main cloud storage providers, <a href="#cloud-box">Box</a>, <a href="#cloud-dropbox">Dropbox</a>,and <a href="#cloud-googledrive">Google Drive</a>, are supported on DesignSafe.--> Detailed instruction for setting up integration is provided below.
 
+<!--
 #### Box { #cloud-box }
 
-**Login to DesignSafe** and go to **Workspace &gt; Data Depot &gt; Box.com**.
+**Login to DesignSafe** and go to **Use DesignSafe &gt; Data Depot &gt; Box.com**.
 
 Click here to connect to your Box account.
 
@@ -500,35 +502,35 @@ Follow the on-screen instructions to login to your Box.com account.
 
 ![Box Enable](./imgs/cloudstorage-1.png)
 
-Return to the Box.com section of the Data Depot. You can now copy files to and from your Box.com account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
+Return to the Box.com section of the Data Depot. You can now copy files to and from your Box.com account. 
 
 ![Box Complete](./imgs/cloudstorage-1.png)
+-->
 
 #### Dropbox { #cloud-dropbox }
 
-Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Dropbox.com.
+Login to DesignSafe and go to Use DesignSafe &gt; Data Depot &gt; Dropbox.com.
 
 Click here to connect to your Dropbox account.
 
-![Dropbox Begin](./imgs/cloudstorage-1.png)
+![Dropbox Begin](./imgs/cloudstorage-drop-1.png)
 
 Click Setup Dropbox.com.
 
 Follow the on-screen instructions to login to your Dropbox.com account.
 
-![Enable Dropbox](./imgs/cloudstorage-1.png)
+![Enable Dropbox](./imgs/cloudstorage-drop-2.png)
 
-Return to the Dropbox.com section of the Data Depot. You can now copy files to and from your Dropbox.com account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
+Return to the Dropbox.com section of the Data Depot. You can now copy files to and from your Dropbox.com account.
 
-![Complete Dropbox](./imgs/cloudstorage-1.png)
-
+<!--
 #### Google Drive - CURRENTLY NOT FUNCTIONAL { #cloud-googledrive }
 
 GOOGLE HAS MADE CHANGES THAT WE ARE WORKING THROUGH TO REENABLE (status as of January 11, 2023)
 
 Google has made changes that we are working through to reenable.
 
-Login to DesignSafe and go to Workspace &gt; Data Depot &gt; Google Drive
+Login to DesignSafe and go to Use DesignSafe &gt; Data Depot &gt; Google Drive
 
 Click here to connect to your Google Drive account.
 
@@ -540,6 +542,7 @@ Follow the on-screen instructions to login to your Google Drive account.
 
 ![Enable Google Drive](./imgs/cloudstorage-1.png)
 
-Return to the Google Drive section of the Data Depot. You can now copy files to and from your Google Drive account. For instructions on copying data in DesignSafe see the <a href="#datadepotbrowser">Data Depot's Browser-Based Data Transfer Guide</a>.
+Return to the Google Drive section of the Data Depot. You can now copy files to and from your Google Drive account.
 
 ![Complete Google Drive](./imgs/cloudstorage-1.png)
+-->
