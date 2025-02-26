@@ -1,3 +1,10 @@
+<style>
+    /* to use alphabet for nested lists */
+    .document ol ol {
+        list-style: lower-alpha;
+    }
+</style>
+
 # Getting Started
 
 ## User Account Registration
