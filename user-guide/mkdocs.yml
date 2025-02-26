@@ -71,7 +71,7 @@ nav:
     - Jupyter: tools/jupyterhub.md
     - Visualization Applications: tools/visualization.md
 
-  - Simulation Applications: 
+  - Simulation Applications:
     - Overview: tools/simulation/overview.md
     - ADCIRC: tools/simulation/adcirc/adcirc.md
     - Ansys: tools/simulation/ansys.md
@@ -90,7 +90,7 @@ nav:
 #        - Decision Matrix - Platforms: tools/simulation/opensees/openseesDecisionMatrixPlatform.md
 #        - OpenSees at the Linux Terminal: tools/simulation/opensees/openseesRunLinux.md
 #        - Resources: tools/simulation/opensees/openseesResources.md
-#      - OpenSees Applications : 
+#      - OpenSees Applications :
 #        - Overview: tools/simulation/opensees/openseesApplications.md
 #        - 1. OpenSees-Express: tools/simulation/opensees/openseesExpress.md
 #        - 2. OpenSeesSP: tools/simulation/opensees/openseesSP.md
@@ -128,13 +128,13 @@ nav:
     - GeoHazard:
       - NGL Database: usecases/brandenberg-ngl/usecase.md
       - MPM Landslide: usecases/kumar/usecase.md
-    - Seismic: 
+    - Seismic:
       - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
       - Soil Structure Interaction: usecases/rathje/usecase.md
       - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
       - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
       - OpenSees Model Calibration: usecases/arduino/usecase.md
-    - Wind and Storm Surge: 
+    - Wind and Storm Surge:
       - Field Sensing Wind Events: usecases/pinelli/usecase.md
       - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
       - ADCIRC Datasets: usecases/dawson/usecase2.md

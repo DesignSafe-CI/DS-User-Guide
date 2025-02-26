@@ -1,6 +1,6 @@
 ##  IN-CORE User Guide
 
-The Interdependent Networked Community Resilience Modeling Environment (IN-CORE) platform, in continuous development by the Center of Excellence for Risk-Based Community Resilience Planning (CoE), is the result of a multi-university research center funded by The National Institute of Standards and Technology (NIST). Moreover, the platform is intended to offer the potential for community contributed code as resilience modeling research evolves. The platform focuses on measurement science to support community resilience assessment through a risk-based approach to support decision-making for definition, prioritization, and comparison of resilience strategies at the community level. 
+The Interdependent Networked Community Resilience Modeling Environment (IN-CORE) platform, in continuous development by the Center of Excellence for Risk-Based Community Resilience Planning (CoE), is the result of a multi-university research center funded by The National Institute of Standards and Technology (NIST). Moreover, the platform is intended to offer the potential for community contributed code as resilience modeling research evolves. The platform focuses on measurement science to support community resilience assessment through a risk-based approach to support decision-making for definition, prioritization, and comparison of resilience strategies at the community level.
 
 
 ### **Pyincore**, the Python package to access and run IN-CORE models
@@ -33,12 +33,12 @@ To start, access DesignSafe JupyterHub via the DesignSafe-CI. Select "Tools & Ap
 
 #### Installing pyincore without creating a new environment (temporary installation) <a name="Title1.1"></a>
 
-Installing the pyincore package on DesignSafe directly on the "base" subshell in Jupyter can be done using the `%pip` line magics as presented below. 
+Installing the pyincore package on DesignSafe directly on the "base" subshell in Jupyter can be done using the `%pip` line magics as presented below.
 
 ```python 
 !pip3 -q install pyincore --user
 ```
-After this, you may need to restart your kernel (click on Kernel/Restart Kernel and Clear All Outputs). 
+After this, you may need to restart your kernel (click on Kernel/Restart Kernel and Clear All Outputs).
 
 #### Installing pyincore creating a new environment (recommended) <a name="Title1.2"></a>
 
@@ -56,7 +56,7 @@ conda install -c in-core pyincore-viz
 ```
 
 After these steps, the new environment should appear in your launcher. 
-It also must appear in the "switch kernel" panel (right upper corner of the notebook, as shown in Figure 2). Select the newly created environment; this must appear as `[conda env:pyincore_on_DS]`. 
+It also must appear in the "switch kernel" panel (right upper corner of the notebook, as shown in Figure 2). Select the newly created environment; this must appear as `[conda env:pyincore_on_DS]`.
 
 ![Figure 2. Selecting the newly created conda environment](./imgs/new_conda_environment.png)
 *Figure 2. Selecting the newly created conda environment*
@@ -126,7 +126,7 @@ You can check the exposed assets by using Python libraries for visualization of 
 
 ```python
 # Retrieve the GeoDataframe
-bridges_gdf = MMSA_bridges.get_dataframe_from_shapefile() 
+bridges_gdf = MMSA_bridges.get_dataframe_from_shapefile()
 
 # Create the interactive plot
 import plotly.express as px
@@ -146,7 +146,7 @@ fig.update_layout(mapbox_style="carto-positron",
 fig
 ```
 
-The obtained figure is presented in Figure 3. 
+The obtained figure is presented in Figure 3.
 
 ![Figure 3. Visualization of the exposed bridges using interactive plots](./imgs/in-core-3.png)
 *Figure 3. Visualization of the exposed bridges using interactive plots*

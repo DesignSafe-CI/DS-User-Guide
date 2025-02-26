@@ -2,27 +2,27 @@
 
 ### Data Metrics { #data }
 
-Data metrics are research impact indicators complementary to other forms of evaluation such as number of paper citations, allowing researchers to assess the repercussions and influence of their work.  
+Data metrics are research impact indicators complementary to other forms of evaluation such as number of paper citations, allowing researchers to assess the repercussions and influence of their work.
 
-Metrics available in DesignSafe follow the Make your Data Count  <a href="https://www.projectcounter.org/code-practice-research-data/" target="_blank">Counter Code of Practice for Research Data.</a> This is a community standard to count data usage transparently and in a normalized way. For more information about this approach please visit <a href="https://makedatacount.org/data-metrics-2/" target="_blank">Make your Data Count Metrics</a>.  
+Metrics available in DesignSafe follow the Make your Data Count  <a href="https://www.projectcounter.org/code-practice-research-data/" target="_blank">Counter Code of Practice for Research Data.</a> This is a community standard to count data usage transparently and in a normalized way. For more information about this approach please visit <a href="https://makedatacount.org/data-metrics-2/" target="_blank">Make your Data Count Metrics</a>.
 
 In Natural Hazards, a research project can encompass more than one data publication which can be produced at different times by different creators and have different DOIs. In DesignSafe, project types are: Other, Experimental, Simulation, Hybrid Simulation, and Field Research. In turn, each has different data publications. Project type "Other" only has one data publication and DOI, while the rest may have more than one data publication and therefore multiple DOIs per project.
 
-<strong>Data Publications:</strong>  
+<strong>Data Publications:</strong>
 
-Experiment (in Experimental projects)  
+Experiment (in Experimental projects)
 
-Mission and Document collection (in Field Research projects)  
+Mission and Document collection (in Field Research projects)
 
-Simulation (in Simulation projects)  
+Simulation (in Simulation projects)
 
-Hybrid Simulation (in Hybrid Simulation projects)  
+Hybrid Simulation (in Hybrid Simulation projects)
 
-Other-type project (these encompass only one data publication and thus one level of metrics).  
+Other-type project (these encompass only one data publication and thus one level of metrics).
 
-Because of the structure of the research projects in DesignSafe we report metrics at the project and at the data publication levels. Metrics at the project level allow researchers to assess the overall impact of the projects because it aggregates the usage of all the data publications. Instead, data publication metrics provide granular information about the usage of each publication that has a DOI within a project.  
+Because of the structure of the research projects in DesignSafe we report metrics at the project and at the data publication levels. Metrics at the project level allow researchers to assess the overall impact of the projects because it aggregates the usage of all the data publications. Instead, data publication metrics provide granular information about the usage of each publication that has a DOI within a project.
 
-Data Metrics is a work in progress and we add measurements on an ongoing basis. We started counting Project Metrics in March 2021 And Data Publication Metrics in January 2022.  
+Data Metrics is a work in progress and we add measurements on an ongoing basis. We started counting Project Metrics in March 2021 And Data Publication Metrics in January 2022.
 
 Below are descriptions of each type of metric and what is counted at the project and at the data publication levels.
 

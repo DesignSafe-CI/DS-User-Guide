@@ -8,7 +8,7 @@ On DesignSafe web portal, three versions of Jupyter have been created, including
 | --- | - | - |
 | **Jupyter** | No wait; <br>No maximum job runtime limit; <br>Sufficient memory for data processing purpose | Low performance for AI/ML jobs; <br>Need to install Python packages every time |
 | **Jupyter Lab HPC (CPU)** | More memory and faster than **Jupyter**; <br>No need to reinstall Python packages once they have been installed; <br>Excellent capability for data processing and parallel computing using 56 cores. | Queue exists, longer wait time may be needed; <br>Slower than **Jupyter Lab HPC (GPU)** for deep learning jobs; <br>Maximum job runtime is 48 hours | 
-| **Jupyter Lab HPC (GPU)** | Four GPUs in total, best performance for AI/ML jobs; <br> Many commonly used Python packages for AI/ML applications have been pre-installed, including TensorFlow and PyTorch | Queue exists, longer wait time may be needed; <br>Maximum job runtime is 48 hours | 
+| **Jupyter Lab HPC (GPU)** | Four GPUs in total, best performance for AI/ML jobs; <br> Many commonly used Python packages for AI/ML applications have been pre-installed, including TensorFlow and PyTorch | Queue exists, longer wait time may be needed; <br>Maximum job runtime is 48 hours |
 
 **Note:** When using the **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)**, you need to place all your files/data/codes/Jupyter Notebooks inside the *Work* folder. This can be done on DesignSafe Data Depot page without submitting any jobs.
 
