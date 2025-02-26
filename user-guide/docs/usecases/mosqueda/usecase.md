@@ -29,7 +29,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){:target="_blank"} <br/> 
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target="_blank"} <br/> 
 
 
 ### Background 

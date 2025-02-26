@@ -25,7 +25,7 @@ The following Jupyter notebook is the basis for the use case described in this s
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){:target="_blank"}
+* [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){:target="_blank"}
 
 ### Background
 

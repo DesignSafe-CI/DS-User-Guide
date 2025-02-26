@@ -11,9 +11,9 @@ Material Point Method for Landslide Modeling
 
 The example makes use of the following DesignSafe resources:
 
-[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
-[CB-Geo MPM](https://www.designsafe-ci.org/rw/workspace/#!/mpm-1.0.0u1){target=_blank}<br/> 
-[ParaView](https://www.designsafe-ci.org/rw/workspace/#!/Paraview::Visualization){target=_blank}<br/> 
+[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}<br/>
+[CB-Geo MPM](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/mpm){target=_blank}<br/> 
+[ParaView](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/paraview){target=_blank}<br/> 
 
 ### Background 
 #### Citation and Licensing
@@ -30,7 +30,7 @@ Material Point Method (MPM) is a particle based method that represents the mater
 ![MPM Algorithm](img/mpm-algorithm.png)
 > Illustration of the MPM algorithm (1) A representation of material points overlaid on a computational grid. Arrows represent material point state vectors (mass, volume, velocity, etc.) being projected to the nodes of the computational grid. (2) The equations of motion are solved onto the nodes, resulting in updated nodal velocities and positions. (3) The updated nodal kinematics are interpolated back to the material points. (4) The state of the material points is updated, and the computational grid is reset.
 
-This use case demonstrates how to run MPM simulations on DesignSafe using [Jupyter Notebook](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}. For more information on CB-Geo MPM visit the [GitHub repo](https://github.com/cb-geo/mpm){target=_blank} and [user documentation](https://mpm.cb-geo.com){target=_blank}.
+This use case demonstrates how to run MPM simulations on DesignSafe using [Jupyter Notebook](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}. For more information on CB-Geo MPM visit the [GitHub repo](https://github.com/cb-geo/mpm){target=_blank} and [user documentation](https://mpm.cb-geo.com){target=_blank}.
 
 
 
@@ -102,7 +102,7 @@ sim.write_input_file()
 This creates in the working directory a folder `Two_materials_column` where all the necessary input files are located. 
 
 ### Running the MPM Code
-The CB-Geo MPM code is available on DesignSafe under `WorkSpace > Tools & Applications > Simulations`. [Launch a new MPM Job](https://www.designsafe-ci.org/rw/workspace/#!/mpm-1.0.0u1){target=_blank}. The input folder should have all the scripts, mesh and particle files. CB-Geo MPM can run on multi-nodes and has been tested to run on upto 15,000 cores. 
+The CB-Geo MPM code is available on DesignSafe under `WorkSpace > Tools & Applications > Simulations`. [Launch a new MPM Job.](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/mpm){target=_blank} The input folder should have all the scripts, mesh and particle files. CB-Geo MPM can run on multi-nodes and has been tested to run on upto 15,000 cores. 
 
 ![Run MPM on DS](img/mpm-ds.png)
 
@@ -136,7 +136,7 @@ The CB-Geo MPM code generates parallel `*.pvtp` files when the code is executed 
 
 The parameter `vtk_statevars` is an optional VTK output, which will print the value of the state variable for the particle. If the particle does not have the specified state variable, it will be set to NaN.
 
-You can view the results in [DesignSafe ParaView](https://www.designsafe-ci.org/rw/workspace/#!/Paraview::Visualization)
+You can view the results in [DesignSafe ParaView](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/paraview):
 
 ![ParaView MPM](img/paraview-viz.png)
 
