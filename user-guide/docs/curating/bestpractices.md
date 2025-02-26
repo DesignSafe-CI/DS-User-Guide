@@ -4,7 +4,7 @@
 
 #### Accepted Data  { #accepteddata }
 
-The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted. 
+The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted.
 
 #### Accepted and Recommended File Formats  { #acceptedfileformats }
 
@@ -52,7 +52,7 @@ Researchers working at a NHERI EF will receive their bulk data files directly in
 
 For all other research performed at a non-NHERI facility, it will be the responsibility of the research team to upload their data to the DDR.
 
-There are different ways to upload data to My Project:    
+There are different ways to upload data to My Project:
 
 * Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. See file naming convention recommendations in the <a href="#organization">Data Organization and Description</a>
 * Select the Add button, then File upload to begin uploading data from your local machine. You can browse and select files or drag and drop files into the window that appears.  
@@ -87,7 +87,7 @@ After data is published users can still work on My Project for progressive publi
 
 #### General Research Data Best Practices { #bestpractices }
 
-Below we include general research data best practices but we strongly recommend to review the available <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a> for more specific directions on how to document and organize specific research data types. 
+Below we include general research data best practices but we strongly recommend to review the available <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a> for more specific directions on how to document and organize specific research data types.
 
 ##### Proprietary Formats { #bestpractices-formats }
 
@@ -109,7 +109,7 @@ Understanding that ArcGIS software is widespread in this community  in the DDR i
 
 ##### Point Cloud Data { #bestpractices-pointcloud }
 
-It is highly recommended to avoid publishing proprietary point cloud data extensions.  Instead, users should consider publishing post-processed and open format extension data such as las or laz files. In addition, point cloud data publications may be very large. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a potree readable format to be visualized in DesignSafe. 
+It is highly recommended to avoid publishing proprietary point cloud data extensions.  Instead, users should consider publishing post-processed and open format extension data such as las or laz files. In addition, point cloud data publications may be very large. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a potree readable format to be visualized in DesignSafe.
 
 ##### Jupyter Notebooks { #jupyter }
 
@@ -163,7 +163,7 @@ NH datasets can be very large and complex, so we require that users submit a dat
 
 To provide connections to different types of information about the published dataset, users can use the Related Work field. We provide different types of tags that explain their relation to the dataset. To connect to information resources that provide contextual information about the dataset (events or organizations) use the tag "context". To link to other published datasets in the DDR use the tag "link Dataset", and to connect to published papers that cite the dataset use the tag "is cited by". Importantly, users should add the DOI of these different information types in http format (if there is no DOI add a URL). The latter information is sent to DataCite, enabling exchange of citation counts within the broader research ecosystem through permanent identifiers. Related Works can be added after the dataset was published using the amends pipeline. This is useful when a paper citing the dataset is published after the publication of the dataset. 
 
-When applicable, we ask users to include information about their research funding in the Awards Info fields. 
+When applicable, we ask users to include information about their research funding in the Awards Info fields.
 
 #### Data Quality Control { #quality }
 
@@ -175,7 +175,7 @@ Include a data dictionary or a readme file to explain the meaning of data fields
 
 Researchers in NH generate enormous amounts of images. While we are not posing restrictions on the amount of files, in order to be effective in communicating their research users being selective with the images chosen to publish is key.  For example, making sure they have a purpose, are illustrative of a process or a function, and using file tags to describe them. The same concept can be applied for other data formats. 
 
-It is possible to publish raw and curated data. Raw data is that which comes directly from the recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data as well as their curated data. For users who seek to publish both, consider why it is necessary to publish both sets and how another researcher would use them. Always clarify whether your data is raw or curated in the description or in a data report/readme file including the method used to post-process it.  
+It is possible to publish raw and curated data. Raw data is that which comes directly from the recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data as well as their curated data. For users who seek to publish both, consider why it is necessary to publish both sets and how another researcher would use them. Always clarify whether your data is raw or curated in the description or in a data report/readme file including the method used to post-process it.
 
 #### Managing Protected Data in the DDR { #protectedddr }
 
@@ -185,7 +185,7 @@ At the moment of selecting a Field Research project, users are prompted to respo
 
 DesignSafe My Data and My Projects are secure spaces to store raw protected data as long as it is not under HIPAA, FERPA or FISMA regulations. If data needs to comply with these regulations, researchers must contact DDR through a <a href="http://www.designsafe-ci.org/help/new-ticket">help ticket</a> to evaluate the need to use <a href="https://www.tacc.utexas.edu/protected-data-service">TACC‘s Protected Data Service</a>. Researchers with doubts are welcome to send a <a href="http://www.designsafe-ci.org/help/new-ticket">ticket</a> or join <a href="https://www.designsafe-ci.org/learning-center/training/">curation office hours</a>.
 
-Projects that do not include the study of human subjects and are not under IRB purview may still contain items with Personally Identifiable Information (PII). For example, researchers conducting field observations may capture human subjects in their documentation including work crews, passersby, or people affected by the disaster. If camera instruments capture people that are in the observed areas incidentally, we recommend that their faces and any <a href="https://www.technology.pitt.edu/help-desk/how-to-documents/guide-identifying-personally-identifiable-information-pii">Personally Identifiable Information</a> should be anonymized/blurred before publishing. In the case of images of team members, make sure they are comfortable with making their images public. Do not include roofing/remodeling records containing any form of PII. When those are public records, researchers should point to the site from which they are obtained using the Referenced Data and or Related Work fields. In short, users should follow all other protected data policies and best practices outlined further in this document.  
+Projects that do not include the study of human subjects and are not under IRB purview may still contain items with Personally Identifiable Information (PII). For example, researchers conducting field observations may capture human subjects in their documentation including work crews, passersby, or people affected by the disaster. If camera instruments capture people that are in the observed areas incidentally, we recommend that their faces and any <a href="https://www.technology.pitt.edu/help-desk/how-to-documents/guide-identifying-personally-identifiable-information-pii">Personally Identifiable Information</a> should be anonymized/blurred before publishing. In the case of images of team members, make sure they are comfortable with making their images public. Do not include roofing/remodeling records containing any form of PII. When those are public records, researchers should point to the site from which they are obtained using the Referenced Data and or Related Work fields. In short, users should follow all other protected data policies and best practices outlined further in this document.
 
 #### Metadata Requirements { #metadatareqs }
 
@@ -193,7 +193,7 @@ Metadata is information that describes the data in the form of schemas. Metadata
 
 So that DDR metadata can be exchanged in a standard way, we map the fields and terms to widely-used, standardized schemas. The schemas are: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core</a> for description of the research data project, <a href="https://ddialliance.org/products/overview-of-current-products">DDI (Data Documentation Initiative)</a> for social science data, and <a href="https://datacite.org/dois.html">DataCite</a> for DOI assignment and citation. We use the <a href="https://www.w3.org/2001/sw/wiki/PROV">PROV</a> schema to connect the different components of multi-part data publications.
 
-Due to variations in research methods, users may not need to use all the metadata elements available to describe their data. However, for each project type we identified a required set that represents the structure of the data, are useful for discovery, and will allow proper citation of data. To ensure the quality of the publications, the system automatically checks for completeness of these core elements and whether data files are associated with them. If those elements and data are not present, the publication does not go through. For each project type, the metadata elements including those that are required and recommended are shown below.  
+Due to variations in research methods, users may not need to use all the metadata elements available to describe their data. However, for each project type we identified a required set that represents the structure of the data, are useful for discovery, and will allow proper citation of data. To ensure the quality of the publications, the system automatically checks for completeness of these core elements and whether data files are associated with them. If those elements and data are not present, the publication does not go through. For each project type, the metadata elements including those that are required and recommended are shown below.
 
 <table border="1" width="100%">
 <tr valign="top">
@@ -465,7 +465,7 @@ The NISTIR 8053 publication <a href="https://nvlpubs.nist.gov/nistpubs/ir/2015/N
 
 Another <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id">NIST resource</a> including de-identification tools. 
 
-John Hopkins Libraries Data Services <a href="https://dataservices.library.jhu.edu/resources/applications-to-assist-in-de-identification-of-human-subjects-research-data/">Applications to Assist in De-identification of Human Subjects Research Data</a>. 
+John Hopkins Libraries Data Services <a href="https://dataservices.library.jhu.edu/resources/applications-to-assist-in-de-identification-of-human-subjects-research-data/">Applications to Assist in De-identification of Human Subjects Research Data</a>.
 
 #### Reusing Data Resources in your Publication { #reusingdata }
 
@@ -494,7 +494,6 @@ Researchers frequently use data, code, papers or reports from other sources in t
 Although no firm timeline requirements are specified for data publishing, researchers are expected to publish in a timely manner. Recommended timelines for publishing different types of research data (i.e., Experimental, Simulation, and Reconnaissance) are listed in Table 1.
 
 Guidelines specific to RAPID reconnaissance data can be found at <a href="https://rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf">rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf</a><br>
- 
 
 ##### Table 1. Recommended Publishing Timeline for Different Data Types { #table1 }
 
@@ -707,11 +706,11 @@ Version control includes:
 <li>Users will always be able to access previous versions through the landing page.</li>
 </ul>
 
-When implementing amend and version take the following into consideration: 
+When implementing amend and version take the following into consideration:
 
 <b data-stringify-type="bold">Amend</b> is only going to update the latest version of a publication (if there is only one version that will be the target). Only the specified fields in the metadata form will be updated. The order of authors must be confirmed before the amendments can be submitted.
 
-<b data-stringify-type="bold">Version</b> will create a new published version of a project. This pipeline will allow you to select a new set of files to publish, and whatever is selected in the pipeline is what will be published, nothing else. Additionally, the order of authors can be updated. 
+<b data-stringify-type="bold">Version</b> will create a new published version of a project. This pipeline will allow you to select a new set of files to publish, and whatever is selected in the pipeline is what will be published, nothing else. Additionally, the order of authors can be updated.
 
 <b data-stringify-type="bold">Important</b>: Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
 
@@ -771,7 +770,7 @@ Both the front-end copies and the Fedora repositories are in systems that implem
 The underlying storage systems for the DDR are managed in-house at TACC. All the storage systems used by DesignSafe are shared multi-tenant systems, hosting many projects concurrently in addition to DesignSafe – the front-end disk system currently has ~20PB of data, with the <a href="https://www.tacc.utexas.edu/systems/ranch" target="_blank">tape archive </a>containing roughly 80PB. These systems are operated in production by a large team of professional staff, in conjunction with TACC’s supercomputing platforms. Public user guides document the capabilities and hardware, and internal configuration management is managed via Redmine, visible only to systems staff.
 
 
-This preservation environment allows maintaining data in secure conditions at all times, before and after publication, comply with <a href="https://ndsa.org/publications/levels-of-digital-preservation/">NDSA Preservation Level 1</a>, attain and maintain the required representation and descriptive information about each file, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion. Fedora has <a href="https://github.com/fcrepo-exts/fcrepo-import-export">export capabiiities</a> for transfer of data and metadata to another Fedora repository or to another system. 
+This preservation environment allows maintaining data in secure conditions at all times, before and after publication, comply with <a href="https://ndsa.org/publications/levels-of-digital-preservation/">NDSA Preservation Level 1</a>, attain and maintain the required representation and descriptive information about each file, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion. Fedora has <a href="https://github.com/fcrepo-exts/fcrepo-import-export">export capabiiities</a> for transfer of data and metadata to another Fedora repository or to another system.
 
 
 Each published dataset has a <a href="#curation-publication-faq">digital object identifier (DOI)</a> that provides a persistent link to the published data. The DOI is available in the dataset landing page, along with all the required metadata and documentation.

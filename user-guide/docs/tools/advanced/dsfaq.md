@@ -23,7 +23,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 </ul>
 
 <hr>
-## Users and Accounts { #faq-users } 
+## Users and Accounts { #faq-users }
 
 <strong>Q: Who can be a DesignSafe User?</strong><br>
 A: Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers.
@@ -32,7 +32,7 @@ A: Any natural hazards researcher or practitioner that wants an environment to s
 A: Navigate to and then follow the directions to submit the <a href="https://www.designsafe-ci.org/account/register/" target="_blank">registration request</a>, and then follow the instructions in the email you receive to complete setting up your account, and then you will be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. Note that a DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
 
 <strong>Q: I forgot my password. How do I reset it? </strong><br>
-A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
+A: Go to https://accounts.tacc.utexas.edu/forgot_password and you will be prompted to enter your username or email address that is associated with your user account, and you will receive an email with a password reset link.
 
 <strong>Q: I'm getting an Authentication Failed error. What should I do? </strong><br>
 A: If you are confident that you have entered the correct password for your account, then it is likely that your account has become Deactivated. Accounts are deactivated when more than 120 days have passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
@@ -48,7 +48,7 @@ A: With an account, you can:
 </ul>
 
 <strong>Q: How can I become more involved in DesignSafe?</strong><br>
-A: Upon receiving your new user account, you will be sent an email to join our <a href="https://www.designsafe-ci.org/community/slack-online-collaboration/" target="_blank">Slack team</a> to participate in discussions and give your input on the site. 
+A: Upon receiving your new user account, you will be sent an email to join our <a href="https://www.designsafe-ci.org/community/slack-online-collaboration/" target="_blank">Slack team</a> to participate in discussions and give your input on the site.
 
 <hr>
 ## Training { #faq-training }
@@ -63,11 +63,11 @@ A: Webinars are recorded and made available on our <a href="https://www.youtube.
 ## Data Depot { #faq-datadepot }
 
 <strong>Q: What data can I upload to the Data Depot?</strong><br>
-A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="/user-guide/curating/bestpractices/#protecteddata" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
+A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="/user-guide/curating/bestpractices/#protecteddata" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged!
 
 
 <strong>Q: How can I transfer data to/from my computer and the Data Depot?</strong><br>
-A: Explore the [Data Transfer Guides](/user-guide/managingdata/datatransfer/) to see our recommended methods based on the amount of data you are transferring. 
+A: Explore the [Data Transfer Guides](/user-guide/managingdata/datatransfer/) to see our recommended methods based on the amount of data you are transferring.
 
 <strong>Q: What is My Projects?</strong><br>
 A: <a href="/data/browser/projects/" target="_blank">My Projects</a> is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
@@ -85,7 +85,7 @@ A: The Published directory in the Data Depot holds the <a href="https://www.desi
 ## Tools & Applications { #faq-workspace }
 
 <strong>Q: I don't see the application I need in the Tools & Applications. How can I use my application?</strong><br>
-A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/new-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
+A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/new-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application.
 
 <hr>
 ## MATLAB { #faq-matlab }

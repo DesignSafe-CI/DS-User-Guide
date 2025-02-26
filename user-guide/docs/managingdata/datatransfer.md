@@ -73,7 +73,7 @@ Find your ePPN associated with your Globus access by going to https://cilogon.or
 
 Login to your TACC user profile here: https://accounts.tacc.utexas.edu. 
 Select ePPN on the left menu and then enter your ePPN in the field at the top of the page and save.
-Allow 30 minutes for the ePPN to propagate through TACC's systems. 
+Allow 30 minutes for the ePPN to propagate through TACC's systems.
 
 #### 4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect { #globus-step4 }
 
@@ -152,7 +152,7 @@ Globus provides a command line interface (CLI), for those who need to perform au
 
 #### 1. Follow the steps 1-3 above in Globus Data Transfer Guide { #globuscli-step1 }
 
-To set up your Globus access, follow steps 1-3 above in the <a href="#globus-step1">Globus Data Transfer Guide</a> . 
+To set up your Globus access, follow steps 1-3 above in the <a href="#globus-step1">Globus Data Transfer Guide</a> .
 
 #### 2. Activate Your Desktop/Laptop as a Globus Endpoint and Connect { #globuscli-step2 }
 
@@ -258,7 +258,7 @@ An example cron table entry that you can use to automatically run your transfer 
 
 ### Cyberduck Data Transfer Guide { #cyberduck }
 
-Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows you to securely connect from your laptop to DesignSafe and other Texas Advanced Computing Center (TACC) resources. 
+Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows you to securely connect from your laptop to DesignSafe and other Texas Advanced Computing Center (TACC) resources.
 
 #### 1. Set up MFA using the TACC Token App { #cyberduck-step1 }
 
@@ -398,7 +398,7 @@ Once the transfer is complete the Upload files window will close and you will se
 
 If you wish to upload a folder, follow the same procedure as above except select **Folder upload: max 25 files**. However, be sure that the folder you wish to upload is small than 100 MB and contains fewer than 25 files. If the folder you wish to upload exceeds these limits please use one of the large data transfer methods listed in this guide rather than the web interface.
 
- 
+
 
 #### Download { #datadepotbrowser-download }
 
@@ -466,7 +466,7 @@ After the upload is complete the files will be viewable in Jupyter.
 
 If you would like to upload an entire folder, please use one of the large data transfer methods listed in this guide.
 
- 
+
 
 #### To Download a File Through Jupyter { #jupyterhubbrowser-download }
 
@@ -476,7 +476,7 @@ To download a file, **select the file** then select **Download**.
 
 ![Select File for Download](./imgs/jupyterbrowser-6.png)
 
-If you would like to download an entire folder, please use one of the large data transfer methods listed in this guide. 
+If you would like to download an entire folder, please use one of the large data transfer methods listed in this guide.
 
 ### Cloud Storage Transfer { #cloud }
 

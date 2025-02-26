@@ -2,7 +2,7 @@
 
 ## Introduction { #intro }
 
-The following are the policies governing allocations for compute time and storage on the DesignSafe platform, a comprehensive natural hazards research environment for experimental, theoretical, and computational science. The allocation policy for DesignSafe considers that users may have a range of use cases, from short term analysis work to long term data storage, for very large or very small experiments. All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. New use cases for DesignSafe may emerge—please don’t hesitate to <a href="/help/submit-ticket/" target="_blank">contact the project team</a> if you have additional needs. 
+The following are the policies governing allocations for compute time and storage on the DesignSafe platform, a comprehensive natural hazards research environment for experimental, theoretical, and computational science. The allocation policy for DesignSafe considers that users may have a range of use cases, from short term analysis work to long term data storage, for very large or very small experiments. All registered users are provided access to the Tools &amp; Applications in a controlled manner that limits the amount of computing capacity, and they may request an additional allocation for various purposes such as the need for larger scale computation or to run applications that are not provided via the portal. New use cases for DesignSafe may emerge—please don’t hesitate to <a href="/help/submit-ticket/" target="_blank">contact the project team</a> if you have additional needs.
 
 ## Who is eligible for an Account { #account }
 
@@ -22,11 +22,11 @@ All registered users are provided access to the Tools &amp; Applications in a co
 
 ## Allocation Types and Constraints { #description }
 
-DesignSafe provides access to a variety of computing and storage resources, accessible through several different interfaces: via the web-based Tools &amp; Applications portal, or via API's, or via direct command-line access to TACC's HPC systems. Web-based access via Tools &amp; Applications has built-in constraints that limit the amount of compute time. For users requiring access via API or direct command-line access to HPC resources, they can request additional allocations of computational time and/or data storage. TACC has <a href="https://docs.tacc.utexas.edu/" target="_blank">several different HPC resources</a> and we will provide allocation on the resource that is best suited to achieve your research goals. 
+DesignSafe provides access to a variety of computing and storage resources, accessible through several different interfaces: via the web-based Tools &amp; Applications portal, or via API's, or via direct command-line access to TACC's HPC systems. Web-based access via Tools &amp; Applications has built-in constraints that limit the amount of compute time. For users requiring access via API or direct command-line access to HPC resources, they can request additional allocations of computational time and/or data storage. TACC has <a href="https://docs.tacc.utexas.edu/" target="_blank">several different HPC resources</a> and we will provide allocation on the resource that is best suited to achieve your research goals.
 
 ### Allocation Sizes and Limits { #allocationsizes }
 
-Additional allocations available via DesignSafe enable researchers to directly access TACC's HPC systems via the command line interface. The following describes the types and sizes of allocations available via DesignSafe. Some users will ultimately require even larger amounts of compute time than is offered under this policy, and when that happens we will recommend other allocation methods for NSF-supported resources that are available such as <a href="https://frontera-portal.tacc.utexas.edu/allocations/" target="_blank">Frontera Allocations</a> or <a href="https://allocations.access-ci.org/" target="_blank">ACCESS Allocations</a>. 
+Additional allocations available via DesignSafe enable researchers to directly access TACC's HPC systems via the command line interface. The following describes the types and sizes of allocations available via DesignSafe. Some users will ultimately require even larger amounts of compute time than is offered under this policy, and when that happens we will recommend other allocation methods for NSF-supported resources that are available such as <a href="https://frontera-portal.tacc.utexas.edu/allocations/" target="_blank">Frontera Allocations</a> or <a href="https://allocations.access-ci.org/" target="_blank">ACCESS Allocations</a>.
 
 <ul>
 	<li>Startup Allocation — Startup projects target new users exploring the use of DesignSafe beyond the level of computational time or capabilities provided by the portal-based Tools &amp; Applications and/or planning to submit more substantial requests for computational time in the future as well as users who have modest requirements that nonetheless can’t be met by their own local or institutional resources. A Startup Allocation may request up to 20,000 node-hours annually. </li>
@@ -69,7 +69,7 @@ Every effort is made to avoid conflicts of interest. Reviewers are not allowed t
 
 ## How to apply for an Additional Allocation { #apply }
 
-A proposal for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the amount of resources requested. Detailed guidance is in the following sections. When the proposal is complete it can be submitted via a <a href="/help/new-ticket/" target="_blank">help ticket</a>. 
+A proposal for an additional allocation includes information about the eligibility of the requestor, a description of the research to be performed and its sources of support, and a justification for the amount of resources requested. Detailed guidance is in the following sections. When the proposal is complete it can be submitted via a <a href="/help/new-ticket/" target="_blank">help ticket</a>.
 
 ### Allocation Proposal Guidance { #guidance }
 
@@ -143,7 +143,7 @@ A supplement is a request for additional resources during an existing allocation
 
 ### Extension Requests { #extensions }
 
-Extensions of allocation periods beyond the normal 12-month duration can be requested. This request brings no new allocation, but keeps unused allocations from expiring. A brief reason is required for not using the awarded allocation, but no formal documentation is needed. 
+Extensions of allocation periods beyond the normal 12-month duration can be requested. This request brings no new allocation, but keeps unused allocations from expiring. A brief reason is required for not using the awarded allocation, but no formal documentation is needed.
 
 ### Guidelines for a Successful Allocation Request { #guidelines }
 
