@@ -17,9 +17,9 @@ The following use case demonstrates how to compile an ADCIRC data-set of hind-ca
 1. Finding storm-surge events.
 2. Compiling meteorological forcing for storm surge events.
 3. Running ADCIRC hind-casts using meteorological forcing.
-4. Organize and publish data on DesignSafe, obtaining a DOI for your research and for others to cite your data when re-used. 
+4. Organize and publish data on DesignSafe, obtaining a DOI for your research and for others to cite your data when re-used.
 
-The workflow presented here is a common one performed for compiling ADCIRC data-sets for a variety of purposes, from Uncertainty Quantification to training Surrogate Models. Whatever your application is of ADCIRC data, publishing your dataset on DesignSafe allows you to re-use your own data, and for others to use and cite your data as well. 
+The workflow presented here is a common one performed for compiling ADCIRC data-sets for a variety of purposes, from Uncertainty Quantification to training Surrogate Models. Whatever your application is of ADCIRC data, publishing your dataset on DesignSafe allows you to re-use your own data, and for others to use and cite your data as well.
 
 <aside>
 💡 Note step 3 will not be covered explicitly in this use-case but rather is covered in the use case on [running ensemble simulations](https://www.designsafe-ci.org/ds-use-case/dawson/usecase/). Refer to that use case for more documentation on how to run ensembles.
@@ -91,7 +91,7 @@ The following use case uses the [pyADCIRC python library](https://github.com/UT-
 $ pip install pyadcirc
 ```
 
-The `pyadcirc.data` contains functions to access two data sources in particular. First is [NOAAs tidal gauge data](https://tidesandcurrents.noaa.gov/) for identifying storm surge. They provide a [public API](https://api.tidesandcurrents.noaa.gov/api/prod/) for accessing their data, for which pyADCIRC provides a python function and CLI (command line interface) wrapper around. The tidal signal at areas of interest over our domain will allow us to both identify potential storm surge events, and verify ADCIRC hind-casts with the real observations. 
+The `pyadcirc.data` contains functions to access two data sources in particular. First is [NOAAs tidal gauge data](https://tidesandcurrents.noaa.gov/) for identifying storm surge. They provide a [public API](https://api.tidesandcurrents.noaa.gov/api/prod/) for accessing their data, for which pyADCIRC provides a python function and CLI (command line interface) wrapper around. The tidal signal at areas of interest over our domain will allow us to both identify potential storm surge events, and verify ADCIRC hind-casts with the real observations.
 
 ![NOAA API CLI provided by the pyadcirc library. The `noaa_data` executable end point is created whenever pyadcirc is installed as library in an environment, providing a convenient CLI for interacting with the NOAA API that is well documented.](img/noaa_api.png)
 
@@ -108,7 +108,7 @@ For example the file may look like:
 
 The example within this use case comprises of 4 main steps to create a data-set starting from a set of ADCIRC control input files. The notebook can be found at in the [ADCIRC Use Case’s](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC) folder with the name `Creating an ADCIRC DataSet.ipynb` . Note that the notebook should be copied to the users `~/MyData` directory before being able to use it (these steps are covered in the notebook). [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb)
 
-The notebook covers the first two steps of this use case, namely identifying storm surge events and creating base input data sets to run using ADCIRC. We briefly overview the notebook’s results below. 
+The notebook covers the first two steps of this use case, namely identifying storm surge events and creating base input data sets to run using ADCIRC. We briefly overview the notebook’s results below.
 
 #### Identifying storm surge events
 
@@ -118,7 +118,7 @@ The first stage of the notebook involves using the NOAA API wrapper provided by 
 
 Result of identification algorithm for the range of dates containing Typhoon Merbok. The algorithm operates by defining a trigger threshold, along with other heuristics, by which to group distinct groups of storm surge events.
 
-The algorithm presented is run on the storms that see the most frequent storm-surge activity over the coast of Alaska, Nome, Red Dog Dock, and Unalakleet. All events are compiled to give date ranges of storm surge events to produce ADCIRC hind-casts for. 
+The algorithm presented is run on the storms that see the most frequent storm-surge activity over the coast of Alaska, Nome, Red Dog Dock, and Unalakleet. All events are compiled to give date ranges of storm surge events to produce ADCIRC hind-casts for.
 
 #### Getting data forcing data
 
@@ -128,7 +128,7 @@ Having identified dates of interest, the notebook then uses the `ncar` library e
 
 Having a set of simulated ADCIRC hind-casts for one or more events, along with any additional analysis performed on the hind-cast data, the true power of DesignSafe as a platform can be realized by publishing your data. Publishing your data allows you and other researchers to reference its usage with a DOI. For ADCIRC, this is increasingly useful as more Machine Learning models are being built using ADCIRC simulation data.
 
-This section will cover how to organize and publish an ADCIRC hind-cast dataset as created above. Note this dataset presented in this use case is a subset of the Alaska Storm Surge Data set that has been published, so please refrain from re-publishing data. 
+This section will cover how to organize and publish an ADCIRC hind-cast dataset as created above. Note this dataset presented in this use case is a subset of the Alaska Storm Surge Data set that has been published, so please refrain from re-publishing data.
 
 The steps for publishing ADCIRC data will be as follows
 
@@ -136,7 +136,7 @@ The steps for publishing ADCIRC data will be as follows
 2. Organize ADCIRC data and copy to project directory.
 3. Curate data by labeling and associating data appropriately.
 
-While DesignSafe has a whole [guide](../../../curating/guides) on how to curate and publish data, we note that the brief documentation below gives guidance on how to apply these curation guidelines to the particular case of ADCIRC simulation data. 
+While DesignSafe has a whole [guide](../../../curating/guides) on how to curate and publish data, we note that the brief documentation below gives guidance on how to apply these curation guidelines to the particular case of ADCIRC simulation data.
 
 #### Setting up Project Directory
 
@@ -146,7 +146,7 @@ First you’ll want to create a new project directory in the [DesignSafe data re
 
 Creating a new project in DesignSafe’s Data Depot.
 
-Next we want to move ADCIRC inputs/outputs from your Jupyter instance where they were created into this project directory. We note that you must first restart your server if your moving data to a project directory that didn’t exist at the time from your server started, as that project directory won’t be in your `~/projects` directory. Furthermore you’ll want to organize your folder structure in the command line before moving it to the project directory. See below for the recommended folder structure and associated data curation labels for publishing ADCIRC datasets. 
+Next we want to move ADCIRC inputs/outputs from your Jupyter instance where they were created into this project directory. We note that you must first restart your server if your moving data to a project directory that didn’t exist at the time from your server started, as that project directory won’t be in your `~/projects` directory. Furthermore you’ll want to organize your folder structure in the command line before moving it to the project directory. See below for the recommended folder structure and associated data curation labels for publishing ADCIRC datasets.
 
 ```bash
 .

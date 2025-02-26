@@ -48,7 +48,7 @@ It is emphasized that the main motivation of this notebook is to take advantage 
 
 ### Setup tapis/agave app and run Matlab script
 
-The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP. 
+The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP.
 
 
 #### Setup job description
@@ -126,7 +126,7 @@ job_description["notifications"]      = [
 
 #### Run Matlab script
 
-Submitting a job using DesignSafe HPC resources requires the use of agave/tapis job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  In the notebook a simple python function is included in *DS_GenFunctions.py* that encapsulates the GetStatus process. When submitting a job, agave/tapis copies all the files present in the input folder to a temporary location that is used during execution. After completion agave/tapis copies all the results to an archived folder. 
+Submitting a job using DesignSafe HPC resources requires the use of agave/tapis job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  In the notebook a simple python function is included in *DS_GenFunctions.py* that encapsulates the GetStatus process. When submitting a job, agave/tapis copies all the files present in the input folder to a temporary location that is used during execution. After completion agave/tapis copies all the results to an archived folder.
 
 ```python
 import time
@@ -139,12 +139,12 @@ while status != "FINISHED":
     status = ag.jobs.getStatus(jobId=job["id"])["status"]
     print(f"Status: {status}")
     time.sleep(15)
-```    
+```
 
 
 ### Postprocess Results using Python
 
-With JupyterHub, post-processing can be efficiently carried out using Python, R, or Julia through DesignSafe. Independent of scripting language, postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave/tapis job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose. 
+With JupyterHub, post-processing can be efficiently carried out using Python, R, or Julia through DesignSafe. Independent of scripting language, postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave/tapis job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose.
 
 
 #### Identify job, archived location and user
@@ -172,7 +172,7 @@ Once in the archived folder (cur_dir_name), postprocessing can be done using pyt
 
 The python code and figures shown below exemplify these steps. All python codes are available in the notebook. 
 
-Plot acceleration, velocity, and displacement time histories for any selected motion (out of 7 provided). 
+Plot acceleration, velocity, and displacement time histories for any selected motion (out of 7 provided).
 
 ``` python
 # Read motion displacement, velocity and acceleration and concatenate
@@ -279,8 +279,8 @@ class PDF(object):
 
 ## Citation and Licensing
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
 
 

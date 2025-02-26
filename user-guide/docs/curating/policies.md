@@ -42,14 +42,14 @@ Users who either publish and use data in DDR must abide by both the <a href="htt
 * Users agree to provide all the needed licenses and permissions to make data available for archiving and for reuse by others. 
 * Users publishing human subjects data should abide by our Protected Data Best Practices. 
 * Using DDR to publish data is entirely voluntary. None of these terms supersede any prior contractual obligations to confidentiality or proprietary information the user may have with third parties; thus, the user is entirely responsible for what they upload or share with DDR. .
-* Publications that do not fall within these norms may be removed. 
+* Publications that do not fall within these norms may be removed.
 
 ##### For users using data published in DDR: { #norms-users }
 
 * Users accessing and using DDR data agree to the following Data Use Agreement. 
 * Users agree to use DDR resources in accessing and reusing open access data in ways that respect the licenses established in the publications. 
 * Users agree to properly cite the datasets they use in their works in accordance with the <a href="https://www.force11.org/datacitationprinciples">Joint Declaration of Data Citation Principles</a> using the citations provided in the published datasets landing pages. 
-* We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms. 
+* We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms.
 
 ### Data Collections Development
 
@@ -57,7 +57,7 @@ Users who either publish and use data in DDR must abide by both the <a href="htt
 
 We accept engineering datasets, as well as social and behavioural sciences datasets, derived from research conducted in the context of natural hazards. In the area of engineering the primary focus is on data generated through simulation, hybrid simulation, experimental and field research methods regarding the impacts of wind, earthquake, and storm surge hazards. We also accept data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials. In social and behavioural sciences (SBE), accepted datasets encompass the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19, Fire Hazards, and Sustainable Material Management. 
 
-Users that deposit data that does not correspond to the accepted types will be alerted when possible prior to publication so they can remove their data from DDR, and will not be allowed to publish it. If a dataset non-compliant with the Collections Development policy gets published with a corresponding DOI, we will contact the authors and work with them to remove the data and leave a <a href="https://support.datacite.org/docs/tombstone-pages">tombstone</a> explaining why the data is not available. Curators review both in process and published data on a monthly basis. In both cases we will work with the authors to find an adequate repository for their dataset. 
+Users that deposit data that does not correspond to the accepted types will be alerted when possible prior to publication so they can remove their data from DDR, and will not be allowed to publish it. If a dataset non-compliant with the Collections Development policy gets published with a corresponding DOI, we will contact the authors and work with them to remove the data and leave a <a href="https://support.datacite.org/docs/tombstone-pages">tombstone</a> explaining why the data is not available. Curators review both in process and published data on a monthly basis. In both cases we will work with the authors to find an adequate repository for their dataset.
 
 #### Data Size { #size }
 
@@ -70,7 +70,7 @@ We do not pose file format restrictions. The natural hazards research community 
 
 Data curation involves the organization, description, representation, permanent publication, and preservation of datasets in compliance with community best practices and <a href="https://www.go-fair.org/fair-principles/">FAIR</a> data principles. In the DDR, data curation is a joint responsibility between the researchers that generate data and the DDR team. Researchers understand better the logic and functions of the datasets they create, and our team's role is to help them make these datasets FAIR-compliant. 
 
-Our goal is to enable researchers to curate their data from the beginning of a research project and turn it into publications through interactive pipelines and consultation with data curators. The DDR has and continues to invest efforts in developing and testing curation and publication pipelines based on data models designed with input from the NHERI community.  
+Our goal is to enable researchers to curate their data from the beginning of a research project and turn it into publications through interactive pipelines and consultation with data curators. The DDR has and continues to invest efforts in developing and testing curation and publication pipelines based on data models designed with input from the NHERI community.
 
 #### Data Management Plan { #management }
 
@@ -92,7 +92,7 @@ Due to variations in their research methods, researchers may not need all the ca
 
 To further describe datasets, the curation interface offers the possibility to add both predefined and custom file tags. Predefined file tags are specialized terms provided by the natural hazard community; their use is optional, but highly recommended. The lists of tags are evolving for each data model, continuing to be expanded, updated, and corrected as we gather feedback and observe how researchers use them in their publications. 
 
-For purposes of metadata exchange and interoperability, the elements and tags in the data models are mapped to widely-used, standardized metadata schemas. These are: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core</a> for description of the dataset project, <a href="https://ddialliance.org/products/overview-of-current-products">DDI (Data Documentation Initiative)</a> for social science data, <a href="https://datacite.org/dois.html">DataCite</a> for DOI assignment and citation, and <a href="https://www.w3.org/2001/sw/wiki/PROV">PROV-O</a> to record the structure of the dataset. Metadata mapping is substantiated as the data is ingested into Fedora. Users can download the standardized metadata in the publications landing page. 
+For purposes of metadata exchange and interoperability, the elements and tags in the data models are mapped to widely-used, standardized metadata schemas. These are: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core</a> for description of the dataset project, <a href="https://ddialliance.org/products/overview-of-current-products">DDI (Data Documentation Initiative)</a> for social science data, <a href="https://datacite.org/dois.html">DataCite</a> for DOI assignment and citation, and <a href="https://www.w3.org/2001/sw/wiki/PROV">PROV-O</a> to record the structure of the dataset. Metadata mapping is substantiated as the data is ingested into Fedora. Users can download the standardized metadata in the publications landing page.
 
 #### Metadata and Data Quality { #dataquality }
 
@@ -140,7 +140,7 @@ For any data not subject to IRB oversight but may still contain PII, such as Goo
 
 #### Subsequent Publishing { #publishing }
 
-Attending to the needs expressed by the community, we enable the possibility to publish data and other products subsequently within a project, each with a DOI. This arises from the longitudinal and/or tiered structure of some research projects such as experiments and field research missions which happen at different time periods, may involve multiple distinct teams, have the need to publish different types of materials or to release information promptly after a natural hazards event and later publish related products. Subsequent publishing is enabled in My Project interface where users and teams manage and curate their active data throughout their projects' lifecycle. 
+Attending to the needs expressed by the community, we enable the possibility to publish data and other products subsequently within a project, each with a DOI. This arises from the longitudinal and/or tiered structure of some research projects such as experiments and field research missions which happen at different time periods, may involve multiple distinct teams, have the need to publish different types of materials or to release information promptly after a natural hazards event and later publish related products. Subsequent publishing is enabled in My Project interface where users and teams manage and curate their active data throughout their projects' lifecycle.
 
 #### Timely Data Publication   { #timely }
 
@@ -148,7 +148,7 @@ Although no firm deadline requirements are specified for data publishing, as an 
 
 #### Peer Review { #peerreview }
 
-Users that need to submit their data for revision prior to publishing and assigning a DOI have the opportunity to do so by: a) adding reviewers to their My Project, when there is no need for annonymous review, or b) by contacting the DesignSafe data curator through a Help ticket to obtain a Public Accessibility Data Delay (See below). Note that the data must be fully curated prior to requesting a Public Accessibility Delay. 
+Users that need to submit their data for revision prior to publishing and assigning a DOI have the opportunity to do so by: a) adding reviewers to their My Project, when there is no need for annonymous review, or b) by contacting the DesignSafe data curator through a Help ticket to obtain a Public Accessibility Data Delay (See below). Note that the data must be fully curated prior to requesting a Public Accessibility Delay.
 
 #### Public Accessibility Delay   { #accessiblity }
 
@@ -231,7 +231,7 @@ Changes allowed during amends are:
 	<li>Change the order of the authors.</li>
 </ul>
 
-If users need to add or delete files or change the content of the files, they have the opportunity to version their data publication. The following are the 
+If users need to add or delete files or change the content of the files, they have the opportunity to version their data publication. The following are the
 
 <ul dir="ltr">
 	<li>Versions will have the same DOI, and the title will indicate the version number. The decision to maintain the same DOI was agreed upon by our community to facilitate DOI management to data publishers and users.</li>
@@ -240,7 +240,7 @@ If users need to add or delete files or change the content of the files, they ha
 	<li>Versions are documented by data publishers so other users understand what changed and why. The documentation is publicly displayed </li>
 </ul>
 
-Documentation of versions requires including the name of the file/s changed, removed or added, and identifying within which category they are located. We include guidance on how to document versions within the curation and publication onboarding instruction.   
+Documentation of versions requires including the name of the file/s changed, removed or added, and identifying within which category they are located. We include guidance on how to document versions within the curation and publication onboarding instruction. 
 
 The Fedora repository manages all amends and versions so there is a record of all changes. Version number is passed to DataCite as metadata.
 
@@ -252,7 +252,7 @@ Users can click a “Leave Feedback” button on the projects’ landing pages t
 
 #### Data Impact { #impact }
 
-We understand data impact as a strategy that includes complementary efforts at the crossroads of data discoverability, usage metrics, and scholarly communications. 
+We understand data impact as a strategy that includes complementary efforts at the crossroads of data discoverability, usage metrics, and scholarly communications.
 
 <strong>Search Engine Optimization (SEO)</strong>
 
@@ -268,17 +268,17 @@ Below are the definitions for each metric:
 
 <strong>File Download:</strong> Copying a file to the machine the user is running on, or to a storage device that machine has access to. This can be done by ticking the checkbox next to a document and selecting "Download" at the top of the project page. With documents that can be previewed, clicking "Download" at the top of the preview modal window has the same effect. Downloads are counted per project and per individual files. We also consider counts of copying a file from the published project to the user's My data, My projects, or to Tools and applications in DesignSafe or one of the connected spaces (Box, Dropbox, Google Drive). Tick the checkbox next to a document and select "Copy" at the top of the project page.
 
-<strong>File Requests: </strong>Total file downloads + total file previews. 
+<strong>File Requests: </strong>Total file downloads + total file previews.
 
 <strong>Project Downloads: </strong>Total downloads of a compressed entire project to a user's machine. 
 
 We report the metrics in the publications landing pages. To provide context to the metrics, we indicate the total amount of files in each publication.
 
-We started counting since May 17, 2021. We update the reports on a monthly basis and we report data metrics to NSF every quarter. Currently we are in the process of formatting the reports to participate in the Make your Data Count initiative. 
+We started counting since May 17, 2021. We update the reports on a monthly basis and we report data metrics to NSF every quarter. Currently we are in the process of formatting the reports to participate in the Make your Data Count initiative.
 
 <strong>Data Vignettes</strong>
 
-Since 2020 we conduct <a href="https://www.designsafe-ci.org/use-designsafe/impact-of-data-reuse/">Data Reuse Vignettes</a>. For this, we identify published papers and interview researchers that have reused data published in DDR. In this context, reuse means that researchers are using data published by others for purposes different than those intended by the data creators. During the interviews we use a semi-structured questionnaire to discuss the academic relevance of the research, the ease of access to the data in DDR, and the understandability of the data publication in relation to metadata and documentation clarity and completeness.  We feature the data stories on the DesignSafe website and use the feedback to make changes and to design new reuse strategies. The methodology used in this project was presented at the International <a href="http://qqml.org/event/qqml-2020/">Qualitative and Quantitative Methods in Libraries 2020 International Conference</a>. See <a href="http://qqml.org/wp-content/uploads/2017/09/Book-of-Abstracts-26-5-2020-.pdf">Perspectives on Data Reuse from the Field of Natural Hazards Engineering</a>. 
+Since 2020 we conduct <a href="https://www.designsafe-ci.org/use-designsafe/impact-of-data-reuse/">Data Reuse Vignettes</a>. For this, we identify published papers and interview researchers that have reused data published in DDR. In this context, reuse means that researchers are using data published by others for purposes different than those intended by the data creators. During the interviews we use a semi-structured questionnaire to discuss the academic relevance of the research, the ease of access to the data in DDR, and the understandability of the data publication in relation to metadata and documentation clarity and completeness.  We feature the data stories on the DesignSafe website and use the feedback to make changes and to design new reuse strategies. The methodology used in this project was presented at the International <a href="http://qqml.org/event/qqml-2020/">Qualitative and Quantitative Methods in Libraries 2020 International Conference</a>. See <a href="http://qqml.org/wp-content/uploads/2017/09/Book-of-Abstracts-26-5-2020-.pdf">Perspectives on Data Reuse from the Field of Natural Hazards Engineering</a>.
 
 <strong>Data Awards</strong>
 
@@ -309,5 +309,5 @@ Data sustainability is a continuous effort that DDR accomplishes along with the 
 
 As part of the requirements of the current award we have a contingency pan in place to transfer all the DDR data, metadata and corresponding DOIs to a new awardee (should one be selected) without interruption of services and access to data. Fedora has <a href="https://wiki.lyrasis.org/display/FEDORA50/Import+and+Export+Tools">export capabilities </a>for transfer of data and metadata to another repository in a complete and validated fashion. The  portability plan is confirmed and updated in the Operations Project Execution Plan that we present anually to the NSF. 
 
-In the  case in which the NSF and/or the other stakeholders involved in this community decide not to continue the NHERI program or a subsequent data repository, we will continue to preserve the published data  and provide access to it through TACC, DesignSafe’s host at the University of Texas at Austin. TACC has formally committed to preserving the data with landing pages and corresponding DOIs indefinitely. TACC has on permanent staff a User Services team as well as curators that will attend users’ requests /and help tickets related to the data. Because TACC is constantly updating its high-performance storage resources and security mechanisms, data will be preserved at the same  preservation level that is currently available. Considering that DOIs are supported through the University of Texas Libraries and that the web services and the data reside within TACC’s managed resources, access to data will not be interrupted. Fedora is now part of TACC’s software suite and we will continue its maintenance as our preservation repository. Like with all systems at TACC, we will revisit its versioning and continuity and make decisions based on state-of-the-art practices. Should funding constraints ever make this no longer possible, TACC will continue to keep an archive copy on Ranch (with landing pages on online storage) for as long as TACC remains a viable entity.  
+In the  case in which the NSF and/or the other stakeholders involved in this community decide not to continue the NHERI program or a subsequent data repository, we will continue to preserve the published data  and provide access to it through TACC, DesignSafe’s host at the University of Texas at Austin. TACC has formally committed to preserving the data with landing pages and corresponding DOIs indefinitely. TACC has on permanent staff a User Services team as well as curators that will attend users’ requests /and help tickets related to the data. Because TACC is constantly updating its high-performance storage resources and security mechanisms, data will be preserved at the same  preservation level that is currently available. Considering that DOIs are supported through the University of Texas Libraries and that the web services and the data reside within TACC’s managed resources, access to data will not be interrupted. Fedora is now part of TACC’s software suite and we will continue its maintenance as our preservation repository. Like with all systems at TACC, we will revisit its versioning and continuity and make decisions based on state-of-the-art practices. Should funding constraints ever make this no longer possible, TACC will continue to keep an archive copy on Ranch (with landing pages on online storage) for as long as TACC remains a viable entity.
 
