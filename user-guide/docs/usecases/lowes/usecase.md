@@ -47,7 +47,7 @@ The following DesignSafe resources were used in developing this use case.
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"} .
 
 ### Description
-#### Data  
+#### Data 
 
 The walls that are modeled are defined in a database provided by Alex Shegay. The database is a MATLAB variable of type 'structure'. The tree-like structure of the variable consists of several levels. Each level consists of several variables, each being a 1x142 dimension array. Each entry within the array corresponds to a separate wall specimen. The order of these entries is consistent throughout the database and reflects the order of walls as appearing in the 'UniqueID' array.
 
@@ -67,9 +67,9 @@ The modeling of these walls make use of the MITC4 shell element. This element sm
 ![SchematicView](img/ShellEle.JPG)  
 Figure 1: Smeared shell element representation
 
-### Example 
+### Example
 
-RW1 is modeled from the database to produce a tcl file that represents the geometry, material, and simulation history of the wall. The wall is 150 inches high, 46.37 inches long, and 4 inches thick. It consists of 1292 amount of nodes, 1200 amount of shell elements, and 900 amount of steel truss elements. MITC4 shell elements are used to smear the concrete and transverse steel into the thickness while the vertical reinforce bars are modeled as truss elements. RW1 had a compression buckling failure mode in the lab. More information on RW1 and its experimental results can be found here: [Wallace et al. (2004)](https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9445%282004%29130%3A4%28618%29#:~:text=Application%20of%20displacement%2Dbased%20design,for%20a%20given%20top%20displacement.){:target="_blank"} 
+RW1 is modeled from the database to produce a tcl file that represents the geometry, material, and simulation history of the wall. The wall is 150 inches high, 46.37 inches long, and 4 inches thick. It consists of 1292 amount of nodes, 1200 amount of shell elements, and 900 amount of steel truss elements. MITC4 shell elements are used to smear the concrete and transverse steel into the thickness while the vertical reinforce bars are modeled as truss elements. RW1 had a compression buckling failure mode in the lab. More information on RW1 and its experimental results can be found here: [Wallace et al. (2004)](https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9445%282004%29130%3A4%28618%29#:~:text=Application%20of%20displacement%2Dbased%20design,for%20a%20given%20top%20displacement.){:target="_blank"}
 
 The use case workflow involves the following steps:
 
@@ -90,7 +90,7 @@ Each wall in the database has a number corresponding to its unique ID. This numb
 
 RW1 is wall 33 in the database (with the first wall index starting at 0) and using that index number, the modeling script can grab everything that defines RW1.
 
-#### Modeling Script  
+#### Modeling Script 
 
 The sections of the modeling script are:  
 ##### Section 1: Initialization of the model

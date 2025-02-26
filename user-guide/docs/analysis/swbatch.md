@@ -14,7 +14,7 @@ Vantassel, J.P., Cox, B.R., (2020). SWinvert: A workflow for performing rigorous
 
 <em>Note: For software, version specific citations should be preferred to general concept citations, such as that listed above. To generate a version specific citation for <code>SWbatch</code>, please use the citation tool for that specific version on the <code>SWbatch</code> <a href="https://zenodo.org/badge/latestdoi/240935736" rel="nofollow">archive</a>.</em>
 
-### Getting Started { #start } 
+### Getting Started { #start }
 
 There are two ways of using <code>SWbatch</code>:
 

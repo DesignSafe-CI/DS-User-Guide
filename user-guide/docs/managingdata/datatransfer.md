@@ -358,7 +358,7 @@ An entire directory can be synced from your local system to the remote server by
 
 where <strong>-avtr</strong> will transfer the files recursively <em><strong>-r</strong></em>,  with the modification times <em><strong>-t</strong></em>, in the archive mode <em><strong>-a</strong></em>, and verbosely <em><strong>-v </strong></em>and all other terms defined previously.
 
- 
+
 
 For help execute:
 

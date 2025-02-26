@@ -15,7 +15,7 @@ The notebook, and required scripts, are available in the Community Data folder a
 ## Description
 
 The *site response workflow notebook* introduces typical steps used in the evaluation of the surface response for a site with liquefiable soil.
-The notebook takes advantage of the site response problem to introduce the general numerical analysis workflow shown in Figure 2 that includes: 
+The notebook takes advantage of the site response problem to introduce the general numerical analysis workflow shown in Figure 2 that includes:
 
 1. running OpenSees using a **TAPIS** APP,
 2. postprocessing results using python,
@@ -57,7 +57,7 @@ A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This re
 1. importing agave/tapis, 
 2. getting the specific app of interest,
 3. defining control variables, parameters and inputs, and
-4. encapsulating all data in a job_description array 
+4. encapsulating all data in a job_description array
 
 The python code shown below exemplifies these steps. The complete set of commands is available in the notebook. The job_description array includes all the information required to submit the job.
 
@@ -150,9 +150,9 @@ os.chdir(cur_dir_name)
 Once in the archived folder (cur_dir_name), postprocessing can be done using python scripts that operate on output files. For the particualar case of the site response analysis used in this notebook three scripts are used to evaluate:
 1. surface acceleration time history and its response spectrum, 
 2. profiles of maximum displacement, peak horizontal acceleration (PHA), peak shear strain, and cyclic stress ratio, and
-3. Stress-strain and excess pore water pressure at the middle of the liquefiable layer.  
+3. Stress-strain and excess pore water pressure at the middle of the liquefiable layer. 
 
-The python code and figures shown below exemplify these steps. All python scripts are available in the notebook community folder. 
+The python code and figures shown below exemplify these steps. All python scripts are available in the notebook community folder.
 
 Plot acceleration time hisotory and response spectra on log-linear scale
 ``` python
@@ -186,11 +186,11 @@ plot_porepressure()
 <p style="text-align: center;"> Fig.6 - stress strain and pore pressure in the middle of liquefiable layer </p>
 
 
-#### Generate report 
+#### Generate report
 
 Generating a summary report is a convenient way to present results from lengthy simulations prcesses. In jupyter this can be done invoking any posprocessor available in the docker container image. Among them rst2pdf is commonly distributed with python. For the site response notebook a simple ShortReport.rst file is included that collects the results and plots generated in a simple pdf file. The python code shown below, exemplifies this process and include:
 1. Running rst2pdf on [ShortReport.rst](files/ShortReport.rst)
-2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen. 
+2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen.
 
 Run rst2pdf, assign to pdf_fn, and  call PDF show function 
 ``` python
