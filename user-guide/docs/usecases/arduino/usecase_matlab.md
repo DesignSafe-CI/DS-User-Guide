@@ -139,7 +139,7 @@ while status != "FINISHED":
     status = ag.jobs.getStatus(jobId=job["id"])["status"]
     print(f"Status: {status}")
     time.sleep(15)
-```    
+```
 
 
 ### Postprocess Results using Python
