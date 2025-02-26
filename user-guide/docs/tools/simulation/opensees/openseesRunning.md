@@ -1,4 +1,4 @@
-## OpenSees Platforms 
+## OpenSees Platforms
 
 ### Running OpenSees on DesignSafe
 

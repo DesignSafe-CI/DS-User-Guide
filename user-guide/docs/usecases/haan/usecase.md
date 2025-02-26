@@ -4,14 +4,14 @@
 
 Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations
 
-/// 
+///
 
 
 **Fred Haan – Calvin University **
 
 _Keywords: Taggit, HazMapper, image browsing_
 
-### Resources 
+### Resources
 
 The example makes use of the following DesignSafe resources:
 
@@ -54,7 +54,7 @@ Fill out a name and description of the “Map” you will create. This Map will 
 
 ![](img/image007.png)
 
-When you are selecting a Save Location, you should probably select from MyProjects. That way, you can share your Map/Gallery with other users. I selected a project called “Tornado Damage Research” as shown below. 
+When you are selecting a Save Location, you should probably select from MyProjects. That way, you can share your Map/Gallery with other users. I selected a project called “Tornado Damage Research” as shown below.
 
 <!-- ![](img/image008.png) -->
 

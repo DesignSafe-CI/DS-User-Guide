@@ -47,7 +47,7 @@ The following DesignSafe resources were used in developing this use case.
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"} .
 
 ### Description
-#### Data 
+#### Data
 
 The walls that are modeled are defined in a database provided by Alex Shegay. The database is a MATLAB variable of type 'structure'. The tree-like structure of the variable consists of several levels. Each level consists of several variables, each being a 1x142 dimension array. Each entry within the array corresponds to a separate wall specimen. The order of these entries is consistent throughout the database and reflects the order of walls as appearing in the 'UniqueID' array.
 
@@ -90,7 +90,7 @@ Each wall in the database has a number corresponding to its unique ID. This numb
 
 RW1 is wall 33 in the database (with the first wall index starting at 0) and using that index number, the modeling script can grab everything that defines RW1.
 
-#### Modeling Script 
+#### Modeling Script
 
 The sections of the modeling script are:  
 ##### Section 1: Initialization of the model

@@ -150,7 +150,7 @@ os.chdir(cur_dir_name)
 Once in the archived folder (cur_dir_name), postprocessing can be done using python scripts that operate on output files. For the particualar case of the site response analysis used in this notebook three scripts are used to evaluate:
 1. surface acceleration time history and its response spectrum, 
 2. profiles of maximum displacement, peak horizontal acceleration (PHA), peak shear strain, and cyclic stress ratio, and
-3. Stress-strain and excess pore water pressure at the middle of the liquefiable layer. 
+3. Stress-strain and excess pore water pressure at the middle of the liquefiable layer.
 
 The python code and figures shown below exemplify these steps. All python scripts are available in the notebook community folder.
 

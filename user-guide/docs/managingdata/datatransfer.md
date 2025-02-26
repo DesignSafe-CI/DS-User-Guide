@@ -28,7 +28,7 @@ We define a large data transfer here as any file transfer that is  &gt; 2GB, or 
 
 	See the <a href="#cli">Command-Line Data Transfer Guide</a> for instructions.
 
-#### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer } 
+#### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer }
 
 We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
 
