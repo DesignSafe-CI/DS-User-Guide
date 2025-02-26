@@ -6,14 +6,22 @@ Geospatial Hurricane Disaster Reconnaissance Data Integration and Visualization 
 
 ///
 
-**Pinelli, J.-P. – Florida Institute of Technology**    <br> 
-**Sziklay, E. – Florida Institute of Technology**  <br> 
-**Ajaz, M.A. – Florida Institute of Technology**   
+**Pinelli, J-P. – Professor - Florida Institute of Technology**<br> 
+**Sziklay, E. – Graduate Student - Florida Institute of Technology**<br> 
+**Ajaz, M.A. – Graduate Student - Florida Institute of Technology**
+
 
 _Keywords: Hurricane, Disaster Reconnaissance, StEER Network, NSI Database, wind field, JupyterLab, API, JSON, KeplerGI_
 
 ### Resources 
+#### Jupyter Notebooks
+The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
+| Scope | Notebook |
+| :-------: | :---------:  |
+| Visualizing geospatial hurricane impact data |  FirstMap.ipynb<br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/FirstMap.ipynb) |
+
+#### DesignSafe Resources
 * <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Hazard-Exposure-Reconnaissance%20Integration%20and%20Visualization/FirstMap.ipynb">Jupyter notebook on DesignSafe Jupyterhub</a>
 * GitHub, <a href="https://github.com/keplergl/kepler.gl">https://github.com/keplergl/kepler.gl</a> 
 * StEER Network,<a href="../../../Containers/com.apple.mail/Data/Library/Mail%20Downloads/F826EEA0-D8C2-4F19-B0E4-C81BF6BFFC38/%20https:/www.steer.network"> https://www.steer.network</a>
@@ -36,25 +44,28 @@ Figure 1.  Integration of Hazard, Reconnaissance and Exposure Data
 
 ### Instructions
 
-#### Using JupyterHub on DesignSafe####
-#### Accessing JupyterHub####
-*Navigate to the JupyterHub: Use this <a href="https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis">link</a> to go directly to the JupyterHub portal on DesignSafe.
-*Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
-*Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
-*To run this Notebook, <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3903v3/FirstMap.ipynb" target="_blank">FirstMap.ipynb</a> you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.
+#### Using JupyterHub on DesignSafe
+#### Accessing JupyterHub
 
-1. Run the following command cell to copy the project to your MyData or change path to wherever you want to copy it to: after opening this Notebook in MyData you don't have to run the below cell again
-	!umask 0022; cp -r /home/jupyter/NHERI-Published/PRJ-3903v3/home/jupyter/MyData/PRJ-3903; chmod -R u+rw /home/jupyter/MyData/PRJ-3903
+1. Navigate to [JupyterHub portal on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter).
+2. Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
+3. Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
+4. To run this Notebook, <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3903v3/FirstMap.ipynb" target="_blank">FirstMap.ipynb</a> you must copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory. Use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file.
 
-2. Navigate to your 'MyData' directory.
-For illustrative purposes, input files have been created and shared in this project. These files have been pre-processed and conveniently organized used to illustrate the data collection, integration, and visualization on the map. The outcomes as follows: 
-	1.	2018-Michael_windgrid_ver36.csv
-	2.	hex_config.py
-	3.	Steer_deamage.csv
-	4.	FirstMap.ipynb
-	Results: 
-	1. first_map.html
-	2. first_map_read_only.html
+	1. Run the following command cell to copy the project to your MyData or change path to wherever you want to copy it to: after opening this Notebook in MyData you don't have to run the below cell again
+		```
+		!umask 0022; cp -r /home/jupyter/NHERI-Published/PRJ-3903v3/home/jupyter/MyData/PRJ-3903; chmod -R u+rw /home/jupyter/MyData/PRJ-3903
+		```
+
+	2. Navigate to your 'MyData' directory.
+	For illustrative purposes, input files have been created and shared in this project. These files have been pre-processed and conveniently organized used to illustrate the data collection, integration, and visualization on the map. The outcomes as follows: 
+		1.	2018-Michael_windgrid_ver36.csv
+		2.	hex_config.py
+		3.	Steer_deamage.csv
+		4.	FirstMap.ipynb
+		Results: 
+		1. first_map.html
+		2. first_map_read_only.html
 
 
 ### Jupyter Notebooks

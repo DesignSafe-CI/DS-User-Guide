@@ -268,7 +268,7 @@ $ tapis apps show padcirc-frontera-55.01u4
 | defaultNodeCount         | 3                                                                                                                                                           |
 | defaultMaxRunTime        | 02:00:00                                                                                                                                                    |
 | defaultQueue             | normal                                                                                                                                                      |
-| helpURI                  | https://www.designsafe-ci.org/rw/user-guides/tools-applications/simulation/adcirc/                                                                          |
+| helpURI                  | https://www.designsafe-ci.org/user-guide/tools/simulation/adcirc/adcirc/                                                                          |
 | deploymentPath           | /applications/padcirc-frontera-55.01u4.zip                                                                                                                  |
 | templatePath             | wrapper-frontera.sh                                                                                                                                         |
 | testPath                 | test/test.sh                                                                                                                                                |
@@ -425,7 +425,7 @@ This path should be in my `MyData` directory, which I can view from the front en
 ![ADCIRC Tapis Job Outputs](./images/tapis-job-outputs.png)
 *Outputs will be found in `MyData` within the the DataDepot.*
 
-See guides on [FigureGen Document](../../visualization/figuregen.md) and [Kalpana Documentation](../../visualization/kalpana.md) for info on how ot visualize ADCIRC output files.  
+See guides on [FigureGen Document](../../visualization/figuregen.md) and [Kalpana Documentation](../../visualization/kalpana.md) for info on how to visualize ADCIRC output files.  
 
 ## ADCIRC Reference
 

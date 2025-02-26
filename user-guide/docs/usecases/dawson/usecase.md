@@ -26,7 +26,7 @@ Accompanying jupyter notebooks for this use case can be found in the ADCIRC fold
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}.
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target=_blank}.
 
 #### Background 
 
@@ -43,7 +43,7 @@ For more information on running ADCIRC and documentation, see the following link
 * [ADCIRC Wiki](https://wiki.adcirc.org/wiki/Main_Page){target=_blank}
 * [ADCIRC Web Page](https://adcirc.org/){target=_blank}
 
-ADCIRC is available as a standalone app accesible via the [DesignSafe front-end](https://www.designsafe-ci.org/rw/workspace/#!/ADCIRC::Simulation){target=_blank}.
+ADCIRC is available as a standalone app accesible via the [DesignSafe front-end](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/adcirc){target=_blank}.
 
 ##### Tapis
 
