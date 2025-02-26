@@ -1,6 +1,6 @@
 ## DesignSafe Managing Data
 
-### Browsing, Upload, and Download { #browsing } 
+### Browsing, Upload, and Download { #browsing }
 
 ![Figure 1. Data Depot](./imgs/datadepotfigure.jpg)
 

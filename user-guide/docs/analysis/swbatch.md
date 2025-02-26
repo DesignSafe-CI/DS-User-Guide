@@ -23,7 +23,7 @@ There are two ways of using <code>SWbatch</code>:
 	<li>Or directly through the DesignSafe-CI Research Workbench.</li>
 </ol>
 
-#### Instructions for using the Jupyter Workflow { #start-jupyter } 
+#### Instructions for using the Jupyter Workflow { #start-jupyter }
 
 <ol>
 	<li>Visit the <code>SWprepost</code> <a href="https://github.com/jpvantassel/swprepost">GitHub</a> and follow the <code>Getting Started</code> instructions. The advanced example walks you through using the <code>SWinvert</code> surface wave inversion Jupyter workflow. (30 minutes)</li>
@@ -32,7 +32,7 @@ There are two ways of using <code>SWbatch</code>:
 	<li>Enjoy!</li>
 </ol>
 
-#### Instructions for using the DesignSafe-CI Research Workbench { #start-ds } 
+#### Instructions for using the DesignSafe-CI Research Workbench { #start-ds }
 
 <ol>
 	<li>Visit the <code>SWprepost</code> <a href="https://github.com/jpvantassel/swprepost">GitHub</a> and follow the <code>Getting Started</code> instructions. This will introduce you to <code>SWprepost</code> and the <code>SWinvert</code> workflow, which is required before proceeding to step 2 in these instructions. (30 minutes)</li>

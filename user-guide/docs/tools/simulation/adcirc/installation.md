@@ -5,7 +5,7 @@ Note this is for advanced users only.
 
 #### Spack ADCIRC Installation (DesignSafe JupyterHub)
 
-> The below instructions are for DesignSafe on JupyterHub instances (non HPC). They will allow you to test and run ADCIRC examples within a Jupyter session, without having to use HPC resources. This is in particular useful for 
+> The below instructions are for DesignSafe on JupyterHub instances (non HPC). They will allow you to test and run ADCIRC examples within a Jupyter session, without having to use HPC resources. This is in particular useful for
 
 
 Move into your MyData directory and clone the spack repo. Note we put the spack repo in MyData so that it persists over Jupyter sessions.

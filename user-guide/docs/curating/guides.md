@@ -114,7 +114,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 #### 8. Prepare to Publish { #step8 }
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
+When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
 
 ![](./imgs/guide-experimental-8.png)
 
@@ -220,7 +220,7 @@ Click <strong>Remove</strong> if you make any mistakes.
 
 #### 6. Tag Files { #simulation-step6 }
 
-After putting files in categories, dropdowns will appear to allow you to tag specific files. 
+After putting files in categories, dropdowns will appear to allow you to tag specific files.
 
 ![](./imgs/guide-simulation-6.png)
 
@@ -244,7 +244,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 ![](./imgs/guide-simulation-8a.png)
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
+When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
 
 ![](./imgs/guide-simulation-8b.png)
 
@@ -273,7 +273,7 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 <b><i>Field Research User Guide is in progress.</i></b>
 
-#### 1. Add a Project { #fieldresearch-step1 } 
+#### 1. Add a Project { #fieldresearch-step1 }
 
 ![](./imgs/guide-allguides-1a.jpg)
 
@@ -427,7 +427,7 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 #### 1. Add a Project { #other-step1 }
 
-To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.  
+To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
 ![](./imgs/guide-allguides-1a.jpg)
 
@@ -445,7 +445,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 To begin curating and tagging your files, click on the <strong>Curation Directory</strong> and select <b>Other</b> as your Project Type.
 
-![](./imgs/guide-other-step2a.png)  
+![](./imgs/guide-other-step2a.png)
 
 Fill out additional required fields in the <strong>Edit Project</strong> window, including a Data Type, then click <strong>Update Project </strong>and you will be brought to the <strong>Curation Directory. </strong>
 
@@ -453,7 +453,7 @@ Fill out additional required fields in the <strong>Edit Project</strong> window,
 
 #### 3. Tag Files { #other-step3 }
 
-Dropdowns will appear by each file to allow you to tag specific files. 
+Dropdowns will appear by each file to allow you to tag specific files.
 
 ![](./imgs/guide-other-step3.png)
 

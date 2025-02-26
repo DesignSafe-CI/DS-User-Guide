@@ -43,12 +43,12 @@ The current Notebook referred to as the base case has uniform mean velocity with
 
 ![fig1](img2/Picture1.png)
 
-The overall workflow is described in the following schematic. 
+The overall workflow is described in the following schematic.
 
 ![fig2](img2/Picture2.png)
 
 ### New Features
-The new features include the implementation of power-law inflow profiles in codes/standards and the introduction of the option of user-defined inflow conditions. The following Figure shows the difference between velocity profiles in the urban and suburban areas.  
+The new features include the implementation of power-law inflow profiles in codes/standards and the introduction of the option of user-defined inflow conditions. The following Figure shows the difference between velocity profiles in the urban and suburban areas.
 
 ![fig3](img2/Picture3.png)
 
@@ -69,7 +69,7 @@ The workflow from the OpenFOAM to Jupyter Notebook is given below. The final out
 
 ![fig8](img2/Picture8.png)
  
-### Running simulation using Low-Rise Jupyter Notebook 
+### Running simulation using Low-Rise Jupyter Notebook
 
 ![fig9](img2/Picture9.png)
 <p align="center">Computational domain </p>
@@ -99,7 +99,7 @@ User-defined inflow velocity.
 4.	Auto-generation of OpenFOAM case with user-defined building dimension and inflow velocity.
 5.	Review the generated case
 6.	Submit the OpenFOAM job
-7.	Post-processing 
+7.	Post-processing
 
 #### Simulation Result of desired and ASCE power law vertical profiles 
 ![fig12](img2/Picture12.png){ width: "50%"}
