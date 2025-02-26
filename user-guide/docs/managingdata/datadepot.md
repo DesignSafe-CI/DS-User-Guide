@@ -14,7 +14,7 @@ Alongside the search, buttons are available for a number of file and folder acti
 
 Click on the blue "+Add" button above the list of directories to create a New Folder, a New Project in My Projects, to do a File Upload or a Folder upload or for Bulk Data Transfer instructions. Note that only Chrome supports browser-based Folder uploads.
 
-A number of data transfer methods are supported for uploading and downloading files. The [Data Transfer Guide](../#data-transfer-guides) provides details regarding the various methods and recommendations based on the quantity and size of your files.
+A number of data transfer methods are supported for uploading and downloading files. The [Data Transfer Guide](/user-guide/managingdata/datatransfer/) provides details regarding the various methods and recommendations based on the quantity and size of your files.
 
 ### Data Sharing, Collaboration, Curation & Publication { #sharing }
 

@@ -20,17 +20,17 @@ This use case example shows how to run an OpenSeesMP analysis on the high-perfor
 #### Jupyter Notebooks
 The following Jupyter notebooks are available to facilitate the analysis of each case. They are described in details in this section. You can access and run them directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
-| Scope | Notebook |
-| :-------: | :---------:  |
-| Submit job to STKO-compatible OpenSees | SSI_MainDriver.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/SSI_MainDriver.ipynb) |
-| Post-Processing in Jupyter | Example post-processing scripts.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb) |
+| Scope | Jupyter Notebook |
+| :-------: | :---------: |
+| Submit job to STKO-compatible OpenSees | SSI_MainDriver.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/SSI_MainDriver.ipynb){:target="_blank"} |
+| Post-Processing in Jupyter | Example post-processing scripts.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb){:target="_blank"} |
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation){:target="_blank"} <br/> 
-* [Visualization on DS - STKO](https://www.designsafe-ci.org/rw/workspace/#!/stko-ds-exec-01-1.0.0u1){:target="_blank"} <br/>
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){:target="_blank"} <br/>
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees){target="_blank"} <br/> 
+* [Visualization on DS - STKO](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/stko){target="_blank"} <br/>
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target="_blank"} <br/>
 
 
 ### Background 
@@ -137,7 +137,7 @@ The output from an OpenSeesMP-STKO analysis are provided in a number of '\*.mpco
 
 
 #### Visualize and extract data from STKO
-After the job is finished, the user can use [STKO](https://www.designsafe-ci.org/rw/workspace/#!/stko-ds-exec-01-1.0.0u1){:target="_blank"}  to visualize the results in the '\*.mpco' files that are located in the archive directory. If the user would like to extract data from the GUI of STKO, they can copy and paste the data using the "Leafpad" text editor within the DS virtual machine that serves STKO.  The user can then save the text file to a folder within the user's My Data directory.
+After the job is finished, the user can use [STKO](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/stko){target=_blank} to visualize the results in the '\*.mpco' files that are located in the archive directory. If the user would like to extract data from the GUI of STKO, they can copy and paste the data using the "Leafpad" text editor within the DS virtual machine that serves STKO.  The user can then save the text file to a folder within the user's My Data directory.
 
 ![Post_OPENSEES_STKO](img/Post_OPENSEES_STKO.png)
 

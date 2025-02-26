@@ -16,9 +16,9 @@ This example makes use of the following DesignSafe resources:
 
 | Step | Notebook |
 | :-------: | :---------:  |
-| Sensitivity analysis     | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/GlobalSensitivity/quoFEM-Sensitivity.ipynb)|
-| Bayessian calibration     | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/BayesianCalibration/quoFEM-Bayesian.ipynb)|
-| Forward propagation  | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/ForwardPropagation/quoFEM-Propagation.ipynb)|
+| Sensitivity analysis     | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/GlobalSensitivity/quoFEM-Sensitivity-TAPISV3.ipynb)|
+| Bayessian calibration     | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/BayesianCalibration/quoFEM-Bayesian-TAPISV3.ipynb)|
+| Forward propagation  | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/ForwardPropagation/quoFEM-Propagation-TAPISV3.ipynb)|
 
 The notebooks, and required scripts, are available in the Community Data folder and can be executed without any modification. Users are invited to try this notebook and use any parts of it.
 
@@ -62,7 +62,7 @@ In order to facilitate the discussion of each notebook, it is helpful to first i
 3. Run Tapis job
 4. Post-process results 
 
-Instructions for (1) setting up and (2) running Tapis jobs can be found [here](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb). These steps are generally applicable for launching any Tapis app from a Jupyter notebook in DesignSafe. The most significant step in this process is determining the appropriate Tapis app to utilize.  To perform uncertainty quantification within SimCenter backend applications, the following Tapis app is used:
+Instructions for (1) setting up and (2) running Tapis jobs can be found [here](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community-TAPISV3.ipynb). These steps are generally applicable for launching any Tapis app from a Jupyter notebook in DesignSafe. The most significant step in this process is determining the appropriate Tapis app to utilize.  To perform uncertainty quantification within SimCenter backend applications, the following Tapis app is used:
 
 ``` python
 #Select tapis-app

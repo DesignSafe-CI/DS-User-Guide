@@ -34,7 +34,7 @@ This **WebPortal** provides direct access to all OpenSees applications on Design
 
 Use this WebPortal in one of the these three ways, listed here in order of scalability:
 
-1. Select [**"Interactive VM for OpenSees"**](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesExpress/){:target="_blank"} to run OpenSees, OpenSeesMP, and OpenSeesSP for both Tcl and Python interpreters, at the terminal prompt for real-time interactivity with your model. Here you can edit and test your script in an integrated environment before submitting the full job to the HPC system. (<small><font color="blue"><button style="background: none!important;border: none;padding: 0!important;font-family: arial, sans-serif;color: #069;text-decoration: none;cursor: pointer;" onclick='toggleDiv("OSinter_deets")'>specs</button></font></small>)
+1. Select [**"Interactive VM for OpenSees"**](/user-guide/tools/simulation/opensees/opensees/#opensees-express){:target="_blank"} to run OpenSees, OpenSeesMP, and OpenSeesSP for both Tcl and Python interpreters, at the terminal prompt for real-time interactivity with your model. Here you can edit and test your script in an integrated environment before submitting the full job to the HPC system. (<small><font color="blue"><button style="background: none!important;border: none;padding: 0!important;font-family: arial, sans-serif;color: #069;text-decoration: none;cursor: pointer;" onclick='toggleDiv("OSinter_deets")'>specs</button></font></small>)
 
     <div id="OSinter_deets" hidden>
 
@@ -47,7 +47,7 @@ Use this WebPortal in one of the these three ways, listed here in order of scala
 
     </div>
 
-2. Submit your sequential [**OpenSees-Express**](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesExpress/){:target="_blank"} job directly to a dedicated Virtual Machine (VM) and your TCL script will be uploaded and run immediately. (<small><font color="blue"><button style="background: none!important;border: none;padding: 0!important;font-family: arial, sans-serif;color: #069;text-decoration: none;cursor: pointer;" onclick='toggleDiv("OSexprees_deets")'>specs</button></font></small>)
+2. Submit your sequential [**OpenSees-Express**](/user-guide/tools/simulation/opensees/opensees/#opensees-express){:target="_blank"} job directly to a dedicated Virtual Machine (VM) and your TCL script will be uploaded and run immediately. (<small><font color="blue"><button style="background: none!important;border: none;padding: 0!important;font-family: arial, sans-serif;color: #069;text-decoration: none;cursor: pointer;" onclick='toggleDiv("OSexprees_deets")'>specs</button></font></small>)
 
     <div id="OSexprees_deets" hidden>
 
@@ -61,7 +61,7 @@ Use this WebPortal in one of the these three ways, listed here in order of scala
 
     </div>
 
-3. Submit your parallel [**OpenSeesSP**](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesSP/){:target="_blank"} or [**OpenSeesMP**](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesMP/){:target="_blank"} job directly to the HPC and your TCL script will be uploaded and submitted to the small queue on [**Frontera**](https://frontera-portal.tacc.utexas.edu/user-guide/running/){:target="_blank"}. (<small><font color="blue"><button style="background: none!important;border: none;padding: 0!important;font-family: arial, sans-serif;color: #069;text-decoration: none;cursor: pointer;" onclick='toggleDiv("OSmpsp_deets")'>specs</button></font></small>)
+3. Submit your parallel [**OpenSeesSP**](/user-guide/tools/simulation/opensees/opensees/#openseesmp){:target="_blank"} or [**OpenSeesMP**](/user-guide/tools/simulation/opensees/openseesMP/){:target="_blank"} job directly to the HPC and your TCL script will be uploaded and submitted to the small queue on [**Frontera**](https://frontera-portal.tacc.utexas.edu/user-guide/running/){:target="_blank"}. (<small><font color="blue"><button style="background: none!important;border: none;padding: 0!important;font-family: arial, sans-serif;color: #069;text-decoration: none;cursor: pointer;" onclick='toggleDiv("OSmpsp_deets")'>specs</button></font></small>)
 
     <div id="OSmpsp_deets" hidden>
 
@@ -86,7 +86,7 @@ Use this WebPortal in one of the these three ways, listed here in order of scala
 
 #### Instructions
 
-1. Determine the appropriate application for your task. Refer to the [DesignSafe User Guide](https://www.designsafe-ci.org/user-guide/tools/simulation/opensees/openseesOverview/){:target="_blank"} for detailed help.
+1. Determine the appropriate application for your task. Refer to the [DesignSafe User Guide](/user-guide/tools/simulation/opensees/opensees/#opensees-applications_1){:target="_blank"} for detailed help.
 2. <u>Select your application</u> from the pull-down menu.
 3. Fill-out the application-specific input form that gets generated (not all applications require all the input):
     - **Input Directory**: Directory containing all input files. This directory will be cloned to the HPC workspace and, once the job is complete, will be placed in the output location you specify below. <br> You can drag the link for the directory from the Data Browser on the left, or click the 'Select Input' button and then select the directory.

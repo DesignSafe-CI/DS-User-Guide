@@ -1,6 +1,6 @@
 ## OpenSees User Guide
 
-The Open System for Earthquake Engineering Simulation (<a href="http://opensees.berkeley.edu/" target="_blank">OpenSees</a>) is a software framework for simulating the static and seismic response of structural and geotechnical systems. It has advanced capabilities for modeling and analyzing the nonlinear response of systems using a wide range of material models, elements, and solution algorithms.
+The Open System for Earthquake Engineering Simulation ([OpenSees](http://opensees.berkeley.edu/){target="_blank"}) is a software framework for simulating the static and seismic response of structural and geotechnical systems. It has advanced capabilities for modeling and analyzing the nonlinear response of systems using a wide range of material models, elements, and solution algorithms.
 
 One sequential (OpenSees-EXPRESS) and two parallel interpreters (OpenSeesSP and OpenSeesMP) are available on DesignSafe. Please explore the desired interpreter for more details.
 
@@ -67,46 +67,33 @@ OpenSeesMP is an OpenSees interpreter intended for high performance computers fo
 
 For detailed explanation of slides below, watch the tutorial above.
 
-<ul>
-	<li><a href="/media/filer_public/34/e9/34e9dd3c-e954-4a78-9376-e65d1b793277/openseesexpress.pdf" target="_blank">OpenSees-EXPRESS Slides</a></li>
-	<li><a href="/media/filer_public/1d/58/1d58638b-6cd4-48a1-b1b8-ce7313986e4e/openseessp.pdf" target="_blank">OpenSeesSP Slides</a></li>
-	<li><a href="/media/filer_public/c4/d6/c4d6aaef-5035-4506-9c4b-256fdaa47d0f/openseesmp.pdf" target="_blank">OpenSeesMP Slides</a></li>
-</ul>
+* [OpenSees-EXPRESS Slides](/media/filer_public/34/e9/34e9dd3c-e954-4a78-9376-e65d1b793277/openseesexpress.pdf){target="_blank"}
+* [OpenSeesSP Slides](/media/filer_public/1d/58/1d58638b-6cd4-48a1-b1b8-ce7313986e4e/openseessp.pdf){target="_blank"}
+* [OpenSeesMP Slides](/media/filer_public/c4/d6/c4d6aaef-5035-4506-9c4b-256fdaa47d0f/openseesmp.pdf){target="_blank"}
 
 
 ### Additional Resources { #resources }
 
 #### Examples in Community Data { #resources-communitydata }
 
-<ul>
-	<li>OpenSees-EXPRESS:
-	<ul>
-		<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesEXPRESS" target="_blank">input directory</a></li>
-		<li>input TCL file: freeFieldEffective.tcl</li>
-	</ul>
-	</li>
-	<li>OpenSeesSP:
-	<ul>
-		<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesSP" target="_blank">input directory</a></li>
-		<li>input TCL file: RigidFrame3D.tcl</li>
-		<li>resources: 1 Node, 2 Processors   </li>
-	</ul>
-	</li>
-	<li>OpenSeesMP:
-	<ul>
-		<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesMP" target="_blank">input directory</a></li>
-		<li>input TCL file: parallel_motion.tcl</li>
-		<li>resources: 1 Node, 3 Processors  </li>
-	</ul>
-	</li>
-</ul>
+* OpenSees-EXPRESS:
+	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesEXPRESS){target="_blank"}
+	* input TCL file: freeFieldEffective.tcl
+* OpenSeesSP:
+	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesSP){target="_blank"}
+	* input TCL file: RigidFrame3D.tcl
+	* resources: 1 Node, 2 Processors  
+* OpenSeesMP:
+	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesMP){target="_blank"}
+	* input TCL file: parallel_motion.tcl
+	* resources: 1 Node, 3 Processors 
 
 
 #### Powerpoint Presentations { #resources-ppt } 
 
-* <a href="/media/filer_public/34/e9/34e9dd3c-e954-4a78-9376-e65d1b793277/openseesexpress.pdf" target="_blank">OpenSees-EXPRESS</a>
-* <a href="/media/filer_public/1d/58/1d58638b-6cd4-48a1-b1b8-ce7313986e4e/openseessp.pdf" target="_blank">OpenSees SP</a>
-* <a href="/media/filer_public/c4/d6/c4d6aaef-5035-4506-9c4b-256fdaa47d0f/openseesmp.pdf" target="_blank">OpenSees MP</a>
+* [OpenSees-EXPRESS](/media/filer_public/34/e9/34e9dd3c-e954-4a78-9376-e65d1b793277/openseesexpress.pdf){target="_blank"}
+* [OpenSees SP](/media/filer_public/1d/58/1d58638b-6cd4-48a1-b1b8-ce7313986e4e/openseessp.pdf){target="_blank"}
+* [OpenSees MP](/media/filer_public/c4/d6/c4d6aaef-5035-4506-9c4b-256fdaa47d0f/openseesmp.pdf){target="_blank"}
 
 
 
