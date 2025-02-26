@@ -32,11 +32,11 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 ### Description
 
-The purpose of this JupyterLab is to integrate field damage, hazard, and exposure data from past hurricane events. KeplerGl provides customizable geospatial map visualization and user-friendly analysis tools. Different kinds of data from different sources related to any hurricane event are collected.  The exposure data from the National Structure Inventory (NSI) database and flood data from U.S. Geological Survey (USGS) are both collected via an application-programming interface or API.  API is storage-friendly and updates automatically. In that case, the script connects to the service provider. The field damage reconnaissance data from Structural Extreme Events Reconnaissance (StEER) is available from both DesignSafe and Fulcrum without an API, whereas the wind field data from the Applied Research Associates, Inc. (ARA) wind grid is on DesignSafe. 
+The purpose of this JupyterLab is to integrate field damage, hazard, and exposure data from past hurricane events. KeplerGl provides customizable geospatial map visualization and user-friendly analysis tools. Different kinds of data from different sources related to any hurricane event are collected.  The exposure data from the National Structure Inventory (NSI) database and flood data from U.S. Geological Survey (USGS) are both collected via an application-programming interface or API.  API is storage-friendly and updates automatically. In that case, the script connects to the service provider. The field damage reconnaissance data from Structural Extreme Events Reconnaissance (StEER) is available from both DesignSafe and Fulcrum without an API, whereas the wind field data from the Applied Research Associates, Inc. (ARA) wind grid is on DesignSafe.
 
 ### Implementation
 
-This use case uses Hurricane Michael as an example to illustrate the data collection, integration, and visualization on the map. This software can be extended to other hazards like tornadoes and earthquakes.  Figure 1 shows the main components of the data integration for Hurricane Michael. All the components are georeferenced. They are displayed in different layers in KeplerGl. 
+This use case uses Hurricane Michael as an example to illustrate the data collection, integration, and visualization on the map. This software can be extended to other hazards like tornadoes and earthquakes.  Figure 1 shows the main components of the data integration for Hurricane Michael. All the components are georeferenced. They are displayed in different layers in KeplerGl.
 
 ![](newimgs/image001.png)
 
@@ -72,11 +72,11 @@ Figure 1.  Integration of Hazard, Reconnaissance and Exposure Data
 
 #### Installing and importing the required packages
 
-When using the JupyterLab for the first time, some packages need to be installed. Start a new console by clicking <b>File &gt; New Console for Notebook</b> and copy and paste the following code: 
+When using the JupyterLab for the first time, some packages need to be installed. Start a new console by clicking <b>File &gt; New Console for Notebook</b> and copy and paste the following code:
 
 	jupyter lab clean --all &&   pip install --no-cache-dir --upgrade keplergl && \  jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
-The code above installs <b>KeplerGl</b>, as well as the required dependencies. 
+The code above installs <b>KeplerGl</b>, as well as the required dependencies.
 
 ![](newimgs/image002.png)
 
@@ -95,11 +95,11 @@ Exposure or building data is one of the main components of the integrated model.
 
 Figure 3. Process of Exposure Data Access via APIs.
 
-Each state and county in the United Sates have a unique FIPS code. Building data from the NSI database can be accessed for each county using its proper FIPS code. The following code gets the FIPS code of the county of interest. 
+Each state and county in the United Sates have a unique FIPS code. Building data from the NSI database can be accessed for each county using its proper FIPS code. The following code gets the FIPS code of the county of interest.
 
 ![](newimgs/image004.png)
 
-In this example we get building data in Bay County, Florida. For any other county, replace 'Bay County, Florida' with the desired county and state. Keep this format exactly as it is. Capitalize the first letters and write a comma after County. 
+In this example we get building data in Bay County, Florida. For any other county, replace 'Bay County, Florida' with the desired county and state. Keep this format exactly as it is. Capitalize the first letters and write a comma after County.
 
 #### Download ARA Wind and Building Damage Data 
 
@@ -125,7 +125,7 @@ The desired URL pops up in a new window. Copy and replace the JSON REST Service 
 
 #### Adding previously collected data and displaying them on the map 
 
-As the Python script adds data to the map, the user still must set it up to display using the panel on the left. In fact, a new layer needs to be added and configured for each data source. The left panel is activated and deactivated by clicking on the small arrow, circled in red on Figure 5. 
+As the Python script adds data to the map, the user still must set it up to display using the panel on the left. In fact, a new layer needs to be added and configured for each data source. The left panel is activated and deactivated by clicking on the small arrow, circled in red on Figure 5.
 
 ![](newimgs/image008.png)
 
@@ -133,18 +133,18 @@ Figure 5. Every data is added as a new layer on the map.
 
 For each new layer, the user specifies the basic type (point, polygon, arc, line etc.), selects the latitude and longitude fields from the data (Lat, Long) and decides on the fill color, too. The color can be based on a field value, making the map to be color-coded. In this JupyterLab, the reconnaissance damage data has been color-coded based on the wind damage rating value (0-4). The deeper purple the color, the higher the wind damage rating of the property. The layer of buildings is also color-coded based on the field median-year-built. This is an estimated value only and the map shows larger areas with the same color implying that this attribute must be treated with caution. 
 
-Finally, the maximum open terrain 1-minute sustained wind speed (mph) and 3-second wind gust (mph) at 10-meters are also color-coded. 
+Finally, the maximum open terrain 1-minute sustained wind speed (mph) and 3-second wind gust (mph) at 10-meters are also color-coded.
 
 
 #### Customizing the map further
 
-There are several extra tools in KeplerGl that allow the user to customize the map further. The first most important capability of KeplerGl is that the map style can be changed by clicking on the Base map icon (see Figure6). 
+There are several extra tools in KeplerGl that allow the user to customize the map further. The first most important capability of KeplerGl is that the map style can be changed by clicking on the Base map icon (see Figure6).
 
 ![](newimgs/image009.png)
 
 Figure 6. Changing the map style in KeplerGl
 
-An advantage of using a map style other than Satellite is that the building footprints become visible on the map as Figure 7 shows. 
+An advantage of using a map style other than Satellite is that the building footprints become visible on the map as Figure 7 shows.
 
 ![](newimgs/image010.png)
 
@@ -156,7 +156,7 @@ The second most important capability of KeplerGl is that the user may select the
 
 Figure 8. Selecting the most relevant fields for mouse over.
 
-Finally, the user may draw a rectangle or polygon on the map to highlight specific areas of interest. This tool is available on the right panel by clicking the Draw on map icon. 
+Finally, the user may draw a rectangle or polygon on the map to highlight specific areas of interest. This tool is available on the right panel by clicking the Draw on map icon.
 
 #### Saving the map and exporting it as an interactive html file
 
@@ -170,11 +170,11 @@ This code creates a configuration file in which all settings are saved. This fil
 
 The user must also click <b>Widget &gt; Save Notebook Widget State</b> before shutting down the kernel to make sure it that the same map will be reloaded next time.
 
-With the code below the most recently loaded map with all its data and configuration will be saved in the folder as an html file. 
+With the code below the most recently loaded map with all its data and configuration will be saved in the folder as an html file.
 
 ![](newimgs/image014.png)
 
-The html file generated cannot be opened directly from DesignSafe.User needs to save the html file and  open locally on a browser or published on the Internet. This is an interactive html file, meaning that the user can work on the map and customize it the same way as in the JupyterLab.  There is also an option to create a read-only html file by setting the read-only variable to true. 
+The html file generated cannot be opened directly from DesignSafe.User needs to save the html file and  open locally on a browser or published on the Internet. This is an interactive html file, meaning that the user can work on the map and customize it the same way as in the JupyterLab.  There is also an option to create a read-only html file by setting the read-only variable to true.
 
 ### Citations and Licensing
 

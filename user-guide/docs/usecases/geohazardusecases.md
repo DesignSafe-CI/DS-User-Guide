@@ -1,4 +1,4 @@
-# Geohazard Use Cases 
+# Geohazard Use Cases
 
 ---
 

@@ -4,7 +4,7 @@
 
 #### Accepted Data  { #accepteddata }
 
-The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted. 
+The DDR accepts engineering datasets generated through simulation, hybrid simulation, experimental, and field research methods regarding the impacts of wind, earthquake, and storm surge hazards, as well as debris management, fire, and blast explosions. We also accept social and behavioral sciences (SBE) data encompassing the study of the human dimensions of hazards and disasters. As the field and the expertise of the community evolves we have expanded our focus to include datasets related to COVID-19. Data reports, publications of Jupyter notebooks, code, scripts, lectures, and learning materials are also accepted.
 
 #### Accepted and Recommended File Formats  { #acceptedfileformats }
 
@@ -87,7 +87,7 @@ After data is published users can still work on My Project for progressive publi
 
 #### General Research Data Best Practices { #bestpractices }
 
-Below we include general research data best practices but we strongly recommend to review the available <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a> for more specific directions on how to document and organize specific research data types. 
+Below we include general research data best practices but we strongly recommend to review the available <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a> for more specific directions on how to document and organize specific research data types.
 
 ##### Proprietary Formats { #bestpractices-formats }
 
@@ -109,7 +109,7 @@ Understanding that ArcGIS software is widespread in this community  in the DDR i
 
 ##### Point Cloud Data { #bestpractices-pointcloud }
 
-It is highly recommended to avoid publishing proprietary point cloud data extensions.  Instead, users should consider publishing post-processed and open format extension data such as las or laz files. In addition, point cloud data publications may be very large. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a potree readable format to be visualized in DesignSafe. 
+It is highly recommended to avoid publishing proprietary point cloud data extensions.  Instead, users should consider publishing post-processed and open format extension data such as las or laz files. In addition, point cloud data publications may be very large. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a potree readable format to be visualized in DesignSafe.
 
 ##### Jupyter Notebooks { #jupyter }
 
@@ -163,7 +163,7 @@ NH datasets can be very large and complex, so we require that users submit a dat
 
 To provide connections to different types of information about the published dataset, users can use the Related Work field. We provide different types of tags that explain their relation to the dataset. To connect to information resources that provide contextual information about the dataset (events or organizations) use the tag "context". To link to other published datasets in the DDR use the tag "link Dataset", and to connect to published papers that cite the dataset use the tag "is cited by". Importantly, users should add the DOI of these different information types in http format (if there is no DOI add a URL). The latter information is sent to DataCite, enabling exchange of citation counts within the broader research ecosystem through permanent identifiers. Related Works can be added after the dataset was published using the amends pipeline. This is useful when a paper citing the dataset is published after the publication of the dataset. 
 
-When applicable, we ask users to include information about their research funding in the Awards Info fields. 
+When applicable, we ask users to include information about their research funding in the Awards Info fields.
 
 #### Data Quality Control { #quality }
 
@@ -465,7 +465,7 @@ The NISTIR 8053 publication <a href="https://nvlpubs.nist.gov/nistpubs/ir/2015/N
 
 Another <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id">NIST resource</a> including de-identification tools. 
 
-John Hopkins Libraries Data Services <a href="https://dataservices.library.jhu.edu/resources/applications-to-assist-in-de-identification-of-human-subjects-research-data/">Applications to Assist in De-identification of Human Subjects Research Data</a>. 
+John Hopkins Libraries Data Services <a href="https://dataservices.library.jhu.edu/resources/applications-to-assist-in-de-identification-of-human-subjects-research-data/">Applications to Assist in De-identification of Human Subjects Research Data</a>.
 
 #### Reusing Data Resources in your Publication { #reusingdata }
 
@@ -494,7 +494,6 @@ Researchers frequently use data, code, papers or reports from other sources in t
 Although no firm timeline requirements are specified for data publishing, researchers are expected to publish in a timely manner. Recommended timelines for publishing different types of research data (i.e., Experimental, Simulation, and Reconnaissance) are listed in Table 1.
 
 Guidelines specific to RAPID reconnaissance data can be found at <a href="https://rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf">rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf</a><br>
- 
 
 ##### Table 1. Recommended Publishing Timeline for Different Data Types { #table1 }
 
@@ -707,11 +706,11 @@ Version control includes:
 <li>Users will always be able to access previous versions through the landing page.</li>
 </ul>
 
-When implementing amend and version take the following into consideration: 
+When implementing amend and version take the following into consideration:
 
 <b data-stringify-type="bold">Amend</b> is only going to update the latest version of a publication (if there is only one version that will be the target). Only the specified fields in the metadata form will be updated. The order of authors must be confirmed before the amendments can be submitted.
 
-<b data-stringify-type="bold">Version</b> will create a new published version of a project. This pipeline will allow you to select a new set of files to publish, and whatever is selected in the pipeline is what will be published, nothing else. Additionally, the order of authors can be updated. 
+<b data-stringify-type="bold">Version</b> will create a new published version of a project. This pipeline will allow you to select a new set of files to publish, and whatever is selected in the pipeline is what will be published, nothing else. Additionally, the order of authors can be updated.
 
 <b data-stringify-type="bold">Important</b>: Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
 
@@ -771,7 +770,7 @@ Both the front-end copies and the Fedora repositories are in systems that implem
 The underlying storage systems for the DDR are managed in-house at TACC. All the storage systems used by DesignSafe are shared multi-tenant systems, hosting many projects concurrently in addition to DesignSafe – the front-end disk system currently has ~20PB of data, with the <a href="https://www.tacc.utexas.edu/systems/ranch" target="_blank">tape archive </a>containing roughly 80PB. These systems are operated in production by a large team of professional staff, in conjunction with TACC’s supercomputing platforms. Public user guides document the capabilities and hardware, and internal configuration management is managed via Redmine, visible only to systems staff.
 
 
-This preservation environment allows maintaining data in secure conditions at all times, before and after publication, comply with <a href="https://ndsa.org/publications/levels-of-digital-preservation/">NDSA Preservation Level 1</a>, attain and maintain the required representation and descriptive information about each file, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion. Fedora has <a href="https://github.com/fcrepo-exts/fcrepo-import-export">export capabiiities</a> for transfer of data and metadata to another Fedora repository or to another system. 
+This preservation environment allows maintaining data in secure conditions at all times, before and after publication, comply with <a href="https://ndsa.org/publications/levels-of-digital-preservation/">NDSA Preservation Level 1</a>, attain and maintain the required representation and descriptive information about each file, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion. Fedora has <a href="https://github.com/fcrepo-exts/fcrepo-import-export">export capabiiities</a> for transfer of data and metadata to another Fedora repository or to another system.
 
 
 Each published dataset has a <a href="#curation-publication-faq">digital object identifier (DOI)</a> that provides a persistent link to the published data. The DOI is available in the dataset landing page, along with all the required metadata and documentation.

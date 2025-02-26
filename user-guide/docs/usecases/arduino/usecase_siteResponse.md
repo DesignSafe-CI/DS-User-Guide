@@ -1,6 +1,6 @@
 # Performing site response analysis in Jupyter
 
-#### Simple jupyter notebook to introduce site response analysis using OpenSees in DesignSafe-CI. 
+#### Simple jupyter notebook to introduce site response analysis using OpenSees in DesignSafe-CI.
 
 **Pedro Arduino - University of Washington**
 
@@ -47,11 +47,11 @@ Therefore, relevant details for each component as it pertains to access to Desig
 
 ### Setup tapis/agave app and run OpenSees job
 
-The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP. 
+The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP.
 
 #### Setup job description
 
-A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (opensees), version (current), and opensees input file to run. For the site response case the *OpenseesSp-3.3.0u1* app is selected. The main steps required to setup an agave job are: 
+A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (opensees), version (current), and opensees input file to run. For the site response case the *OpenseesSp-3.3.0u1* app is selected. The main steps required to setup an agave job are:
 
 
 1. importing agave/tapis, 
@@ -111,7 +111,7 @@ job_description["parameters"] = parameters
 
 #### Run OpenSees Job
 
-Submitting a job using DesignSafe HPC resources requires the use of agave job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  When submitting a job, agave copies all the files present in the input folder to a temporary location that is used during execution. After completion agave copies all the results to an archived folder. 
+Submitting a job using DesignSafe HPC resources requires the use of agave job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  When submitting a job, agave copies all the files present in the input folder to a temporary location that is used during execution. After completion agave copies all the results to an archived folder.
 
 ```python
 import time
@@ -128,7 +128,7 @@ while status != "FINISHED":
 
 ### Postprocess Results
 
-Postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose. 
+Postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose.
 
 #### Identify job, archived location and user
 

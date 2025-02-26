@@ -114,7 +114,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 #### 8. Prepare to Publish { #step8 }
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
+When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
 
 ![](./imgs/guide-experimental-8.png)
 
@@ -220,7 +220,7 @@ Click <strong>Remove</strong> if you make any mistakes.
 
 #### 6. Tag Files { #simulation-step6 }
 
-After putting files in categories, dropdowns will appear to allow you to tag specific files. 
+After putting files in categories, dropdowns will appear to allow you to tag specific files.
 
 ![](./imgs/guide-simulation-6.png)
 
@@ -244,7 +244,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 ![](./imgs/guide-simulation-8a.png)
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
+When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
 
 ![](./imgs/guide-simulation-8b.png)
 
@@ -273,7 +273,7 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 <b><i>Field Research User Guide is in progress.</i></b>
 
-#### 1. Add a Project { #fieldresearch-step1 } 
+#### 1. Add a Project { #fieldresearch-step1 }
 
 ![](./imgs/guide-allguides-1a.jpg)
 
@@ -453,7 +453,7 @@ Fill out additional required fields in the <strong>Edit Project</strong> window,
 
 #### 3. Tag Files { #other-step3 }
 
-Dropdowns will appear by each file to allow you to tag specific files. 
+Dropdowns will appear by each file to allow you to tag specific files.
 
 ![](./imgs/guide-other-step3.png)
 

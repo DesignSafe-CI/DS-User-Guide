@@ -17,7 +17,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 {% include-markdown 'padgett/usecase_JN_viz.md' %}
 
-## Geohazards 
+## Geohazards
 
 * [**Data Analysis using Next Generation Liquefaction (NGL) Database**](#application-programming-interfaces) (NGL, Jupyter, SQL, Interactive Data Analytics)
 * [**Landslide Runout Simulations**](#mpm-landslide) (MPM, Jupyter, Paraview, HPC)

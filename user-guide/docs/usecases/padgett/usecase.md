@@ -4,12 +4,12 @@
 
 Integration of QGIS and Python Scripts to Model and Visualize Storm Impacts on Distributed Infrastructure Systems
 
-/// 
+///
 
 **Catalina González-Dueñas and Jamie E. Padgett - Rice University**<br/>
 **Miku Fukatsu - Tokyo University of Science**
 
-This use case study shows how to automate the extraction of storm intensity parameters at the structure level to support regional risk assessment studies. This example leverages QGIS and python scripts to obtain the surge elevation and significant wave height from multiple storms at specific building locations. The case study also shows how to visualize the outputs in QGIS and export them as a web map. 
+This use case study shows how to automate the extraction of storm intensity parameters at the structure level to support regional risk assessment studies. This example leverages QGIS and python scripts to obtain the surge elevation and significant wave height from multiple storms at specific building locations. The case study also shows how to visualize the outputs in QGIS and export them as a web map.
 
 
 ### Resources
@@ -24,12 +24,12 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 #### DesignSafe Resources
 
-The following DesignSafe resources are leveraged in this example: 
+The following DesignSafe resources are leveraged in this example:
 
 [Geospatial data analysis and Visualization on DS - QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis){target=_blank}<br/>
 [Jupyter notebooks on DS Jupyterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}
 
-### Background 
+### Background
 
 #### Citation and Licensing
 

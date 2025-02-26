@@ -11,7 +11,7 @@ Modeling Reinforced Concrete Walls using Shell Elements in OpenSees and Using Ju
 
 *Key Words: OpenSees, Jupyter, HPC*
 
-The purpose of this use case is to be able to model, simulate, and post process multiple reinforced concrete walls at once. This use case uses jupyter notebooks to model these walls with shell elements and uses OpenSeesMP on DesignSafe to simulate the models. The documentation of this use case will use a single wall, RW1, as an example to understand the workflow and objectives of this use case. 
+The purpose of this use case is to be able to model, simulate, and post process multiple reinforced concrete walls at once. This use case uses jupyter notebooks to model these walls with shell elements and uses OpenSeesMP on DesignSafe to simulate the models. The documentation of this use case will use a single wall, RW1, as an example to understand the workflow and objectives of this use case.
 
 ### Resources
  
@@ -62,7 +62,7 @@ The modeling of these walls make use of the MITC4 shell element. This element sm
    
 * Steel02- Uniaxial steel material model with isotropic strain hardening
     * Variables include: yield strength, initial elastic tangent, and strain hardening ratio
-    * Model can be found here: [Steel02 OpenSees](https://opensees.berkeley.edu/wiki/index.php/Steel02_Material_--_Giuffr%C3%A9-Menegotto-Pinto_Model_with_Isotropic_Strain_Hardening){:target="_blank"} 
+    * Model can be found here: [Steel02 OpenSees](https://opensees.berkeley.edu/wiki/index.php/Steel02_Material_--_Giuffr%C3%A9-Menegotto-Pinto_Model_with_Isotropic_Strain_Hardening){:target="_blank"}
 
 ![SchematicView](img/ShellEle.JPG)  
 Figure 1: Smeared shell element representation
@@ -82,7 +82,7 @@ The use case workflow involves the following steps:
 
 The modeling script is broken up into 2 notebooks, the first notebook imports the variables to build the wall into an array. The second notebook builds out the tcl file that will be ran through openseees. The sections defined below are from the second notebook.  
 The matlab to python script can be found here: [Matlab_to_Python.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Matlab_to_Python.ipynb){:target="_blank"} 
-The jupyter notebook that creates the OpenSees input file can be found here: [TCL_Script_Creator.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/TCL_Script_Creator.ipynb){:target="_blank"} 
+The jupyter notebook that creates the OpenSees input file can be found here: [TCL_Script_Creator.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/TCL_Script_Creator.ipynb){:target="_blank"}
 
 #### Reinforced Concrete Wall Database
 
@@ -102,7 +102,7 @@ The sections of the modeling script are:
    * The height of each element is equal to the length of the nodes in the boundary to create square elements up the wall.  
   
 ##### Section 3: Defines material models and their variables
-   * The crushing energy and fracture energy are calculated and wrote to the .tcl file. The equations for these values come from ([Nasser et al. (2019)](https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29ST.1943-541X.0002311){:target="_blank"} ) Below is the code: 
+   * The crushing energy and fracture energy are calculated and wrote to the .tcl file. The equations for these values come from ([Nasser et al. (2019)](https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29ST.1943-541X.0002311){:target="_blank"} ) Below is the code:
 
 ```py
 self.gtcc = abs((0.174*(.5)**2-0.0727*.5+0.149)*((self.Walldata[40]*1000*conMult)/1450)**0.7) #tensile energy of confined
@@ -141,7 +141,7 @@ self.gfcc = 2.2*self.gfuc #crushing energy of confined
    * The first two recorders capture the force reactions in the x-direction of the bottom row of nodes and the displacements in the x-direction of the top row of nodes. These recorders will be used to develop load-displacement graphs.
    * The next eight recorders capture stress and strain of the four gauss points in the middle concrete fiber of all the elements and store them in an xml file. These recorders will be used to develop stress and strain profile movies, give insight to how the wall is failing, and how the cross section is reacting.
    * The last two recorders capture the stress and strain of all the truss elements. These will be used to determine when the steel fails and when the yield strength is reached.
-   * Recorders are defined as below where 'firstRow' and 'last' are the nodes along the bottom and top of the wall 'maxEle' is the total amount of shell elements and 'trussele' is the total elements of shell elements and truss elements in the wall. 
+   * Recorders are defined as below where 'firstRow' and 'last' are the nodes along the bottom and top of the wall 'maxEle' is the total amount of shell elements and 'trussele' is the total elements of shell elements and truss elements in the wall.
 
 ```python
 self.f.write('recorder Node -file baseReactxcyc.txt  -node {}  -dof 1 reaction\n'.format(' '.join(firstRow)) )         
@@ -191,7 +191,7 @@ After the script is finished running through OpenSees, there are multiple post-p
 
 #### Load-Displacement Graph
 
-The Load-Displacement script compares the experimental cyclic load history to the simulated cyclic load output. The x axis is defined as drift % which is calculated as displacement (inches) divided by the height of the wall. The y axis is defined as shear ratio and calculated as force (kips) divided by cross sectional area and the square root of the concrete compressive strength.  This Script can be found here: [DisplacementLoadHistory.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/DisplacementLoadHistory.ipynb){:target="_blank"} 
+The Load-Displacement script compares the experimental cyclic load history to the simulated cyclic load output. The x axis is defined as drift % which is calculated as displacement (inches) divided by the height of the wall. The y axis is defined as shear ratio and calculated as force (kips) divided by cross sectional area and the square root of the concrete compressive strength.  This Script can be found here: [DisplacementLoadHistory.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/DisplacementLoadHistory.ipynb){:target="_blank"}
 
 ![SchematicView](img/disp.JPG)
 
@@ -205,7 +205,7 @@ The cross sectional script shows stress and strain output across the cross secti
 
 #### Stress and Strain Profile Movies
 
-The Stress/Strain profile movie script utilizes plotly to create an interactive animation of stresses and strains on the wall throughout the load history. The stress animations are vertical stress, shear stress, and maximum and minimum principal stress. The strain animations are vertical strain, shear strain, and maximum and minimum principal strain. This script can be found here: [Movies.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Movies.ipynb){:target="_blank"} 
+The Stress/Strain profile movie script utilizes plotly to create an interactive animation of stresses and strains on the wall throughout the load history. The stress animations are vertical stress, shear stress, and maximum and minimum principal stress. The strain animations are vertical strain, shear strain, and maximum and minimum principal strain. This script can be found here: [Movies.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Movies.ipynb){:target="_blank"}
 
 ![SchematicView](img/movies.JPG)
 

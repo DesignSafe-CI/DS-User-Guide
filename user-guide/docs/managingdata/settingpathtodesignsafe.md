@@ -12,7 +12,7 @@ Replace <strong>&lt;username&gt;</strong> with your username. You can find your 
 
 ![Path to My Data](./imgs/settingpath-1.png)
 
- 
+
 
 ### Path to My Projects { #myprojects }
 

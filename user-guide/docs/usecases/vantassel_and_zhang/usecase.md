@@ -36,7 +36,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 #### DesignSafe Resources
 
-The following DesignSafe resources are leveraged in this example: 
+The following DesignSafe resources are leveraged in this example:
 
 [Geospatial data analysis and Visualization on DS - QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis){target=_blank}<br/>
 [Jupyter notebooks on DS Jupyterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}

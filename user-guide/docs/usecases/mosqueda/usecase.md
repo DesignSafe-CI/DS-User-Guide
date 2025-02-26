@@ -29,7 +29,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target="_blank"} <br/> 
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target="_blank"} <br/>
 
 
 ### Background 
@@ -94,7 +94,7 @@ The Modular Testbed Building (MTB2), described in Morano et al. (2021), is desig
 Figure 4.   MTB2 building: a) SMF configuration (left), b) BRB-1 configuration (center), and c) BRB-2 configuration (right).
 
 ### Summary
-The Jupyter Notebooks developed for use through DesignSafe will facilitate the viewing and analysis of data sharing with collaborators from testing through data publication. A key advantage is the cloud-based approach that facilitates interactive data viewing and analysis in a report format without having to download large datasets. These tools are intended to make data more readily accessible and promote data reuse. The Jupyter Notebook presented here includes routines to evaluate the performance of the shake table and carry out system identification of structural models. 
+The Jupyter Notebooks developed for use through DesignSafe will facilitate the viewing and analysis of data sharing with collaborators from testing through data publication. A key advantage is the cloud-based approach that facilitates interactive data viewing and analysis in a report format without having to download large datasets. These tools are intended to make data more readily accessible and promote data reuse. The Jupyter Notebook presented here includes routines to evaluate the performance of the shake table and carry out system identification of structural models.
 
 #### References
 
