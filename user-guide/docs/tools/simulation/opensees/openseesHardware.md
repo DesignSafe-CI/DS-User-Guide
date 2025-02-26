@@ -1,4 +1,4 @@
-## Hardware 
+## Hardware
 
 OpenSees can be run on one of the following platforms:
 1. Virtual Machine.

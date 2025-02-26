@@ -79,7 +79,7 @@ Users should select the project type that best fits their research method and da
 
 Once the project type is selected, the interactive interface in My Project will guide users through the curation and publication steps through detailed onboarding instructions.
 
-My Project is a space where users can work during the process of curation and publication and after publication to publish new data products or to analyze their data. 
+My Project is a space where users can work during the process of curation and publication and after publication to publish new data products or to analyze their data.
 
 Because My Project is a shared space, it is recommended that teams select a data manager to coordinate file organization, transfers, curation, naming, etc.
 

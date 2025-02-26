@@ -1,4 +1,4 @@
-### DesignSafe Tutorial: OpenSees &amp; DesignSafe, October 31, 2018 { #tutorial } 
+### DesignSafe Tutorial: OpenSees &amp; DesignSafe, October 31, 2018 { #tutorial }
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item"
