@@ -7,7 +7,7 @@ Material Point Method for Landslide Modeling
 ///
 
 **Material Point Method for Landslide Modeling**   
-**Krishna Kumar - University of Texas at Austin**  
+**Krishna Kumar - University of Texas at Austin**
 
 The example makes use of the following DesignSafe resources:
 

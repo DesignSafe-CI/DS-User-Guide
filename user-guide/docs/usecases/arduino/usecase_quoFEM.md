@@ -270,6 +270,6 @@ https://doi.org/10.17603/ds2-eahz-9466. Accessed 28 June 2021.
 
 * Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6) to acknowledge the use of resources from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246) to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246) to acknowledge the use of DesignSafe resources.
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).  

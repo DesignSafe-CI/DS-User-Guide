@@ -427,7 +427,7 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 #### 1. Add a Project { #other-step1 }
 
-To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.  
+To add a new project, click <strong>+ Add</strong>, then select <strong>New Project</strong>.
 
 ![](./imgs/guide-allguides-1a.jpg)
 
@@ -445,7 +445,7 @@ Once finished, click <strong>+</strong> <strong>Add Project</strong> and you wil
 
 To begin curating and tagging your files, click on the <strong>Curation Directory</strong> and select <b>Other</b> as your Project Type.
 
-![](./imgs/guide-other-step2a.png)  
+![](./imgs/guide-other-step2a.png)
 
 Fill out additional required fields in the <strong>Edit Project</strong> window, including a Data Type, then click <strong>Update Project </strong>and you will be brought to the <strong>Curation Directory. </strong>
 

@@ -46,7 +46,7 @@ The following DesignSafe resources are leveraged in this example:
 
 <!-- * Please cite [AUTHORS et al. (20xx) - example of published project]() to acknowledge the use of any resources from this use case. -->
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
 * Please cite [Durante and Rathje (2021)](https://doi.org/10.1177/87552930211004613){target=_blank} to acknowledge the use of any resources for the Random Forest and Neural Networks examples included in this use case.
 

@@ -7,7 +7,7 @@ Modeling Reinforced Concrete Walls using Shell Elements in OpenSees and Using Ju
 ///
 
 **Josh Stokley - University of Washington**  <br>
-**Laura Lowes - University of Washington**  
+**Laura Lowes - University of Washington**
 
 *Key Words: OpenSees, Jupyter, HPC*
 
@@ -31,7 +31,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 The following DesignSafe resources were used in developing this use case.
 
 * [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){:target="_blank"} <br/> 
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees){:target="_blank"}  
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees){:target="_blank"}
 
 
 ### Background
@@ -42,19 +42,19 @@ The following DesignSafe resources were used in developing this use case.
 
 * Please cite [Lu XZ et al. (2015)](http://www.luxinzheng.net/download/OpenSEES/En_THUShell_OpenSEES.htm){:target="_blank"} to acknowledge the use of the modeling strategy from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){:target="_blank"} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){:target="_blank"} to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"} .  
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"} .
 
 ### Description
 #### Data  
 
-The walls that are modeled are defined in a database provided by Alex Shegay. The database is a MATLAB variable of type 'structure'. The tree-like structure of the variable consists of several levels. Each level consists of several variables, each being a 1x142 dimension array. Each entry within the array corresponds to a separate wall specimen. The order of these entries is consistent throughout the database and reflects the order of walls as appearing in the 'UniqueID' array.  
+The walls that are modeled are defined in a database provided by Alex Shegay. The database is a MATLAB variable of type 'structure'. The tree-like structure of the variable consists of several levels. Each level consists of several variables, each being a 1x142 dimension array. Each entry within the array corresponds to a separate wall specimen. The order of these entries is consistent throughout the database and reflects the order of walls as appearing in the 'UniqueID' array.
 
 #### Modeling
 
 The modeling techniques are inspired by the work of Lu XZ.
-The modeling of these walls make use of the MITC4 shell element. This element smears concrete and steel in multiple layers through the thickness of the element. Figure 1 demonstrates this.  Within the shell element, only the transverse steel is smeared with the concrete. The shell elements are modeled to be square or close to square for best accuracy, an assumption that follows this is that cover concrete on the ends of the wall are not taken into account as it would produce skinny elements that would cause the wall to fail prematurely. The vertical steel bars are modeled as trusses up the wall to better simulate the stress of those bars.  The opensees material models that are used are:  
+The modeling of these walls make use of the MITC4 shell element. This element smears concrete and steel in multiple layers through the thickness of the element. Figure 1 demonstrates this.  Within the shell element, only the transverse steel is smeared with the concrete. The shell elements are modeled to be square or close to square for best accuracy, an assumption that follows this is that cover concrete on the ends of the wall are not taken into account as it would produce skinny elements that would cause the wall to fail prematurely. The vertical steel bars are modeled as trusses up the wall to better simulate the stress of those bars.  The opensees material models that are used are:
 
 * PlaneStressUserMaterial- Utilizes damage mechanisms and smeared crack model to define a multi-dimensional concrete model  
     * Variables include: compressive strength, tensile strength, crushing strength, strain at maximum and crushing strengths, ultimate tensile strain, and shear retention factor
@@ -65,7 +65,7 @@ The modeling of these walls make use of the MITC4 shell element. This element sm
     * Model can be found here: [Steel02 OpenSees](https://opensees.berkeley.edu/wiki/index.php/Steel02_Material_--_Giuffr%C3%A9-Menegotto-Pinto_Model_with_Isotropic_Strain_Hardening){:target="_blank"} 
 
 ![SchematicView](img/ShellEle.JPG)  
-Figure 1: Smeared shell element representation  
+Figure 1: Smeared shell element representation
 
 ### Example 
 
@@ -88,7 +88,7 @@ The jupyter notebook that creates the OpenSees input file can be found here: [TC
 
 Each wall in the database has a number corresponding to its unique ID. This number will be the single input to the modeling script to create the script. The use case will loop through multiple numbers to create multiple files at once and run them through opensees. Variables are separated in the database by sections. For example, under the section 'Geometry', one can find the heights of the walls, the thickness of walls, the aspect ratios, and so on. By parsing through these sections, the necessary information can found and imported into the modeling script to build out the wall.
 
-RW1 is wall 33 in the database (with the first wall index starting at 0) and using that index number, the modeling script can grab everything that defines RW1.  
+RW1 is wall 33 in the database (with the first wall index starting at 0) and using that index number, the modeling script can grab everything that defines RW1.
 
 #### Modeling Script  
 
@@ -177,7 +177,7 @@ The last section of this notebook creates a reference file that holds variables 
   * total layers of elements in the file
   * Unique ID of the wall
   * filepath to the folder of the wall
-  * filepath to the tcl file  
+  * filepath to the tcl file
 
   
 ### Running Opensees through HPC
@@ -199,18 +199,18 @@ The Load-Displacement script compares the experimental cyclic load history to th
 
 The cross sectional script shows stress and strain output across the cross section of the first level for the concrete and steel at various points corresponding with the positive displacement peaks.  This script can be found here: [CrossSectionSteelConcreteProfile.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QUOFEM){:target="_blank"}
 
-![SchematicView](img/cs1.JPG)  
+![SchematicView](img/cs1.JPG)
 
-![SchematicView](img/cs1.JPG)  
+![SchematicView](img/cs1.JPG)
 
 #### Stress and Strain Profile Movies
 
 The Stress/Strain profile movie script utilizes plotly to create an interactive animation of stresses and strains on the wall throughout the load history. The stress animations are vertical stress, shear stress, and maximum and minimum principal stress. The strain animations are vertical strain, shear strain, and maximum and minimum principal strain. This script can be found here: [Movies.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Movies.ipynb){:target="_blank"} 
 
-![SchematicView](img/movies.JPG)  
+![SchematicView](img/movies.JPG)
 
 #### Crack Angle of Quadrature Points
 
-The crack angle script will show at what angle each quadrature point cracks. When the concrete reaches its fracture strength in the direction of the maximum principal stress, it is assumed that it cracked and the orientation at that point is then calculated shown on the graph. The blue lines indicates the crack angle was below the local x axis of the element and the red line means the crack angle was above the local x axis of the element.  This script can be found here: [CrackedModel.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/CrackedModel.ipynb){:target="_blank"}  
+The crack angle script will show at what angle each quadrature point cracks. When the concrete reaches its fracture strength in the direction of the maximum principal stress, it is assumed that it cracked and the orientation at that point is then calculated shown on the graph. The blue lines indicates the crack angle was below the local x axis of the element and the red line means the crack angle was above the local x axis of the element.  This script can be found here: [CrackedModel.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/CrackedModel.ipynb){:target="_blank"}
 
 ![SchematicView](img/cracked.JPG)  

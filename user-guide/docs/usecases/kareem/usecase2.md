@@ -48,7 +48,7 @@ The overall workflow is described in the following schematic.
 ![fig2](img2/Picture2.png)
 
 ### New Features
-The new features include the implementation of power-law inflow profiles in codes/standards and the introduction of the option of user-defined inflow conditions. The following Figure shows the difference between velocity profiles in the urban and suburban areas.  
+The new features include the implementation of power-law inflow profiles in codes/standards and the introduction of the option of user-defined inflow conditions. The following Figure shows the difference between velocity profiles in the urban and suburban areas.
 
 ![fig3](img2/Picture3.png)
 

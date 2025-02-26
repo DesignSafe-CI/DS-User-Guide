@@ -60,9 +60,9 @@ The following DesignSafe resources were used in developing this use case.
 
 * Please cite [Subramanian et al. (2022)](https://doi.org/10.17603/ds2-6qnj-tv17){target=_blank}, [Pinelli et al. (2022)](https://doi.org/10.17603/ds2-jv3x-fp80){target=_blank}, [J. Wang et al. (2021)](https://tigerprints.clemson.edu/cgi/viewcontent.cgi?article=1077&context=aawe){target=_blank} and [S. Sridhar et al. (2021)](https://tigerprints.clemson.edu/cgi/viewcontent.cgi?article=1068&context=aawe){target=_blank} to acknowledge the use of any resources from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
 
 
 ### Description

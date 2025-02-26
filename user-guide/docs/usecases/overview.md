@@ -1,6 +1,6 @@
 # DesignSafe Use Cases
 
-DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
+DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.
 
 <style>
 .grid {
