@@ -163,7 +163,7 @@ The project objective is to study high impact wind events on non-structural comp
 
 ```python
 px.scatter(dataframe, x=x column, y=y column, color=scatter point values, text=text to be displayed for each point, range_color=color scale range, animation_frame=variable for each animation frame, title = plot title)
-``` 
+```
 
 Including dimensions and trace lines to the plots can add more clarity.
 

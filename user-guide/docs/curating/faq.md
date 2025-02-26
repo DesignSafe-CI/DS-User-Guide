@@ -87,11 +87,11 @@
 
 1. Be aware of the reused data original license and conditions of usage. The license will specify if and how you can modify, distribute, and cite the reused data.
 
-1. If permitted you may also republish the reused data. This is feasible when the reused dataset is not very large. Else see 3 below. 
+1. If permitted you may also republish the reused data. This is feasible when the reused dataset is not very large. Else see 3 below.
 
-1. If you reuse data from other sources in your experiments or in your field research, you can point to it from the Referenced Data Title box so others can know about its provenance. 
+1. If you reuse data from other sources in your experiments or in your field research, you can point to it from the Referenced Data Title box so others can know about its provenance.
 
-1. In projects type Other, you can point to the reused data from the Related Work box. 
+1. In projects type Other, you can point to the reused data from the Related Work box.
 
 1. If you have reused images from other sources (online, databases, publications, etc.), be aware that they may have copyrights. We recommend using the following instructions for how to cite them:
 

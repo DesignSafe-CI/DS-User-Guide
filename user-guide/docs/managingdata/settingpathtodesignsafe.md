@@ -31,7 +31,7 @@ Replace <strong>&lt;PRJ-XXXX&gt;</strong> with your project's number. You can fi
 ![Path to Published](./imgs/settingpath-3.png)
 
 
-### Path to Published (NEES) { #published-nees } 
+### Path to Published (NEES) { #published-nees }
 
 For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;</strong>
 

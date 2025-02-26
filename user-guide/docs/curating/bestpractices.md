@@ -8,9 +8,9 @@ The DDR accepts engineering datasets generated through simulation, hybrid simula
 
 #### Accepted and Recommended File Formats  { #acceptedfileformats }
 
-Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>. 
+Due to the diversity of data and instruments used by our community, there are no current restrictions on the file formats users can upload to the DDR. However, for long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats, and we follow the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html">Library of Congress Recommended Formats</a>.
 
-In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data.  The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel. 
+In addition, we suggest that users look into the <a href="https://datacurationnetwork.org/outputs/data-curation-primers/">Data Curation Primers</a>, which are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data.  The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel.
 
 Below is an adaptation of the list of recommended formats for data and documentation by <a href="https://guides.library.stanford.edu/data-best-practices/format-files">Stanford Libraries.</a> For those available, we include a link to the curation primers:
 
@@ -28,7 +28,7 @@ Below is an adaptation of the list of recommended formats for data and documenta
 
 #### Data Size { #datasize }
 
-Currently we do not pose restrictions on the volume of data users upload to and publish in the DDR. This is meant to accommodate the vast amount of data researchers in the natural hazards community can generate, especially during the course of large-scale research projects. 
+Currently we do not pose restrictions on the volume of data users upload to and publish in the DDR. This is meant to accommodate the vast amount of data researchers in the natural hazards community can generate, especially during the course of large-scale research projects.
 
 However, for data curation and publication purposes users need to consider the sizes of their data for its proper reuse. Publishing large amounts of data requires more curation work (organizing and describing) so that other users can understand the structure and contents of the dataset. In addition, downloading very large projects may require the use of [Globus](../../managingdata/datatransfer#globus).  We further discuss data selection and quality considerations in the Data Curation section.
 
@@ -44,11 +44,11 @@ Below we highlight general curation best practices.
 
 #### Managing and Sharing Data in My Projects { #managingdata }
 
-All data and documentation collected and generated during a research project can be uploaded to My Project from the inception of the project. Within My Project, data are kept private for sharing amongst team members and for curation until published. Using My Project to share data with your team members during the course of research facilitates the progressive curation of data and its eventual publication. 
+All data and documentation collected and generated during a research project can be uploaded to My Project from the inception of the project. Within My Project, data are kept private for sharing amongst team members and for curation until published. Using My Project to share data with your team members during the course of research facilitates the progressive curation of data and its eventual publication.
 
-However, when conducting human subjects research, you must follow and comply with the procedures submitted to and approved by your Institutional Review Board (IRB) as well as your own ethical commitment to participants for sharing protected data in My Project. 
+However, when conducting human subjects research, you must follow and comply with the procedures submitted to and approved by your Institutional Review Board (IRB) as well as your own ethical commitment to participants for sharing protected data in My Project.
 
-Researchers working at a NHERI EF will receive their bulk data files directly into an existing My Project created for the team. 
+Researchers working at a NHERI EF will receive their bulk data files directly into an existing My Project created for the team.
 
 For all other research performed at a non-NHERI facility, it will be the responsibility of the research team to upload their data to the DDR.
 
@@ -59,29 +59,29 @@ There are different ways to upload data to My Project:
 * Connect to your favorite cloud storage provider. <a href="/user-guide/managingdata/datatransfer/#cloud">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
 * You can also copy data to and from My Data.  
 * You may consider zipping files for purpses of uploading: however, you should unzip them for curation and publication purposes.  
-* For uploads of files bigger than 2 Gigabytes and or more than 25 files, consider using Globus, CyberDuck and  Command Line Utilities. Explanations on how to use those applications are available in our <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide.</a> 
+* For uploads of files bigger than 2 Gigabytes and or more than 25 files, consider using Globus, CyberDuck and  Command Line Utilities. Explanations on how to use those applications are available in our <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide.</a>
 
 Downloading several individual files via our web interface could be cumbersome, so DesignSafe offers a number of alternatives. First, users may interact with data in the Workspace using any of the available tools and applications without the need to download; for this, users will need a DesignSafe account. Users needing to download a large number of files from a project may also use <a href="/user-guide/managingdata/datatransfer/#globus">Globus</a>. When feasible, to facilitate data download from their projects users may consider aggregating data into larger files.
 
-Be aware that while you may store all of a project files in My Project, you may not need to publish all of them. During curation and publication you will have the option to select a subset of the uploaded files that you wish to publish without the need to delete them. 
+Be aware that while you may store all of a project files in My Project, you may not need to publish all of them. During curation and publication you will have the option to select a subset of the uploaded files that you wish to publish without the need to delete them.
 
 More information about the different Workspaces in DesignSafe and how to manage data from one to the other can be found <a href="/user-guide/managingdata/datatransfer/">here</a>.
 
 #### Selecting a Project Type { #selectingprojecttype }
 
-Depending on the research method pursued, users may curate and publish data as "Experimental", "Simulation", "Hybrid Simulation," or "Field Research" project type. The Field Research project type accommodates "Interdisciplinary Datasets" involving engineering and/or social science collections. 
+Depending on the research method pursued, users may curate and publish data as "Experimental", "Simulation", "Hybrid Simulation," or "Field Research" project type. The Field Research project type accommodates "Interdisciplinary Datasets" involving engineering and/or social science collections.
 
-Based on <a href="#policies">data models</a> designed by experts in the field, the different project types provide interactive tools and metadata forms to curate the dataset so it is complete and understandable for others to reuse. So for example,users that want to publish a simulation dataset will have to include files and information about the model or software used, the input and the output files, and add a readme file or a data report. 
+Based on <a href="#policies">data models</a> designed by experts in the field, the different project types provide interactive tools and metadata forms to curate the dataset so it is complete and understandable for others to reuse. So for example,users that want to publish a simulation dataset will have to include files and information about the model or software used, the input and the output files, and add a readme file or a data report.
 
 Users should select the project type that best fits their research method and dataset.  If the data does not fit any of the above project types, they can select project type" Other." In project type "Other" users can curate and publish standalone reports, learning materials, white papers, conference proceedings, tools, scripts, or data that does not fit with the research models mentioned above.
 
 #### Working in My Project { #working }
 
-Once the project type is selected, the interactive interface in My Project will guide users through the curation and publication steps through detailed onboarding instructions. 
+Once the project type is selected, the interactive interface in My Project will guide users through the curation and publication steps through detailed onboarding instructions.
 
-My Project is a space where users can work during the process of curation and publication and after publication to publish new data products or to analyze their data.  
+My Project is a space where users can work during the process of curation and publication and after publication to publish new data products or to analyze their data. 
 
-Because My Project is a shared space, it is recommended that teams select a data manager to coordinate file organization, transfers, curation, naming, etc. 
+Because My Project is a shared space, it is recommended that teams select a data manager to coordinate file organization, transfers, curation, naming, etc.
 
 After data is published users can still work on My Project for progressive publishing of new experiments, missions or simulations within the project, to version and/or to edit or amend the existing publication. See amends and versions in this document.
 
@@ -103,7 +103,7 @@ In the Data Depot's Published directory there is a [best practices document](htt
 
 ##### Geospatial Data { #bestpractices-geospatial }
 
-We encourage the use of open Geospatial data formats. Within DS Tools and Applications we provide two open source software for users to share and analyze geospatial data. QGIS can handle most open format datasets and HazMapper, is capable of visualizing geo-tagged photos and GeoJSON files. To access these software users should  get an account in DesignSafe. 
+We encourage the use of open Geospatial data formats. Within DS Tools and Applications we provide two open source software for users to share and analyze geospatial data. QGIS can handle most open format datasets and HazMapper, is capable of visualizing geo-tagged photos and GeoJSON files. To access these software users should  get an account in DesignSafe.
 
 Understanding that ArcGIS software is widespread in this community  in the DDR it is possible to upload both proprietary and recommended geospatial data formats. When publishing feature and raster files it is important to make sure that all of the relevant files for reuse such as the projection file and header file are included in the publication for future re-use. For example, for shapefiles it is important to publish all .shp (the file that contains the geometry for all features), .shx (the file that indexes the geometry) and .dbf (the file that stores feature attributes in a tabular format) files.
 
@@ -121,13 +121,13 @@ More and more researchers are publishing projects that contain Jupyter Notebooks
 
 #### Data Organization and Description { #organization }
 
-In My Projects, users may upload files and or create folders to keep their files organized; the latter is common when projects have numerous files. However, browsing through an extensive folder hierarchy on the web may be slower on your local computer, so users should try to use the smallest number of nested folders necessary and if possible, none at all, to improve all users’ experience. 
+In My Projects, users may upload files and or create folders to keep their files organized; the latter is common when projects have numerous files. However, browsing through an extensive folder hierarchy on the web may be slower on your local computer, so users should try to use the smallest number of nested folders necessary and if possible, none at all, to improve all users’ experience.
 
 Except for project type "Other" which does not have categories, users will categorize their files or folders according to the corresponding project type. Categories describe and highlight the main components of the dataset in relation to the research method used to obtain it. Each category has a form that needs to be filled with metadata to explain the methods and characteristics of the dataset, and there are onboarding instructions on what kind of information is suitable for each metadata field. In turn, some of these fields are required, which means that they are fundamental for the clarity of the project's description. The best way to approach data curation in My Project, is to organize the files in relation to the data model of choice and have the files already organized and complete before categorizing and tagging. While curating data in My Project, do not move, rename or modify files that have been already categorized. In particular, do not make changes to categorized files through an SSH connection or through Globus. If you need to, please remove the category, deselect the files, and start all over.
 
-Within the different project types, there are different layers for describing a dataset. At the project level, it is desirable to provide an overview of the research, including its general goal and outcomes, what is the audience, and how the data can be reused. For large projects we encourage users to provide an outline of the scope and contents of the data. At the categories level, the descriptions need to address technical and methodological aspects involved in obtaining the data.  
+Within the different project types, there are different layers for describing a dataset. At the project level, it is desirable to provide an overview of the research, including its general goal and outcomes, what is the audience, and how the data can be reused. For large projects we encourage users to provide an outline of the scope and contents of the data. At the categories level, the descriptions need to address technical and methodological aspects involved in obtaining the data. 
 
-In addition, users can tag individual files or groups of files for ease of data comprehension and reuse by others. While categories are required, tagging is not, though we recommend that users tag their files because it helps other users to efficiently identify file contents in the publication interface. For each project type the list of tags are agreed upon terms contributed by experts in the field of NH. If the tags available do not apply, feel free to add custom tags and submit tickets informing the curation team about the need to incorporate them in the list. We heard from our users that the list of tags per category reaffirms them of the need to include certain types of documentation to their publication. 
+In addition, users can tag individual files or groups of files for ease of data comprehension and reuse by others. While categories are required, tagging is not, though we recommend that users tag their files because it helps other users to efficiently identify file contents in the publication interface. For each project type the list of tags are agreed upon terms contributed by experts in the field of NH. If the tags available do not apply, feel free to add custom tags and submit tickets informing the curation team about the need to incorporate them in the list. We heard from our users that the list of tags per category reaffirms them of the need to include certain types of documentation to their publication.
 
 To enhance organization and description of projects type "Other," users can group files in folders when needed and use file tags. However, it is always best to avoid overly nesting and instead use the file tags and descriptions to indicate what are the groupings.
 
@@ -159,21 +159,21 @@ The following are good examples of data organization and description of differen
 
 #### Project Documentation { #documentation }
 
-NH datasets can be very large and complex, so we require that users submit a data report or a readme file to publish along with their data to express information that will facilitate understanding and reuse of your project. This documentation may include the structure of the data, a data dictionary, information of where everything is, explanation of the file naming convention used, and the methodology used to check the quality of the data. The data report in this <a href="https://doi.org/10.17603/ds2-5aej-e227">published dataset</a> is an excellent example of documentation. 
+NH datasets can be very large and complex, so we require that users submit a data report or a readme file to publish along with their data to express information that will facilitate understanding and reuse of your project. This documentation may include the structure of the data, a data dictionary, information of where everything is, explanation of the file naming convention used, and the methodology used to check the quality of the data. The data report in this <a href="https://doi.org/10.17603/ds2-5aej-e227">published dataset</a> is an excellent example of documentation.
 
-To provide connections to different types of information about the published dataset, users can use the Related Work field. We provide different types of tags that explain their relation to the dataset. To connect to information resources that provide contextual information about the dataset (events or organizations) use the tag "context". To link to other published datasets in the DDR use the tag "link Dataset", and to connect to published papers that cite the dataset use the tag "is cited by". Importantly, users should add the DOI of these different information types in http format (if there is no DOI add a URL). The latter information is sent to DataCite, enabling exchange of citation counts within the broader research ecosystem through permanent identifiers. Related Works can be added after the dataset was published using the amends pipeline. This is useful when a paper citing the dataset is published after the publication of the dataset. 
+To provide connections to different types of information about the published dataset, users can use the Related Work field. We provide different types of tags that explain their relation to the dataset. To connect to information resources that provide contextual information about the dataset (events or organizations) use the tag "context". To link to other published datasets in the DDR use the tag "link Dataset", and to connect to published papers that cite the dataset use the tag "is cited by". Importantly, users should add the DOI of these different information types in http format (if there is no DOI add a URL). The latter information is sent to DataCite, enabling exchange of citation counts within the broader research ecosystem through permanent identifiers. Related Works can be added after the dataset was published using the amends pipeline. This is useful when a paper citing the dataset is published after the publication of the dataset.
 
 When applicable, we ask users to include information about their research funding in the Awards Info fields.
 
 #### Data Quality Control { #quality }
 
-Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. Due to the specificity,  complexity, and scope of the research involved in each publication, the DDR cannot complete quality checks of the contents of the data published by users. It is the user's responsibility to publish data that is up to the best standards of their profession, and our commitment is to help them achieve these standards. In the DDR, data and metadata quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. In addition, below we include general data content quality recommendations: 
+Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. Due to the specificity,  complexity, and scope of the research involved in each publication, the DDR cannot complete quality checks of the contents of the data published by users. It is the user's responsibility to publish data that is up to the best standards of their profession, and our commitment is to help them achieve these standards. In the DDR, data and metadata quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. In addition, below we include general data content quality recommendations:
 
-Before publishing, use applicable methods to review the data for errors (calibration, correction, validation, normalization, completeness checks) and document the process so that other reusers are aware of the quality control methods employed. Include the explanation about the quality control methods you used in the data report or readme file. 
+Before publishing, use applicable methods to review the data for errors (calibration, correction, validation, normalization, completeness checks) and document the process so that other reusers are aware of the quality control methods employed. Include the explanation about the quality control methods you used in the data report or readme file.
 
-Include a data dictionary or a readme file to explain the meaning of data fields. 
+Include a data dictionary or a readme file to explain the meaning of data fields.
 
-Researchers in NH generate enormous amounts of images. While we are not posing restrictions on the amount of files, in order to be effective in communicating their research users being selective with the images chosen to publish is key.  For example, making sure they have a purpose, are illustrative of a process or a function, and using file tags to describe them. The same concept can be applied for other data formats. 
+Researchers in NH generate enormous amounts of images. While we are not posing restrictions on the amount of files, in order to be effective in communicating their research users being selective with the images chosen to publish is key.  For example, making sure they have a purpose, are illustrative of a process or a function, and using file tags to describe them. The same concept can be applied for other data formats.
 
 It is possible to publish raw and curated data. Raw data is that which comes directly from the recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data as well as their curated data. For users who seek to publish both, consider why it is necessary to publish both sets and how another researcher would use them. Always clarify whether your data is raw or curated in the description or in a data report/readme file including the method used to post-process it.
 
@@ -181,7 +181,7 @@ It is possible to publish raw and curated data. Raw data is that which comes dir
 
 Users that plan to work with human subjects should have their IRB approval in place prior to storing, curating, and publishing data in the DDR. We recommend following the recommendations included in the CONVERGE series of<a href="https://converge.colorado.edu/resources/check-sheets/ethical-considerations/"> check sheets</a> that outline how researchers should manage/approach the lifecycle data that contain personal and sensitive information; these check sheets have also been published in the<a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2946"> DDR</a>.
 
-At the moment of selecting a Field Research project, users are prompted to respond if they will be working with human subjects. If the answer is yes, the DDR curator is automatically notified and gets in touch with the project team to discuss the nature and conditions of the data and the IRB commitments. 
+At the moment of selecting a Field Research project, users are prompted to respond if they will be working with human subjects. If the answer is yes, the DDR curator is automatically notified and gets in touch with the project team to discuss the nature and conditions of the data and the IRB commitments.
 
 DesignSafe My Data and My Projects are secure spaces to store raw protected data as long as it is not under HIPAA, FERPA or FISMA regulations. If data needs to comply with these regulations, researchers must contact DDR through a <a href="http://www.designsafe-ci.org/help/new-ticket">help ticket</a> to evaluate the need to use <a href="https://www.tacc.utexas.edu/protected-data-service">TACC‘s Protected Data Service</a>. Researchers with doubts are welcome to send a <a href="http://www.designsafe-ci.org/help/new-ticket">ticket</a> or join <a href="https://www.designsafe-ci.org/learning-center/training/">curation office hours</a>.
 
@@ -189,7 +189,7 @@ Projects that do not include the study of human subjects and are not under IRB p
 
 #### Metadata Requirements { #metadatareqs }
 
-Metadata is information that describes the data in the form of schemas. Metadata schemas provide a structured way for users to share information about data with other platforms and individuals. Because there is no standard schema to describe natural hazards engineering research data, the DDR developed data models containing elements and controlled terms for categorizing and describing NH data. The terms have been identified by experts in the NH community and are continuously expanded, updated, and corrected as we gather feedback and observe how researchers use them in their publications. 
+Metadata is information that describes the data in the form of schemas. Metadata schemas provide a structured way for users to share information about data with other platforms and individuals. Because there is no standard schema to describe natural hazards engineering research data, the DDR developed data models containing elements and controlled terms for categorizing and describing NH data. The terms have been identified by experts in the NH community and are continuously expanded, updated, and corrected as we gather feedback and observe how researchers use them in their publications.
 
 So that DDR metadata can be exchanged in a standard way, we map the fields and terms to widely-used, standardized schemas. The schemas are: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core</a> for description of the research data project, <a href="https://ddialliance.org/products/overview-of-current-products">DDI (Data Documentation Initiative)</a> for social science data, and <a href="https://datacite.org/dois.html">DataCite</a> for DOI assignment and citation. We use the <a href="https://www.w3.org/2001/sw/wiki/PROV">PROV</a> schema to connect the different components of multi-part data publications.
 
@@ -441,11 +441,11 @@ Due to variations in research methods, users may not need to use all the metadat
 
 #### Protected Data { #protecteddata }
 
-Protected data in the  Data Depot Repository (DDR) are generally (but not always) included within interdisciplinary and social science research projects that study human subjects, which always need to have approval from an Institutional Review Board (IRB). We developed a data model and onboarding instructions <a href="https://converge.colorado.edu/data/data-publication">in coordination with our CONVERGE partners</a> to manage this type of data within our curation and publication pipelines. Additionally, CONVERGE has a series of <a href="https://converge.colorado.edu/resources/check-sheets/ethical-considerations/">check sheets</a> that outline how researchers should manage data that could contain sensitive information; these check sheets have also been published in <a href="http://doi.org/10.17603/ds2-7r74-1021">the DDR</a>.  
+Protected data in the  Data Depot Repository (DDR) are generally (but not always) included within interdisciplinary and social science research projects that study human subjects, which always need to have approval from an Institutional Review Board (IRB). We developed a data model and onboarding instructions <a href="https://converge.colorado.edu/data/data-publication">in coordination with our CONVERGE partners</a> to manage this type of data within our curation and publication pipelines. Additionally, CONVERGE has a series of <a href="https://converge.colorado.edu/resources/check-sheets/ethical-considerations/">check sheets</a> that outline how researchers should manage data that could contain sensitive information; these check sheets have also been published in <a href="http://doi.org/10.17603/ds2-7r74-1021">the DDR</a>. 
 
-Natural Hazards also encompasses data that have granular geographical locations and images that may capture humans that are not the focus of the research/would not fall under the purview of an IRB. See both the Privacy Policy within our <a href="https://www.designsafe-ci.org/account/terms-conditions/">Terms of Use</a>, 
+Natural Hazards also encompasses data that have granular geographical locations and images that may capture humans that are not the focus of the research/would not fall under the purview of an IRB. See both the Privacy Policy within our <a href="https://www.designsafe-ci.org/account/terms-conditions/">Terms of Use</a>,
 
-Data de-identification, specially for large datasets, can be tasking. Users working with the RAPID facility may discuss with them steps for pre-processing before uploading to DesignSafe. 
+Data de-identification, specially for large datasets, can be tasking. Users working with the RAPID facility may discuss with them steps for pre-processing before uploading to DesignSafe.
 
 To publish protected data researchers should pursue the following steps and requirements:
 
@@ -461,9 +461,9 @@ To publish protected data researchers should pursue the following steps and requ
 
 ##### De-identification Resources { #protecteddata-deidentification }
 
-The NISTIR 8053 publication <a href="https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8053.pdf">De-Identification of Personal Information</a> provides all the definitions and approaches to reduce privacy risk and enable research. 
+The NISTIR 8053 publication <a href="https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8053.pdf">De-Identification of Personal Information</a> provides all the definitions and approaches to reduce privacy risk and enable research.
 
-Another <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id">NIST resource</a> including de-identification tools. 
+Another <a href="https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id">NIST resource</a> including de-identification tools.
 
 John Hopkins Libraries Data Services <a href="https://dataservices.library.jhu.edu/resources/applications-to-assist-in-de-identification-of-human-subjects-research-data/">Applications to Assist in De-identification of Human Subjects Research Data</a>.
 
@@ -679,13 +679,13 @@ Please read the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">L
 
 #### Subsequent Publishing { #publishing }
 
-With the exception of Project Type Other, which is a one time publication, in the DDR it is possible to publish datasets or works subsequently. A project can be conceived as an umbrella where reports or learning materials, code, and datasets from distinct experiments, simulations, hybrid simulations or field research missions that happen at different time periods, involve participation of distinct authors, or need to be released more promptly, can be published at different times. Each new product will have its own citation and DOI, and users may select a different license if that is appropriate for the material, (e.g. a user publishing a data report will use a Creative Commons license, and an Open Data Commons license to publish the data). The subsequent publication will be linked to the umbrella project via the citation, and to the other published products in the project through metadata. 
+With the exception of Project Type Other, which is a one time publication, in the DDR it is possible to publish datasets or works subsequently. A project can be conceived as an umbrella where reports or learning materials, code, and datasets from distinct experiments, simulations, hybrid simulations or field research missions that happen at different time periods, involve participation of distinct authors, or need to be released more promptly, can be published at different times. Each new product will have its own citation and DOI, and users may select a different license if that is appropriate for the material, (e.g. a user publishing a data report will use a Creative Commons license, and an Open Data Commons license to publish the data). The subsequent publication will be linked to the umbrella project via the citation, and to the other published products in the project through metadata.
 
 After a first publication, users can upload more data and create a new experiment/simulation/hybrid simulation or mission and proceed to curate it. Users should be aware that momentarily they cannot publish the new product following the publication pipeline. After curation and before advancing through the Publish My Project button, they should write a help ticket or attend curation office hours so that the DDR team can assist and publish the new product.
 
 #### Amends and Version Control  { #amends }
 
-Once a dataset is published users can do two things to improve and or / continue their data publication: amends and version control. Amends involve correcting certain metadata fields that do not incur major changes to the existing published record, and version control includes changes to the data. Once a dataset is published, however, we do not allow title or author changes. If those changes need to be made due to omission or mistake, users have to submit a Help ticket and discuss the change with the data curator. If applicable, changes will be done by the curation team. 
+Once a dataset is published users can do two things to improve and or / continue their data publication: amends and version control. Amends involve correcting certain metadata fields that do not incur major changes to the existing published record, and version control includes changes to the data. Once a dataset is published, however, we do not allow title or author changes. If those changes need to be made due to omission or mistake, users have to submit a Help ticket and discuss the change with the data curator. If applicable, changes will be done by the curation team.
 
 Amends include:
 

@@ -126,7 +126,7 @@ conda install networkx
 pip install tensorflow
 ```
 
-Once you have created or added a new kernel, those will become selectable alongside the base Python 3, Julia, and R kernels in the Launcher tab. You may need to wait a few seconds or refresh the browser to observe the new available kernel. Note that you can create as many kernels as you like to manage your various projects and their dependencies on DesignSafe. 
+Once you have created or added a new kernel, those will become selectable alongside the base Python 3, Julia, and R kernels in the Launcher tab. You may need to wait a few seconds or refresh the browser to observe the new available kernel. Note that you can create as many kernels as you like to manage your various projects and their dependencies on DesignSafe.
 
 The Jupyter Session will end after a few days without any activity or when you shut down your server ("File" > "Hub Control Panel" > "Stop My Server" > "Log Out".). In such cases, your user-defined kernels will not be immediately visible on the restart. To enable the custom Python environments, you must re-add this Python environment to your Jupyter kernel spec. For this, open a Terminal (go to New Launcher/Other/Terminal) and run the following commands:
 

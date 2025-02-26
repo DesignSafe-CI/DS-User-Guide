@@ -116,7 +116,7 @@ Disadvantages include:
 
 **Overall, the interactive VM is meant to be as a testing and learning environment. It is ideal to configure and test smaller runs of large jobs before submitting to the HPC queue to verify inputs/outputs are configured correctly for ADCIRC and supporting programs.**
 
-#### Getting Started 
+#### Getting Started
 
 You can access the interactive VM  via the DesignSafe-CI workspace by selecting "Workspace" &gt; "Tools &amp; Applications" &gt; "Simulation" &gt; "ADCIRC" &gt; Select "Jupyter" &gt; "Interactive VM for ADCIRC" to start the interactive VM.
 

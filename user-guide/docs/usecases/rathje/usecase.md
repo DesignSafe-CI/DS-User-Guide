@@ -7,7 +7,7 @@ Integration of OpenSees-STKO-Jupyter to Simulate Seismic Response of Soil-Struct
 ///
 
 **Yu-Wei Hwang - University of Texas at Austin**  <br>
-**Ellen Rathje - University of Texas at Austin**  
+**Ellen Rathje - University of Texas at Austin** 
 
 _Keywords: OpenSees, STKO, Jupyter, HPC_
 
@@ -43,7 +43,7 @@ The following DesignSafe resources were used in developing this use case.
 
 * This software is distributed under the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html){:target="_blank"} .
 
-### Description  
+### Description 
 
 A hypothetical three dimensional soil–foundation–structure system on liquefiable soil layer is analyzed using OpenSees MP. The soil profile first included a 12-m thick dense sand layer with Dr of 90%, followed by a 4-m thick loose sand layer with Dr of 40%, and overlaid by a 2-m thick dense sand layer. The ground water table was at ground surface. An earthquake excitation was applied at the bottom of the soil domain under rigid bedrock conditons. A three-story, elastic structure was considered on a 1-m-thick mat foundation. The foundation footprint size (i.e., width and length) was 9.6m x 9.6m with bearing pressure of 65 kPa. Additional information can be found in [Hwang et al. (2021)](https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29GT.1943-5606.0002546?casa_token=VvVOt4ua4GAAAAAA:f_aX-l0Jn0UwtpJf_0SfF323zdh7edMKxb3ou635HE5obgmO7amjFMkmLArlLE-LDM6MBfVCMPSh){:target="_blank"}
 
@@ -143,7 +143,7 @@ After the job is finished, the user can use [STKO](https://www.designsafe-ci.org
 
 #### Example post-processing scripts using Jupyter
 
-A separate Jupyter notebook is provided ([Example post-processing scripts.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb){:target="_blank"} ) that post-processes data from OpenSees recorders and save in \*.txt files.  The Jupyter notebook is set up to open the \*.txt files after thay have been copied from the archive directory to the same My Data in which the notebook resides. 
+A separate Jupyter notebook is provided ([Example post-processing scripts.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenSees-STKO/Example%20post-processing%20scripts.ipynb){:target="_blank"} ) that post-processes data from OpenSees recorders and save in \*.txt files.  The Jupyter notebook is set up to open the \*.txt files after thay have been copied from the archive directory to the same My Data in which the notebook resides.
 
 For this example, recorders are created to generate output presented in terms of:
 
