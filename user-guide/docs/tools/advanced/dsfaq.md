@@ -41,7 +41,7 @@ A: If you are confident that you have entered the correct password for your acco
 A: With an account, you can:
 
 <ul>
-	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in <a href="https://www.designsafe-ci.org/rw/workspace/" target="_blank">Tools & Applications</a></li>
+	<li>Run analysis or simulations with a variety of applications on High-Performance Computing (HPC) systems in <a href="https://www.designsafe-ci.org/workspace/" target="_blank">Tools & Applications</a></li>
 	<li>Store your data in the <a href="https://www.designsafe-ci.org/data/" target="_blank">Data Depot</a></li>
 	<li>Collaborate and publish your work with other researchers in <a href="/data/browser/projects/" target="_blank">My Projects</a></li>
 	<li>Access data from other researchers in the <a href="/data/browser/public/" target="_blank">Published</a> directory</li>
@@ -63,17 +63,17 @@ A: Webinars are recorded and made available on our <a href="https://www.youtube.
 ## Data Depot { #faq-datadepot }
 
 <strong>Q: What data can I upload to the Data Depot?</strong><br>
-A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="https://www.designsafe-ci.org/user-guide/curating/#protectedddr" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
+A: There are no restrictions on file types for the data that you upload to the Data Depot. We do have special handling procedures for <a href="/user-guide/curating/bestpractices/#protecteddata" target="_blank">Managing Protected Data</a> such as regulated/secure/PHI/PII/IRB/human-subjects data, so do not upload these data types directly into the Data Depot. All other types of data that you need to perform your research is welcomed and encouraged! 
 
 
 <strong>Q: How can I transfer data to/from my computer and the Data Depot?</strong><br>
-A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#data-transfer-guides" target="_blank">Data Transfer Guides</a> to see our recommended methods based on the amount of data you are transferring. 
+A: Explore the [Data Transfer Guides](/user-guide/managingdata/datatransfer/) to see our recommended methods based on the amount of data you are transferring. 
 
 <strong>Q: What is My Projects?</strong><br>
 A: <a href="/data/browser/projects/" target="_blank">My Projects</a> is a place where you can curate and publish data with other collaborators. Data models are integrated to help you easily curate your data. You do not need to be the PI to create a project, so Experimental Facilities can create projects for their users.
 
 <strong>Q: Can I easily copy data from my Cloud Data Provider (Dropbox, Box, etc)?</strong><br>
-A: Explore the <a href="https://www.designsafe-ci.org/user-guide/managingdata/#cloud" target="_blank">Cloud Storage Transfer</a> user guide to see which providers we currently connect with for direct data transfer.
+A: Explore the [Cloud Storage Transfer](/user-guide/managingdata/datatransfer/#cloud) user guide to see which providers we currently connect with for direct data transfer.
 
 <strong>Q: How do I add Designsafe's Box app to my company's/university's whitelist?</strong><br>
 A: This will require contacting your IT department to make sure your company/university is using a whitelist for Box apps. If they are, give them Designsafe's client id: <i>gh3tntr70zh1lxf3po7y893rkje696zp</i>.
@@ -85,7 +85,7 @@ A: The Published directory in the Data Depot holds the <a href="https://www.desi
 ## Tools & Applications { #faq-workspace }
 
 <strong>Q: I don't see the application I need in the Tools & Applications. How can I use my application?</strong><br>
-A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/submit-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="https://www.designsafe-ci.org/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
+A: There are a couple of different approaches that can be taken. If this is an open source application that is used by many researchers throughout this research community, then we can work with you to determine if it is a candidate to be added to the Tools & Applications in the portal. <a href="https://www.designsafe-ci.org/help/new-ticket/" target="_blank">Please submit a ticket</a> to start the conversation. Another approach is that you could <a href="/user-guide/tools/advanced/hpcallocations" target="_blank">request an allocation</a> on one of TACC's HPC resources, and then you would log directly into the HPC system to run your application. 
 
 <hr>
 ## MATLAB { #faq-matlab }

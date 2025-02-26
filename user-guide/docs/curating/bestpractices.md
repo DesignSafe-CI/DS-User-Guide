@@ -56,16 +56,16 @@ There are different ways to upload data to My Project:
 
 * Do not upload folders and files with special characters in their filenames. In general, keep filenames meaningful but short and without spacing. See file naming convention recommendations in the <a href="#organization">Data Organization and Description</a>
 * Select the Add button, then File upload to begin uploading data from your local machine. You can browse and select files or drag and drop files into the window that appears.  
-* Connect to your favorite cloud storage provider. <a href="../managingdata/#data-depot">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
+* Connect to your favorite cloud storage provider. <a href="/user-guide/managingdata/datatransfer/#cloud">We currently support integration with Box,  Dropbox, and Google Drive.</a> 
 * You can also copy data to and from My Data.  
 * You may consider zipping files for purpses of uploading: however, you should unzip them for curation and publication purposes.  
-* For uploads of files bigger than 2 Gigabytes and or more than 25 files, consider using Globus, CyberDuck and  Command Line Utilities. Explanations on how to use those applications are available in our <a href="../managingdata/#data-transfer-guides">Data Transfer Guide.</a> 
+* For uploads of files bigger than 2 Gigabytes and or more than 25 files, consider using Globus, CyberDuck and  Command Line Utilities. Explanations on how to use those applications are available in our <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide.</a> 
 
-Downloading several individual files via our web interface could be cumbersome, so DesignSafe offers a number of alternatives. First, users may interact with data in the Workspace using any of the available tools and applications without the need to download; for this, users will need a DesignSafe account. Users needing to download a large number of files from a project may also use <a href="../managingdata/#globus">Globus</a>. When feasible, to facilitate data download from their projects users may consider aggregating data into larger files.
+Downloading several individual files via our web interface could be cumbersome, so DesignSafe offers a number of alternatives. First, users may interact with data in the Workspace using any of the available tools and applications without the need to download; for this, users will need a DesignSafe account. Users needing to download a large number of files from a project may also use <a href="/user-guide/managingdata/datatransfer/#globus">Globus</a>. When feasible, to facilitate data download from their projects users may consider aggregating data into larger files.
 
 Be aware that while you may store all of a project files in My Project, you may not need to publish all of them. During curation and publication you will have the option to select a subset of the uploaded files that you wish to publish without the need to delete them. 
 
-More information about the different Workspaces in DesignSafe and how to manage data from one to the other can be found <a href="../managingdata/#data-depot">here</a>.
+More information about the different Workspaces in DesignSafe and how to manage data from one to the other can be found <a href="/user-guide/managingdata/datatransfer/">here</a>.
 
 #### Selecting a Project Type { #selectingprojecttype }
 
@@ -95,7 +95,7 @@ Excel and Matlab are two proprietary file formats highly used in this community.
 
 ##### Compressed Data { #bestpractices-compresseddata }
 
-Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using the extraction <a href="https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1">utility</a> available in the workspace before copying data to My Project for curation and publication.
+Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and understanding the published data. If uploading compressed files to "My Data" , it is possible to unzip it using [the extraction utility available in the workspace](https://www.designsafe-ci.org/workspace/extract){target=_blank} before copying data to My Project for curation and publication.
 
 ##### Simulation Data { #bestpractices-simulationdata }
 
@@ -750,7 +750,7 @@ Depositing your data and associated research project materials in the DDR meets 
 Follow the curation and publication onboarding instructions and steps -documented in the <a href="#curation-publication-guides">Data Curation and Publication Guides</a> - to ensure that your data curation and publication process is smooth and that your public datasets are well organized, complete, and understandable to others.
 
 
-To facilitate long term access to your published data, when possible, we recommend using open file formats. Open file formats facilitate interoperability between datasets and with applications, which in turn facilitates long term access to the datasets. <!-- The Data Curation and Publication Best Practices have information about <a href="/rw/user-guides/curating-publishing-projects/best-practices/">file formats</a> . -->
+To facilitate long term access to your published data, when possible, we recommend using open file formats. Open file formats facilitate interoperability between datasets and with applications, which in turn facilitates long term access to the datasets. <!-- The Data Curation and Publication Best Practices have information about [file formats](/user-guide/curating/bestpractices/#acceptedfileformats). -->
 
 
 DDR data is stored in high performance storage (HPC) resources deployed at the <a href="https://www.tacc.utexas.edu" target="_blank">Texas Advanced Computing Center</a>. These storage resources are reliable, secure, monitored 24/7, and under a rigorous maintenance and update schedule.

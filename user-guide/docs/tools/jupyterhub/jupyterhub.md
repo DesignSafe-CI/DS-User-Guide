@@ -2,7 +2,7 @@
 
 DesignSafe provides you access to the Jupyter ecosystem via its JupyterHub. The most popular component of the Jupyter ecosystem is the Jupyter notebook that allows you to create and share documents (i.e., notebooks) that contain code, equations, visualizations, and narrative text. Jupyter notebooks can be used for many research-related tasks including data cleaning and transformation, numerical simulation, statistical modeling, data visualization, and machine learning.
 
-You can access DesignSafe's JupyterHub via the DesignSafe-CI workspace by selecting "Workspace" &gt; "Tools &amp; Applications" &gt; "Analysis" &gt; "Jupyter" &gt; Select "Jupyter" &gt; "Launch" or directly via <a href="https://jupyter.designsafe-ci.org" target="_blank">https://jupyter.designsafe-ci.org</a>. Upon entry you will be prompted to log in using your DesignSafe credentials.
+You can access DesignSafe's JupyterHub via the DesignSafe-CI workspace by selecting "Workspace" &gt; "Tools &amp; Applications" &gt; "Analysis" &gt; "Jupyter" &gt; Select "Jupyter" &gt; "Launch" or directly via [https://jupyter.designsafe-ci.org](https://jupyter.designsafe-ci.org){target="_blank"}. Upon entry you will be prompted to log in using your DesignSafe credentials.
 
 ### JupyterHub Spawner { #spawner }
 
@@ -73,7 +73,7 @@ Each Jupyter session is served through an Ubuntu-based Docker image and distribu
 
 #### High Performance Computing (HPC) Job Submission through Jupyter { #using-jobs }
 
-For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch the following webinar on leveraging DesignSafe using TAPIS <a href="https://youtu.be/-_1lNWW8CAg" target="_blank">here</a>.
+For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch [this webinar on leveraging DesignSafe using TAPIS](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
 
 ### Installing Packages { #installing }
 
@@ -87,10 +87,58 @@ Ephemoral or temporary user installations of Python packages is the preferrred a
 
 #### Custom User-Defined Kernels { #installing-kernels }
 
-The objective of custom user-defined kernels is to allow users to build, customize, and share entire Python kernels to enable highly-customized Jupyter workflows and greater scientific reproducability. Each kernel includes their own Python interpreter and any number of user-selected Python packages installed via <em>pip</em> or <em>conda</em>. By being able to create and share their Python kernels, resarchers are able to easily create, share, and publish their development enviroments alongside their software avoiding any potential issue related to the environment and the dreaded "It works on my machine" issue.
+The objective of custom user-defined kernels is to allow users to build, customize, and share entire Python kernels to enable highly-customized Jupyter workflows and greater scientific reproducability. Each kernel includes their own Python interpreter and any number of user-selected Python packages installed via <em>pip</em> or <em>conda</em>. By being able to create and share their Python kernels, researchers can easily create, share, and publish their development environments alongside their software, avoiding any potential issues related to the environment and the dreaded "It works on my machine" issue.
 
-User-defined kernels are supported in the Updated Jupyter Image using the <em>kernelutility</em> Python package. To get started you will need to install the <em>kernelutility</em> which you can do using <em>pip</em> (e.g., in Jupyter "!pip install kernelutility", do not forget to restart your notebook after the installation is complete for Python to be able to see the new installation). To start using the <em>kernelutility</em>, run "from kernelutility import kernelset". Importing the kernelset will restore any kernels you created previously and allow you to manage your kernels via Python. The kernelset instance of the KernelSet class has four basic methods: <em>create</em> - that allows you to create new kernels, <em>destroy</em> - that allows you destroy previously created kernels, <em>add</em> - that allows you to add an existing kernel from a specified path by making a local copy, and <em>remove</em> - that allows you to remove a previously added or created kernel. Note that add is similar to destroy except that it does not clean up the kernel's files on disk such that it can be added again later if desired. Once you have created or added a new kernel those will become selectable alongside the base Python 3, Julia, and R kernels in the Launcher tab. Note that you can create as many kernels as you like to manage your various projects and their dependencies on DeisgnSafe. When you shutdown your server your user-defined kernels will not be immediately visible on restart, to activate them all you need to do is open a Jupyter notebook and run "from kernelutility import kernelset". If you do not see your kernels reappear wait a few seconds, refresh your browser, and return to the Launcher tab.
+User-defined kernels are supported in JupyterLab by creating conda environments. These steps are performed using a terminal within the Jupyter Notebook as follows:
 
-<strong>If you have any issues using DesignSafe's JupyterHub, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
+Open a new Terminal in your JupyterLab session (go to New Launcher/Other/Terminal) (see Figure below).
+
+![Launching a terminal on JupyterLab](./imgs/terminal.png)
+Figure 6. Launching a terminal on JupyterLab
+
+Create a directory to store your custom Python environments. For example, by running the code below in the Terminal, you will create the <em>Python_Envs</em> folder in <em>MyData</em>. The second line configures <em>conda</em> in your current session to search this directory and its default directories when listing and creating environments by default.
+
+```bash
+mkdir ~/MyData/Python_Envs
+conda config --add envs_dirs ~/MyData/Python_Envs
+```
+
+Create a new environment using the following command. Replace the word <em>your_environment</em> with the name of your choice:
+
+```bash
+conda create --name your_environment -y -c conda-forge pip python
+conda activate your_environment
+```
+
+Note: You can [create environments with specific versions of Python or specific packages](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html){target="_blank"}.
+
+Install your environment as a jupyter kernel:
+
+```bash
+pip install ipykernel 
+ipython kernel install --user --name=your_environment
+```
+
+Install the packages of your choice using standard <em>pip</em> or <em>conda</em> syntax (see the example below).
+
+```bash
+conda install networkx
+pip install tensorflow
+```
+
+Once you have created or added a new kernel, those will become selectable alongside the base Python 3, Julia, and R kernels in the Launcher tab. You may need to wait a few seconds or refresh the browser to observe the new available kernel. Note that you can create as many kernels as you like to manage your various projects and their dependencies on DesignSafe. 
+
+The Jupyter Session will end after a few days without any activity or when you shut down your server ("File" > "Hub Control Panel" > "Stop My Server" > "Log Out".). In such cases, your user-defined kernels will not be immediately visible on the restart. To enable the custom Python environments, you must re-add this Python environment to your Jupyter kernel spec. For this, open a Terminal (go to New Launcher/Other/Terminal) and run the following commands:
+
+```bash
+conda config --add envs_dirs ~/MyData/Python_Envs 
+conda activate your_environment
+ipython kernel install --user --name=your_environment
+```
+
+If you do not see your kernels reappear, wait a few seconds, refresh your browser, and return to the Launcher tab.
+
+
+**If you have any issues using DesignSafe's JupyterHub, please [create a ticket](https://designsafe-ci.org/help/new-ticket/){target="_blank"}.**
 
 ---

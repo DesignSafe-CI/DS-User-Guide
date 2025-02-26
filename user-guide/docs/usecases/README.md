@@ -1,6 +1,6 @@
 # DesignSafe Use Cases
 
-How to contribute to [DesignSafe Use Cases](https://www.designsafe-ci.org/user-guide/usecases/overview/).
+How to contribute to [DesignSafe Use Cases](https://designsafe-ci.org/user-guide/usecases/overview/).
 
 ## A Guide to Adding Your Use Case Project
 

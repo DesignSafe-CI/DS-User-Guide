@@ -12,7 +12,7 @@ Jupyter notebook for visualization of spatially distributed data in risk and res
 _Keywords: visualization; risk and resilience; infrastructure systems; static, interactive, and animated maps and figures, effective communication_
 
 ### Resources
- 
+
 #### Jupyter Notebooks
 The following Jupyter notebook is the basis for the use case described in this section. You can access and run it directly on DesignSafe by clicking on the "Open in DesignSafe" button.
 
@@ -25,7 +25,7 @@ The following Jupyter notebook is the basis for the use case described in this s
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){:target="_blank"}
+* [Jupyter Notebook on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){:target="_blank"}
 
 ### Background
 
@@ -52,7 +52,7 @@ This use case adopts a representative hazard and distributed infrastructure syst
 
 To start working with this use case, open the Jupyter Notebook on the published project using the button below (*same notebook as above*). 
 
-[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/user/silvia/lab/workspaces/auto-k/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)
+[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)
 
 It may be necessary to click on "Run">"Run All Cells" to allow the visualization of some of the interactive figures. Note: Some cells are used to save figures, which will present an error because the published notebook is in a "Read Only" folder. To run these specific cells or save customized figures, copy the notebook and the input files to your "My Data" folder, as explained below.
 
@@ -101,7 +101,7 @@ These interactive maps are useful in situations when data visualization is not f
 
 In this use case, damage state exceedance probabilities are obtained for each bridge (i.e., considered as an outcome of applying fragility models to the hazard scenario). An example of this output is presented in the ‘bridge_result.csv’ file for one hazard scenario. In this file format, damage state exceedance probabilities $\mathbb{P}(DS \geq ds_i)$ are named as "$LS_i$", for $i=1,…,4$; similarly, probabilities of being in a damage state $\mathbb{P}(DS = ds_i)$ are named as "$DS_i$", for $i=1,…,4$. For such cases, there may be interest in visualizing the spatial distribution of damage to infrastructure components. 
 
-Here, interactive Python libraries are used to visualize and inspect fine information on the different components that comprise the map, such as bridge location, basic information, and damage condition (see [Figure 3](#Fig3)). These interactive functionalities are integrated using Python libraries such as Plotly and Folium; these allow the user to pan over the different geospatially distributed systems and inspect the region or assets of interest. Also, these enable the user to construct icon objects that display data of interest (e.g. the ‘construction year’ and the ‘exceeding probability of damage state 3’ in [Figure 3a](#Fig3)) when hovering over the bridge locations. If additional data is also important to display (e.g. hazard intensity, link, or bridge IDs, among others), ‘pop-up’ functionalities can be used to present this information when the user clicks on a particular object (shown in [Figure 3b](#Fig3)). 
+Here, interactive Python libraries are used to visualize and inspect fine information on the different components that comprise the map, such as bridge location, basic information, and damage condition (see [Figure 3](#Fig3)). These interactive functionalities are integrated using Python libraries such as Plotly and Folium; these allow the user to pan over the different geospatially distributed systems and inspect the region or assets of interest. Also, these enable the user to construct icon objects that display data of interest (e.g., the ‘construction year’ and the ‘exceeding probability of damage state 3’ in [Figure 3a](#Fig3)) when hovering over the bridge locations. If additional data is also important to display (e.g., hazard intensity, link, or bridge IDs, among others), ‘pop-up’ functionalities can be used to present this information when the user clicks on a particular object (shown in [Figure 3b](#Fig3)). 
 
 As shown in this use case, interactive maps can be enhanced by handling the icons, points, and link characteristics such as type, icon figure, color, etc. [Figure 3](#Fig3) presents the bridge condition using a common color coding related to post-hazard tagging. Red tag is used here when $\mathbb{P}(DS≥ds_3 )≥0.15$, yellow tag is used if $0.05≤\mathbb{P}(DS≥ds_3 )<0.15$, and green tag is used if $\mathbb{P}(DS≥ds_3)<0.05$; note that these limits have been arbitrarily selected for display purposes. Moreover, objects such as legends and color bars can be easily included in such interactive maps to add additional layers of information. Given the possibility of presenting the data "online", these are very useful tools for communication with stakeholders, inspection teams, or simply for data analysis during damage simulation or recovery processes.
 

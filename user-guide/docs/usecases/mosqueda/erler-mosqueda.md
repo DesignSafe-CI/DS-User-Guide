@@ -25,7 +25,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)<br/>
+* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter)<br/>
 
 #### Additional Resources
 * Jupyter Notebook and Python scripts on [GitHub](https://github.com/Kaylaerler/Structural-Insights-with-ML)
