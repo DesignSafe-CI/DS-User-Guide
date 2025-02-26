@@ -121,7 +121,7 @@ To access your data on DesignSafe
 * For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
 * For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
 * For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
-* For <strong>Community Data</strong> set Path to <strong>/corral/projects/NHERI/community&gt;/</strong>
+* For <strong>Community Data</strong> set Path to <strong>/corral/projects/NHERI/community/</strong>
 
 For more information on path selection please see the detailed guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
 
