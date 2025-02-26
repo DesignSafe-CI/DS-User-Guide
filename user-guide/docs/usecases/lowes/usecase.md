@@ -84,7 +84,7 @@ The modeling script is broken up into 2 notebooks, the first notebook imports th
 The matlab to python script can be found here: [Matlab_to_Python.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Matlab_to_Python.ipynb){:target="_blank"} 
 The jupyter notebook that creates the OpenSees input file can be found here: [TCL_Script_Creator.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/TCL_Script_Creator.ipynb){:target="_blank"} 
 
-#### Reinforced Concrete Wall Database   
+#### Reinforced Concrete Wall Database
 
 Each wall in the database has a number corresponding to its unique ID. This number will be the single input to the modeling script to create the script. The use case will loop through multiple numbers to create multiple files at once and run them through opensees. Variables are separated in the database by sections. For example, under the section 'Geometry', one can find the heights of the walls, the thickness of walls, the aspect ratios, and so on. By parsing through these sections, the necessary information can found and imported into the modeling script to build out the wall.
 
@@ -197,7 +197,7 @@ The Load-Displacement script compares the experimental cyclic load history to th
 
 #### Cross Sectional Analysis of Concrete and Steel
 
-The cross sectional script shows stress and strain output across the cross section of the first level for the concrete and steel at various points corresponding with the positive displacement peaks.  This script can be found here: [CrossSectionSteelConcreteProfile.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QUOFEM){:target="_blank"}   
+The cross sectional script shows stress and strain output across the cross section of the first level for the concrete and steel at various points corresponding with the positive displacement peaks.  This script can be found here: [CrossSectionSteelConcreteProfile.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/QUOFEM){:target="_blank"}
 
 ![SchematicView](img/cs1.JPG)  
 
