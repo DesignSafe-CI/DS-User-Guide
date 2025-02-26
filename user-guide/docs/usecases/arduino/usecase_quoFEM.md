@@ -76,7 +76,7 @@ app = ag.apps.get(appId=app_id)
 
 Post-processing of results is specific to the problem being solved and can be achieved using Python to access output data stored in archived files. For this purpose it is important to identify the location of data files. This is explained [here](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb). 
 
-Displaying a quoFEM job workflow is useful for understanding the data and steps followed in the workflow. These include: simulation tools, input variables, UQ methods used, and remote directories/folders. An schematic of a typical quoFEM workflow is shown in Fig. 3. 
+Displaying a quoFEM job workflow is useful for understanding the data and steps followed in the workflow. These include: simulation tools, input variables, UQ methods used, and remote directories/folders. An schematic of a typical quoFEM workflow is shown in Fig. 3.
 
 ![quoFEM workflow](img/UC2-Arduino-3.png "quoFEM workflow")
 <p style="text-align: center;"> Fig.3 - Elements of quoFEM workflow (only relevant elements for launching notebook from JupyterHub </p>
@@ -96,12 +96,12 @@ IPython.display.JSON(jsonInfo)
 To modify the workflow, the user can either manually change the workflow files within the tmp.SimCenter folder or regenerate the workflow using quoFEM. Regenerating the workflow using quoFEM is the preferred approach, as the quoFEM desktop is specifically designed to facilitate workflow creation. On the other hand, Jupyter notebooks offer more flexibility in terms of post-processing, generating plots, and manipulating data.
 
 
-### Step 1 – Global Sensitivity Analysis 
+### Step 1 – Global Sensitivity Analysis
 
 [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/GlobalSensitivity/quoFEM-Sensitivity.ipynb)
 
 
-The PM4Sand constitutive model has 24 parameters. Among them, apparent relative density *Dr*, shear modulus coefficient *Go*, and contraction rate parameter *hpo*, are known to be important for predicting liquefaction responses [2]. Therefore, these three parameters *theta = {Dr, Go, hpo}* are considered in the UQ analyses and their prior distributions are assumed to be uniform distributions with the ranges shown in Table 1. These prior distributions shall capture a plausible wide range that includes all possible parameter values for the target soils. The experimental data will be used to constrain this wide range to the domain that best describes the behavior exhibited by the specimen during the experiments. 
+The PM4Sand constitutive model has 24 parameters. Among them, apparent relative density *Dr*, shear modulus coefficient *Go*, and contraction rate parameter *hpo*, are known to be important for predicting liquefaction responses [2]. Therefore, these three parameters *theta = {Dr, Go, hpo}* are considered in the UQ analyses and their prior distributions are assumed to be uniform distributions with the ranges shown in Table 1. These prior distributions shall capture a plausible wide range that includes all possible parameter values for the target soils. The experimental data will be used to constrain this wide range to the domain that best describes the behavior exhibited by the specimen during the experiments.
 
 <p align="center"><b>Table 1. - Prior distributions of PM4Sand parameter</b> </p>
 
@@ -223,7 +223,7 @@ test experimental data</b> </p>
 <p style="text-align: center;"> Fig.7 - Comparison of calibrated model predictions and experimental data </p>
 
 
-Figure 7 compares the experimental data with the calibrated model predictions of the load-cycle counts, while Fig. 8 shows the calibrated parameter sample from the joint posterior distribution. Figure 8 shows that uncertainty in all variables is reduced by calibrating to the observed data, but the reduction was most apparent in *Dr*. This is in line with our expectations from the earlier sensitivity analysis. The results also highlight a strong dependency between *Dr* and *hpo*, indicating that multiple combinations of *Dr* and *hpo* produce near-optimal solutions. None of these features are captured by a deterministic estimator that results from a conventional error-minimizing optimization approach (e.g., red diamond marker shown in the same figure). It is also important to recognize that a non-negligible amount of uncertainty remains in the parameter estimates, and this produces substantial uncertainty in the model predictions. The dark blue bounds in Fig. 7 show the level of uncertainty in the estimated number of cycles to liquefaction, but this simulation model was prepared to reproduce the experimental setup. When the calibrated constitutive model is applied in another simulation, the responses can exhibit different scales of uncertainties. 
+Figure 7 compares the experimental data with the calibrated model predictions of the load-cycle counts, while Fig. 8 shows the calibrated parameter sample from the joint posterior distribution. Figure 8 shows that uncertainty in all variables is reduced by calibrating to the observed data, but the reduction was most apparent in *Dr*. This is in line with our expectations from the earlier sensitivity analysis. The results also highlight a strong dependency between *Dr* and *hpo*, indicating that multiple combinations of *Dr* and *hpo* produce near-optimal solutions. None of these features are captured by a deterministic estimator that results from a conventional error-minimizing optimization approach (e.g., red diamond marker shown in the same figure). It is also important to recognize that a non-negligible amount of uncertainty remains in the parameter estimates, and this produces substantial uncertainty in the model predictions. The dark blue bounds in Fig. 7 show the level of uncertainty in the estimated number of cycles to liquefaction, but this simulation model was prepared to reproduce the experimental setup. When the calibrated constitutive model is applied in another simulation, the responses can exhibit different scales of uncertainties.
 
 ![Forward propagation-1](img/UC2-Arduino-8.png "Forward propagation-1")
 <p style="text-align: center;"> Fig.8 - PM4Sand model parameters sampled from the joint posterior distribution</p>
@@ -235,7 +235,7 @@ Figure 7 compares the experimental data with the calibrated model predictions of
 
 A forward propagation analysis is helpful to characterize uncertainties in a simulation model. For this purpose it is good practice to run such an analysis and characterize the effect of uncertainties on application-specific quantities of interest before practically applying these parameter values in a simulation for decision making.
 
-The obtained samples of the soil parameters in Fig. 8 are used to predict the uncertainty in the lateral spreading response of a site subjected to an earthquake (Loma Prieta Gilroy Array #2) with peak ground acceleration of 0.37 g. The soil column model shown in Fig. 9 is introduced in which the liquefiable layer in the middle is modeled using PM4Sand and the other parts are assumed to remain elastic throughout the shaking. 
+The obtained samples of the soil parameters in Fig. 8 are used to predict the uncertainty in the lateral spreading response of a site subjected to an earthquake (Loma Prieta Gilroy Array #2) with peak ground acceleration of 0.37 g. The soil column model shown in Fig. 9 is introduced in which the liquefiable layer in the middle is modeled using PM4Sand and the other parts are assumed to remain elastic throughout the shaking.
 
 
 ![Forward propagation-2](img/UC2-Arduino-9.png "Forward propagation-2")
@@ -270,6 +270,6 @@ https://doi.org/10.17603/ds2-eahz-9466. Accessed 28 June 2021.
 
 * Please cite [Sang-Ri Yi et al. (2022)](https://doi.org/10.1007/978-3-031-30125-4_6) to acknowledge the use of resources from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246) to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246) to acknowledge the use of DesignSafe resources.
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).  

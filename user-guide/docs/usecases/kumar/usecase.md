@@ -7,13 +7,13 @@ Material Point Method for Landslide Modeling
 ///
 
 **Material Point Method for Landslide Modeling**   
-**Krishna Kumar - University of Texas at Austin**  
+**Krishna Kumar - University of Texas at Austin**
 
 The example makes use of the following DesignSafe resources:
 
 [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter){target=_blank}<br/>
 [CB-Geo MPM](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/mpm){target=_blank}<br/> 
-[ParaView](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/paraview){target=_blank}<br/> 
+[ParaView](https://www.designsafe-ci.org/use-designsafe/tools-applications/visualization/paraview){target=_blank}<br/>
 
 ### Background 
 #### Citation and Licensing
@@ -25,7 +25,7 @@ The example makes use of the following DesignSafe resources:
 
 
 #### Description
-Material Point Method (MPM) is a particle based method that represents the material as a collection of material points, and their deformations are determined by Newton’s laws of motion. The MPM is a hybrid Eulerian-Lagrangian approach, which uses moving material points and computational nodes on a background mesh. This approach is very effective particularly in the context of large deformations. 
+Material Point Method (MPM) is a particle based method that represents the material as a collection of material points, and their deformations are determined by Newton’s laws of motion. The MPM is a hybrid Eulerian-Lagrangian approach, which uses moving material points and computational nodes on a background mesh. This approach is very effective particularly in the context of large deformations.
 
 ![MPM Algorithm](img/mpm-algorithm.png)
 > Illustration of the MPM algorithm (1) A representation of material points overlaid on a computational grid. Arrows represent material point state vectors (mass, volume, velocity, etc.) being projected to the nodes of the computational grid. (2) The equations of motion are solved onto the nodes, resulting in updated nodal velocities and positions. (3) The updated nodal kinematics are interpolated back to the material points. (4) The state of the material points is updated, and the computational grid is reset.
@@ -99,10 +99,10 @@ sim.add_custom_parameters({"lower_particles": lower_particles,
 sim.write_input_file()
 ```
 
-This creates in the working directory a folder `Two_materials_column` where all the necessary input files are located. 
+This creates in the working directory a folder `Two_materials_column` where all the necessary input files are located.
 
 ### Running the MPM Code
-The CB-Geo MPM code is available on DesignSafe under `WorkSpace > Tools & Applications > Simulations`. [Launch a new MPM Job.](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/mpm){target=_blank} The input folder should have all the scripts, mesh and particle files. CB-Geo MPM can run on multi-nodes and has been tested to run on upto 15,000 cores. 
+The CB-Geo MPM code is available on DesignSafe under `WorkSpace > Tools & Applications > Simulations`. [Launch a new MPM Job.](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/mpm){target=_blank} The input folder should have all the scripts, mesh and particle files. CB-Geo MPM can run on multi-nodes and has been tested to run on upto 15,000 cores.
 
 ![Run MPM on DS](img/mpm-ds.png)
 
@@ -129,7 +129,7 @@ The MPM code can be set to write VTK data of particles at a specified output fre
 > When opening particle data (*.vtp) in [ParaView](https://www.paraview.org/){target=_blank}, please use the representation `Point Gaussian` to visualise the particle data attribute.
 
 
-The CB-Geo MPM code generates parallel `*.pvtp` files when the code is executed across MPI ranks. Each MPI rank will produce an attribute subdomain files, for example `stresses-0_2-100.vtp` and `stresses-1_2-100.vtp` file for stresses generated in rank 0 of 2 rank MPI processes and also a parallel `pvtp` file `stresses-100.pvtp`. The parallel `*.pvtp` file combines all the VTK outputs from different MPI ranks. 
+The CB-Geo MPM code generates parallel `*.pvtp` files when the code is executed across MPI ranks. Each MPI rank will produce an attribute subdomain files, for example `stresses-0_2-100.vtp` and `stresses-1_2-100.vtp` file for stresses generated in rank 0 of 2 rank MPI processes and also a parallel `pvtp` file `stresses-100.pvtp`. The parallel `*.pvtp` file combines all the VTK outputs from different MPI ranks.
 
 > Use the `*.pvtp` files for visualizing results from a distributed simulation. No need to load individual subdomain `*.vtp` when visualizing results from the MPI tasks.
 

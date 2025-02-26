@@ -3,7 +3,7 @@
 **Jupyter Notebook for Database-Enabled Design Module for High-Rise Buildings**
 
 **Dae Kun Kwon - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/) & [Center for Research Computing (CRC)](https://crc.nd.edu/), University of Notre Dame**  
-**Ahsan Kareem - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/), University of Notre Dame**  
+**Ahsan Kareem - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/), University of Notre Dame**
 
 Key Words: Database-enabled design, High-rise buildings, Wind loads, Wind response
 

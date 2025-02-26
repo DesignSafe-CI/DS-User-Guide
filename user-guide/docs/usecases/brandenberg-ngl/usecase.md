@@ -4,11 +4,11 @@
 
 Next Generation Liquefaction (NGL) Database Jupyter Notebooks
 
-/// 
+///
 
 **Brandenberg, S.J. - UCLA**<br/>
 **Ulmer, K.J. - Southwest Research Institute**<br/>
-**Zimmaro, P. - University of Calabria**  
+**Zimmaro, P. - University of Calabria**
 
 The example makes use of the following DesignSafe resources:
 
@@ -20,9 +20,9 @@ The example makes use of the following DesignSafe resources:
 
 * Please cite [Zimmaro, P., et al. (2019)](https://doi.org/10.21222/C2J040){target=_blank} to acknowledge the use of the NGL Database. Data in the NGL database has been gathered from [these](https://nextgenerationliquefaction.org/citations.php){target=_blank} published sources. If you use specific data in the database, please cite the original source.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
 
 
 #### Description  

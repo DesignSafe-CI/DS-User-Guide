@@ -7,12 +7,12 @@ Integrated Workflow of Experiments using Jupyter Notebooks: *From Experimental D
 ///
 
 **Enrique Simbort - University of California, San Diego** <br>
-**Gilberto Mosqueda - University of California, San Diego**  
+**Gilberto Mosqueda - University of California, San Diego**
 
 _Keywords: Jupyter, Interactive Data Analysis, UCSD NHERI Facility_
 
 
-Jupyter Notebooks can provide fully integrated workflows of experiments from documentation of experimental design through analysis and publishing of data using the DesignSafe cyberinfrastructure. A series of Notebooks are being developed to demonstrate their use in the experimental workflow including notebooks showing how to view and analyzed past published data and data from testing of a reconfigurable, modular test bed building planned to be tested on the NHERI@UC San Diego Experimental Facility. The Python-based code is implemented in a modular fashion so that components can be used as desired in other experiments and are transferable to other experimental facilities. In the examples provided, the Notebook can be used to evaluate shake table performance as well as dynamic properties of the structure. A key functionality is to increase the integration and collaboration between researchers at local or remote sites to view and analyze the experimental data during and after testing including after the data is published. As Notebooks are developed to view experimental data by the research team, they can also be published with the data allowing other researchers to quickly view the data for promoting data reuse. Examples are providing for viewing data from past shake table experiments including NEES and more current NHERI data repositories.  
+Jupyter Notebooks can provide fully integrated workflows of experiments from documentation of experimental design through analysis and publishing of data using the DesignSafe cyberinfrastructure. A series of Notebooks are being developed to demonstrate their use in the experimental workflow including notebooks showing how to view and analyzed past published data and data from testing of a reconfigurable, modular test bed building planned to be tested on the NHERI@UC San Diego Experimental Facility. The Python-based code is implemented in a modular fashion so that components can be used as desired in other experiments and are transferable to other experimental facilities. In the examples provided, the Notebook can be used to evaluate shake table performance as well as dynamic properties of the structure. A key functionality is to increase the integration and collaboration between researchers at local or remote sites to view and analyze the experimental data during and after testing including after the data is published. As Notebooks are developed to view experimental data by the research team, they can also be published with the data allowing other researchers to quickly view the data for promoting data reuse. Examples are providing for viewing data from past shake table experiments including NEES and more current NHERI data repositories.
 
 ### Resources
  
@@ -29,7 +29,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target="_blank"} <br/> 
+* [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target="_blank"} <br/>
 
 
 ### Background 
@@ -45,7 +45,7 @@ As the cyberinfrastructure for The Natural Hazard Engineering Research Infrastru
 
 This use case includes a series of Jupyter Notebooks aimed to serve as a learning tool for viewing and analyzing data from shake table experiments including:
 
-1.	The first module examines the performance of Hybrid Simulation Experiments conducted on the 1D Large High Performance Outdoor Shake table at UC San Diego with the data published in DesignSafe by [Vega et al. (2018)](https://doi.org/10.17603/DS2C687){:target="_blank"} . This module focuses on the response of the shake table including tools to compare different signals. Data extraction and processing of measured sensor data includes comparison of time history signals, comparison of signals in the frequency domain using FFT and comparison of response spectra that show for example target and measured table response.  
+1.	The first module examines the performance of Hybrid Simulation Experiments conducted on the 1D Large High Performance Outdoor Shake table at UC San Diego with the data published in DesignSafe by [Vega et al. (2018)](https://doi.org/10.17603/DS2C687){:target="_blank"} . This module focuses on the response of the shake table including tools to compare different signals. Data extraction and processing of measured sensor data includes comparison of time history signals, comparison of signals in the frequency domain using FFT and comparison of response spectra that show for example target and measured table response.
 
 2.	The second module examines the use of Jupyter Notebooks including Python libraries for structural response and system identification. In this case data from a past NEES experiment conducted by [Mosqueda et al. (2017)](https://www.buffalo.edu/mceer/catalog.host.html/content/shared/www/mceer/publications/MCEER-13-0003.detail.html){:target="_blank"}  of three-story moment frame structure is examined. The data published in DataDepot under as a NEES project. Using selected sensors at each story of the structure and white noise excitation, the frequencies and mode shapes of the structure are identified. The processing tools rely on existing libraries in Python demonstrating the wealth of access to subroutine that can be applied for analysis.
 
@@ -85,7 +85,7 @@ Figure 3. Mode shapes estimation from 3-story building subjected to white noise 
 
 * [Jupyter Notebook for experimental workflow](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%203%3A%20Experimental%20Workflow.ipynb){:target="_blank"} 
 
-The primary goal of this module is to develop the Jupyter Notebooks through the experimental program.  The experiments are in planning and thus, this module would be programmed based on draft instrumentation plans. This module will plot the primary structural response such as story accelerations and drifts as well as employ system identification routines available in Python and previously demonstrated.  Current work is exploring use of machine learning libraries for applications to these modules.  
+The primary goal of this module is to develop the Jupyter Notebooks through the experimental program.  The experiments are in planning and thus, this module would be programmed based on draft instrumentation plans. This module will plot the primary structural response such as story accelerations and drifts as well as employ system identification routines available in Python and previously demonstrated.  Current work is exploring use of machine learning libraries for applications to these modules.
 
 The Modular Testbed Building (MTB2), described in Morano et al. (2021), is designed to be a shared-use, reconfigurable experimental structure. The standard 3-story building can simulate braced frame and moment frame behavior through replaceable fuse type components including buckling restrained braced frames and Durafuse shear plate connections, respectively. The unique connection scheme allows for yielded fuse type members to be easily replaced to restore the structure to its original condition. The MTB2 can be constructed in various configurations with three examples shown in Fig 4. The lateral framing system in the 2-bay direction can be modeled as moment frames or braced frames. The single bay direction has a span of 20 feet and is a braced frame. Each span in the double bay direction is 16 feet. The story height for all floors is 12 feet with columns that extend 4 feet above the top floor.  The Special Moment Frame (SMF) configuration utilizes replaceable shear fuse plates while the braced frame utilizes Buckling-Restrained Braces.
 
@@ -94,7 +94,7 @@ The Modular Testbed Building (MTB2), described in Morano et al. (2021), is desig
 Figure 4.   MTB2 building: a) SMF configuration (left), b) BRB-1 configuration (center), and c) BRB-2 configuration (right).
 
 ### Summary
-The Jupyter Notebooks developed for use through DesignSafe will facilitate the viewing and analysis of data sharing with collaborators from testing through data publication. A key advantage is the cloud-based approach that facilitates interactive data viewing and analysis in a report format without having to download large datasets. These tools are intended to make data more readily accessible and promote data reuse. The Jupyter Notebook presented here includes routines to evaluate the performance of the shake table and carry out system identification of structural models. 
+The Jupyter Notebooks developed for use through DesignSafe will facilitate the viewing and analysis of data sharing with collaborators from testing through data publication. A key advantage is the cloud-based approach that facilitates interactive data viewing and analysis in a report format without having to download large datasets. These tools are intended to make data more readily accessible and promote data reuse. The Jupyter Notebook presented here includes routines to evaluate the performance of the shake table and carry out system identification of structural models.
 
 #### References
 
