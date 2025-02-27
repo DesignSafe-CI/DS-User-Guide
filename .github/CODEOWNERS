@@ -15,11 +15,11 @@
 /user-guide/docs/tools/simulation/openseesOld/ @silviamazzoni
 
 # ADCIRC
-/user-guide/docs/tools/simulation/adcirc.md @cdelcastillo21
-/user-guide/docs/tools/simulation/adcirc/   @cdelcastillo21
+# /user-guide/docs/tools/simulation/adcirc.md @cdelcastillo21
+# /user-guide/docs/tools/simulation/adcirc/   @cdelcastillo21
 
 # Arduino
-/user-guide/docs/usecases/arduino/ @parduino
+# /user-guide/docs/usecases/arduino/ @parduino
 
 # static assets
 *.js  @wesleyboar
