@@ -21,9 +21,6 @@
 # Arduino
 /user-guide/docs/usecases/arduino/ @parduino
 
-# Use Cases
-/user-guide/docs/usecases/ @silviamazzoni
-
 # static assets
 *.js  @wesleyboar
 js/   @wesleyboar
