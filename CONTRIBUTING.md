@@ -20,7 +20,7 @@ How to Contribute **Other Changes**:
     <sup>([upload images](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) as necessary)</sup>
 4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.\
     <sup>(write [clear commit messages](#writing-commit-messages))</sup>
-5. [Test](#testing) your changes.\
+5. [Test](./TESTING.md) your changes.\
     <sup>(if comfortable using a command prompt)</sup>
 6. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
     <sup>(a.k.a. create a "Pull Request")</sup>
