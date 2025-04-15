@@ -65,13 +65,13 @@ nav:
       - Recon Portal User Guide: tools/recon.md
 
   - Tools and Apps:
-    - Analysis Applications: analysis.md
+    - Analysis Apps: analysis.md
     - Jupyter: tools/jupyterhub.md
     - Hazard Apps: tools/hazard.md
     - Utility Apps: tools/utilities.md
-    - Visualization Applications: tools/visualization.md
+    - Visualization Apps: tools/visualization.md
 
-  - Simulation Applications:
+  - Simulation Apps:
     - Overview: tools/simulation/overview.md
     - ADCIRC: tools/simulation/adcirc/adcirc.md
     - Ansys: tools/simulation/ansys.md

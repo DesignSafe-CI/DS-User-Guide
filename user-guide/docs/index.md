@@ -41,7 +41,7 @@ A DesignSafe account is a TACC user account, so you will sometimes see emails fr
 
 **Tools and Apps**: This section contains user guides for how to utilize our many offerings in data analytics, GIS and mapping, visualization, and our Jupyter Hub interacting with the data you bring to DesignSafe or that you discover in our Published datasets.
 
-**Simulation Applications**: We host a wide array of open source and licensed software applications commonly used in natural hazards research.
+**Simulation Apps**: We host a wide array of open source and licensed software applications commonly used in natural hazards research.
 
 **Use Cases**: To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research. Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below. The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
