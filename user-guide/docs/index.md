@@ -50,7 +50,7 @@ You will be redirected to the Onboarding Setup page, and you will then want to c
 
 ## Request Allocations { #requestallocations }
 
-Request Allocations to Use the HPC-enabled Tools & Apps
+Request Allocations to Use the HPC-Enabled Tools & Apps
 
 ///
 
