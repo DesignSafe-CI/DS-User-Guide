@@ -96,7 +96,7 @@ The SCEC Broadband Platform is a software system that can generate 0-100 Hz seis
 
 More can be found on the <a href="https://www.scec.org/" title="SCEC Website" target="_blank">SCEC website</a>.
 
-### How to Start a SCEC BBP Ground Motion Portal Interactive Jupyter Notebook Session in the Workspace { #scec-start }
+#### How to Start a SCEC BBP Ground Motion Portal Interactive Jupyter Notebook Session in the Workspace { #scec-start }
 
 <ul>
 	<li>Select the SCEC BBP Ground Motion Portal application from the Partner Data Apps tab in the Workspace.</li>
