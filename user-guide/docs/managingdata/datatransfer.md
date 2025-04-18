@@ -511,7 +511,6 @@ Return to the Box.com section of the Data Depot. You can now copy files to and f
 
 Login to DesignSafe and go to Use DesignSafe &gt; Data Depot &gt; Dropbox.com.
 
-Click here to connect to your Dropbox account.
 
 ![Dropbox Begin](./imgs/cloudstorage-drop-1.png)
 
