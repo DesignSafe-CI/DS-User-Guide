@@ -2,23 +2,9 @@
 
 DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.
 
-<style>
-.grid {
-  display: grid;
-  gap: var(--global-space--grid-gap);
-  grid-template-columns: 1fr 1fr;
-}
-/* HACK: Remove space from top of section */
-/* NOTE: Not necessary if section head a header as is expected */
-/* https://github.com/TACC/TACC-Docs/blob/f2e80b4/docs/index.md?plain=1#L107-L109 */
-.grid > div[style] > p:first-child {
-  margin-top: 0;
-}
-</style>
-
 /// html | section.section--muted
 //// html | div.grid
-///// html | div[style="grid-column: span 2"]
+///// html | div.grid__header
 
 To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided for each Use Case.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
