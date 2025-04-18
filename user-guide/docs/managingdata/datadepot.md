@@ -4,11 +4,11 @@
 
 ![Figure 1. Data Depot](./imgs/datadepotfigure.jpg)
 
-Figure 1. Data Depot "My Data" screenshot 
+Figure 1. Data Depot "My Data" screenshot
 
-The Data Depot provides a user interface with a familiar desktop metaphor for manipulating files. The UI for a typical Data Depot window is shown in Figure 1 above. On the left is your directory tree (My Data, etc), and on the right are the files and folders within the currently selected directory. Folders can be navigated simply by clicking on the name of the folders. Clicking on the name of a file will pop up a preview of the file. 
+The Data Depot provides a user interface with a familiar desktop metaphor for manipulating files. The UI for a typical Data Depot window is shown in Figure 1 above. On the left is your directory tree (My Data, etc), and on the right are the files and folders within the currently selected directory. Folders can be navigated simply by clicking on the name of the folders. Clicking on the name of a file will pop up a preview of the file.
 
-The Data Depot is searchable using the "Find in <DirectoryName>" search box  (The global website search box "Search DesignSafe" is above and to the right). 
+The Data Depot is searchable using the "Find in <DirectoryName>" search box  (The global website search box "Search DesignSafe" is above and to the right).
 
 Alongside the search, buttons are available for a number of file and folder actions. The Rename, Move, Copy, Download, etc. actions all behave as one would expect.
 

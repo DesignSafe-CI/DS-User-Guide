@@ -19,7 +19,7 @@
 
 The usual workflow of running `adcprep` consists of two steps - (1) partitioning of the mesh into sub-domains that each core will work on. (2) Decomposing other input files over the partitioned mesh.
 
-Note that running `adcprep` alone with no command line options will bring up an interactive menu. 
+Note that running `adcprep` alone with no command line options will bring up an interactive menu.
 
 Common `adcprep` options used include:
 

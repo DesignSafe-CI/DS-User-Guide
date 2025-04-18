@@ -5,11 +5,19 @@
 
 ### A. Via Python
 
-0. Have [Python](https://www.python.org/) installed.\
+#### Prerequisites
+
+- Have [Python](https://www.python.org/) installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/TACC/TACC-Docs/blob/v0.10.1/pyproject.toml#L9).</sup>
-1. [Install Poetry](https://python-poetry.org/docs/#installation) to manage dependencies.\
-    <sup>You should only need to do this once.</sup>
-2. Navigate into your clone of this repo.
+- Have [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) installed to manage dependencies.\
+    <sup>You should only need to do this once.</sup>\
+    <sup>Future versions of DesignSafe User Guide will **not** require this.</sup>
+
+#### Steps
+
+0. Clone this repository onto your machine.
+1. Navigate into your clone of this repo.
+2. Run `bin/tacc-setup.sh` to reproduce files from TACC Docs.
 3. Install/Update project dependencies:\
     <sup>You should only need to do this after new releases.</sup>
     ```shell
@@ -29,8 +37,14 @@
 
 ### B. Via Docker
 
-0. Have [Docker](https://www.docker.com/) installed.\
+#### Prerequisites
+
+- Have [Docker](https://www.docker.com/) installed.\
     <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
+
+#### Steps
+
+0. Clone this repository onto your machine.
 1. Navigate into your clone of this repository.
 2. Start the Docker container to serve the docs.
 
