@@ -53,7 +53,7 @@ Typing a few Python lines is usually enough for a user to define all necessary i
  - setup batch of simulations (the documentation doesn't mention it yet but the function `pycbg.preprocessing.setup_batch` has a complete docstring)
 
 
-#### An example 
+#### An example
 
 Simulation of a settling column made with two different materials is described in [preprocess.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/MPM){target=_blank} as follows:
 

@@ -28,7 +28,7 @@ We define a large data transfer here as any file transfer that is  &gt; 2GB, or 
 
 	See the <a href="#cli">Command-Line Data Transfer Guide</a> for instructions.
 
-#### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer } 
+#### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer }
 
 We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
 
@@ -359,7 +359,7 @@ An entire directory can be synced from your local system to the remote server by
 
 where <strong>-avtr</strong> will transfer the files recursively <em><strong>-r</strong></em>,  with the modification times <em><strong>-t</strong></em>, in the archive mode <em><strong>-a</strong></em>, and verbosely <em><strong>-v </strong></em>and all other terms defined previously.
 
- 
+
 
 For help execute:
 

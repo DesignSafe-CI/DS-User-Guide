@@ -53,14 +53,14 @@ The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a
 
 #### Setup job description
 
-A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (matlab), version (xxx), and matlab input script to run. For this particular use case the *matlab-2022a-VM-1.0.0* app is selected. The main steps required to setup an agave job are: 
+A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (matlab), version (xxx), and matlab input script to run. For this particular use case the *matlab-2022a-VM-1.0.0* app is selected. The main steps required to setup an agave job are:
 
 1. importing agave/tapis, 
 2. getting the specific app of interest,
 3. defining control variables, parameters and inputs, and
-4. encapsulating all data in a *job_description* array 
+4. encapsulating all data in a *job_description* array
 
-The python code shown below exemplifies these steps. The complete set of commands is available in the notebook. The *job_description* array includes all the information required to submit the job. 
+The python code shown below exemplifies these steps. The complete set of commands is available in the notebook. The *job_description* array includes all the information required to submit the job.
 
 To receive an alert once a job is complete, users can add their email address to the notification field. This will ensure that they are promptly informed when the job has finished executing.
 
@@ -168,9 +168,9 @@ os.chdir(cur_dir_name)
 
 Once in the archived folder (cur_dir_name), postprocessing can be done using python scripts that operate on output files. For the particualar matlab example presented in this use case two scripts are used to evaluate:
 1. Time histories of acceleartion, velocity and displacement for any selected motion.  
-2. Response spectra for all motions. 
+2. Response spectra for all motions.
 
-The python code and figures shown below exemplify these steps. All python codes are available in the notebook. 
+The python code and figures shown below exemplify these steps. All python codes are available in the notebook.
 
 Plot acceleration, velocity, and displacement time histories for any selected motion (out of 7 provided).
 
@@ -242,11 +242,11 @@ axs2[0].grid(True)
 <p style="text-align: center;"> Fig.3 - Response spectra</p>
 
 
-#### Generate report 
+#### Generate report
 
 Generating a summary report is a convenient way to present results from lengthy simulations prcesses. In jupyter this can be done invoking any posprocessor available in the docker container image. Among them rst2pdf is commonly distributed with python. For this matlab example a simple ShortReport.rst file is included that collects the results and plots generated in a simple pdf file. The python code shown below, exemplifies this process and include:
 1. Running rst2pdf on [ShortReport.rst](files/ShortReport.rst)
-2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen. 
+2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen.
 
 Run rst2pdf, assign to pdf_fn, and  call PDF show function 
 ``` python

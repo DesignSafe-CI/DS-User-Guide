@@ -3,7 +3,7 @@
 ## Taggit User Guide: Grouping and Tagging Image Files
 
 Using Taggit to categorize image files with groups and tags
-/// 
+///
 
 
 **Fred Haan – Calvin University **
@@ -11,7 +11,7 @@ Using Taggit to categorize image files with groups and tags
 _Keywords: Taggit, HazMapper, image tagging, image grouping, image labeling_
 
 
-### Resources 
+### Resources
 
 The example makes use of the following DesignSafe resources:
 
@@ -27,27 +27,27 @@ This user guide demonstrates how to use Taggit on DesignSafe to organize image f
 
 Taggit enables you to organize images into groups and to tag images. This document shows you how to create groups and tags with Taggit.
 
-NOTE: Galleries in Taggit and Maps in HazMapper are actually the same thing. Taggit and HazMapper are just different ways of viewing the same Gallery/Map. 
+NOTE: Galleries in Taggit and Maps in HazMapper are actually the same thing. Taggit and HazMapper are just different ways of viewing the same Gallery/Map.
 
 All browsing/mapping starts with HazMapper and you can switch back and forth between the apps as you wish.
 
-This example begins with a Gallery that has already been created. If you do not know how to create a Gallery yet, start with the Basic Browsing and Mapping document and then come back to this one. 
+This example begins with a Gallery that has already been created. If you do not know how to create a Gallery yet, start with the Basic Browsing and Mapping document and then come back to this one.
 
 ### Creating Groups and Using the Taggit View
 
 As an example workflow, we will consider a damage survey dataset from the December 2021 Midwest tornado outbreak (see below) and create some groups to organize these images.
 
-![](img2/image001.png)  
+![](img2/image001.png)
 
 Clicking on any of the images, will put a blue border around the image and cause a Create Group to appear in the upper right corner as shown here:
 
 <!-- ![](img2/image004.png) -->
 
-Clicking on Create Group will bring up a window in which to type in a name for your new group as show here. I am creating a group for all the Grain bins. 
+Clicking on Create Group will bring up a window in which to type in a name for your new group as show here. I am creating a group for all the Grain bins.
 
 ![](img2/image005.png)
 
-Two things then happen when you add this group. First, that image you selected become a part of the group, and you'll see a small colored square that indicates it is a part of the group (see below). Second, the Taggit button will appear in the upper right corner. 
+Two things then happen when you add this group. First, that image you selected become a part of the group, and you'll see a small colored square that indicates it is a part of the group (see below). Second, the Taggit button will appear in the upper right corner.
 
 ![](img2/image007.png)
 
@@ -61,7 +61,7 @@ If you click the Taggit button, the screen will switch from the Gallery view to 
 
 ### Adding Images to Groups
 
-To add more images to a group, you have two options. One option is to hover over an image and use the icons that appear (see below). The plus icon will bring up the option to add this image to a group. The magnifying glass and recycle bin allow you to enlarge the image or remove it from the Gallery, respectively. 
+To add more images to a group, you have two options. One option is to hover over an image and use the icons that appear (see below). The plus icon will bring up the option to add this image to a group. The magnifying glass and recycle bin allow you to enlarge the image or remove it from the Gallery, respectively.
 
 ![](img2/image010.png)
 
@@ -83,7 +83,7 @@ In the list of Groups in the Taggit view (shown below), each group's icon is sho
 
 ![](img2/image015.png)
 
-Modified icons are shown below for each of the groups. These icons are then used when that group's images are plotted in HazMapper. 
+Modified icons are shown below for each of the groups. These icons are then used when that group's images are plotted in HazMapper.
 
 ![](img2/image016.png)
 
@@ -107,7 +107,7 @@ Clicking one of the Checkbox options will cause a Save Tags button to appear (as
 
 ![](img2/image023.png)
 
-Groups and Tags can be exported using the Export Tags/Groups option in the pull-down menu. You can export to your local machine or to a folder in DesignSafe. This export option will generate one json file and also separate csv files for each group in the Gallery. 
+Groups and Tags can be exported using the Export Tags/Groups option in the pull-down menu. You can export to your local machine or to a folder in DesignSafe. This export option will generate one json file and also separate csv files for each group in the Gallery.
 
 
 ### References

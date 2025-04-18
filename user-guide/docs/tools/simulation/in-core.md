@@ -20,7 +20,7 @@ Using a client-based development, IN-CORE Python libraries can connect directly 
 
 ### Installation of pyincore on DesignSafe
 
-The user can install pyincore using any of these two options: 
+The user can install pyincore using any of these two options:
 
 1) the [temporary user installation](#Title1.1) 
 2) creating a [specific kernel for pyincore](#Title1.2)
@@ -78,7 +78,7 @@ ipython kernel install --user --name=pyincore_on_DS
 
 After waiting a few seconds, the pre-existing user-defined kernels may appear after clicking on the "switch kernel" panel (right upper corner, as shown in Figure 3). If not, refresh your browser and check the "switch kernel" panel again.
 
-### Example: IN-CORE tools within DesignSafe-CI 
+### Example: IN-CORE tools within DesignSafe-CI
 
 The following example leverages the use case published in the Data Depot as [PRJ-4675 “IN-CORE on DesignSafe”](https://doi.org/10.17603/ds2-cx62-ve21). 
 The notebook presents a use case focused on the risk analysis of a regional scale portfolio of bridges exposed to seismic events. The goal of this use case is to show the interaction of DesignSafe with IN-CORE Python tools. 
