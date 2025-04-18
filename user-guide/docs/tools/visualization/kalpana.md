@@ -1,5 +1,7 @@
 ## Kalpana User Guide
 
+!!! note
+	Kalpana is **temporarily unavailable**. It is being updated.
 
 Kalpana is a python script that converts ADCIRC output files to GIS compatible shapefiles. The code accepts NetCDF formatted ADCIRC outputs for maximum water levels and wind speeds (maxele.63.nc and maxwvel.63.nc) and converts these to polyline/polygon shapefiles.
 
