@@ -514,7 +514,6 @@ Login to DesignSafe and go to Use DesignSafe &gt; Data Depot &gt; Dropbox.com.
 
 ![Dropbox Begin](./imgs/cloudstorage-drop-1.png)
 
-Click Setup Dropbox.com.
 
 Follow the on-screen instructions to login to your Dropbox.com account.
 
