@@ -38,9 +38,9 @@ plugins:
 
 nav:
   - DesignSafe Essentials:
+    - Documentation Overview: overview.md
     - Getting Started: index.md
     - Account Help: account-help.md
-    - Accessing Resources: access-comp-data.md
     - Training Resources: training.md
 
   - Data Depot:
