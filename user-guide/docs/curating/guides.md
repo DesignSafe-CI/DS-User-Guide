@@ -20,7 +20,7 @@ In the Add New Project window, fill in a project title and list the principal in
 
 ![](./imgs/guide-allguides-1b.png)
 
-PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
+PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs.
 
 You can edit all these fields later if you make any mistakes.
 
@@ -38,7 +38,7 @@ Adding an experiment involves filling out high level information about the files
 
 ![](./imgs/guide-experimental-2b.png)
 
-Fill out the required and optional fields using the advice given to create concise and understandable descriptions. 
+Fill out the required and optional fields using the advice given to create concise and understandable descriptions.
 
 Also, assign authorship from a list of the project members and PIs. You can order the authors later when it is time to publish.
 
@@ -94,7 +94,7 @@ Click <strong>Remove</strong> if you make any mistakes.
 
 ![](./imgs/guide-experimental-6.png)
 
-After putting files in categories, dropdowns will appear to allow you to tag specific files. 
+After putting files in categories, dropdowns will appear to allow you to tag specific files.
 
 The natural hazards community has contributed to creating these agreed upon terms.
 
@@ -147,7 +147,7 @@ To add a new project, click <strong>+ Add</strong>, then select <strong>New Proj
 
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
-PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
+PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs.
 
 You can edit all these fields later if you make any mistakes.
 
@@ -167,7 +167,7 @@ Adding a simulation involves filling out high level information about the files 
 
 ![](./imgs/guide-simulation-2b.png)
 
-Fill out the required and optional fields using the advice given to create concise and understandable descriptions. 
+Fill out the required and optional fields using the advice given to create concise and understandable descriptions.
 
 Also, assign authorship from a list of the project members and PIs. You can order the authors later when it is time to publish.
 
@@ -285,13 +285,13 @@ To add a new project, click <strong>+ Add</strong>, then select <strong>New Proj
 
 In the Add New Project window, fill in a project title and list the principal investigator (PI) and project members.
 
-PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
+PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs.
 
 You can edit all these fields later.
 
 Once finished, click <strong>+</strong> <strong>Add Project</strong> and you will be taken to your new project in the My Projects tab.
 
-#### 2. Add a Mission { #fieldresearch-step2 } 
+#### 2. Add a Mission { #fieldresearch-step2 }
 
 To begin curation, click on the <strong>Curation Directory</strong> and select <strong>Field Research</strong> as your Project Type.
 
@@ -307,7 +307,7 @@ Fill out required fields in the <strong>Edit Project </strong>window. Without th
 
 A mission is a group of data collections that are associated with a common goal or time. Some researchers may also refer to this as Time or Wave.
 
-Adding a mission involves filling out high-level information (e.g. title, date, geolocation and description) about the files you will be publishing. 
+Adding a mission involves filling out high-level information (e.g. title, date, geolocation and description) about the files you will be publishing.
 
 Each mission will receive a unique DOI. Add multiple missions if any of this high-level information changes or you want multiple DOIs. Do not add another mission if you are surveying the same location with different instruments and this information stays the same. Instead, you can add multiple collections to one mission.
 
@@ -319,7 +319,7 @@ You can edit a mission from the mission inventory.
 
 <a name="step4d"> </a>
 
-#### 3. Add Collections { #fieldresearch-step3 } 
+#### 3. Add Collections { #fieldresearch-step3 }
 
 Click <strong>Add Collections</strong> to begin.
 
@@ -329,11 +329,11 @@ Collections group files together based on a shared purpose in a mission. There a
 
 A group of files related to planning and logistics, study design and administration, design, Institutional Review Board (IRB) procedures, or permits.
 
-<u>Engineering/Geosciences Collection:</u> 
+<u>Engineering/Geosciences Collection:</u>
 
 A group of related data and associated materials from the engineering/geosciences domain.
 
-<u>Social Sciences Collection:</u> 
+<u>Social Sciences Collection:</u>
 
 A group of related data and associated materials from the social sciences domain.
 
@@ -344,7 +344,7 @@ After filling out the fields, click <strong>+ Add Collection</strong> and it wil
 ![](./imgs/guide-fieldresearch-3.png)
 
 
-#### 4. Relate Data { #fieldresearch-step4 } 
+#### 4. Relate Data { #fieldresearch-step4 }
 
 Click <strong>Relate Data</strong> to begin.
 
@@ -356,11 +356,11 @@ When published, this diagram will help others understand the structure of your F
 
 ![](./imgs/guide-fieldresearch-4.png)
 
-#### 5. Assign Collections to Files { #fieldresearch-step5 } 
+#### 5. Assign Collections to Files { #fieldresearch-step5 }
 
 As you create collections, they will appear in a dropdown next to each file. This allows you select collections for any file in your project and group them under each collection. Click <strong>Save</strong> to confirm the collection.
 
-If you assigned a collection to a folder, then all files within that folder will belong to the collection of the folder. 
+If you assigned a collection to a folder, then all files within that folder will belong to the collection of the folder.
 
 A file can belong to one or more collections.
 
@@ -373,9 +373,9 @@ Click <strong>Remove</strong> if you make any mistakes.
 ![](./imgs/guide-fieldresearch-5b.png)
 
 
-#### 6. Tag Files { #fieldresearch-step6 } 
+#### 6. Tag Files { #fieldresearch-step6 }
 
-After putting files in collections, dropdowns will appear to allow you to tag/describe unique files. 
+After putting files in collections, dropdowns will appear to allow you to tag/describe unique files.
 
 The natural hazards community has contributed to creating these agreed upon terms.
 
@@ -387,7 +387,7 @@ If you do not see a file tag that fits, you can select <strong>Other</strong> an
 ![](./imgs/guide-fieldresearch-6.png)
 
 
-#### 7. Publication Preview { #fieldresearch-step7 } 
+#### 7. Publication Preview { #fieldresearch-step7 }
 
 All of the curation work is done in the Curation Directory. The Publication Preview lets you examine the layout of your publication so you can visualize/verify how your work will appear once published.
 
@@ -400,9 +400,9 @@ Look through the Publication Preview early and often to make changes or catch mi
 ![](./imgs/guide-fieldresearch-7b.png)
 
 
-#### 8. Prepare to Publish { #fieldresearch-step8 } 
+#### 8. Prepare to Publish { #fieldresearch-step8 }
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview. 
+When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
 
 There are 6 stages in the publication process:   
 Selection, Proofread Project, Proofread Mission, Proofread Collections, Order Authors, and Licenses
@@ -413,7 +413,7 @@ In <strong>Proofread Project</strong>,<strong> Missions</strong>,<strong> &amp; 
 
 In <strong>Order Authors</strong>, order the authors of the mission and preview how your citation will appear.
 
-In <strong>Licenses</strong>, select one or more licenses that best fit your data. 
+In <strong>Licenses</strong>, select one or more licenses that best fit your data.
 
 Please see the <a href="#best-practices">Data Publication Guidelines</a> for more information.
 
@@ -435,7 +435,7 @@ In the Add New Project window, fill in a project title and list the principal in
 
 ![](./imgs/guide-allguides-1b.png)
 
-PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. 
+PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs.
 
 You can edit all these fields later if you make any mistakes.
 

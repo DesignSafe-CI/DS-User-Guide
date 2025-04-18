@@ -14,7 +14,7 @@ Testing is manual and requires using a command prompt. You can test [via Python]
 
 ## Publishing
 
-We automatically publish `main` branch commits. We manually release versions of DS-User-Guide. [Read more](./PUBLISHING.md).
+We automatically publish `main` branch commits. We manually release versions of DS-User-Guide. [Read more.](./PUBLISHING.md)
 
 ## Developing
 

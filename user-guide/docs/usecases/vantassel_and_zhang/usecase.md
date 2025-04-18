@@ -6,7 +6,7 @@ An Example-Based Introduction to Common Machine Learning Approaches
 
 ///
 
-**Joseph P. Vantassel and Wenyang Zhang, Texas Advanced Computing Center - The University of Texas at Austin**  
+**Joseph P. Vantassel and Wenyang Zhang, Texas Advanced Computing Center - The University of Texas at Austin**
 
 With the increasing acquisition and sharing of data in the natural hazards community, solutions from 
 data science, in particular machine learning, are increasingly being applied to natural hazard problems.

@@ -35,14 +35,17 @@ A DesignSafe account is a TACC user account, so you will sometimes see emails fr
 ///
 -->
 
-## Documentation Overview
+## Initial Onboarding
 
-**Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
+When you are ready to begin uploading your own data to the Data Depot or want to begin using some of the Tools & Apps, you will want to initiate the onboarding process. The initial onboarding provides you with [private areas for your data](/user-guide/managingdata/datadepot/) and access to Tools & Apps that are hosted on our Virtual Machines such as [JupyterHub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/) or [Interactive VM for OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/). Access to HPC-enabled applications requires [an additional step](#requestallocations).
 
-**Tools and Apps**: This section contains user guides for how to utilize our many offerings in data analytics, GIS and mapping, visualization, and our Jupyter Hub interacting with the data you bring to DesignSafe or that you discover in our Published datasets.
+There are 2 ways to invoke the onboarding:
 
-**Simulation Applications**: We host a wide array of open source and licensed software applications commonly used in natural hazards research.
+1. Navigate to the Data Depot.
+2. Navigate to Tools & Apps, then into any of the apps and find one that uses HPC such as OpenSeesMP and click Get Started.
 
-**Use Cases**: To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research. Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below. The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
+You will be redirected to the Onboarding Setup page, and you will then want to click Request Access.
 
-**Advanced Topics**: This section of the user guide provides information for how to request an HPC allocation to gain access to TACC's high performance computing resources when your research needs larger scale computation than the our portal applications provide. For researchers who develop their own software tools, a guide to how to use our API to access your data and run applications is provided. 
+## Request Allocations { #requestallocations }
+
+DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these, such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/) and clicking on "Get Started" you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one.

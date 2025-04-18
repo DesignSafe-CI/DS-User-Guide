@@ -73,6 +73,26 @@ b {
     font-weight: var(--bold);
 }
 
+/* To extend grid pattern (for pages like usecases/overview) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L521-L527 */
+/* https://github.com/TACC/mkdocs-tacc/blob/v0.6.0/mkdocs_tacc/tacc_readthedocs/css/tacc-theme/core-docs.css#L52-L58 */
+.grid__header,
+.grid > :is(h1, h2, h3, h4, h5, h6) {
+    margin-block: 0;
+    grid-column: span 2;
+}
+/* To remove space from top of header-less intro paragraph in a grid */
+/* https://github.com/TACC/TACC-Docs/blob/f2e80b4/docs/index.md?plain=1#L107-L109 */
+/* https://github.com/DesignSafe-CI/DS-User-Guide/blob/92882f2/user-guide/docs/usecases/overview.md?plain=1#L21-L23 */
+.grid__header > p:first-child {
+    margin-top: 0;
+}
+/* To remove extra space under cards */
+.grid [class*="card"] {
+    margin-bottom: 0;
+}
+
+
 
 
 /* DS-DOCS */
