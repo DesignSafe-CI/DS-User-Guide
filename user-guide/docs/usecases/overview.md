@@ -17,8 +17,7 @@ Make sure you are logged into DesignSafe so that you can access the Use-Case pro
 ////// html | img[alt="a data-driven map in a software interface"][src="./img/data.png"]
 //////
 
-Data Analytics
-{.h3}
+<h3>Data Analytics</h3>
 
 Analyze data from multiple datasets, with A.I. and Machine Learning, or via APIs or visualization.
 
@@ -29,8 +28,7 @@ Analyze data from multiple datasets, with A.I. and Machine Learning, or via APIs
 ////// html | img[alt="a color-coded landslide"][src="./img/geo.png"]
 //////
 
-GeoHazard
-{.h3}
+<h3>GeoHazard</h3>
 
 Geological hazard use cases like liquefaction and landslide modeling.
 
@@ -41,8 +39,7 @@ Geological hazard use cases like liquefaction and landslide modeling.
 ////// html | img[alt="a grid of two kinds of diagonal marks over 4 columns"][src="./img/seismic.jpg"]
 //////
 
-Seismic
-{.h3}
+<h3>Seismic</h3>
 
 Analyze seismic responses, soil structure interaction, and shake tables. Integrate with OpenSees.
 
@@ -53,8 +50,7 @@ Analyze seismic responses, soil structure interaction, and shake tables. Integra
 ////// html | img[alt="a triangular mesh over shallow water area of a coastal map"][src="./img/wind.png"]
 //////
 
-Wind and Storm Surge
-{.h3}
+<h3>Wind and Storm Surge</h3>
 
 Use cases for sensing wind, integrating hurricane data, using ADCIRC datasets or Jupyter Notebooks or QGIS.
 
