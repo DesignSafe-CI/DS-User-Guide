@@ -14,9 +14,9 @@ Any natural hazards researcher or practitioner that wants an environment to stor
 1. [**Request a user account**](https://www.designsafe-ci.org/account/register/)
 2. You will be redirected to the TACC account registration page.
     1. It's possible that your email provider will either block or mark as spam/junk an email TACC sends with a link to confirm your email address after you submit the registration form. If so, send email to helpATdesignsafe-ci.org letting us know you did not receive the email.
-4. On the account registration form we highly recommend you use the email address provided by your Institution or Company.
-5. Once you have an account, set up [multi-factor authentication](https://docs.tacc.utexas.edu/basics/mfa/).
-6. You will then be able to [**log in to DesignSafe**](https://www.designsafe-ci.org/).
+3. On the account registration form we highly recommend you use the email address provided by your Institution or Company.
+4. Once you have an account, set up [multi-factor authentication](https://docs.tacc.utexas.edu/basics/mfa/).
+5. You will then be able to [**log in to DesignSafe**](https://www.designsafe-ci.org/).
 
 **Please note**: A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`.
 
