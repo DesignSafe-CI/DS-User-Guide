@@ -2,8 +2,7 @@
 
 ## SQLite Database Management in DesignSafe
 
-SQLite3 Database Creation, Management, and Analysis for NHERI Research
-
+SQLite3 Database Creation, Management, and Analysis
 ///
 
 **Brandenberg, S.J. - UCLA**<br/>
@@ -14,12 +13,18 @@ The example makes use of the following DesignSafe resources:
 [Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target=_blank}<br/>
 [SQLite Documentation](https://www.sqlite.org/docs.html){target=_blank}<br/>
 
+| Scope | Notebook | Link | 
+| :-------: | :---------:  | :---------:  |
+| Basic example | SQLiteExample.ipynb | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/SQLite/SQLiteExample.ipynb) |
+
 ### Background
 #### Citations and Licensing
 
 * Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
 * This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
+
+## Description
 
 SQLite3 provides an excellent solution for research data management within DesignSafe NHERI environments. Unlike server-based databases, SQLite stores everything in a single file, making it ideal for sharing complete datasets and ensuring reproducibility in research workflows.
 
@@ -36,6 +41,7 @@ For NHERI research, databases excel at managing complex experimental data where 
 Relational databases organize data into tables that are connected through relationships. For engineering research, this means you can link experiments to specimens, specimens to tests, and tests to measurements without duplicating information.
 
 Key benefits include:
+
 - **Data consistency** - update information once, changes everywhere
 - **Data integrity** - prevents invalid relationships
 - **Complex queries** - analyze across multiple related datasets
@@ -83,6 +89,7 @@ R003      | B002        | 2023-01-15      | None
 The `Building_ID` **links** these tables together. This relationship allows you to ask complex questions like "Show me all damage reports for concrete buildings built before 1990" without duplicating building information in every damage report.
 
 **Key Benefits of Relational Databases:**
+
 - **Eliminate data duplication** (building info stored once, referenced many times)
 - **Maintain data consistency** (update building address once, changes everywhere)
 - **Enforce data integrity** (can't create damage report for non-existent building)
@@ -90,6 +97,7 @@ The `Building_ID` **links** these tables together. This relationship allows you 
 - **Handle concurrent access** (multiple researchers can work simultaneously)
 
 **Common Relational Databases:**
+
 - **SQLite** (what this guide focuses on) - Single file, no server needed
 - **PostgreSQL** - Full-featured server database for large projects
 - **MySQL** - Popular web-oriented database
@@ -100,6 +108,7 @@ The `Building_ID` **links** these tables together. This relationship allows you 
 A **flat file database** stores data in a single, self-contained file without the complex relationships of traditional databases. Think of it as a very sophisticated spreadsheet that can handle massive amounts of data efficiently.
 
 **When Flat Files Excel:**
+
 - **Time series data** from sensors (millions of timestamp-value pairs)
 - **Scientific arrays** (3D stress tensors, image data, simulation results)
 - **Simple datasets** that don't need complex relationships
@@ -118,6 +127,7 @@ SQLite is a lightweight relational database that stores everything in a single f
 **When to Use SQLite:**
 
 ✅ **Perfect for:**
+
 - **Multi-table research projects** (experiments, specimens, sensors, measurements)
 - **Data with complex relationships** (one experiment → many specimens → many tests)
 - **Collaborative research** where data integrity is crucial
@@ -127,6 +137,7 @@ SQLite is a lightweight relational database that stores everything in a single f
 - **Data that evolves over time** (adding new experiments, updating results)
 
 ✅ **Research Scenarios:**
+
 - Earthquake engineering databases tracking buildings, ground motions, and damage
 - Laboratory testing programs with specimens, test protocols, and results
 - Field monitoring campaigns with site information, sensors, and time series data
@@ -134,6 +145,7 @@ SQLite is a lightweight relational database that stores everything in a single f
 - Longitudinal studies tracking changes over time
 
 **SQLite Advantages:**
+
 - **ACID compliance** ensures data integrity even during system crashes
 - **Cross-platform compatibility** works on Windows, Mac, Linux
 - **No size limits** for practical research (tested up to 281 TB)
@@ -142,6 +154,7 @@ SQLite is a lightweight relational database that stores everything in a single f
 - **Extensive tooling** with GUI browsers, command-line tools, and programming libraries
 
 **SQLite Limitations:**
+
 - **Single writer** - only one process can modify data at a time
 - **Not optimized for analytics** on very large datasets (> 1GB)
 - **Limited built-in analytics** compared to specialized formats
@@ -162,6 +175,7 @@ When you want to analyze acceleration trends, Parquet only reads the acceleratio
 **When to Use Parquet:**
 
 ✅ **Perfect for:**
+
 - **Large analytical datasets** (> 100MB) requiring frequent calculations
 - **Time series analysis** with millions of sensor readings
 - **Statistical analysis** across many variables
@@ -171,6 +185,7 @@ When you want to analyze acceleration trends, Parquet only reads the acceleratio
 - **Data pipelines** that process and transform large datasets
 
 **Parquet Advantages:**
+
 - **Blazing fast analytics** - 10-100x faster than CSV for calculations
 - **Excellent compression** - often 75% smaller than equivalent CSV files
 - **Schema preservation** - remembers data types, column names, metadata
@@ -188,6 +203,7 @@ When you want to analyze acceleration trends, Parquet only reads the acceleratio
 HDF5 (Hierarchical Data Format) is like a file system within a file. It can store multiple datasets, arrays, and metadata in a single file with a hierarchical structure.
 
 **HDF5 Structure Example:**
+
 ```
 earthquake_study.h5
 ├── metadata/
@@ -209,6 +225,7 @@ earthquake_study.h5
 **When to Use HDF5:**
 
 ✅ **Perfect for:**
+
 - **Complex scientific datasets** with multiple related arrays
 - **Multi-dimensional data** (3D stress fields, 4D spatio-temporal data)
 - **Mixed data types** (arrays, tables, images, metadata) in one file
@@ -217,6 +234,7 @@ earthquake_study.h5
 - **Long-term data archival** with rich metadata
 
 **HDF5 Advantages:**
+
 - **Hierarchical organization** keeps related data together
 - **Efficient partial access** - read only what you need from large files
 - **Rich metadata support** - embed documentation within data files
@@ -224,6 +242,7 @@ earthquake_study.h5
 - **Excellent performance** for array operations and scientific computing
 
 **HDF5 Limitations:**
+
 - **Complexity** - steeper learning curve than simpler formats
 - **Specialized tools required** - need HDF5-aware software to access
 - **File corruption risk** - complex format can be sensitive to incomplete writes
@@ -244,6 +263,7 @@ earthquake_study.h5
 ### Hybrid Approaches: Using Multiple Formats Together
 
 **Example: Earthquake Engineering Study**
+
 1. **SQLite for metadata and relationships**
    - Experiment catalog, specimen properties, test protocols
    - Links between experiments, sites, and researchers
@@ -257,6 +277,7 @@ earthquake_study.h5
    - Multi-dimensional parameter studies
 
 **Performance Guidelines:**
+
 - **< 10 MB**: Any format works, choose based on use case
 - **10 MB - 1 GB**: SQLite for relational, Parquet for analytics
 - **1 GB - 10 GB**: Prefer Parquet or HDF5, avoid SQLite for large tables
@@ -353,4 +374,4 @@ This notebook contains practical examples of SQLite database operations for NHER
 5. Import/export workflows for sharing research data
 6. Quality control and validation procedures
 
-Open in Jupyter Notebook: [SQLiteExample.ipynb](SQLiteExample.ipynb)
+Try the SQLite example on Jupyter: [![DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/SQLite/SQLiteExample.ipynb)
