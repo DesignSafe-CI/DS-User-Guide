@@ -124,6 +124,15 @@ A **flat file database** stores data in a single, self-contained file without th
 **What is SQLite?**
 SQLite is a lightweight relational database that stores everything in a single file. Unlike server-based databases, SQLite requires no installation, configuration, or maintenance. It's like having a powerful database engine built right into your data file.
 
+🔑 **Key Characteristics of SQLite**
+
+1. **🗃️ Self-Contained**: Complete database in a single file
+2. **🚀 Serverless**: No installation, configuration, or administration needed
+3. **🌍 Cross-Platform**: Works on Windows, Mac, Linux
+4. **⚡ Fast**: Optimized for read operations and small to medium datasets
+5. **🛡️ ACID Compliant**: Atomic, Consistent, Isolated, Durable transactions
+6. **📝 SQL Standard**: Uses familiar SQL syntax with some extensions
+
 **When to Use SQLite:**
 
 ✅ **Perfect for:**
