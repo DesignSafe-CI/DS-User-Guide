@@ -136,6 +136,18 @@ SQLite is a lightweight relational database that stores everything in a single f
 - **Interactive analysis** requiring frequent queries and filtering
 - **Data that evolves over time** (adding new experiments, updating results)
 
+🆚 **SQLite vs Other Databases**
+
+| Feature | SQLite | MySQL/PostgreSQL | Excel/CSV |
+|---------|--------|------------------|-----------|
+| **Setup** | None required | Server installation | Application needed |
+| **File Type** | Single .db file | Multiple server files | .xlsx/.csv files |
+| **Queries** | Full SQL support | Full SQL support | Limited formulas |
+| **Relationships** | Foreign keys, joins | Foreign keys, joins | Manual linking |
+| **Concurrent Users** | Multiple readers, one writer | Many simultaneous users | File locking issues |
+| **Data Integrity** | ACID transactions | ACID transactions | Manual validation |
+| **Size Limit** | 281 TB theoretical | Very large | Memory limitations |
+
 ✅ **Research Scenarios:**
 
 - Earthquake engineering databases tracking buildings, ground motions, and damage
