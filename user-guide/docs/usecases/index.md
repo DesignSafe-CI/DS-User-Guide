@@ -17,6 +17,10 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 {% include-markdown 'padgett/usecase_JN_viz.md' %}
 
+### SQLite Database
+
+{% include-markdown 'brandenberg-sqlite/usecase.md' %}
+
 ## Geohazards
 
 * [**Data Analysis using Next Generation Liquefaction (NGL) Database**](#application-programming-interfaces) (NGL, Jupyter, SQL, Interactive Data Analytics)
@@ -25,6 +29,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 ### NGL Database
 
 {% include-markdown 'brandenberg-ngl/usecase.md' %}
+
 
 ### MPM Landslide
 
