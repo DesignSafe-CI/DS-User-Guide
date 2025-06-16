@@ -124,6 +124,7 @@ nav:
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
+      - SQLite Database Management in DesignSafe: usecases/brandenberg-sqlite/usecase.md
       - Visualization of spatially distributed data: usecases/padgett/usecase_JN_viz.md
     - GeoHazard:
       - NGL Database: usecases/brandenberg-ngl/usecase.md
