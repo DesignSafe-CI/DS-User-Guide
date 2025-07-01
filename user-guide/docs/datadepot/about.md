@@ -91,3 +91,7 @@ Users can click a “Leave Feedback” button on the projects’ landing pages t
 *   Issues related to published code that is not working properly.
     
 *   Congratulations.
+
+## CoreTrustSeal Certification
+
+The Data Depot Repository is evaluated for the [CoreTrustSeal](https://www.coretrustseal.org/) certification every three years. Established in 2017, CoreTrustSeal is a non-profit dedicated to advancing sustainable data infrastructure in repository management. It achieves this by requiring adherence to a set of criteria developed collaboratively by the Data Seal of Approval (DSA) and the World Data System of the International Science Council (WDS), under the umbrella of the Research Data Alliance (RDA). A CoreTrustSeal certification assures users that a repository has implemented essential safeguards for long-term data preservation and has received endorsement of its trustworthiness through a transparent, independent evaluation.
