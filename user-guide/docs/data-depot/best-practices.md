@@ -63,9 +63,7 @@ Many instruments used in natural hazards research involve proprietary file forma
 When publishing proprietary files that are ubiquitous in the field, please refer to the following Data Curation Primers. 
 
 *   [Matlab](https://deepblue.lib.umich.edu/handle/2027.42/154686)
-    
 *   [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
-    
 
 ### Compressed Data
 
@@ -89,7 +87,7 @@ It is recommended to avoid publishing proprietary point cloud data extensions. I
 
 As you plan for publishing a Jupyter Notebook, please consider the following issues:
 
-1.  The DesignSafe publication process involves copying the contents of your project at the time of publication to a read only space within the Published projects section of the Data Depot (i.e., this directory can be accessed at NHERI-Published in JupyterHub). Any future user of your notebook will access it in the read-only Published projects section. Therefore, any local path you are using while developing your notebook that is accessing a file from a private space (e.g., "MyData", "MyProjects") will need to be replaced by an absolute path to the published project. Consider this example: you are developing a notebook in PRJ-0000 located in your "MyProjects" directory and you are reading a csv file living in this project at this path: /home/jupyter/MyProjects/PRJ-0000/Foo.csv. Before publishing the notebook, you need to change the path to this csv file to /home/jupyter/NHERI-Published/PRJ-0000/Foo.csv.
+1.  The DesignSafe publication process involves copying the contents of your project at the time of publication to a read only space within the Published projects section of the Data Depot (i.e., this directory can be accessed at NHERI-Published in JupyterHub). Any future user of your notebook will access it in the read-only Published projects section. Therefore, any local path you are using while developing your notebook that is accessing a file from a private space (e.g., "MyData", "MyProjects") will need to be replaced by an absolute path to the published project. Consider this example: you are developing a notebook in PRJ-0000 located in your "MyProjects" directory and you are reading a csv file living in this project at this path: `/home/jupyter/MyProjects/PRJ-0000/Foo.csv`. Before publishing the notebook, you need to change the path to this csv file to `/home/jupyter/NHERI-Published/PRJ-0000/Foo.csv`.
     
 2.  The published area is a read-only space. In the published section, users can run notebooks, but the notebook is not allowed to write any file to this location. If the notebook needs to write a file, the author of the notebook must make sure that it can write to a file in each user directory. [Here](https://doi.org/10.17603/ds2-v310-qc53) is an example of a published notebook that writes files to user directories. Since the published space is read-only, if a user wants to revise, enhance or edit the published notebook they will have to copy the notebook to their My data and continue working on the copied version of the notebook located in their My data. A readme file must be published within the project that explains how future users can run and take advantage of the Jupyter Notebook.
     
@@ -229,9 +227,9 @@ Consult the CONVERGE [check sheet](https://nam12.safelinks.protection.outlook.co
 
 Except for Data type "Other", DesignSafe requires descriptions at the project level and at the dataset level (mission, experiment, simulation, hybrid simulation). Both descriptions are complementary. The project level description addresses the high level objectives of the research, who participates, why the research is unique, how many datasets will be published and who will benefit from it. The dataset level description focuses on the scope and content of the dataset and how it was obtained. Below are general recommendations that apply to both descriptions.  
 
-\*Minimum 200 words, max 300 for each level
+\* Minimum 200 words, max 300 for each level
 
-### Project level descriptions:
+### Project Level Descriptions
 
 *   Begin with a general statement that provides context to the study by which the dataset was created (e.g., The system under investigation…). 
     
@@ -250,7 +248,7 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 *   Avoid using acronyms if possible. Spell out the full acronym if you must.
     
 
-### Dataset level descriptions:
+### Dataset Level Descriptions
 
 *   Datasets should be described as a standalone research output, so they can be understood independently from related research products such as a published paper or research code.Focus on describing the dataset. You may begin the text with "This dataset…"
     
