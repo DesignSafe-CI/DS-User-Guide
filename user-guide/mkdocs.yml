@@ -48,7 +48,7 @@ nav:
     - Data Depot Repository (DDR) Policies: data-depot/ddr-policies.md
     - Best Practices for Data Curation and Publication: data-depot/best-practices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
-    - Resources for Users: ____ # resources
+    - Resources for Users: data-depot/resources.md
   - Tools and Apps:
     - Analysis Apps: analysis.md
     - Jupyter: tools/jupyterhub.md
