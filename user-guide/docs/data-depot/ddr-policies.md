@@ -33,7 +33,7 @@ Data in the (DDR) is preserved according to state-of-the art digital library sta
 
 Within the storage infrastructure a dedicated [Fedora](https://duraspace.org/fedora/) 5.x digital repository, considered a standard for digital libraries, assures the authenticity and integrity of the published datasets by maintaining provenance, fixity, and preservation metadata in accordance to [standard schemas](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.los5k5wdc37k) and the relationships between data and corresponding metadata for each published research project. Specifically, Fedora was chosen as a repository because the flexibility of its model allows managing the structure of the DDR’s different project types .
 
- The DDR-Fedora workflow is as follows. Once a dataset is curated and the user has agreed to the last step in the publication process, published files are hashed for fixity - integrity- and file formats are identified - preservation using OPF-FIDO. The integrity and preservation information about each file is added to a manifest file. Files are stored on Corral in a secure location that is also recorded on the manifest file. Ingestion of metadata from the web-visible storage into Fedora takes place under automated control when the publication workflow executes. At that point, user contributed metadata is mapped to the standard descriptive and data citation schemas DublinCore, DDI, and DataCite, and data model metadata for each project type is mapped to PROV to reflect the relations between different components of the datasets and to the research project.  The manifest file and the metadata that the user has been inputting throughout the curation process is sent to Fedora. For each individual file, Fedora maintains preservation metadata in the standard [PREMIS](https://www.loc.gov/standards/premis/) format.
+The DDR-Fedora workflow is as follows. Once a dataset is curated and the user has agreed to the last step in the publication process, published files are hashed for fixity - integrity- and file formats are identified - preservation using OPF-FIDO. The integrity and preservation information about each file is added to a manifest file. Files are stored on Corral in a secure location that is also recorded on the manifest file. Ingestion of metadata from the web-visible storage into Fedora takes place under automated control when the publication workflow executes. At that point, user contributed metadata is mapped to the standard descriptive and data citation schemas DublinCore, DDI, and DataCite, and data model metadata for each project type is mapped to PROV to reflect the relations between different components of the datasets and to the research project.  The manifest file and the metadata that the user has been inputting throughout the curation process is sent to Fedora. For each individual file, Fedora maintains preservation metadata in the standard [PREMIS](https://www.loc.gov/standards/premis/) format.
 
 Both the front-end copies and the Fedora repositories are in systems that implement de-clustered RAID and have sufficient redundancy to manage up to 3 drive failures for a single file stripe. The file system itself is mirrored daily between two datacenters. The primary data is also periodically backed up to the tape archive for a third copy. The database that manages metadata in Fedora is also quiesced, snapshotted, and backed to tape on a regular automated schedule.In case of failure where data is compromised, the system can be restored from the replication.
 
@@ -94,7 +94,7 @@ If applicable, I warrant that I am following the IRB agreements in place for my 
 
 I understand that using the DDR to publish datasets is entirely voluntary and that I am solely responsible for all possible confidentiality, privacy, data quality and data content  issues that may arise from the publication. These terms do not supersede any prior third party contractual obligations to confidentiality or proprietary information. 
 
-Data Types
+## Data Types
 
 We accept engineering and social and behavioural sciences datasets, reports, research software and presentations derived from research conducted in the context of natural hazards regarding the impacts of wind, earthquake, storm surge, wildfires, and sustainable materials management. Specifically in the area of engineering, the primary focus is on data generated through simulation, hybrid simulation, experimental, machine learning, and field research methods. In social and behavioural sciences (SBE), accepted datasets and research instruments encompass the study of the human dimensions of hazards and disasters and we expanded our focus to include datasets related to COVID-19. Users who submit datasets that do not match the accepted data types will be notified whenever possible before publication so that they can remove their data. If a noncompliant dataset is published with a DOI, we will abide by the [Tombstone Policy](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.253ecanf6gfm), and a curator will work with the user to find a repository adequate for their needs. As the field and the expertise of the community evolves we may expand the data types accepted.
 
@@ -134,7 +134,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 
 Currently we do not impose restrictions on the size of the datasets that can be published. This approach recognizes the necessity of comprehensive data collection and the increasingly large sizes of datasets in natural hazards research. Largest published datasets in DDR are ~5 TB. However, we recommend researchers to be selective and to publish data that is relevant to research reproducibility and that is adequately organized and described so that other researchers interested in reusing the data can find what they need. For datasets larger than 1 TB we suggest that users include research software (ex. Jupyter Notebook) to access, visualize, or subset the dataset. 
 
-DOIs and Data Citation
+## DOIs and Data Citation
 
 In the DDR DOIs are assigned at the Mission, Simulation, Hybrid Simulation, and Experiment levels as well as to the Other type of publication. Thus, each published dataset has a distinct DOI and corresponding citation. DOIs rely on the [DataCite schema](https://schema.datacite.org/) for complete citation information.
 
@@ -148,7 +148,7 @@ The natural hazards research community utilizes diverse research methods to gene
 
 The DDR follows the [Library of Congress Recommended Format Statement](https://www.loc.gov/preservation/resources/rfs/TOC.html) and has [recommended file formats](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.sw4razcnwdhp) to guide conversion from proprietary formats to open formats for long term preservation. Conversion from proprietary to open formats, however, can present challenges. Matlab, for example, allows saving complex data structures, yet not all of the files stored can be converted to a csv or a text file without losing some clarity and simplicity for handling and reusing the data. In addition, some proprietary formats such as jpeg and excel have been considered standards for research and teaching for the last two decades.  In attention to this, we allow users to publish the data in both proprietary and open formats. We keep file format identification information of all the datasets in the Fedora repository.
 
-Metadata
+## Metadata
 
 Up to date, there is no standard metadata schema to describe natural hazards data. DDR developed metadata to describe natural hazards datasets through a combination of data models, standard metadata schemas, and expert contributed terms.  Embedded in the data models are named categories and elements that experts in the NHERI network deemed important for data explainability. The categories represent the structure of the research method used to generate the dataset and the elements are corresponding information components that authors need to fill out. The metadata elements for each data model are shown in [Metadata Schema and Requirements](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.fs1mjdamsvw3).
 
@@ -603,7 +603,7 @@ In the DDR protected data issues are considered at the onset of the curation and
 
 Considerations about protected data emerge both during data management prior to and during curation and publication stages . 
 
-Managing Protected Data
+### Managing Protected Data
 
 Managing protected data in the DDR involves complying with the data storage and publication procedures approved by the authors' Institutional Review Board (IRB) or equivalent body regarding human subjects research.
 
@@ -613,7 +613,7 @@ DesignSafe My Data and My Projects are secure spaces to store  protected data a
 
 Note that the responsibility to maintain datasets within TACC’s Protected Data Service  lies on the authors. 
 
-Publishing Protected Data
+### Publishing Protected Data
 
 Do not publish HIPAA, FERPA, FISMA, PII data, data including sensitive information, and any related documentation (reports, planning documents, field notes, etc.) data unless you have obtained the proper informed consents, and have abided by the permissions and requirements established by your IRB. 
 
