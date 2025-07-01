@@ -42,10 +42,10 @@ nav:
     - Managing Your Account: getting-started/manage-account.md
     - Managing Your Data: getting-started/manage-data.md
   - DesignSafe Data Depot: # datadepot
-    - About the Data Depot: # about
-    - Transfering Your Data: ____ # transfering
-    - Steps to Curate and Publish your Datasets: ____ # step-by-step
-    - Data Depot Repository (DDR) Policies: ____ # ddr-policies
+    - About the Data Depot: datadepot/about.md
+    - Transfering Your Data: datadepot/transferring.md # transfering
+    - Steps to Curate and Publish your Datasets: datadepot/step-by-step.md # step-by-step
+    - Data Depot Repository (DDR) Policies: datadepot/ddr-policies.md # ddr-policies
     - Best Practices for Data Curation and Publication: ____ # best-practices
     - Data Dissemination and Impact: ____ # dissemination-and-impact
     - Resources for Users: ____ # resources
