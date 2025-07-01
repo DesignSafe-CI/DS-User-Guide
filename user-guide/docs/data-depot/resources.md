@@ -33,7 +33,7 @@ CONVERGE has a series of [check sheets](https://converge.colorado.edu/resources/
 In addition, we suggest that users look into the [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) from the Data Curation Network, which are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task, and that can be used as a guidelines to curate research data. The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel.
 
 !!! caution "Needs Review"
-    > How to introduce this random link?
+    How to introduce this random link?
 
 [https://www.copyright.gov/circs/circ33.pdf](https://www.copyright.gov/circs/circ33.pdf) 
 
