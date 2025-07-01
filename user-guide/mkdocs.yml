@@ -37,8 +37,8 @@ plugins:
   - include-markdown
 
 nav:
-  - Getting Started with DesignSafe: # getting-started
-    - Overview of DesignSafe: ____ # overview
+  - Getting Started with DesignSafe:
+    - Overview of DesignSafe: getting-started/overview.md
     - Managing Your Account: ____ # manageaccount
     - Managing Your Data: ____ # managedata
   - DesignSafe Data Depot: # datadepot
