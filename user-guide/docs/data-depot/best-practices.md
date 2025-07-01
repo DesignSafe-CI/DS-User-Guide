@@ -1,16 +1,12 @@
-### Best Practices for Data Curation and Publication 
+# Best Practices for Data Curation and Publication 
 
-#### What is Data Curation?  
-
-### 
+## What is Data Curation?  
 
 Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication [FAIR](https://www.go-fair.org/fair-principles/) and assuring that it will be useful for generations to come.
 
 Step by step data curation instructions can be found in the [Steps to Curate and Publish your Datasets](https://www.designsafe-ci.org/user-guide/curating/guides/),  and we strongly recommend  following the onboarding instructions in the My Project curation and publication interface. [Virtual Office Hours](https://github.com/DesignSafe-CI/DS-User-Guide/blob/mesteva-datadepotrepo-updates/user-guide/docs/curating/bestpractices.md#nheri-virtual-office-hours) twice a week and [Help tickets](https://www.designsafe-ci.org/help/submit-ticket/) are available for additional help. The [DDR Policies](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.jcgpuqc6jitr) communicate requirements for managing and publishing data and general curation best practices are highlighted below.
 
-#### Data Quality 
-
-### 
+## Data Quality 
 
 Data quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, data and metadata quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
 
@@ -35,9 +31,7 @@ Data quality involves ensuring the accuracy, completeness, consistency, and reli
 
   
 
-##### AI-Ready Data Quality
-
-### 
+### AI-Ready Data Quality
 
 AI Ready data quality  is about ensuring data is clean, organized, structured, unbiased, and includes necessary contextual information to support AI workflows effectively leading to secure and meaningful outcomes. Overall, it points to achieving research reproducibility. DDR's policies and best practices cover many of the requirements to publish AI ready data, and we notice via citations that many types of published datasets in DDR are used in AI applications. There are additional recommendations for datasets specifically created to train particular ML models and or benchmarks and testbeds to be used in many applications. In those cases, beyond following all the applicable policies and best practices to publish a quality dataset, researchers should also:
 
@@ -60,11 +54,9 @@ Massey, C., D. Townsend, B. Rosser, R. Morgenstern, K. Jones, B. Lukovic, J. Dav
 
   
 
-#### Curating Various Types of Research Data
+## Curating Various Types of Research Data
 
-##### Proprietary Formats
-
-### 
+### Proprietary Formats
 
 Many instruments used in natural hazards research involve proprietary file formats. Many of those files can be converted to open formats within their corresponding software prior to uploading to DDR.  In turn, Excel and Matlab are proprietary file formats that are frequently used in this community for analysis purposes. Instead of Excel spreadsheet files, it is best to publish data in CSV format so it can be used by different software. However, in some cases conversion may distort the data structures and thus the files cannot be converted. Always retain an original copy of any structured data before attempting conversions, and check between the two for fidelity. Additionally, it is possible to upload and publish both the proprietary and the converted version in the DDR, especially if you consider that publishing with a proprietary format is convenient for data reuse.
 
@@ -75,33 +67,25 @@ When publishing proprietary files that are ubiquitous in the field, please refer
 *   [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
     
 
-##### Compressed Data
-
-### 
+### Compressed Data
 
 Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and making sense of the published data and the repository. If uploading compressed files to My Data, it is possible to unzip it using the extraction [utility](https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1) available in the workspace before copying data to My Project for curation and publication.
 
-##### Simulation Data
-
-### 
+### Simulation Data
 
 When curating and publishing simulation datasets researchers should follow this [best practices document](https://doi.org/10.17603/ds2-wsqp-fw44). The document addresses the needs and recommendations of the numerical modeling community, and is informed by the experience of engineers that  conduct simulations. These best practices focus on attaining published datasets with precise descriptions of the simulation' design, access to the software used, and when possible, the complete publication of inputs and all outputs. Tying these pieces together requires documentation to understand the research motivation, origin, processing, and functions of the simulation dataset in line with FAIR principles. 
 
-Geospatial Data
+### Geospatial Data
 
 We encourage the use of open Geospatial data formats. Within the Data Depot [Tools and Applications](https://www.designsafe-ci.org/user-guide/analysis/) we provide open source software for users to share and analyze geospatial data. [QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis/) accommodates most open format datasets, and [HazMapper](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/hazmapper/) is capable of visualizing geo-tagged photos and GeoJSON files. To access this software, users should create an account in DesignSafe.
 
 Understanding that ArcGIS software is widespread in this community, it is possible to upload both proprietary and recommended geospatial data formats in the DDR. When publishing feature and raster files, it is important to make sure that all the relevant files for reuse–such as the projection and header files are included in the publication. For example, for shapefiles it is important to publish all .shp (the file that contains the geometry for all features), .shx (the file that indexes the geometry) and .dbf (the file that stores feature attributes in a tabular format) files.
 
-##### Point Cloud Data
-
-### 
+### Point Cloud Data
 
 It is recommended to avoid publishing proprietary point cloud data extensions. Instead, users should consider publishing post-processed and open format data such as las or laz files. In addition, point cloud data publications may be very large and therefore of difficult access if not displayed on a map. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a Potree readable format for visualization in DesignSafe.
 
-##### Jupyter Notebooks
-
-### 
+### Jupyter Notebooks
 
 As you plan for publishing a Jupyter Notebook, please consider the following issues:
 
@@ -112,9 +96,9 @@ As you plan for publishing a Jupyter Notebook, please consider the following iss
 3.  Jupyter Notebooks rely on packages that are used to develop them (e.g., numpy, geopandas, ipywidgets, CartoPy, Scikit-Learn). For preservation purposes, it is important to publish a requirements file including a list of all packages and their versions along with the notebook as a metadata file.
     
 
-#### Organizing and Naming Files
+## Organizing and Naming Files
 
-### The DDR data models  provide categories for users to organize their data in a standardized way. Categories highlight the main components of the dataset in relation to the research method used. Each category has a form that must be filled with metadata to describe and represent its characteristics, and there are onboarding instructions on what kind of information is suitable for each metadata field. Once you have categorized the files do not make changes to categorized files through an SSH connection or through Globus. If you need to, please remove the category, deselect the files, and start over.
+The DDR data models  provide categories for users to organize their data in a standardized way. Categories highlight the main components of the dataset in relation to the research method used. Each category has a form that must be filled with metadata to describe and represent its characteristics, and there are onboarding instructions on what kind of information is suitable for each metadata field. Once you have categorized the files do not make changes to categorized files through an SSH connection or through Globus. If you need to, please remove the category, deselect the files, and start over.
 
 Under each category, corresponding files are represented as a list to facilitate accessibility of the dataset. However, curation of large datasets may require further organization of files into folders, which can be done prior to uploading the data or in My Project. In doing so it is best to avoid extensively nested folders, as browsing through folder hierarchies on the web slows the computer and confuses the user as to the location of the files. 
 
@@ -153,9 +137,7 @@ General recommendations and examples for good folder and file naming conventions
     
 *   Do not repeat filenames or folder names across different experiments, collections and missions, or simulations, as this is confusing for other users. Always include another piece of information to distinguish files and folders across groupings. 
 
-#### Recommended File Formats
-
-### 
+## Recommended File Formats
 
 For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats. Below is an adaptation of the list of recommended formats for data and documentation by [Stanford Libraries.](https://guides.library.stanford.edu/data-best-practices/format-files) For those available, we include a link to the  [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) which are peer-reviewed documents that can be used as guidelines to curate research data:
 
@@ -182,23 +164,17 @@ For long-term preservation and interoperability purposes, we recommend and promo
 *   Seismology: SEED
     
 
-#### Tagging
-
-### 
+## Tagging
 
 Users can tag folders and  files for ease of data comprehension and reuse by others. While tagging is not required,  we recommend it because it helps others to identify file contents in the dataset landing page. The list of tags available are agreed upon terms contributed by experts in the field. If the tags available do not apply, feel free to add custom tags, and you may also submit tickets informing the curation team about the need to incorporate them in the list.  Using tags to clarify the file function is also a way of avoiding excessive folder nesting.
 
   
 
-#### Writing Helpful Titles, Keywords, and Descriptions
-
-### 
+## Writing Helpful Titles, Keywords, and Descriptions
 
 Well-written titles, keywords, and descriptions are key for understanding, discovery, and marketing of your research. Here are some tips to craft ones:
 
-##### Project Level Titles
-
-### 
+### Project Level Titles
 
 Except for the data type "Other," the Data Depot Repository (DDR) requires titles at both the project level and the dataset level (mission, experiment, simulation, hybrid simulation). The dataset level title serves as the primary citation title, while the project title functions as a complementary secondary title. The citation format is shown below:
 
@@ -208,9 +184,9 @@ Example Citation:
 
 Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt, J. Hubler, C. Castro-Bolinaga, A. Schueller, W. Zhan, M. Haefeli, S. Burghardt, M. Wondolowski, S. Holberg, M. Hassan, J. Parker, J. Laurel-Castillo, L. Eggensberger, E. Nichols, H. Herndon, P. Wang, M. Olabarrieta Lizaso, B. Raubenheimer, Y. Hashash, S. ADUSEI, N. Jafari (2025). "NEER/GEER: Hurricanes Helene & Milton Dataset", in Multidisciplinary Pre, During and Post Storm Data Collection. DesignSafe-CI. [https://doi.org/10.17603/ds2-m8h3-5802](https://doi.org/10.17603/ds2-m8h3-5802)
 
-##### Project Level Titles
+### Project Level Titles
 
-### *   Remember that this is the sub-title of the dataset citation.
+*   Remember that this is the sub-title of the dataset citation.
     
 *   Keep titles short, between 50 and 60 characters long.
     
@@ -222,9 +198,9 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
     
 *   Avoid using or spelling out acronyms. 
 
-##### Dataset Level Titles
+### Dataset Level Titles
 
-### *   Remember that this is the title that will be featured in the citation. 
+*   Remember that this is the title that will be featured in the citation. 
     
 *   Keep titles short,  between 50 and 60 characters long.
     
@@ -236,9 +212,9 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
     
 *   Avoid using or spelling out acronyms. 
 
-##### Keywords
+### Keywords
 
-### *   Remember that other researchers use keywords to find datasets in the Data Depot or online. 
+*   Remember that other researchers use keywords to find datasets in the Data Depot or online. 
     
 *   When applying keywords, researchers must think about how others would search for this particular dataset.
     
@@ -249,15 +225,13 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
 
 Consult the CONVERGE [check sheet](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdoi.org%2F10.17603%2Fds2-swvc-sb26&data=05%7C02%7C%7C1b416aed89164d4c732208dd15356da6%7C31d7e2a5bdd8414e9e97bea998ebdfe1%7C0%7C0%7C638690041410632335%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mfzeZFnF2WjcJA9ePOq6h%2BqjYSZAeSS1H77VDO7g4bk%3D&reserved=0) for guidance in choosing helpful keywords. 
 
-##### Descriptions
-
-### 
+### Descriptions
 
 Except for Data type "Other", DesignSafe requires descriptions at the project level and at the dataset level (mission, experiment, simulation, hybrid simulation). Both descriptions are complementary. The project level description addresses the high level objectives of the research, who participates, why the research is unique, how many datasets will be published and who will benefit from it. The dataset level description focuses on the scope and content of the dataset and how it was obtained. Below are general recommendations that apply to both descriptions.  
 
 \*Minimum 200 words, max 300 for each level
 
-Project level descriptions:
+### Project level descriptions:
 
 *   Begin with a general statement that provides context to the study by which the dataset was created (e.g., The system under investigation…). 
     
@@ -276,7 +250,7 @@ Project level descriptions:
 *   Avoid using acronyms if possible. Spell out the full acronym if you must.
     
 
-Dataset level descriptions:
+### Dataset level descriptions:
 
 *   Datasets should be described as a standalone research output, so they can be understood independently from related research products such as a published paper or research code.Focus on describing the dataset. You may begin the text with "This dataset…"
     
@@ -296,19 +270,13 @@ Dataset level descriptions:
     
 *   Avoid using acronyms if possible. Spell out the full acronym if you must.
     
+## Reusing and Citing Resources in the Datasets Landing Pages
 
-  
-  
-
-#### Reusing and Citing Resources in the Datasets Landing Pages
-
-### 
-
-Reusing Data and Software 
+### Reusing Data and Software
 
 In their projects, researchers frequently reuse data as input files, for validation, or to integrate with the data that they collect. They also reuse open software and may modify it for their purposes. To make sure that data and software can be reused, modified, and shared appropriately, researchers should always look into and proceed according to what is stated in the resource license. Licenses are standard ways for content creators to grant permissions to others to reuse their work under certain conditions. The license will, for example, indicate if the creators want to be attributed with a citation. In that regard, it is a good practice to always provide the citation of the software and data that was reused, even if the author does not require it. This is because authorship is part of the resource's provenance and to give credit to the creators.
 
-Citing Papers and Reused Data and Software
+### Citing Papers and Reused Data and Software
 
 DDR offers possibilities to cite different types of resources that provide context, cite, or were used to create a new data publication.  Located in the curation forms, those are:
 
@@ -334,9 +302,9 @@ Note that:
 
   
 
-#### Rights
+## Rights
 
-### DDR publishes data and other  types of materials, some of which such as reports, presentations, and learning materials are protected under the U.S. Copyright law. 
+DDR publishes data and other  types of materials, some of which such as reports, presentations, and learning materials are protected under the U.S. Copyright law. 
 
 Regarding data, the US Copyright Office considers that information that is discovered as opposed to created does not have copyrights. This applies to a majority of datasets published in DDR which are conceived as a collection of facts. 
 
@@ -344,9 +312,7 @@ Data may not, however, be only facts. That could be the case of certain types of
 
 As an open repository committed to responsible access, we offer different licenses under which authors can share their data  publicly, and establish the conditions in which it can be reused by others. Options offered in the DDR are Creative Commons licenses (with attribution or public domain)  and Open Data licenses (with and without attribution). The first ones involve creative work under copyright law, and the latter are designed specifically for data. All licensing choices in DesignSafe involve the least restrictive conditions under which data and works can be shared and reused.  In general, any creative work such as papers, reports, presentations, social science research instruments, learning objects,  and posters can be shared under a Creative Commons license while for data it is best to choose an Open Data license. When consulting with our community, most expressed that they want to be attributed, which means that reusers of data should add the dataset citation in the reference section of the papers they publish using the data. Please refer to the documentation in Licenses, and visit Virtual Office Hours to discuss any doubts in choosing the right license with the data curator.  
 
-#### Amends and Versioning
-
-### 
+## Amends and Versioning
 
 Once a dataset is published, users can amend or version their data publications. Amends involve correcting certain metadata fields that do not incur changes to the existing data files. Versioning involves amends and or changes to the data. These actions can be performed by the authors through My Project. 
 
