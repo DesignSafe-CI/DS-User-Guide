@@ -1,4 +1,4 @@
-# Manage Data
+# Managing Your Data
 
 ## Data Management Plan Template { #data-management-plan }
 
