@@ -22,7 +22,7 @@ DesignSafe including DDR are hosted at the [Texas Advanced Computing Center (TAC
 
 An interdisciplinary repository team carries out ongoing design, development and day-to-day operations, gathering requirements and discussing solutions through formal monthly and bi-weekly meetings, and maintaining regular communications with members of the network, including monthly meetings with the Experimental Facilities, RAPID, and CONVERGE staff. Based on these fluid communications, the RT designs functionalities, researches and develops best-practices, and implements agreed-upon solutions. The figure below shows the current formation of the repository team, including their expertise.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXffGhgFFmCvmm1rXMYSkhwcSq7srviB2r_Vvm8wDJv5u5eYoxGVD7wtNqgK74opTVy_JDV5DWQMVfzv8S6R5G4dcAmBwoubkWc8jsjjxYn57h8KvadKUeLWp5GuBy-ujoRwi4zWsw?key=5Dna0b-2yhoGiwcpYmzxUA)
+![DesignSafe Data Depot Team Organization](./imgs/team-org.png)
 
 Formal mechanisms are in place for external evaluators to gather feedback and conduct structured assessments, in the form of usability studies and yearly user surveys, to ensure that the repository is meeting the community’s expectations and needs. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. All DDR activities are reported to the National Science Foundation on a quarterly and annual basis in terms of quantitative and qualitative progress.
 
