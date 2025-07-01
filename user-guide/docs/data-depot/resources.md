@@ -3,26 +3,26 @@
 ## Frequently Asked Questions
 
 !!! note "Content Uncertain"
-    > Should this introduce the F.A.Q. and/or link to it?
+    Should this introduce the F.A.Q. and/or link to it?
 
 ## Data Management Plan
 
-Depositing your data and other resources such as documentation and research software in the DDR meets NSF requirements for data management. See our [Data Management Plan](https://github.com/DesignSafe-CI/DS-User-Guide/blob/mesteva-datadepotrepo-updates/user-guide/docs/managingdata/#data-management-plan-guidance).
+Depositing your data and other resources such as documentation and research software in the DDR meets NSF requirements for data management. See our [Data Management Plan](/user-guide/getting-started/manage-data#data-management-plan).
 
 ## Data and Intellectual Property
 
 !!! note "Content Uncertain"
-    > Should this introduce the Support and Contact Information and/or link to it?
+    Should this introduce the Support and Contact Information and/or link to it?
 
 ## Support and Contact Information
 
 !!! note "Content Uncertain"
-    > Should this introduce the Support and Contact Information and/or link to it?
+    Should this introduce the Support and Contact Information and/or link to it?
 
 ## DesignSafe Office Hours
 
 !!! note "Content Uncertain"
-    > Should this introduce the DesignSafe Office Hours and/or link to it?
+    Should this introduce the DesignSafe Office Hours and/or link to it?
 
 ## Resources for Protected Data
 
@@ -40,12 +40,12 @@ In addition, we suggest that users look into the [Data Curation Primers](https:/
 ## Exemplary Datasets
 
 !!! caution "Needs Review"
-    > Need to review this list now.
+    "Need to review this list now." — M.E.
 
 Below are examples of good organization and description for different dataset types:
 
 !!! note "Formatting Uncertain"
-    > Should this be a nested list, a table, sub-headings and lists?
+    Should this be a nested list, a table, sub-headings and lists?
 
 * Experimental
 * Simulation
