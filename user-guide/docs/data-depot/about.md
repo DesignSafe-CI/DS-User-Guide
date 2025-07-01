@@ -1,7 +1,5 @@
 # About the Data Depot
 
-  
-
 ## Mission
 
 The Data Depot Repository (DDR) is one component of the DesignSafe cyberinfrastructure, which represents a comprehensive research environment that provides cloud-based tools to manage, analyze, understand, and publish critical data for research to understand the impacts of natural hazards. DDR is the platform for curation and publication of datasets generated in the course of natural hazards research. It is an open access repository that enables data producers to safely store, share, organize, and describe research data, and assigns Digital Object Identifiers towards permanent publication and distribution of datasets. The DDR allows data consumers to discover, search for, access, and reuse published data to accelerate research discovery. DDR monitors datasets usage and citations over time to communicate their impact.  DesignSafe is part of the NSF-supported Natural Hazards Engineering Research Infrastructure (NHERI), and aligns with its mission to provide the natural hazards research community with open access, shared-use scholarship, education, and community resources aimed at supporting civil infrastructure prior to, during, and following natural disasters. DesignSafe also supports the broader natural hazards research community that extends beyond the NHERI network.

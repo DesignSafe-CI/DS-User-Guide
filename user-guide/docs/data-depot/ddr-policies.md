@@ -174,7 +174,7 @@ If you are publishing data, such as simulation, reconaissance, or experimental d
 
 \*Recommended for datasets
 
-*   You allow other sto freely share, reuse, and adapt your data/database.
+*   You allow others to freely share, reuse, and adapt your data/database.
     
 *   You expect to be attributed for any public use of the data/database.
     
@@ -194,7 +194,7 @@ If you are publishing papers, presentations, learning objects, workflows, design
 
 Recommended for reports, instruments, learning objects, etc. This license requires attribution.
 
-*   You allow other sto freely share, reuse, and adapt your work.
+*   You allow others to freely share, reuse, and adapt your work.
     
 *   You expect to be attributed for any public use of your work.
     
