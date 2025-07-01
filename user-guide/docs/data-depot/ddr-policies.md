@@ -1,16 +1,16 @@
-### Data Depot Repository (DDR) Policies
+# Data Depot Repository (DDR) Policies
 
-#### Changes to DDR Policies
+## Changes to DDR Policies
 
 DDR policies are regularly reviewed and updated as needed. Users will be notified in advance when policies will be updated.
 
-#### Continuity of Access
+## Continuity of Access
 
 As an NSF funded project, DesignSafe is subject to renewal every 5 years. As a requirement of the current award, there is a contingency plan to transfer all the DDR data, metadata, and corresponding DOIs to a new awardee - should one be selected - without interruption of services and access to data. The portability plan is confirmed and updated in the Operations Project Execution Plan that we present annually to the NSF.
 
 If the NSF and/or other community stakeholders discontinue the NHERI program or a subsequent data repository, we will continue to preserve the published data and provide access through TACC, DesignSafe’s host at the University of Texas at Austin. TACC has formally committed to preserving the data with landing pages and corresponding DOIs indefinitely. TACC’s User Services team and curators will attend to users’ requests and help tickets related to the data. Because TACC is constantly updating its high-performance storage resources and security mechanisms, data will be preserved at the same preservation level that is currently available. Since DOIs are supported through the University of Texas Libraries, and web services and data reside within TACC’s managed resources, access to data will not be interrupted. [Fedora](https://fedorarepository.org/) is now part of TACC’s software suite and we will continue its maintenance as our preservation repository. Like all systems at TACC, we will revisit its versioning and continuity and make decisions based on state-of-the-art practices. If resources become too constrained, TACC will continue to keep an archive copy on [Ranch](https://tacc.utexas.edu/systems/ranch/), with landing pages on online storage, for as long as TACC remains a viable entity.
 
-#### Data Embargoes
+## Data Embargoes
 
 A data embargo is a period of time during which a dataset has a DOI but is not made broadly accessible, awaiting review and acceptance by a journal publication. Many researchers request a DOI (digital object identifier) for their dataset prior to its publication to include in papers submitted to journals for review. 
 
@@ -25,7 +25,7 @@ DDR continues working with users to:
 *   Provide amends and versioning so that prompt changes can be made to data and metadata upon receiving feedback from the reviewers or at any other time.
     
 
-#### Data Preservation
+## Data Preservation
 
 Data preservation encompasses activities carried out by all the stakeholders involved in the lifecycle of data, from data management planning to data curation, publication and long-term archiving. We have [guidance and functionalities](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.yd85kbcdlgs9)  in place to address the preservation of data prior to and once data  is submitted to the DDR.
 
@@ -45,7 +45,7 @@ While at the moment DDR is committed to preserve data in the format in which it 
 
 The DDR has been operational since 2016 and is currently supported by the NSF from October 1st, 2020 through September 30, 2025. During this award period, the DDR will continue to preserve the natural hazards research data published since its inception  as well as supporting preservation of and access to legacy data and the accompanying metadata from the Network for Earthquake Engineering Simulation (NEES), a NHERI predecessor, dating from 2005. The legacy data comprising 33 TB, 5.1 million files,2 and their metadata was transferred to DesignSafe in 2016 as part of the conditions of the [original grant](https://www.nsf.gov/pubs/2014/nsf14605/nsf14605.htm) . See NEES data [here](https://www.designsafe-ci.org/data/browser/public-legacy/). Our [Continuity of Access Policy](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.v8cx1phb2nth) presents the preservation and access alternatives that can be implemented at the end of the award period.
 
-#### Dataset Quality
+## Dataset Quality
 
 DDR is a self-publication repository which means that authors are ultimately responsible for the quality of the dataset that they share with the world. However,  we understand that producing and sharing quality datasets  is a collaborative effort between researchers and the DDR and we partner with users to publish [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, and Reusable) datasets. In consultation with the larger NHERI network we are continuously observing and defining [best practices](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.yd85kbcdlgs9) that emerge from our community's understanding and standards. These are communicated through onboarding instructions in the curation and publication pipeline, our policies and  best practices recommendations,  our guidance during virtual office hours, and through our help ticketing system. 
 
@@ -67,7 +67,7 @@ Meeting the dataset quality requirement: In cases in which the authors do not co
 
   
 
-#### Data Publication Agreement
+## Data Publication Agreement
 
 This agreement must be read and accepted by the user prior to publishing a dataset:
 
@@ -98,7 +98,7 @@ Data Types
 
 We accept engineering and social and behavioural sciences datasets, reports, research software and presentations derived from research conducted in the context of natural hazards regarding the impacts of wind, earthquake, storm surge, wildfires, and sustainable materials management. Specifically in the area of engineering, the primary focus is on data generated through simulation, hybrid simulation, experimental, machine learning, and field research methods. In social and behavioural sciences (SBE), accepted datasets and research instruments encompass the study of the human dimensions of hazards and disasters and we expanded our focus to include datasets related to COVID-19. Users who submit datasets that do not match the accepted data types will be notified whenever possible before publication so that they can remove their data. If a noncompliant dataset is published with a DOI, we will abide by the [Tombstone Policy](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.253ecanf6gfm), and a curator will work with the user to find a repository adequate for their needs. As the field and the expertise of the community evolves we may expand the data types accepted.
 
-#### Data Usage Agreement
+## Data Usage Agreement
 
 Users who access, preview, download or reuse data and metadata from the DesignSafe Data Depot Repository (DDR) agree to the following norms. If some or any of these norms are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
@@ -130,7 +130,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
   
   
 
-#### Dataset Sizes
+## Dataset Sizes
 
 Currently we do not impose restrictions on the size of the datasets that can be published. This approach recognizes the necessity of comprehensive data collection and the increasingly large sizes of datasets in natural hazards research. Largest published datasets in DDR are ~5 TB. However, we recommend researchers to be selective and to publish data that is relevant to research reproducibility and that is adequately organized and described so that other researchers interested in reusing the data can find what they need. For datasets larger than 1 TB we suggest that users include research software (ex. Jupyter Notebook) to access, visualize, or subset the dataset. 
 
@@ -142,7 +142,7 @@ The DDR abides by and promotes the [Joint Declaration of Data Citation Principle
 
 The expectations of DDR and the responsibilities of users in relation to compliance with data citation are included in the DesignSafe Terms of Use, the [Data Usage Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.ng2qd9najkd9), and the [Data Publication Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.nkcxboxktn36). In the event that we note or are notified that citation policies are not followed, we will ask the authors to include the corresponding citations, all of which is possible after publication by amending the publicationHowever, since it is not easy to know with certainty if users comply with data citation, our approach is to educate our community by reinforcing citation in a positive way. For this we implement outreach strategies to stimulate data citation. Through FAQs, Q&As, webinars, and via emails, we regularly train our users on data citation best practices. And, by tracking and publishing citation  information we demonstrate the value of the datasets and further stimulate publishing and citing data.
 
-#### File Formats
+## File Formats
 
 The natural hazards research community utilizes diverse research methods to generate and record data in open and proprietary formats, and there is continuous [update of equipment](https://rapid.designsafe-ci.org/equipment-portfolio/) used in the field. To encourage data publication DDR does  not have a hard file format restriction policy but we ask our users to convert proprietary file formats to open formats when possible.
 
@@ -158,7 +158,7 @@ To further describe datasets, the curation interface offers the possibility to a
 
 Due to variations in their methodology, researchers may not need all the categories and terms available to describe and represent their datasets. We have identified a core set of required metadata that allows proper data representation, explainability, and citation. If required elements are not  completed during the curation and publication process, the pipeline will not proceed.
 
-#### Licenses
+## Licenses
 
 DDR provides users with licensing options to accommodate the variety of research outputs that are published on the DDR including datasets, reports, survey instruments, presentations, learning materials, and research software. The licenses were selected after discussions within our community. 
 
@@ -218,7 +218,7 @@ DDR requires that users reusing data from others in their projects do so in comp
 
 The expectations of DDR and the responsibilities of users with respect to licenses are included in the [DesignSafe Terms of Use](https://www.designsafe-ci.org/account/terms-conditions/), the [Data Usage Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.ng2qd9najkd9), and the [Data Publication Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.nkcxboxktn36). In the event that we note or are notified that the licensing policies and best practices are not followed, we will notify the user of the infringement and will apply the [Tombstone](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.253ecanf6gfm) policy.
 
-#### Metadata Schema and Requirements
+## Metadata Schema and Requirements
 
 For each project type, the metadata elements including those that are required and recommended are shown below. Consult the full [metadata dictionaries](https://www.designsafe-ci.org/user-guide/dictionary/) for more details.
 
@@ -571,7 +571,7 @@ Other
 *   Keywords
     
 
-#### Personal Data Privacy
+## Personal Data Privacy
 
 This policy explains what information DesignSafe collects through the use of DDR and how we treat that information. While the DDR website may contain links to other websites, applications and/or software, we are not responsible for the privacy practices of these third parties. Users should read through their practices before clicking or using them.
 
@@ -587,7 +587,7 @@ DesignSafe only uses first-party cookies for authentication. We use cookies so t
 
 Users are required to use [Multi-Factor Authentication (MFA)](https://docs.tacc.utexas.edu/basics/mfa/) as an additional security measure when logging to DDR. DDR has security measures to prevent loss of the data and information. See the [DesignSafe Cyber Security Policy](https://www.designsafe-ci.org/user-guide/tools/advanced/cybersecurity/) for more details.
 
-#### Project Types / Data Models
+## Project Types / Data Models
 
 To publish their datasets users should select a project type that best represents the research method that they used to generate their dataset. Project types facilitate data curation and enable a uniform publication experience and representation of natural hazards datasets. Project types are based on five data models encompassing: experimental, simulation, field research, hybrid simulation, research software, and other datasets as well as lists of specialized vocabulary.  Loosely based on the [Core Scientific Metadata Model](http://icatproject-contrib.github.io/CSMD/), these models were designed in collaboration with natural hazards researchers considering the [community's use of different research methods and workflows](https://www.youtube.com/watch?v=iYzvYi-SY8Q), and [the need to document the processes](https://www.youtube.com/watch?v=xUyFJwZmyqM) from which data derives using professional terms. 
 
@@ -595,7 +595,7 @@ Data models are implemented as interactive functions in the DDR web interface an
 
 Data models are reviewed and improved upon regularly for changes or additions. 
 
-#### Protected Data
+## Protected Data
 
 Protected data are information subject to regulations under relevant privacy and data protection laws, such as [HIPAA](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html), [FERPA](https://studentprivacy.ed.gov/faq/what-ferpa) and [FISMA](https://csrc.nist.gov/projects/risk-management/detailed-overview), as well as human subjects data containing [Personally Identifiable Information (PII)](https://security.utexas.edu/policies/irusp#definitions) and data  containing [sensitive information](https://en.wikipedia.org/wiki/Information_sensitivity). 
 
@@ -633,17 +633,17 @@ In DDR, data with granular geographical locations including images that capture 
 
 It is the user’s responsibility to adhere to these policies and the standards and resolution of their IRB. DesignSafe will not be held liable for any violation regarding improper publication of protected data. User uploads that we are notified of that violate this policy may be removed from the DDR with or without notice, and the user may be asked to suspend their use of the DDR and other DesignSafe resources. We may also contact the user’s IRB and/or other respective institution with any cases of violation, which could incur in an [active audit](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/institutional-review-boards-frequently-asked-questions#IRBProcedures) of the research project, so users should review their institution’s policies regarding publishing with protected data before using DesignSafe and DDR. For clarification purposes researchers should contact DDR through a [help ticket](http://www.designsafe-ci.org/help/new-ticket) or join [curation office hours](https://www.designsafe-ci.org/learning-center/training/) any time across the curation of this type of data .
 
-#### Publication Granularity  
+## Publication Granularity  
 
 Based on the way in which research methods and projects are implemented in the natural hazards community, the DDR’s data model structure considers  a research project type at the top level, and the possibility to publish one or more dataset within each project. The exception to this policy is  project type Other which allows only one dataset publication with a DOI. In addition users can publish Research Software and Document Collections including reports and survey instruments, as stand alone publications with their own DOI. The former within any project type, and the latter only within the Field Research type. 
 
 To enhance contextual information by pointing to the relations of the published datasets, users can link between internal and external datasets, corresponding publications and software, and other references through the fields Related Work and Referenced Data and Software. 
 
-#### Subsequent Publishing
+## Subsequent Publishing
 
 DDR enables  publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources ( software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
 
-#### Timely Data Publication
+## Timely Data Publication
 
 As an NSF-funded platform we expect researchers to publish in a timely manner. Recommended time limits for publishing different project types were crafted considering time required for curating the data as well as the urgency with which field research datasets are required by users.
 
@@ -658,6 +658,6 @@ Recommended Publishing Timeline for Different Data Types
 
 Guidelines specific to RAPID reconnaissance data can be found [here](https://rapid.designsafe-ci.org/media/filer_public/b3/82/b38231fb-21c9-41f8-b658-f516dfee87c8/rapid-designsafe_curation_guidelines_v3.pdf). 
 
-#### Tombstone
+## Tombstone
 
 A tombstone is a landing page that describes a dataset that has been removed from public access. Removal of datasets can be caused because of research retraction, because the data is not compliant with the accepted Data Types, or upon curation review because it does not meet with one or more Curation Policy or Best Practices. In the latter case the curator reviewing the dataset will first alert the author/s to improve their publication within 30 days, upon which the dataset will be tombstoned. A tombstoned landing page contains the data citation and the DOI, but the dataset is not accessible.
