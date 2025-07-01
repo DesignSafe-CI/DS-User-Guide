@@ -46,8 +46,8 @@ nav:
     - Transfering Your Data: data-depot/transferring.md
     - Steps to Curate and Publish your Datasets: data-depot/step-by-step.md
     - Data Depot Repository (DDR) Policies: data-depot/ddr-policies.md
-    - Best Practices for Data Curation and Publication: ____ # best-practices
-    - Data Dissemination and Impact: ____ # dissemination-and-impact
+    - Best Practices for Data Curation and Publication: data-depot/best-practices.md
+    - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
     - Resources for Users: ____ # resources
   - Tools and Apps:
     - Analysis Apps: analysis.md
