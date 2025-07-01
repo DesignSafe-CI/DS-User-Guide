@@ -37,33 +37,18 @@ plugins:
   - include-markdown
 
 nav:
-  - DesignSafe Essentials:
-    - Documentation Overview: overview.md
-    - Getting Started: index.md
-    - Account Help: account-help.md
-    - Training Resources: training.md
-
-  - Data Depot:
-    - Overview: datadepot.md
-    - Managing Data:
-      - Overview: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
-      - Data Management Plan: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Data Depot Repository:
-      - About: datadepotrepo/about.md
-      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Curating &amp; Publication:
-        - Guides: curating/guides.md
-        - Frequently Asked Questions: curating/faq.md
-      - Best Practices: curating/bestpractices.md
-      - Metrics Documentation: curating/metrics.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
-    - Recon Portal:
-      - Recon Portal User Guide: tools/recon.md
-
+  - Getting Started with DesignSafe: # getting-started
+    - Overview of DesignSafe: ____ # overview
+    - Managing Your Account: ____ # manageaccount
+    - Managing Your Data: ____ # managedata
+  - DesignSafe Data Depot: # datadepot
+    - About the Data Depot: # about
+    - Transfering Your Data: ____ # transfering
+    - Steps to Curate and Publish your Datasets: ____ # stepbystep
+    - Data Depot Repository (DDR) Policies: ____ # ddrpolicies
+    - Best Practices for Data Curation and Publication: ____ # bestpractices
+    - Data Dissemination and Impact: ____ # dissemination-and-impact
+    - Resources for Users: ____ # resources
   - Tools and Apps:
     - Analysis Apps: analysis.md
     - Jupyter: tools/jupyterhub.md
