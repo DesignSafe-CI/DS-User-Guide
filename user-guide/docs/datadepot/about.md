@@ -2,7 +2,7 @@
 
   
 
-#### Mission
+## Mission
 
 The Data Depot Repository (DDR) is one component of the DesignSafe cyberinfrastructure, which represents a comprehensive research environment that provides cloud-based tools to manage, analyze, understand, and publish critical data for research to understand the impacts of natural hazards. DDR is the platform for curation and publication of datasets generated in the course of natural hazards research. It is an open access repository that enables data producers to safely store, share, organize, and describe research data, and assigns Digital Object Identifiers towards permanent publication and distribution of datasets. The DDR allows data consumers to discover, search for, access, and reuse published data to accelerate research discovery. DDR monitors datasets usage and citations over time to communicate their impact.  DesignSafe is part of the NSF-supported Natural Hazards Engineering Research Infrastructure (NHERI), and aligns with its mission to provide the natural hazards research community with open access, shared-use scholarship, education, and community resources aimed at supporting civil infrastructure prior to, during, and following natural disasters. DesignSafe also supports the broader natural hazards research community that extends beyond the NHERI network.
 
@@ -10,15 +10,15 @@ History
 
 The DDR has been in operation since 2016 and is currently supported by NSF through 2025. The DDR preserves natural hazards research data published since its inception, and also provides access to legacy data dating from about 2005. These legacy data were generated as part of the NSF-supported Network for Earthquake Engineering Simulation (NEES), a predecessor to NHERI. Legacy data and metadata belonging to NEES were transferred to the DDR for continuous preservation and access. View the published NEES data [here](https://designsafe-ci.org/data/browser/public/nees.public).
 
-#### Governance
+## Governance
 
 Policies for the DDR are driven by the Natural Hazards  scientific community and informed by best practices in library and information sciences. The DDR operates under the leadership of the DesignSafe Management Team, which establishes and updates policies, evaluates and recommends best practices, oversees its technical development, and prioritizes activities. The broad organizational structure under which the DDR operates is shown [here](https://designsafe-ci.org/about/designsafe/).
 
-#### Infrastructure
+## Infrastructure
 
 DesignSafe including DDR are hosted at the [Texas Advanced Computing Center (TACC)](https://tacc.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/). TACC provides access to high performance computing, visualization, and large scale data analysis computational resources, as well as to reliable large scale data management and storage solutions. Their cloud and portal services further increase the ways in which DesignSafe users can access data and computational resources to advance their work.
 
-#### Team
+## Team
 
 An interdisciplinary repository team carries out ongoing design, development and day-to-day operations, gathering requirements and discussing solutions through formal monthly and bi-weekly meetings, and maintaining regular communications with members of the network, including monthly meetings with the Experimental Facilities, RAPID, and CONVERGE staff. Based on these fluid communications, the RT designs functionalities, researches and develops best-practices, and implements agreed-upon solutions. The figure below shows the current formation of the repository team, including their expertise.
 
@@ -26,7 +26,7 @@ An interdisciplinary repository team carries out ongoing design, development and
 
 Formal mechanisms are in place for external evaluators to gather feedback and conduct structured assessments, in the form of usability studies and yearly user surveys, to ensure that the repository is meeting the community’s expectations and needs. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. All DDR activities are reported to the National Science Foundation on a quarterly and annual basis in terms of quantitative and qualitative progress.
 
-#### Community Norms
+## Community Norms
 
 Within the broader conditions of use for DesignSafe we have established a set of Community Norms specific for DDR which have to be agreed upon at the point of registering an account on the platform. These norms, highlighting our existing policies, are the following:
 
@@ -64,7 +64,7 @@ For users using data published in DDR:
 
   
 
-#### Leaving Data Feedback
+## Leaving Data Feedback
 
 Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is transformed into a ticket and forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the datasets landing pages. However, leaving the feedback in the form allows tracking of the issues raised. The following are examples of feedback questions and concerns:
 
