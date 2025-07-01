@@ -2,7 +2,7 @@
 
 ## Frequently Asked Questions
 
-!!! note "Content Uncertain"
+!!! caution "Content Uncertain"
     Should this introduce the F.A.Q. and/or link to it?
 
 ## Data Management Plan
@@ -11,17 +11,17 @@ Depositing your data and other resources such as documentation and research soft
 
 ## Data and Intellectual Property
 
-!!! note "Content Uncertain"
+!!! caution "Content Uncertain"
     Should this introduce the Support and Contact Information and/or link to it?
 
 ## Support and Contact Information
 
-!!! note "Content Uncertain"
+!!! caution "Content Uncertain"
     Should this introduce the Support and Contact Information and/or link to it?
 
 ## DesignSafe Office Hours
 
-!!! note "Content Uncertain"
+!!! caution "Content Uncertain"
     Should this introduce the DesignSafe Office Hours and/or link to it?
 
 ## Resources for Protected Data
@@ -44,7 +44,7 @@ In addition, we suggest that users look into the [Data Curation Primers](https:/
 
 Below are examples of good organization and description for different dataset types:
 
-!!! note "Formatting Uncertain"
+!!! caution "Formatting Uncertain"
     Should this be a nested list, a table, sub-headings and lists?
 
 * Experimental
