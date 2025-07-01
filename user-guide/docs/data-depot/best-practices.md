@@ -2,7 +2,7 @@
 
 ## What is Data Curation?  
 
-Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication [FAIR](https://www.go-fair.org/fair-principles/) and assuring that it will be useful for generations to come.
+Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication [FAIR](https://www.go-fair.org/fair-principles/) and ensuring that it will be useful for generations to come.
 
 Step by step data curation instructions can be found in the [Steps to Curate and Publish your Datasets](https://www.designsafe-ci.org/user-guide/curating/guides/),  and we strongly recommend  following the onboarding instructions in the My Project curation and publication interface. [Virtual Office Hours](https://github.com/DesignSafe-CI/DS-User-Guide/blob/mesteva-datadepotrepo-updates/user-guide/docs/curating/bestpractices.md#nheri-virtual-office-hours) twice a week and [Help tickets](https://www.designsafe-ci.org/help/submit-ticket/) are available for additional help. The [DDR Policies](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.jcgpuqc6jitr) communicate requirements for managing and publishing data and general curation best practices are highlighted below.
 
@@ -12,11 +12,11 @@ Data quality involves ensuring the accuracy, completeness, consistency, and reli
 
 *   Check for completeness of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
     
-*   Use quality control methods to review the data for errors or to improve its fitness to the research application. Methods may involve: calibration, validation, normalization, resizing, improved resolution, cleansing, transformation to open formats, noise reduction, sub-sampling, performance testing, consolidation, further documentation, etc. Always include an explanation of the quality control methods you used in the data report or readme file so that other users are aware of the quality control methods employed. 
+*   Use quality control methods to review the data for errors or to improve its fitness to the research application. Methods may involve: calibration, validation, normalization, resizing, improved resolution, cleaning, transformation to open formats, noise reduction, sub-sampling, performance testing, consolidation, further documentation, etc. Always include an explanation of the quality control methods you used in the data report or readme file so that other users are aware of the quality control methods employed. 
     
 *   When publishing tabular data include a data dictionary in the data report to explain the meaning of the column fields. 
     
-*   Data dictionaries are also useful to clarify acronyms, abbreviations or codes for measurements used in your data or documentation..
+*   Data dictionaries are also useful to clarify acronyms, abbreviations or codes for measurements used in your data or documentation.
     
 *   It is possible to publish both raw and curated data. Raw data comes directly from experiment recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data along with their curated data. For those who wish to publish both, carefully consider the necessity of publishing both sets, and how another researcher might use them. Always clarify whether your data is raw or curated in the description, by adding a tag to label the files, or in a data report and include information about the method used to curate it.
     
