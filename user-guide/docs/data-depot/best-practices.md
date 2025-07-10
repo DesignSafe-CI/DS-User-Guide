@@ -8,7 +8,7 @@ Step by step data curation instructions can be found in the [Steps to Curate and
 
 ## Curation Quality 
 
-Data quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
+Curation quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
 
 *   Check for completeness of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
     
