@@ -6,9 +6,9 @@ Data curation involves the organization, description, quality control, preservat
 
 Step by step data curation instructions can be found in the [Steps to Curate and Publish your Datasets](https://www.designsafe-ci.org/user-guide/curating/guides/),  and we strongly recommend  following the onboarding instructions in the My Project curation and publication interface. [Virtual Office Hours](https://github.com/DesignSafe-CI/DS-User-Guide/blob/mesteva-datadepotrepo-updates/user-guide/docs/curating/bestpractices.md#nheri-virtual-office-hours) twice a week and [Help tickets](https://www.designsafe-ci.org/help/submit-ticket/) are available for additional help. The [DDR Policies](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.jcgpuqc6jitr) communicate requirements for managing and publishing data and general curation best practices are highlighted below.
 
-## Data Quality 
+## Curation Quality 
 
-Data quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, data and metadata quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
+Data quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
 
 *   Check for completeness of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
     
@@ -31,9 +31,9 @@ Data quality involves ensuring the accuracy, completeness, consistency, and reli
 
   
 
-### AI-Ready Data Quality
+### AI-Ready Curation Quality
 
-AI Ready data quality  is about ensuring data is clean, organized, structured, unbiased, and includes necessary contextual information to support AI workflows effectively leading to secure and meaningful outcomes. Overall, it points to achieving research reproducibility. DDR's policies and best practices cover many of the requirements to publish AI ready data, and we notice via citations that many types of published datasets in DDR are used in AI applications. There are additional recommendations for datasets specifically created to train particular ML models and or benchmarks and testbeds to be used in many applications. In those cases, beyond following all the applicable policies and best practices to publish a quality dataset, researchers should also:
+AI Ready curation quality  is about ensuring data is clean, organized, structured, unbiased, and includes necessary contextual information to support AI workflows effectively leading to secure and meaningful outcomes. Overall, it points to achieving research reproducibility. DDR's policies and best practices cover many of the requirements to publish AI ready data, and we notice via citations that many types of published datasets in DDR are used in AI applications. There are additional recommendations for datasets specifically created to train particular ML models and or benchmarks and testbeds to be used in many applications. In those cases, beyond following all the applicable policies and best practices to publish a quality dataset, researchers should also:
 
 *   Reference the public model used to train the data in the field Reference Data or Software.  
     
