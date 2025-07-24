@@ -1,16 +1,9 @@
-name: DS User Guide Builds
+name: DS User Guide PPRD Builds
 
 on:
-  workflow_dispatch:
-    inputs:
-      tag_custom:
-        # The tag "pprd" triggers deploy to pprd.designsafe-ci.org.
-        description: 'Custom docker image tag e.g. "pprd"'
-        required: false
-        type: string
   push:
     branches:
-      - main
+      - pprd
 
 jobs:
   docker:
@@ -46,11 +39,11 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
-        name: Build and push
+        name: Build and push PPRD image
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: designsafeci/ds-user-guide:${{ inputs.tag_custom && inputs.tag_custom || 'latest' }},designsafeci/ds-user-guide:${{ steps.vars.outputs.sha_short }},designsafeci/ds-user-guide:${{ steps.vars.outputs.ref_short }}
+          tags: designsafeci/ds-user-guide:pprd,designsafeci/ds-user-guide:${{ steps.vars.outputs.sha_short }},designsafeci/ds-user-guide:${{ steps.vars.outputs.ref_short }}
       -
         name: Post build status in slack
         id: slack
