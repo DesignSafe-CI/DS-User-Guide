@@ -36,10 +36,6 @@
 
 ---
 
-{% include-markdown 'visualization/stko.md' %}
-
----
-
 {% include-markdown 'visualization/taggit-browse-map.md' %}
 
 ---
