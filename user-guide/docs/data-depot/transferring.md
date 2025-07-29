@@ -1,8 +1,7 @@
 # Transferring Your Data
 
-## Large Datasets
-
-## Smaller Datasets
+- Large Datasets
+- Small Datasets
 
 
 
