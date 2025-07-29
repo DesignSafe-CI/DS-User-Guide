@@ -1,4 +1,4 @@
-# Data Depot Repository (DDR) Policies
+# Policies
 
 ## Changes to DDR Policies
 
