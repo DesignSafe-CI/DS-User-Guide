@@ -45,10 +45,10 @@ nav:
     - About the Data Depot: data-depot/about.md
     - Transfering Your Data: data-depot/transferring.md
     - Steps to Curate and Publish your Datasets: data-depot/step-by-step.md
-    - Data Depot Repository (DDR) Policies: data-depot/ddr-policies.md
     - Best Practices: data-depot/best-practices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
     - Resources for Users: data-depot/resources.md
+    - Data Depot Repository (DDR) Policies: data-depot/ddr-policies.md
   - Tools and Apps:
     - Analysis Apps: analysis.md
     - Jupyter: tools/jupyterhub.md
