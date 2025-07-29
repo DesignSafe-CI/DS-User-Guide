@@ -62,33 +62,6 @@ For users using data published in DDR:
 
   
 
-## Leaving Data Feedback
-
-Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is transformed into a ticket and forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the datasets landing pages. However, leaving the feedback in the form allows tracking of the issues raised. The following are examples of feedback questions and concerns:
-
-*   Questions about the dataset that are not answered in the published metadata and or documentation.
-    
-*   Missing documentation.
-    
-*   Questions about the method/instruments used to generate the data.
-    
-*   Questions about data validation.
-    
-*   Doubts/concerns about data organization and or inability to find desired files.
-    
-*   Interest in bibliography about the data/related to the data.
-    
-*   Interest in reusing the data.
-    
-*   Comments about the experience of reusing the data.
-    
-*   Request to access raw data if not published.
-    
-*   Requests to access restricted data if the authors authorize it. 
-    
-*   Issues related to published code that is not working properly.
-    
-*   Congratulations.
 
 ## CoreTrustSeal Certification
 
