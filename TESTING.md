@@ -23,12 +23,12 @@
     ```shell
     poetry install --sync
     ```
-4. Activate project dependencies:\
+4. Activate project dependencies:
     ```shell
     poetry shell
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
-5. Serve the docs:\
+5. Serve the docs:
     ```shell
     mkdocs serve
     ```
