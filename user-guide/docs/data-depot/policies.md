@@ -1,8 +1,8 @@
 # Policies
 
-## Changes to DDR Policies
+## Changes to Policies
 
-DDR policies are regularly reviewed and updated as needed. Users will be notified in advance when policies will be updated.
+Our policies are regularly reviewed and updated as needed. Users will be notified in advance when policies will be updated.
 
 ## Continuity of Access
 
