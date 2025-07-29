@@ -17,7 +17,7 @@
 
 0. Clone this repository onto your machine.
 1. Navigate into your clone of this repo.
-2. Run `bin/tacc-setup.sh` to reproduce files from TACC Docs.
+2. Run `bin/tacc-setup.sh` to reproduce config from TACC Docs.
 3. Install/Update project dependencies:\
     <sup>You should only need to do this after new releases.</sup>
     ```shell
