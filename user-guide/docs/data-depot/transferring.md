@@ -1,22 +1,23 @@
 # Transferring Your Data
 
-*   ## Large Datasets
-    
-*   ## Smaller Datasets
-    
+## Large Datasets
 
-# Data Transfer Tools
+## Smaller Datasets
 
-*   ## Globus
-    
-*   ## Globus CLI
-    
-*   ## Cyberduck
-    
-*   ## Command line
-    
-*   ## Web browser
-    
-*   ## JupyterHub
-    
-*   ## Cloud Storage Services
+
+
+## Data Transfer Tools
+
+### Globus
+
+### Globus CLI
+
+### Cyberduck
+
+### Command line
+
+### Web browser
+
+### JupyterHub
+
+### Cloud Storage Services
