@@ -13,9 +13,8 @@ Curation quality involves ensuring the accuracy, completeness, consistency, and 
 * Researchers that publish large amounts of files (for example as simulation outputs or field research collections) should consider publishing scripts/tools that allow selection/visualization/post-processing of files of interest so users can review and subset  data.
 * When publishing scripts/code, always include a readme file that explains clearly how to use the scripts.
 * Before publishing scripts and notebooks, always make sure your code works properly.
-    
 
-  
+
 
 ### AI-Ready Curation Quality
 
@@ -24,19 +23,18 @@ AI Ready curation quality  is about ensuring data is clean, organized, structur
 * Reference the public model used to train the data in the field Reference Data or Software.  
 * Document in the data report the results of the trained model including the model's performance under the published dataset. If the results are published in a paper, reference the paper in Related Work. 
 * Reference any data if/that was reused to generate the training/benchmark dataset.
-    
 
 The concept is that AI ready data involves showcasing a network of resources that includes: the data, the model and the performance of the model/results. The following are examples of datasets published in DDR that comply with AI readiness.
 
-  
+
 
 Del-Castillo-Negrete, C., B. Pachev, P. Arora, E. Valseth, C. Dawson (2023). "Alaska 1m Surge Events - Nome, Red Dog Dock, Unalakleet (1992 - 2022)", in Alaska Storm Surge Events. DesignSafe-CI. [https://doi.org/10.17603/ds2-4rnb-j321](https://doi.org/10.17603/ds2-4rnb-j321)
 
-  
+
 
 Massey, C., D. Townsend, B. Rosser, R. Morgenstern, K. Jones, B. Lukovic, J. Davidson (2021). "Version 2.0 of the landslide inventory for the Mw 7.8 14 November 2016, Kaikōura Earthquake", in V2.0 Landslide inventory for the Mw7.8 14 November 2016, Kaikōura Earthquake, New Zealand. DesignSafe-CI. [https://doi.org/10.17603/ds2-1ftv-hm22](https://doi.org/10.17603/ds2-1ftv-hm22)
 
-  
+
 
 ## Curating Various Types of Research Data
 
@@ -72,11 +70,8 @@ It is recommended to avoid publishing proprietary point cloud data extensions. I
 As you plan for publishing a Jupyter Notebook, please consider the following issues:
 
 1.  The DesignSafe publication process involves copying the contents of your project at the time of publication to a read only space within the Published projects section of the Data Depot (i.e., this directory can be accessed at NHERI-Published in JupyterHub). Any future user of your notebook will access it in the read-only Published projects section. Therefore, any local path you are using while developing your notebook that is accessing a file from a private space (e.g., "MyData", "MyProjects") will need to be replaced by an absolute path to the published project. Consider this example: you are developing a notebook in PRJ-0000 located in your "MyProjects" directory and you are reading a csv file living in this project at this path: `/home/jupyter/MyProjects/PRJ-0000/Foo.csv`. Before publishing the notebook, you need to change the path to this csv file to `/home/jupyter/NHERI-Published/PRJ-0000/Foo.csv`.
-    
 2.  The published area is a read-only space. In the published section, users can run notebooks, but the notebook is not allowed to write any file to this location. If the notebook needs to write a file, the author of the notebook must make sure that it can write to a file in each user directory. [Here](https://doi.org/10.17603/ds2-v310-qc53) is an example of a published notebook that writes files to user directories. Since the published space is read-only, if a user wants to revise, enhance or edit the published notebook they will have to copy the notebook to their My data and continue working on the copied version of the notebook located in their My data. A readme file must be published within the project that explains how future users can run and take advantage of the Jupyter Notebook.
-    
 3.  Jupyter Notebooks rely on packages that are used to develop them (e.g., numpy, geopandas, ipywidgets, CartoPy, Scikit-Learn). For preservation purposes, it is important to publish a requirements file including a list of all packages and their versions along with the notebook as a metadata file.
-    
 
 ## Organizing and Naming Files
 
@@ -95,7 +90,6 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 * Natural hazard
 * Damage type
 * Version number of file
-    
 
 General recommendations and examples for good folder and file naming conventions. 
 
@@ -121,13 +115,12 @@ For long-term preservation and interoperability purposes, we recommend and promo
 * Text: XML, [PDF/A](https://github.com/DataCurationNetwork/data-primers/blob/master/PDF%20Data%20Curation%20Primer/PDF-data-curation-primer.md), HTML, ASCII, UTF-8 ,
 * CODE: (tcl files, py files) [Jupyter Notebook](https://github.com/DataCurationNetwork/data-primers/blob/master/Jupyter%20Notebook%20Data%20Curation%20Primer/Jupyter%20Notebooks%20Data%20Curation%20Primer.md)
 * Seismology: SEED
-    
 
 ## Tagging
 
 Users can tag folders and  files for ease of data comprehension and reuse by others. While tagging is not required,  we recommend it because it helps others to identify file contents in the dataset landing page. The list of tags available are agreed upon terms contributed by experts in the field. If the tags available do not apply, feel free to add custom tags, and you may also submit tickets informing the curation team about the need to incorporate them in the list.  Using tags to clarify the file function is also a way of avoiding excessive folder nesting.
 
-  
+
 
 ## Writing Helpful Titles, Keywords, and Descriptions
 
@@ -167,7 +160,6 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
 * When applying keywords, researchers must think about how others would search for this particular dataset.
 * When applicable, use keywords to indicate the type of hazard, research method, technology, problem addressed, and purpose. 
 * Repeating words used in the description and titles as keywords increases the chances that the dataset will be discovered. 
-    
 
 Consult the CONVERGE [check sheet](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdoi.org%2F10.17603%2Fds2-swvc-sb26&data=05%7C02%7C%7C1b416aed89164d4c732208dd15356da6%7C31d7e2a5bdd8414e9e97bea998ebdfe1%7C0%7C0%7C638690041410632335%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mfzeZFnF2WjcJA9ePOq6h%2BqjYSZAeSS1H77VDO7g4bk%3D&reserved=0) for guidance in choosing helpful keywords. 
 
@@ -187,7 +179,6 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 * Use language that can reach experts as well as broader audiences.
 * Use words that you think will help or are used by others to find datasets like yours online. Repeat these words across the title, descriptions, and keywords to increase online discoverability.
 * Avoid using acronyms if possible. Spell out the full acronym if you must.
-    
 
 ### Dataset Level Descriptions
 
@@ -200,7 +191,6 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 * Use words that you consider will help or are used by others to find datasets like yours online. 
 * Repeat these words across the title, description, and keywords to increase online discoverability.
 * Avoid using acronyms if possible. Spell out the full acronym if you must.
-    
 ## Reusing and Citing Resources in the Datasets Landing Pages
 
 ### Reusing Data and Software
@@ -215,20 +205,18 @@ Related Work: to cite data, papers, websites, reports or presentations that prov
 
 Referenced Data and Software: to cite data or software that have been reused to create the published dataset.
 
-  
+
 
 Note that:
 
 * There could be more than one Related Work and Referenced Data or Software per published dataset.  
 * Related Works and Referenced Data or Software can be added at any time during or after the dataset's publication. In the former case, it can be done through Amends or Versioning.
-    
 
 * In the form researchers should include the cited resource title and corresponding DOI in https format; this way, other users will be directed to the cited resource.
 * When using a DOI, the platform will submit this information to a third party (Cross-Ref via DataCite) that will assign the citations to the corresponding resources so that authors are credited appropriately. 
 * If users reuse images from other sources (online, databases, publications, etc.), those may have copyright. We recommend [these instructions](http://guides.library.ubc.ca/c.php?g=698822&p=4965735) for how to use and cite them.
-    
 
-  
+
 
 ## Rights
 
@@ -252,9 +240,8 @@ Amends include:
 * Add Funders and Awards: It is always important to provide credit to the agencies that fund the research that allows creating the data. 
 * Adding Related Works: when papers citing a dataset are published, we encourage users to add the references in Related Works (option: is cited by) to improve data understandability, cross-referencing, and citation count. Other related works inform contextual, informing the 
 * Adding Referenced Data and Software: when other datasets and or research software was used to create the published dataset.
-    
 
-  
+
 
 Version control includes:
 
@@ -262,20 +249,17 @@ Version control includes:
 * Documenting the nature of the changes which will publicly show in the landing page.
 * Descriptions of the nature of the changes are displayed for users to see what changed and stored as metadata.
 * Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
-    
 
 Versioning has these implications for the project’s DOI:
 
 * In the citation and landing pages, different versions of a dataset will have the same DOI and different version number.
 * The DOI will always resolve to the latest version of the data publication.
 * Users will always be able to access previous versions through the landing page.
-    
 
 When implementing amends and versioning, consider the following:
 
 * Amend will only update the latest version of a publication (if there is only one version that will be the target). Only the specified fields in the metadata form will be updated. The order of authors must be confirmed before the amendments can be submitted.
 * Once a dataset is published, major changes to the title or author changes are not permitted. If changes must be made due to omission or a mistake, users should submit a Help ticket and discuss the change with the data curator. If applicable, changes will be made by the curation team.
-
 
 
 

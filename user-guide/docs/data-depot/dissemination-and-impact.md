@@ -48,7 +48,7 @@ Original citations are from papers in which a researcher cites their own data in
 
 Citations are updated through the last month of the prior quarter. 
 
-  
+
 
 #### Marketing Datasets
 

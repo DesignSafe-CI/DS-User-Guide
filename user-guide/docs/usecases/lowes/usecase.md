@@ -95,12 +95,12 @@ RW1 is wall 33 in the database (with the first wall index starting at 0) and usi
 The sections of the modeling script are:  
 ##### Section 1: Initialization of the model
    * The degrees of freedom and the variables that carry uncertainty are defined.  
-  
+
 ##### Section 2: Defines nodal locations and elements 
    * Nodes are placed at the locations of the vertical bars along the length of the wall.
    * If the ratio of the length of the wall to the number of elements is too coarse of a mesh, additional nodes are placed in between the bars.
    * The height of each element is equal to the length of the nodes in the boundary to create square elements up the wall.  
-  
+
 ##### Section 3: Defines material models and their variables
    * The crushing energy and fracture energy are calculated and wrote to the .tcl file. The equations for these values come from ([Nasser et al. (2019)](https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29ST.1943-541X.0002311){:target="_blank"} ) Below is the code:
 
@@ -118,13 +118,13 @@ self.gfcc = 2.2*self.gfuc #crushing energy of confined
    * The steel material opensees model: uniaxialMaterial Steel02 $matTag $Fy $E $b $R0 $cR1 $cR2.
       * 'Fy' is the yield strength, 'E' is the youngs modulus, 'b' is the strain hardening ratio, and 'R0', 'cR1', and 'cR2' are parameters to control transitions from elastic to plastic branches.
    * minMax wrappers are applied to the steel so that if the steel strain compresses more than the crushing strain of the concrete or exceeds the ultimate strain of the steel multiplied by the steel rupture ratio, the stress will go to 0.  
-  
+
 ##### Section 4: Defines the continuum shell model
    * The shell element is split up into multiple layers of the cover concrete, transverse steel, and core concrete.
    * The cover concrete thickness is defined in the database, the transverse steel thickness is calculated as:
       * total layers of transverse steel multiplied by the area of the steel divided by the height of the wall.
    * The total thickness of the wall is defined in the database so after the cover concrete and steel thicknesses are subtracted, the core concrete takes up the rest.
-  
+
 ##### Section 5: Defines the elements
    * The shell element opensees model is: element ShellMITC4 $eleTag $iNode $jNode $kNode $lNode $secTag
       * 'eleTag' is the element number, the next four variables are the nodes associated to the element in ccw, and 'secTag' is the section number that defines the thickness of the element.
@@ -160,13 +160,13 @@ self.f.write('recorder Element -xml "trussseps.xml" -eleRange ' + str(self.maxEl
 
 ##### Section 8: Defines and applies the gravity load of the wall
    * The axial load of the wall is defined in the database and distributed equally amongst the top nodes and a static analysis is conducted to apply a gravity load to the wall.
-  
+
 ##### Section 9: Defines the cyclic analysis of the wall
    * The experimental displacement recording of the wall is defined in the database and the peak displacement of each cycle is extracted.
    * If the effective height of the wall is larger than the measured height, a moment is calculated from that difference and uniformly applied in the direction of the analysis to each of the top nodes.
    * The displacement peaks are then defined in a list and ran through an opensees algorithm.
       * This algorithm takes each peak and displaces the top nodes of the wall by 0.01 inches until that peak is reached, it then displaces by 0.01 inches back to zero where it then takes on the next peak. This process continues until failure of the wall or until the last peak is reached.  
-  
+
 The last section of this notebook creates a reference file that holds variables needed for postprocessing. In order, those variables are:
   * Total nodes along the width of the wall
   * Total nodes along the width of the wall that are connected to a truss element
@@ -179,7 +179,7 @@ The last section of this notebook creates a reference file that holds variables 
   * filepath to the folder of the wall
   * filepath to the tcl file
 
-  
+
 ### Running Opensees through HPC
 
 (Script needs to be established on design safe. I have a working notebook, just need to connect it with modeling script)

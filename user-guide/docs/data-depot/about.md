@@ -39,9 +39,8 @@ For users curating and publishing data in DDR:
 * Users publishing human subjects data should abide by our [Protected Data Policy](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.gr7h4hq8k2fp).
 * Using DDR to publish data is entirely voluntary. None of these terms supersede any prior contractual obligations to confidentiality or proprietary information the user may have with third parties; thus, the user is entirely responsible for what they upload or share with DDR. 
 * Publications that do not fall within these norms may be removed.
-    
 
-  
+
 
 For users using data published in DDR:
 
@@ -49,9 +48,7 @@ For users using data published in DDR:
 * Users agree to use DDR resources in accessing and reusing open access data in ways that respect the [licenses](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.fx2w0xfrwc1c) and access restrictions established in the publications.
 * Users agree to properly cite the datasets they use in their works in accordance with the [Joint Declaration of Data Citation Principles](https://force11.org/info/joint-declaration-of-data-citation-principles-final/) using the citations provided in the published datasets landing pages.
 * We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms.
-    
 
-  
 
 
 ## CoreTrustSeal Certification
