@@ -108,7 +108,6 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 * Users are responsible for complying with the restrictions outlined by the dataset's authors in their publications' landing pages and by this agreement, but they are not responsible for any restrictions not otherwise explicitly described here  or in the landing pages.
 
 
-  
 
 ## Dataset Sizes
 
@@ -146,43 +145,49 @@ As an open repository, DDR offers licenses with few - expect attribution - to no
 
 During the publication process users have the option of selecting one license per publication with a DOI after identifying which license best fits their needs and institutional standards. Note that datasets are not copyrightable materials, but works such as reports, instruments, presentations and learning objects are. Available Licenses for Publishing Datasets in DDR are: 
 
-Datasets
+### Datasets
 
 If you are publishing data, such as simulation, reconaissance, or experimental data, choose between:
 
-[Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/)
+* #### [Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/) {odc-by}
 
-\*Recommended for datasets
+    * You allow others to freely share, reuse, and adapt your data/database.
+    * You expect to be attributed for any public use of the data/database.
 
-* You allow others to freely share, reuse, and adapt your data/database.
-* You expect to be attributed for any public use of the data/database.
+    !!! tip
+        Recommended for Datasets.
 
-[Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/)
+* #### [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/)
 
-* You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
-* You do not expect to be attributed.
+    * You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
+    * You do not expect to be attributed.
 
-Works
+### Works
 
 If you are publishing papers, presentations, learning objects, workflows, designs, etc, choose between:
 
-[Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+* #### [Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-Recommended for reports, instruments, learning objects, etc. This license requires attribution.
+    * You allow others to freely share, reuse, and adapt your work.
+    * You expect to be attributed for any public use of your work.
+    * You retain your copyright. 
 
-* You allow others to freely share, reuse, and adapt your work.
-* You expect to be attributed for any public use of your work.
-* You retain your copyright. 
+    !!! tip
+        Recommended for reports, instruments, learning objects, etc.
 
-[Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+    !!! note
+        This license requires attribution.
 
-\*Carefully read and consider this license, as it does not require attribution.
+* #### [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-* You allow others to freely share, modify, and use this work for any purpose without restrictions.
-* You do not expect to be attributed for it.
-* You relinquish any rights to the work.
+    * You allow others to freely share, modify, and use this work for any purpose without restrictions.
+    * You do not expect to be attributed for it.
+    * You relinquish any rights to the work.
 
-Software
+    !!! caution
+        Carefully read and consider this license, as it does not require attribution.
+
+## Software
 
 DDR requires that users reusing data from others in their projects do so in compliance with the terms of the resource's original license.
 
@@ -192,7 +197,7 @@ The expectations of DDR and the responsibilities of users with respect to licens
 
 For each project type, the metadata elements including those that are required and recommended are shown below. Consult the full [metadata dictionaries](https://www.designsafe-ci.org/user-guide/dictionary/) for more details.
 
-Experimental Research Project
+### Experimental Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#experimental)
 
@@ -231,7 +236,7 @@ Experimental Research Project
 * Description
 * Referenced Data\*
 
-Simulation Research Project
+### Simulation Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#simulation)
 
@@ -266,7 +271,7 @@ Simulation Research Project
 * Description
 * Referenced Data\*
 
-Hybrid Simulation Research Project
+### Hybrid Simulation Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#hybrid)
 
@@ -307,7 +312,7 @@ Hybrid Simulation Research Project
 * Experiment Substructure Title
 * Description
 
-Field Research Project
+### Field Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#field)
 
@@ -374,7 +379,7 @@ Field Research Project
 * Referenced Data\*$
 * Collection Description
 
-Other
+### Other
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#other)
 
