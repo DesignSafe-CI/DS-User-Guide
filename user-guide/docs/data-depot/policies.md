@@ -70,12 +70,12 @@ This agreement must be read and accepted by the user prior to publishing a datas
 
 This submission represents my original work and meets the policies and requirements established by the DesignSafe. I grant the Data Depot Repository (DDR) all required permissions and licenses to make the work I publish available for archiving and continued access. These permissions include allowing DesignSafe to:
 
-1.  Disseminate the content in a variety of distribution formats according to the DDR Policies and Best Practices.
-2.  Promote and advertise the content publicly in DesignSafe.
-3.  Store, translate, copy, or re-format files in any way to ensure their future preservation and accessibility.
-4.  Modify the dataset interface representation for improved usability.
-5.  Exchange and or incorporate metadata or documentation in the content into public access catalogues.
-6.  Transfer data and metadata with respective unique digital object identifier (DOI)  to another institution for long-term accessibility if needed for continuous access.
+1. Disseminate the content in a variety of distribution formats according to the DDR Policies and Best Practices.
+2. Promote and advertise the content publicly in DesignSafe.
+3. Store, translate, copy, or re-format files in any way to ensure their future preservation and accessibility.
+4. Modify the dataset interface representation for improved usability.
+5. Exchange and or incorporate metadata or documentation in the content into public access catalogues.
+6. Transfer data and metadata with respective unique digital object identifier (DOI)  to another institution for long-term accessibility if needed for continuous access.
 
 I understand the type of license I choose to distribute my data, and I guarantee that I am entitled to grant the rights contained in them. I agree that when this submission is made public with a DOI, this DOI cannot be discarded, even if the dataset is [tombstoned](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.mijsiryl16dx). If the dataset requires revision, a new version of the dataset will be published under the same DOI.
 
@@ -97,10 +97,10 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 * Users will not use the data in any way prohibited by applicable laws, distribution licenses, and permissions explicit in the dataset publication landing page.
 * The data are provided “as is,” and its use is at the users' risk. While the DDR promotes data and metadata quality, the datasets authors and publishers do not guarantee that:
 
-1.  the materials are accurate, complete, reliable or correct;
-2.  any defects or errors will be corrected;
-3.  the materials and accompanying files are free of viruses or other harmful components; or
-4.  the results of using the data will meet the user’s requirements.
+1. the materials are accurate, complete, reliable or correct;
+2. any defects or errors will be corrected;
+3. the materials and accompanying files are free of viruses or other harmful components; or
+4. the results of using the data will meet the user’s requirements.
 
 * Use of data in the DDR abides by  DesignSafe's  Personal Data Privacy Policy. The DDR does not gather IP addresses about public users that preview or download files from the DDR. The system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. This  information is only used in aggregate for metrics purposes and is not linked to the user’s identity.
 * Users should not obtain personal information associated with DDR data that results in directly or indirectly identifying research subjects, individuals, or organizations with the aid of other information acquired elsewhere.
