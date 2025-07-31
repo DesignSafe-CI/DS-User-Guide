@@ -241,27 +241,24 @@ For each project type, the metadata elements including those that are required a
 * Award\*
 * Keywords
 * Experiment\*
-
-* Report
-* DOI†
-* Experiment Title
-* Author (PIs/Team Members)\*
-* Experiment Description
-* Date of Publication†
-* Dates of Experiment
-* Experimental Facility
-* Experiment Type
-* Equipment Type\*
-* Model Configuration\*
-* Sensor Information\*
-* Event\*
-* Experiment Report$
-
+     * Report
+     * DOI†
+     * Experiment Title
+     * Author (PIs/Team Members)\*
+     * Experiment Description
+     * Date of Publication†
+     * Dates of Experiment
+     * Experimental Facility
+     * Experiment Type
+     * Equipment Type\*
+     * Model Configuration\*
+     * Sensor Information\*
+     * Event\*
+     * Experiment Report$
 * Analysis\*$
-
-* Analysis Title
-* Description
-* Referenced Data\*
+     * Analysis Title
+     * Description
+     * Referenced Data\*
 
 ### Simulation Research Project
 
@@ -280,23 +277,20 @@ For each project type, the metadata elements including those that are required a
 * Award\*
 * Keywords
 * Simulation\*
-
-* Report
-* Simulation Title
-* Author (PIs/Team Members)\*
-* Description
-* Simulation Type
-* Simulation Model
-* Simulation Input\*
-* Simulation Output\*
-* Referenced Data\*
-* Simulation Report$
-
+     * Report
+     * Simulation Title
+     * Author (PIs/Team Members)\*
+     * Description
+     * Simulation Type
+     * Simulation Model
+     * Simulation Input\*
+     * Simulation Output\*
+     * Referenced Data\*
+     * Simulation Report$
 * Analysis\*$
-
-* Analysis Title
-* Description
-* Referenced Data\*
+     * Analysis Title
+     * Description
+     * Referenced Data\*
 
 ### Hybrid Simulation Research Project
 
@@ -315,29 +309,21 @@ For each project type, the metadata elements including those that are required a
 * Award\*
 * Keywords
 * Hybrid Simulation\*
-
-* Report
-* Global Model
-
-* Global Model Title
-* Description
-
-* Master Simulation Coordinator
-
-* Master Simulation Coordinator Title
-* Application and Version
-* Substructure Middleware
-
-* Simulation Substructure\*
-
-* Simulation Substructure Title
-* Application and Version
-* Description
-
-* Experiment Substructure\*
-
-* Experiment Substructure Title
-* Description
+     * Report
+     * Global Model
+          * Global Model Title
+          * Description
+     * Master Simulation Coordinator
+          * Master Simulation Coordinator Title
+          * Application and Version
+          * Substructure Middleware
+     * Simulation Substructure\*
+          * Simulation Substructure Title
+          * Application and Version
+          * Description
+     * Experiment Substructure\*
+          * Experiment Substructure Title
+          * Description
 
 ### Field Research Project
 
@@ -353,58 +339,50 @@ For each project type, the metadata elements including those that are required a
 * Natural Hazard Event
 * Natural Hazard Date
 * Documents Collection\*$
-
-* Author(s)\*
-* Date of Publication†
-* DOI†
-* Publisher†
-* License(s)\*
-* Referenced Data\*$
-* Description
-
+     * Author(s)\*
+     * Date of Publication†
+     * DOI†
+     * Publisher†
+     * License(s)\*
+     * Referenced Data\*$
+     * Description
 * Mission\*
-
-* Mission Title
-* Author(s)\*
-* Date(s) of Mission
-* Mission Site Location
-* Date of Publication
-* DOI†
-* Publisher†
-* License(s)\*
-* Mission Description
-* Research Planning Collection\*$
-
-* Collection Title
-* Data Collector(s)\*
-* Referenced Data\*$
-* Collection Description
-
-* Social Sciences Collection\*
-
-* Collection Title
-* Unit of Analysis$
-* Mode(s) of Collection\*$
-* Sampling Approach(es)\*$
-* Sample Size$
-* Date(s) of Collection
-* Data Collector(s)\*
-* Collection Site Location
-* Equipment\*
-* Restriction$
-* Referenced Data\*$
-* Collection Description
-
-* Engineering/Geosciences Collection\*
-
-* Collection Title
-* Observation Type\*
-* Date(s) of Collection
-* Data Collector(s)\*
-* Collection Site Location
-* Equipment\*
-* Referenced Data\*$
-* Collection Description
+     * Mission Title
+     * Author(s)\*
+     * Date(s) of Mission
+     * Mission Site Location
+     * Date of Publication
+     * DOI†
+     * Publisher†
+     * License(s)\*
+     * Mission Description
+     * Research Planning Collection\*$
+          * Collection Title
+          * Data Collector(s)\*
+          * Referenced Data\*$
+          * Collection Description
+     * Social Sciences Collection\*
+          * Collection Title
+          * Unit of Analysis$
+          * Mode(s) of Collection\*$
+          * Sampling Approach(es)\*$
+          * Sample Size$
+          * Date(s) of Collection
+          * Data Collector(s)\*
+          * Collection Site Location
+          * Equipment\*
+          * Restriction$
+          * Referenced Data\*$
+          * Collection Description
+     * Engineering/Geosciences Collection\*
+          * Collection Title
+          * Observation Type\*
+          * Date(s) of Collection
+          * Data Collector(s)\*
+          * Collection Site Location
+          * Equipment\*
+          * Referenced Data\*$
+          * Collection Description
 
 ### Other
 
