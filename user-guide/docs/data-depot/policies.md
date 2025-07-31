@@ -145,41 +145,89 @@ As an open repository, DDR offers licenses with few - expect attribution - to no
 
 During the publication process users have the option of selecting one license per publication with a DOI after identifying which license best fits their needs and institutional standards. Note that datasets are not copyrightable materials, but works such as reports, instruments, presentations and learning objects are. Available Licenses for Publishing Datasets in DDR are: 
 
+<style>
+.grid {
+  align-items: stretch;
+}
+
+.grid > .grid-col:has([class*="card--"]:not(:only-child)) {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid > .grid-col [class*="card--"] {
+  flex: 1;
+}
+</style>
+
 ### Datasets
 
 If you are publishing data, such as simulation, reconaissance, or experimental data, choose between:
 
-!!! tip "[Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/)"
+/// html | section.grid
+//// html | div.grid-col
+///// html | article.card--plain
+     markdown: block
 
-    * You allow others to freely share, reuse, and adapt your data/database.
-    * You expect to be attributed for any public use of the data/database.
+#### [Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/) {odc-by}
 
-    <small>Recommended for Datasets.</small>
+* You allow others to freely share, reuse, and adapt your data/database.
+* You expect to be attributed for any public use of the data/database.
 
-!!! tip "[Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/)"
+/////
 
-    * You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
-    * You do not expect to be attributed.
+Recommended for Datasets.
+
+////
+//// html | div.grid-col
+///// html | article.card--plain
+     markdown: block
+
+#### [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/) {pddl}
+
+* You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
+* You do not expect to be attributed.
+
+/////
+////
+///
 
 ### Works
 
 If you are publishing papers, presentations, learning objects, workflows, designs, etc, choose between:
 
-!!! tip "[Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+/// html | section.grid
+//// html | div.grid-col
+///// html | article.card--plain
+     markdown: block
 
-    * You allow others to freely share, reuse, and adapt your work.
-    * You expect to be attributed for any public use of your work.
-    * You retain your copyright. 
+#### [Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) {cc-by}
 
-    <small>Recommended for reports, instruments, learning objects, etc. This license requires attribution.</small>
+* You allow others to freely share, reuse, and adapt your work.
+* You expect to be attributed for any public use of your work.
+* You retain your copyright. 
 
-!!! tip "[Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)"
+/////
 
-    * You allow others to freely share, modify, and use this work for any purpose without restrictions.
-    * You do not expect to be attributed for it.
-    * You relinquish any rights to the work.
+Recommended for reports, instruments, learning objects, etc. This license requires attribution.
 
-    <small>Carefully read and consider this license, as it does not require attribution.</small>
+////
+//// html | div.grid-col
+///// html | article.card--plain
+     markdown: block
+
+#### [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) {cc0}
+
+* You allow others to freely share, modify, and use this work for any purpose without restrictions.
+* You do not expect to be attributed for it.
+* You relinquish any rights to the work.
+
+/////
+
+Carefully read and consider this license, as it does not require attribution.
+
+////
+///
 
 ## Software
 
