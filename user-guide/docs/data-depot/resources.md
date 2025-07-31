@@ -45,7 +45,7 @@ In addition, we suggest that users look into the [Data Curation Primers](https:/
 Below are examples of good organization and description for different dataset types:
 
 !!! caution "Formatting Uncertain"
-    Should this be a nested list, a table, sub-headings and lists?
+    Should this be a nested list, a table, sub-headings and lists? Is it supposed to be [the user guide dictionaries](https://www.designsafe-ci.org/user-guide/dictionary/)?
 
 * Experimental
 * Simulation
