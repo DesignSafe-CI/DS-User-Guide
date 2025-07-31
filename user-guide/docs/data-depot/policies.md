@@ -145,27 +145,12 @@ As an open repository, DDR offers licenses with few - expect attribution - to no
 
 During the publication process users have the option of selecting one license per publication with a DOI after identifying which license best fits their needs and institutional standards. Note that datasets are not copyrightable materials, but works such as reports, instruments, presentations and learning objects are. Available Licenses for Publishing Datasets in DDR are: 
 
-<style>
-.grid {
-  align-items: stretch;
-}
-
-.grid > .grid-col:has([class*="card--"]:not(:only-child)) {
-  display: flex;
-  flex-direction: column;
-}
-
-.grid > .grid-col [class*="card--"] {
-  flex: 1;
-}
-</style>
-
 ### Datasets
 
-If you are publishing data, such as simulation, reconaissance, or experimental data, choose between:
+If you are publishing **data**, such as **simulation**, **reconaissance**, or **experimental data**, choose between:
 
 /// html | section.grid
-//// html | div.grid-col
+//// html | div
 ///// html | article.card--plain
      markdown: block
 
@@ -176,10 +161,10 @@ If you are publishing data, such as simulation, reconaissance, or experimental d
 
 /////
 
-Recommended for Datasets.
+_Recommended for Datasets._
 
 ////
-//// html | div.grid-col
+//// html | div
 ///// html | article.card--plain
      markdown: block
 
@@ -194,10 +179,10 @@ Recommended for Datasets.
 
 ### Works
 
-If you are publishing papers, presentations, learning objects, workflows, designs, etc, choose between:
+If you are publishing **papers**, **presentations**, **learning objects**, **workflows**, **designs**, **etc**, choose between:
 
 /// html | section.grid
-//// html | div.grid-col
+//// html | div
 ///// html | article.card--plain
      markdown: block
 
@@ -209,10 +194,10 @@ If you are publishing papers, presentations, learning objects, workflows, design
 
 /////
 
-Recommended for reports, instruments, learning objects, etc. This license requires attribution.
+_Recommended for reports, instruments, learning objects, etc. This license requires attribution._
 
 ////
-//// html | div.grid-col
+//// html | div
 ///// html | article.card--plain
      markdown: block
 
@@ -224,7 +209,7 @@ Recommended for reports, instruments, learning objects, etc. This license requir
 
 /////
 
-Carefully read and consider this license, as it does not require attribution.
+_Carefully read and consider this license, as it does not require attribution._
 
 ////
 ///
