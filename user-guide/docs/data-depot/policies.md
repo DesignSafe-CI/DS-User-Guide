@@ -18,7 +18,7 @@ DDR  does not provide data embargoes because a DOI is a digital identifier that
 
 DDR continues working with users to:
 
-*   Provide access to reviewers via My Project before the dataset is published. There is no DOI involved and the review is not anonymous.
+* Provide access to reviewers via My Project before the dataset is published. There is no DOI involved and the review is not anonymous.
 * Help users curate and publish their datasets so they are publicly available for reviewers in the best possible form.
 * Provide amends and versioning so that prompt changes can be made to data and metadata upon receiving feedback from the reviewers or at any other time.
     
@@ -100,7 +100,7 @@ We accept engineering and social and behavioural sciences datasets, reports, res
 
 Users who access, preview, download or reuse data and metadata from the DesignSafe Data Depot Repository (DDR) agree to the following norms. If some or any of these norms are not followed, we will notify the user of the infringement and may cancel their DesignSafe account.
 
-*   Use of the data includes, but is not limited to, viewing parts or the whole of the content; comparing with data or content in other datasets; verifying research results, and using any part of the content in other projects, publications, or other related work products.
+* Use of the data includes, but is not limited to, viewing parts or the whole of the content; comparing with data or content in other datasets; verifying research results, and using any part of the content in other projects, publications, or other related work products.
 * Users will not use the data in any way prohibited by applicable laws, distribution licenses, and permissions explicit in the dataset publication landing page.
 * The data are provided “as is,” and its use is at the users' risk. While the DDR promotes data and metadata quality, the datasets authors and publishers do not guarantee that:
     
@@ -114,7 +114,7 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 4.  the results of using the data will meet the user’s requirements.
     
 
-*   Use of data in the DDR abides by  DesignSafe's  Personal Data Privacy Policy. The DDR does not gather IP addresses about public users that preview or download files from the DDR. The system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. This  information is only used in aggregate for metrics purposes and is not linked to the user’s identity.
+* Use of data in the DDR abides by  DesignSafe's  Personal Data Privacy Policy. The DDR does not gather IP addresses about public users that preview or download files from the DDR. The system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. This  information is only used in aggregate for metrics purposes and is not linked to the user’s identity.
 * Users should not obtain personal information associated with DDR data that results in directly or indirectly identifying research subjects, individuals, or organizations with the aid of other information acquired elsewhere.
 * Users will not hold the DDR or the data authors liable for any and all losses, costs, expenses, or damages arising from use of DDR data or any other violation of this agreement, including infringement of licenses, intellectual property rights, and other rights of people or entities contained in the data.
 * Users are responsible for complying with the restrictions outlined by the dataset's authors in their publications' landing pages and by this agreement, but they are not responsible for any restrictions not otherwise explicitly described here  or in the landing pages.
@@ -167,13 +167,13 @@ If you are publishing data, such as simulation, reconaissance, or experimental d
 
 \*Recommended for datasets
 
-*   You allow others to freely share, reuse, and adapt your data/database.
+* You allow others to freely share, reuse, and adapt your data/database.
 * You expect to be attributed for any public use of the data/database.
     
 
 [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/)
 
-*   You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
+* You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
 * You do not expect to be attributed.
     
 
@@ -185,7 +185,7 @@ If you are publishing papers, presentations, learning objects, workflows, design
 
 Recommended for reports, instruments, learning objects, etc. This license requires attribution.
 
-*   You allow others to freely share, reuse, and adapt your work.
+* You allow others to freely share, reuse, and adapt your work.
 * You expect to be attributed for any public use of your work.
 * You retain your copyright. 
     
@@ -194,7 +194,7 @@ Recommended for reports, instruments, learning objects, etc. This license requir
 
 \*Carefully read and consider this license, as it does not require attribution.
 
-*   You allow others to freely share, modify, and use this work for any purpose without restrictions.
+* You allow others to freely share, modify, and use this work for any purpose without restrictions.
 * You do not expect to be attributed for it.
 * You relinquish any rights to the work.
     
@@ -213,7 +213,7 @@ Experimental Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#experimental)
 
-*   DOI
+* DOI
 * Project Title
 * Author (PIs/Team Members)\*
 * Participant Institution\*
@@ -228,7 +228,7 @@ Experimental Research Project
 * Experiment\*
     
 
-*   Report
+* Report
 * DOI†
 * Experiment Title
 * Author (PIs/Team Members)\*
@@ -244,10 +244,10 @@ Experimental Research Project
 * Experiment Report$
     
 
-*   Analysis\*$
+* Analysis\*$
     
 
-*   Analysis Title
+* Analysis Title
 * Description
 * Referenced Data\*
     
@@ -256,7 +256,7 @@ Simulation Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#simulation)
 
-*   DOI†
+* DOI†
 * Project Title
 * Author (PIs/Team Members)\*
 * Participant Institution\*
@@ -271,7 +271,7 @@ Simulation Research Project
 * Simulation\*
     
 
-*   Report
+* Report
 * Simulation Title
 * Author (PIs/Team Members)\*
 * Description
@@ -283,10 +283,10 @@ Simulation Research Project
 * Simulation Report$
     
 
-*   Analysis\*$
+* Analysis\*$
     
 
-*   Analysis Title
+* Analysis Title
 * Description
 * Referenced Data\*
     
@@ -295,7 +295,7 @@ Hybrid Simulation Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#hybrid)
 
-*   DOI†
+* DOI†
 * Project Title
 * Author (PIs/Team Members)\*
 * Participant Institution\*
@@ -310,34 +310,34 @@ Hybrid Simulation Research Project
 * Hybrid Simulation\*
     
 
-*   Report
+* Report
 * Global Model
     
 
-*   Global Model Title
+* Global Model Title
 * Description
     
 
-*   Master Simulation Coordinator
+* Master Simulation Coordinator
     
 
-*   Master Simulation Coordinator Title
+* Master Simulation Coordinator Title
 * Application and Version
 * Substructure Middleware
     
 
-*   Simulation Substructure\*
+* Simulation Substructure\*
     
 
-*   Simulation Substructure Title
+* Simulation Substructure Title
 * Application and Version
 * Description
     
 
-*   Experiment Substructure\*
+* Experiment Substructure\*
     
 
-*   Experiment Substructure Title
+* Experiment Substructure Title
 * Description
     
 
@@ -345,7 +345,7 @@ Field Research Project
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#field)
 
-*   Project Title
+* Project Title
 * PI/Co-PI(s)\*
 * Project Type
 * Description
@@ -357,7 +357,7 @@ Field Research Project
 * Documents Collection\*$
     
 
-*   Author(s)\*
+* Author(s)\*
 * Date of Publication†
 * DOI†
 * Publisher†
@@ -366,10 +366,10 @@ Field Research Project
 * Description
     
 
-*   Mission\*
+* Mission\*
     
 
-*   Mission Title
+* Mission Title
 * Author(s)\*
 * Date(s) of Mission
 * Mission Site Location
@@ -381,16 +381,16 @@ Field Research Project
 * Research Planning Collection\*$
     
 
-*   Collection Title
+* Collection Title
 * Data Collector(s)\*
 * Referenced Data\*$
 * Collection Description
     
 
-*   Social Sciences Collection\*
+* Social Sciences Collection\*
     
 
-*   Collection Title
+* Collection Title
 * Unit of Analysis$
 * Mode(s) of Collection\*$
 * Sampling Approach(es)\*$
@@ -404,10 +404,10 @@ Field Research Project
 * Collection Description
     
 
-*   Engineering/Geosciences Collection\*
+* Engineering/Geosciences Collection\*
     
 
-*   Collection Title
+* Collection Title
 * Observation Type\*
 * Date(s) of Collection
 * Data Collector(s)\*
@@ -421,7 +421,7 @@ Other
 
 [View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#other)
 
-*   DOI†
+* DOI†
 * Project Title
 * Author(s)\*
 * Data Type

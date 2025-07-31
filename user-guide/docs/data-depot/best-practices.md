@@ -4,7 +4,7 @@
 
 Curation quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
 
-*   Check for completeness of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
+* Check for completeness of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
 * Use quality control methods to review the data for errors or to improve its fitness to the research application. Methods may involve: calibration, validation, normalization, resizing, improved resolution, cleaning, transformation to open formats, noise reduction, sub-sampling, performance testing, consolidation, further documentation, etc. Always include an explanation of the quality control methods you used in the data report or readme file so that other users are aware of the quality control methods employed. 
 * When publishing tabular data include a data dictionary in the data report to explain the meaning of the column fields. 
 * Data dictionaries are also useful to clarify acronyms, abbreviations or codes for measurements used in your data or documentation.
@@ -21,7 +21,7 @@ Curation quality involves ensuring the accuracy, completeness, consistency, and 
 
 AI Ready curation quality  is about ensuring data is clean, organized, structured, unbiased, and includes necessary contextual information to support AI workflows effectively leading to secure and meaningful outcomes. Overall, it points to achieving research reproducibility. DDR's policies and best practices cover many of the requirements to publish AI ready data, and we notice via citations that many types of published datasets in DDR are used in AI applications. There are additional recommendations for datasets specifically created to train particular ML models and or benchmarks and testbeds to be used in many applications. In those cases, beyond following all the applicable policies and best practices to publish a quality dataset, researchers should also:
 
-*   Reference the public model used to train the data in the field Reference Data or Software.  
+* Reference the public model used to train the data in the field Reference Data or Software.  
 * Document in the data report the results of the trained model including the model's performance under the published dataset. If the results are published in a paper, reference the paper in Related Work. 
 * Reference any data if/that was reused to generate the training/benchmark dataset.
     
@@ -46,8 +46,8 @@ Many instruments used in natural hazards research involve proprietary file forma
 
 When publishing proprietary files that are ubiquitous in the field, please refer to the following Data Curation Primers. 
 
-*   [Matlab](https://deepblue.lib.umich.edu/handle/2027.42/154686)
-*   [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
+* [Matlab](https://deepblue.lib.umich.edu/handle/2027.42/154686)
+* [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
 
 ### Compressed Data
 
@@ -86,7 +86,7 @@ Under each category, corresponding files are represented as a list to facilitate
 
 To avoid excessive nesting and improve navigation, users can come up with a file naming convention schema, ideally during the research planning phase and prior to gathering the data. Well-constructed folder and file names make it possible to identify files by succinctly expressing their content and their relations to other files, considering the key information they want to convey to others. Some possibilities for naming conventions are:
 
-*   Project acronym, is good for branding the data
+* Project acronym, is good for branding the data
 * Location/spatial coordinates
 * Type of data
 * Type of structure tested
@@ -99,7 +99,7 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 
 General recommendations and examples for good folder and file naming conventions. 
 
-*   File naming should be meaningful, both to the team and to others, and should be kept short. 
+* File naming should be meaningful, both to the team and to others, and should be kept short. 
 *  Consider the folder name as complementary to the file naming convention
 * File names should not have spaces, periods, accents, or special characters, as those features may cause errors within the storage systems.
 * Always leave the three letter file extension. 
@@ -110,7 +110,7 @@ General recommendations and examples for good folder and file naming conventions
 
 For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats. Below is an adaptation of the list of recommended formats for data and documentation by [Stanford Libraries.](https://guides.library.stanford.edu/data-best-practices/format-files) For those available, we include a link to the  [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) which are peer-reviewed documents that can be used as guidelines to curate research data:
 
-*   [Databases](https://github.com/DataCurationNetwork/data-primers/blob/master/Databases%20Data%20Curation%20Primer/databases-data-curation-primer.md): XML, CSV
+* [Databases](https://github.com/DataCurationNetwork/data-primers/blob/master/Databases%20Data%20Curation%20Primer/databases-data-curation-primer.md): XML, CSV
 * [Geospatial](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md): SHP, DBF, [GeoTIFF](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoTIFF%20Data%20Curation%20Primer/geotiff-data-curation-primer.md), [netCDF](https://deepblue.lib.umich.edu/handle/2027.42/145724), [GeoJSON](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoJSON%20Data%20Curation%20Primer/GeoJSON-data-curation-primer.md)
 * PointCloud: LAS, LAZ, XYZ, PTX
 * Moving images: MOV, MPEG, AVI, MXF
@@ -145,7 +145,7 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
 
 ### Project Level Titles
 
-*   Remember that this is the sub-title of the dataset citation.
+* Remember that this is the sub-title of the dataset citation.
 * Keep titles short, between 50 and 60 characters long.
 * Use descriptive words that point to the key themes and characteristics of the research project.
 * Do not repeat the title of the dataset.
@@ -154,7 +154,7 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
 
 ### Dataset Level Titles
 
-*   Remember that this is the title that will be featured in the citation. 
+* Remember that this is the title that will be featured in the citation. 
 * Keep titles short,  between 50 and 60 characters long.
 * Use descriptive words that point to the key themes and characteristics of the dataset.
 * Do not repeat the title of the research project, or use “Dataset for:…(title of research project)
@@ -163,7 +163,7 @@ Stark, N., M. Gardner, M. Grilliot, A. Lyda, K. Dedinsky, J. Mueller, C. Pezoldt
 
 ### Keywords
 
-*   Remember that other researchers use keywords to find datasets in the Data Depot or online. 
+* Remember that other researchers use keywords to find datasets in the Data Depot or online. 
 * When applying keywords, researchers must think about how others would search for this particular dataset.
 * When applicable, use keywords to indicate the type of hazard, research method, technology, problem addressed, and purpose. 
 * Repeating words used in the description and titles as keywords increases the chances that the dataset will be discovered. 
@@ -179,7 +179,7 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 
 ### Project Level Descriptions
 
-*   Begin with a general statement that provides context to the study by which the dataset was created (e.g., The system under investigation…). 
+* Begin with a general statement that provides context to the study by which the dataset was created (e.g., The system under investigation…). 
 * Mention the type(s) of hazard being studied (wind, earthquake, wildfire,  multi-hazard, etc.). 
 * Address the research problem that the data is helping to solve.
 * Do not copy the abstract of the paper, as that describes the research results and not the dataset itself.
@@ -191,7 +191,7 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 
 ### Dataset Level Descriptions
 
-*   Datasets should be described as a standalone research output, so they can be understood independently from related research products such as a published paper or research code.Focus on describing the dataset. You may begin the text with "This dataset…"
+* Datasets should be described as a standalone research output, so they can be understood independently from related research products such as a published paper or research code.Focus on describing the dataset. You may begin the text with "This dataset…"
 * Provide an overview of the methodology by which the dataset was obtained.
 * Provide a very brief overview of the scope and contents of the dataset and how it is organized. 
 * Indicate if the data was quality controlled - you may go into more detail in the Data Report. 
@@ -219,11 +219,11 @@ Referenced Data and Software: to cite data or software that have been reused to 
 
 Note that:
 
-*   There could be more than one Related Work and Referenced Data or Software per published dataset.  
+* There could be more than one Related Work and Referenced Data or Software per published dataset.  
 * Related Works and Referenced Data or Software can be added at any time during or after the dataset's publication. In the former case, it can be done through Amends or Versioning.
     
 
-*   In the form researchers should include the cited resource title and corresponding DOI in https format; this way, other users will be directed to the cited resource.
+* In the form researchers should include the cited resource title and corresponding DOI in https format; this way, other users will be directed to the cited resource.
 * When using a DOI, the platform will submit this information to a third party (Cross-Ref via DataCite) that will assign the citations to the corresponding resources so that authors are credited appropriately. 
 * If users reuse images from other sources (online, databases, publications, etc.), those may have copyright. We recommend [these instructions](http://guides.library.ubc.ca/c.php?g=698822&p=4965735) for how to use and cite them.
     
@@ -246,7 +246,7 @@ Once a dataset is published, users can amend or version their data publications.
 
 Amends include:
 
-*   Improving descriptions and adding keywords: after the curator reviews the publication, or following versioning, users may need to clarify or enhance descriptions and keywords.
+* Improving descriptions and adding keywords: after the curator reviews the publication, or following versioning, users may need to clarify or enhance descriptions and keywords.
 * Improve or add metadata: Adding information in a non-required field, or changing, improving already completed fields.
 * Changing the order of authors: even though DDR has interactive tools to set the order of authors in the publication pipeline, users may require changes after publication.
 * Add Funders and Awards: It is always important to provide credit to the agencies that fund the research that allows creating the data. 
@@ -258,7 +258,7 @@ Amends include:
 
 Version control includes:
 
-*   Adding or deleting files to a published dataset.
+* Adding or deleting files to a published dataset.
 * Documenting the nature of the changes which will publicly show in the landing page.
 * Descriptions of the nature of the changes are displayed for users to see what changed and stored as metadata.
 * Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
@@ -266,14 +266,14 @@ Version control includes:
 
 Versioning has these implications for the project’s DOI:
 
-*   In the citation and landing pages, different versions of a dataset will have the same DOI and different version number.
+* In the citation and landing pages, different versions of a dataset will have the same DOI and different version number.
 * The DOI will always resolve to the latest version of the data publication.
 * Users will always be able to access previous versions through the landing page.
     
 
 When implementing amends and versioning, consider the following:
 
-*   Amend will only update the latest version of a publication (if there is only one version that will be the target). Only the specified fields in the metadata form will be updated. The order of authors must be confirmed before the amendments can be submitted.
+* Amend will only update the latest version of a publication (if there is only one version that will be the target). Only the specified fields in the metadata form will be updated. The order of authors must be confirmed before the amendments can be submitted.
 * Once a dataset is published, major changes to the title or author changes are not permitted. If changes must be made due to omission or a mistake, users should submit a Help ticket and discuss the change with the data curator. If applicable, changes will be made by the curation team.
 
 
@@ -284,7 +284,7 @@ When implementing amends and versioning, consider the following:
 
 Users can click a “Leave Feedback” button on the projects’ landing pages to provide comments on any publication. This feedback is transformed into a ticket and forwarded to the curation team for any needed actions, including contacting the authors. In addition, it is possible for users to message the authors directly as their contact information is available via the authors field in the datasets landing pages. However, leaving the feedback in the form allows tracking of the issues raised. The following are examples of feedback questions and concerns:
 
-*   Questions about the dataset that are not answered in the published metadata and or documentation.
+* Questions about the dataset that are not answered in the published metadata and or documentation.
 * Missing documentation.
 * Questions about the method/instruments used to generate the data.
 * Questions about data validation.

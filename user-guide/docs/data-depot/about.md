@@ -32,7 +32,7 @@ Users who either publish and use data in DDR must abide by both the [TACC Accept
 
 For users curating and publishing data in DDR:
 
-*   Users understand that their data submissions to the DDR should follow our [Data Depot Repository Policies](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.jcgpuqc6jitr) and our [Best Practices for Curation and Publication](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.yd85kbcdlgs9) 
+* Users understand that their data submissions to the DDR should follow our [Data Depot Repository Policies](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.jcgpuqc6jitr) and our [Best Practices for Curation and Publication](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.yd85kbcdlgs9) 
 * Users agree to use DDR to publish open access data, which they must document in a manner that enables data reuse and research reproducibility.
 * In accordance with the [Joint Declaration of Data Citation Principles](https://force11.org/info/joint-declaration-of-data-citation-principles-final/)  and the [Software Citation Principles](https://force11.org/info/software-citation-principles-published-2016/), users reusing data and or research software of others in their data publications must properly cite them in the Referenced Data and Software field provided in the DDR interface.
 * Users agree to provide all the needed licenses and permissions to make data available for archiving and for reuse by others.
@@ -45,7 +45,7 @@ For users curating and publishing data in DDR:
 
 For users using data published in DDR:
 
-*   Users accessing and using DDR data agree to the following [Data Usage Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.ng2qd9najkd9).
+* Users accessing and using DDR data agree to the following [Data Usage Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.ng2qd9najkd9).
 * Users agree to use DDR resources in accessing and reusing open access data in ways that respect the [licenses](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.fx2w0xfrwc1c) and access restrictions established in the publications.
 * Users agree to properly cite the datasets they use in their works in accordance with the [Joint Declaration of Data Citation Principles](https://force11.org/info/joint-declaration-of-data-citation-principles-final/) using the citations provided in the published datasets landing pages.
 * We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms.
