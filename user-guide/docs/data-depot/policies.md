@@ -149,15 +149,14 @@ During the publication process users have the option of selecting one license pe
 
 If you are publishing data, such as simulation, reconaissance, or experimental data, choose between:
 
-* #### [Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/) {odc-by}
+!!! tip "[Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/)"
 
     * You allow others to freely share, reuse, and adapt your data/database.
     * You expect to be attributed for any public use of the data/database.
 
-    !!! tip
-        Recommended for Datasets.
+    <small>Recommended for Datasets.</small>
 
-* #### [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/)
+!!! tip "[Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/)"
 
     * You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
     * You do not expect to be attributed.
@@ -166,26 +165,21 @@ If you are publishing data, such as simulation, reconaissance, or experimental d
 
 If you are publishing papers, presentations, learning objects, workflows, designs, etc, choose between:
 
-* #### [Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+!!! tip "[Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
 
     * You allow others to freely share, reuse, and adapt your work.
     * You expect to be attributed for any public use of your work.
     * You retain your copyright. 
 
-    !!! tip
-        Recommended for reports, instruments, learning objects, etc.
+    <small>Recommended for reports, instruments, learning objects, etc. This license requires attribution.</small>
 
-    !!! note
-        This license requires attribution.
-
-* #### [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+!!! tip "[Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)"
 
     * You allow others to freely share, modify, and use this work for any purpose without restrictions.
     * You do not expect to be attributed for it.
     * You relinquish any rights to the work.
 
-    !!! caution
-        Carefully read and consider this license, as it does not require attribution.
+    <small>Carefully read and consider this license, as it does not require attribution.</small>
 
 ## Software
 
