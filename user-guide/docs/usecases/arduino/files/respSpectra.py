@@ -18,7 +18,6 @@ def resp_spectra(a, time, nstep):
     This function builds response spectra from acceleration time history,
     a should be a numpy array,T and nStep should be integers.
     """
-    
     # add initial zero value to acceleration and change units
     a = np.insert(a, 0, 0)
     # number of periods at which spectral values are to be computed
@@ -66,5 +65,4 @@ def resp_spectra(a, time, nstep):
         umax[j] = np.max(np.abs(utime))
         vmax[j] = (2*np.pi/p[j])*umax[j]
         amax[j] = (2*np.pi/p[j])*vmax[j]
-    
     return p, umax, vmax, amax

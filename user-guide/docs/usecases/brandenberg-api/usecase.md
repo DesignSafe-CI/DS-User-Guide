@@ -109,7 +109,6 @@ if(r.status_code == 200):
     json_string = r.text
 else:
     json_string = 'Request was not successful. Status code = ' + str(r.status_code)
-    
 # Step 5: Convert the JSON string to a python dictionary using the json package
 r_dict = json.loads(r.text)
 
@@ -181,7 +180,6 @@ df['aa_pct'] = (df['aa_pop'] / df['total_pop'] * 100).round()
 with TemporaryDirectory() as temp_dir:
     with open(f"{temp_dir}/states.zip", "wb") as zip_file:
         zip_file.write(shape_zip)
-    
     with open(f"{temp_dir}/states.zip", "rb") as zip_file:
         states_gdf = gpd.read_file(zip_file)
         #states_gdf.rename(columns={5: 'state'})
