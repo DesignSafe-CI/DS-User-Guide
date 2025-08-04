@@ -18,7 +18,7 @@ Replace <strong>&lt;username&gt;</strong> with your username. You can find your 
 
 For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
 
-Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifier (UID). You can find your projects UID by examining the URL in My Projects, see figure below.
+Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifier (UID). You can find your projects UID by clicking the <strong>Learn how to transfer data to this project</strong> button, see figure below.
 
 ![Path to My Projects](./imgs/settingpath-2.png)
 
