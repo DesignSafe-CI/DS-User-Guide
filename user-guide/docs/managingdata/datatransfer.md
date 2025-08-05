@@ -11,7 +11,7 @@ This document provides a brief description of the various methods available for 
 We define a large data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
 
 1. Globus
-	
+
 	Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once set up, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommended approach for moving large quantities of data to and from DesignSafe.
 
 	See the <a href="#globus">Globus Data Transfer Guide</a> for instructions. If you need to perform automated transfers using Globus, see the <a href="#globuscli">Globus CLI Automated Transfer Guide</a> for instructions.
@@ -71,7 +71,7 @@ Find your ePPN associated with your Globus access by going to https://cilogon.or
 
 #### 3. Associate your ePPN with your DesignSafe/TACC Account { #globus-step3 }
 
-Login to your TACC user profile here: https://accounts.tacc.utexas.edu. 
+Login to your TACC user profile here: https://accounts.tacc.utexas.edu.
 Select ePPN on the left menu and then enter your ePPN in the field at the top of the page and save.
 Allow 30 minutes for the ePPN to propagate through TACC's systems.
 
@@ -85,11 +85,11 @@ Upon successful login you, you will be directed to the "File Manager" landing pa
 
 ![Globus File Manager](./imgs/globus-step4-b.png)
 
-Click on "Endpoints" in the left-hand menu, then click “Create a personal endpoint”.
+Click on "Collections" in the left-hand menu. Click "Download Globus Connect Personal" in the upper right.
 
-![Globus Endpoints](./imgs/globus-step4-c.png)
+![Globus Collections](./imgs/globus-step4-c.png)
 
-If you are using Windows click "Download Globus Connect Personal for Windows" in the upper right, otherwise click "Show me other supported operating systems" and select the one appropriate for your desktop/laptop.
+Download Globus Connect Personal using the link on the page. It should automatically show the version for your operating system, but if not, you can select the version by clicking on "Show me other supported operating systems".
 
 ![Create a personal endpoint](./imgs/globus-step4-d.png)
 
@@ -107,7 +107,7 @@ You can now access the files on your desktop/laptop via Globus.
 
 #### 5. Connect to the DesignSafe (TACC Corral3) Endpoint { #globus-step5 }
 
-To view both endpoint simultaneously, change the Globus' interface to the "two pane" view by toggling the buttons next to "Panels" in the upper right.
+To view both endpoints simultaneously, change the Globus' interface to the "two pane" view by toggling the buttons next to "Panels" in the upper right.
 
 To establish the second endpoint, select the right-hand search bar and search for "TACC". Select "TACC Corral3" as your second end point.
 
@@ -283,7 +283,7 @@ Change the top dropdown to "SFTP (SSH File Transfer Protocol)".
 
 Provide a descriptive nickname to the connection, for example "DesignSafe - Data Depot".
 
-Set "Server" to "data.tacc.utexas.edu".
+Set "Server" to "designsafe.data.tacc.utexas.edu".
 
 Enter your DesignSafe/TACC username and password.
 
@@ -331,7 +331,7 @@ where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;usern
 
 An entire folder can be copied from your local system to the remote server by using the command:
 
-<em><b>scp -r &lt;/path/to/folder/&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</b></em>
+<em><b>scp -r &lt;/path/to/folder/&gt; &lt;username&gt;@designsafe.data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</b></em>
 
 where the `-r` indicates the copy should be recursive, <b><i>&lt;/path/to/folder/&gt;</b></i>is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
 
@@ -349,13 +349,13 @@ A data transfer can also be performed using the rsync utility between any Linux,
 
 A file can be synced from your local system to the remote server by using the command:
 
-	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
+	<em><strong>rsync &lt;filename&gt; &lt;username&gt;@designsafe.data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
 
 where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
 
 An entire directory can be synced from your local system to the remote server by using the command:
 
-	<em><strong>rsync -avtr &lt;/path/to/folder/&gt; &lt;username&gt;@data.tacc.utexas.edu:&lt;/path/to/project/directory&gt;</strong></em>
+	<em><strong>rsync -avtr &lt;/path/to/folder/&gt; &lt;username&gt;@designsafe.data.tacc.utexas.edu:&lt;/path/to/project/directory&gt;</strong></em>
 
 where <strong>-avtr</strong> will transfer the files recursively <em><strong>-r</strong></em>,  with the modification times <em><strong>-t</strong></em>, in the archive mode <em><strong>-a</strong></em>, and verbosely <em><strong>-v </strong></em>and all other terms defined previously.
 
