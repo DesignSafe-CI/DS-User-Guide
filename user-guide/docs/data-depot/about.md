@@ -6,7 +6,7 @@ The Data Depot Repository (DDR) is one component of the DesignSafe cyberinfrastr
 
 ## History
 
-The DDR has been in operation since 2016 and is currently supported by NSF through 2025. The DDR preserves natural hazards research data published since its inception, and also provides access to legacy data dating from about 2005. These legacy data were generated as part of the NSF-supported Network for Earthquake Engineering Simulation (NEES), a predecessor to NHERI. Legacy data and metadata belonging to NEES were transferred to the DDR for continuous preservation and access. View the published NEES data [here](https://designsafe-ci.org/data/browser/public/nees.public).
+The DDR has been in operation since 2016 and is currently supported by NSF through 2025. The DDR preserves natural hazards research data published since its inception, and also provides access to legacy data dating from about 2005. These legacy data were generated as part of the NSF-supported Network for Earthquake Engineering Simulation (NEES), a predecessor to NHERI. Legacy data and metadata belonging to NEES were transferred to the DDR for continuous preservation and access. [View the published NEES data.](https://designsafe-ci.org/data/browser/public/nees.public)
 
 ## Governance
 

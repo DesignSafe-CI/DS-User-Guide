@@ -57,13 +57,13 @@ When curating and publishing simulation datasets researchers should follow this 
 
 ### Geospatial Data
 
-We encourage the use of open Geospatial data formats. Within the Data Depot [Tools and Applications](https://www.designsafe-ci.org/user-guide/analysis/) we provide open source software for users to share and analyze geospatial data. [QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis/) accommodates most open format datasets, and [HazMapper](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/hazmapper/) is capable of visualizing geo-tagged photos and GeoJSON files. To access this software, users should create an account in DesignSafe.
+We encourage the use of [recommended Geospatial data formats](https://www.loc.gov/preservation/resources/rfs/geo-carto.html). Within the Data Depot [Tools and Applications](https://www.designsafe-ci.org/use-designsafe/tools-applications/) we provide open source software for users to share and analyze geospatial data. [QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis/) accommodates most open format datasets, and [HazMapper](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/hazmapper/) is capable of visualizing geo-tagged photos and GeoJSON files. To access this software, users should create an account in DesignSafe.
 
 Understanding that ArcGIS software is widespread in this community, it is possible to upload both proprietary and recommended geospatial data formats in the DDR. When publishing feature and raster files, it is important to make sure that all the relevant files for reuse–such as the projection and header files are included in the publication. For example, for shapefiles it is important to publish all .shp (the file that contains the geometry for all features), .shx (the file that indexes the geometry) and .dbf (the file that stores feature attributes in a tabular format) files.
 
 ### Point Cloud Data
 
-It is recommended to avoid publishing proprietary point cloud data extensions. Instead, users should consider publishing post-processed and open format data such as las or laz files. In addition, point cloud data publications may be very large and therefore of difficult access if not displayed on a map. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a Potree readable format for visualization in DesignSafe.
+It is recommended to avoid publishing proprietary point cloud data extensions. Instead, users should consider publishing post-processed and open format data such as las or laz files. In addition, point cloud data publications may be very large and therefore of difficult access if not displayed on a map. In [Tools and Applications](https://www.designsafe-ci.org/use-designsafe/tools-applications/), we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a Potree readable format for visualization in DesignSafe.
 
 ### Jupyter Notebooks
 
@@ -201,32 +201,24 @@ In their projects, researchers frequently reuse data as input files, for validat
 
 DDR offers possibilities to cite different types of resources that provide context, cite, or were used to create a new data publication.  Located in the curation forms, those are:
 
-Related Work: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset has to be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset) and is cited by (the work references the published dataset) 
-
-Referenced Data and Software: to cite data or software that have been reused to create the published dataset.
-
-
+- **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset has to be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset) and is cited by (the work references the published dataset) 
+- **Referenced Data and Software**: to cite data or software that have been reused to create the published dataset.
 
 Note that:
 
 * There could be more than one Related Work and Referenced Data or Software per published dataset.  
 * Related Works and Referenced Data or Software can be added at any time during or after the dataset's publication. In the former case, it can be done through Amends or Versioning.
-
 * In the form researchers should include the cited resource title and corresponding DOI in https format; this way, other users will be directed to the cited resource.
-* When using a DOI, the platform will submit this information to a third party (Cross-Ref via DataCite) that will assign the citations to the corresponding resources so that authors are credited appropriately. 
-* If users reuse images from other sources (online, databases, publications, etc.), those may have copyright. We recommend [these instructions](http://guides.library.ubc.ca/c.php?g=698822&p=4965735) for how to use and cite them.
-
-
+* When using a DOI, the platform will submit this information to a third party (Cross-Ref via DataCite) that will assign the citations to the corresponding resources so that authors are credited appropriately.
+* In order to reuse images from other sources (online, databases, publications, etc.), users should look into their rights and licensing restrictions and follow them appropriately.  Users should also follow [instructions on how to cite the images](https://guides.library.ubc.ca/images/citing).
 
 ## Rights
 
-DDR publishes data and other  types of materials, some of which such as reports, presentations, and learning materials are protected under the U.S. Copyright law. 
+DDR publishes data and other types of materials, some of which such as reports, presentations, and learning materials are protected under the [U.S. Copyright law](https://www.copyright.gov/title17/). The U.S. Copyright Office considers that [information that is discovered as opposed to created does not have copyrights](https://www.copyright.gov/title17/). This applies to a majority of datasets published in DDR which are conceived as a collection of facts.
 
-Regarding data, the US Copyright Office considers that information that is discovered as opposed to created does not have copyrights. This applies to a majority of datasets published in DDR which are conceived as a collection of facts. 
+Data may not, however, be only facts. That could be the case of certain types of field notes, answers from human subject interviews, or photographs. In turn, databases or other systems in which data is organized may be protected, but the data within will not be. In addition, [anything created solely by AI cannot be copyrighted](https://www.copyright.gov/ai/ai_policy_guidance.pdf). For updated information about this important topic see the University of Texas Libraries Copyright Issues in AI.
 
-Data may not, however, be only facts. That could be the case of certain types of field notes, answers from human subject interviews, or photographs. In turn, databases or other systems in which data is organized may be protected, but the data within will not be. In addition, anything created solely by AI cannot be copyrighted. The cases mentioned need to be carefully analyzed to determine copyright protection.
-
-As an open repository committed to responsible access, we offer different licenses under which authors can share their data  publicly, and establish the conditions in which it can be reused by others. Options offered in the DDR are Creative Commons licenses (with attribution or public domain)  and Open Data licenses (with and without attribution). The first ones involve creative work under copyright law, and the latter are designed specifically for data. All licensing choices in DesignSafe involve the least restrictive conditions under which data and works can be shared and reused.  In general, any creative work such as papers, reports, presentations, social science research instruments, learning objects,  and posters can be shared under a Creative Commons license while for data it is best to choose an Open Data license. When consulting with our community, most expressed that they want to be attributed, which means that reusers of data should add the dataset citation in the reference section of the papers they publish using the data. Please refer to the documentation in Licenses, and visit Virtual Office Hours to discuss any doubts in choosing the right license with the data curator.  
+As an open repository committed to responsible access, we offer different licenses under which authors can share their data  publicly, and establish the conditions in which it can be reused by others. Options offered in the DDR are [Creative Commons licenses](https://creativecommons.org/share-your-work/cclicenses/) (with attribution or public domain) and [Open Data licenses](https://opendatacommons.org/licenses/) (with and without attribution). The first ones involve creative work under copyright law, and the latter are designed specifically for data. All licensing choices in DesignSafe involve the least restrictive conditions under which data and works can be shared and reused.  In general, any creative work such as papers, reports, presentations, social science research instruments, learning objects,  and posters can be shared under a Creative Commons license while for data it is best to choose an Open Data license. When consulting with our community, most expressed that they want to be attributed, which means that reusers of data should add the dataset citation in the reference section of the papers they publish using the data. Please refer to the documentation in Licenses, and visit Virtual Office Hours to discuss any doubts in choosing the right license with the data curator.  
 
 ## Amends and Versioning
 
