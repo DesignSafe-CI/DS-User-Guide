@@ -79,7 +79,10 @@ The DDR data models  provide categories for users to organize their data in a s
 
 Under each category, corresponding files are represented as a list to facilitate accessibility of the dataset. However, curation of large datasets may require further organization of files into folders, which can be done prior to uploading the data or in My Project. In doing so it is best to avoid extensively nested folders, as browsing through folder hierarchies on the web slows the computer and confuses the user as to the location of the files. 
 
-To avoid excessive nesting and improve navigation, users can come up with a file naming convention schema, ideally during the research planning phase and prior to gathering the data. Well-constructed folder and file names make it possible to identify files by succinctly expressing their content and their relations to other files, considering the key information they want to convey to others. Some possibilities for naming conventions are:
+To avoid excessive nesting and improve navigation, users can come up with a file naming convention schema, ideally during the research planning phase and prior to gathering the data. Well-constructed folder and file names make it possible to identify files by succinctly expressing their content and their relations to other files, considering the key information they want to convey to others.
+
+/// details | Naming Convention **Ideas**
+    type: tip
 
 * Project acronym, is good for branding the data
 * Location/spatial coordinates
@@ -91,14 +94,18 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 * Damage type
 * Version number of file
 
-General recommendations and examples for good folder and file naming conventions. 
+///
+/// details | Naming Convention **Recommendations**
+    type: tip
 
 * File naming should be meaningful, both to the team and to others, and should be kept short. 
-*  Consider the folder name as complementary to the file naming convention
+* Consider the folder name as complementary to the file naming convention
 * File names should not have spaces, periods, accents, or special characters, as those features may cause errors within the storage systems.
 * Always leave the three letter file extension. 
 * The meaning and components of file naming conventions should be documented in the Data Report so that others can identify files. 
 * Do not repeat filenames or folder names across different experiments, collections and missions, or simulations, as this is confusing for other users. Always include another piece of information to distinguish files and folders across groupings. 
+
+///
 
 ## Recommended File Formats
 
