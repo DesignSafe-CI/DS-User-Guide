@@ -6,6 +6,7 @@
 /* CORE STYLES */
 /* To customize TACC/Core-Styles CSS */
 /* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.base.css */
+/* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.docs.css */
 
 @import url('https://cdn.jsdelivr.net/gh/TACC/Core-Styles@epic/v3--gh-345-tokens-from-figma/src/v3/variables/designsafe.light.css') layer(cosmetic);
 
@@ -30,6 +31,19 @@
     text-decoration-thickness: var(--global-border-width--normal);
     text-underline-offset: .2em;
 }
+
+/* To restore some font weight to the deepest headings */
+/* NOTE: Designer says these are too deep to support,
+         but documentation is deeper than websites */
+/* TODO: Migrate change to Core-Styles */
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h5 { font-weight: var(--extra-bold); letter-spacing: 0.03125em; }
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h6 { font-weight: var(--bold); }
 
 
 
@@ -129,6 +143,10 @@ hr.spacer {
 /* To add subtitle after headings */
 [data-subtitle]::after {
     content: ' ' attr(data-subtitle);
+}
+[data-subtitle]:not(
+    h5, h6 /* headings only distinguished by weight */
+)::after {
     font-weight: normal;
 }
 

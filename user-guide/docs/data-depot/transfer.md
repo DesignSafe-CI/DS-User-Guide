@@ -76,7 +76,7 @@ The following provides detailed instructions for setting up Globus access to Des
 
 #### 1. Log in to CILogon.org { #globus-step1 }
 
-Log in to the CILogon service (<a href="https://CILogon.org">https://CILogon.org</a>). If your institution is already a member of CILogon you can search for your institution and use your institutional credentials to log in. Otherwise, you can search for ACCESS CI (XSEDE) and proceed to create an ACCESS account.
+Log in to the [CILogon service](https://CILogon.org). If your institution is already a member of CILogon you can search for your institution and use your institutional credentials to log in. Otherwise, you can search for ACCESS CI (XSEDE) and proceed to create an ACCESS account.
 
 #### 2. Find the ePPN associated with your CILogon/Globus access { #globus-step2 }
 
@@ -92,7 +92,7 @@ Allow 30 minutes for the ePPN to propagate through TACC's systems.
 
 #### 4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect { #globus-step4 }
 
-After giving your ePPN time to propagate through the systems (up to 30 minutes), go to <a href="https://globus.org" target="_blank">https://globus.org</a> and log in.
+After giving your ePPN time to propagate through the systems (up to 30 minutes), go to [https://globus.org](https://globus.org){ target="_blank" } and log in.
 
 ![Globus Login](./imgs/globus-step4-a.png)
 
@@ -108,7 +108,7 @@ Download Globus Connect Personal using the link on the page. It should automatic
 
 ![Create a personal endpoint](./imgs/globus-step4-d.png)
 
-Download and Install the Globus Connect Personal client. When setting the "Collection Name" be sure to select a descriptive name. We will use "My Laptop" as the name of our endpoint.
+Download and Install the Globus Connect Personal client. When setting the "Collection Name", be sure to select a descriptive name. We will use "My Laptop" as the name of our endpoint.
 
 After installation and setup is complete return to the Globus online interface. Select the “File Manager” tab (upper left), then click on the search bar immediately to the right of the label "Collection".
 
@@ -132,17 +132,17 @@ Corral3 is a large (40 PB), shared data resource, as such, the data stored on De
 
 To access your data on DesignSafe
 
-* For <strong>My Data</strong> set Path to <strong>/data/designsafe/mydata/&lt;username&gt;/</strong>
-* For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
-* For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>/
-* For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;/</strong>
-* For <strong>Community Data</strong> set Path to <strong>/corral/projects/NHERI/community/</strong>
+* For <strong>My Data</strong> set Path to `/data/designsafe/mydata/<username>/`
+* For <strong>My Projects</strong> set Path to `/corral/projects/NHERI/projects/<project-uid>/`
+* For <strong>Published </strong>DesignSafe projects set Path to `/corral/projects/NHERI/published/<PRJ-XXXX>`
+* For <strong>Published (NEES)</strong> projects set Path to `/corral/projects/NHERI/public/projects/<NEES-XXXX-XXXX.groups>`
+* For <strong>Community Data</strong> set Path to `/corral/projects/NHERI/community/</strong>
 
-For more information on path selection please see the detailed guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a>.
+For more information on path selection please see the detailed guide on [Setting the Path to DesignSafe on Corral](/user-guide/managingdata/settingpathtodesignsafe).
 
 After entering the appropriate path to DesignSafe on Corral, you are ready to perform your file transfer.
 
-<em>Note: For directories you connect to frequenctly, for example My Data, you can create a bookmark for easy access using the bookmark icon immediately to the right of the "Path" bar.</em>
+_**Note:** For directories you connect to frequenctly, for example My Data, you can create a bookmark for easy access using the bookmark icon immediately to the right of the "Path" bar._
 
 ![Establish connection to Corral endpoint](./imgs/globus-step5.png)
 
@@ -168,11 +168,11 @@ Globus provides a command line interface (CLI), for those who need to perform au
 
 #### 1. Follow the steps 1-3 above in Globus Data Transfer Guide { #globuscli-step1 }
 
-To set up your Globus access, follow steps 1-3 above in the <a href="#globus-step1">Globus Data Transfer Guide</a> .
+To set up your Globus access, follow steps 1-3 above in the [Globus Data Transfer Guide](#globus-step1) .
 
 #### 2. Activate Your Desktop/Laptop as a Globus Endpoint and Connect { #globuscli-step2 }
 
-If the data you wish to transfer is located on your local machine, follow <a href="#globus-step4">Step 4 of the Globus Data Transfer Guide</a> to create a personal endpoint.
+If the data you wish to transfer is located on your local machine, follow [Step 4 of the Globus Data Transfer Guide](#globus-step4) to create a personal endpoint.
 
 If the data you wish to transfer is located on a server operated by your organization and does not already have a Globus Endpoint available, talk to your system administrator about creating one.
 
@@ -180,7 +180,7 @@ If the data you wish to transfer is located on a server operated by your organiz
 
 Follow the [instructions provided by Globus for installing the CLI](https://docs.globus.org/cli).
 
-_Note: The recommended installation method requires a system with Python3 and the ability to run `pip` commands._
+_**Note:** The recommended installation method requires a system with Python3 and the ability to run `pip` commands._
 
 #### 4. Settings for CLI Transfer { #globuscli-step4 }
 
@@ -206,27 +206,27 @@ With the endpoint IDs, we can now do a test transfer with the Globus CLI.
 
 Start by authenticating by entering the following:
 
-<code>globus login</code>
+`globus login`
 
 This will prompt you to authenticate through your web-browser and grant permissions to Globus-CLI.
 
 Next, we create our transfer command. The basic structure follows:
 
-<code>globus transfer [OPTIONS] SOURCE_ENDPOINT_ID[:SOURCE_PATH] DEST_ENDPOINT_ID[:DEST_PATH]</code>
+`globus transfer [OPTIONS] SOURCE_ENDPOINT_ID[:SOURCE_PATH] DEST_ENDPOINT_ID[:DEST_PATH]`
 
 An example transfer command:
 
-<code>globus transfer --recursive [endpoint uuid for your machine]:[path on your machine] [endpoint uuid for tacc corral3]:[path on tacc corral3 to your My Data or Project]</code>
+`globus transfer --recursive [endpoint uuid for your machine]:[path on your machine] [endpoint uuid for tacc corral3]:[path on tacc corral3 to your My Data or Project]`
 
-Fill out the variables in the example command with the UUIDs and paths and submit the transfer. If you are unsure of the appropriate Corral3 path, please refer to the guide on <a href="#setting-path-to-ds-on-corral">Setting the Path to DesignSafe on Corral</a> for more information.
+Fill out the variables in the example command with the UUIDs and paths and submit the transfer. If you are unsure of the appropriate Corral3 path, please refer to the guide on [Setting the Path to DesignSafe on Corral](/user-guide/managingdata/settingpathtodesignsafe).
 
 You will get a message stating whether your transfer was successful or not. If it was successful, you will receive the message:
 
-<code>Message: The transfer has been accepted and a task has been created and queued for executionTask ID: [taskid]</code>
+`Message: The transfer has been accepted and a task has been created and queued for executionTask ID: [taskid]`
 
-The full reference for the Globus CLI can found here: <a href="https://docs.globus.org/cli/reference/">https://docs.globus.org/cli/reference</a>.
+The full reference for the Globus CLI can found here: [https://docs.globus.org/cli/reference](https://docs.globus.org/cli/reference/).
 
-The full reference for the transfer command, including information on additional options that may be useful to you, can be found here: <a href="https://docs.globus.org/cli/reference/transfer/">https://docs.globus.org/cli/reference/transfer</a>.
+The full reference for the transfer command, including information on additional options that may be useful to you, can be found here: [https://docs.globus.org/cli/reference/transfer](https://docs.globus.org/cli/reference/transfer/).
 
 #### 6. Create an Automatic Transfer Script { #globuscli-step6 }
 
@@ -234,7 +234,7 @@ We will now create a shell script to store the transfer details (i.e., UUIDs and
 
 Below is an example script you can modify for your transfers. Note that this does hard code the UUIDs and paths and therefore assumes you are always transferring to and from the same locations.
 
-``` { .bash }
+```sh
 #!/bin/bash
 
 GLOBUS_CLI_INSTALL_DIR="$(python -c 'import site; print(site.USER_BASE)')/bin"
@@ -267,7 +267,7 @@ To automate the transfer we wil use the Linux scheduling utility cron to call ou
 
 An example cron table entry that you can use to automatically run your transfer every six hours is listed below:
 
-<code>0 */6 * * * /location/of/your/globustransfer.sh &gt; /dev/null</code>
+`0 */6 * * * /location/of/your/globustransfer.sh > /dev/null`
 
 
 ---
@@ -278,11 +278,11 @@ Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows
 
 #### 1. Set up MFA using the TACC Token App { #cyberduck-step1 }
 
-TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://docs.tacc.utexas.edu/basics/mfa/" target="_blank">MFA instructions.</a>
+TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the [TACC user portal](https://www.tacc.utexas.edu/portal/login){ target="_blank" } and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full [MFA instructions](https://docs.tacc.utexas.edu/basics/mfa/){ target="_blank" }.
 
 #### 2. Download and Install Cyberduck { #cyberduck-step2 }
 
-<a href="https://cyberduck.io/download/" target="_blank">Download Cyberduck</a> and install.
+[Download Cyberduck](https://cyberduck.io/download/){ target="_blank" } and install.
 
 Note that Cyberduck is Free Software and as such is freely available to download (see link above). However, some approaches to downloading Cyberduck (such as through the Windows Store and Mac App Store) come with a registration key that disables a donation prompt. While you may purchase a registration key to support the development of Cyberduck if you wish, the **activation key is not required** to use the software for transfer files to and from DesignSafe.
 
@@ -302,7 +302,7 @@ Set "Server" to "designsafe.data.tacc.utexas.edu".
 
 Enter your DesignSafe/TACC username and password.
 
-For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
+For the "Path", refer to [Setting Path to DS on Corral](/user-guide/managingdata/settingpathtodesignsafe).
 
 If you do not see the "Path" option click the button "More Options" in the lower left.
 
@@ -326,63 +326,75 @@ To download files, select the file(s) you wish to download. Select "File" &gt; "
 
 ### Command Line Interface { #cli data-subtitle="Data Transfer Guide" }
 
-Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users as you will need to learn unix commands. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
+Common command-line utilities, such as `scp` and `rsync`, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users as you will need to learn unix commands. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
 #### 1. Set up MFA using the TACC Token App { #cli-step1 }
 
-TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the <a href="https://www.tacc.utexas.edu/portal/login" target="_blank">TACC user portal</a> and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://docs.tacc.utexas.edu/basics/mfa/" target="_blank">MFA instructions.
+TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the [TACC user portal](https://www.tacc.utexas.edu/portal/login){ target="_blank" } and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://docs.tacc.utexas.edu/basics/mfa/" target="_blank">MFA instructions.
 
 #### 2. Select Transfer Utility and Perform Transfer { #cli-step2 }
 
-There are several different command-line based file transfer utilities. We detail two of them here: scp and rsync.
+There are several different command-line based file transfer utilities. We detail two of them here: [`scp`](#cli-step3-scp) and [`rsync`](#cli-step3-rsync).
 
-##### scp { #cli-step3-scp }
+##### `scp` { #cli-step3-scp data-subtitle="Secure Copy Protocol" }
 
-A data transfer can be performed using the secure copy (scp) utility between any Linux, Mac, or Windows (with Window's Subsystem for Linux) machine and DesignSafe.
+A data transfer can be performed using the Secure Copy Protocol (`scp`) utility between any Linux, Mac, or Windows (with Window's Subsystem for Linux) machine and DesignSafe.
 
 A file can be copied from your local system to the remote server by using the command:
 
-where **&lt;filename&gt;** is the name of the file you wish to copy, **&lt;username&gt;** is your DesignSafe/TACC username, and **&lt;/path/to/directory&gt;** is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
+where `<filename>` is the name of the file you wish to copy, `<username>` is your DesignSafe/TACC username, and `</path/to/directory>` is the path on Corral where you wish to send the copy of your file. For the "Path", refer to [Setting Path to DS on Corral](/user-guide/managingdata/settingpathtodesignsafe).
 
 An entire folder can be copied from your local system to the remote server by using the command:
 
-<em><b>scp -r &lt;/path/to/folder/&gt; &lt;username&gt;@designsafe.data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</b></em>
+```sh
+scp -r </path/to/folder/> <username>@designsafe.data.tacc.utexas.edu:</path/to/project/directory/>
+```
 
-where the `-r` indicates the copy should be recursive, <b><i>&lt;/path/to/folder/&gt;</b></i>is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
+where the `-r` indicates the copy should be recursive, `</path/to/folder/>` is the name of the folder you wish to copy (be sure to include the final "/", and all other terms defined previously.
 
 For help execute:
 
-<em><strong>scp -h</strong></em>
+```sh
+scp -h
+```
 
 For more information execute:
 
-<em><strong>man scp</strong></em>
+```sh
+man scp
+```
 
-##### rsync { #cli-step3-rsync }
+##### `rsync` { #cli-step3-rsync data-subtitle="Remote Synchronization" }
 
-A data transfer can also be performed using the rsync utility between any Linux, Mac, or Windows (with Window's Subsystem for Linux) machine and DesignSafe. The rsync utility is different from the scp utility as it first compares the source and destination files prior to performing the transfer and only performs a data transfer on the file(s) if they are different.
+A data transfer can also be performed using the Remote Synchronization (`rsync`) utility between any Linux, Mac, or Windows (with Window's Subsystem for Linux) machine and DesignSafe. The `rsync` utility is different from the `scp` utility as it first compares the source and destination files prior to performing the transfer and only performs a data transfer on the file(s) if they are different.
 
 A file can be synced from your local system to the remote server by using the command:
 
-    <em><strong>rsync &lt;filename&gt; &lt;username&gt;@designsafe.data.tacc.utexas.edu:&lt;/path/to/project/directory/&gt;</strong></em>
+```sh
+rsync <filename> <username>@designsafe.data.tacc.utexas.edu:</path/to/project/directory/>
+```
 
-where <em><strong>&lt;filename&gt;</strong></em> is the name of the file you wish to copy, <em><strong>&lt;username&gt;</strong></em> is your DesignSafe/TACC username, and <em><strong>&lt;/path/to/directory/&gt;</strong></em> is the path on Corral where you wish to send the copy of your file. For the "Path", refer to <a href="/user-guide/managingdata/settingpathtodesignsafe" target="_blank">Setting Path to DS on Corral</a>.
+where `<filename>` is the name of the file you wish to copy, `<username>` is your DesignSafe/TACC username, and `</path/to/directory/>` is the path on Corral where you wish to send the copy of your file. For the "Path", refer to [Setting Path to DS on Corral](/user-guide/managingdata/settingpathtodesignsafe).
 
 An entire directory can be synced from your local system to the remote server by using the command:
 
-    <em><strong>rsync -avtr &lt;/path/to/folder/&gt; &lt;username&gt;@designsafe.data.tacc.utexas.edu:&lt;/path/to/project/directory&gt;</strong></em>
+```sh
+rsync -avtr </path/to/folder/> <username>@designsafe.data.tacc.utexas.edu:</path/to/project/directory>
+```
 
-where <strong>-avtr</strong> will transfer the files recursively <em><strong>-r</strong></em>,  with the modification times <em><strong>-t</strong></em>, in the archive mode <em><strong>-a</strong></em>, and verbosely <em><strong>-v </strong></em>and all other terms defined previously.
-
-
+where `-avtr` will transfer the files recursively `-r`,  with the modification times `-t`, in the archive mode `-a`, and verbosely `-v`and all other terms defined previously.
 
 For help execute:
 
-<em><strong>rsync -h</strong></em>
+```sh
+rsync -h
+```
 
 For more information execute:
 
-<em><strong>man rsync</strong></em>
+```sh
+man rsync
+```
 
 ---
 
@@ -408,7 +420,7 @@ Select **Browse...** at the top to select the files you wish to upload. Press **
 
 Once the transfer is complete the Upload files window will close and you will see your files in your DesignSafe directory.
 
-**Note, if the files are not immediately visible refresh the page.**
+_**Note:** If the files are not immediately visible refresh the page._
 
 ![Upload Complete](./imgs/datadepotbrowser-4.png)
 
@@ -420,7 +432,7 @@ If you wish to upload a folder, follow the same procedure as above except select
 
 To download a file from DesignSafe to your local desktop/laptop **select the file** you wish to download and press **Download**.
 
-**Note depending on how you have configured your browser, it will either download the file directly to your default downloads directory or will prompt you to save the file in a location of your choice.**
+_**Note:** Depending on how you have configured your browser, it will either download the file directly to your default downloads directory or will prompt you to save the file in a location of your choice._
 
 ![Select File for Download](./imgs/datadepotbrowser-5.png)
 
@@ -438,7 +450,7 @@ You can move and copy the data inside of DesignSafe using the browser-based inte
 
 Navigate to the new destination and press **Move Here**.
 
-**Note that you cannot move files between main directories, such as My Data and My Projects, however may copy between them. See instructions below for details.**
+_**Note:** You cannot move files between main directories, such as My Data and My Projects, however may copy between them. See instructions below for details._
 
 ![Move Here](./imgs/datadepotbrowser-7.png)
 
@@ -452,7 +464,7 @@ Navigate to the new destination and press **Move Here**.
 
 ### JupyterHub Web Browser { #jupyterhubbrowser data-subtitle="Data Transfer Guide" }
 
-The DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data ( &lt; 100 MB, &lt; 25 files).
+The DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data (&lt; 100 MB, &lt; 25 files).
 
 #### To Upload a File Through Jupyter { #jupyterhubbrowser-upload }
 
@@ -488,7 +500,7 @@ If you would like to upload an entire folder, please use one of the large data t
 
 To download a file, **select the file** then select **Download**.
 
-*Note depending on how you have configured your browser, it will either download the file directly to your default downloads directory or will prompt you to save the file in a location of your choice.*
+_**Note:** Depending on how you have configured your browser, it will either download the file directly to your default downloads directory or will prompt you to save the file in a location of your choice._
 
 ![Select File for Download](./imgs/jupyterbrowser-6.png)
 
@@ -498,9 +510,9 @@ If you would like to download an entire folder, please use one of the large data
 
 DesignSafe provides users the capability to connect to a cloud storage provider.
 
-Once connected, data held on the cloud storage provider can be easily copied to and from DesignSafe. Note DesignSafe does not actively synchronize your data and so any copy operation must be initiated manually. Any changes you make to data transferred to DesignSafe from a cloud storage provider will not affect the files located on the cloud storage provider. To update the files on the cloud storage provider you must manually copy them back to the provider using the copy functionality in the DesignSafe browser interface.
+Once connected, data held on the cloud storage provider can be easily copied to and from DesignSafe. Note that DesignSafe does not actively synchronize your data and so any copy operation must be initiated manually. Any changes you make to data transferred to DesignSafe from a cloud storage provider will not affect the files located on the cloud storage provider. To update the files on the cloud storage provider you must manually copy them back to the provider using the copy functionality in the DesignSafe browser interface.
 
-**Currently, only Dropbox is supported.** <!--The three main cloud storage providers, <a href="#cloud-box">Box</a>, <a href="#cloud-dropbox">Dropbox</a>,and <a href="#cloud-googledrive">Google Drive</a>, are supported on DesignSafe. Detailed instruction for setting up integration is provided below. -->
+**Currently, only Dropbox is supported.** <!--The three main cloud storage providers, [Box](#cloud-box), [Dropbox](#cloud-dropbox),and [Google Drive](#cloud-googledrive), are supported on DesignSafe. Detailed instruction for setting up integration is provided below. -->
 
 <!--
 #### Box { #cloud-box }
