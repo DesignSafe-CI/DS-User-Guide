@@ -10,35 +10,61 @@ This document provides a brief description of the various methods available for 
 
 We define a large data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
 
-1. [Globus](#globus) or [Globus CLI](#globuscli)
+/// html | article.card--plain
+    markdown: block
 
-    Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once set up, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommended approach for moving large quantities of data to and from DesignSafe.
+**1. [Cyberduck](#cyberduck)**
 
-    _For automated transfers using Globus, follow [Globus CLI automated data transfer guide](#globuscli)._
+Cyberduck is an open-source client for file transfer protocols that allows you to securely connect to DesignSafe and other TACC resources without directly using the command line. Cyberduck presents a compromise between a shorter setup time than Globus but at the expense of Globus' superior speed and reliability.
 
-1. [Cyberduck](#cyberduck) (recommended)
+///
+/// html | article.card--plain
+    markdown: block
 
-    Cyberduck is an open-source client for file transfer protocols that allows you to securely connect to DesignSafe and other TACC resources without directly using the command line. Cyberduck presents a compromise between a shorter setup time than Globus but at the expense of Globus' superior speed and reliability.
+**2. [Globus](#globus) or [Globus CLI](#globuscli)**
 
-1. [Command Line Interface](#cli)
+Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once set up, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, setup only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommended approach for moving large quantities of data to and from DesignSafe.
 
-    Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
+_For automated transfers using Globus, follow [Globus CLI automated data transfer guide](#globuscli)._
+
+///
+/// html | article.card--plain
+    markdown: block
+
+**3. [Command Line Interface](#cli)**
+
+Common command-line utilities, such as `scp` and `rsync`, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
+
+///
 
 #### for Normal Datasets { #recommended-normaldatatransfer }
 
 We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
 
-1. [Data Depot via Web Browser](#datadepotbrowser)
+/// html | article.card--plain
+    markdown: block
 
-    The Data Depot's browser interface allows you to conveniently upload and download small quantities of data as well as move and copy data between directories.
+**1. [Data Depot via Web Browser](#datadepotbrowser)**
 
-1. [JupyterHub via Web Browser](#jupyterbrowser)
+The Data Depot's browser interface allows you to conveniently upload and download small quantities of data as well as move and copy data between directories.
 
-    Similar to the Data Depot's browser interface, the DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data.
+///
+/// html | article.card--plain
+    markdown: block
 
-1. [Cloud Storage Provider](#cloud) (e.g. Dropbox)
+**2. [JupyterHub via Web Browser](#jupyterbrowser)**
 
-    DesignSafe provides the ability to directly transfer data to and from a cloud storage provider. DesignSafe currently supports integration with Dropbox. Note that DesignSafe does not synchronize your data with the cloud storage provider, it only enables transfers.
+Similar to the Data Depot's browser interface, the DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data.
+
+///
+/// html | article.card--plain
+    markdown: block
+
+**3. [Cloud Storage Provider](#cloud) (e.g. Dropbox)**
+
+DesignSafe provides the ability to directly transfer data to and from a cloud storage provider. DesignSafe currently supports integration with Dropbox. Note that DesignSafe does not synchronize your data with the cloud storage provider, it only enables transfers.
+
+///
 
 ---
 
@@ -152,9 +178,9 @@ If the data you wish to transfer is located on a server operated by your organiz
 
 #### 3. Install the Globus CLI { #globuscli-step3 }
 
-Follow the instructions provided by Globus for installing the CLI (<a href="https://docs.globus.org/cli/">https://docs.globus.org/cli</a>)
+Follow the [instructions provided by Globus for installing the CLI](https://docs.globus.org/cli).
 
-_Note the recommended installation method requires a system with Python3 and the ability to run pip commands._
+_Note: The recommended installation method requires a system with Python3 and the ability to run `pip` commands._
 
 #### 4. Settings for CLI Transfer { #globuscli-step4 }
 
