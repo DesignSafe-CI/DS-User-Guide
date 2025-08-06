@@ -28,7 +28,7 @@ Data preservation encompasses activities carried out by all the stakeholders inv
 
 Data in the (DDR) is preserved according to state-of-the art digital library standards and best practices. DesignSafe is implemented within the reliable, secure, and scalable storage infrastructure at the [Texas Advanced Computing Center (TACC)](https://tacc.utexas.edu/), with more than 20 years of experience and innovation in High Performance Computing. TACC has operated a digital data archive continuously since 1986 - currently implemented in the [Corral](https://www.tacc.utexas.edu/systems/corral) data management system and the [Ranch](https://www.tacc.utexas.edu/systems/ranch) tape archive -, with capacity of approximately half an exabyte. Corral and Ranch hold the data for the DDR and hundreds of other research data collections. These storage resources are reliable, secure, monitored 24/7, and under a rigorous maintenance and update schedule, operated in production by a large team of professional staff. Public user guides document the capabilities and hardware, and internal configuration management is managed via Redmine, visible only to systems staff. Between those systems there are multiple layers of data protection and reliability, including snapshots, server redundancy, distributed RAID, and replication to the tape archive.
 
-Within the storage infrastructure a dedicated [Fedora](https://duraspace.org/fedora/) 5.x digital repository, considered a standard for digital libraries, assures the authenticity and integrity of the published datasets by maintaining provenance, fixity, and preservation metadata in accordance to [standard schemas](https://www.designsafe-ci.org/user-guide/dictionary/#experimental) and the relationships between data and corresponding metadata for each published research project. Specifically, Fedora was chosen as a repository because the flexibility of its model allows managing the structure of the DDR’s different project types.
+Within the storage infrastructure a dedicated [Fedora](https://duraspace.org/fedora/) 5.x digital repository, considered a standard for digital libraries, assures the authenticity and integrity of the published datasets by maintaining provenance, fixity, and preservation metadata in accordance to [standard schemas](/user-guide/dictionary/#experimental) and the relationships between data and corresponding metadata for each published research project. Specifically, Fedora was chosen as a repository because the flexibility of its model allows managing the structure of the DDR’s different project types.
 
 The DDR-Fedora workflow is as follows. Once a dataset is curated and the user has agreed to the last step in the publication process, published files are hashed for fixity - integrity- and file formats are identified - preservation using OPF-FIDO. The integrity and preservation information about each file is added to a manifest file. Files are stored on Corral in a secure location that is also recorded on the manifest file. Ingestion of metadata from the web-visible storage into Fedora takes place under automated control when the publication workflow executes. At that point, user contributed metadata is mapped to the standard descriptive and data citation schemas DublinCore, DDI, and DataCite, and data model metadata for each project type is mapped to PROV to reflect the relations between different components of the datasets and to the research project.  The manifest file and the metadata that the user has been inputting throughout the curation process is sent to Fedora. For each individual file, Fedora maintains preservation metadata in the standard [PREMIS](https://www.loc.gov/standards/premis/) format.
 
@@ -38,17 +38,17 @@ The underlying storage systems for the DDR are managed in-house at TACC. All the
 
 Each published dataset has a [Digital Object Identifier (DOI)](https://www.doi.org/the-identifier/what-is-a-doi/) that provides a persistent link to the published data. The DOI is available in the dataset landing page, along with all the required metadata and documentation.
 
-While at the moment DDR is committed to preserve data in the format in which it is submitted, we procure the necessary authorizations from users to conduct further preservation actions as well as to transfer the data to other organizations if applicable. These permissions are granted through our [Data Publication Agreement](https://pprd.designsafe-ci.org/user-guide/data-depot/policies/#data-publication-agreement), which authors acknowledge and have the choice to agree to at the end of the publication workflow and prior to receiving a DOI for their dataset.
+While at the moment DDR is committed to preserve data in the format in which it is submitted, we procure the necessary authorizations from users to conduct further preservation actions as well as to transfer the data to other organizations if applicable. These permissions are granted through our [Data Publication Agreement](/user-guide/data-depot/policies/#data-publication-agreement), which authors acknowledge and have the choice to agree to at the end of the publication workflow and prior to receiving a DOI for their dataset.
 
-The DDR has been operational since 2016 and is currently supported by the NSF from October 1st, 2020 through September 30, 2025. During this award period, the DDR will continue to preserve the natural hazards research data published since its inception  as well as supporting preservation of and access to legacy data and the accompanying metadata from the Network for Earthquake Engineering Simulation (NEES), a NHERI predecessor, dating from 2005. The legacy data comprising 33 TB, 5.1 million files,2 and their metadata was transferred to DesignSafe in 2016 as part of the conditions of the [original grant](https://www.nsf.gov/pubs/2014/nsf14605/nsf14605.htm) . See NEES data [here](https://www.designsafe-ci.org/data/browser/public-legacy/). Our [Continuity of Access Policy](https://pprd.designsafe-ci.org/user-guide/data-depot/policies/#continuity-of-access) presents the preservation and access alternatives that can be implemented at the end of the award period.
+The DDR has been operational since 2016 and is currently supported by the NSF from October 1st, 2020 through September 30, 2025. During this award period, the DDR will continue to preserve the natural hazards research data published since its inception  as well as supporting preservation of and access to legacy data and the accompanying metadata from the Network for Earthquake Engineering Simulation (NEES), a NHERI predecessor, dating from 2005. The [legacy data comprising 33 TB, 5.1 million files,2 and their metadata](https://www.designsafe-ci.org/data/browser/public-legacy/) was transferred to DesignSafe in 2016 as part of the conditions of the [original grant](https://www.nsf.gov/pubs/2014/nsf14605/nsf14605.htm). Our [Continuity of Access Policy](/user-guide/data-depot/policies/#continuity-of-access) presents the preservation and access alternatives that can be implemented at the end of the award period.
 
 ## Dataset Quality
 
-DDR is a self-publication repository which means that authors are ultimately responsible for the quality of the dataset that they share with the world. However,  we understand that producing and sharing quality datasets  is a collaborative effort between researchers and the DDR and we partner with users to publish [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, and Reusable) datasets. In consultation with the larger NHERI network we are continuously observing and defining [best practices](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.yd85kbcdlgs9) that emerge from our community's understanding and standards. These are communicated through onboarding instructions in the curation and publication pipeline, our policies and  best practices recommendations,  our guidance during virtual office hours, and through our help ticketing system. 
+DDR is a self-publication repository which means that authors are ultimately responsible for the quality of the dataset that they share with the world. However,  we understand that producing and sharing quality datasets  is a collaborative effort between researchers and the DDR and we partner with users to publish [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, and Reusable) datasets. In consultation with the larger NHERI network we are continuously observing and defining [best practices](/user-guide/data-depot/best-practices/) that emerge from our community's understanding and standards. These are communicated through onboarding instructions in the curation and publication pipeline, our policies and  best practices recommendations,  our guidance during [virtual office hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/), and through our help ticketing system. 
 
 We address data quality from a variety of perspectives:
 
-Metadata quality: Metadata is fundamental to data explainability and reuse. To support metadata quality we provide onboarding descriptions of all metadata elements, indicate which ones are required, and suggest how to complete them. [Requirements for core metadata elements](https://pprd.designsafe-ci.org/user-guide/data-depot/policies/#metadata-schema-and-requirements) are automatically reinforced during the publication pipeline, and the dataset will not be published if requirements are not met. 
+Metadata quality: Metadata is fundamental to data explainability and reuse. To support metadata quality we provide onboarding descriptions of all metadata elements, indicate which ones are required, and suggest how to complete them. [Requirements for core metadata elements](/user-guide/data-depot/policies/#metadata-schema-and-requirements) are automatically reinforced during the publication pipeline, and the dataset will not be published if requirements are not met. 
 
 Dataset content quality: Different groups in the NHERI network have developed guidelines for data quality assurance, including [StEER](https://www.steer.network/resources), [CONVERGE](https://converge.colorado.edu/data/data-management) and [RAPID](https://rapid.designsafe-ci.org/using-rapid/publishing-guidelines). In turn, each [NHERI Experimental Facility](https://designsafe-ci.org/facilities/experimental/) has methods and criteria in place for ensuring the quality of the data they generate from experiments. Most of the data curated and published in the DDR are related to peer-reviewed research projects and papers, speaking to the relevance and standards of their design and outputs. Still, the community acknowledges that opportunities for detailed quality assessment often emerge after publication. Because work in many projects continues after publication, both for the data producers and reusers, the community can version datasets.
 
@@ -60,7 +60,7 @@ Dataset publication review: Data curators review new publications on a regular b
 
 Statement of data quality: We ask that data producers include a statement of dataset quality indicating if and how they verified the data quality, or if they published the raw data as is. 
 
-Meeting the dataset quality requirement: In cases in which the authors do not comply with these data quality requirements, DDR abides by the [Tombstone policy](https://pprd.designsafe-ci.org/user-guide/data-depot/policies/#tombstone) and may permanently remove the dataset. 
+Meeting the dataset quality requirement: In cases in which the authors do not comply with these data quality requirements, DDR abides by the [Tombstone policy](/user-guide/data-depot/policies/#tombstone) and may permanently remove the dataset. 
 
 
 
@@ -77,17 +77,17 @@ This submission represents my original work and meets the policies and requireme
 5. Exchange and or incorporate metadata or documentation in the content into public access catalogues.
 6. Transfer data and metadata with respective unique digital object identifier (DOI)  to another institution for long-term accessibility if needed for continuous access.
 
-I understand the type of license I choose to distribute my data, and I guarantee that I am entitled to grant the rights contained in them. I agree that when this submission is made public with a DOI, this DOI cannot be discarded, even if the dataset is [tombstoned](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.mijsiryl16dx). If the dataset requires revision, a new version of the dataset will be published under the same DOI.
+I understand the type of license I choose to distribute my data, and I guarantee that I am entitled to grant the rights contained in them. I agree that when this submission is made public with a DOI, this DOI cannot be discarded, even if the dataset is [tombstoned](/user-guide/data-depot/policies/#tombstone). If the dataset requires revision, a new version of the dataset will be published under the same DOI.
 
 I warrant that I am lawfully entitled and have full authority to license the content submitted, as described in this agreement. None of the above supersedes any prior contractual obligations with third parties that require any information to be kept confidential.
 
-If applicable, I warrant that I am following the IRB agreements in place for my research and following the [Protected Data Policy](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.gr7h4hq8k2fp). 
+If applicable, I warrant that I am following the IRB agreements in place for my research and following the [Protected Data Policy](/user-guide/data-depot/policies/#protected-data). 
 
 I understand that using the DDR to publish datasets is entirely voluntary and that I am solely responsible for all possible confidentiality, privacy, data quality and data content  issues that may arise from the publication. These terms do not supersede any prior third party contractual obligations to confidentiality or proprietary information. 
 
 ## Data Types
 
-We accept engineering and social and behavioural sciences datasets, reports, research software and presentations derived from research conducted in the context of natural hazards regarding the impacts of wind, earthquake, storm surge, wildfires, and sustainable materials management. Specifically in the area of engineering, the primary focus is on data generated through simulation, hybrid simulation, experimental, machine learning, and field research methods. In social and behavioural sciences (SBE), accepted datasets and research instruments encompass the study of the human dimensions of hazards and disasters and we expanded our focus to include datasets related to COVID-19. Users who submit datasets that do not match the accepted data types will be notified whenever possible before publication so that they can remove their data. If a noncompliant dataset is published with a DOI, we will abide by the [Tombstone Policy](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?tab=t.0#heading=h.253ecanf6gfm), and a curator will work with the user to find a repository adequate for their needs. As the field and the expertise of the community evolves we may expand the data types accepted.
+We accept engineering and social and behavioural sciences datasets, reports, research software and presentations derived from research conducted in the context of natural hazards regarding the impacts of wind, earthquake, storm surge, wildfires, and sustainable materials management. Specifically in the area of engineering, the primary focus is on data generated through simulation, hybrid simulation, experimental, machine learning, and field research methods. In social and behavioural sciences (SBE), accepted datasets and research instruments encompass the study of the human dimensions of hazards and disasters and we expanded our focus to include datasets related to COVID-19. Users who submit datasets that do not match the accepted data types will be notified whenever possible before publication so that they can remove their data. If a noncompliant dataset is published with a DOI, we will abide by the [Tombstone Policy](/user-guide/data-depot/policies/#tombstone), and a curator will work with the user to find a repository adequate for their needs. As the field and the expertise of the community evolves we may expand the data types accepted.
 
 ## Data Usage Agreement
 
@@ -218,15 +218,15 @@ _Carefully read and consider this license, as it does not require attribution._
 
 DDR requires that users reusing data from others in their projects do so in compliance with the terms of the resource's original license.
 
-The expectations of DDR and the responsibilities of users with respect to licenses are included in the [DesignSafe Terms of Use](https://www.designsafe-ci.org/account/terms-conditions/), the [Data Usage Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.ng2qd9najkd9), and the [Data Publication Agreement](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.nkcxboxktn36). In the event that we note or are notified that the licensing policies and best practices are not followed, we will notify the user of the infringement and will apply the [Tombstone](https://docs.google.com/document/d/1a1KSeyezPCwjDIHBSP2EEwauWFUKy_RiVVqKVepUAUA/edit?pli=1&tab=t.0#heading=h.253ecanf6gfm) policy.
+The expectations of DDR and the responsibilities of users with respect to licenses are included in the [DesignSafe Terms of Use](https://www.designsafe-ci.org/account/terms-conditions/), the [Data Usage Agreement](/user-guide/data-depot/policies/#data-usage-agreement), and the [Data Publication Agreement](/user-guide/data-depot/policies/#data-publication-agreement). In the event that we note or are notified that the licensing policies and best practices are not followed, we will notify the user of the infringement and will apply the [Tombstone Policy](/user-guide/data-depot/policies/#tombstone).
 
 ## Metadata Schema and Requirements
 
-For each project type, the metadata elements including those that are required and recommended are shown below. Consult the full [metadata dictionaries](https://www.designsafe-ci.org/user-guide/dictionary/) for more details.
+For each project type, the metadata elements including those that are required and recommended are shown below. Consult the full [metadata dictionaries](/user-guide/dictionary/) for more details.
 
 ### Experimental Research Project
 
-[View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#experimental)
+[View Metadata Dictionary](/user-guide/dictionary/#experimental)
 
 * DOI
 * Project Title
@@ -262,7 +262,7 @@ For each project type, the metadata elements including those that are required a
 
 ### Simulation Research Project
 
-[View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#simulation)
+[View Metadata Dictionary](/user-guide/dictionary/#simulation)
 
 * DOI†
 * Project Title
@@ -294,7 +294,7 @@ For each project type, the metadata elements including those that are required a
 
 ### Hybrid Simulation Research Project
 
-[View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#hybrid)
+[View Metadata Dictionary](/user-guide/dictionary/#hybrid)
 
 * DOI†
 * Project Title
@@ -327,7 +327,7 @@ For each project type, the metadata elements including those that are required a
 
 ### Field Research Project
 
-[View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#field)
+[View Metadata Dictionary](/user-guide/dictionary/#field)
 
 * Project Title
 * PI/Co-PI(s)\*
@@ -386,7 +386,7 @@ For each project type, the metadata elements including those that are required a
 
 ### Other
 
-[View Metadata Dictionary](https://www.designsafe-ci.org/user-guide/dictionary/#other)
+[View Metadata Dictionary](/user-guide/dictionary/#other)
 
 * DOI†
 * Project Title
@@ -414,7 +414,7 @@ Data collected during downloads, views, or copies of published datasets are used
 
 DesignSafe only uses first-party cookies for authentication. We use cookies so that users don't have to re-authenticate every time they refresh the page and no PII is stored in those cookies. There are Google Analytics cookies that collect metrics about visitors, but the personally identifying pieces like IP addresses are anonymized. Users browsing habits are not tracked for advertising or marketing purposes.
 
-Users are required to use [Multi-Factor Authentication (MFA)](https://docs.tacc.utexas.edu/basics/mfa/) as an additional security measure when logging to DDR. DDR has security measures to prevent loss of the data and information. See the [DesignSafe Cyber Security Policy](https://www.designsafe-ci.org/user-guide/tools/advanced/cybersecurity/) for more details.
+Users are required to use [Multi-Factor Authentication (MFA)](https://docs.tacc.utexas.edu/basics/mfa/) as an additional security measure when logging to DDR. DDR has security measures to prevent loss of the data and information. See the [DesignSafe Cyber Security Policy](/user-guide/tools/advanced/cybersecurity/) for more details.
 
 ## Project Types / Data Models
 
