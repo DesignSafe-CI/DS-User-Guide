@@ -44,10 +44,10 @@ nav:
   - Data Depot:
     - About the Data Depot: data-depot/about.md
     - Transfering Your Data: data-depot/transferring.md
-    - Steps to Curate and Publish your Datasets: data-depot/step-by-step.md
+    - Curating and Publishing: data-depot/curate-and-publish.md
     - Best Practices: data-depot/best-practices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
-    # - Resources for Users: data-depot/resources.md # ???: Do we need this
+    # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
     - Policies: data-depot/policies.md
   - Tools and Apps:
     - Analysis Apps: analysis.md
