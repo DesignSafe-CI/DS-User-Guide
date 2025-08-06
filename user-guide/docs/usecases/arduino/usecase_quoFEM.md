@@ -62,7 +62,7 @@ In order to facilitate the discussion of each notebook, it is helpful to first i
 3. Run Tapis job
 4. Post-process results
 
-Instructions for (1) setting up and (2) running Tapis jobs can be found [here](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community-TAPISV3.ipynb). These steps are generally applicable for launching any Tapis app from a Jupyter notebook in DesignSafe. The most significant step in this process is determining the appropriate Tapis app to utilize.  To perform uncertainty quantification within SimCenter backend applications, the following Tapis app is used:
+[Instructions for (1) setting up and (2) running Tapis jobs](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community-TAPISV3.ipynb) are generally applicable for launching any Tapis app from a Jupyter notebook in DesignSafe. The most significant step in this process is determining the appropriate Tapis app to utilize.  To perform uncertainty quantification within SimCenter backend applications, the following Tapis app is used:
 
 ``` python
 #Select tapis-app
