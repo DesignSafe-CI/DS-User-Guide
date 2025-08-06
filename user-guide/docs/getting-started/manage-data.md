@@ -1,13 +1,8 @@
 # Managing Your Data
 
-## Data Management Plan Template { #data-management-plan }
+## Data Management Plan { #data-management-plan }
 
-!!! caution "Content Undefined"
-    Is this "Data Management Plan Template" (as in Google doc) or "Data Management Plan Guidance" (as [on curent site](https://designsafe-ci.org/user-guide/managingdata/datamanagementplan/))?
-
-This document is intended as a Data Management Plan (DMP) guide that you can customize for the specific details of your research project that will use the NHERI DesignSafe cyberinfrastructure (CI). There is guidance on the five main DMP areas required by the National Science Foundation (NSF), along with information about the DesignSafe CI functionalities that can support your data management needs.
-
-[Data Management Plan](./docs/DesignSafe_Data_Management_Plan_Guidance.docx)
+The [DesignSafe **Data Management Plan** Guide](./docs/DesignSafe_Data_Management_Plan_Guidance.docx) is intended as a guide for a Data Management Plan (DMP) that you can customize for the specific details of your research project that will use the NHERI DesignSafe cyberinfrastructure (CI). There is guidance on the five main DMP areas required by the National Science Foundation (NSF), along with information about the DesignSafe CI functionalities that can support your data management needs.
 
 ## Curating Data in Experimental Facilities
 

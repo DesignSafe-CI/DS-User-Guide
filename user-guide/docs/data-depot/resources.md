@@ -10,7 +10,7 @@
 
 ## Data Management Plan
 
-Depositing your data and other resources such as documentation and research software in the DDR meets NSF requirements for data management. See our [Data Management Plan](/user-guide/getting-started/manage-data#data-management-plan).
+Depositing your data and other resources such as documentation and research software in the DDR meets NSF requirements for data management. See our [Data Management Plan](/user-guide/getting-started/manage-data/#data-management-plan).
 
 ## Data and Intellectual Property
 

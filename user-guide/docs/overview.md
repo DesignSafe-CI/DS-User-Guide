@@ -1,7 +1,7 @@
 
 ## Documentation Overview
 
-**Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
+**Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF [Data Management Plan](/user-guide/getting-started/manage-data/#data-management-plan), and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
 
 **Tools and Apps**: This section contains user guides for how to utilize our many offerings in data analytics, GIS and mapping, visualization, and our Jupyter Hub interacting with the data you bring to DesignSafe or that you discover in our Published datasets.
 
