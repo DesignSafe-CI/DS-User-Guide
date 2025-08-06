@@ -47,7 +47,7 @@ nav:
     - Steps to Curate and Publish your Datasets: data-depot/step-by-step.md
     - Best Practices: data-depot/best-practices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
-    - Resources for Users: data-depot/resources.md
+    # - Resources for Users: data-depot/resources.md # ???: Do we need this
     - Policies: data-depot/policies.md
   - Tools and Apps:
     - Analysis Apps: analysis.md

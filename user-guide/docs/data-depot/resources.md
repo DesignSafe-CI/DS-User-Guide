@@ -1,8 +1,11 @@
 # Resources for Users
 
+!!! caution "Content Undecided"
+    Much of this page is incomplete. We might not use this page.
+
 ## Frequently Asked Questions
 
-!!! caution "Content Uncertain"
+!!! caution "Content Undefined"
     Should this introduce the F.A.Q. and/or link to it?
 
 ## Data Management Plan
@@ -11,17 +14,17 @@ Depositing your data and other resources such as documentation and research soft
 
 ## Data and Intellectual Property
 
-!!! caution "Content Uncertain"
+!!! caution "Content Undefined"
     Should this introduce the Support and Contact Information and/or link to it?
 
 ## Support and Contact Information
 
-!!! caution "Content Uncertain"
+!!! caution "Content Undefined"
     Should this introduce the Support and Contact Information and/or link to it?
 
 ## DesignSafe Office Hours
 
-!!! caution "Content Uncertain"
+!!! caution "Content Undefined"
     Should this introduce the DesignSafe Office Hours and/or link to it?
 
 ## Resources for Protected Data
