@@ -42,7 +42,7 @@ We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folde
 
 ---
 
-### Globus Data Transfer Guide { #globus }
+### Globus { #globus data-subtitle="Data Transfer Guide" }
 
 Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
 
@@ -136,7 +136,7 @@ Globus will email you when the transfer is complete.
 
 ---
 
-### Globus CLI Automated Data Transfer Guide { #globuscli }
+### Globus CLI { #globuscli data-subtitle="Automated Data Transfer Guide" }
 
 Globus provides a command line interface (CLI), for those who need to perform automated data transfers. This data transfer method will likely be of most use to NHERI centers that need to bulk upload their data on a schedule.
 
@@ -246,7 +246,7 @@ An example cron table entry that you can use to automatically run your transfer 
 
 ---
 
-### Cyberduck Data Transfer Guide { #cyberduck }
+### Cyberduck { #cyberduck data-subtitle="Data Transfer Guide" }
 
 Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows you to securely connect from your laptop to DesignSafe and other Texas Advanced Computing Center (TACC) resources.
 
@@ -298,7 +298,7 @@ To download files, select the file(s) you wish to download. Select "File" &gt; "
 
 ---
 
-### Command-Line Data Transfer Guide { #cli }
+### Command Line Interface { #cli data-subtitle="Data Transfer Guide" }
 
 Common command-line utilities, such as scp and rsync, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users as you will need to learn unix commands. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
@@ -360,7 +360,7 @@ For more information execute:
 
 ---
 
-### Data-Depot Web Browser Data Transfer Guide { #datadepotbrowser }
+### Data-Depot Web Browser { #datadepotbrowser data-subtitle="Data Transfer Guide" }
 
 The Data Depot's browser interface allows you to conveniently upload and download small quantities of data (&lt; 100 MB, &lt; 25 files, &lt; 2 folders) as well as move and copy data between directories.
 
@@ -424,7 +424,7 @@ Navigate to the new destination and press **Move Here**.
 
 ---
 
-### JupyterHub Web Browser Data Transfer Guide { #jupyterhubbrowser }
+### JupyterHub Web Browser { #jupyterhubbrowser data-subtitle="Data Transfer Guide" }
 
 The DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data ( &lt; 100 MB, &lt; 25 files).
 

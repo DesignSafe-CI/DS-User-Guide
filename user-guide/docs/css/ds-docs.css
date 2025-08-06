@@ -126,6 +126,12 @@ hr.spacer {
     margin-bottom: 0.5em;
 }
 
+/* To add subtitle after headings */
+[data-subtitle]::after {
+    content: ' ' attr(data-subtitle);
+    font-weight: normal;
+}
+
 /* To hide unused space at bottom of overview pages */
 /* https://github.com/TACC/TACC-Docs/blob/a9d01e1/docs/css/core/tacc-docs.css#L568-L574 */
 [data-page-name$="usecases/overview.md"] footer {
