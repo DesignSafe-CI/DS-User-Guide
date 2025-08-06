@@ -15,7 +15,7 @@ Depositing your data and other resources such as documentation and research soft
 ## Data and Intellectual Property
 
 !!! caution "Content Undefined"
-    Should this introduce the Support and Contact Information and/or link to it?
+    What content belongs here?
 
 ## Support and Contact Information
 
@@ -24,8 +24,7 @@ Depositing your data and other resources such as documentation and research soft
 
 ## DesignSafe Office Hours
 
-!!! caution "Content Undefined"
-    Should this introduce the DesignSafe Office Hours and/or link to it?
+DesignSafe [Virtual Office Hours](https://designsafe-ci.org/facilities/virtual-office-hours/) is the newest way to connect with experts in the NHERI network.
 
 ## Resources for Protected Data
 
