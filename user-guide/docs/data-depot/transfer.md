@@ -136,7 +136,7 @@ To access your data on DesignSafe
 * For <strong>My Projects</strong> set Path to `/corral/projects/NHERI/projects/<project-uid>/`
 * For <strong>Published </strong>DesignSafe projects set Path to `/corral/projects/NHERI/published/<PRJ-XXXX>`
 * For <strong>Published (NEES)</strong> projects set Path to `/corral/projects/NHERI/public/projects/<NEES-XXXX-XXXX.groups>`
-* For <strong>Community Data</strong> set Path to `/corral/projects/NHERI/community/</strong>
+* For <strong>Community Data</strong> set Path to `/corral/projects/NHERI/community/`
 
 For more information on path selection please see the detailed guide on [Setting the Path to DesignSafe on Corral](/user-guide/managingdata/settingpathtodesignsafe).
 
@@ -190,11 +190,11 @@ Go to the Globus web interface &gt; select the search bar.
 
 ![Select Globus Search Bar](./imgs/globuscli-1.png)
 
-Search for <strong>TACC Corral3 with CILogon Authentication </strong>&gt; <strong>click the three vertical dots to the right</strong> to view endpoint details.
+Search for <strong>TACC Corral3 with CILogon Authentication</strong> &gt; <strong>click the three vertical dots to the right</strong> to view endpoint details.
 
 ![Search and Select Three Dots](./imgs/globuscli-2.png)
 
-<strong>Copy the Endpoint UUID </strong>and store for later reference.
+<strong>Copy the Endpoint UUID</strong> and store for later reference.
 
 ![Copy UUID](./imgs/globuscli-3.png)
 
