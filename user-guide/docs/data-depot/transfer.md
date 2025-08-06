@@ -512,7 +512,11 @@ DesignSafe provides users the capability to connect to a cloud storage provider.
 
 Once connected, data held on the cloud storage provider can be easily copied to and from DesignSafe. Note that DesignSafe does not actively synchronize your data and so any copy operation must be initiated manually. Any changes you make to data transferred to DesignSafe from a cloud storage provider will not affect the files located on the cloud storage provider. To update the files on the cloud storage provider you must manually copy them back to the provider using the copy functionality in the DesignSafe browser interface.
 
-**Currently, only Dropbox is supported.** <!--The three main cloud storage providers, [Box](#cloud-box), [Dropbox](#cloud-dropbox),and [Google Drive](#cloud-googledrive), are supported on DesignSafe. Detailed instruction for setting up integration is provided below. -->
+_**Note:** Currently, only Dropbox is supported._
+
+<!--
+The three main cloud storage providers, [Box](#cloud-box), [Dropbox](#cloud-dropbox),and [Google Drive](#cloud-googledrive), are supported on DesignSafe. Detailed instruction for setting up integration is provided below.
+-->
 
 <!--
 #### Box { #cloud-box }
