@@ -152,7 +152,7 @@ If you are publishing **data**, such as **simulation**, **reconaissance**, or **
 /// html | section.grid
 //// html | div
 ///// html | article.card--plain
-     markdown: block
+      markdown: block
 
 #### [Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/) {odc-by}
 
@@ -166,7 +166,7 @@ _Recommended for Datasets._
 ////
 //// html | div
 ///// html | article.card--plain
-     markdown: block
+      markdown: block
 
 #### [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/) {pddl}
 
@@ -184,7 +184,7 @@ If you are publishing **papers**, **presentations**, **learning objects**, **wor
 /// html | section.grid
 //// html | div
 ///// html | article.card--plain
-     markdown: block
+      markdown: block
 
 #### [Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) {cc-by}
 
@@ -199,7 +199,7 @@ _Recommended for reports, instruments, learning objects, etc. This license requi
 ////
 //// html | div
 ///// html | article.card--plain
-     markdown: block
+      markdown: block
 
 #### [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) {cc0}
 
@@ -222,11 +222,10 @@ The expectations of DDR and the responsibilities of users with respect to licens
 
 ## Metadata Schema and Requirements
 
-For each project type, the metadata elements including those that are required and recommended are shown below. Consult the full [metadata dictionaries](/user-guide/dictionary/) for more details.
+For each project type, the metadata elements including those that are required and recommended are shown below. For more details, consult the full metadata [Dictionaries](/user-guide/dictionary/).
 
-### Experimental Research Project
-
-[View Metadata Dictionary](/user-guide/dictionary/#experimental)
+/// details | **Experimental Research Project** ([view full dictionary](/user-guide/dictionary/#experimental))
+    attrs: {class: data-tree}
 
 * DOI
 * Project Title
@@ -240,61 +239,33 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* Experiment\*
-     * Report
-     * DOI†
-     * Experiment Title
-     * Author (PIs/Team Members)\*
-     * Experiment Description
-     * Date of Publication†
-     * Dates of Experiment
-     * Experimental Facility
-     * Experiment Type
-     * Equipment Type\*
-     * Model Configuration\*
-     * Sensor Information\*
-     * Event\*
-     * Experiment Report$
-* Analysis\*$
-     * Analysis Title
-     * Description
-     * Referenced Data\*
+* /// details | Experiment\*
 
-### Simulation Research Project
+    * Report
+    * DOI†
+    * Experiment Title
+    * Author (PIs/Team Members)\*
+    * Experiment Description
+    * Date of Publication†
+    * Dates of Experiment
+    * Experimental Facility
+    * Experiment Type
+    * Equipment Type\*
+    * Model Configuration\*
+    * Sensor Information\*
+    * Event\*
+    * Experiment Report$
+  ///
+* /// details | Analysis\*$
 
-[View Metadata Dictionary](/user-guide/dictionary/#simulation)
+    * Analysis Title
+    * Description
+    * Referenced Data\*
 
-* DOI†
-* Project Title
-* Author (PIs/Team Members)\*
-* Participant Institution\*
-* Project Type\*
-* Description
-* Publisher†
-* Date of Publication†
-* Licenses
-* Related Works\*$
-* Award\*
-* Keywords
-* Simulation\*
-     * Report
-     * Simulation Title
-     * Author (PIs/Team Members)\*
-     * Description
-     * Simulation Type
-     * Simulation Model
-     * Simulation Input\*
-     * Simulation Output\*
-     * Referenced Data\*
-     * Simulation Report$
-* Analysis\*$
-     * Analysis Title
-     * Description
-     * Referenced Data\*
+  ///
 
-### Hybrid Simulation Research Project
-
-[View Metadata Dictionary](/user-guide/dictionary/#hybrid)
+///
+/// details | **Simulation Research Project** ([view full dictionary](/user-guide/dictionary/#simulation))
 
 * DOI†
 * Project Title
@@ -308,26 +279,72 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* Hybrid Simulation\*
-     * Report
-     * Global Model
-          * Global Model Title
-          * Description
-     * Master Simulation Coordinator
-          * Master Simulation Coordinator Title
-          * Application and Version
-          * Substructure Middleware
-     * Simulation Substructure\*
-          * Simulation Substructure Title
-          * Application and Version
-          * Description
-     * Experiment Substructure\*
-          * Experiment Substructure Title
-          * Description
+* /// details | Simulation\*
 
-### Field Research Project
+    * Report
+    * Simulation Title
+    * Author (PIs/Team Members)\*
+    * Description
+    * Simulation Type
+    * Simulation Model
+    * Simulation Input\*
+    * Simulation Output\*
+    * Referenced Data\*
+    * Simulation Report$
 
-[View Metadata Dictionary](/user-guide/dictionary/#field)
+  ///
+* /// details | Analysis\*$
+
+    * Analysis Title
+    * Description
+    * Referenced Data\*
+
+  ///
+
+///
+/// details | **Hybrid Simulation Research Project** ([view full dictionary](/user-guide/dictionary/#hybrid))
+
+* DOI†
+* Project Title
+* Author (PIs/Team Members)\*
+* Participant Institution\*
+* Project Type\*
+* Description
+* Publisher†
+* Date of Publication†
+* Licenses
+* Related Works\*$
+* Award\*
+* Keywords
+* /// details | Hybrid Simulation\*
+
+    * Report
+    * /// details | Global Model
+        * Global Model Title
+        * Description
+
+      ///
+    * /// details | Master Simulation Coordinator
+        * Master Simulation Coordinator Title
+        * Application and Version
+        * Substructure Middleware
+
+      ///
+    * /// details | Simulation Substructure\*
+        * Simulation Substructure Title
+        * Application and Version
+        * Description
+
+      ///
+    * /// details | Experiment Substructure\*
+        * Experiment Substructure Title
+        * Description
+
+      ///
+  ///
+
+///
+/// details | **Field Research Project** ([view full dictionary](/user-guide/dictionary/#field))
 
 * Project Title
 * PI/Co-PI(s)\*
@@ -338,55 +355,68 @@ For each project type, the metadata elements including those that are required a
 * Keywords
 * Natural Hazard Event
 * Natural Hazard Date
-* Documents Collection\*$
-     * Author(s)\*
-     * Date of Publication†
-     * DOI†
-     * Publisher†
-     * License(s)\*
-     * Referenced Data\*$
-     * Description
-* Mission\*
-     * Mission Title
-     * Author(s)\*
-     * Date(s) of Mission
-     * Mission Site Location
-     * Date of Publication
-     * DOI†
-     * Publisher†
-     * License(s)\*
-     * Mission Description
-     * Research Planning Collection\*$
-          * Collection Title
-          * Data Collector(s)\*
-          * Referenced Data\*$
-          * Collection Description
-     * Social Sciences Collection\*
-          * Collection Title
-          * Unit of Analysis$
-          * Mode(s) of Collection\*$
-          * Sampling Approach(es)\*$
-          * Sample Size$
-          * Date(s) of Collection
-          * Data Collector(s)\*
-          * Collection Site Location
-          * Equipment\*
-          * Restriction$
-          * Referenced Data\*$
-          * Collection Description
-     * Engineering/Geosciences Collection\*
-          * Collection Title
-          * Observation Type\*
-          * Date(s) of Collection
-          * Data Collector(s)\*
-          * Collection Site Location
-          * Equipment\*
-          * Referenced Data\*$
-          * Collection Description
+* /// details | Documents Collection\*$
 
-### Other
+    * Author(s)\*
+    * Date of Publication†
+    * DOI†
+    * Publisher†
+    * License(s)\*
+    * Referenced Data\*$
+    * Description
 
-[View Metadata Dictionary](/user-guide/dictionary/#other)
+  ///
+* /// details | Mission\*
+
+    * Mission Title
+    * Author(s)\*
+    * Date(s) of Mission
+    * Mission Site Location
+    * Date of Publication
+    * DOI†
+    * Publisher†
+    * License(s)\*
+    * Mission Description
+    * /// details | Research Planning Collection\*$
+
+        * Collection Title
+        * Data Collector(s)\*
+        * Referenced Data\*$
+        * Collection Description
+
+      ///
+    * /// details | Social Sciences Collection\*
+
+        * Collection Title
+        * Unit of Analysis$
+        * Mode(s) of Collection\*$
+        * Sampling Approach(es)\*$
+        * Sample Size$
+        * Date(s) of Collection
+        * Data Collector(s)\*
+        * Collection Site Location
+        * Equipment\*
+        * Restriction$
+        * Referenced Data\*$
+        * Collection Description
+
+      ///
+    * /// details | Engineering/Geosciences Collection\*
+
+        * Collection Title
+        * Observation Type\*
+        * Date(s) of Collection
+        * Data Collector(s)\*
+        * Collection Site Location
+        * Equipment\*
+        * Referenced Data\*$
+        * Collection Description
+
+      ///
+  ///
+
+///
+/// details | **Other** ([view full dictionary](/user-guide/dictionary/#other))
 
 * DOI†
 * Project Title
@@ -399,6 +429,8 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
+
+///
 
 ## Personal Data Privacy
 

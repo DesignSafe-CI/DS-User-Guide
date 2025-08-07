@@ -179,3 +179,16 @@ hr.spacer {
   color: #cb463f;
   font-weight: var(--black);
 }
+
+/* To hide extra spacing caused by paragraph side-effect of nested <details> */
+details li > p {
+    margin: 0;
+}
+
+/* To un-indent details in a list item */
+li:has(> details) {
+    list-style-type: none;
+}
+li > details {
+    translate: calc(-1em);
+}
