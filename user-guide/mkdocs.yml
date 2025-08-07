@@ -17,6 +17,10 @@ theme:
     navigation_depth: 4
     features:
       - navigation.top
+    nav_redirects: # TACC Feature
+      # https://tacc.github.io/mkdocs-tacc/configure/#navigation-redirects
+      - before: '#data-depotcuration-office-hours'
+        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     analytics:
       gtag: G-D96RT1T24K
 
