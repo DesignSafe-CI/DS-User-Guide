@@ -18,7 +18,7 @@ For long-term preservation purposes it is best to publish data in interoperable 
 ///
 /// details | What does DesignSafe recommend for zip files?
 
-If you uploaded your data as zip files, you should unzip before publishing. Zip files prevent others from directly viewing and understanding your data in the cloud. You may upload zip files to your "MyData" and unzip them using the [Extract utility](https://www.designsafe-ci.org/workspace/extract) before copying them to your project.
+If you uploaded your data as zip files, you should unzip before publishing. Zip files prevent others from directly viewing and understanding your data in the cloud. You may upload zip files to your "MyData" and unzip them using the [Extract utility](https://www.designsafe-ci.org/workspace/extract){ target="_blank" } before copying them to your project.
 
 ///
 /// details | My project has many individual files. It will be cumbersome for a user to download them one by one. What do you suggest?
@@ -94,7 +94,7 @@ On the project landing page under Edit Project there is a "Related Work" field w
 
 /// details | Which license is appropriate for my publication?
 
-Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. [Read more.](/user-guide/curating/bestpractices/#licensing)
+Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide [four different types of open licenses](/user-guide/data-depot/policies/#licenses). These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed.
 
 ///
 /// details | What is a DOI?
@@ -147,20 +147,14 @@ A dataset is cited using the same format used to cite a journal article or a con
 Frequently you reuse data from other sources in your research and sometimes you even want to re-publish it; it is important to make sure if and how you can do so. In addition, it is always good practice to give credit to the data creators. Please be aware of the following:
 
 1. Be aware of the reused data original license and conditions of usage. The license will specify if and how you can modify, distribute, and cite the reused data.
-
 1. If permitted you may also republish the reused data. This is feasible when the reused dataset is not very large. Else see 3 below.
-
 1. If you reuse data from other sources in your experiments or in your field research, you can point to it from the Referenced Data Title box so others can know about its provenance.
-
 1. In projects type Other, you can point to the reused data from the Related Work box.
-
-1. If you have reused images from other sources (online, databases, publications, etc.), be aware that they may have copyrights. We recommend using the following instructions for how to cite them:
-
-    [https://guides.library.ubc.ca](https://guides.library.ubc.ca){target="_blank"}
+1. If you have reused images from other sources (online, databases, publications, etc.), be aware that they may have copyrights. We recommend citing them according to [UBC Library Research Guides](https://guides.library.ubc.ca){target="_blank"}.
 
 ///
 /// details | Are there any conditions regarding the usage of data published in DesignSafe?
 
-Yes, users that download and reuse data agree to the Data Usage conditions published here: These conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality. 
+Yes, users that download and reuse data agree to the [Data Usage Agreement](/user-guide/data-depot/policies/#data-usage-agreement). Those conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality.
 
 ///
