@@ -1,27 +1,23 @@
 ## Experimental Facility Checklist
 
+
 ### DesignSafe-EF Onboarding Checklist for Data Curation { #onboarding }
 
-DesignSafe has been developed as a comprehensive research environment supporting a range of activities from research planning to cloud-based data analysis to data curation/publication.  We encourage users to take full advantage of the DesignSafe capabilities associated with both the Data Depot data repository and the Tools and Apps.  To learn more about all of these capabilities, watch this <a href="https://www.youtube.com/watch?v=5Yus9MjtcTM&amp;feature=youtu.be" target="_blank">Introductory Webinar</a>.
+DesignSafe has been developed as a comprehensive research environment supporting a range of activities from research planning to cloud-based data analysis to data curation/publication.  We encourage users to take full advantage of the DesignSafe capabilities associated with both the Data Depot data repository and the Tools and Apps.  To learn more about all of these capabilities, watch this [Introductory Webinar](https://www.youtube.com/watch?v=5Yus9MjtcTM&amp;feature=youtu.be){ target="_blank" }.
+
 
 ### Phase 1 - Before arriving to the Experimental Facility (EF): { #phase1 }
 
-* Create an account on DesignSafe: <a href="https://www.designsafe-ci.org/account/register/">Account Registration</a>
+* Create an account on DesignSafe: [Account Registration](https://www.designsafe-ci.org/account/register/)
 * Familiarize yourself with the Data Depot and the curation process.
-
-	* User Guide for Data Curation and Publication: <a href="../curating/#curation-publication-faq">User Guide</a>
-	* Watch the data curation and publication tutorial available in the learning center: <a href="https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV" target="_blank">Video Tutorial</a>
+	* User Guide for Data Curation and Publication: [User Guide](../curating/#curation-publication-faq)
+	* Watch the data curation and publication tutorial available in the learning center: [Video Tutorial](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" }
 	* Look at examples of well curated experimental projects:
-
-		* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218" target="_blank">Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model</a>
-		* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141" target="_blank">CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-Rise cold-Formed Steel Buildings</a>
-		* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197" target="_blank">Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces</a>
-	
-	
-	* Read the FAQ regarding data curation and publication: <a href="/user-guide/curating/faq/">Frequently Asked Questions</a>
-	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide</a>
-
-
+		* [Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218){ target="_blank" }
+		* [CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-Rise cold-Formed Steel Buildings](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141){ target="_blank" }
+		* [Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197){ target="_blank" }
+	* Read the FAQ regarding data curation and publication: [Frequently Asked Questions](/user-guide/curating/faq/)
+	* Learn about the different data transfer methods to identify which one you may need for data upload: [Data Transfer Guide](/user-guide/managingdata/datatransfer/)
 * Familiarize yourself with the available Tools and Apps.
 	* [Tools and Apps User Guide](https://www.designsafe-ci.org/use-designsafe/tools-applications/)
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
@@ -45,8 +41,8 @@ DesignSafe has been developed as a comprehensive research environment supporting
 ### Phase 3 – After the EF: { #phase3 }
 
 * Attend Virtual Curation Office Hours. As a team, make an appointment with the DesignSafe Data Curator to discuss data management. Office hours are every Tuesday and Thursday at 1 pm central:
-	* Curation Office Hours <a href="https://designsafe-ci.zoom.us/j/730745593?pwd=U0VyaG1nVHgya3RZaS9hZng1MU82UT09" target="_blank">Zoom Link</a>
-	* Sign up sheet to reserve a time slot: <a href="https://signup.com/go/fxHQnhr" target="_blank">Sign Up Sheet</a>
+	* Curation Office Hours [Zoom Link](https://designsafe-ci.zoom.us/j/730745593?pwd=U0VyaG1nVHgya3RZaS9hZng1MU82UT09){ target="_blank" }
+	* Sign up sheet to reserve a time slot: [Sign Up Sheet](https://signup.com/go/fxHQnhr){ target="_blank" }
 * Finalize curation of your project:
 	* Finalize and organize Experiments, Categories, and Relationships.
 	* Tag files appropriately.
@@ -55,6 +51,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 	* Select Publication Preview to examine the layout of your publication.
 	* Publish your project using the Prepare to Publish button within the Publication Preview.  Confirm the project metadata, files to be published, etc., and then click Request DOI and Publish.
 	* The project will be publicly available in the Published section of the Data Depot within about 24 hours.
+
 
 ### General Comments { #comments }
 
