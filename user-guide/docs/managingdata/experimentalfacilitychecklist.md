@@ -7,14 +7,14 @@ DesignSafe has been developed as a comprehensive research environment supporting
 
 1. [Create an account on DesignSafe **via TACC**.](https://www.designsafe-ci.org/account/register/)
 2. Familiarize yourself with the Data Depot and the curation process.
-	* [User Guide for Data Curation and Publication](../curating/#curation-publication-faq).
-	* [Data Curation and Publication Tutorial Video](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" } available in the learning center.
+	* [Best Practices](/user-guide/data-depot/best-practices/) and [Policies](/user-guide/data-depot/policies/).
+	* [Data Curation and Publication Tutorial Videos](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" } available in the learning center.
 	* Well-Curated Experimental Projects:
 		* [Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218){ target="_blank" }
 		* [CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-Rise cold-Formed Steel Buildings](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141){ target="_blank" }
 		* [Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197){ target="_blank" }
 	* [Frequently Asked Questions](/user-guide/curating/faq/)
-	* [Data Transfer Guide](/user-guide/managingdata/datatransfer/)
+	* [Data Transfer Guide](/user-guide/data-depot/transfer/)
 3. Familiarize yourself with the available Tools and Apps.
 	* [Tools and Apps](https://www.designsafe-ci.org/use-designsafe/tools-applications/){ target="_blank" }
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
