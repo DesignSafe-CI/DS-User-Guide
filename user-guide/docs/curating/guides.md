@@ -2,11 +2,14 @@
 
 Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information on Data Depot policies, project types, and curation/publication can be found at:
 
-* [Data Depot Repository (DDR) Policies](/user-guide/data-depot/policies)
+* [Policies](/user-guide/data-depot/policies)
 * [Best Practices](/user-guide/curating/bestpractices/)
-* [Curation & Publication FAQs](/user-guide/curating/faq/)
+* [Frequently Asked Questions](/user-guide/curating/faq/)
 
 ## Experimental
+
+!!! important "Not Up to Date"
+    Anticipate a different user interface and experience.
 
 ### 1. Add a Project { #experimental-step1 }
 
@@ -54,15 +57,27 @@ Click **Add Categories** to begin.
 
 Categories group files together based on a shared purpose in an experiment. Be sure and read the definitions of each category to understand what files belong to each.
 
-**<span style="color: #145ec2;">Model Configuration</span>** Files describing the design and layout of what is being tested (some call this a specimen).
+<style id="step3-style">
+#step3 ~ dl dt:nth-of-type(1) { color: #145ec2; }
+#step3 ~ dl dt:nth-of-type(2) { color: #3b9b92; }
+#step3 ~ dl dt:nth-of-type(3) { color: #ac8804; }
+#step3 ~ dl dt:nth-of-type(4) { color: #4cb8db; }
+</style>
 
-**<span style="color: #3b9b92;">Sensor Information</span>** Files about the sensor instrumentation used in a model configuration to conduct one or more event.
+Model Configuration
+:   Files describing the design and layout of what is being tested (some call this a specimen).
 
-**<span style="color: #ac8804;">Event</span>** Files from unique occurrences during which data are generated.
+Sensor Information
+:   Files about the sensor instrumentation used in a model configuration to conduct one or more event.
 
-**<span style="color: #4cb8db;">Analysis</span>** Tables, graphs, visualizations, Jupyter Notebooks, or other representations of the results.
+Event
+:   Files from unique occurrences during which data are generated.
 
-**Report** Written accounts made to convey information about an entire project or experiment.
+Analysis
+:   Tables, graphs, visualizations, Jupyter Notebooks, or other representations of the results.
+
+Report
+:   Written accounts made to convey information about an entire project or experiment.
 
 After filling out the fields, click **+ Add Category** and it will appear below in your inventory. If you make any mistakes, expand the category and click **Edit**.
 
@@ -135,6 +150,9 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 ## Simulation { #simulation }
 
+!!! important "Not Up to Date"
+    Anticipate a different user interface and experience.
+
 Read the [Simulation Data Best Practices Guide](/user-guide/curating/bestpractices) prior to initiating your project.
 
 ### 1. Add a Project { #simulation-step1 }
@@ -183,15 +201,27 @@ Categories group files together based on a shared purpose in a simulation. Be su
 
 ![](./imgs/guide-simulation-3.png)
 
-**<span style="color: #145ec2;">Simulation Model</span>** Files and/or information describing the design, geometry, and/or code of a simulation.
+<style id="simulation-step3-style">
+#simulation-step3 ~ dl dt:nth-of-type(1) { color: #145ec2; }
+#simulation-step3 ~ dl dt:nth-of-type(2) { color: #3b9b92; }
+#simulation-step3 ~ dl dt:nth-of-type(3) { color: #ac8804; }
+#simulation-step3 ~ dl dt:nth-of-type(4) { color: #4cb8db; }
+</style>
 
-**<span style="color: #3b9b92;">Simulation Input</span>** Files containing the parameters of the simulation.
+Simulation Model
+:   Files and/or information describing the design, geometry, and/or code of a simulation.
 
-**<span color="#ac8804">Simulation Output</span>** Files containing the results of a simulation.
+Simulation Input
+:   Files containing the parameters of the simulation.
 
-**<span style="color: #4cb8db;">Analysis</span>** Tables, graphs, visualizations, Jupyter Notebooks, or other representations of the results.
+Simulation Output
+:   Files containing the results of a simulation.
 
-**Report** Written accounts made to convey information about an entire project or simulation.
+Analysis
+:   Tables, graphs, visualizations, Jupyter Notebooks, or other representations of the results.
+
+Report
+:   Written accounts made to convey information about an entire project or simulation.
 
 After filling out the fields, click **+ Add Category** and it will appear below in your inventory. If you make any mistakes, expand the category and click **Edit**.
 
@@ -265,13 +295,15 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 ## Hybrid Simulation { #hybrid }
 
-*Hybrid Simulation User Guide in progress.*
+!!! important "Not Yet Written"
+    If you need help, please [create a ticket](https://designsafe-ci.org/help){ target="_blank" } or contact us during our [virtual office hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/).
 
 ---
 
 ## Field Research { #fieldresearch }
 
-_*Field Research User Guide is in progress.*_
+!!! important "Not Up to Date"
+    Anticipate a different user interface and experience.
 
 ### 1. Add a Project { #fieldresearch-step1 }
 
@@ -323,21 +355,16 @@ Click **Add Collections** to begin.
 
 Collections group files together based on a shared purpose in a mission. There are three different collection types in field research data model:
 
-<u>Research Planning Collection:</u>
+Research Planning Collection
+:   A group of files related to planning and logistics, study design and administration, design, Institutional Review Board (IRB) procedures, or permits.
 
-A group of files related to planning and logistics, study design and administration, design, Institutional Review Board (IRB) procedures, or permits.
+Engineering/Geosciences Collection
+:   A group of related data and associated materials from the engineering/geosciences domain.
 
-<u>Engineering/Geosciences Collection:</u>
-
-A group of related data and associated materials from the engineering/geosciences domain.
-
-<u>Social Sciences Collection:</u>
-
-A group of related data and associated materials from the social sciences domain.
-
-When defining a collection, there are several information that are required to be filled for curation and publication purposes such as collection title, observation type, data of collection, data collector, collection site location, the instrument and a summarized description.
-
-After filling out the fields, click **+ Add Collection** and it will appear below in your collection inventory. If you make any mistakes, expand the category and click **Edit**.
+Social Sciences Collection
+:   A group of related data and associated materials from the social sciences domain.
+:   When defining a collection, there are several information that are required to be filled for curation and publication purposes such as collection title, observation type, data of collection, data collector, collection site location, the instrument and a summarized description.
+:   After filling out the fields, click **+ Add Collection** and it will appear below in your collection inventory. If you make any mistakes, expand the category and click **Edit**.
 
 ![](./imgs/guide-fieldresearch-3.png)
 
@@ -422,6 +449,9 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ---
 
 ## Other
+
+!!! important "Not Up to Date"
+    Anticipate a different user interface and experience.
 
 ### 1. Add a Project { #other-step1 }
 

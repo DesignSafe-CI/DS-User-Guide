@@ -224,3 +224,13 @@ li > details > summary {
 [data-page-name="index.md"] footer {
     display: revert;
 }
+
+/* To style definition lists */
+/* https://python-markdown.github.io/extensions/definition_lists/ */
+/* TODO: Move to Core-Styles, Demo in Mkdocs-TACC */
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
+}
