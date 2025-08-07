@@ -42,7 +42,6 @@ for count,thisParameter in enumerate(ParameterList):
         ## Analysis Commands
         ops.wipe()
     	print(f'pid {pid} done parameter: {thisParameter})'
-    
 print(f'pid {pid} ALL DONE!!!')
 ```
 </li>
