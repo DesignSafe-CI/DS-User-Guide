@@ -94,7 +94,7 @@ On the project landing page under Edit Project there is a "Related Work" field w
 
 /// details | Which license is appropriate for my publication?
 
-Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide [four different types of open licenses](/user-guide/data-depot/policies/#licenses). These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed.
+Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide [four different types of open licenses](/user-guide/curating/policies/#licenses). These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed.
 
 ///
 /// details | What is a DOI?
@@ -155,6 +155,6 @@ Frequently you reuse data from other sources in your research and sometimes you 
 ///
 /// details | Are there any conditions regarding the usage of data published in DesignSafe?
 
-Yes, users that download and reuse data agree to the [Data Usage Agreement](/user-guide/data-depot/policies/#data-usage-agreement). Those conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality.
+Yes, users that download and reuse data agree to the [Data Usage Agreement](/user-guide/curating/policies/#data-usage-agreement). Those conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality.
 
 ///

@@ -7,7 +7,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 
 1. [Create an account on DesignSafe **via TACC**.](https://www.designsafe-ci.org/account/register/)
 2. Familiarize yourself with the Data Depot and the curation process.
-	* [Best Practices](/user-guide/curating/bestpractices/) & [Policies](/user-guide/data-depot/policies/)
+	* [Best Practices](/user-guide/curating/bestpractices/) & [Policies](/user-guide/curating/policies/)
 	* [Data Curation and Publication Tutorial Videos](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" } available in the learning center.
 	* Well-Curated Experimental Projects:
 		* [Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218){ target="_blank" }
