@@ -1,10 +1,10 @@
-### Data Dissemination and Impact
+# Data Dissemination and Impact
 
 Data metrics indicate research impact, allowing researchers to assess the repercussions and influence of their work. Citation and usage metrics are included, and are visible on the landing page of each dataset publication. 
 
 Except for projects categorized as “Other,” a project can encompass more than one dataset publication in the Data Depot Repository (DDR). Different creators may produce projects at different times, and have different DOIs. We report metrics per published dataset with a DOI. 
 
-#### Data Usage Metrics
+## Data Usage Metrics
 
 Usage metrics published in the DDR follow the Make Data Count (MDC) [Counter Code of Practice for Research Data](https://www.projectcounter.org/code-practice-research-data/). This is a community standard to count data usage transparently and in a normalized way. (For more information about this approach please visit [Make Data Count Metrics](https://makedatacount.org/learn-about-us/#section-1).) Towards normalization, a session is an important concept to understand.
 
@@ -22,11 +22,11 @@ Usage metrics are displayed in the citation modal underneath “Download Citatio
 
 Usage metrics date back to January 2022 and are updated monthly.
 
-#### Interpreting Data Metrics
+## Interpreting Data Metrics
 
 Dataset citations and usage are complementary metrics. The former account for the creation, reference to, or reuse of datasets as demonstrated in a publication. Similarly to web page hits and downloads of resources, the latter represents the attention to particular resources on the web. We aggregate and inform users of citations and datasets on a quarterly basis on the [DesignSafe Impact](https://designsafe-ci.org/use-designsafe/impact/) page. Both aggregated and individual metrics can be considered as they evolve over time and in context with similar data types, hazard types, and discipline. 
 
-#### Citation Metrics
+## Citation Metrics
 
 Dataset citations are references to a dataset in published materials including journal papers, books and chapters, conference proceedings, and thesis and dissertations. Citation counts per a dataset's DOI varies depending on the source providing the information. The DDR uses the Data [Citation Index from Clarivate](https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/data-citation-index/) as a source of citations. Clarivate only harvests citations from the reference section of peer-reviewed publications. Google Scholar, on the other hand, harvests citations and mentions from any part of a publication available via the Web. This includes presentations, bulletins, and reports, making it too difficult to automate the count of precise citations.
 
@@ -46,7 +46,7 @@ Citations are updated through the last month of the prior quarter. 
 
 
 
-#### Marketing Datasets
+## Marketing Datasets
 
 Datasets take a lot of work to produce; they are important research products. By creating a complete, organized, and clearly described publication in DDR, users are inviting others to reuse and cite their data. Researchers using published data from DDR must cite it using the DOI, which relies on the [DataCite schema](http://schema.datacite.org/) for accurate citation. For convenience, users can retrieve a formatted citation from the published data landing page. It is recommended to insert the citations in the reference section of the paper to facilitate citation tracking and count.
 
