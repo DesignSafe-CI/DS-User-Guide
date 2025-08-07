@@ -5,7 +5,7 @@ DesignSafe has been developed as a comprehensive research environment supporting
 
 ## Phase 1: Before the Experimental Facility { #phase1 }
 
-1. [Create an account on DesignSafe.](https://www.designsafe-ci.org/account/register/)
+1. [Create an account on DesignSafe **via TACC**.](https://www.designsafe-ci.org/account/register/)
 2. Familiarize yourself with the Data Depot and the curation process.
 	* [User Guide for Data Curation and Publication](../curating/#curation-publication-faq).
 	* [Data Curation and Publication Tutorial Video](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" } available in the learning center.
