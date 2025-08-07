@@ -138,7 +138,8 @@ hr.spacer {
 .rst-content [itemprop="articleBody"]>[id^="tacc"] header h3 {
     font-size: var(--global-font-size--large);
 }
-/* (not using TACC theme) - unnecessary after DesignSafe-CI/DS-User-Guide#155 */
+/* (not using TACC theme) */
+/* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
 .rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h2 + p,
 .rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h3 + p {
     font-size: 150%;
@@ -215,4 +216,11 @@ li:has(> details) {
 }
 li > details > summary {
     translate: calc(-1em);
+}
+
+/* To restore space (removed by TACC) at bottom of idnex page */
+/* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L510-L512 */
+[data-page-name="index.md"] footer {
+    display: revert;
 }
