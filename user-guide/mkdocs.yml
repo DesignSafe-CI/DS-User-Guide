@@ -47,7 +47,7 @@ nav:
     - Managing Your Data: getting-started/manage-data.md
   - Data Depot:
     - About the Data Depot: datadepotrepo/about.md
-    - Transferring Your Data: data-depot/transfer.md
+    - Transferring Your Data: managingdata/datatransfer.md
     - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
     - Curating and Publishing:
         - What is Data Curation?: data-depot/curate-and-publish.md
