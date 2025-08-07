@@ -51,8 +51,8 @@ nav:
     - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
     - Curating and Publishing:
         - What is Data Curation?: data-depot/curate-and-publish.md
-        - How to Curate Data?:
-          - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+        - How to Curate Data?: curating/guides.md
+        - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
     - Best Practices: curating/bestpractices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
