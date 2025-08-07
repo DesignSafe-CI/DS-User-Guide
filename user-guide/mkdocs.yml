@@ -44,11 +44,13 @@ nav:
   - Getting Started:
     - Overview: getting-started/overview.md
     - Managing Your Account: getting-started/manage-account.md
-    - Managing Your Data: getting-started/manage-data.md
+    - Managing Your Data:
+      - Overview: managingdata/datadepot.md
+      - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
+      - Data Management Plan: managingdata/datamanagementplan.md
   - Data Depot:
     - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
-    - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
     - Curating and Publishing:
         - What is Data Curation?: data-depot/curate-and-publish.md
         - How to Curate Data?: curating/guides.md
