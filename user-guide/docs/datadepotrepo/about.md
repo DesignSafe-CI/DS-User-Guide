@@ -1,20 +1,25 @@
 # About the Data Depot
 
+
 ## Mission
 
 The Data Depot Repository (DDR) is one component of the DesignSafe cyberinfrastructure, which represents a comprehensive research environment that provides cloud-based tools to manage, analyze, understand, and publish critical data for research to understand the impacts of natural hazards. DDR is the platform for curation and publication of datasets generated in the course of natural hazards research. It is an open access repository that enables data producers to safely store, share, organize, and describe research data, and assigns Digital Object Identifiers towards permanent publication and distribution of datasets. The DDR allows data consumers to discover, search for, access, and reuse published data to accelerate research discovery. DDR monitors datasets usage and citations over time to communicate their impact.  DesignSafe is part of the NSF-supported Natural Hazards Engineering Research Infrastructure (NHERI), and aligns with its mission to provide the natural hazards research community with open access, shared-use scholarship, education, and community resources aimed at supporting civil infrastructure prior to, during, and following natural disasters. DesignSafe also supports the broader natural hazards research community that extends beyond the NHERI network.
+
 
 ## History
 
 The DDR has been in operation since 2016 and is currently supported by NSF through 2025. The DDR preserves natural hazards research data published since its inception, and also provides access to legacy data dating from about 2005. These legacy data were generated as part of the NSF-supported Network for Earthquake Engineering Simulation (NEES), a predecessor to NHERI. Legacy data and metadata belonging to NEES were transferred to the DDR for continuous preservation and access. [View the published NEES data.](https://designsafe-ci.org/data/browser/public/nees.public)
 
+
 ## Governance
 
 Policies for the DDR are driven by the Natural Hazards  scientific community and informed by best practices in library and information sciences. The DDR operates under the leadership of the DesignSafe Management Team, which establishes and updates policies, evaluates and recommends best practices, oversees its technical development, and prioritizes activities. The broad organizational structure under which the DDR operates is shown on [About NHERI DesignSafe](https://designsafe-ci.org/about/designsafe/).
 
+
 ## Infrastructure
 
 DesignSafe including DDR are hosted at the [Texas Advanced Computing Center (TACC)](https://tacc.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/). TACC provides access to high performance computing, visualization, and large scale data analysis computational resources, as well as to reliable large scale data management and storage solutions. Their cloud and portal services further increase the ways in which DesignSafe users can access data and computational resources to advance their work.
+
 
 ## Team
 
@@ -23,6 +28,7 @@ An interdisciplinary repository team carries out ongoing design, development and
 ![DesignSafe Data Depot Team Organization](./imgs/team-org.png)
 
 Formal mechanisms are in place for external evaluators to gather feedback and conduct structured assessments, in the form of usability studies and yearly user surveys, to ensure that the repository is meeting the community’s expectations and needs. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. All DDR activities are reported to the National Science Foundation on a quarterly and annual basis in terms of quantitative and qualitative progress.
+
 
 ## Community Norms
 
@@ -40,15 +46,12 @@ For users curating and publishing data in DDR:
 * Using DDR to publish data is entirely voluntary. None of these terms supersede any prior contractual obligations to confidentiality or proprietary information the user may have with third parties; thus, the user is entirely responsible for what they upload or share with DDR. 
 * Publications that do not fall within these norms may be removed.
 
-
-
 For users using data published in DDR:
 
 * Users accessing and using DDR data agree to the following [Data Usage Agreement](/user-guide/curating/policies/#data-usage-agreement).
 * Users agree to use DDR resources in accessing and reusing open access data in ways that respect the [licenses](/user-guide/curating/policies/#licenses) and access restrictions established in the publications.
 * Users agree to properly cite the datasets they use in their works in accordance with the [Joint Declaration of Data Citation Principles](https://force11.org/info/joint-declaration-of-data-citation-principles-final/) using the citations provided in the published datasets landing pages.
 * We reserve the right to ask users to suspend their use of DDR should we receive complaints or note violations of these Community Norms.
-
 
 
 ## CoreTrustSeal Certification
