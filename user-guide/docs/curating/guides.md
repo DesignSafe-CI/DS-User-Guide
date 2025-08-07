@@ -1,6 +1,6 @@
 # How to Curate Data?
 
-Below are step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe. We offer the following project types when publishing: Experimental, Simulation, Hybrid Simulation, Field Research, and Other. More information: [**Policies**](/user-guide/data-depot/policies), [**Best Practices**](/user-guide/curating/bestpractices/), [**Frequently Asked Questions**](/user-guide/curating/faq/).
+We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Hybrid Simulation**](#hybrid), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/data-depot/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
 ## Experimental
 
@@ -144,7 +144,7 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 ---
 
-## Simulation { #simulation }
+## Simulation
 
 !!! important "Not Up to Date"
     Anticipate a different user interface and experience.
