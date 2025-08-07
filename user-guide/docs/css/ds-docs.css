@@ -189,6 +189,6 @@ details li > p {
 li:has(> details) {
     list-style-type: none;
 }
-li > details {
+li > details > summary {
     translate: calc(-1em);
 }

@@ -224,8 +224,23 @@ The expectations of DDR and the responsibilities of users with respect to licens
 
 For each project type, the metadata elements including those that are required and recommended are shown below. For more details, consult the full metadata [Dictionaries](/user-guide/dictionary/).
 
-/// details | **Experimental Research Project** ([view full dictionary](/user-guide/dictionary/#experimental))
-    attrs: {class: data-tree}
+<style id="dict-tree-style">
+/* To align "view full metadata" link with tree title if wrapped */
+.dict-tree small { display: block; translate: 1em; }
+/* To add space to bottom of card (typically provided by its content) */
+.dict-tree.card--plain { padding-bottom: var(--global-space--pattern-pad); }
+/* To add space above list */
+.dict-tree.card--plain > ul { margin-top: 1em; }
+/* To remove space below list (added by Core-Styles card) */
+.dict-tree.card--plain ul { margin-bottom: 0; }
+/* To remove space added by Core-Styles to card */
+.dict-tree.card--plain li { margin-top: 0; }
+</style>
+
+/// html | section.grid
+
+//// details | **Experimental Research Project** <small>([view full dictionary](/user-guide/dictionary/#experimental))</small>
+    attrs: {class: dict-tree card--plain}
 
 * DOI
 * Project Title
@@ -239,7 +254,7 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* /// details | Experiment\*
+* //// details | Experiment\*
 
     * Report
     * DOI†
@@ -255,17 +270,18 @@ For each project type, the metadata elements including those that are required a
     * Sensor Information\*
     * Event\*
     * Experiment Report$
-  ///
-* /// details | Analysis\*$
+  ////
+* //// details | Analysis\*$
 
     * Analysis Title
     * Description
     * Referenced Data\*
 
-  ///
+  ////
 
-///
-/// details | **Simulation Research Project** ([view full dictionary](/user-guide/dictionary/#simulation))
+////
+//// details | **Simulation Research Project** <small>([view full dictionary](/user-guide/dictionary/#simulation))</small>
+    attrs: {class: dict-tree card--plain}
 
 * DOI†
 * Project Title
@@ -279,7 +295,7 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* /// details | Simulation\*
+* //// details | Simulation\*
 
     * Report
     * Simulation Title
@@ -292,17 +308,18 @@ For each project type, the metadata elements including those that are required a
     * Referenced Data\*
     * Simulation Report$
 
-  ///
-* /// details | Analysis\*$
+  ////
+* //// details | Analysis\*$
 
     * Analysis Title
     * Description
     * Referenced Data\*
 
-  ///
+  ////
 
-///
-/// details | **Hybrid Simulation Research Project** ([view full dictionary](/user-guide/dictionary/#hybrid))
+////
+//// details | **Hybrid Simulation Research Project** <small>([view full dictionary](/user-guide/dictionary/#hybrid))</small>
+    attrs: {class: dict-tree card--plain}
 
 * DOI†
 * Project Title
@@ -316,35 +333,36 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* /// details | Hybrid Simulation\*
+* //// details | Hybrid Simulation\*
 
     * Report
-    * /// details | Global Model
+    * //// details | Global Model
         * Global Model Title
         * Description
 
-      ///
-    * /// details | Master Simulation Coordinator
+      ////
+    * //// details | Master Simulation Coordinator
         * Master Simulation Coordinator Title
         * Application and Version
         * Substructure Middleware
 
-      ///
-    * /// details | Simulation Substructure\*
+      ////
+    * //// details | Simulation Substructure\*
         * Simulation Substructure Title
         * Application and Version
         * Description
 
-      ///
-    * /// details | Experiment Substructure\*
+      ////
+    * //// details | Experiment Substructure\*
         * Experiment Substructure Title
         * Description
 
-      ///
-  ///
+      ////
+  ////
 
-///
-/// details | **Field Research Project** ([view full dictionary](/user-guide/dictionary/#field))
+////
+//// details | **Field Research Project** <small>([view full dictionary](/user-guide/dictionary/#field))</small>
+    attrs: {class: dict-tree card--plain}
 
 * Project Title
 * PI/Co-PI(s)\*
@@ -355,7 +373,7 @@ For each project type, the metadata elements including those that are required a
 * Keywords
 * Natural Hazard Event
 * Natural Hazard Date
-* /// details | Documents Collection\*$
+* //// details | Documents Collection\*$
 
     * Author(s)\*
     * Date of Publication†
@@ -365,8 +383,8 @@ For each project type, the metadata elements including those that are required a
     * Referenced Data\*$
     * Description
 
-  ///
-* /// details | Mission\*
+  ////
+* //// details | Mission\*
 
     * Mission Title
     * Author(s)\*
@@ -377,15 +395,15 @@ For each project type, the metadata elements including those that are required a
     * Publisher†
     * License(s)\*
     * Mission Description
-    * /// details | Research Planning Collection\*$
+    * //// details | Research Planning Collection\*$
 
         * Collection Title
         * Data Collector(s)\*
         * Referenced Data\*$
         * Collection Description
 
-      ///
-    * /// details | Social Sciences Collection\*
+      ////
+    * //// details | Social Sciences Collection\*
 
         * Collection Title
         * Unit of Analysis$
@@ -400,8 +418,8 @@ For each project type, the metadata elements including those that are required a
         * Referenced Data\*$
         * Collection Description
 
-      ///
-    * /// details | Engineering/Geosciences Collection\*
+      ////
+    * //// details | Engineering/Geosciences Collection\*
 
         * Collection Title
         * Observation Type\*
@@ -412,11 +430,12 @@ For each project type, the metadata elements including those that are required a
         * Referenced Data\*$
         * Collection Description
 
-      ///
-  ///
+      ////
+  ////
 
-///
-/// details | **Other** ([view full dictionary](/user-guide/dictionary/#other))
+////
+//// details | **Other** <small>([view full dictionary](/user-guide/dictionary/#other))</small>
+    attrs: {class: dict-tree card--plain}
 
 * DOI†
 * Project Title
@@ -429,6 +448,8 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
+
+////
 
 ///
 
