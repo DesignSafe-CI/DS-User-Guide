@@ -160,9 +160,18 @@ hr.spacer {
     content: ' ' attr(data-subtitle);
 }
 [data-subtitle]:not(
-    h5, h6 /* headings only distinguished by weight */
+    /* headings only distinguished by weight */
+    h5, h6
 )::after {
     font-weight: normal;
+}
+[data-subtitle]:is(
+    /* headings that need subtitle below */
+    h1
+)::after {
+    display: block;
+    text-transform: none;
+    font-size: var(--global-font-size--xx-large);
 }
 
 /* To hide unused space at bottom of overview pages */

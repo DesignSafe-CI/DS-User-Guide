@@ -1,15 +1,12 @@
-## Experimental Facility Checklist
-
-
-### DesignSafe-EF Onboarding Checklist for Data Curation { #onboarding }
+# Experimental Facility Checklist { data-subtitle="An Onboarding Checklist for Data Curation" }
 
 DesignSafe has been developed as a comprehensive research environment supporting a range of activities from research planning to cloud-based data analysis to data curation/publication.  We encourage users to take full advantage of the DesignSafe capabilities associated with both the Data Depot data repository and the Tools and Apps.  To learn more about all of these capabilities, watch this [Introductory Webinar](https://www.youtube.com/watch?v=5Yus9MjtcTM&amp;feature=youtu.be){ target="_blank" }.
 
 
-### Phase 1 - Before arriving to the Experimental Facility (EF): { #phase1 }
+## Phase 1: Before the Experimental Facility { #phase1 }
 
-* Create an account on DesignSafe: [Account Registration](https://www.designsafe-ci.org/account/register/)
-* Familiarize yourself with the Data Depot and the curation process.
+1. Create an account on DesignSafe: [Account Registration](https://www.designsafe-ci.org/account/register/)
+2. Familiarize yourself with the Data Depot and the curation process.
 	* User Guide for Data Curation and Publication: [User Guide](../curating/#curation-publication-faq)
 	* Watch the data curation and publication tutorial available in the learning center: [Video Tutorial](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" }
 	* Look at examples of well curated experimental projects:
@@ -18,42 +15,42 @@ DesignSafe has been developed as a comprehensive research environment supporting
 		* [Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197){ target="_blank" }
 	* Read the FAQ regarding data curation and publication: [Frequently Asked Questions](/user-guide/curating/faq/)
 	* Learn about the different data transfer methods to identify which one you may need for data upload: [Data Transfer Guide](/user-guide/managingdata/datatransfer/)
-* Familiarize yourself with the available Tools and Apps.
+3. Familiarize yourself with the available Tools and Apps.
 	* [Tools and Apps User Guide](https://www.designsafe-ci.org/use-designsafe/tools-applications/)
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
-* Add a Project within the Data Depot.
+4. Add a Project within the Data Depot.
 	* This Project may be created by any research team member (PI/co-PI/student) or it may already exist from a previous phase of the research project.
 	* Make sure that all PIs/co-PIs and team members are added to the project (accessed from the Edit Project link).
 	* Assign one team member responsible for uploading and coordinating data management activities.
 	* PIs and co-PIs should be informed and contribute to curation decisions including final publication.
 
 
-### Phase 2 - At the EF: { #phase2 }
+## Phase 2: While at the Experimental Facility { #phase2 }
 
-* The following steps will be completed as a team.
-* Upload project data files into your Project as soon as you gather and produce them.
+1. The following steps will be completed as a team.
+2. Upload project data files into your Project as soon as you gather and produce them.
 	* Include model drawings, sensors, loading inputs, ground motions, material testing, specs, and any experiment planning documents.
 	* It is best to use open formats for your data such as docx, csv, txt/ascii, tif and other preservation friendly formats (<font color="red">link here to information</font>).
 	* If possible upload both zipped and unzipped versions of your files to accommodate future data download and data use.
-* You may begin the curation process as soon as you start uploading files to DesignSafe. You will continue this process after your work at the EF.
+3. You may begin the curation process as soon as you start uploading files to DesignSafe. You will continue this process after your work at the EF (Experimental Facility).
 
 
-### Phase 3 – After the EF: { #phase3 }
+## Phase 3: After the Experimental Facility { #phase3 }
 
-* Attend Virtual Curation Office Hours. As a team, make an appointment with the DesignSafe Data Curator to discuss data management. Office hours are every Tuesday and Thursday at 1 pm central:
+1. Attend Virtual Curation Office Hours. As a team, make an appointment with the DesignSafe Data Curator to discuss data management. Office hours are every Tuesday and Thursday at 1 pm central:
 	* Curation Office Hours [Zoom Link](https://designsafe-ci.zoom.us/j/730745593?pwd=U0VyaG1nVHgya3RZaS9hZng1MU82UT09){ target="_blank" }
 	* Sign up sheet to reserve a time slot: [Sign Up Sheet](https://signup.com/go/fxHQnhr){ target="_blank" }
-* Finalize curation of your project:
+2. Finalize curation of your project:
 	* Finalize and organize Experiments, Categories, and Relationships.
 	* Tag files appropriately.
 	* Ask someone unfamiliar with the project to review the project description to see if it makes sense to a wider audience.
-* Publish your project:
+3. Publish your project:
 	* Select Publication Preview to examine the layout of your publication.
 	* Publish your project using the Prepare to Publish button within the Publication Preview.  Confirm the project metadata, files to be published, etc., and then click Request DOI and Publish.
 	* The project will be publicly available in the Published section of the Data Depot within about 24 hours.
 
 
-### General Comments { #comments }
+## General Comments { #comments }
 
 * Publishing the data from your project quickly will help you comply with the requirements of your funding sources, allow you to cite your data with a DOI in your upcoming publications and presentations, and bring prompt attention to your work.
 * DesignSafe provides the possibility to publish one experiment at a time, so you do not need to finish your entire research project to publish all the experiments.
