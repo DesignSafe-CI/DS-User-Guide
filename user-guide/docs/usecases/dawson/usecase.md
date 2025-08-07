@@ -107,7 +107,6 @@ do
   # Call generator if it exists script
   if [ -e generator.sh ]
   then
-    
     ./generator.sh ${ITER} $SLURM_NPROCS $generator_args
   fi
 

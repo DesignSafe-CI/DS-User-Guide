@@ -49,7 +49,6 @@ Table 1. Datasets in NatHaz and Tamkang databases
 
 
 
-
 ### References
 [1] Cheng, C. M. and Wang, J. (2004). “Wind tunnel database for an intermediate wind resistance design of tall buildings.” Proc. 1st International Symposium on Wind Effects on Buildings and Urban Environment, Tokyo Polytechnic, University, Tokyo, Japan.<br>
 [2] Cheng, C. M., Lin, Y. Y., Wang, J., Wu, J. C. and Chang, C. H. (2007). “The aerodynamic database for the interference effects of adjacent tall buildings.” Proc. 12th International Conference on Wind Engineering, Cairns, Australia, 359-366.<br>

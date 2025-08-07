@@ -28,7 +28,7 @@ Common `adcprep` options used include:
   ```
   adcprep --partmesh --np 32
   ```
-  
+
   This command partitions the mesh into 32 subdomains, creating a partmesh.txt file.
 
 - **Preparing All Input Files**
@@ -36,7 +36,7 @@ Common `adcprep` options used include:
   ```
   adcprep --prepall --np 32
   ```
-  
+
   Utilizes the previously created partmesh.txt file to decompose all input files into PE* subdirectories.
 
 ### PADIRC Runs
@@ -48,7 +48,7 @@ Some common options used when using PADCIRC are the following:
   ```
   padcirc -I /path/to/input -O /path/to/output
   ```
-  
+
   Looks for input files in `/path/to/input` and writes output files to `/path/to/output`.
 
 - **Adjusting Writer Cores**
@@ -56,7 +56,7 @@ Some common options used when using PADCIRC are the following:
   ```
   padcirc -W 4
   ```
-  
+
   Dedicates 4 MPI processes to write ASCII output files.
 
 For more information see - [ADCIRC Webpage Documentation](https://adcirc.org/home/documentation/generic-adcirc-command-line-options/)
