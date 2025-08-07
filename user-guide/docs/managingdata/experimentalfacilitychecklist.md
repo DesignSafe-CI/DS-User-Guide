@@ -5,48 +5,47 @@ DesignSafe has been developed as a comprehensive research environment supporting
 
 ## Phase 1: Before the Experimental Facility { #phase1 }
 
-1. Create an account on DesignSafe: [Account Registration](https://www.designsafe-ci.org/account/register/)
+1. [Create an account on DesignSafe.](https://www.designsafe-ci.org/account/register/)
 2. Familiarize yourself with the Data Depot and the curation process.
-	* User Guide for Data Curation and Publication: [User Guide](../curating/#curation-publication-faq)
-	* Watch the data curation and publication tutorial available in the learning center: [Video Tutorial](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" }
-	* Look at examples of well curated experimental projects:
+	* [User Guide for Data Curation and Publication](../curating/#curation-publication-faq).
+	* [Data Curation and Publication Tutorial Video](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" } available in the learning center.
+	* Well-Curated Experimental Projects:
 		* [Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218){ target="_blank" }
 		* [CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-Rise cold-Formed Steel Buildings](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141){ target="_blank" }
 		* [Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197){ target="_blank" }
-	* Read the FAQ regarding data curation and publication: [Frequently Asked Questions](/user-guide/curating/faq/)
-	* Learn about the different data transfer methods to identify which one you may need for data upload: [Data Transfer Guide](/user-guide/managingdata/datatransfer/)
+	* [Frequently Asked Questions](/user-guide/curating/faq/)
+	* [Data Transfer Guide](/user-guide/managingdata/datatransfer/)
 3. Familiarize yourself with the available Tools and Apps.
-	* [Tools and Apps User Guide](https://www.designsafe-ci.org/use-designsafe/tools-applications/)
+	* [Tools and Apps](https://www.designsafe-ci.org/use-designsafe/tools-applications/){ target="_blank" }
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
-4. Add a Project within the Data Depot.
-	* This Project may be created by any research team member (PI/co-PI/student) or it may already exist from a previous phase of the research project.
-	* Make sure that all PIs/co-PIs and team members are added to the project (accessed from the Edit Project link).
+4. Add a project within the Data Depot.
+	* This project may be created by any research team member (PI/co-PI/student) or it may already exist from a previous phase of the research project.
+	* Make sure that all PIs/co-PIs and team members are added to the project (accessed from the "Edit Project" link).
 	* Assign one team member responsible for uploading and coordinating data management activities.
 	* PIs and co-PIs should be informed and contribute to curation decisions including final publication.
 
 
 ## Phase 2: While at the Experimental Facility { #phase2 }
 
-1. The following steps will be completed as a team.
-2. Upload project data files into your Project as soon as you gather and produce them.
+The following steps will be completed _as a team_.
+
+1. Upload project data files into your Project as soon as you gather and produce them.
 	* Include model drawings, sensors, loading inputs, ground motions, material testing, specs, and any experiment planning documents.
-	* It is best to use open formats for your data such as docx, csv, txt/ascii, tif and other preservation friendly formats (<font color="red">link here to information</font>).
-	* If possible upload both zipped and unzipped versions of your files to accommodate future data download and data use.
-3. You may begin the curation process as soon as you start uploading files to DesignSafe. You will continue this process after your work at the EF (Experimental Facility).
+	* It is best to use open formats for your data such as `.docx`, `.csv`, `.txt`/ascii, `.tif` and other preservation friendly formats.
+	* If possible, upload both zipped and unzipped versions of your files to accommodate future data download and data use.
+2. You may begin the curation process as soon as you start uploading files to DesignSafe. You will continue this process after your work at the EF (Experimental Facility).
 
 
 ## Phase 3: After the Experimental Facility { #phase3 }
 
-1. Attend Virtual Curation Office Hours. As a team, make an appointment with the DesignSafe Data Curator to discuss data management. Office hours are every Tuesday and Thursday at 1 pm central:
-	* Curation Office Hours [Zoom Link](https://designsafe-ci.zoom.us/j/730745593?pwd=U0VyaG1nVHgya3RZaS9hZng1MU82UT09){ target="_blank" }
-	* Sign up sheet to reserve a time slot: [Sign Up Sheet](https://signup.com/go/fxHQnhr){ target="_blank" }
+1. Attend [Virtual Curation Office Hours](https://designsafe-ci.org/facilities/virtual-office-hours/){ target="_blank" }. As a team, make an appointment with the DesignSafe Data Curator to discuss data management.
 2. Finalize curation of your project:
 	* Finalize and organize Experiments, Categories, and Relationships.
 	* Tag files appropriately.
 	* Ask someone unfamiliar with the project to review the project description to see if it makes sense to a wider audience.
 3. Publish your project:
 	* Select Publication Preview to examine the layout of your publication.
-	* Publish your project using the Prepare to Publish button within the Publication Preview.  Confirm the project metadata, files to be published, etc., and then click Request DOI and Publish.
+	* Publish your project using the "Prepare to Publish" button within the Publication Preview. Confirm the project metadata, files to be published, et cetera, and then click "Request DOI and Publish".
 	* The project will be publicly available in the Published section of the Data Depot within about 24 hours.
 
 
