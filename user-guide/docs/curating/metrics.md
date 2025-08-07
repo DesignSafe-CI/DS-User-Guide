@@ -44,8 +44,6 @@ Original citations are from papers in which a researcher cites their own data in
 
 Citations are updated through the last month of the prior quarter. 
 
-
-
 ## Marketing Datasets
 
 Datasets take a lot of work to produce; they are important research products. By creating a complete, organized, and clearly described publication in DDR, users are inviting others to reuse and cite their data. Researchers using published data from DDR must cite it using the DOI, which relies on the [DataCite schema](http://schema.datacite.org/) for accurate citation. For convenience, users can retrieve a formatted citation from the published data landing page. It is recommended to insert the citations in the reference section of the paper to facilitate citation tracking and count.

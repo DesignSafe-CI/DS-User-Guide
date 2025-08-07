@@ -55,7 +55,7 @@ nav:
         - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
     - Best Practices: curating/bestpractices.md
-    - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
+    - Data Dissemination and Impact: curating/metrics.md
     # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
     - Policies: curating/policies.md
 
