@@ -49,10 +49,12 @@ nav:
         - What is Data Curation?: data-depot/curate-and-publish.md
         - How to Curate Data?:
           - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+        - Frequently Asked Questions: curating/faq.md
     - Best Practices: data-depot/best-practices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
     # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
     - Policies: data-depot/policies.md
+
   - Tools and Apps:
     - Analysis Apps: analysis.md
     - Jupyter: tools/jupyterhub.md
