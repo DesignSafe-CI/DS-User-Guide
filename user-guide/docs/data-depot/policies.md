@@ -220,7 +220,7 @@ DDR requires that users reusing data from others in their projects do so in comp
 
 The expectations of DDR and the responsibilities of users with respect to licenses are included in the [DesignSafe Terms of Use](https://www.designsafe-ci.org/account/terms-conditions/), the [Data Usage Agreement](/user-guide/data-depot/policies/#data-usage-agreement), and the [Data Publication Agreement](/user-guide/data-depot/policies/#data-publication-agreement). In the event that we note or are notified that the licensing policies and best practices are not followed, we will notify the user of the infringement and will apply the [Tombstone Policy](/user-guide/data-depot/policies/#tombstone).
 
-## Metadata Schema and Requirements
+## Metadata Schema and Requirements { #metadatareqs }
 
 For each project type, the metadata elements including those that are required and recommended are shown below. For more details, consult the full metadata [Dictionaries](/user-guide/dictionary/).
 
