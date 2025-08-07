@@ -1,5 +1,5 @@
-## Curate and Publish
+# What is Data Curation?
+
+Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication FAIR and assuring that it will be useful for generations to come.
 
 We strongly recommend following the onboarding instructions in the My Project curation and publication interface. We are available for additional help during our [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) and via [help tickets](https://www.designsafe-ci.org/help/submit-ticket/). The [DDR Policies](/user-guide/data-depot/policies/) communicate requirements for managing and publishing data. General curation best practices exist for [Curation Quality](/user-guide/data-depot/best-practices/#curation-quality) and [Curating Various Types of Research Data](/user-guide/data-depot/best-practices/#curating-various-types-of-research-data).
-
-In addition, we suggest that users look into the [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) from the Data Curation Network, which are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task, and that can be used as a guidelines to curate research data. The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel.

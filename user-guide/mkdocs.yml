@@ -45,7 +45,10 @@ nav:
     - About the Data Depot: data-depot/about.md
     - Transferring Your Data: data-depot/transfer.md
     - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
-    - Curating and Publishing: data-depot/curate-and-publish.md
+    - Curating and Publishing:
+        - What is Data Curation?: data-depot/curate-and-publish.md
+        - How to Curate Data?:
+          - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
     - Best Practices: data-depot/best-practices.md
     - Data Dissemination and Impact: data-depot/dissemination-and-impact.md
     # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
