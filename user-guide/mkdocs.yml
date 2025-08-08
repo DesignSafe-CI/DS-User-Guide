@@ -39,6 +39,7 @@ plugins:
 nav:
   - Getting Started:
     - Overview: overview.md
+    - Set Up Your Account: index.md
     - Managing Your Account: account-help.md
     - Managing Your Data:
       - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
@@ -56,9 +57,8 @@ nav:
     - Data Dissemination and Impact: curating/metrics.md
     # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
     - Policies: curating/policies.md
-
-  - Recon Portal:
-    - User Guide: tools/recon.md
+    - Recon Portal:
+      - Recon Portal User Guide: tools/recon.md
 
   - Tools and Apps:
     - Analysis Apps: analysis.md
