@@ -1,10 +1,12 @@
+# Frequently Asked Questions
+
 ### Selecting Files & Data { #selecting }
 
 **Q: What are the best file formats for data publications?**  
 **A**: For long-term preservation purposes it is best to publish data in interoperable and open formats. For example, instead of Excel spreadsheet files -which are proprietary- it is best to convert them to CSV for publication. And, instead of Matlab files -also proprietary- it is best to publish data as simple txt (ascii) so it can be used by many different software. However, be aware that conversion may distort the data structure, so retain an original copy of any structured data (e.g. Matlab, Excel files) before attempting conversions and then check between the two for fidelity. In addition, you may publish both the proprietary and the open format, and/or consult the Data Curation Primers to find out how to better curate research data.
 
 **Q: What does DesignSafe recommend for zip files?**  
-**A**: If you uploaded your data as zip files, you should unzip before publishing. Zip files prevent others from directly viewing and understanding your data in the cloud. You may upload zip files to your "MyData" and unzip them using the utilities available in the workspace at: <https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1> before copying them to your project.
+**A**: If you uploaded your data as zip files, you should unzip before publishing. Zip files prevent others from directly viewing and understanding your data in the cloud. You may upload zip files to your "MyData" and unzip them using the [Extract utility](https://www.designsafe-ci.org/workspace/extract) before copying them to your project.
 
 **Q: My project has many individual files. It will be cumbersome for a user to download them one by one. What do you suggest?**  
 **A**: Through the web interface, downloading a lot of individual files is cumbersome. However, DesignSafe offers a number of solutions for this issue. First, users may interact with data in the cloud, without the need to download, using Matlab scripts as well as Jupyter notebooks. In this case, users may find downloading large quantities of data to be unnecessary. If users want to download a large number of files from a project, we recommend that they use Globus or include zip files for your data files. However, if you include zip files you should include the unzipped files in your project as well. If you wish to make your data easy to download, it is best to aggregate small individual files into a smaller number of larger files when feasible.
@@ -19,7 +21,7 @@
 **A**: We have multiple data models and you may publish project types as "Experimental", "Simulation", "Hybrid Simulation", "Field Research" and "Other". Using the "Field Research" data model, you can publish both Engineering/Geosciences collections as well as Social Sciences collections. Stand-alone reports, presentations, software and white papers, as well as datasets that do not fit with the rest of the project types can be published in the project type "Other".
 
 **Q: How should I select data to be published in a project?**    
-**A**: While right now there is no limit to the amount of files that can be published in DesignSafe, the comprehension and reuse potential of the data should be important considerations when selecting what data can be published. This goes with the possibility to clearly describe the data and establish and document its completeness and validity. For all project types, you have the option to select a subset of the files uploaded to My Project that you wish to publish without the need to delete them from the Working Directory. 
+**A**: While right now there is no limit to the amount of files that can be published in DesignSafe, the comprehension and reuse potential of the data should be important considerations when selecting what data can be published. This goes with the possibility to clearly describe the data and establish and document its completeness and validity. For all project types, you have the option to select a subset of the files uploaded to My Project that you wish to publish without the need to delete them from the Working Directory.
 
 **Q: What should I consider before publishing Jupyter Notebooks?**  
 **A**: Please refer to our Jupyter User Guide document to find information on how to publish a Jupyter Notebook.
@@ -27,10 +29,10 @@
 ### Organizing & Describing Your Dataset { #organizing }
 
 **Q: How should I organize the data files to be published in a project?**
-**A**: For each type of project publication, the best way to organize your data is to map them to the organizational schema provided by the data models available for each research type (simulation, experimental, hybrid simulation and field research). These models were designed by experts and represent the main data and documentation components required for others to understand and reuse your dataset. 
+**A**: For each type of project publication, the best way to organize your data is to map them to the organizational schema provided by the data models available for each research type (simulation, experimental, hybrid simulation and field research). These models were designed by experts and represent the main data and documentation components required for others to understand and reuse your dataset.
 
 **Q: Can I organize my data files into a hierarchy of folders in DesignSafe?**  
-**A**: DesignSafe offers methods for categorizing (organizing) and tagging (describing) your files. To enhance organization and description of large and complex projects, users can group files in folders. However, it is always best to avoid overly nesting because browsing through an extensive folder hierarchy on the web is slower than on your local computer. So to improve the user experience, you should try to use the smallest number of nested folders necessary. Instead, you may use categories, descriptions, and tags to indicate what the groupings are. This provides a method for users to identify and search your files efficiently. 
+**A**: DesignSafe offers methods for categorizing (organizing) and tagging (describing) your files. To enhance organization and description of large and complex projects, users can group files in folders. However, it is always best to avoid overly nesting because browsing through an extensive folder hierarchy on the web is slower than on your local computer. So to improve the user experience, you should try to use the smallest number of nested folders necessary. Instead, you may use categories, descriptions, and tags to indicate what the groupings are. This provides a method for users to identify and search your files efficiently.
 
 **Q: How should I describe the dataset organization in a project type "Other"?**  
 **A**: In project type Other you will be able to tag individual files for ease of data understandability and reuse. If you publish many files and need to organize them in folders, we suggest providing a description of the organizational structure and naming convention that you use in your dataset in a "readme" file or a report. This file can simply be a text file or pdf file.
@@ -42,18 +44,18 @@
 **A**: To enhance the knowledge surrounding your dataset, you can use the "Related Work" field at the project level to point to web-pages, publications, or datasets that are published within or outside DesignSafe and that you consider relevant to point to in your publication. For example, you may point to a separate published project in DesignSafe, or provide the title and DOI of an article that relates to your data. You may also use the description fields in the data model to include specific parameters or facts that you want to highlight (e.g. wind speed during a hurricane, earthquake magnitude, damage types, etc.). Adding tags, both from a controlled list available or by including a custom one, helps other users to find the files that they need within the data landing page.
 
 **Q: How can I convey the quality of my data publication?**  
-**A**: Data quality, as entailed by the metadata, concerns the completeness of the data documentation and the validity and integrity of the data content. Following DesignSafe curation and documentation best practices, as well as the onboarding instructions on the curation and publication interfaces, and adding a data report or data dictionary enables publishing a complete dataset that others will understand. In addition, in the documentation and/or data description, it is important to clarify the processes conducted to assure the completeness and validity of the data content. 
+**A**: Data quality, as entailed by the metadata, concerns the completeness of the data documentation and the validity and integrity of the data content. Following DesignSafe curation and documentation best practices, as well as the onboarding instructions on the curation and publication interfaces, and adding a data report or data dictionary enables publishing a complete dataset that others will understand. In addition, in the documentation and/or data description, it is important to clarify the processes conducted to assure the completeness and validity of the data content.
 
 **Q: I have another published work that is related to the project I am now planning to publish. How can I relate them?**  
-**A**: On the project landing page under Edit Project there is a "Related Work" field where you have the option to include one or more associated projects and publications to your current project. Here, you can provide the title as well as a link to that project or publication. This link can be a DOI or a URL for any content found inside or outside of DesignSafe. For DOIs, please make sure you are adding the entire DOI address starting with "http" to correctly link the webpage to the related project. 
+**A**: On the project landing page under Edit Project there is a "Related Work" field where you have the option to include one or more associated projects and publications to your current project. Here, you can provide the title as well as a link to that project or publication. This link can be a DOI or a URL for any content found inside or outside of DesignSafe. For DOIs, please make sure you are adding the entire DOI address starting with "http" to correctly link the webpage to the related project.
 
 ### Publishing { #publishing }
 
 **Q: Which license is appropriate for my publication?**  
-**A**: Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. You can find relevant information under licensing here: <https://www.designsafe-ci.org/rw/user-guides/data-publication-guidelines/>.
+**A**: Licenses indicate the conditions in which you, as a data creator, want the data to be used by others. Due to the variety of resources published in DesignSafe, we provide four different types of open licenses. These cover datasets, software, materials with intellectual property rights, and the different ways in which you want your work to be attributed. [Read more.](/user-guide/curating/bestpractices/#licensing)
 
 **Q: What is a DOI?**  
-**A**: A Digital Object Identifier (DOI) is a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify a resource and provide a persistent link to its location on the Internet. You can find a registered resource by its DOI using the "Resolve a DOI Name" function at: <http://www.doi.org/>. In addition, you may find the citation information for that DOI in DataCite at <https://search.datacite.org/>.
+**A**: A Digital Object Identifier (DOI) is a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify a resource and provide a persistent link to its location on the Internet. You can find a registered resource by its DOI using the "Resolve a DOI Name" function at: [http://www.doi.org/](http://www.doi.org/){target="_blank"}. In addition, you may find the citation information for that DOI in DataCite at [https://search.datacite.org/](https://search.datacite.org/){target="_blank"}.
 
 **Q: What is the relation between a DOI and a data citation?**  
 **A**: The DOI is a component of a citation for a work that is stored online. Therefore, it provides access to the permanent URL and the cited resource.
@@ -70,7 +72,7 @@
 **Q: How can I give credit to DesignSafe?**  
 **A**: Please include the citation of the marker paper in the references/bibliography section of your publication. This is more effective than you providing in-text acknowledgements.
 
-<blockquote>Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., Arduino, P., Brandenberg, S.J., Cockerill, T., Dey, C., Esteva, M., Haan, Jr., F.L., Hanlon, M., Kareem, A., Lowes, L., Mock, S., and Mosqueda, G. 2017. "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering," ASCE Natural Hazards Review, doi:10.1061/(ASCE)NH.1527-6996.0000246.</blockquote>
+> Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., Arduino, P., Brandenberg, S.J., Cockerill, T., Dey, C., Esteva, M., Haan, Jr., F.L., Hanlon, M., Kareem, A., Lowes, L., Mock, S., and Mosqueda, G. 2017. "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering," ASCE Natural Hazards Review, doi:10.1061/(ASCE)NH.1527-6996.0000246.
 
 ### Data Reuse { #datareuse }
 
@@ -85,15 +87,15 @@
 
 1. Be aware of the reused data original license and conditions of usage. The license will specify if and how you can modify, distribute, and cite the reused data.
 
-1. If permitted you may also republish the reused data. This is feasible when the reused dataset is not very large. Else see 3 below. 
+1. If permitted you may also republish the reused data. This is feasible when the reused dataset is not very large. Else see 3 below.
 
-1. If you reuse data from other sources in your experiments or in your field research, you can point to it from the Referenced Data Title box so others can know about its provenance. 
+1. If you reuse data from other sources in your experiments or in your field research, you can point to it from the Referenced Data Title box so others can know about its provenance.
 
-1. In projects type Other, you can point to the reused data from the Related Work box. 
+1. In projects type Other, you can point to the reused data from the Related Work box.
 
 1. If you have reused images from other sources (online, databases, publications, etc.), be aware that they may have copyrights. We recommend using the following instructions for how to cite them:
 
-	<http://guides.library.ubc.ca>
+	[https://guides.library.ubc.ca](https://guides.library.ubc.ca){target="_blank"}
 
 **Q: Are there any conditions regarding the usage of data published in DesignSafe?**
 **A**: Yes, users that download and reuse data agree to the Data Usage conditions published here: These conditions outline the responsibilities of and expectations for data usage including aspects of data licensing, citation, privacy and confidentiality, and data quality. 

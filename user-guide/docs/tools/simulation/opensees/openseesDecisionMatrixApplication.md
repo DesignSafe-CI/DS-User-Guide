@@ -4,6 +4,6 @@ The following figure provides the decision matrix: a visual tool for quick asses
 
 ![](./DecisionMatrixForOpenSeesApplications.jpg)
 
-Choose the right OpenSees application to make the best use of resources such as modeler time, run time, and computer resources. 
+Choose the right OpenSees application to make the best use of resources such as modeler time, run time, and computer resources.
 
 

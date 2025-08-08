@@ -4,7 +4,7 @@ The Recon Portal provides an interactive world map displaying natural hazard eve
 
 ### Add a new natural hazard event
 
-To add a new natural hazard event to the Recon Portal, please make the request via a <a href="/rw/user-guides/help/" target="_blank">Help ticket</a> with the following information:
+To add a new natural hazard event to the Recon Portal, please make the request via a [Help ticket](/help/new-ticket/){target="_blank"} with the following information:
 
 <ul>
 	<li>name of the event</li>
@@ -16,5 +16,5 @@ To add a new natural hazard event to the Recon Portal, please make the request v
 
 ### Contributing your data to a natural hazard event
 
-To contribute a dataset to an existing natural hazard event on the Recon Portal, please make the request via a <a href="/rw/user-guides/help/" target="_blank">Help ticket</a> stating the name of the event and the location of your dataset for the event.
+To contribute a dataset to an existing natural hazard event on the Recon Portal, please make the request via a [Help ticket](/help/new-ticket/){target="_blank"} stating the name of the event and the location of your dataset for the event.
 

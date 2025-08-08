@@ -1,9 +1,5 @@
-# Hazard Apps & Utilities
+# Hazard Apps
 
 {% include-markdown 'hazard/hazardapps.md' %}
 
 {% include-markdown 'hazard/jupyter-dedm.md' %}
-
-{% include-markdown 'hazard/utilities.md' %}
-
-

@@ -174,7 +174,6 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
 
 
-    
 ```
 <small><a href="https://github.com/OpenSees/OpenSees/blob/master/EXAMPLES/LargeSP/Example.tcl" target="_blank">Click here to access this example and more on GitHub</a></small>
 

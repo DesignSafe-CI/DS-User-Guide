@@ -25,11 +25,9 @@ def plot_acc(ndof=2):
     acc = np.delete(acc, 0, 1)
     # Bandaid to remove last 2 nodes associated with dashpot (not for all Openees) 
     #acc = acc[:,0:-4]
-    
     [nstep, temp] = acc.shape
     nnode = int(temp/ndof)
     a = acc.reshape(nstep, ndof, nnode, order="F") / 9.81
-    
     # plot acceleration time history
     plt.figure() 
     plt.plot(time, a[:, 0, nnode-1])
@@ -41,7 +39,6 @@ def plot_acc(ndof=2):
        
     # build response spectra
     [p, umax, vmax, amax] = resp_spectra(a[:, 0, nnode-1], time[-1], nstep)
-    
     # response spectra on log-linear plot
     plt.figure()
     plt.subplot(3, 1, 1)

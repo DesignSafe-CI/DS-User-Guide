@@ -1,4 +1,4 @@
-name: ci
+name: ❌ DS User Guide Previews
 
 on:
   workflow_dispatch:

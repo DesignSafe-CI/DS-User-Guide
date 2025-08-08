@@ -1,22 +1,55 @@
-# DesignSafe User Guides
-*updated January 31, 2024*
+<style>
+    /* to use alphabet for nested lists */
+    .document ol ol {
+        list-style: lower-alpha;
+    }
+</style>
 
-<strong>User Account Registration, Password Reset, and Reactivation</strong><br>
-Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. <a href="https://www.designsafe-ci.org/account/register/" target="_blank"><strong>Request a user account</strong></a>, and then follow the instructions in the email you receive to complete setting up your account. You will then be able to <a href="https://www.designsafe-ci.org/" target="_blank">log in to DesignSafe</a>. A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain tacc.utexas.edu.
+# Getting Started
 
-To <strong>reset your password</strong>, go to https://accounts.tacc.utexas.edu/forgot_password, enter your username or email address that is associated with your user account, and you will receive an email with a password reset link. 
+## User Account Registration
 
-If you receive an <strong>Authentication Failed</strong> error when logging in, and you are confident that you have entered the correct password for your account, then it is likely that you need to <strong>Reactivate Account</strong> due to your account being Deactivated due to more than 120 days having passed since you last logged in. To reactivate your account, log in at accounts.tacc.utexas.edu and then request an activation link via https://accounts.tacc.utexas.edu/activate. You will receive an email at the email address associated with your user account with instructions for account reactivation.
+Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. A DesignSafe account is a University of Texas, Texas Advanced Computing Center (TACC) user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`. [TACC offers detailed account registration instructions.](https://docs.tacc.utexas.edu/basics/accounts/)
 
-<strong>NAVIGATING THE USER GUIDE</strong><br>
-**Data Depot**: The Data Depot section provides documentation on managing your data including various methods to transfer your data to DesignSafe, guidance for including DesignSafe in your NSF Data Management Plan, and a checklist for data curation when working with a NHERI Experimental Facility. There is extensive guidance for curating and publishing your datasets for reuse by others including working with protected/regulated/sensitive data.
+1. [**Request a user account.**](https://accounts.tacc.utexas.edu/register/)
+2. You will be redirected to the TACC account registration page.
+3. On the account registration form **we highly recommend** you use the email address provided by your Institution or Company.
+4. Set up [multi-factor authentication](https://docs.tacc.utexas.edu/basics/mfa/) for your account.
+5. Check for an email containing a confirmation and activation link. Once you confirm your email, your account status will update to either "Pending" or "Active".
+    1. It's possible that your email provider will either block or mark as spam/junk an email TACC sends with a link to confirm your email address after you submit the registration form. If so, send email to helpATdesignsafe-ci.org letting us know you did not receive the email.
+6.  If your account status is "Pending" then your account request will need further review by our User Services team. No action is required and a team member will reach out to you.
+7. Once your account status is "Active", you will then be able to [**log in to DesignSafe**](https://www.designsafe-ci.org/login/).
 
-**Tools &amp; Apps**: This section contains user guides for how to utilize our many offerings in data analytics, GIS and mapping, visualization, and our Jupyter Hub interacting with the data you bring to DesignSafe or that you discover in our Published datasets.
+<!-- TODO: Use this when message box is smaller -->
+<!-- https://github.com/TACC/TACC-Docs/issues/54 >
+<!--
+!!! note "Please note"
+    A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`.
+-->
+<!-- HELP: This syntax does not work -->
+<!-- https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/#usage -->
+<!--
+/// note | Please Note
+A DesignSafe account is a TACC user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`.
+///
+-->
 
-**Simulation Applications**: We host a wide array of open source and licensed software applications commonly used in natural hazards research.
+## Initial Onboarding
 
-**Use Cases**: To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research. Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below. The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
+When you are ready to begin uploading your own data to the Data Depot or want to begin using some of the Tools & Apps, you will want to initiate the onboarding process. The initial onboarding provides you with [private areas for your data](/user-guide/managingdata/datadepot/) and access to Tools & Apps that are hosted on our Virtual Machines such as [JupyterHub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/). Access to HPC-enabled applications requires [an additional step](#requestallocations).
 
-**Advanced Topics**: This section of the user guide provides information for how to request an HPC allocation to gain access to TACC's high performance computing resources when your research needs larger scale computation than the our portal applications provide. For researchers who develop their own software tools, a guide to how to use our API to access your data and run applications is provided. 
+There are 2 ways to invoke the onboarding:
 
+1. Navigate to the Data Depot.
+2. Navigate to Tools & Apps, then into any of the apps and find one that uses HPC (such as OpenSeesMP) and click Get Started.
 
+You will be redirected to the Onboarding Setup page, and you will then want to click Request Access. While rare, we occasionally will reach out to you requesting additional information prior to approving onboarding. Approvals typically are processed within 1 business day.
+
+## Request Allocations { #requestallocations }
+
+DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these (such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)) and clicking on "Get Started", you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one. Please provide the following information in your allocation request:
+
+1. Provide a paragraph describing your research topic, including which of the DesignSafe Tools & Apps you anticipate using.
+2. If you are faculty, please provide a link to your web page.
+3. If you are not faculty, please provide the name of your academic advisor and a link to their web page.
+4. If you are a practitioner or other user, please provide a link to your current information such as company web page or LinkedIn.

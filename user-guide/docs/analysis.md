@@ -14,8 +14,8 @@
 
 {% include-markdown 'analysis/matlab.md' %}
 
+<!--
 ---
 
-{% include-markdown 'analysis/swbatch.md' %}
-
----
+include-markdown 'analysis/swbatch.md' %}
+-->

@@ -25,7 +25,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)<br/>
+* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter)<br/>
 
 #### Additional Resources
 * Jupyter Notebook and Python scripts on [GitHub](https://github.com/Kaylaerler/Structural-Insights-with-ML)
@@ -40,7 +40,7 @@ Linear regression, one of the most basic forms of machine learning, has many adv
 
 ### Implementation
 
-Three notebooks are currently available for this project. The first, CASE 0, outlines the pre-processing that has been performed on the data before the model fitting procedures are conducted. CASE 1 contains details of the algorithms and theory for the linear regression model with several handy implementation tools to streamline model fitting for this or any other project. CASE 2 contains a deep neural network with an automated hyperparameter tuning algorithm. The notebooks are thoroughly commented with in depth details on their use and how they can be modified for use with other data sets on the DesignSafe platform. The user should review the notebooks for more instructive details. Note, for the deep neural network, if a wide range of hyperparameters is being used for tuning, and the dataset is large, tuning may take a significant amount of computational time when run on CPU. If a user gains access to the HPC available on the DesignSafe platform, the software is set up to be able to train on GPU when available. 
+Three notebooks are currently available for this project. The first, CASE 0, outlines the pre-processing that has been performed on the data before the model fitting procedures are conducted. CASE 1 contains details of the algorithms and theory for the linear regression model with several handy implementation tools to streamline model fitting for this or any other project. CASE 2 contains a deep neural network with an automated hyperparameter tuning algorithm. The notebooks are thoroughly commented with in depth details on their use and how they can be modified for use with other data sets on the DesignSafe platform. The user should review the notebooks for more instructive details. Note, for the deep neural network, if a wide range of hyperparameters is being used for tuning, and the dataset is large, tuning may take a significant amount of computational time when run on CPU. If a user gains access to the HPC available on the DesignSafe platform, the software is set up to be able to train on GPU when available.
 
 ### Citations and Licensing
 

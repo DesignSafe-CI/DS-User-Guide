@@ -1,18 +1,13 @@
 # DesignSafe Use Cases
 
-DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.  
+DesignSafe provides a wide variety of resources that allow researchers to effectively share, find, analyze, and publish data; perform numerical simulations and utilize high performance computing (HPC); and integrate diverse datasets.
 
 To help users fully embrace DesignSafe functionalities, we have developed a suite of Use Cases that demonstrate how DesignSafe is being used to advance natural hazards research.  Practical products, examples, and scripts developed as part of these Use Cases are provided at the links below.  The different simulation codes, tools, and DesignSafe resources used in each Use Case are also indicated.
 
 ## Data Analytics
 
-* [**Damage Tagging of Field Images**](#taggit-image-tagging) (Taggit, HazMapper)
 * [**Machine Learning and AI Resources**](#ml-and-ai) (Jupyter, Interactive Data Analytics, HPC)
 * [**Visualization of spatially distributed data for risk and resilience analysis**](#visualization-of-spatially-distributed-data) (Jupyter, Interactive Data Visualization)
-
-### Taggit - Image Tagging
-
-{% include-markdown 'haan/usecase.md' %}
 
 ### ML and AI
 
@@ -22,7 +17,11 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 
 {% include-markdown 'padgett/usecase_JN_viz.md' %}
 
-## Geohazards 
+### SQLite Database
+
+{% include-markdown 'brandenberg-sqlite/usecase.md' %}
+
+## Geohazards
 
 * [**Data Analysis using Next Generation Liquefaction (NGL) Database**](#application-programming-interfaces) (NGL, Jupyter, SQL, Interactive Data Analytics)
 * [**Landslide Runout Simulations**](#mpm-landslide) (MPM, Jupyter, Paraview, HPC)
@@ -30,6 +29,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 ### NGL Database
 
 {% include-markdown 'brandenberg-ngl/usecase.md' %}
+
 
 ### MPM Landslide
 

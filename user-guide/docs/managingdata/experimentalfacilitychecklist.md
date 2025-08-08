@@ -1,3 +1,5 @@
+## Experimental Facility Checklist
+
 ### DesignSafe-EF Onboarding Checklist for Data Curation { #onboarding }
 
 DesignSafe has been developed as a comprehensive research environment supporting a range of activities from research planning to cloud-based data analysis to data curation/publication.  We encourage users to take full advantage of the DesignSafe capabilities associated with both the Data Depot data repository and the Tools and Apps.  To learn more about all of these capabilities, watch this <a href="https://www.youtube.com/watch?v=5Yus9MjtcTM&amp;feature=youtu.be" target="_blank">Introductory Webinar</a>.
@@ -16,12 +18,12 @@ DesignSafe has been developed as a comprehensive research environment supporting
 		* <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197" target="_blank">Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces</a>
 	
 	
-	* Read the FAQ regarding data curation and publication: <a href="https://www.designsafe-ci.org/rw/user-guides/curating-publishing-projects/faq/">Frequently Asked Questions</a>
-	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="https://www.designsafe-ci.org/rw/user-guides/data-transfer-guide/">Data Transfer Guide</a>
+	* Read the FAQ regarding data curation and publication: <a href="/user-guide/curating/faq/">Frequently Asked Questions</a>
+	* Learn about the different data transfer methods to identify which one you may need for data upload: <a href="/user-guide/managingdata/datatransfer/">Data Transfer Guide</a>
 
 
 * Familiarize yourself with the available Tools and Apps.
-	* <a href="https://www.designsafe-ci.org/rw/user-guide/workspace/">Tools and Apps User Guide</a>
+	* [Tools and Apps User Guide](https://www.designsafe-ci.org/use-designsafe/tools-applications/)
 	* Python scripts in Jupyter can be used for real-time data analysis within the Data Depot.
 * Add a Project within the Data Depot.
 	* This Project may be created by any research team member (PI/co-PI/student) or it may already exist from a previous phase of the research project.
@@ -60,5 +62,3 @@ DesignSafe has been developed as a comprehensive research environment supporting
 * DesignSafe provides the possibility to publish one experiment at a time, so you do not need to finish your entire research project to publish all the experiments.
 * You may version your data and thus you can publish the raw data and add later analysis or processed results as version 2.
 * The project PI and co PI should be involved in the process to make sure they agree with the data presentation. Clarify with the team the authorship and order of authors.
-
----

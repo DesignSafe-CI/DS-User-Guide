@@ -3,6 +3,8 @@ INHERIT: ./mkdocs.base.yml
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
+repo_url: https://github.com/DesignSafe-CI/DS-User-Guide
+edit_uri: edit/main/user-guide/docs/
 # NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
 site_favicon: https://www.designsafe-ci.org/favicon.ico
 
@@ -15,9 +17,6 @@ theme:
     navigation_depth: 4
     features:
       - navigation.top
-    nav_redirects: # TACC Feature
-      - before: '#data-depotcuration-office-hours'
-        after: https://www.designsafe-ci.org/facilities/virtual-office-hours/
     analytics:
       gtag: G-D96RT1T24K
 
@@ -43,27 +42,51 @@ extra_javascript:
 
 plugins:
   - search
+  - exclude-search:
+      exclude_unreferenced: true
   - include-markdown
 
 nav:
+  - DesignSafe Essentials:
+    - Documentation Overview: overview.md
+    - Getting Started: index.md
+    - Account Help: account-help.md
+    - Training Resources: training.md
+
   - Data Depot:
-    - Managing Data: managingdata.md
-    - Curating &amp; Publishing Projects: curating.md
-      # NOTE: External link is achieved via `js/changeNavMarkup.js`, NOT here
-      # - Data Depot/Curation Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-    - Recon Portal: recon.md
+    - Overview: datadepot.md
+    - Managing Data:
+      - Overview: managingdata/datadepot.md
+      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+      - Data Transfer Guides: managingdata/datatransfer.md
+      - Data Management Plan: managingdata/datamanagementplan.md
+      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
+    - Data Depot Repository:
+      - About: datadepotrepo/about.md
+      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+      - Curating &amp; Publication:
+        - Guides: curating/guides.md
+        - Frequently Asked Questions: curating/faq.md
+      - Best Practices: curating/bestpractices.md
+      - Metrics Documentation: curating/metrics.md
+      - Policies: curating/policies.md
+      - Metadata Dictionaries: dictionary.md
+    - Recon Portal:
+      - Recon Portal User Guide: tools/recon.md
 
   - Tools and Apps:
-    - Analysis Applications: analysis.md
-    - Hazard Apps &amp; Utilities: tools/hazard.md
+    - Analysis Apps: analysis.md
     - Jupyter: tools/jupyterhub.md
-    - Visualization Applications: tools/visualization.md
+    - Hazard Apps: tools/hazard.md
+    - Utility Apps: tools/utilities.md
+    - Visualization Apps: tools/visualization.md
 
-  - Simulation Applications: 
+  - Simulation Apps:
     - Overview: tools/simulation/overview.md
     - ADCIRC: tools/simulation/adcirc/adcirc.md
-    - ClawPack: tools/simulation/clawpack.md
-    - Dakota: tools/simulation/dakota.md
+    - Ansys: tools/simulation/ansys.md
+    #- ClawPack: tools/simulation/clawpack.md
+    #- Dakota: tools/simulation/dakota.md
     - IN-CORE: tools/simulation/in-core.md
     - LS-DYNA: tools/simulation/lsdyna.md
     - OpenFoam: tools/simulation/openfoam.md
@@ -77,7 +100,7 @@ nav:
 #        - Decision Matrix - Platforms: tools/simulation/opensees/openseesDecisionMatrixPlatform.md
 #        - OpenSees at the Linux Terminal: tools/simulation/opensees/openseesRunLinux.md
 #        - Resources: tools/simulation/opensees/openseesResources.md
-#      - OpenSees Applications : 
+#      - OpenSees Applications :
 #        - Overview: tools/simulation/opensees/openseesApplications.md
 #        - 1. OpenSees-Express: tools/simulation/opensees/openseesExpress.md
 #        - 2. OpenSeesSP: tools/simulation/opensees/openseesSP.md
@@ -104,23 +127,25 @@ nav:
 
   - Use Cases:
     - Overview: usecases/overview.md
-    - Data Analytics: 
-      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
-      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
+    - Data Analytics:
+# the following have been moved to the user guide. we need to remove these files from the directory in use cases, but doing so would break `{% include-markdown '../usecases/haan/usecase` in `user-guide/docs/tools/visualization.md`
+#      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
+#      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
+      - SQLite Database Management in DesignSafe: usecases/brandenberg-sqlite/usecase.md
       - Visualization of spatially distributed data: usecases/padgett/usecase_JN_viz.md
     - GeoHazard:
       - NGL Database: usecases/brandenberg-ngl/usecase.md
       - MPM Landslide: usecases/kumar/usecase.md
-    - Seismic: 
+    - Seismic:
       - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
       - Soil Structure Interaction: usecases/rathje/usecase.md
       - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
       - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
       - OpenSees Model Calibration: usecases/arduino/usecase.md
-    - Wind and Storm Surge: 
+    - Wind and Storm Surge:
       - Field Sensing Wind Events: usecases/pinelli/usecase.md
       - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
       - ADCIRC Datasets: usecases/dawson/usecase2.md

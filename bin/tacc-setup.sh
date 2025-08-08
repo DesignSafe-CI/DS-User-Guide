@@ -1,16 +1,23 @@
 #!/bin/bash
 
-# To provide files via a CDN from a specific repo at a specific commit-ish
-# https://github.com/DesignSafe-CI/DS-User-Guide/pull/14
-BASE_URL="https://cdn.jsdelivr.net/gh/DesignSafe-CI/DS-User-Guide@016dcda"
+# What version of TACC-Docs to use
+TACC_VER=v0.15.1
+# Where to get files from TACC
+BASE_URL="https://cdn.jsdelivr.net/gh/TACC/TACC-Docs@${TACC_VER}"
+# Get the directory where the script resides
+ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+# Create a temporary directory for the TACC docs
+TACC_DIR="${ROOT_DIR}/_temp-tacc-docs-for-ds"
 
-# To avoid the error:
-# > ERROR - Config value 'theme': The path set in custom_dir
-# >         ('.../user-guide/themes/tacc-readthedocs') does not exist.
-mkdir -p ./user-guide/themes/tacc-readthedocs
+# So authors can preview with TACC features but without Docker
+curl -o "${ROOT_DIR}/user-guide/mkdocs.base.yml" ${BASE_URL}/mkdocs.base.yml
+curl -o "${ROOT_DIR}/user-guide/poetry.lock" ${BASE_URL}/poetry.lock
+curl -o "${ROOT_DIR}/user-guide/pyproject.toml" ${BASE_URL}/pyproject.toml
 
-# To clone TACC files (so authors can preview without Docker)
-# TODO: Make TACC/TACC-Docs public, so we can load from TACC/TACC-Docs via CDN
-curl -o ./user-guide/mkdocs.base.yml ${BASE_URL}/user-guide/mkdocs.base.yml
-curl -o ./poetry.lock ${BASE_URL}/poetry.lock
-curl -o ./pyproject.toml ${BASE_URL}/pyproject.toml
+# So authors can preview with TACC design but without Docker
+mkdir -p "${ROOT_DIR}/user-guide/themes/tacc-readthedocs"
+git clone -q --depth 1 --branch ${TACC_VER} https://github.com/TACC/TACC-Docs.git ${TACC_DIR}
+cp -r ${TACC_DIR}/themes/tacc-readthedocs "${ROOT_DIR}/user-guide/themes/"
+cp -r ${TACC_DIR}/docs/css/core "${ROOT_DIR}/user-guide/docs/css/"
+cp -r ${TACC_DIR}/docs/js/core "${ROOT_DIR}/user-guide/docs/js/"
+rm -rf ${TACC_DIR}

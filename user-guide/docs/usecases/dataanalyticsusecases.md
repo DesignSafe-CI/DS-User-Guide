@@ -24,3 +24,7 @@
 
 {% include-markdown 'padgett/usecase_JN_viz.md' %}
 
+---
+
+<!-- ## SQLite use case -->
+{% include-markdown 'brandenberg-sqlite/usecase.md' %}

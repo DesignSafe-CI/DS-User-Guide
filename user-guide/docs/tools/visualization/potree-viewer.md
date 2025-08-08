@@ -44,13 +44,13 @@ You can upload the data, run the Potree converter and then create a Potree Viewe
 
 ![](./imgs/potreeviewer-4.png)
 
-Note for best viewing, be sure to turn on eye dome lighting in the appearance tab and increase the point budget. You can also change the coloring of point clouds by clicking on index under object which will bring various coloring objects under attribute menu. For instance, you can select "Elevation" and set the minimum and maximum range for a coloring scheme. 
+Note for best viewing, be sure to turn on eye dome lighting in the appearance tab and increase the point budget. You can also change the coloring of point clouds by clicking on index under object which will bring various coloring objects under attribute menu. For instance, you can select "Elevation" and set the minimum and maximum range for a coloring scheme.
 
 <strong><span style="font-size: 11.0pt;"><span style='font-family: "Calibri",sans-serif;'>Potree Point Cloud Cross-section Tutorial</span></span></strong>
 
 Note that the locations of the tools and options will vary somewhat in different version of potree, but the process is similar. The current version of potree Viewer in DesignSafe is 1.6. The figure below shows examples of tools in version 1.6.
 
-To view data in potree, the following mouse movements are used to navigate the scene. 
+To view data in potree, the following mouse movements are used to navigate the scene.
 
 <ul>
 <li><i>Double Click</i>- sets center of rotation and zooms into that point.</li>

@@ -4,6 +4,8 @@
 
 {% include-markdown 'simulation/adcirc/adcirc.md' %}
 
+{% include-markdown 'simulation/ansys.md' %}
+
 {% include-markdown 'simulation/clawpack.md' %}
 
 {% include-markdown 'simulation/dakota.md' %}

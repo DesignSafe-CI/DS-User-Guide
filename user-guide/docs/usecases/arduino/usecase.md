@@ -21,23 +21,23 @@ The following Jupyter notebooks are made available to facilitate the analysis of
 
 | Site Response | Notebook |
 | :-------: | :---------:  |
-| FreeField Response | freeFieldJupyterPM4Sand_Community.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb) |
+| FreeField Response | freeFieldJupyterPM4Sand_Community.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community-TAPISV3.ipynb) |
 
 ---
 
 | quoFEM | Notebook |
 | :-------: | :---------:  |
-| Sensitivity analysis     | quoFEM-Sensitivity.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/GlobalSensitivity/quoFEM-Sensitivity.ipynb)|
-| Bayessian calibration     | quoFEM-Bayesian.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/BayesianCalibration/quoFEM-Bayesian.ipynb)|
-| Forward propagation  | quoFEM-Propagation.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM_Example1/ForwardPropagation/quoFEM-Propagation.ipynb)|
+| Sensitivity analysis     | quoFEM-Sensitivity.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/GlobalSensitivity/quoFEM-Sensitivity-TAPISV3.ipynb)|
+| Bayessian calibration     | quoFEM-Bayesian.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/BayesianCalibration/quoFEM-Bayesian-TAPISV3.ipynb)|
+| Forward propagation  | quoFEM-Propagation.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/quoFEM-Example1-TAPISV3/ForwardPropagation/quoFEM-Propagation-TAPISV3.ipynb)|
 
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
 
-* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis)
-* [SimCenter - quoFEM](https://simcenter.designsafe-ci.org/research-tools/quofem-application)
-* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/rw/workspace/#!/OpenSees::Simulation)
+* [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/)
+* [SimCenter - quoFEM](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/quofem/)
+* [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)
 
 
 ### Background
@@ -55,7 +55,7 @@ The following DesignSafe resources were used in developing this use case.
 
 ### Description
 
-Seismic site response refers to the way the ground responds to seismic waves during an earthquake. This response can vary based on the soil and rock properties of the site, as well as the characteristics of the earthquake itself. 
+Seismic site response refers to the way the ground responds to seismic waves during an earthquake. This response can vary based on the soil and rock properties of the site, as well as the characteristics of the earthquake itself.
 
 Site response analysis for liquefiable soils is fundamental in the estimation of demands on civil infrastructure including buildings and lifelines. For this purpose, current state of the art in numerical methods in geotechnical engineering require the use of advance constitutive models and fully couple nonlinear finite element (FEM) tools. Advanced constitutive models require calibration of material parameters based on experimental tests. These parameters include uncertainties that in turn propagate to uncertenties in the estimation of demands. The products included in this use-case provide simple examples showing how to achieve site response analysis including parameter identification and uncertainty quantification using SimCenter tools and the DesignSafe cyber infrastructure.
 

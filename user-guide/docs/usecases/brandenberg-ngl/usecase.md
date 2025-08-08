@@ -4,15 +4,15 @@
 
 Next Generation Liquefaction (NGL) Database Jupyter Notebooks
 
-/// 
+///
 
 **Brandenberg, S.J. - UCLA**<br/>
 **Ulmer, K.J. - Southwest Research Institute**<br/>
-**Zimmaro, P. - University of Calabria**  
+**Zimmaro, P. - University of Calabria**
 
 The example makes use of the following DesignSafe resources:
 
-[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
+[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/){target=_blank}<br/>
 [NGL Database](https://www.nextgenerationliquefaction.org/){target=_blank}<br/>
 
 ### Background
@@ -20,9 +20,9 @@ The example makes use of the following DesignSafe resources:
 
 * Please cite [Zimmaro, P., et al. (2019)](https://doi.org/10.21222/C2J040){target=_blank} to acknowledge the use of the NGL Database. Data in the NGL database has been gathered from [these](https://nextgenerationliquefaction.org/citations.php){target=_blank} published sources. If you use specific data in the database, please cite the original source.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
 
 
 #### Description  
@@ -34,7 +34,7 @@ substantially larger, more consistent, and more reliable source of liquefaction 
 Based on this database, we will create probabilistic models that provide hazard- and risk-consistent bases 
 for assessing liquefaction susceptibility, the potential for liquefaction to be triggered in susceptible soils, 
 and the likely consequences. NGL is committed to an open and objective evaluation and integration of data, 
-models and methods, as recommended in a 2016 National Academies [report](https://www.nap.edu/catalog/23474/state-of-the-art-and-practice-in-the-assessment-of-earthquake-induced-soil-liquefaction-and-its-consequences){target=_blank}. 
+models and methods, as recommended in a 2016 National Academies [report](https://www.nap.edu/catalog/23474/state-of-the-art-and-practice-in-the-assessment-of-earthquake-induced-soil-liquefaction-and-its-consequences){target=_blank}.
 
 The evaluation and integration of the data into new models and methods will be clear and transparent. Following these principles will ensure 
 that the resulting liquefaction susceptibility, triggering, and consequence models are reliable, robust and 
@@ -54,7 +54,7 @@ you will need to understand the organizational structure of the database, called
 schema is documented at the following URL:
 
 [https://nextgenerationliquefaction.org/schema/index.html](https://nextgenerationliquefaction.org/schema/index.html){target=_blank}
-  
+
 ### Querying Data via Jupyter Notebooks
 
 Jupyter notebooks provide the capability to query NGL data, and subsequently process, visualize, and learn from the data in an end-to-end workflow. Jupyter notebooks run in the cloud on DesignSafe, and provide a number of benefits compared with a more traditional local mode of operation:
@@ -87,7 +87,7 @@ This notebook contains example queries to illustrate how to extract data from th
 5. Query information about BORH table
 6. Query counts of cone penetration test data, boreholes, surface wave measurements, invasive shear wave velocity measurements, liquefaction observations, and non-liquefaction observations
 
-[ExampleQueries.ipynb]( https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/ExampleQueries.ipynb){target=_blank}
+Open in Jupyter Notebook: [ExampleQueries.ipynb]( https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/ExampleQueries.ipynb){target=_blank}
 
 ### Cone Penetration Test Viewer
 
@@ -102,7 +102,7 @@ The cone penetration test viewer demonstrates the following:
 
 Cone penetration test data plotted in the notebook include tip resistance, sleeve friction, and pore pressure. In some cases, sleeve friction and pore pressure are not measured, in which case the plots are empty.
 
-[CPT_viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/CPT_viewer.ipynb){target=_blank}
+Open in Jupyter Notebook: [CPT_viewer.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/CPT_viewer.ipynb){target=_blank}
 
 
 ### V<sub>S</sub> (Invasive) Test Viewer
@@ -116,7 +116,7 @@ The V<sub>s</sub> (Invasive) Test Viewer demonstrates the following:
 5. Using the ipywidgets "observe" feature to call functions when users select a widget value
 6. Plotting data from the selected invasive geophysical test using matplotlib
 
-[VS_Invasive_viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/VS_Invasive_viewer.ipynb){target=_blank}
+Open in Jupyter Notebook: [VS_Invasive_viewer.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/VS_Invasive_viewer.ipynb){target=_blank}
 
 
 ### October 2021 DesignSafe Webinar
@@ -131,7 +131,7 @@ The notebook demonstrates the following:
 
 Cone penetration test data plotted in the notebook include tip resistance, sleeve friction, and pore pressure. In some cases, sleeve friction and pore pressure are not measured, in which case the plots are empty.
 
-[DesignSafe_Webinar_Oct2021.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/DesignSafe_Webinar_Oct2021.ipynb){target=_blank}
+Open in Jupyter Notebook: [DesignSafe_Webinar_Oct2021.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/DesignSafe_Webinar_Oct2021.ipynb){target=_blank}
 
 [DesignSafe Webinar YouTube video](https://youtu.be/TNOPOU4lx5w){target=_blank}
 
@@ -149,4 +149,4 @@ The Direct Simple Shear Laboratory Test Viewer is a graphical interface that plo
 
 Direct simple shear data plotted in the notebook include shear stress, shear strain, vertical stress, and vertical strain time series in the first plot. The second plot displays shear strain and void ratio versus vertical stress and void ratio, shear stress, and vertical stress ratio versus shear strain.
 
-[DSS_Viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/DSS_Viewer.ipynb){target=_blank}
+Open in Jupyter Notebook: [DSS_Viewer.ipynb](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/DSS_Viewer.ipynb){target=_blank}

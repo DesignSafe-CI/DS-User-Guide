@@ -73,6 +73,26 @@ b {
     font-weight: var(--bold);
 }
 
+/* To extend grid pattern (for pages like usecases/overview) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L521-L527 */
+/* https://github.com/TACC/mkdocs-tacc/blob/v0.6.0/mkdocs_tacc/tacc_readthedocs/css/tacc-theme/core-docs.css#L52-L58 */
+.grid__header,
+.grid > :is(h1, h2, h3, h4, h5, h6) {
+    margin-block: 0;
+    grid-column: span 2;
+}
+/* To remove space from top of header-less intro paragraph in a grid */
+/* https://github.com/TACC/TACC-Docs/blob/f2e80b4/docs/index.md?plain=1#L107-L109 */
+/* https://github.com/DesignSafe-CI/DS-User-Guide/blob/92882f2/user-guide/docs/usecases/overview.md?plain=1#L21-L23 */
+.grid__header > p:first-child {
+    margin-top: 0;
+}
+/* To remove extra space under cards */
+.grid [class*="card"] {
+    margin-bottom: 0;
+}
+
+
 
 
 /* DS-DOCS */
@@ -83,28 +103,44 @@ hr.spacer {
     margin-block: 20rem 5rem;
 }
 
-/* To both couple and distinguish short title and long title */
-.rst-content header p:is(#tacc-readthedocs *) {
+/* To make:
+    - short title (heading) less emphasized
+    - long heading (paragraph following heading) a long title that looks like a heading */
+/* (if using TACC theme) */
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h2 + p {
     font-size: var(--global-font-size--xx-large);
     font-weight: var(--bold);
 }
-.rst-content header h2:is(#tacc-readthedocs *) {
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h3 + p {
     font-size: var(--global-font-size--x-large);
-    font-weight: var(--regular);
-
-    /* To remove excess space between titles */
-    margin-bottom: -24px;
+    font-weight: var(--bold);
 }
-.rst-content header p:not(#tacc-readthedocs *) {
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header :is(h2, h3) {
+    font-weight: var(--regular);
+    margin-bottom: -24px; /* to remove excess space between titles */
+}
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h2 {
+    font-size: var(--global-font-size--x-large);
+}
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h3 {
+    font-size: var(--global-font-size--large);
+}
+/* (not using TACC theme) */
+/* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h2 + p,
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h3 + p {
     font-size: 150%;
     font-weight: 700;
 }
-.rst-content header h2:not(#tacc-readthedocs *) {
-    font-size: 16px;
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header :is(h2, h3) {
     font-weight: unset;
-
-    /* To remove excess space between titles */
-    margin-bottom: 0.5em;
+    margin-bottom: -24px; /* to remove excess space between titles */
+}
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h2 {
+    font-size: 21px;
+}
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h3 {
+    font-size: 16px;
 }
 
 /* To hide unused space at bottom of overview pages */
@@ -135,4 +171,11 @@ hr.spacer {
 :where(h1, h2, h3, h4, h5, h6) > u > b {
   color: #cb463f;
   font-weight: var(--black);
+}
+
+/* To restore space (removed by TACC) at bottom of idnex page */
+/* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L510-L512 */
+[data-page-name="index.md"] footer {
+    display: revert;
 }

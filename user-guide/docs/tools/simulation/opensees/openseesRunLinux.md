@@ -38,7 +38,7 @@ However, for case of the platforms that have the integrated Jupyter environment,
 The Tcl-Interpreter OpenSees applications (OpenSees-Express, OpenSeesSP, and OpenSeesMP) are compiled executable programs. The MPI, therefore, will run NP processes of this executable.<br>
 OpenSeesPy, on the other hand, is a python library that has been pre-installed in the VM and is called within the python environment. In this case, therefore, the MPI will run NP Python processes and each process will call its own Python library. In addition, all three OpenSees applications are integrated into a single library, OpenSeesPy.</p>
 
-#### Examples 
+#### Examples
 
 The following examples give you the command to executed as well as a demonstration of the Interaction with OpenSees:
 

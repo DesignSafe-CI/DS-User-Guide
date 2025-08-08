@@ -1,6 +1,6 @@
 # Performing site response analysis in Jupyter
 
-#### Simple jupyter notebook to introduce site response analysis using OpenSees in DesignSafe-CI. 
+#### Simple jupyter notebook to introduce site response analysis using OpenSees in DesignSafe-CI.
 
 **Pedro Arduino - University of Washington**
 
@@ -8,14 +8,14 @@
 
 This example makes use of the following DesignSafe resources:
 
-[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community.ipynb)
+[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/freeFieldJupyterPM4Sand/freeFieldJupyterPM4Sand_Community-TAPISV3.ipynb)
 
 The notebook, and required scripts, are available in the Community Data folder and can be executed without any modification. Users are invited to try this notebook and use any parts of it.
 
 ## Description
 
 The *site response workflow notebook* introduces typical steps used in the evaluation of the surface response for a site with liquefiable soil.
-The notebook takes advantage of the site response problem to introduce the general numerical analysis workflow shown in Figure 2 that includes: 
+The notebook takes advantage of the site response problem to introduce the general numerical analysis workflow shown in Figure 2 that includes:
 
 1. running OpenSees using a **TAPIS** APP,
 2. postprocessing results using python,
@@ -47,17 +47,17 @@ Therefore, relevant details for each component as it pertains to access to Desig
 
 ### Setup tapis/agave app and run OpenSees job
 
-The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP. 
+The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP.
 
 #### Setup job description
 
-A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (opensees), version (current), and opensees input file to run. For the site response case the *OpenseesSp-3.3.0u1* app is selected. The main steps required to setup an agave job are: 
+A few commands are required to setup a TAPIS OpenSees job in DesignSafe. This requires definition of the TAPIS APP to use, control variables, parameters and inputs. The control variables define the infrastructre resources requested to TACC. The parameters define the executable (opensees), version (current), and opensees input file to run. For the site response case the *OpenseesSp-3.3.0u1* app is selected. The main steps required to setup an agave job are:
 
 
 1. importing agave/tapis, 
 2. getting the specific app of interest,
 3. defining control variables, parameters and inputs, and
-4. encapsulating all data in a job_description array 
+4. encapsulating all data in a job_description array
 
 The python code shown below exemplifies these steps. The complete set of commands is available in the notebook. The job_description array includes all the information required to submit the job.
 
@@ -111,7 +111,7 @@ job_description["parameters"] = parameters
 
 #### Run OpenSees Job
 
-Submitting a job using DesignSafe HPC resources requires the use of agave job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  When submitting a job, agave copies all the files present in the input folder to a temporary location that is used during execution. After completion agave copies all the results to an archived folder. 
+Submitting a job using DesignSafe HPC resources requires the use of agave job.submit(); and passing the job_description array as argument. Checking the status of a job can be done using jobs.getStatus(). The python code shown below exemplifies these commands.  When submitting a job, agave copies all the files present in the input folder to a temporary location that is used during execution. After completion agave copies all the results to an archived folder.
 
 ```python
 import time
@@ -124,11 +124,11 @@ while status != "FINISHED":
     status = ag.jobs.getStatus(jobId=job["id"])["status"]
     print(f"Status: {status}")
     time.sleep(60)
-```    
+```
 
 ### Postprocess Results
 
-Postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose. 
+Postprocessing requires identification of the location of the archived files. This is done interrogating a particular agave job and evaluating the correct folder location. The python code lines shown below exemplifly the steps required for this purpose.
 
 #### Identify job, archived location and user
 
@@ -150,9 +150,9 @@ os.chdir(cur_dir_name)
 Once in the archived folder (cur_dir_name), postprocessing can be done using python scripts that operate on output files. For the particualar case of the site response analysis used in this notebook three scripts are used to evaluate:
 1. surface acceleration time history and its response spectrum, 
 2. profiles of maximum displacement, peak horizontal acceleration (PHA), peak shear strain, and cyclic stress ratio, and
-3. Stress-strain and excess pore water pressure at the middle of the liquefiable layer.  
+3. Stress-strain and excess pore water pressure at the middle of the liquefiable layer.
 
-The python code and figures shown below exemplify these steps. All python scripts are available in the notebook community folder. 
+The python code and figures shown below exemplify these steps. All python scripts are available in the notebook community folder.
 
 Plot acceleration time hisotory and response spectra on log-linear scale
 ``` python
@@ -186,11 +186,11 @@ plot_porepressure()
 <p style="text-align: center;"> Fig.6 - stress strain and pore pressure in the middle of liquefiable layer </p>
 
 
-#### Generate report 
+#### Generate report
 
 Generating a summary report is a convenient way to present results from lengthy simulations prcesses. In jupyter this can be done invoking any posprocessor available in the docker container image. Among them rst2pdf is commonly distributed with python. For the site response notebook a simple ShortReport.rst file is included that collects the results and plots generated in a simple pdf file. The python code shown below, exemplifies this process and include:
 1. Running rst2pdf on [ShortReport.rst](files/ShortReport.rst)
-2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen. 
+2. Posting the resulting pdf file in the jupyter notebook. For this it is convenient to define the PDF function shown below that specifies the format of the file in the screen.
 
 Run rst2pdf, assign to pdf_fn, and  call PDF show function 
 ``` python
@@ -223,7 +223,7 @@ class PDF(object):
 
 #### Create Interactive Plots
 
-Finally, jupyter notebooks offer flexibility to invoke GUI widgets that can help present results in a dynamic and interactive manner. The python scripts shown below create interactive plots for pore water pressure and soil profile lateral displacements. The horizontal bars allow users interrogate each plot for results at any particular time. Complete pyhon scripts are included in the [interactiveplot.py](files/interactiveplot.py) available in community.   
+Finally, jupyter notebooks offer flexibility to invoke GUI widgets that can help present results in a dynamic and interactive manner. The python scripts shown below create interactive plots for pore water pressure and soil profile lateral displacements. The horizontal bars allow users interrogate each plot for results at any particular time. Complete pyhon scripts are included in the [interactiveplot.py](files/interactiveplot.py) available in community.
 
 #### Pore water pressure
 
@@ -249,7 +249,7 @@ createDispplot()
 
 * Please cite [Chen, L. et al. (2021)](https://peer.berkeley.edu/sites/default/files/2021_chen_final.pdf){target=_blank} to acknowledge the use of resources from this use case.
 
-* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.  
+* Please cite [Rathje et al. (2017)](https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246){target=_blank} to acknowledge the use of DesignSafe resources.
 
-* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.  
+* This software is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html){target=_blank}.
 
