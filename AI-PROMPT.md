@@ -1,4 +1,4 @@
-Compare the git diff between branch 'main' and branch 'refactor/essentials-and-data-depot'. Find:
+Compare the git diff between branch`'main` and branch `refactor/essentials-and-data-depot`. Find:
 
 1. Removed Explicit Anchors:
    - Look at "-" lines containing patterns like `{ #something }` or `{#something}`
@@ -16,7 +16,7 @@ Compare the git diff between branch 'main' and branch 'refactor/essentials-and-d
      * Removing punctuation
    - Count as changed if the implicit anchor would be different
 
-Save results in AI.md using this format:
+Save results in `AI-PROMPT.md` using this format:
 
 # Anchor Changes
 
