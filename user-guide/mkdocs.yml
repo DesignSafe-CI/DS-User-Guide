@@ -37,30 +37,26 @@ plugins:
   - include-markdown
 
 nav:
-  - DesignSafe Essentials:
-    - Documentation Overview: overview.md
-    - Getting Started: index.md
-    - Account Help: account-help.md
-    - Training Resources: training.md
-
-  - Data Depot:
-    - Overview: datadepot.md
-    - Managing Data:
-      - Overview: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
+  - Getting Started:
+    - Overview: overview.md
+    - Set Up Your Account: index.md
+    - Managing Your Account: account-help.md
+    - Managing Your Data:
+      - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Data Depot Repository:
-      - About: datadepotrepo/about.md
-      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Curating &amp; Publication:
-        - Guides: curating/guides.md
+    - Training Resources: training.md
+  - Data Depot:
+    - About the Data Depot: datadepotrepo/about.md
+    - Transferring Your Data: managingdata/datatransfer.md
+    - Curating and Publishing:
+        - What is Data Curation?: data-depot/curate-and-publish.md
+        - How to Curate Data?: curating/guides.md
+        - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
-      - Best Practices: curating/bestpractices.md
-      - Metrics Documentation: curating/metrics.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
+    - Best Practices: curating/bestpractices.md
+    - Data Dissemination and Impact: curating/metrics.md
+    # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
+    - Policies: curating/policies.md
     - Recon Portal:
       - Recon Portal User Guide: tools/recon.md
 

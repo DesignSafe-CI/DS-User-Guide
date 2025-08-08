@@ -12,4 +12,6 @@ Once your account returns to an Active state, you will also need to [pair your M
 
 ## Additional Account Resources
 
+A DesignSafe account is a University of Texas, Texas Advanced Computing Center (TACC) user account.
+
 - [Managing Your TACC Account](https://docs.tacc.utexas.edu/basics/accounts/){target="_blank"}

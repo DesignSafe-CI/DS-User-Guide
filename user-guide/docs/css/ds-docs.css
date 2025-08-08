@@ -6,6 +6,7 @@
 /* CORE STYLES */
 /* To customize TACC/Core-Styles CSS */
 /* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.base.css */
+/* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.docs.css */
 
 @import url('https://cdn.jsdelivr.net/gh/TACC/Core-Styles@epic/v3--gh-345-tokens-from-figma/src/v3/variables/designsafe.light.css') layer(cosmetic);
 
@@ -30,6 +31,19 @@
     text-decoration-thickness: var(--global-border-width--normal);
     text-underline-offset: .2em;
 }
+
+/* To restore some font weight to the deepest headings */
+/* NOTE: Designer says these are too deep to support,
+         but documentation is deeper than websites */
+/* TODO: Migrate change to Core-Styles */
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h5 { font-weight: var(--extra-bold); letter-spacing: 0.03125em; }
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h6 { font-weight: var(--bold); }
 
 
 
@@ -94,7 +108,6 @@ b {
 
 
 
-
 /* DS-DOCS */
 /* To add CSS unique to DesignSafe/DS-User-Guide */
 
@@ -143,6 +156,25 @@ hr.spacer {
     font-size: 16px;
 }
 
+/* To add subtitle after headings */
+[data-subtitle]::after {
+    content: ' ' attr(data-subtitle);
+}
+[data-subtitle]:not(
+    /* headings only distinguished by weight */
+    h5, h6
+)::after {
+    font-weight: normal;
+}
+[data-subtitle]:is(
+    /* headings that need subtitle below */
+    h1
+)::after {
+    display: block;
+    text-transform: none;
+    font-size: var(--global-font-size--xx-large);
+}
+
 /* To hide unused space at bottom of overview pages */
 /* https://github.com/TACC/TACC-Docs/blob/a9d01e1/docs/css/core/tacc-docs.css#L568-L574 */
 [data-page-name$="usecases/overview.md"] footer {
@@ -173,9 +205,32 @@ hr.spacer {
   font-weight: var(--black);
 }
 
+/* To hide extra spacing caused by paragraph side-effect of nested <details> */
+details li > p {
+    margin: 0;
+}
+
+/* To un-indent details in a list item */
+li:has(> details) {
+    list-style-type: none;
+}
+li > details > summary {
+    translate: calc(-1em);
+}
+
 /* To restore space (removed by TACC) at bottom of idnex page */
 /* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
 /* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L510-L512 */
 [data-page-name="index.md"] footer {
     display: revert;
+}
+
+/* To style definition lists */
+/* https://python-markdown.github.io/extensions/definition_lists/ */
+/* TODO: Move to Core-Styles, Demo in Mkdocs-TACC */
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
 }

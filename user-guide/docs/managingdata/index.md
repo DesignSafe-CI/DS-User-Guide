@@ -2,9 +2,9 @@
 
 {% include-markdown '../redirect.md' %}
 
-- [Data Depot Overview](../datadepot.md)
-- [Managing Data](./datadepot.md)
-- [Setting Path to DS on Corral](./settingpathtodesignsafe.md)
-- [Data Transfer Guides](./datatransfer.md)
-- [Data Management Plan Guidance](./datamanagementplan.md)
-- [Experimental Facility Checklist](./experimentalfacilitychecklist.md)
+- [About the Data Depot](/user-guide/datadepotrepo/about/)
+- [Managing Your Data](/user-guide/managingdata/datadepot/)
+- [Setting Path to DesignSafe](/user-guide/managingdata/settingpathtodesignsafe/)
+- [Transferring Your Data](/user-guide/managingdata/datatransfer/)
+- [Data Management Plan](/user-guide/managingdata/datamanagementplan/)
+- [Experimental Facility Checklist](/user-guide/managingdata/experimentalfacilitychecklist)
