@@ -1,51 +1,99 @@
-Compare the git diff between branch`'main` and branch `refactor/essentials-and-data-depot`. Find:
+# Finding Breaking Changes to Document Anchors
 
-1. Removed Explicit Anchors:
-   - Look at "-" lines containing patterns like `{ #something }` or `{#something}`
-  (with or without spaces)
-   - For each such line, check the corresponding "+" lines nearby
-   - Only count as removed if no corresponding anchor with same ID exists in "+" lines
-   - Ignore attribute changes (e.g., if only data-subtitle changed)
+Find anchor/heading changes between branch `refactor/essentials-and-data-depot` and `main` that could break URLs. Follow these steps:
 
-2. Changed Implicit Heading Anchors:
-   - Look at "-" lines containing markdown headings (`#` through `######`)
-   - For headings without explicit anchors, compare their implicit anchors
-   - Implicit anchors are created by:
-     * Converting heading text to lowercase
-     * Replacing spaces with hyphens
-     * Removing punctuation
-   - Count as changed if the implicit anchor would be different
+1. From `AI-DIFF.diff`, identify changed files by looking at:
+   ```diff
+   diff --git a/path/to/file b/path/to/file
+   ```
+   lines at the start of each file's changes
 
-Save results in `AI-PROMPT.md` using this format:
+2. For each file, check these changes:
 
-# Anchor Changes
+   a. Explicit Anchors Gone:
+      - Markdown: `{ #something }` or `{#something}` removed/changed
+      - HTML: `id="something"` or `name="something"` removed/changed 
+      - Reference-style: `[something]: #anchor` removed/changed
+   
+   b. Implicit Anchors Lost/Changed:
+      - Find removed or modified headings (`#` through `######`)
+      - A heading that is removed completely = lost implicit anchor
+      - For modified headings, remember heading IDs are:
+        * Text in lowercase
+        * Spaces as single hyphens
+        * No punctuation (except `-` `_`)
+        * No duplicate hyphens
+        * Duplicates get `-1`, `-2`, etc.
+      
+   c. File Moves:
+      - Renamed/moved = all anchors affected
+      - Deleted = all anchors gone
+
+Optional Step 3 - Impact Analysis:
+- Once you have list of lost/changed anchors and moved files
+- You can search other `.md` files for references:
+  * `[text](#old-anchor)`
+  * `[text](path/to/file#old-anchor)` 
+  * `[text](path/to/old/file.md)`
+  * `<a href="#old-anchor">`
+  * `{% include ... #old-anchor %}`
+  * HTML `id="old-anchor"` or `name="old-anchor"`
+  * `{ref="path#old-anchor"}`
+
+4. Save results to `AI-OUTPUT.md` using this format:
+
+# Breaking Changes
 
 ## `/path/to/file.md`
 
-### Removed Explicit Anchors
+### Missing Anchors (Removed Without Replacement)
 - `#anchor-id`
-  (from: "Line content for context")
+  - Was: "Original line showing anchor in context"
+  - Referenced by:
+    * `/docs/file1.md`: `[link](#anchor-id)`
+    * `/docs/file2.md`: `[link](path/to/file.md#anchor-id)`
 
-### Changed Implicit Anchors
-- `#old-implicit` → `#new-implicit`
-  (from: "### Old Heading" → "### New Heading")
+### Changed Anchors (Different ID for Same Content)
+- `#old-heading` → `#new-heading`
+  - Was: "### Old Heading"
+  - Now: "### New Heading" 
+  - Referenced by:
+    * `/docs/file3.md`: `[link](#old-heading)`
 
-Examples:
-1. NOT a change (explicit anchor preserved):
-   - ### Old Title { #my-anchor }
-   + ### New Title { #my-anchor }
+### Moved Content (File Renamed/Moved/Deleted)
+- `/old/path.md` → `/new/path.md`
+  - Referenced by:
+    * `/docs/file4.md`: `[link](/old/path.md)`
 
-2. NOT a change (only spacing/attributes changed):
-   - ## Title {#anchor}
-   + ## New Title { #anchor data-subtitle="New" }
+## Examples
 
-3. IS a change (implicit anchor changed):
-   - ### Data Analysis
-   + ### Data Processing
-   Because implicit anchors would be #data-analysis → #data-processing
+1. Breaking - Explicit anchor removed:
+   ```diff
+   - ## Data Types { #types }
+   + ## Data Types
+   ```
 
-4. NOT a change (has explicit anchor):
-   - ### Data Analysis
-   + ### Data Processing { #data-analysis }
+2. Breaking - Implicit anchor changed:
+   ```diff
+   - ## Data Analysis
+   + ## Data Processing
+   ```
+   (`#data-analysis` → `#data-processing`)
 
-Please analyze one file at a time and inform me of the changes found.
+3. Not Breaking - Explicit preserves old implicit:
+   ```diff
+   - ## Data Analysis
+   + ## Data Processing { #data-analysis }
+   ```
+
+4. Not Breaking - Only attributes changed:
+   ```diff
+   - ## Title { #id }
+   + ## New Title { #id data-subtitle="New" }
+   ```
+
+5. Breaking - Heading removed entirely:
+   ```diff
+   - ### Data Collections Development
+   ```
+   (`#data-collections-development` anchor is lost)
