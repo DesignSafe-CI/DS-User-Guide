@@ -43,6 +43,7 @@ nav:
     - Managing Your Data:
       - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
+    - Training Resources: training.md
   - Data Depot:
     - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
@@ -55,6 +56,9 @@ nav:
     - Data Dissemination and Impact: curating/metrics.md
     # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
     - Policies: curating/policies.md
+
+  - Recon Portal:
+    - User Guide: tools/recon.md
 
   - Tools and Apps:
     - Analysis Apps: analysis.md
