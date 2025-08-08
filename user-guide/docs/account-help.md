@@ -1,4 +1,4 @@
-# Account Help
+# Managing Your Account
 
 ## Password Reset
 

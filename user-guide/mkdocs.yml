@@ -38,13 +38,14 @@ plugins:
 
 nav:
   - Getting Started:
-    - Overview: getting-started/overview.md
-    - Managing Your Account: getting-started/manage-account.md
+    - Overview: overview.md
+    - Managing Your Account: account-help.md
     - Managing Your Data:
       - Overview: managingdata/datadepot.md
       - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
   - Data Depot:
+    - Overview: datadepot.md
     - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
     - Curating and Publishing:
