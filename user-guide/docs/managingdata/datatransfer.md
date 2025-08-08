@@ -553,9 +553,9 @@ Return to the Dropbox.com section of the Data Depot. You can now copy files to a
 <!--
 ### Google Drive - CURRENTLY NOT FUNCTIONAL { #cloud-googledrive }
 
-GOOGLE HAS MADE CHANGES THAT WE ARE WORKING THROUGH TO REENABLE (status as of January 11, 2023)
+GOOGLE HAS MADE CHANGES THAT WE ARE WORKING THROUGH TO RE-ENABLE (status as of January 11, 2023)
 
-Google has made changes that we are working through to reenable.
+Google has made changes that we are working through to re-enable.
 
 Login to DesignSafe and go to Use DesignSafe &gt; Data Depot &gt; Google Drive
 
