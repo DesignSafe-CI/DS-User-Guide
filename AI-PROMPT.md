@@ -1,7 +1,8 @@
 Compare the git diff between branch 'main' and branch 'refactor/essentials-and-data-depot'. Find:
 
 1. Removed Explicit Anchors:
-   - Look at "-" lines containing patterns like `{ #something }` or `{#something}` (with or without spaces)
+   - Look at "-" lines containing patterns like `{ #something }` or `{#something}`
+  (with or without spaces)
    - For each such line, check the corresponding "+" lines nearby
    - Only count as removed if no corresponding anchor with same ID exists in "+" lines
    - Ignore attribute changes (e.g., if only data-subtitle changed)
@@ -22,10 +23,12 @@ Save results in AI.md using this format:
 ## `/path/to/file.md`
 
 ### Removed Explicit Anchors
-- `#anchor-id` (from: "Line content for context")
+- `#anchor-id`
+  (from: "Line content for context")
 
 ### Changed Implicit Anchors
-- `#old-implicit` → `#new-implicit` (from: "### Old Heading" → "### New Heading")
+- `#old-implicit` → `#new-implicit`
+  (from: "### Old Heading" → "### New Heading")
 
 Examples:
 1. NOT a change (explicit anchor preserved):
