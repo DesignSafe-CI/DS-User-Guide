@@ -13,7 +13,7 @@
 
 ## 2. Initial Onboarding
 
-When you are ready to begin uploading your own data to the Data Depot or want to begin using some of the Tools & Apps, you will want to initiate the onboarding process. The initial onboarding provides you with [private areas for your data](/user-guide/managingdata/datadepot/) and access to Tools & Apps that are hosted on our Virtual Machines such as [JupyterHub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/) or [Interactive VM for OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/). Access to HPC-enabled applications requires [an additional step](#requestallocations).
+When you are ready to begin uploading your own data to the Data Depot or want to begin using some of the Tools & Apps, you will want to initiate the onboarding process. The initial onboarding provides you with [private areas for your data](/user-guide/managingdata/datadepot/) and access to Tools & Apps that are hosted on our Virtual Machines such as [JupyterHub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/). Access to HPC-enabled applications requires [an additional step](#requestallocations).
 
 There are 2 ways to invoke the onboarding:
 
