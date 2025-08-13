@@ -41,13 +41,14 @@ nav:
     - Overview: overview.md
     - Set Up Your Account: index.md
     - Managing Your Account: account-help.md
-    - Managing Your Data:
-      - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
-      - Data Management Plan: managingdata/datamanagementplan.md
+    - Requesting Allocations: request-allocations.md
     - Training Resources: training.md
   - Data Depot:
     - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
+    - Managing Your Data:
+      - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
+      - Data Management Plan: managingdata/datamanagementplan.md
     - Curating and Publishing:
         - What is Data Curation?: data-depot/curate-and-publish.md
         - How to Curate Data?: curating/guides.md
