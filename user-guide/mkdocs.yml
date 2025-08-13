@@ -49,7 +49,7 @@ nav:
     - Manage Your Data:
       - Set Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
-    - Curate and Publish:
+    - Curate & Publish:
         - What is Data Curation?: data-depot/curate-and-publish.md
         - How to Curate Data?: curating/guides.md
         - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
