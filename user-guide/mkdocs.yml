@@ -40,22 +40,22 @@ nav:
   - Getting Started:
     - Overview: overview.md
     - Set Up Your Account: index.md
-    - Managing Your Account: account-help.md
-    - Requesting Allocations: request-allocations.md
-    - Training Resources: training.md
+    - Manage Your Account: account-help.md
+    - Request Allocations: request-allocations.md
+    - Training: training.md
   - Data Depot:
-    - About the Data Depot: datadepotrepo/about.md
-    - Transferring Your Data: managingdata/datatransfer.md
-    - Managing Your Data:
-      - Setting Path to DesignSafe: managingdata/settingpathtodesignsafe.md
+    - About: datadepotrepo/about.md
+    - Transfer Your Data: managingdata/datatransfer.md
+    - Manage Your Data:
+      - Set Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
-    - Curating and Publishing:
+    - Curate and Publish:
         - What is Data Curation?: data-depot/curate-and-publish.md
         - How to Curate Data?: curating/guides.md
         - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
     - Best Practices: curating/bestpractices.md
-    - Data Dissemination and Impact: curating/metrics.md
+    - Data Dissemination & Impact: curating/metrics.md
     # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
     - Policies: curating/policies.md
     - Recon Portal:
