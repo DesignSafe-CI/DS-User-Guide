@@ -1,4 +1,4 @@
-# Request Allocations { #requestallocations }
+# Request Allocations
 
 DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these (such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)) and clicking on "Get Started", you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one. Please provide the following information in your allocation request:
 
