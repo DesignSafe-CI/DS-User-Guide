@@ -209,6 +209,10 @@ hr.spacer {
 details li > p {
     margin: 0;
 }
+/* To hide extra spacing caused by core-styles space on all <details> */
+li > details {
+    margin: 0;
+}
 
 /* To un-indent details in a list item */
 li:has(> details) {
