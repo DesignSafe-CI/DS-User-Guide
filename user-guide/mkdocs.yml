@@ -55,6 +55,7 @@ nav:
     - Curating and Publication:
         - What is Data Curation?: curating/overview.md
         - How to Curate Data?: curating/guides.md
+        - Frequently Asked Questions: curating/faq.md
     - Best Practices: curating/bestpractices.md
     - Data Dissemination & Impact: curating/metrics.md
     - Policies: curating/policies.md
