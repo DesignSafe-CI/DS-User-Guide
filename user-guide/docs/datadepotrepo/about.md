@@ -1,4 +1,4 @@
-# About the Data Depot
+# About { data-subtitle="the Data Depot" }
 
 
 ## Mission
