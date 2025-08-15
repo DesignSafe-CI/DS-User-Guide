@@ -1,4 +1,4 @@
-# Best Practices for Data Curation and Publication 
+# Best Practices { data-subtitle="for Data Curation and Publication" }
 
 ## Curation Quality 
 

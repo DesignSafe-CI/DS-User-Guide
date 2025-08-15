@@ -1,4 +1,4 @@
-# How to Curate Data?
+# Guides: { data-subtitle="Steps to Curate and Publish your Datasets" }
 
 We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [<del>**Hybrid Simulation**<del>](#hybrid), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
