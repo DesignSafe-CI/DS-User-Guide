@@ -1,56 +1,51 @@
-## Metrics
+# Data Dissemination and Impact
 
-### Data Metrics { #data }
+Data metrics indicate research impact, allowing researchers to assess the repercussions and influence of their work. Citation and usage metrics are included, and are visible on the landing page of each dataset publication. 
 
-Data metrics are research impact indicators complementary to other forms of evaluation such as number of paper citations, allowing researchers to assess the repercussions and influence of their work.
+Except for projects categorized as “Other,” a project can encompass more than one dataset publication in the Data Depot Repository (DDR). Different creators may produce projects at different times, and have different DOIs. We report metrics per published dataset with a DOI. 
 
-Metrics available in DesignSafe follow the Make your Data Count  <a href="https://www.projectcounter.org/code-practice-research-data/" target="_blank">Counter Code of Practice for Research Data.</a> This is a community standard to count data usage transparently and in a normalized way. For more information about this approach please visit <a href="https://makedatacount.org/data-metrics-2/" target="_blank">Make your Data Count Metrics</a>.
+## Data Usage Metrics
 
-In Natural Hazards, a research project can encompass more than one data publication which can be produced at different times by different creators and have different DOIs. In DesignSafe, project types are: Other, Experimental, Simulation, Hybrid Simulation, and Field Research. In turn, each has different data publications. Project type "Other" only has one data publication and DOI, while the rest may have more than one data publication and therefore multiple DOIs per project.
+Usage metrics published in the DDR follow the Make Data Count (MDC) [Counter Code of Practice for Research Data](https://www.projectcounter.org/code-practice-research-data/). This is a community standard to count data usage transparently and in a normalized way. (For more information about this approach please visit [Make Data Count Metrics](https://makedatacount.org/learn-about-us/#section-1).) Towards normalization, a session is an important concept to understand.
 
-<strong>Data Publications:</strong>
+Session: All data usage activity during one clock hour from a single IP address and user-agent (a string that identifies the user's browser and operating system.). This is used as a proxy for distinct users to count unique requests and unique investigations.
 
-Experiment (in Experimental projects)
+Descriptions of each usage metric reported by DDR are below.
 
-Mission and Document collection (in Field Research projects)
+- **File Preview**: Examining data from an individual data publication (clicking on a file name, for example) brings up a modal window that previews the files. Those file previews are counted. However, not all document types can be previewed. Text files, spreadsheets, graphics, and code files can be previewed (e.g. .txt, .doc, .docx, .csv, .xlsx, .pdf, .jpg, .m, .ipynb). Binary executables, MATLAB containers, compressed files, and video files cannot be previewed (eg. .bin, .mat, .zip, .tar, mp4, .mov). Only previewable files are counted. Users will see a count of all the files that have been previewed in the data publication.
+- **File Download**: Copying a file to the user’s machine, or to a storage device that the machine has access to. This can be done by ticking the checkbox next to a file and selecting "Download" at the top of the project page. With files that can be previewed, clicking "Download" at the top of the preview modal window has the same effect. Downloads are counted on an individual file basis. We also consider counts when users tick the checkbox next to a file and select "Copy" at the top of the project page. The counts of copying a file from the published project can be to the user's My Data or My Projects to Tools and Applications in the Workspace, or to one of the connected spaces (Box, Dropbox, Google Drive).
+- **Total Requests**: Total file downloads + total file previews. This is counted for each data publication that has a DOI (eg. Simulation, Experiment, Mission, Hybrid simulation , Documents Collection and Project Type Other).
+- **Unique Requests**{#unique-requests}: Sessions in which one or more files are downloaded or previewed. Any downloads, previews, copies of files, or project downloads from a single data publication (DOI) by a user in a single session counts as one Unique Request. This is counted for each data publication with a single DOI including Simulations, Hybrid Simulations, Experiments, Missions, Documents Collection and Project Type Other. 
+- **Unique Investigations**{#unique-investigations}: Sessions in which any project or publications metadata is viewed, or one or more files is downloaded or previewed. Any viewing of metadata as well as any downloads, previews, copies of files, or project downloads from a single data publication (DOI) by a user in a single session counts as one Unique Investigation. This is counted for each data publication with a single DOI including Simulations, Hybrid Simulations, Experiments, Missions, Documents Collection and type Other projects.
 
-Simulation (in Simulation projects)
+Usage metrics are displayed in the citation modal underneath “Download Citation” as “Unique Requests” and “Unique Investigations.” Clicking on “Details” to the right enables a modal window that displays the metrics, including their definitions, in aggregates and per quarter for researchers to assess impact over time. 
 
-Hybrid Simulation (in Hybrid Simulation projects)
+Usage metrics date back to January 2022 and are updated monthly.
 
-Other-type project (these encompass only one data publication and thus one level of metrics).
+## Interpreting Data Metrics
 
-Because of the structure of the research projects in DesignSafe we report metrics at the project and at the data publication levels. Metrics at the project level allow researchers to assess the overall impact of the projects because it aggregates the usage of all the data publications. Instead, data publication metrics provide granular information about the usage of each publication that has a DOI within a project.
+Dataset citations and usage are complementary metrics. The former account for the creation, reference to, or reuse of datasets as demonstrated in a publication. Similarly to web page hits and downloads of resources, the latter represents the attention to particular resources on the web. We aggregate and inform users of citations and datasets on a quarterly basis on the [DesignSafe Impact](https://designsafe-ci.org/use-designsafe/impact/) page. Both aggregated and individual metrics can be considered as they evolve over time and in context with similar data types, hazard types, and discipline. 
 
-Data Metrics is a work in progress and we add measurements on an ongoing basis. We started counting Project Metrics in March 2021 And Data Publication Metrics in January 2022.
+## Citation Metrics
 
-Below are descriptions of each type of metric and what is counted at the project and at the data publication levels.
+Dataset citations are references to a dataset in published materials including journal papers, books and chapters, conference proceedings, and thesis and dissertations. Citation counts per a dataset's DOI varies depending on the source providing the information. The DDR uses the Data [Citation Index from Clarivate](https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/data-citation-index/) as a source of citations. Clarivate only harvests citations from the reference section of peer-reviewed publications. Google Scholar, on the other hand, harvests citations and mentions from any part of a publication available via the Web. This includes presentations, bulletins, and reports, making it too difficult to automate the count of precise citations.
 
-### Project Metrics { #project }
+Two types of citations are counted: platform citations and dataset citations. 
 
-<strong>File Preview: </strong>Examining data in any data publication within a project such as clicking on a file name brings up a modal window that allows previewing the files. However, not all data types can be previewed. Among those that can are: text, spreadsheets, graphics and code files. (example extensions: .txt, .doc, .docx, .csv, .xlsx, .pdf, .jpg, .m, .ipynb). Those that can't include binary executables, MATLAB containers, compressed files, and video (eg. .bin, .mat, .zip, .tar, mp4, .mov). Only those files that can be previewed are counted. Users will get a count of all the files that have been previewed in the entire project.
+Platform citations are citations to marker papers written about DesignSafe such as:
 
-<strong>File Download: </strong>Copying a file to the machine the user is running on, or to a storage device that the machine has access to. This can be done by ticking the checkbox next to a file and selecting "Download" at the top of the project page. With files that can be previewed, clicking "Download" at the top of the preview modal window has the same effect. Downloads are counted per project. We also consider counts when users tick the checkbox next to a document and select "Copy" at the top of the project page. The counts of copying a file from the published project can be to the user's My data, My projects, to Tools and Applications in the Workspace, or to one of the connected spaces (Box, Dropbox, Google Drive). Users will get a count of all the files that have been downloaded in the entire project.
+Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., Arduino, P., Brandenberg, S.J., Cockerill, T., Dey, C., Esteva, M., Haan, Jr., F.L., Hanlon, M., Kareem, A., Lowes, L., Mock, S., and Mosqueda, G. 2017. “DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering,” ASCE Natural Hazards Review, doi:10.1061/(ASCE)NH.1527-6996.0000246.
 
-<strong>File Requests: </strong>Total file downloads + total file previews. This is counted and aggregated for all data publications that have a DOI within a project (eg. Simulation, Experiment, Mission, Hybrid simulation and Documents Collection). Users will get a count of all the files that have been requested in the entire project.
+Dataset citation counts appear in the citation modal beneath the Download Citation links. They include citations to original or reused datasets, reports, survey instruments, poster presentations, and meeting proceedings published in the DDR.
 
-<strong>Total Investigations: </strong>File requests + metadata views. Viewing the main project information / metadata in the landing page counts as an investigation of each DOI included in the project. Opening a data publication (eg. simulation, experiment, documents collection, mission, hybrid simulation) counts as one investigation of that specific data publication.Requests and metadata views at the data publication level are counted and aggregated at the project level metrics.
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-nm1trTn5yB0MQRdu5fMDrQuCYlWpYUqu_-zOOH2XNtdBpPTqCLpdsWthkzJxi-DXAzDO89OjrbrrftCmASAQL2lEPuiGQ3KYjQgyOVEirNjZMXvfEcN7rThIWrtfdpBb4ciiOQ?key=5Dna0b-2yhoGiwcpYmzxUA)
 
-<strong>Project Downloads: </strong>Total downloads of a compressed entire project and its metadata to a user's machine.
+Original citations are from papers in which a researcher cites their own data in the DDR as a part of the original research project, and data reuse is a citation to datasets available in DesignSafe after the original project is over. 
 
-### Data Publication Metrics { #publication }
+Citations are updated through the last month of the prior quarter. 
 
-<strong>File Preview:</strong> Examining data from an individual data publication such as clicking on a file name brings up a modal window that allows previewing files. Those file previews are counted. However, not all document types can be previewed. Among those that can are: text, spreadsheets, graphics and code files. (example extensions: .txt, .doc, .docx, .csv, .xlsx, .pdf, .jpg, .m, .ipynb). Those that can't include binary executables, MATLAB containers, compressed files, and video (eg. .bin, .mat, .zip, .tar, mp4, .mov).  Only those files that can be previewed are counted. Users will get a count of all the files that have been previewed in the data publication.
+## Marketing Datasets
 
-<strong>File Download: </strong>Copying a file to the machine the user is running on, or to a storage device that the machine has access to. This can be done by ticking the checkbox next to a file and selecting "Download" at the top of the project page. With files that can be previewed, clicking "Download" at the top of the preview modal window has the same effect. Downloads are counted per individual files. We also consider counts when users tick the checkbox next to a file and select "Copy" at the top of the project page. The counts of copying a file from the published project can be to the user's My data, My projects, to Tools and Applications in the Workspace, or to one of the connected spaces (Box, Dropbox, Google Drive).
+Datasets take a lot of work to produce; they are important research products. By creating a complete, organized, and clearly described publication in DDR, users are inviting others to reuse and cite their data. Researchers using published data from DDR must cite it using the DOI, which relies on the [DataCite schema](http://schema.datacite.org/) for accurate citation. For convenience, users can retrieve a formatted citation from the published data landing page. It is recommended to insert the citations in the reference section of the paper to facilitate citation tracking and count.
 
-<strong>File Requests: </strong>Total file downloads + total file previews. This is counted for each data publication that has a DOI (eg. Simulation, Experiment, Mission, Hybrid simulation and Documents Collection).
-
-<strong>Session: </strong>All activity during one clock hour from a single IP address and user-agent (a string that identifies the user's browser and operating system.).  This is used as a proxy to define a session to count unique requests and unique investigations.
-
-<strong>Unique Requests: </strong>Any downloads, previews, copies of files, or project downloads from a single data publication (DOI) by a user in a single session counts as 1 Unique Request. This is counted for each data publication with a single DOI including Simulations, Hybrid Simulations, Experiments, Missions, Documents Collection and type Other projects.
-
-<strong>Total Investigations: </strong>File requests + metadata views. Reading the metadata (information about the project and or the data publication) on the landing page counts as an investigation of each data publication with a DOI included in a project. Opening a data publication counts as one investigation of that data publication.
-
-<strong>Unique Investigations: </strong>Any viewing of metadata and any downloads, previews, copies of files or project downloads from a single data publication (DOI) by a user in a single session counts as 1 Unique Investigation. This is counted for each data publication with a single DOI including Simulations, Hybrid Simulations, Experiments, Missions, Documents Collection and type Other projects.
-
+When using social media or any presentation platform to communicate research, it is important to include the proper citation and DOI on the presentations, emails, tweets, professional blog posts, etc.. A researcher does not actually need to reuse a dataset to cite it, but rather may cite it to point/review something about a dataset (e.g., how it was collected, its uniqueness, certain facts, etc.). This is similar to the process of citing other papers within a literary review section.

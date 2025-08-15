@@ -31,6 +31,18 @@
     text-underline-offset: .2em;
 }
 
+/* To restore some font weight to the deepest headings */
+/* NOTE: Designer says these are too deep to support,
+         but documentation is deeper than websites */
+/* TODO: Migrate change to Core-Styles */
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h5 { font-weight: var(--extra-bold); letter-spacing: 0.03125em; }
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h6 { font-weight: var(--bold); }
 
 
 /* TACC-DOCS */
@@ -91,7 +103,6 @@ b {
 .grid [class*="card"] {
     margin-bottom: 0;
 }
-
 
 
 
@@ -171,6 +182,19 @@ hr.spacer {
 :where(h1, h2, h3, h4, h5, h6) > u > b {
   color: #cb463f;
   font-weight: var(--black);
+
+
+/* To hide extra spacing caused by paragraph side-effect of nested <details> */
+details li > p {
+    margin: 0;
+}
+
+/* To un-indent details in a list item */
+li:has(> details) {
+    list-style-type: none;
+}
+li > details > summary {
+    translate: calc(-1em);
 }
 
 /* To restore space (removed by TACC) at bottom of idnex page */
@@ -178,4 +202,14 @@ hr.spacer {
 /* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L510-L512 */
 [data-page-name="index.md"] footer {
     display: revert;
+}
+
+/* To style definition lists */
+/* https://python-markdown.github.io/extensions/definition_lists/ */
+/* TODO: Move to Core-Styles, Demo in Mkdocs-TACC */
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
 }
