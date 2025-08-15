@@ -241,6 +241,7 @@ For each project type, the metadata elements including those that are required a
 
 //// details | **Experimental Research Project** <small>([view full dictionary](/user-guide/dictionary/#experimental))</small>
     attrs: {class: dict-tree card--plain}
+    open: True
 
 * DOI
 * Project Title
@@ -283,6 +284,7 @@ For each project type, the metadata elements including those that are required a
 ////
 //// details | **Simulation Research Project** <small>([view full dictionary](/user-guide/dictionary/#simulation))</small>
     attrs: {class: dict-tree card--plain}
+    open: True
 
 * DOI†
 * Project Title
@@ -321,6 +323,7 @@ For each project type, the metadata elements including those that are required a
 ////
 //// details | **Hybrid Simulation Research Project** <small>([view full dictionary](/user-guide/dictionary/#hybrid))</small>
     attrs: {class: dict-tree card--plain}
+    open: True
 
 * DOI†
 * Project Title
@@ -368,6 +371,7 @@ For each project type, the metadata elements including those that are required a
 ////
 //// details | **Field Research Project** <small>([view full dictionary](/user-guide/dictionary/#field))</small>
     attrs: {class: dict-tree card--plain}
+    open: True
 
 * Project Title
 * PI/Co-PI(s)\*
@@ -441,6 +445,7 @@ For each project type, the metadata elements including those that are required a
 ////
 //// details | **Other** <small>([view full dictionary](/user-guide/dictionary/#other))</small>
     attrs: {class: dict-tree card--plain}
+    open: True
 
 * DOI†
 * Project Title

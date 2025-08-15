@@ -50,13 +50,13 @@ nav:
       - Set Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
     - Curate & Publish:
-        - What is Data Curation?: data-depot/curate-and-publish.md
+        - What is Data Curation?: curating/overview.md
         - How to Curate Data?: curating/guides.md
         - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
     - Best Practices: curating/bestpractices.md
     - Data Dissemination & Impact: curating/metrics.md
-    # - Resources for Users: data-depot/resources.md # WARNING: Incomplete
+    # - Resources for Users: datadepotrepo/resources.md # WARNING: Incomplete
     - Policies: curating/policies.md
     - Recon Portal:
       - Recon Portal User Guide: tools/recon.md

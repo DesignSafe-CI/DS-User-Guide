@@ -506,4 +506,3 @@ In **Order Authors**, order the authors of the publication and preview how your 
 In **Licenses**, select one or more licenses that best fit your data.
 
 Finally, click **Request DOI & Publish** and agree to the agreement to publish your work.
-
