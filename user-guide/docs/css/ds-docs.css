@@ -156,7 +156,9 @@ hr.spacer {
 
 /* To add subtitle after headings */
 [data-subtitle]::after {
-    content: ' ' attr(data-subtitle);
+    content: attr(data-subtitle);
+    display: inline-block;
+    margin-left: 0.5ch;
 }
 [data-subtitle]:not(
     /* headings only distinguished by weight */
@@ -165,10 +167,9 @@ hr.spacer {
     font-weight: normal;
 }
 [data-subtitle]:is(
-    /* headings that need subtitle below */
+    /* headings that have unique style */
     h1
 )::after {
-    display: block;
     text-transform: none;
     font-size: var(--global-font-size--xx-large);
 }
