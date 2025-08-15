@@ -255,7 +255,7 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* //// details | Experiment\*
+* ///// details | Experiment\*
 
     * Report
     * DOI†
@@ -271,14 +271,15 @@ For each project type, the metadata elements including those that are required a
     * Sensor Information\*
     * Event\*
     * Experiment Report$
-  ////
-* //// details | Analysis\*$
+
+  /////
+* ///// details | Analysis\*$
 
     * Analysis Title
     * Description
     * Referenced Data\*
 
-  ////
+  /////
 
 ////
 //// details | **Simulation Research Project** <small>([view full dictionary](/user-guide/dictionary/#simulation))</small>
@@ -297,7 +298,7 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* //// details | Simulation\*
+* ///// details | Simulation\*
 
     * Report
     * Simulation Title
@@ -310,14 +311,14 @@ For each project type, the metadata elements including those that are required a
     * Referenced Data\*
     * Simulation Report$
 
-  ////
-* //// details | Analysis\*$
+  /////
+* ///// details | Analysis\*$
 
     * Analysis Title
     * Description
     * Referenced Data\*
 
-  ////
+  /////
 
 ////
 //// details | **Hybrid Simulation Research Project** <small>([view full dictionary](/user-guide/dictionary/#hybrid))</small>
@@ -336,32 +337,36 @@ For each project type, the metadata elements including those that are required a
 * Related Works\*$
 * Award\*
 * Keywords
-* //// details | Hybrid Simulation\*
+* ///// details | Hybrid Simulation\*
 
     * Report
     * //// details | Global Model
+
         * Global Model Title
         * Description
 
       ////
     * //// details | Master Simulation Coordinator
+
         * Master Simulation Coordinator Title
         * Application and Version
         * Substructure Middleware
 
       ////
     * //// details | Simulation Substructure\*
+
         * Simulation Substructure Title
         * Application and Version
         * Description
 
       ////
     * //// details | Experiment Substructure\*
+
         * Experiment Substructure Title
         * Description
 
       ////
-  ////
+  /////
 
 ////
 //// details | **Field Research Project** <small>([view full dictionary](/user-guide/dictionary/#field))</small>
@@ -377,7 +382,7 @@ For each project type, the metadata elements including those that are required a
 * Keywords
 * Natural Hazard Event
 * Natural Hazard Date
-* //// details | Documents Collection\*$
+* ///// details | Documents Collection\*$
 
     * Author(s)\*
     * Date of Publication†
@@ -387,8 +392,8 @@ For each project type, the metadata elements including those that are required a
     * Referenced Data\*$
     * Description
 
-  ////
-* //// details | Mission\*
+  /////
+* ///// details | Mission\*
 
     * Mission Title
     * Author(s)\*
@@ -435,7 +440,7 @@ For each project type, the metadata elements including those that are required a
         * Collection Description
 
       ////
-  ////
+  /////
 
 ////
 //// details | **Other** <small>([view full dictionary](/user-guide/dictionary/#other))</small>

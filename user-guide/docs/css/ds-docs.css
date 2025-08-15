@@ -182,10 +182,14 @@ hr.spacer {
 :where(h1, h2, h3, h4, h5, h6) > u > b {
   color: #cb463f;
   font-weight: var(--black);
-
+}
 
 /* To hide extra spacing caused by paragraph side-effect of nested <details> */
 details li > p {
+    margin: 0;
+}
+/* To hide extra spacing caused by core-styles space on all <details> */
+li > details {
     margin: 0;
 }
 
