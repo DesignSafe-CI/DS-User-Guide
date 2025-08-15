@@ -19,7 +19,7 @@ DesignSafe including DDR are hosted at the [Texas Advanced Computing Center](htt
 ## Repository Team 
 An interdisciplinary repository team carries out ongoing design, development, and day-to-day operations of the DDR. The team gathers requirements and discusses solutions through bi-monthly meetings with members of the DesignSafe management team as well as with members of the [NHERI network](https://designsafe-ci.org/about/) to meet the requirements and commitments of their distinct research focus and functions. To track development the DDR curator meets every other week with the DesignSafe PI and with the head of the development team. Based on these fluid communications, the team designs functionalities, researches and develops best-practices, and implements agreed-upon solutions. The figure below shows the current formation of the repository team.
 
-![Data Depot Team](imgs/Data_Repository_Team_DataTeam.png)
+![Data Depot Team](imgs/team-org.png)
 
 ## Community of Practice
 The DDR serves the natural hazards research community, both data producers and consumers. This research community includes primarely the facilities that make up the [NHERI network](https://designsafe-ci.org/about/), for which the DDR is the designated data repository. In addition DDR welcomes data produced in other national and international facilities and organizations. At large, the repository serves a broad national and international audience of natural hazard researchers, students, practitioners, policy makers, as well as the general public. By providing access to a broad range of natural hazards data, DDR aims to support and accelerate research, education, and informed decision-making on a global scale.
