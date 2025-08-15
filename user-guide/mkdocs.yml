@@ -45,21 +45,22 @@ nav:
 
   - Data Depot:
     - Overview: datadepot.md
-    - About: datadepotrepo/about.md
     - Managing Data:
       - Overview: managingdata/datadepot.md
       - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
       - Data Transfer Guides: managingdata/datatransfer.md
       - Data Management Plan: managingdata/datamanagementplan.md
       - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Curating and Publication:
-        - What is Data Curation?: curating/overview.md
-        - How to Curate Data?: curating/guides.md
+    - Data Depot Repository:
+      - About: datadepotrepo/about.md
+      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
+      - Curating &amp; Publication:
+        - Guides: curating/guides.md
         - Frequently Asked Questions: curating/faq.md
-    - Best Practices: curating/bestpractices.md
-    - Data Dissemination & Impact: curating/metrics.md
-    - Policies: curating/policies.md
-    - Metadata Dictionaries: dictionary.md
+      - Best Practices: curating/bestpractices.md
+      - Metrics Documentation: curating/metrics.md
+      - Policies: curating/policies.md
+      - Metadata Dictionaries: dictionary.md
     - Recon Portal:
       - Recon Portal User Guide: tools/recon.md
 
