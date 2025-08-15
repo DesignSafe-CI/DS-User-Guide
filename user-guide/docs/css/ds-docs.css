@@ -154,6 +154,25 @@ hr.spacer {
     font-size: 16px;
 }
 
+/* To add subtitle after headings */
+[data-subtitle]::after {
+    content: ' ' attr(data-subtitle);
+}
+[data-subtitle]:not(
+    /* headings only distinguished by weight */
+    h5, h6
+)::after {
+    font-weight: normal;
+}
+[data-subtitle]:is(
+    /* headings that need subtitle below */
+    h1
+)::after {
+    display: block;
+    text-transform: none;
+    font-size: var(--global-font-size--xx-large);
+}
+
 /* To hide unused space at bottom of overview pages */
 /* https://github.com/TACC/TACC-Docs/blob/a9d01e1/docs/css/core/tacc-docs.css#L568-L574 */
 [data-page-name$="usecases/overview.md"] footer {
