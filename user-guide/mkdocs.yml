@@ -37,31 +37,28 @@ plugins:
   - include-markdown
 
 nav:
-  - DesignSafe Essentials:
-    - Documentation Overview: overview.md
-    - Getting Started: index.md
-    - Account Help: account-help.md
-    - Training Resources: training.md
-
+  - Getting Started:
+    - Overview: overview.md
+    - Set Up Your Account: index.md
+    - Manage Your Account: account-help.md
+    - Request Allocations: request-allocations.md
+    - Training: training.md
   - Data Depot:
-    - Overview: datadepot.md
-    - Managing Data:
-      - Overview: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
+    - About: datadepotrepo/about.md
+    - Transfer Your Data: managingdata/datatransfer.md
+    - Manage Your Data:
+      - Set Path to DesignSafe: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    # WARNING: Preserve DDR URLs; if URLs must change, add/use redirect plugin
-    - Data Depot Repository: # a.k.a. DDR
-      - About: datadepotrepo/about.md
-      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Curating &amp; Publication:
-        - Guides: curating/guides.md
+    - Curate & Publish:
+        - What is Data Curation?: curating/overview.md
+        - How to Curate Data?: curating/guides.md
+        - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
-      - Best Practices: curating/bestpractices.md
-      - Metrics Documentation: curating/metrics.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
+        - Metadata Dictionaries: dictionary.md
+    - Best Practices: curating/bestpractices.md
+    - Data Dissemination & Impact: curating/metrics.md
+    # - Resources for Users: datadepotrepo/resources.md # WARNING: Incomplete
+    - Policies: curating/policies.md
     - Recon Portal:
       - Recon Portal User Guide: tools/recon.md
 

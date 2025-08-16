@@ -10,6 +10,8 @@ If you receive an error message when logging in, and you are confident that you 
 
 Once your account returns to an Active state, you will also need to [pair your MFA App again](https://tacc.utexas.edu/portal/account){target="_blank"}. Note that it is possible your MFA shows as still being paired, and you will need to unpair and then pair again.
 
-## Additional Account Resources
+## Additional Resources
+
+A DesignSafe account is a University of Texas, Texas Advanced Computing Center (TACC) user account.
 
 - [Managing Your TACC Account](https://docs.tacc.utexas.edu/basics/accounts/){target="_blank"}
