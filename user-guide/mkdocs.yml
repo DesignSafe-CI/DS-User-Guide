@@ -51,7 +51,8 @@ nav:
       - Data Transfer Guides: managingdata/datatransfer.md
       - Data Management Plan: managingdata/datamanagementplan.md
       - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Data Depot Repository:
+    # WARNING: Preserve DDR URLs; if URLs must change, add/use redirect plugin
+    - Data Depot Repository: # a.k.a. DDR
       - About: datadepotrepo/about.md
       - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
       - Curating &amp; Publication:
