@@ -6,6 +6,7 @@
 /* CORE STYLES */
 /* To customize TACC/Core-Styles CSS */
 /* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.base.css */
+/* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.docs.css */
 
 @import url('https://cdn.jsdelivr.net/gh/TACC/Core-Styles@epic/v3--gh-345-tokens-from-figma/src/v3/variables/designsafe.light.css') layer(cosmetic);
 
@@ -43,6 +44,7 @@
     :is([role=main],main),
     :not(:is(#root))
 ) h6 { font-weight: var(--bold); }
+
 
 
 /* TACC-DOCS */
