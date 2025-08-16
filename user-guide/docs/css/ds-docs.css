@@ -170,7 +170,6 @@ hr.spacer {
     /* headings that need subtitle below */
     h1
 )::after {
-    display: block;
     text-transform: none;
     font-size: var(--global-font-size--xx-large);
 }

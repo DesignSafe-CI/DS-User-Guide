@@ -1,11 +1,8 @@
-# How to Curate Data?
+# Guides: { data-subtitle="Steps to Curate and Publish your Datasets" }
 
 We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [<del>**Hybrid Simulation**<del>](#hybrid), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
 ## Experimental
-
-!!! important "Not Up to Date"
-    Anticipate a different user interface and experience.
 
 ### 1. Add a Project { #experimental-step1 }
 
@@ -145,9 +142,6 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ---
 
 ## Simulation
-
-!!! important "Not Up to Date"
-    Anticipate a different user interface and experience.
 
 Read the [Simulation Data Best Practices Guide](/user-guide/curating/bestpractices) prior to initiating your project.
 
@@ -298,9 +292,6 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 ## Field Research { #fieldresearch }
 
-!!! important "Not Up to Date"
-    Anticipate a different user interface and experience.
-
 ### 1. Add a Project { #fieldresearch-step1 }
 
 ![](./imgs/guide-allguides-1a.jpg)
@@ -445,9 +436,6 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ---
 
 ## Other
-
-!!! important "Not Up to Date"
-    Anticipate a different user interface and experience.
 
 ### 1. Add a Project { #other-step1 }
 

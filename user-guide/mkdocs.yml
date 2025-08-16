@@ -54,6 +54,7 @@ nav:
         - How to Curate Data?: curating/guides.md
         - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
         - Frequently Asked Questions: curating/faq.md
+        - Metadata Dictionaries: dictionary.md
     - Best Practices: curating/bestpractices.md
     - Data Dissemination & Impact: curating/metrics.md
     # - Resources for Users: datadepotrepo/resources.md # WARNING: Incomplete
