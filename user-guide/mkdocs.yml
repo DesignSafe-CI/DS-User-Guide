@@ -45,8 +45,7 @@ nav:
 
   # WARNING: Preserve URLs; if URLs must change, add/use redirect plugin
   - DesignSafe Data Depot:
-    # NOTE: An old page not put in nav during reorganization of Data Depot
-    # - Overview: datadepot.md
+    - Overview: datadepot.md
     - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
     - Managing Your Data:
