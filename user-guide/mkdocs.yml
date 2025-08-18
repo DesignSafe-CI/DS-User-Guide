@@ -59,9 +59,8 @@ nav:
     - Data Dissemination and Impact: curating/metrics.md
     - Resources for Users:
       - Frequently Asked Questions: curating/faq.md
-    # NOTE: Neglected to be put in nav during reorganization of Data Depot
-    # - Recon Portal:
-    #   - Recon Portal User Guide: tools/recon.md
+    - Recon Portal:
+      - Recon Portal User Guide: tools/recon.md
 
   - Tools and Apps:
     - Analysis Apps: analysis.md
