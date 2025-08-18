@@ -59,8 +59,8 @@ nav:
     - Policies: curating/policies.md
     - Best Practices for Data Curation and Publication: curating/bestpractices.md
     - Data Dissemination and Impact: curating/metrics.md
-    # NOTE: Incomplete page put in nav during reorganization of Data Depot
-    # - Resources for Users: datadepotrepo/resources.md
+    - Resources for Users:
+      - Frequently Asked Questions: curating/faq.md
     # NOTE: Neglected to be put in nav during reorganization of Data Depot
     # - Recon Portal:
     #   - Recon Portal User Guide: tools/recon.md
