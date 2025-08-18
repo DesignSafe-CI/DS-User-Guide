@@ -1,3 +1,5 @@
+<!-- NOTE: Not enabled in navigation -->
+
 ## Dictionaries
 
 ### Experimental

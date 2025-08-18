@@ -1,3 +1,5 @@
+<!-- NOTE: Not enabled in navigation -->
+
 # Frequently Asked Questions
 
 <style id="faq-style">

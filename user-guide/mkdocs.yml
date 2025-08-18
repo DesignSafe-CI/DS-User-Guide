@@ -43,27 +43,31 @@ nav:
     - Account Help: account-help.md
     - Training Resources: training.md
 
+  # WARNING: Preserve URLs; if URLs must change, add/use redirect plugin
   - Data Depot:
-    - Overview: datadepot.md
+    # NOTE: An old page not put in nav during reorganization of Data Depot
+    # - Overview: datadepot.md
+    - About: datadepotrepo/about.md
+    - Data Transfer Guides: managingdata/datatransfer.md
     - Managing Data:
-      - Overview: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
+      # NOTE: Old pages not put in nav during reorganization of Data Depot
+      # - Overview: managingdata/datadepot.md
+      # - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
       - Data Management Plan: managingdata/datamanagementplan.md
       - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    # WARNING: Preserve DDR URLs; if URLs must change, add/use redirect plugin
-    - Data Depot Repository: # a.k.a. DDR
-      - About: datadepotrepo/about.md
-      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Curating &amp; Publication:
-        - Guides: curating/guides.md
-        - Frequently Asked Questions: curating/faq.md
-      - Best Practices: curating/bestpractices.md
-      - Metrics Documentation: curating/metrics.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
-    - Recon Portal:
-      - Recon Portal User Guide: tools/recon.md
+    - Guides: curating/guides.md
+    - Policies: curating/policies.md
+    - Best Practices: curating/bestpractices.md
+    - Metrics Documentation: curating/metrics.md
+    # NOTE: Incomplete page put in nav during reorganization of Data Depot
+    # - Resources for Users: .../resources.md
+    # NOTE: Neglected to be put in nav during reorganization of Data Depot
+    # - Data Depot Repository:
+    #   - Curating &amp; Publication:
+    #     - Frequently Asked Questions: curating/faq.md
+    #   - Metadata Dictionaries: dictionary.md
+    # - Recon Portal:
+    #   - Recon Portal User Guide: tools/recon.md
 
   - Tools and Apps:
     - Analysis Apps: analysis.md

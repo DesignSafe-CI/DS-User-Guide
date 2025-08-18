@@ -1,3 +1,5 @@
+<!-- NOTE: Not enabled in navigation -->
+
 ## DesignSafe Managing Data
 
 ### Browsing, Upload, and Download { #browsing }
