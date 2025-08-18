@@ -50,9 +50,8 @@ nav:
     - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
     - Managing Your Data:
-      # NOTE: Older pages not put in nav during reorganization of Data Depot
-      # - Overview: managingdata/datadepot.md
-      # - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+      - Overview: managingdata/datadepot.md
+      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
       - Data Management Plan Template: managingdata/datamanagementplan.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
     - Steps to Curate and Publish Your Datasets: curating/guides.md
