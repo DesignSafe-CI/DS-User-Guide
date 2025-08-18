@@ -1,4 +1,4 @@
-# Metrics: { data-subtitle="Data Dissemination and Impact" }
+# Data Dissemination and Impact
 
 Data metrics indicate research impact, allowing researchers to assess the repercussions and influence of their work. Citation and usage metrics are included, and are visible on the landing page of each dataset publication. 
 

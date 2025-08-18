@@ -44,21 +44,21 @@ nav:
     - Training Resources: training.md
 
   # WARNING: Preserve URLs; if URLs must change, add/use redirect plugin
-  - Data Depot:
+  - DesignSafe Data Depot:
     # NOTE: An old page not put in nav during reorganization of Data Depot
     # - Overview: datadepot.md
-    - About: datadepotrepo/about.md
-    - Data Transfer Guides: managingdata/datatransfer.md
-    - Managing Data:
-      # NOTE: Old pages not put in nav during reorganization of Data Depot
+    - About the Data Depot: datadepotrepo/about.md
+    - Transferring Your Data: managingdata/datatransfer.md
+    - Managing Your Data:
+      # NOTE: Older pages not put in nav during reorganization of Data Depot
       # - Overview: managingdata/datadepot.md
       # - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Management Plan: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Guides: curating/guides.md
+      - Data Management Plan Template: managingdata/datamanagementplan.md
+      - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
+    - Steps to Curate and Publish Your Datasets: curating/guides.md
     - Policies: curating/policies.md
-    - Best Practices: curating/bestpractices.md
-    - Metrics Documentation: curating/metrics.md
+    - Best Practices for Data Curation and Publication: curating/bestpractices.md
+    - Data Dissemination and Impact: curating/metrics.md
     # NOTE: Incomplete page put in nav during reorganization of Data Depot
     # - Resources for Users: .../resources.md
     # NOTE: Neglected to be put in nav during reorganization of Data Depot

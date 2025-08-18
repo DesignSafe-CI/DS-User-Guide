@@ -1,4 +1,4 @@
-## Experimental Facility Checklist
+## Curating Data in Experimental Facilities
 
 ### DesignSafe-EF Onboarding Checklist for Data Curation { #onboarding }
 
