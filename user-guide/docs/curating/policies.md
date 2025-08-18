@@ -137,6 +137,14 @@ To further describe datasets, the curation interface offers the possibility to a
 
 Due to variations in their methodology, researchers may not need all the categories and terms available to describe and represent their datasets. We have identified a core set of required metadata that allows proper data representation, explainability, and citation. If required elements are not  completed during the curation and publication process, the pipeline will not proceed.
 
+### Metadata Dictionaries
+
+{%
+  include-markdown '../dictionary.md'
+  heading-offset=2 
+  start="<!--content-start-->"
+%}
+
 ## Licenses
 
 DDR provides users with licensing options to accommodate the variety of research outputs that are published on the DDR including datasets, reports, survey instruments, presentations, learning materials, and research software. The licenses were selected after discussions within our community. 
