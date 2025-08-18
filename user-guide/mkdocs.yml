@@ -60,7 +60,7 @@ nav:
     - Best Practices for Data Curation and Publication: curating/bestpractices.md
     - Data Dissemination and Impact: curating/metrics.md
     # NOTE: Incomplete page put in nav during reorganization of Data Depot
-    # - Resources for Users: .../resources.md
+    # - Resources for Users: datadepotrepo/resources.md
     # NOTE: Neglected to be put in nav during reorganization of Data Depot
     # - Data Depot Repository:
     #   - Curating &amp; Publication:
