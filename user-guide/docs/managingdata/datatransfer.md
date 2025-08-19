@@ -52,6 +52,10 @@ We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folde
 
 ---
 
+{% include-markdown './settingpathtodesignsafe.md' heading-offset=1 %}
+
+---
+
 ## Globus Data Transfer Guide { #globus }
 
 Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
