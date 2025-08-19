@@ -43,27 +43,22 @@ nav:
     - Account Help: account-help.md
     - Training Resources: training.md
 
-  - Data Depot:
+  # WARNING: Preserve URLs; if URLs must change, add/use redirect plugin
+  - DesignSafe Data Depot:
     - Overview: datadepot.md
-    - Managing Data:
+    - Transferring Your Data: managingdata/datatransfer.md
+    - Managing Your Data:
       - Overview: managingdata/datadepot.md
       - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
-      - Data Management Plan: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    # WARNING: Preserve DDR URLs; if URLs must change, add/use redirect plugin
-    - Data Depot Repository: # a.k.a. DDR
-      - About: datadepotrepo/about.md
-      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Curating &amp; Publication:
-        - Guides: curating/guides.md
-        - Frequently Asked Questions: curating/faq.md
-      - Best Practices: curating/bestpractices.md
-      - Metrics Documentation: curating/metrics.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
-    - Recon Portal:
-      - Recon Portal User Guide: tools/recon.md
+      - Data Management Plan Template: managingdata/datamanagementplan.md
+      - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
+    - Steps to Curate and Publish Your Datasets: curating/guides.md
+    - Best Practices for Data Curation and Publication: curating/bestpractices.md
+    - Data Dissemination and Impact: curating/metrics.md
+    - Resources for Users:
+      - Frequently Asked Questions: curating/faq.md
+    - About the Data Depot: datadepotrepo/about.md
+    - Policies: curating/policies.md
 
   - Tools and Apps:
     - Analysis Apps: analysis.md
@@ -82,6 +77,9 @@ nav:
     - LS-DYNA: tools/simulation/lsdyna.md
     - OpenFoam: tools/simulation/openfoam.md
     - OpenSees : tools/simulation/opensees/opensees.md
+
+  - Recon Portal:
+    - Recon Portal User Guide: tools/recon.md
 
 # Old navigation for OpenSees
 #      - OpenSees on DesignSafe:
@@ -114,7 +112,6 @@ nav:
   #   - GeoHazard: usecases/geohazardusecases.md
   #   - Seismic: usecases/seismicusecases.md
   #   - Wind and Storm Surge: usecases/windstormsurgeusecases.md
-
 
   - Use Cases:
     - Overview: usecases/overview.md

@@ -1,21 +1,25 @@
-## Dictionaries
+# Metadata Dictionaries
 
-### Experimental
+To understand the context of this content, read our [Metadata Policies](/user-guide/curating/policies/#metadata).
+
+<!--content-start-->
+
+## Experimental
 
 {% include-markdown 'dictionary/experimental.md' %}
 
-### Simulation
+## Simulation
 
 {% include-markdown 'dictionary/simulation.md' %}
 
-### Hybrid
+## Hybrid
 
 {% include-markdown 'dictionary/hybrid.md' %}
 
-### Field
+## Field
 
 {% include-markdown 'dictionary/field.md' %}
 
-### Other
+## Other
 
 {% include-markdown 'dictionary/other.md' %}
