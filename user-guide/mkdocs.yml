@@ -43,7 +43,6 @@ nav:
     - Account Help: account-help.md
     - Training Resources: training.md
 
-  # WARNING: Preserve URLs; if URLs must change, add/use redirect plugin
   - DesignSafe Data Depot:
     - Overview: datadepot.md
     - Transferring Your Data: managingdata/datatransfer.md
@@ -52,6 +51,8 @@ nav:
       - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
       - Data Management Plan Template: managingdata/datamanagementplan.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
+    # WARNING: From here down, preserve URLs
+    #          If URLs must change, add/use redirect plugin
     - Steps to Curate and Publish Your Datasets: curating/guides.md
     - Best Practices for Data Curation and Publication: curating/bestpractices.md
     - Data Dissemination and Impact: curating/metrics.md
