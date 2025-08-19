@@ -46,7 +46,6 @@ nav:
   # WARNING: Preserve URLs; if URLs must change, add/use redirect plugin
   - DesignSafe Data Depot:
     - Overview: datadepot.md
-    - About the Data Depot: datadepotrepo/about.md
     - Transferring Your Data: managingdata/datatransfer.md
     - Managing Your Data:
       - Overview: managingdata/datadepot.md
@@ -54,13 +53,12 @@ nav:
       - Data Management Plan Template: managingdata/datamanagementplan.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
     - Steps to Curate and Publish Your Datasets: curating/guides.md
-    - Policies: curating/policies.md
     - Best Practices for Data Curation and Publication: curating/bestpractices.md
     - Data Dissemination and Impact: curating/metrics.md
     - Resources for Users:
       - Frequently Asked Questions: curating/faq.md
-    - Recon Portal:
-      - Recon Portal User Guide: tools/recon.md
+    - About the Data Depot: datadepotrepo/about.md
+    - Policies: curating/policies.md
 
   - Tools and Apps:
     - Analysis Apps: analysis.md
@@ -79,6 +77,9 @@ nav:
     - LS-DYNA: tools/simulation/lsdyna.md
     - OpenFoam: tools/simulation/openfoam.md
     - OpenSees : tools/simulation/opensees/opensees.md
+
+  - Recon Portal:
+    - Recon Portal User Guide: tools/recon.md
 
 # Old navigation for OpenSees
 #      - OpenSees on DesignSafe:
@@ -111,7 +112,6 @@ nav:
   #   - GeoHazard: usecases/geohazardusecases.md
   #   - Seismic: usecases/seismicusecases.md
   #   - Wind and Storm Surge: usecases/windstormsurgeusecases.md
-
 
   - Use Cases:
     - Overview: usecases/overview.md
