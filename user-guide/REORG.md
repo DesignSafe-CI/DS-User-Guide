@@ -14,9 +14,9 @@
 
 - **Delete** "Hybrid Simulation" from "Steps to Curate and Publish".
 
-## 2. Changes Maria Should Review First
+## 2. Changes M.E. Should Review First
 
-Confirm whether these changes affect @mesteva!
+Confirm whether these changes affect M.E.!
 
 ### Rename
 
