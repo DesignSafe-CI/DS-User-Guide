@@ -3,7 +3,7 @@ name: DS User Guide PPRD Builds
 on:
   push:
     branches:
-      - pprd
+      - fix/GH-175-changes-that-mesteva-reviewed
 
 jobs:
   docker:
