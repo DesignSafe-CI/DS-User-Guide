@@ -1,30 +1,48 @@
 # Now
 
-- Move FAQ, About, Policies out and to bottom of Data Depot section in that order
-- drop Resources (for now, until we have more than FAQ)
-- Recon Portal gets its own section beneath Tools & Apps
-- delete "Hybrid Simulation" from "Steps to Curate and Publish"
+## Rearrange
+
+- **Move** these items to the bottom of Data Depot section:
+    - "FAQ"
+    - "About the Data Depot"
+    - "Policies"
+- **Move** "Recon Portal" to its own section just above "Use Cases".
+
+## Delete
+
+- **Delete** "Hybrid Simulation" from "Steps to Curate and Publish".
 
 # Next
 
-> Confirm whether these changes affect @mesteva.
+Confirm whether these changes affect @mesteva!
 
-- move "Setting Path …" to "Transferring Your Data"
-- rename "Data Management Plan Template" to "Sample Data Management Plan"
-- move "…Data Management Plan…" to "Resources for Users"
-- move "Experimental Facility Checklist" to bottom of "Steps to Curate & Publish"
+## Rename
 
-(Freeze other "Managing Data" content until @cockerilltim's new stuff comes in.)
+- **Rename** "Data Management Plan Template" to "Sample Data Management Plan".
+
+## Rearrange
+
+- **Move** "Setting Path …" to "Transferring Your Data".
+- **Move** "Data Management Plan" to "Resources for Users".
+- **Move** "Curating Data in Experimental Facilities" (currently within "Managing Your Data"*) to bottom of "Steps to Curate & Publish".
+
+\* Freeze other "Managing Data" content until @cockerilltim's new stuff comes in.
 
 # Then
 
-- delete "Documentation Overview"
-- on Overview, delete bulleted list
-- Simulation Apps moves up into Tools & Apps
-- Tools & Apps reorganized to match website Tools & Apps overview
-    - both (if possible) have order: OpenSees, ADCIRC, OpenFOAM, Jupyter, MATLAB
-- the "Popular" items from website Tools & Apps overview become their own item in User Guide Tools & Apps section, like Jupyter
-- move Popular items to top of User Guide Tools & Apps section
-    - on website Tools & Apps overview make OpenFOAM "popular"
-    - on website Tools & Apps overview OpenFOAM add "Wind" category first
-- move "Citing DesignSafe" to bottom of "DesignSafe Essentials" as "How to Cite DesignSafe"
+## Rearrange
+
+- **Move** "Simulation Apps" up into "Tools & Apps".
+- **Reorder** "Tools & Apps" to match website's "Tools & Apps" overview page.
+- **Move** "Citing DesignSafe" to bottom of "DesignSafe Essentials" section as "How to Cite DesignSafe".
+- **Put** "Popular" tools and apps as their own item in "Tools & Apps" (like Jupyter).
+    - **Move** "Popular" items to top of "Tools & Apps"
+    - **Order** "Popular" apps: 1) OpenSees, 2) ADCIRC, 3) OpenFOAM, 4) Jupyter, 5) MATLAB.
+    - _non-Documentation tasks_:
+       - On website "Tools & Apps" overview page, make OpenFOAM "popular"
+       - On website "Tools & Apps" overview page, add "Wind" to OpenFOAM as first category.
+
+## Delete
+
+- **Delete** "Documentation Overview".
+- **Delete** bulleted list from "Data Depot" section's "Overview".
