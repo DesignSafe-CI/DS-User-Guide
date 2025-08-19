@@ -1,6 +1,8 @@
-# Now
+# DesignSafe User Guide Reorganization
 
-## Rearrange
+## 1. Changes to Do Now
+
+### Rearrange
 
 - **Move** these items to the bottom of Data Depot section:
     - "FAQ"
@@ -8,19 +10,19 @@
     - "Policies"
 - **Move** "Recon Portal" to its own section just above "Use Cases".
 
-## Delete
+### Delete
 
 - **Delete** "Hybrid Simulation" from "Steps to Curate and Publish".
 
-# Next
+## 2. Changes Maria Should Review First
 
 Confirm whether these changes affect @mesteva!
 
-## Rename
+### Rename
 
 - **Rename** "Data Management Plan Template" to "Sample Data Management Plan".
 
-## Rearrange
+### Rearrange
 
 - **Move** "Setting Path …" to "Transferring Your Data".
 - **Move** "Data Management Plan" to "Resources for Users".
@@ -28,9 +30,9 @@ Confirm whether these changes affect @mesteva!
 
 \* Freeze other "Managing Data" content until @cockerilltim's new stuff comes in.
 
-# Then
+## 3. Changes To Do Later
 
-## Rearrange
+### Rearrange
 
 - **Move** "Simulation Apps" up into "Tools & Apps".
 - **Reorder** "Tools & Apps" to match website's "Tools & Apps" overview page.
@@ -42,7 +44,7 @@ Confirm whether these changes affect @mesteva!
        - On website "Tools & Apps" overview page, make OpenFOAM "popular"
        - On website "Tools & Apps" overview page, add "Wind" to OpenFOAM as first category.
 
-## Delete
+### Delete
 
 - **Delete** "Documentation Overview".
 - **Delete** bulleted list from "Data Depot" section's "Overview".
