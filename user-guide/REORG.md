@@ -23,7 +23,7 @@ Confirm whether these changes affect M. Esteva!
 
 ### Rename
 
-- **Rename** "Data Management Plan Template" to "Data Management Plan (DPM) Guide".
+- **Rename** "Data Management Plan Template" to "Data Management Plan (DMP) Guide".
 
 ### Rearrange
 
