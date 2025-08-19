@@ -48,7 +48,9 @@ nav:
     - Transferring Your Data: managingdata/datatransfer.md
     - Managing Your Data:
       - Overview: managingdata/datadepot.md
-      - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
+      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
+      - Data Management Plan Template: managingdata/datamanagementplan.md
+      - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
     # WARNING: From here down, preserve URLs
     #          If URLs must change, add/use redirect plugin
     - Steps to Curate and Publish Your Datasets: curating/guides.md
@@ -56,7 +58,6 @@ nav:
     - Data Dissemination and Impact: curating/metrics.md
     - Resources for Users:
       - Frequently Asked Questions: curating/faq.md
-      - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
     - About the Data Depot: datadepotrepo/about.md
     - Policies: curating/policies.md
 
