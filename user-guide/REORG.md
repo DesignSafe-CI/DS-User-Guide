@@ -23,13 +23,13 @@ Confirm whether these changes affect M. Esteva!
 
 ### Rename
 
-- **Rename** "Data Management Plan Template" to "Sample Data Management Plan".
+- **Rename** "Data Management Plan Template" to "Data Management Plan (DPM) Guide".
 
 ### Rearrange
 
 - **Move** "Setting Path …" to "Transferring Your Data".
 - **Move** "Data Management Plan" to "Resources for Users".
-- **Move** "Curating Data in Experimental Facilities" (currently within "Managing Your Data"*) to bottom of "Steps to Curate & Publish".
+- **Move** "Curating Data in Experimental Facilities" to "Resources for Users".
 
 \* Freeze other "Managing Data" content until @cockerilltim's new stuff comes in.
 
