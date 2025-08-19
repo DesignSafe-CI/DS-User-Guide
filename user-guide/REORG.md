@@ -2,6 +2,9 @@
 
 ## 1. Changes to Do Now
 
+> [!IMPORTANT]
+> [Done.](https://github.com/DesignSafe-CI/DS-User-Guide/pull/172/commits/bc54a42d)
+
 ### Rearrange
 
 - **Move** these items to the bottom of Data Depot section:
