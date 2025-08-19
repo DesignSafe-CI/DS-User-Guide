@@ -48,7 +48,6 @@ nav:
     - Transferring Your Data: managingdata/datatransfer.md
     - Managing Your Data:
       - Overview: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
       - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
     # WARNING: From here down, preserve URLs
