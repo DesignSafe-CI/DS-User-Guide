@@ -5,7 +5,7 @@
 ### Rearrange
 
 - **Move** these items to the bottom of Data Depot section:
-    - "FAQ" (still under "Resources for Users")
+    - "Resources for Users"
     - "About the Data Depot"
     - "Policies"
 - **Move** "Recon Portal" to its own section just above "Use Cases".
