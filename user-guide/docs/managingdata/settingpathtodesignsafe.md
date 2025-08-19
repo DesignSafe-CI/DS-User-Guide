@@ -12,8 +12,6 @@ Replace <strong>&lt;username&gt;</strong> with your username. You can find your 
 
 ![Path to My Data](./imgs/settingpath-1.png)
 
-
-
 ### Path to My Projects { #myprojects }
 
 For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
@@ -38,6 +36,5 @@ For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/proje
 Replace <strong>&lt;NEES-XXXX-XXXX.groups&gt;</strong> with the NEES project number. You can find the NEES project number by examining the URL in Published (NEES), see figure below.
 
 ![Path to Published (NEES)](./imgs/settingpath-4.png)
-
 
 <strong>If you have any issues setting the path to DesignSafe on Corral, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
