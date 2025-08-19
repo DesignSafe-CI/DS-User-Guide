@@ -43,6 +43,9 @@ Confirm whether these changes affect M. Esteva!
     - _non-Documentation tasks_:
        - On website "Tools & Apps" overview page, make OpenFOAM "popular"
        - On website "Tools & Apps" overview page, add "Wind" to OpenFOAM as first category.
+- **Move** "DesignSafe FAQ" to "DesignSafe Essentials" section
+    - C. Jansen will update
+    - T. Cockerill will help review
 
 ### Delete
 
