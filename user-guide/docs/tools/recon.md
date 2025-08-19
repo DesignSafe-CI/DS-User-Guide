@@ -1,5 +1,3 @@
-<!-- NOTE: Not enabled in navigation -->
-
 ## Recon Portal User Guide
 
 The Recon Portal provides an interactive world map displaying natural hazard events with associated datasets. To select an event and view the available datasets, you can click on a marker on the map, browse the listing of events on the left, or use the search box above the listing of events. Datasets may be hosted in DesignSafe or may be links to other datasets available on the web.
