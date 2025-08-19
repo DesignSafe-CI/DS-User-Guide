@@ -49,7 +49,7 @@ nav:
     - Managing Your Data:
       - Overview: managingdata/datadepot.md
       - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Management Plan Template: managingdata/datamanagementplan.md
+      - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
     # WARNING: From here down, preserve URLs
     #          If URLs must change, add/use redirect plugin
