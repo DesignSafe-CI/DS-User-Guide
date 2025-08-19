@@ -40,10 +40,10 @@ When you are ready to begin uploading your own data to the Data Depot or want to
 
 There are 2 ways to invoke the onboarding:
 
-1. Navigate to the Data Depot.
-2. Navigate to Tools & Apps, then into any of the apps and find one that uses HPC (such as OpenSeesMP) and click Get Started.
+1. Navigate to the [Data Depot](https://www.designsafe-ci.org/data/browser/).
+2. Navigate to [Tools & Apps](https://www.designsafe-ci.org/use-designsafe/tools-applications/), then into any of the apps and find one that uses HPC (such as OpenSeesMP) and click Get Started.
 
-You will be redirected to the Onboarding Setup page, and you will then want to click Request Access. While rare, we occasionally will reach out to you requesting additional information prior to approving onboarding. Approvals typically are processed within 1 business day.
+You will be redirected to the Onboarding Setup page, and you will then want to click **Request Access**. While rare, we occasionally will reach out to you requesting additional information prior to approving onboarding. Approvals typically are processed within 1 business day.
 
 ## Request Allocations { #requestallocations }
 
