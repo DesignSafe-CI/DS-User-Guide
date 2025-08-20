@@ -46,8 +46,6 @@ nav:
   - DesignSafe Data Depot:
     - Overview: datadepot.md
     - Transferring Your Data: managingdata/datatransfer.md
-    - Managing Your Data:
-      - Overview: managingdata/datadepot.md
     # WARNING: From here down, preserve URLs
     #          If URLs must change, add/use redirect plugin
     - Steps to Curate and Publish Your Datasets: curating/guides.md
