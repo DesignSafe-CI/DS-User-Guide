@@ -162,7 +162,7 @@ Globus will email you when the transfer is complete.
 
 ---
 
-## Globus CLI Automated Data Transfer Guide { #globuscli }
+## Globus CLI Automated Transfer Guide { #globuscli }
 
 Globus provides a command line interface (CLI), for those who need to perform automated data transfers. This data transfer method will likely be of most use to NHERI centers that need to bulk upload their data on a schedule.
 
