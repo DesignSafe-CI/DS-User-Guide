@@ -1,6 +1,6 @@
 # Steps to Curate and Publish Your Datasets
 
-We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [<del>**Hybrid Simulation**<del>](#hybrid), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
+We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
 ## Experimental
 
@@ -280,13 +280,6 @@ In **Order Authors**, order the authors of the simulation and preview how your c
 In **Licenses**, select one or more licenses that best fit your data.
 
 Finally, click **Request DOI & Publish** and agree to the agreement to publish your work.
-
----
-
-## Hybrid Simulation { #hybrid }
-
-!!! important "Not Yet Written"
-    If you need help, please [create a ticket](https://designsafe-ci.org/help){ target="_blank" } or contact us during our [virtual office hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/).
 
 ---
 
