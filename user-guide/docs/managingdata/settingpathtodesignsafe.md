@@ -10,8 +10,8 @@ For <strong>My Data</strong> set Path to <strong>/data/designsafe/mydata/&lt;use
 
 ## Path to Work { #work }
 
-The path to Work operates differently than the four locations described above. Work is a shared file system that is mounted on the compute nodes of all of the HPC systems at TACC. While the four other data locations require authentication to data.tacc.utexas.edu, Work is accessed by first authenticating to one of TACC's HPC systems with hostname <hpc_system_name>.tacc.utexas.edu, replacing <strong><hpc_system_name></strong> with the name of the HPC system to which you want to authenticate.
-Once you have authenticated to an HPC system, you will want to execute the change directory command CD $WORK which will set you in your Work file path <strong>/work/numeric_identifier/&lt;username&gt;/<hpc_system_name></strong> where <strong>&lt;username&gt;</strong> is your username and <strong><hpc_system_name></strong> is the name of the HPC system to which you have authenticated.  
+The path to Work operates differently than the four locations described above. Work is a shared file system that is mounted on the compute nodes of all of the HPC systems at TACC. While the four other data locations require authentication to data.tacc.utexas.edu, Work is accessed by first authenticating to one of TACC's HPC systems with hostname &lt;hpc_system_name&gt;.tacc.utexas.edu, replacing <strong>&lt;hpc_system_name&gt;</strong> with the name of the HPC system to which you want to authenticate.
+Once you have authenticated to an HPC system, you will want to execute the change directory command CD $WORK which will set you in your Work file path <strong>/work/numeric_identifier/&lt;username&gt;/&lt;hpc_system_name&gt;</strong> where <strong>&lt;username&gt;</strong> is your username and <strong>&lt;hpc_system_name&gt;</strong> is the name of the HPC system to which you have authenticated.  
 
 ## Path to My Projects { #myprojects }
 
