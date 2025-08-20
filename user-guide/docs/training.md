@@ -44,6 +44,14 @@ Accelerating Python using Cython, Numba and JAX
 Optimize your Python code performance using various acceleration techniques. Learn to use Cython for C-level performance, Numba for just-in-time compilation, and JAX for automatic differentiation and parallelization. Includes practical examples and performance comparisons.
             </p>
         </a>
+        <a class="card--plain" href="https://silviamazzoni.github.io/training-OpenSees-on-DesignSafe" target="_blank">
+            <h3>
+OpenSees on DesignSafe
+            </h3>
+            <p>
+Learn to use OpenSees to develop, run, and scale structural simulations on DesignSafe. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
+            </p>
+        </a>
     </div>
 </section>
 
