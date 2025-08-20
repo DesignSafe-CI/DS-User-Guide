@@ -68,6 +68,10 @@ DesignSafe provides the ability to directly transfer data to and from a cloud st
 
 ---
 
+{% include-markdown './settingpathtodesignsafe.md' heading-offset=1 %}
+
+---
+
 ## Globus Data Transfer Guide { #globus }
 
 Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
@@ -506,7 +510,7 @@ _**Note:** Depending on how you have configured your browser, it will either dow
 
 If you would like to download an entire folder, please use one of the large data transfer methods listed in this guide.
 
-## Cloud Storage Services { #cloud }
+## Cloud Storage Transfer { #cloud }
 
 DesignSafe provides users the capability to connect to a cloud storage provider.
 
