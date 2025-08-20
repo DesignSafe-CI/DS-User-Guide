@@ -2,7 +2,7 @@
 
 File paths are needed when using any of the [data transfer methods](/user-guide/managingdata/datatransfer/) that are external to the Data Depot's web-based transfers.  The data stored on DesignSafe resides mostly on the large shared data resource [Corral](https://docs.tacc.utexas.edu/hpc/corral/) located at the University of Texas, Texas Advanced Computing Center (TACC). The Data Depot also provides access to your files that are stored in TACC's Stockyard data resource that is home to the Work file system which is mounted to all compute nodes on the HPC resources. Importantly, Corral services many different projects, not only DesignSafe, and as such utilizes a complex file structure for organization. The purpose of this documentation is to explain how to navitage this complex file structure to locate the directories pertinent to your data transfer needs on DesignSafe. 
 
-There are five main locations for data transfers on DesignSafe: <a href="#mydata">My Data</a>, <a href="#work">Work</a>, <a href="#myprojects">My Projects</a>, <a href="#published-nheri">Published</a>, and <a href="#published-nees">Published (NEES)</a>, they are each presented in detail below. If you have any issues setting the file paths, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)
+There are five main locations for data transfers on DesignSafe: <a href="#mydata">My Data</a>, <a href="#work">Work</a>, <a href="#myprojects">My Projects</a>, <a href="#published-nheri">Published</a>, and <a href="#published-nees">Published (NEES)</a>, they are each presented in detail below. If you have any issues setting the file paths, please [create a ticket](https://designsafe-ci.org/help).
 
 ## Path to My Data { #mydata }
 
