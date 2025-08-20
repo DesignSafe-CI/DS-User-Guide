@@ -4,9 +4,9 @@ DesignSafe supports multiple ways of moving data in and out of the Data Depot, t
 
 This document provides a brief description of the various methods available for moving data to and from DesignSafe to assist you in identifying the right data transfer method for your research needs. Once you have selected your data transfer method, each description concludes with a link to detailed instructions for initiating your transfer.
 
-## Recommended Methods { #recommended }
+## Recommended Data Transfer Methods { #recommended }
 
-### for Large Datasets { #recommended-largedatatransfer }
+### Recommended Large Data Transfer Methods { #recommended-largedatatransfer }
 
 We define a large data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
 
@@ -37,14 +37,14 @@ Common command-line utilities, such as `scp` and `rsync`, may also be used to tr
 
 ///
 
-### for Normal Datasets { #recommended-normaldatatransfer }
+### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer }
 
 We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
 
 /// html | article.card--plain
     markdown: block
 
-**1. [Data Depot via Web Browser](#datadepotbrowser)**
+**1. [Data Depot's Browser-Based Interface](#datadepotbrowser)**
 
 The Data Depot's browser interface allows you to conveniently upload and download small quantities of data as well as move and copy data between directories.
 
@@ -52,7 +52,7 @@ The Data Depot's browser interface allows you to conveniently upload and downloa
 /// html | article.card--plain
     markdown: block
 
-**2. [JupyterHub via Web Browser](#jupyterbrowser)**
+**2. [JupyterHub's Browser-Based Interface](#jupyterbrowser)**
 
 Similar to the Data Depot's browser interface, the DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data.
 
@@ -68,7 +68,7 @@ DesignSafe provides the ability to directly transfer data to and from a cloud st
 
 ---
 
-## Globus { #globus data-subtitle="Data Transfer Guide" }
+## Globus Data Transfer Guide { #globus }
 
 Globus supplies high speed, reliable, and asynchronous transfers to DesignSafe. Once setup, Globus will allow you to not only transfer files to and from DesignSafe, but also other cyberinfrastructure resources at TACC and other research centers. While the setup of Globus can take slightly longer than the other transfer methods, it only needs to be performed once, making later transfers as fast (if not faster due to Globus' superior speed) than the other methods. For these reasons, Globus is the recommend approach for moving large quantities of data to and from DesignSafe.
 
@@ -162,7 +162,7 @@ Globus will email you when the transfer is complete.
 
 ---
 
-## Globus CLI { #globuscli data-subtitle="Automated Data Transfer Guide" }
+## Globus CLI Automated Data Transfer Guide { #globuscli }
 
 Globus provides a command line interface (CLI), for those who need to perform automated data transfers. This data transfer method will likely be of most use to NHERI centers that need to bulk upload their data on a schedule.
 
@@ -272,7 +272,7 @@ An example cron table entry that you can use to automatically run your transfer 
 
 ---
 
-## Cyberduck { #cyberduck data-subtitle="Data Transfer Guide" }
+## Cyberduck Data Transfer Guide { #cyberduck }
 
 Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows you to securely connect from your laptop to DesignSafe and other Texas Advanced Computing Center (TACC) resources.
 
@@ -324,7 +324,7 @@ To download files, select the file(s) you wish to download. Select "File" &gt; "
 
 ---
 
-## Command Line Interface { #cli data-subtitle="Data Transfer Guide" }
+## Command-Line Data Transfer Guide { #cli }
 
 Common command-line utilities, such as `scp` and `rsync`, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users as you will need to learn unix commands. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
@@ -398,7 +398,7 @@ man rsync
 
 ---
 
-## Data-Depot Web Browser { #datadepotbrowser data-subtitle="Data Transfer Guide" }
+## Data Depot's Browser-Based Data Transfer Guide { #datadepotbrowser }
 
 The Data Depot's browser interface allows you to conveniently upload and download small quantities of data (&lt; 100 MB, &lt; 25 files, &lt; 2 folders) as well as move and copy data between directories.
 
@@ -462,7 +462,7 @@ _**Note:** You cannot move files between main directories, such as My Data and M
 
 ---
 
-## JupyterHub Web Browser { #jupyterhubbrowser data-subtitle="Data Transfer Guide" }
+## JupyterHub's Browser-Based Data Transfer Guide { #jupyterhubbrowser }
 
 The DesignSafe JupyterHub provides a convenient way to upload and download small amounts of data (&lt; 100 MB, &lt; 25 files).
 
