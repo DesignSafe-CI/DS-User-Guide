@@ -49,7 +49,7 @@ Optimize your Python code performance using various acceleration techniques. Lea
 OpenSees on DesignSafe
             </h3>
             <p>
-Learn to use OpenSees to develop, run, and scale structural simulations on DesignSafe. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
+Learn to use OpenSees to develop, run, and scale structural & geotechnical simulations on DesignSafe/TACC. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
             </p>
         </a>
     </div>
