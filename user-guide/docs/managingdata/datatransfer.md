@@ -6,9 +6,9 @@ This document provides a brief description of the various methods available for 
 
 ## Recommended Data Transfer Methods { #recommended }
 
-### Recommended Large Data Transfer Methods { #recommended-largedatatransfer }
+### Recommended LARGE Data Transfer Methods { #recommended-largedatatransfer }
 
-We define a large data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
+We define a "**large**" data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
 
 /// html | article.card--plain
     markdown: block
@@ -37,9 +37,9 @@ Common command-line utilities, such as `scp` and `rsync`, may also be used to tr
 
 ///
 
-### Recommended Normal Data Transfer Methods { #recommended-normaldatatransfer }
+### Recommended NORMAL Data Transfer Methods { #recommended-normaldatatransfer }
 
-We define a "normal" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
+We define a "**normal**" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
 
 /// html | article.card--plain
     markdown: block
