@@ -4,6 +4,14 @@ DesignSafe-CI offers a suite of training resources aimed at equipping researcher
 
 <section class="section--light">
     <div class="grid">
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/training-OpenSees-on-DesignSafe" target="_blank">
+            <h3>
+OpenSees on DesignSafe
+            </h3>
+            <p>
+Learn to use OpenSees to develop, run, and scale structural & geotechnical simulations on DesignSafe/TACC. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
+            </p>
+        </a>
         <a class="card--plain" href="https://DesignSafe-CI.github.io/training-deeponet" target="_blank">
             <h3>
 DeepONet Training
@@ -42,14 +50,6 @@ Accelerating Python using Cython, Numba and JAX
             </h3>
             <p>
 Optimize your Python code performance using various acceleration techniques. Learn to use Cython for C-level performance, Numba for just-in-time compilation, and JAX for automatic differentiation and parallelization. Includes practical examples and performance comparisons.
-            </p>
-        </a>
-        <a class="card--plain" href="https://silviamazzoni.github.io/training-OpenSees-on-DesignSafe" target="_blank">
-            <h3>
-OpenSees on DesignSafe
-            </h3>
-            <p>
-Learn to use OpenSees to develop, run, and scale structural & geotechnical simulations on DesignSafe/TACC. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
             </p>
         </a>
     </div>
