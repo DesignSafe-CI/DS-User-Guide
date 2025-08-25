@@ -133,8 +133,6 @@ Users can tag folders and  files for ease of data comprehension and reuse by ot
 
 Well-written titles, keywords, and descriptions are key for understanding, discovery, and marketing of your research. Here are some tips to craft ones:
 
-### Project Level Titles
-
 Except for the data type "Other," the Data Depot Repository (DDR) requires titles at both the project level and the dataset level (mission, experiment, simulation, hybrid simulation). The dataset level title serves as the primary citation title, while the project title functions as a complementary secondary title. The citation format is shown below:
 
 Author/s (year of publication). "Dataset Title", in Project title 
