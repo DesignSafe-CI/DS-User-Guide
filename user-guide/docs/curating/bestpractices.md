@@ -1,5 +1,11 @@
 # Best Practices for Data Curation and Publication
 
+## What is Data Curation?
+
+Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication [FAIR](https://www.go-fair.org/fair-principles/) and assuring that it will be useful for generations to come.
+
+Step-by-step data curation instructions can be found in [How to Curate Data?](/user-guide/curating/guides.md), and we strongly recommend following the onboarding instructions in the My Project curation and publication interface. We are available for additional help during our [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) and via [help tickets](https://www.designsafe-ci.org/help/submit-ticket/). The [DDR Policies](/user-guide/curating/policies/) communicate requirements for managing and publishing data. General curation best practices exist for [Curation Quality](/user-guide/curating/bestpractices/#curation-quality) and [Curating Various Types of Research Data](/user-guide/curating/bestpractices/#curating-various-types-of-research-data).
+
 ## Curation Quality 
 
 Curation quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
@@ -277,11 +283,3 @@ Users can click a “Leave Feedback” button on the projects’ landing pages t
 * Requests to access restricted data if the authors authorize it. 
 * Issues related to published code that is not working properly.
 * Congratulations.
-
-
-
-# What is Data Curation?
-
-Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication [FAIR](https://www.go-fair.org/fair-principles/) and assuring that it will be useful for generations to come.
-
-Step-by-step data curation instructions can be found in [How to Curate Data?](/user-guide/curating/guides.md), and we strongly recommend following the onboarding instructions in the My Project curation and publication interface. We are available for additional help during our [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) and via [help tickets](https://www.designsafe-ci.org/help/submit-ticket/). The [DDR Policies](/user-guide/curating/policies/) communicate requirements for managing and publishing data. General curation best practices exist for [Curation Quality](/user-guide/curating/bestpractices/#curation-quality) and [Curating Various Types of Research Data](/user-guide/curating/bestpractices/#curating-various-types-of-research-data).
