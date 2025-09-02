@@ -97,10 +97,10 @@ Users who access, preview, download or reuse data and metadata from the DesignSa
 * Users will not use the data in any way prohibited by applicable laws, distribution licenses, and permissions explicit in the dataset publication landing page.
 * The data are provided “as is,” and its use is at the users' risk. While the DDR promotes data and metadata quality, the datasets authors and publishers do not guarantee that:
 
-1. the materials are accurate, complete, reliable or correct;
-2. any defects or errors will be corrected;
-3. the materials and accompanying files are free of viruses or other harmful components; or
-4. the results of using the data will meet the user’s requirements.
+    1. the materials are accurate, complete, reliable or correct;
+    2. any defects or errors will be corrected;
+    3. the materials and accompanying files are free of viruses or other harmful components; or
+    4. the results of using the data will meet the user’s requirements.
 
 * Use of data in the DDR abides by  DesignSafe's  Personal Data Privacy Policy. The DDR does not gather IP addresses about public users that preview or download files from the DDR. The system logs file actions completed by registered users in the DDR including previewing, downloading or copying published data to My Data or My Projects. This  information is only used in aggregate for metrics purposes and is not linked to the user’s identity.
 * Users should not obtain personal information associated with DDR data that results in directly or indirectly identifying research subjects, individuals, or organizations with the aid of other information acquired elsewhere.
