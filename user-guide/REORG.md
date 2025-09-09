@@ -38,17 +38,19 @@ Confirm whether these changes affect M. Esteva!
 ### Rearrange
 
 - **Move** "Simulation Apps" up into "Tools & Apps".
-- **Reorder** "Tools & Apps" to match website's "Tools & Apps" overview page.
+- **Reorder** "Tools & Apps" to match [website's "Tools & Apps" overview page][web-ta-page].
 - **Move** "Citing DesignSafe" to bottom of "DesignSafe Essentials" section as "How to Cite DesignSafe".
 - **Put** "Popular" tools and apps as their own item in "Tools & Apps" (like Jupyter).
     - **Move** "Popular" items to top of "Tools & Apps"
     - **Order** "Popular" apps: 1) OpenSees, 2) ADCIRC, 3) OpenFOAM, 4) Jupyter, 5) MATLAB.
     - _non-Documentation tasks_:
-       - On website "Tools & Apps" overview page, make OpenFOAM "popular"
-       - On website "Tools & Apps" overview page, add "Wind" to OpenFOAM as first category.
+       - On [website "Tools & Apps" overview page][web-ta-page], make OpenFOAM "popular"
+       - On [website "Tools & Apps" overview page][web-ta-page], add "Wind" to OpenFOAM as first category.
 - **Move** "DesignSafe FAQ" to "DesignSafe Essentials" section
     - C. Jansen will update
     - T. Cockerill will help review
+
+[web-ta-page]: https://www.designsafe-ci.org/use-designsafe/tools-applications/
 
 ### Delete
 
