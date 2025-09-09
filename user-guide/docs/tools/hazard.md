@@ -1,4 +1,4 @@
-# Hazard Apps
+# Hazard Tools & Apps
 
 {% include-markdown 'hazard/hazardapps.md' %}
 

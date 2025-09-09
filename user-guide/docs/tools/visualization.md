@@ -1,4 +1,4 @@
-# Visualization Applications
+# Visualization Tools & Apps
 
 **Requesting New Applications**: DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by [submitting a help ticket](/help/new-ticket/){target="_blank"} if you would like to request the addition of a software application to the Workspace.
 
