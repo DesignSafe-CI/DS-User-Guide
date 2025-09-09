@@ -1,39 +1,43 @@
-# Setting Path to DesignSafe on Corral
+# Setting File Paths for DesignSafe 
 
-The data stored on DesignSafe resides on the large (40 PB), shared data resource Corral located at the Texas Advanced Computing Center. Importantly, Corral services many different projects, not only DesignSafe, and as such utilizes a complex file structure for organization. The purpose of this documentation is to explain how to navitage this complex file structure to locate the directories pertinent to your [data transfer needs on DesignSafe](/user-guide/managingdata/datatransfer/).
+File paths are needed when using any of the [data transfer methods](/user-guide/managingdata/datatransfer/) that are external to the Data Depot's web-based transfers.  The data stored on DesignSafe resides mostly on the large shared data resource [Corral](https://docs.tacc.utexas.edu/hpc/corral/) located at the University of Texas, Texas Advanced Computing Center (TACC). The Data Depot also provides access to your files that are stored in TACC's Stockyard data resource that is home to the Work file system which is mounted to all compute nodes on the HPC resources. Importantly, Corral services many different projects, not only DesignSafe, and as such utilizes a complex file structure for organization. The purpose of this documentation is to explain how to navigate this complex file structure to locate the directories pertinent to your data transfer needs on DesignSafe. 
 
-There are four main locations for data transfers on DesignSafe: <a href="#mydata">My Data</a>, <a href="#myprojects">My Projects</a>, <a href="#published-nheri">Published</a>, and <a href="#published-nees">Published (NEES)</a>, they are each presented in detail below.
+There are five main locations for data transfers on DesignSafe — [My Data](#mydata), [Work](#work), [My Projects](#myprojects), [Published](#published-nheri), [Published (NEES)](#published-nees) — each presented in detail below.
 
 ## Path to My Data { #mydata }
 
-For <strong>My Data</strong> set Path to <strong>/data/designsafe/mydata/&lt;username&gt;/</strong>
+1. Set Path to `/data/designsafe/mydata/<username>/`.
+2. Replace `<username>` with your username.
+    <br><small>The hostname for the location is data.tacc.utexas.edu.</small>
 
-Replace <strong>&lt;username&gt;</strong> with your username. You can find your username by examining the URL in My Data, see figure below.
+## Path to Work { #work }
 
-![Path to My Data](./imgs/settingpath-1.png)
+The path to Work operates differently than the other locations described above. Work is a shared file system that is mounted on the compute nodes of all of the HPC systems at TACC.
+
+1. Authenticate to one of TACC's HPC systems with hostname `<hpc_system_name>.tacc.utexas.edu`.
+2. Replace `<hpc_system_name>` with the name of the HPC system to which you want to authenticate.
+3. Execute the change directory command `CD $WORK` to navigate to your Work file path.
+    <br><small>This will set you in your Work file path `/work/numeric_identifier/<username>/<hpc_system_name>` where `<username>` is your username and `<hpc_system_name>` is the name of the HPC system to which you have authenticated.</small>  
 
 ## Path to My Projects { #myprojects }
 
-For <strong>My Projects</strong> set Path to <strong>/corral/projects/NHERI/projects/&lt;project-uid&gt;/</strong>
-
-Replace <strong>&lt;project-uid&gt;</strong> with your projects unique identifier (UID). You can find your projects UID by clicking the <strong>Learn how to transfer data to this project</strong> button, see figure below.
-
-![Path to My Projects](./imgs/settingpath-2.png)
+1. Set Path to `/corral/projects/NHERI/projects/<project-uuid>/`.
+2. Replace `<project-uuid>` with the project's universally unique identifier (UUID).
+    <br><small>You can find your project's UUID by clicking the blue text just below the Description of your project <strong>Learn how to transfer data to this project</strong>. The hostname for the location is data.tacc.utexas.edu.</small>
 
 ## Path to Published { #published-nheri }
 
-For <strong>Published </strong>DesignSafe projects set Path to <strong>/corral/projects/NHERI/published/&lt;PRJ-XXXX&gt;</strong>
-
-Replace <strong>&lt;PRJ-XXXX&gt;</strong> with your project's number. You can find your project number by examining the URL in Published, see figure below.
-
-![Path to Published](./imgs/settingpath-3.png)
+1. Set Path to `/corral/projects/NHERI/published/<PRJ-XXXX>`.
+2. Replace `<PRJ-XXXX>` with the project's number.
+    <br><small>The hostname for the location is data.tacc.utexas.edu.</small>
 
 ## Path to Published (NEES) { #published-nees }
 
-For <strong>Published (NEES)</strong> projects set Path to <strong>/corral/projects/NHERI/public/projects/&lt;NEES-XXXX-XXXX.groups&gt;</strong>
+1. Set Path to `/corral/projects/NHERI/public/projects/<NEES-XXXX-XXXX.groups>`.
+2. Replace `<NEES-XXXX-XXXX.groups>` with the NEES project number.
+    <br><small>The hostname for the location is data.tacc.utexas.edu.</small>
 
-Replace <strong>&lt;NEES-XXXX-XXXX.groups&gt;</strong> with the NEES project number. You can find the NEES project number by examining the URL in Published (NEES), see figure below.
+!!! note
+    If you have any issues setting the file paths, please [create a ticket](https://designsafe-ci.org/help){ target="_blank" }.
 
-![Path to Published (NEES)](./imgs/settingpath-4.png)
 
-<strong>If you have any issues setting the path to DesignSafe on Corral, please create a ticket (<a href="https://designsafe-ci.org/help">https://designsafe-ci.org/help</a>)</strong>.
