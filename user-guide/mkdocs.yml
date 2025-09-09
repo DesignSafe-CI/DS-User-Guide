@@ -38,10 +38,11 @@ plugins:
 
 nav:
   - DesignSafe Essentials:
-    - Documentation Overview: overview.md
     - Getting Started: index.md
     - Account Help: account-help.md
     - Training Resources: training.md
+    - DesignSafe FAQ: tools/advanced/dsfaq.md
+    - How to Cite DesignSafe: how-to-cite.md
 
   - DesignSafe Data Depot:
     - Overview: datadepot.md
@@ -143,6 +144,5 @@ nav:
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
-    - DesignSafe FAQ: tools/advanced/dsfaq.md
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
 
