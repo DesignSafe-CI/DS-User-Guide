@@ -60,7 +60,7 @@ nav:
     - Policies: curating/policies.md
 
   - Tools and Apps:
-    - Popular Applications:
+    - Popular:
       - OpenSees: tools/simulation/opensees/opensees.md
       - ADCIRC: tools/simulation/adcirc/adcirc.md
       - OpenFoam: tools/simulation/openfoam.md

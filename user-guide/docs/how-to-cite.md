@@ -8,4 +8,4 @@ Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., 
 
 ## Additional Citation Information
 
-For additional information about citing DesignSafe, including how to cite specific data sets and tools, please refer to the [Citing DesignSafe section in our FAQ](tools/advanced/dsfaq.md#faq-citation).
+For additional information about citing DesignSafe, including how to cite specific data sets and tools, please contact the DesignSafe team or refer to our comprehensive documentation.
