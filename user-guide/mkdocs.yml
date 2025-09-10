@@ -84,7 +84,7 @@ nav:
       - "Taggit: Grouping and Tagging Image Files": tools/visualization/taggit-categorize.md
     - Visualization: tools/visualization.md
     - Hazard Apps: tools/hazard.md
-    - Utility: tools/utilities.md
+    - Utilities: tools/utilities.md
 
   - Recon Portal:
     - Recon Portal User Guide: tools/recon.md
