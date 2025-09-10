@@ -1,4 +1,4 @@
-# Visualization Applications
+# Visualization Tools & Apps
 
 **Requesting New Applications**: DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by [submitting a help ticket](/help/new-ticket/){target="_blank"} if you would like to request the addition of a software application to the Workspace.
 
@@ -12,7 +12,7 @@
 
 ---
 
-{% include-markdown 'visualization/hazmapper.md' %}
+{% include-markdown 'visualization/_redirect-hazmapper.md' %}
 
 ---
 
@@ -32,15 +32,15 @@
 
 ---
 
-{% include-markdown 'visualization/qgis.md' %}
+{% include-markdown 'visualization/_redirect-qgis.md' %}
 
 ---
 
-{% include-markdown 'visualization/taggit-browse-map.md' %}
+{% include-markdown 'visualization/_redirect-taggit-browse-map.md' %}
 
 ---
 
-{% include-markdown 'visualization/taggit-categorize.md' %}
+{% include-markdown 'visualization/_redirect-taggit-categorize.md' %}
 
 ---
 

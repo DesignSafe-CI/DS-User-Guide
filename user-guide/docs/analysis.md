@@ -1,4 +1,4 @@
-# Analysis Applications
+# Analysis Tools & Applications
 
 **Requesting New Applications**: DesignSafe regularly adds new software applications in support of natural hazards engineering research. You may contact DesignSafe by submitting a help ticket if you would like to request the addition of a software application to the Workspace.
 
@@ -8,11 +8,15 @@
 
 ---
 
-{% include-markdown 'analysis/hvsrweb.md' %}
+{% include-markdown 'tools/jupyterhub.md' heading-offset=1 %}
 
 ---
 
 {% include-markdown 'analysis/matlab.md' %}
+
+---
+
+{% include-markdown 'analysis/hvsrweb.md' %}
 
 <!--
 ---
