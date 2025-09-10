@@ -78,7 +78,7 @@ nav:
       - OpenSees : tools/simulation/opensees/opensees.md
     - Analysis: analysis.md
     - Visualization: tools/visualization.md
-    - Hazard: tools/hazard.md
+    - Hazard Apps: tools/hazard.md
     - Utility: tools/utilities.md
 
   - Recon Portal:
