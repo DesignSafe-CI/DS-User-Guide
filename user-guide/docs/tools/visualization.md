@@ -12,7 +12,7 @@
 
 ---
 
-{% include-markdown 'visualization/hazmapper.md' %}
+{% include-markdown 'visualization/_redirect-hazmapper.md' %}
 
 ---
 
@@ -32,15 +32,15 @@
 
 ---
 
-{% include-markdown 'visualization/qgis.md' %}
+{% include-markdown 'visualization/_redirect-qgis.md' %}
 
 ---
 
-{% include-markdown 'visualization/taggit-browse-map.md' %}
+{% include-markdown 'visualization/_redirect-taggit-browse-map.md' %}
 
 ---
 
-{% include-markdown 'visualization/taggit-categorize.md' %}
+{% include-markdown 'visualization/_redirect-taggit-categorize.md' %}
 
 ---
 
