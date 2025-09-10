@@ -242,7 +242,7 @@ dd {
 /* To highlight active item with more than just bold */
 /* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L75-L104 */
 /* FAQ: Overrides TACC (which overrides ReadTheDocs) */
-/* TODO: Update Mkdocs-TACC */
+/* NOTE: Remove after repo uses mkdocs-tacc, cuz it has this style */
 .wy-menu-vertical li.current > a:not(:has(+ ul li.current)) {
     background: #e3e3e3; /* copied from TACC's .wy-menu-vertical a:hover */
 }
