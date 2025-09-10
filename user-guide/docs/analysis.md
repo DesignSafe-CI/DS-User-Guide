@@ -8,6 +8,10 @@
 
 ---
 
+{% include-markdown 'tools/jupyterhub.md' heading-offset=1 %}
+
+---
+
 {% include-markdown 'analysis/hvsrweb.md' %}
 
 ---
