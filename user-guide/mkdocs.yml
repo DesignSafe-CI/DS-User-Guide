@@ -60,12 +60,13 @@ nav:
     - Policies: curating/policies.md
 
   - Tools and Apps:
-    - Analysis Apps: analysis.md
-    - Jupyter: tools/jupyterhub.md
-    - Hazard Apps: tools/hazard.md
-    - Utility Apps: tools/utilities.md
-    - Visualization Apps: tools/visualization.md
-    - Simulation Apps:
+    - Popular:
+      - OpenSees: tools/simulation/opensees/opensees.md
+      - ADCIRC: tools/simulation/adcirc/adcirc.md
+      - OpenFoam: tools/simulation/openfoam.md
+      - Jupyter: tools/jupyterhub.md
+      - MATLAB: analysis/matlab.md
+    - Simulation:
       - Overview: tools/simulation/overview.md
       - ADCIRC: tools/simulation/adcirc/adcirc.md
       - Ansys: tools/simulation/ansys.md
@@ -75,6 +76,10 @@ nav:
       - LS-DYNA: tools/simulation/lsdyna.md
       - OpenFoam: tools/simulation/openfoam.md
       - OpenSees : tools/simulation/opensees/opensees.md
+    - Analysis: analysis.md
+    - Visualization: tools/visualization.md
+    - Hazard: tools/hazard.md
+    - Utility: tools/utilities.md
 
   - Recon Portal:
     - Recon Portal User Guide: tools/recon.md
