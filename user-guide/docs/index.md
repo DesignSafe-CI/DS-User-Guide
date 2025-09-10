@@ -45,9 +45,13 @@ There are 2 ways to invoke the onboarding:
 
 You will be redirected to the Onboarding Setup page, and you will then want to click **Request Access**. While rare, we occasionally will reach out to you requesting additional information prior to approving onboarding. Approvals typically are processed within 1 business day.
 
+## Slack & Email Communications
+
+Upon completion of Initial Onboarding you will be invited to join our [Slack team](https://designsafe-ci.slack.com/) and you will be added to our mail list to receive email announcements. To prevent NHERI email announcements from being filtered as Junk or Spam, please add the following email addresses to your contacts: nheri-nco@nheri-network.org, announcements@nheri-network.org.
+
 ## Request Allocations { #requestallocations }
 
-DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these (such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)) and clicking on "Get Started", you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one. Please provide the following information in your allocation request:
+DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these (such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)) and clicking on "Get Started", you will see a banner informing you to [submit a ticket](https://designsafe-ci.org/help/new-ticket/) requesting an allocation if you don't already have one. Please provide the following information in your allocation request:
 
 1. Provide a paragraph describing your research topic, including which of the DesignSafe Tools & Apps you anticipate using.
 2. If you are faculty, please provide a link to your web page.
