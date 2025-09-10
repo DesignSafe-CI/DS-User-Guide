@@ -83,7 +83,7 @@ nav:
       - "Taggit: Basic Image Browsing and Mapping": tools/visualization/taggit-browse-map.md
       - "Taggit: Grouping and Tagging Image Files": tools/visualization/taggit-categorize.md
     - Visualization: tools/visualization.md
-    - Hazard: tools/hazard.md
+    - Hazard Apps: tools/hazard.md
     - Utility: tools/utilities.md
 
   - Recon Portal:
