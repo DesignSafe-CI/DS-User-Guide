@@ -47,7 +47,7 @@ You will be redirected to the Onboarding Setup page, and you will then want to c
 
 ## Slack & Email Communications
 
-Upon completion of Initial Onboarding you will be invited to join our [Slack team](https://designsafe-ci.slack.com/) and you will be added to our mail list to receive email announcements. To prevent NHERI email announcements from being filtered as Junk or Spam, please add the following email addresses to your contacts: nheri-nco@nheri-network.org, announcements@nheri-network.org.
+Upon completion of Initial Onboarding you will be invited to join our [Slack team](https://designsafe-ci.slack.com/) and you will be added to our mail list to receive email announcements. To prevent NHERI email announcements from being filtered as Junk or Spam, please add the following email addresses to your contacts: [nheri-nco@nheri-network.org](mailto:nheri-nco@nheri-network.org), [announcements@nheri-network.org](mailto:announcements@nheri-network.org).
 
 ## Request Allocations { #requestallocations }
 
