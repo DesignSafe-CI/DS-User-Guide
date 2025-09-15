@@ -1,4 +1,4 @@
-## Hazmapper User Guide
+## Hazmapper
 
 **Version 2.8**
 

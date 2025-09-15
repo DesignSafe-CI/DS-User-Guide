@@ -1,4 +1,4 @@
-## TPU Wind Databases User Guide { #tpu }
+## TPU Wind Databases { #tpu }
 
 This is a link to a collection of aerodynamic databases for isolated and non-isolated low-rise and tall buildings from wind tunnel tests by the Tokyo Polytechnic University, The School of Architecture &amp; Wind Engineering. <em><strong>Clicking the link will leave DesignSafe and take you to the TPU website.</strong></em>
 

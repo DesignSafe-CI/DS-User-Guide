@@ -1,4 +1,5 @@
-## Kalpana User Guide
+## Kalpana
+<a name="kaplana-user-guide"></a><!-- old heading name/id -->
 
 !!! note
 	Kalpana is **temporarily unavailable**. It is being updated.

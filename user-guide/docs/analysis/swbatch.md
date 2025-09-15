@@ -1,4 +1,5 @@
-## SWbatch User Guide
+## SWbatch
+<a name="swbatch-user-guide"></a>
 
 <code>SWbatch</code> is a user-friendly, web-based application for performing batch-style surface wave inversions using the Dinver module of the open-source software <a href="http://geopsy.org/" rel="nofollow">Geopsy</a>. <code>SWbatch</code> allows the user to rapidly and conveniently invert experimental dispersion data considering multiple inversion parameterizations to address the problem’s non-uniqueness and multiple trials per parameterization to address the problem’s nonlinearity as detailed in the SWinvert workflow (Vantassel and Cox, 2020). To facilitate the potentially large amounts of pre- and post-processing required when performing batch surface-wave inversions a Python package, <code>SWprepost</code>, (Vantassel, 2020) has been released open-source. More information about <code>SWprepost</code> can be found on its <a href="https://github.com/jpvantassel/swprepost">GitHub</a> page.
 

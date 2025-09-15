@@ -1,4 +1,4 @@
-## Hurricane Data Analysis User Guide { #hurricane }
+## Hurricane Data Analysis { #hurricane }
 
 The Hurricane Data Analysis (HDA) is a graphical user interface (GUI) MATLAB program used to convert sensor raw data to physical data. The hurricane Matthew data was collected by deploying a Wireless Sensor Network system on the roof of a Satellite Beach, Florida house. The wireless system measured the pressure distribution over the roof top. The wind speed and wind direction data were obtained from the FCMP tower and Melbourne airport weather station. The pressure data is analyzed by selecting optimum sample period which yielded a steady value for the peak suction pressure. This averaging time was found to be around 300 seconds. The RMS pressure fluctuations are quantified with respect to the 300-second mean pressure. The mean pressure data correlated well with the wind speed data and the mathematical expressions are developed for different segments, before hurricane, during hurricane and after hurricane.
 

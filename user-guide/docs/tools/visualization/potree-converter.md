@@ -1,4 +1,5 @@
-## Potree Converter User Guide
+## Potree Converter
+<a name="potree-converter-user-guide"></a><!-- old heading name/id -->
 
 The Potree Converter converts point clouds to a format compatible with the Potree Viewer. Several options are available for you to customize your conversion, and can be found on the Potree Converter Github site.
 

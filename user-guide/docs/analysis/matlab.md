@@ -1,4 +1,5 @@
-## MATLAB User Guide
+## MATLAB
+<a name="matlab-user-guide"></a>
 
 DesignSafe is able to provide access to the popular licensed software MATLAB to academic researchers via our license with Mathworks. You can request access to our licensed MATLAB, and we first verify that you are a researcher at an academic institution before providing you access.
 
