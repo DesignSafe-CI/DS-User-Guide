@@ -16,10 +16,6 @@
 
 ---
 
-{% include-markdown 'hazard/jupyter-dedm.md' heading-offset=1 %}
-
----
-
 !!! attention "Some content has moved"
     This notice is temporary, unmaintained, and will be deleted.
 

@@ -4,3 +4,5 @@ The NatHaz Modeling Laboratory at the University of Notre Dame serves the Databa
 
 !!! attention "[VORTEX-Winds: DEDM-HR](http://evovw.ce.nd.edu/dadm/VW_design6_noauth1.html)"
     Clicking the link will leave DesignSafe and take you to the TPU website.
+
+{% include-markdown './jupyter-dedm.md' heading-offset=1 %}
