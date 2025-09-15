@@ -68,7 +68,6 @@ nav:
       - Jupyter: tools/jupyterhub.md
       - MATLAB: analysis/matlab.md
     - Simulation:
-      - Overview: tools/simulation/overview.md
       - ADCIRC: tools/simulation/adcirc/adcirc.md
       - Ansys: tools/simulation/ansys.md
       #- ClawPack: tools/simulation/clawpack.md
