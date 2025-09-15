@@ -1,9 +1,5 @@
 # Hazard Tools & Apps
 
-{% include-markdown 'hazard/overview.md' heading-offset=1 %}
-
----
-
 {% include-markdown 'hazard/hurricane.md' heading-offset=1 %}
 
 ---
