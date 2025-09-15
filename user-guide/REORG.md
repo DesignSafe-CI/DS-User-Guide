@@ -2,8 +2,7 @@
 
 ## 1. Changes to Do Now
 
-> [!IMPORTANT]
-> [Done.](https://github.com/DesignSafe-CI/DS-User-Guide/pull/172/commits/bc54a42d)
+✅ [**Done.**](https://github.com/DesignSafe-CI/DS-User-Guide/commit/bc54a42d)
 
 ### Rearrange
 
@@ -18,6 +17,8 @@
 - **Delete** "Hybrid Simulation" from "Steps to Curate and Publish".
 
 ## 2. Changes M. Esteva Should Review First
+
+✅ [**Done.**](https://github.com/DesignSafe-CI/DS-User-Guide/commit/96c44c0)
 
 Confirm whether these changes affect M. Esteva!
 
@@ -34,6 +35,8 @@ Confirm whether these changes affect M. Esteva!
 \* Freeze other "Managing Data" content until @cockerilltim's new stuff comes in.
 
 ## 3. Changes To Do Later
+
+➡️ [**In progress.**](https://github.com/DesignSafe-CI/DS-User-Guide/pull/185)
 
 ### Rearrange
 
