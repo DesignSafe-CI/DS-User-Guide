@@ -128,7 +128,11 @@ hr.spacer {
     font-size: var(--global-font-size--x-large);
     font-weight: var(--bold);
 }
-.rst-content [itemprop="articleBody"]>[id^="tacc"] header :is(h2, h3) {
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h4 + p {
+    font-size: var(--global-font-size--large);
+    font-weight: var(--bold);
+}
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header :is(h2, h3, h4) {
     font-weight: var(--regular);
     margin-bottom: -24px; /* to remove excess space between titles */
 }
@@ -140,12 +144,11 @@ hr.spacer {
 }
 /* (not using TACC theme) */
 /* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
-.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h2 + p,
-.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h3 + p {
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header :is(h2, h3, h4) + p {
     font-size: 150%;
     font-weight: 700;
 }
-.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header :is(h2, h3) {
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header :is(h2, h3, h4) {
     font-weight: unset;
     margin-bottom: -24px; /* to remove excess space between titles */
 }
@@ -153,6 +156,9 @@ hr.spacer {
     font-size: 21px;
 }
 .rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h3 {
+    font-size: 18px;
+}
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h4 {
     font-size: 16px;
 }
 
