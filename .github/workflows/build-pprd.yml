@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - fix/GH-175-changes-set-3
+      - refactor/GH-175-tools-apps-nested-nav-items
 
 jobs:
   docker:

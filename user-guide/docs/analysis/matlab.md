@@ -1,4 +1,5 @@
-## MATLAB User Guide
+# MATLAB
+<a name="matlab-user-guide"></a>
 
 DesignSafe is able to provide access to the popular licensed software MATLAB to academic researchers via our license with Mathworks. You can request access to our licensed MATLAB, and we first verify that you are a researcher at an academic institution before providing you access.
 
@@ -23,7 +24,7 @@ We provide two MATLAB applications in the Workspace:
 
 NOTE: Because MATLAB is an interactive program that you access in a GUI, you will not have the same responsiveness as running on your local laptop. We provide MATLAB as a convenience to interacting with your data in the Data Depot without having to download it to your local system, and also the version running on HPC resources is great for large datasets or heavy workloads that are too much for your laptop.
 
-### How to Start a MATLAB Interactive Session in the Workspace { #start }
+## How to Start a MATLAB Interactive Session in the Workspace { #start }
 
 MATLAB that runs on VM
 
@@ -37,7 +38,7 @@ MATLAB that runs on VM
 	<li>Click Run to start your interactive session.</li>
 </ul>
 
-### How to Submit a MATLAB Batch job in the Workspace { #submit }
+## How to Submit a MATLAB Batch job in the Workspace { #submit }
 
 MATLAB Batch that runs on HPC
 
