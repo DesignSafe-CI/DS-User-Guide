@@ -1,17 +1,8 @@
 # Analysis Tools & Applications
 
-{% include-markdown 'tools/jupyterhub.md' heading-offset=1 %}
+{% include-markdown './redirect.md' %}
 
----
-
-{% include-markdown 'analysis/matlab.md' %}
-
----
-
-{% include-markdown 'analysis/hvsrweb.md' %}
-
-<!--
----
-
-include-markdown 'analysis/swbatch.md' %}
--->
+- [Jupyter](./tools/jupyterhub.md)
+- [MATLAB](./analysis/matlab.md)
+- [HVSRweb](./analysis/hvsrweb.md)
+- [SWbatch](./analysis/swbatch.md)

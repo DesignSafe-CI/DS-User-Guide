@@ -1,4 +1,4 @@
-## SWbatch
+# SWbatch
 <a name="swbatch-user-guide"></a>
 
 <code>SWbatch</code> is a user-friendly, web-based application for performing batch-style surface wave inversions using the Dinver module of the open-source software <a href="http://geopsy.org/" rel="nofollow">Geopsy</a>. <code>SWbatch</code> allows the user to rapidly and conveniently invert experimental dispersion data considering multiple inversion parameterizations to address the problem’s non-uniqueness and multiple trials per parameterization to address the problem’s nonlinearity as detailed in the SWinvert workflow (Vantassel and Cox, 2020). To facilitate the potentially large amounts of pre- and post-processing required when performing batch surface-wave inversions a Python package, <code>SWprepost</code>, (Vantassel, 2020) has been released open-source. More information about <code>SWprepost</code> can be found on its <a href="https://github.com/jpvantassel/swprepost">GitHub</a> page.
@@ -15,7 +15,7 @@ Vantassel, J.P., Cox, B.R., (2020). SWinvert: A workflow for performing rigorous
 
 <em>Note: For software, version specific citations should be preferred to general concept citations, such as that listed above. To generate a version specific citation for <code>SWbatch</code>, please use the citation tool for that specific version on the <code>SWbatch</code> <a href="https://zenodo.org/badge/latestdoi/240935736" rel="nofollow">archive</a>.</em>
 
-### Getting Started { #start }
+## Getting Started { #start }
 
 There are two ways of using <code>SWbatch</code>:
 
@@ -24,7 +24,7 @@ There are two ways of using <code>SWbatch</code>:
 	<li>Or directly through the DesignSafe-CI Research Workbench.</li>
 </ol>
 
-#### Instructions for using the Jupyter Workflow { #start-jupyter }
+### Instructions for using the Jupyter Workflow { #start-jupyter }
 
 <ol>
 	<li>Visit the <code>SWprepost</code> <a href="https://github.com/jpvantassel/swprepost">GitHub</a> and follow the <code>Getting Started</code> instructions. The advanced example walks you through using the <code>SWinvert</code> surface wave inversion Jupyter workflow. (30 minutes)</li>
@@ -33,7 +33,7 @@ There are two ways of using <code>SWbatch</code>:
 	<li>Enjoy!</li>
 </ol>
 
-#### Instructions for using the DesignSafe-CI Research Workbench { #start-ds }
+### Instructions for using the DesignSafe-CI Research Workbench { #start-ds }
 
 <ol>
 	<li>Visit the <code>SWprepost</code> <a href="https://github.com/jpvantassel/swprepost">GitHub</a> and follow the <code>Getting Started</code> instructions. This will introduce you to <code>SWprepost</code> and the <code>SWinvert</code> workflow, which is required before proceeding to step 2 in these instructions. (30 minutes)</li>

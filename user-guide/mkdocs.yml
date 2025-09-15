@@ -77,7 +77,11 @@ nav:
       - LS-DYNA: tools/simulation/lsdyna.md
       - OpenFoam: tools/simulation/openfoam.md
       - OpenSees : tools/simulation/opensees/opensees.md
-    - Analysis: analysis.md
+    - Analysis:
+      - Jupyter: tools/jupyterhub.md
+      - MATLAB: analysis/matlab.md
+      - HVSRweb: analysis/hvsrweb.md
+      - SWbatch: analysis/swbatch.md
     - GIS Tools:
       - Hazmapper: tools/visualization/hazmapper.md
       - QGIS: tools/visualization/qgis.md
