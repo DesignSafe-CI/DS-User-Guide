@@ -573,7 +573,7 @@ Below are requirements for publishing research software in the DDR:
 * Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License. 
 * If the research software uses libraries/dependencies, their respective licenses should allow reuse without restrictions.
 * Include a CodeMeta file with information that allows for attribution, dissemination, reuse, and interoperability of the research software. 
-Include a readme file that explains how to install and use the software.
+* Include a readme file that explains how to install and use the software.
 * Prior to publishing using the Research Software Project Type, users agree that the software is functional and works according to the instructions provided in the readme file.
 * For guidance on publishing good quality research software, see [our Best Practices](/user-guide/curating/bestpractices/#research-software).
 
@@ -585,7 +585,7 @@ What does not qualify as research software:
 
 ## Subsequent Publishing
 
-DDR enables  publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources ( software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
+DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources (software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
 
 ## Timely Data Publication
 

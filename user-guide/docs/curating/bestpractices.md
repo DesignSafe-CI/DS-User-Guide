@@ -77,7 +77,7 @@ In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https:/
 
 In turn, a Readme file including details of how to install and use the software should also be part of the publication. To be reproducible the research software publication needs to include documentation about and  links to  libraries and dependencies needed to run it. Links to dependencies can be noted in the Related Data and Software entry in the curation form. If allowed by their licenses, dependency files can and should be (for ease of software installation) be included as part of the publication package. We ask researchers to test that the software can be installed according to instructions and that it is working properly at the time of publication.
 
-If planning to publish a Jupyter Notebook, the content has to comply with the definition of research software available in the [Research Software Publication Policy](/user-guide/curating/policies/#publishing-research-software). Jupyter Notebooks are integrated development environments (IDE), that provide key tools that streamline software development. Thus, the content of the Jupyter Notebook has to be a contribution to solving a scientific problem.
+If planning to publish a Jupyter Notebook, the content must comply with the definition of research software available in the [Research Software Publication Policy](/user-guide/curating/policies/#publishing-research-software). Jupyter Notebooks are integrated development environments (IDE), that provide key tools that streamline software development. Thus, the content of the Jupyter Notebook has to be a contribution to solving a scientific problem.
 
 ### Jupyter Notebooks
 
