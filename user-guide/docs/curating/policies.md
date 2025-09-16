@@ -222,9 +222,9 @@ _Carefully read and consider this license, as it does not require attribution._
 ////
 ///
 
-### Research Software
+### Software
 
-If you are publishing **research software**:
+If you are publishing **research software**, choose<!-- between-->:
 
 /// html | section
 //// html | div
@@ -575,7 +575,7 @@ Below are requirements for publishing research software in the DDR:
 * Include a CodeMeta file with information that allows for attribution, dissemination, reuse, and interoperability of the research software. 
 Include a readme file that explains how to install and use the software.
 * Prior to publishing using the Research Software Project Type, users agree that the software is functional and works according to the instructions provided in the readme file.
-* For guidance on publishing good quality research software See Best Practices [here](/user-guide/curating/bestpractices/#research-software).
+* For guidance on publishing good quality research software, see [our Best Practices](/user-guide/curating/bestpractices/#research-software).
 
 What does not qualify as research software:
 
