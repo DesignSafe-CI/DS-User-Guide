@@ -3,8 +3,7 @@ name: DS User Guide PPRD Builds
 on:
   push:
     branches:
-      - fix/GH-175-changes-set-3
-      - refactor/GH-175-tools-apps-nested-nav-items
+      - fix/training-resources-location-in-nav
 
 jobs:
   docker:

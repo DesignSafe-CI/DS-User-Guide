@@ -40,9 +40,9 @@ nav:
   - DesignSafe Essentials:
     - Getting Started: index.md
     - Account Help: account-help.md
-    - Training Resources: training.md
     - DesignSafe FAQ: tools/advanced/dsfaq.md
     - How to Cite DesignSafe: how-to-cite.md
+    - Training Resources: training.md
 
   - DesignSafe Data Depot:
     - Overview: datadepot.md
@@ -60,7 +60,7 @@ nav:
     - Policies: curating/policies.md
 
   - Tools and Apps:
-    - Requesting New Applications: tools/overview.md
+    - Training Resources: training.md
     - Popular:
       - OpenSees: tools/simulation/opensees/opensees.md
       - ADCIRC: tools/simulation/adcirc/adcirc.md
@@ -89,6 +89,7 @@ nav:
     - Visualization: tools/visualization.md
     - Hazard Apps: tools/hazard.md
     - Utilities: tools/utilities.md
+    - Requesting New Applications: tools/overview.md
 
   - Recon Portal:
     - Recon Portal User Guide: tools/recon.md
