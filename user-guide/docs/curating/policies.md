@@ -560,7 +560,7 @@ Based on the way in which research methods and projects are implemented in the n
 
 To enhance contextual information by pointing to the relations of the published datasets, users can link between internal and external datasets, corresponding publications and software, and other references through the fields Related Work and Referenced Data and Software. 
 
-### Publishing Research Software
+## Publishing Research Software
 
 The definition from the Journal of Open Source Software (JOSS) applies to the Research Software that can be published in the DDR.
 
