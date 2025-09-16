@@ -162,7 +162,7 @@ If you are publishing **data**, such as **simulation**, **reconaissance**, or **
 ///// html | article.card--plain
       markdown: block
 
-#### [Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/) {odc-by}
+#### [Open Data Commons Attribution (ODC-By)](https://opendatacommons.org/licenses/by/summary/) { #odc-by }
 
 * You allow others to freely share, reuse, and adapt your data/database.
 * You expect to be attributed for any public use of the data/database.
@@ -176,7 +176,7 @@ _Recommended for Datasets._
 ///// html | article.card--plain
       markdown: block
 
-#### [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/) {pddl}
+#### [Open Data Commons Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/summary/) { #pddl }
 
 * You allow others to freely share, modify, and use this data/databse for any purpose without any restrictions.
 * You do not expect to be attributed.
@@ -194,7 +194,7 @@ If you are publishing **papers**, **presentations**, **learning objects**, **wor
 ///// html | article.card--plain
       markdown: block
 
-#### [Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) {cc-by}
+#### [Creative Commons Attribution (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) { #cc-by }
 
 * You allow others to freely share, reuse, and adapt your work.
 * You expect to be attributed for any public use of your work.
@@ -209,7 +209,7 @@ _Recommended for reports, instruments, learning objects, etc. This license requi
 ///// html | article.card--plain
       markdown: block
 
-#### [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) {cc0}
+#### [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) { #cc0 }
 
 * You allow others to freely share, modify, and use this work for any purpose without restrictions.
 * You do not expect to be attributed for it.
