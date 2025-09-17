@@ -3,7 +3,7 @@ name: DS User Guide PPRD Builds
 on:
   push:
     branches:
-      - fix/training-resources-location-in-nav
+      - feat/new-content-from-mesteva-for-policies-and-best-practices
 
 jobs:
   docker:

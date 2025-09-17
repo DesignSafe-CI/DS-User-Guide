@@ -222,7 +222,28 @@ _Carefully read and consider this license, as it does not require attribution._
 ////
 ///
 
-## Research Software
+### Software
+
+If you are publishing **research software**, choose<!-- between-->:
+
+/// html | section
+//// html | div
+///// html | article.card--plain
+      markdown: block
+
+#### [The 3-Clause BSD License (BSD-3-Clause)](https://opensource.org/license/bsd-3-clause) { #bsd3c }
+
+* You allow others to redistribute and reuse the software in source and binary forms, with or without modification.
+* You retain your copyright.
+* You expect to be attributed.
+* Your name cannot be used to endorse or promote products derived from this software without their specific written permission.
+* You distribute the software as is and will not be liable of any consequence of the use of the software by others.
+
+/////
+////
+///
+
+### Reusing Licensed Datasets
 
 DDR requires that users reusing data from others in their projects do so in compliance with the terms of the resource's original license.
 
@@ -539,9 +560,32 @@ Based on the way in which research methods and projects are implemented in the n
 
 To enhance contextual information by pointing to the relations of the published datasets, users can link between internal and external datasets, corresponding publications and software, and other references through the fields Related Work and Referenced Data and Software. 
 
+## Publishing Research Software
+
+The definition from the Journal of Open Source Software (JOSS) applies to the Research Software that can be published in the DDR.
+
+> ...software that: solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar.
+
+Below are requirements for publishing research software in the DDR:
+
+* To be published using the Research Software Project Type, the software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR. 
+* Research software that is not maintained in a GitHub repository can be published using Project Type Other and involving the same requirements.
+* Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License. 
+* If the research software uses libraries/dependencies, their respective licenses should allow reuse without restrictions.
+* Include a CodeMeta file with information that allows for attribution, dissemination, reuse, and interoperability of the research software. 
+* Include a readme file that explains how to install and use the software.
+* Prior to publishing using the Research Software Project Type, users agree that the software is functional and works according to the instructions provided in the readme file.
+* For guidance on publishing good quality research software, see [our Best Practices](/user-guide/curating/bestpractices/#research-software).
+
+What does not qualify as research software:
+
+* Minor 'utility' packages, including 'thin' API clients, and single-function packages are not research software.
+* Exploratory visualizations, or basic scripting tools to analyze data are not considered research software. These can be published along with their respective datasets.
+* Data related to the published research software (training, testing, validation, etc.) should be published as a stand-alone dataset and linked to the research software publication via the Related Work/is  linked entry in the curation form. From the research software publication, data can be related via the Referenced Data and Software/cites entry available in the curation form. 
+
 ## Subsequent Publishing
 
-DDR enables  publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources ( software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
+DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources (software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
 
 ## Timely Data Publication
 
