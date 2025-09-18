@@ -211,6 +211,75 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 * Use words that you consider will help or are used by others to find datasets like yours online. 
 * Repeat these words across the title, description, and keywords to increase online discoverability.
 * Avoid using acronyms if possible. Spell out the full acronym if you must.
+
+
+
+## Writing Effective Data Reports
+
+Understanding the provenance, structure, and functions of a dataset often requires more detail than what can be described in the metadata fields provided by the DDR landing pages. This is especially so in cases of data generated from large-scale experiments and simulations such as the many housed in DDR. This is why DDR recommends that datasets are published along with adequate documentation. In DDR the documentation takes the form of data reports, readme files, field research planning documents, or any other record that guides users to understand and reuse a dataset. Such documentation is focused on describing the methodology, characteristics, content, and organization of the datasets as well as any post-processing or quality control performed on them. For purposes of this guide we denominate these different documents Data Reports.
+
+Except for the "Other" project type, all the DDR project types have categories in which to include this kind of documentation. The "Other" project type is used by many researchers to publish databases, historical data, benchmark datasets, and ML training datasets, and they should also include a data report. For Simulation, Experimental, and Hybrid Simulation, there is a Report category where to assign the data report. In Field Research the documentation can be included under the Document Collection or the Research Planning Documents categories.
+
+Below are recommendations for what to include in data reports for all dataset types, as well as more specific ones for simulation, experiments, and field research datasets. We suggest that researchers pick the ones that are suitable for their particular cases. While some information may seem redundant from what is input in the forms during curation, the goal is for the data report to provide comprehensive and expanded documentation about the dataset's technical provenance and functionalities that users can download along with the data.
+
+#### General
+
+Applicable for all datasets:
+
+* Name the report file with a convention consistent with the rest of the files in the dataset.
+* Include title of the project and of the dataset/s, authors and dates in the first page.
+* Provide context to the dataset publication by including a brief overview of the research problem that the data is trying to solve. 
+* Many datasets are composed of different types of data/file formats. List the dataset contents and the functions of the different data types. 
+* Include the methodology used to collect/generate the data. 
+* Include  information about the instrument/s used to collect/generate the data, and if/how they were calibrated.
+* Explain how the data is organized including a schema of the folder structure.
+* Describe the folder structure and the file naming convention used to organize and identify the files. 
+* Include a data dictionary to clarify the meaning of acronyms, variables, or any other information that is coded or synthesized in the data (ex. labels in tabular data). 
+* Include a statement of how the quality of the data was evaluated for completeness and accuracy, and if any post processing such as  normalization, removal of errors, validation, etc. were completed. If the data was not processed and is distributed as is, this should be noted as well. 
+* Indicate if files were converted and to which format.
+* Researchers generally refer to raw data as the data obtained directly from any type of recording instrument. Indicate if the dataset includes both raw and converted data, and or post-processed data. 
+* If data are distributed as `.bin` files, indicate the structure of the binary format as well as  software or scripts used to read in the files.
+* Reporting a dataset's performance evaluation is applicable to benchmark or testbed datasets that have been used to train a model or for numerical validation.
+* Describe usage of Jupyter notebook or code that you are publishing to visualize, read in, or post- process the data. Include instructions on how to use them. 
+
+#### Simulations
+
+* Provide information about the software used to conduct the simulation and its version. Point to its repository and citation if available. 
+* Describe any ancillary scripts/code used to run the simulation software.
+* Describe how the simulation runs were structured including a graph of the workflow.
+* Include spatial and temporal scales and resolution.
+* Note the typical runtime of the simulation workflow and the system configuration. 
+* Report on the computational environment where the simulations were run.
+* Reference the source/citation of input files (taken from published experiments or external repositories) when applicable. 
+
+#### Field Research
+
+##### Engineering and Social Science
+
+* Briefly describe the characteristics of the natural hazard event that was observed.
+* If the field research is not associated with a natural hazard event, describe the unit of analysis that is being observed.
+* Report on the data collection design, sampling criteria, and coordination between data collectors if applicable. 
+* Describe the methodology including type/s of observation/s.
+* Indicate corresponding instrumentation used to collect different types of data. Include details of their make, model and setup as needed. 
+* Note any relevant information about the instrument set up and calibration.
+* Note the correspondence between the phenomena observed, the type of instruments used and the corresponding dataset.
+* For survey and interview data include the questionnaire and interview protocol and report on the population size and participant characteristics.
+* For human subjects data describe all issues regarding protection of personal identifiable information and confidentiality. 
+
+#### Experiments
+
+* Provide details of the facility/lab and equipment used.
+* Describe the experimental design/model configuration.
+* Describe/graph the model/specimen construction/layout.
+* Indicate sensor types and disposition.
+* Indicate calibration. 
+* Record  pre-test documentation.
+* Describe the test protocol including frequency and loads.
+* Note the format in which the data was captured.
+* Record the units in which the data was captured and if there was conversion to other units.
+* Indicate if data published raw and or processed.
+* Record any data post-processing activity and note software used.
+
 ## Reusing and Citing Resources in the Datasets Landing Pages
 
 ### Reusing Data and Software
@@ -221,8 +290,8 @@ In their projects, researchers frequently reuse data as input files, for validat
 
 DDR offers possibilities to cite different types of resources that provide context, cite, or were used to create a new data publication.  Located in the curation forms, those are:
 
-- **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset) and is cited by (the work references the published dataset) 
-- **Referenced Data and Software**: to cite data or software that have been reused to create the published dataset.
+* **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset) and is cited by (the work references the published dataset) 
+* **Referenced Data and Software**: to cite data or software that have been reused to create the published dataset.
 
 Note that:
 
