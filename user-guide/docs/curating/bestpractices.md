@@ -216,11 +216,11 @@ Except for Data type "Other", DesignSafe requires descriptions at the project le
 
 ## Writing Effective Data Reports
 
-Understanding the provenance,  structure, and functions of a dataset often requires more detail than what can be described in the metadata fields provided by the DDR landing pages. This is especially so in cases of data generated from large-scale experiments and simulations such as the many housed in DDR. This is why DDR recommends that datasets are published along with adequate documentation. In DDR the documentation takes the form of data reports, readme files, field research planning documents, or any other record that guides users to understand and reuse a dataset. Such documentation is focused on describing the methodology, characteristics, content, and organization of the datasets as well as any post-processing or quality control performed on them. For purposes of this guide we denominate these different documents Data Reports. 
+Understanding the provenance, structure, and functions of a dataset often requires more detail than what can be described in the metadata fields provided by the DDR landing pages. This is especially so in cases of data generated from large-scale experiments and simulations such as the many housed in DDR. This is why DDR recommends that datasets are published along with adequate documentation. In DDR the documentation takes the form of data reports, readme files, field research planning documents, or any other record that guides users to understand and reuse a dataset. Such documentation is focused on describing the methodology, characteristics, content, and organization of the datasets as well as any post-processing or quality control performed on them. For purposes of this guide we denominate these different documents Data Reports.
 
-Except "Other" project type all the DDR  project types have categories where to include this kind of documentation. Project "other"is used by many researchers to publish databases, historical data, benchmark datasets, and ML training datasets, and they should also include a data report. For Simulation, Experimental and Hybrid Simulation there is a Report category where to assign the data report. In Field Research the documentation can be included under the Document Collection or  the Research Planning Documents categories. 
+Except for the "Other" project type, all the DDR project types have categories in which to include this kind of documentation. The "Other" project type is used by many researchers to publish databases, historical data, benchmark datasets, and ML training datasets, and they should also include a data report. For Simulation, Experimental, and Hybrid Simulation, there is a Report category where to assign the data report. In Field Research the documentation can be included under the Document Collection or the Research Planning Documents categories.
 
-Below are recommendations for what to include in data reports for all dataset types, as well as more specific ones for simulation, experiments, and field research datasets. We suggest that researchers pick the ones that are suitable for their particular cases. While some information may seem redundant from what is imputed in the forms during curation, the goal is for the data report to provide comprehensive and expanded documentation about the datasets technical provenance and functionalities that users can download along with the data. The goal here is to inform reusers of any 
+Below are recommendations for what to include in data reports for all dataset types, as well as more specific ones for simulation, experiments, and field research datasets. We suggest that researchers pick the ones that are suitable for their particular cases. While some information may seem redundant from what is input in the forms during curation, the goal is for the data report to provide comprehensive and expanded documentation about the dataset's technical provenance and functionalities that users can download along with the data.
 
 #### General
 
@@ -231,14 +231,14 @@ Applicable for all datasets:
 * Provide context to the dataset publication by including a brief overview of the research problem that the data is trying to solve. 
 * Many datasets are composed of different types of data/file formats. List the dataset contents and the functions of the different data types. 
 * Include the methodology used to collect/generate the data. 
-* Include  information about the instrument/s used to collect/generate the data, and i/how they were calibrated.
+* Include  information about the instrument/s used to collect/generate the data, and if/how they were calibrated.
 * Explain how the data is organized including a schema of the folder structure.
 * Describe the folder structure and the file naming convention used to organize and identify the files. 
 * Include a data dictionary to clarify the meaning of acronyms, variables, or any other information that is coded or synthesized in the data (ex. labels in tabular data). 
 * Include a statement of how the quality of the data was evaluated for completeness and accuracy, and if any post processing such as  normalization, removal of errors, validation, etc. were completed. If the data was not processed and is distributed as is, this should be noted as well. 
 * Indicate if files were converted and to which format.
 * Researchers generally refer to raw data as the data obtained directly from any type of recording instrument. Indicate if the dataset includes both raw and converted data, and or post-processed data. 
-* If data are distributed as .bin files indicate the structure of the binary format as well as  software or scripts used to read in the files.
+* If data are distributed as `.bin` files, indicate the structure of the binary format as well as  software or scripts used to read in the files.
 * Reporting a dataset's performance evaluation is applicable to benchmark or testbed datasets that have been used to train a model or for numerical validation.
 * Describe usage of Jupyter notebook or code that you are publishing to visualize, read in, or post- process the data. Include instructions on how to use them. 
 
