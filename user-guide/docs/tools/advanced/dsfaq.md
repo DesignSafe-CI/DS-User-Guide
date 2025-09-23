@@ -26,6 +26,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 - [OpenFOAM](#faq-openfoam)
 - [ParaView](#faq-paraview)
 - [Experimental Facilities](#faq-ef)
+- [Programmatic Access](#faq-api)
 - [Data Curation &amp; Publication](/user-guide/curating/faq/)
 
 ---
@@ -248,6 +249,26 @@ A more detailed description can be found on the [ParaView website](http://www.pa
 /// details | Where did my ParaView job output go?
 
 If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
+
+///
+
+---
+
+## Programmatic Access { #faq-api }
+
+/// details | What is the base URL for making API calls to DesignSafe?
+
+A: All API requests to DesignSafe should use <code>https://designsafe.tapis.io</code> as the base URL. This is DesignSafe's tenant domain on the TAPIS platform and is required for authentication and all programmatic access to DesignSafe resources.
+
+///
+/// details | How do I authenticate programmatically with DesignSafe from Jupyter?
+
+A: Since Jupyter sessions on DesignSafe no longer automatically log into TAPIS, you'll need to authenticate manually using the base URL. Use <code>https://designsafe.tapis.io</code> when initializing your TAPIS client for authentication before accessing tenants, jobs, or other resources.
+
+///
+/// details | Where can I find examples of using the DesignSafe API?
+
+A: Check the <a href="/user-guide/usecases/apiusecases/" target="_blank">API Use Cases</a> section for practical examples of programmatic access to DesignSafe resources.
 
 ///
 

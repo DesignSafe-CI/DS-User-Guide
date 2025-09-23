@@ -75,6 +75,14 @@ Each Jupyter session is served through an Ubuntu-based Docker image and distribu
 
 For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch [this webinar on leveraging DesignSafe using TAPIS](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
 
+#### Programmatic Access to DesignSafe Resources { #using-tapis }
+
+For programmatic access to DesignSafe resources from within Jupyter (such as managing files, submitting jobs, or accessing metadata), you'll need to authenticate with TAPIS using Python. Since Jupyter sessions no longer automatically authenticate with TAPIS, you must manually establish the connection using DesignSafe's base URL.
+
+To get started with TAPIS in Jupyter, use the following pattern:
+
+{% include-markdown '../../include/api-auth.md' %}
+
 ### Installing Packages { #installing }
 
 Each Juptyer image contains some pre-installed system and software-specific packages. This section will focus on Python packages, however packages for the Julia and R kernels can also be installed using their respective syntax. System-related packages, those requiring sudo privaledges, cannot be installed by users directly, but may be requested by submitting a ticket. Requests for system-related packages will be approved on a case-by-case basis. Requests should include a clear and compeling justification for why the system-related package will be of benefit to the natural hazards community.

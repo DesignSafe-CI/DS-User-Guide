@@ -577,3 +577,20 @@ Return to the Google Drive section of the Data Depot. You can now copy files to 
 
 ![Complete Google Drive](./imgs/cloudstorage-1.png)
 -->
+
+## Programmatic Data Transfer via API { #api }
+
+For automated or large-scale data transfers, DesignSafe provides programmatic access through the TAPIS API. This method is particularly useful for:
+
+- Automated data synchronization workflows
+- Integration with external analysis pipelines  
+- Bulk file operations and metadata management
+- Custom data processing applications
+
+### Getting Started with API Access { #api-setup }
+
+All programmatic access to DesignSafe uses `https://designsafe.tapis.io` as the base URL. This is DesignSafe's tenant domain on the TAPIS platform.
+
+Example authentication in Python:
+
+{% include-markdown '../include/api-auth.md' %}
