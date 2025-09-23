@@ -589,4 +589,4 @@ For automated or large-scale data transfers, DesignSafe provides programmatic ac
 
 ### Getting Started with API Access { #api-setup }
 
-{% include-markdown '../include/api-auth.md' %}
+{% include-markdown '../include/api-note.md' %}
