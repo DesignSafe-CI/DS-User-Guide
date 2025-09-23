@@ -268,7 +268,7 @@ A: Since Jupyter sessions on DesignSafe no longer automatically log into TAPIS, 
 ///
 /// details | Where can I find examples of using the DesignSafe API?
 
-A: Check the <a href="/user-guide/usecases/apiusecases/" target="_blank">API Use Cases</a> section for practical examples of programmatic access to DesignSafe resources.
+A: Check [our API Use Case](/user-guide/usecases/apiusecases/) for practical examples of programmatic access to DesignSafe resources.
 
 ///
 
