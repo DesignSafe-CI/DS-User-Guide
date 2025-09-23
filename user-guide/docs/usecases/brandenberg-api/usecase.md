@@ -13,8 +13,6 @@ _Keywords: API, Application Programming Interface, Jupyter, Python, requests, US
 
 This use case provides some background information on application programming interfaces (API's) followed by examples that utilize the Python requests package to pull data from API's maintained by NASA, the US Census Bureau, the US Geological Survey, and the National Oceanic and Atmospheric Administration.
 
-{% include-markdown '../../include/api-note.md' %}
-
 ### Resources
 
 <table>
