@@ -28,8 +28,6 @@ An Expanding Collection of the Most Frequently Asked Questions
 - [Experimental Facilities](#faq-ef)
 - [Data Curation &amp; Publication](/user-guide/curating/faq/)
 
-///
-
 ---
 
 ## Users and Accounts { #faq-users }
