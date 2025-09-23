@@ -73,15 +73,13 @@ Each Jupyter session is served through an Ubuntu-based Docker image and distribu
 
 #### High Performance Computing (HPC) Job Submission through Jupyter { #using-jobs }
 
-For greater computational power, you can use <em>agavepy</em>, a Python interface to TAPIS, to submit jobs to TACC's high performacne computing systems (e.g., Frontera) directly through Jupyter. Existing applications avaialble through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch [this webinar on leveraging DesignSafe using TAPIS](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
+For greater computational power, you can use [_tapipy_](https://github.com/tapis-project/tapipy), a Python interface to [TAPIS](https://tapis-project.org/), to submit jobs to TACC's high performance computing systems (e.g., Frontera) directly through Jupyter. Existing applications available through DesignSafe include OpenSees, SWbatch, ADCIRC and others. For more information, please watch [this webinar on leveraging DesignSafe using TAPIS](https://youtu.be/-_1lNWW8CAg){target="_blank"}.
 
-#### Programmatic Access to DesignSafe Resources { #using-tapis }
+##### Programmatic Access to DesignSafe Resources { #using-tapis }
 
-For programmatic access to DesignSafe resources from within Jupyter (such as managing files, submitting jobs, or accessing metadata), you'll need to authenticate with TAPIS using Python. Since Jupyter sessions no longer automatically authenticate with TAPIS, you must manually establish the connection using DesignSafe's base URL.
+For programmatic access to DesignSafe resources from within Jupyter (such as managing files, submitting jobs, or accessing metadata), you'll need to authenticate with TAPIS.
 
-To get started with TAPIS in Jupyter, use the following pattern:
-
-{% include-markdown '../../include/api-auth.md' %}
+{% include-markdown '../../include/api-note.md' %}
 
 ### Installing Packages { #installing }
 

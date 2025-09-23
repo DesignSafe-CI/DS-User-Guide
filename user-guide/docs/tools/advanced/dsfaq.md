@@ -256,19 +256,9 @@ If you do not specify a location, the default output is shown in the grayed-out 
 
 ## Programmatic Access { #faq-api }
 
-/// details | What is the base URL for making API calls to DesignSafe?
+/// details | How can I learn to use TAPIS?
 
-All API requests to DesignSafe should use <code>https://designsafe.tapis.io</code> as the base URL. This is DesignSafe's tenant domain on the TAPIS platform and is required for authentication and all programmatic access to DesignSafe resources.
-
-///
-/// details | How do I authenticate programmatically with DesignSafe from Jupyter?
-
-Since Jupyter sessions on DesignSafe no longer automatically log into TAPIS, you'll need to authenticate manually using the base URL. Use <code>https://designsafe.tapis.io</code> when initializing your TAPIS client for authentication before accessing tenants, jobs, or other resources.
-
-///
-/// details | Where can I find examples of using the DesignSafe API?
-
-Check [our API Use Case](/user-guide/usecases/apiusecases/) for practical examples of programmatic access to DesignSafe resources.
+{% include-markdown '../../include/api-note.md' %}
 
 ///
 

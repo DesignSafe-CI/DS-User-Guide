@@ -589,8 +589,4 @@ For automated or large-scale data transfers, DesignSafe provides programmatic ac
 
 ### Getting Started with API Access { #api-setup }
 
-All programmatic access to DesignSafe uses `https://designsafe.tapis.io` as the base URL. This is DesignSafe's tenant domain on the TAPIS platform.
-
-Example authentication in Python:
-
 {% include-markdown '../include/api-auth.md' %}
