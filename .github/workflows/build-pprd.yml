@@ -3,7 +3,7 @@ name: DS User Guide PPRD Builds
 on:
   push:
     branches:
-      - feat/WP-681-mention-designsafe-tapis-io
+      - pprd
 
 jobs:
   docker:

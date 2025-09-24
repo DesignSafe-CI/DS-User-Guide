@@ -20,8 +20,8 @@ Accompanying jupyter notebooks for this use case can be found in the ADCIRC fold
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
-| Create an Ensemble Simulations | ADCIRC Ensemble Simulations.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/ADCIRC%20Ensemble%20Simulations.ipynb) |
+| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
+| Create an Ensemble Simulations | ADCIRC Ensemble Simulations.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/ADCIRC%20Ensemble%20Simulations.ipynb) |
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
