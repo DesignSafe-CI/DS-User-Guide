@@ -47,8 +47,7 @@ It is emphasized that the main motivation of this notebook is to take advantage 
 
 ### Setup tapis/agave app and run Matlab script
 
-The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute jupyter commands. This gives immediate access to the **agavepy** module from which it is possible to run any **TAPIS** APP.
-
+The notebook can be executed launching *Jupyter Lab* in Designsafe. This opens a user *docker container* in DesignSafe that includes all the functionality required to execute Jupyter commands. This gives immediate access to the **`tapispy`**/**`agavepy`** module from which it is possible to run any **TAPIS** APP. See [Programmatic Access via TAPIS](/user-guide/tools/advanced/dsfaq/#faq-api).
 
 #### Setup job description
 
