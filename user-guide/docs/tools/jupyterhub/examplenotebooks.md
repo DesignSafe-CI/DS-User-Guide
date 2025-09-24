@@ -112,103 +112,60 @@
 
 ### Jupyter Notebooks for Civil Engineering Courses
 
-<ol>
-	<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Oregon%20State%20Univ%20_%20Structural%20Analysis">Oregon State Univ_Structural Analysis</a></li>
-</ol>
+1. [Oregon State Univ_Structural Analysis](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Oregon%20State%20Univ%20_%20Structural%20Analysis){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Oregon%20State%20Univ%20_%20Structural%20Analysis))
 
-<p style="margin-left: 40px;">Directory Name: Demo </p>
+	Directory Name: Demo
 
-<p style="margin-left: 40px;">The notebooks available in this directory perform numerical integration for ordinary differential equation in engineering and science</p>
+	The notebooks available in this directory perform numerical integration for ordinary differential equation in engineering and science
 
-<ul style="margin-left: 40px;">
-	<li>CentralDifference.ipynb</li>
-	<li>Newmark_gm.ipynb: for linear elastic</li>
-	<li>Newmark_nonlinear.ipynb: for nonlinear elastic </li>
-	<li>reccurrenceFormulation_Equations.ipynb,  </li>
-	<li>reccurrenceFormulation_Matrix.ipynb</li>
-</ul>
+	- CentralDifference.ipynb
+	- Newmark_gm.ipynb: for linear elastic
+	- Newmark_nonlinear.ipynb: for nonlinear elastic
+	- reccurrenceFormulation_Equations.ipynb
+	- reccurrenceFormulation_Matrix.ipynb
 
-<p dir="ltr" style="margin-left: 40px;">Directory Name: PythonSetup </p>
+	Directory Name: PythonSetup
 
-<p dir="ltr" style="margin-left: 40px;">SetupPythonNotebook.ipynb: Guideline on how to setup and use Jupyter notebooks on local machine across several types of operating system (Windows, Linux, and Mac) as well as in DesignSafe workspace. </p>
+	SetupPythonNotebook.ipynb: Guideline on how to setup and use Jupyter notebooks on local machine across several types of operating system (Windows, Linux, and Mac) as well as in DesignSafe workspace.
 
-<p dir="ltr" style="margin-left: 40px;">The below notebooks describe how to visualize numerical results using python. </p>
+	The below notebooks describe how to visualize numerical results using python.
 
-<ul dir="ltr" style="margin-left: 40px;">
-	<li>Subplots_and_legends.ipynb</li>
-	<li>Plot_example.ipynb </li>
-	<li>Basic_plotting.ipynb </li>
-</ul>
+	- Subplots_and_legends.ipynb
+	- Plot_example.ipynb
+	- Basic_plotting.ipynb
 
-<p dir="ltr" style="margin-left: 40px;">There are two examples for improved speed of for-loops by interfacing with C and Fortran. There is a description on how to install each package.</p>
+	There are two examples for improved speed of for-loops by interfacing with C and Fortran. There is a description on how to install each package.
 
-<ul dir="ltr" style="margin-left: 40px;">
-	<li>Cython_fast_loops.ipynb
-	<ul>
-		<li>Cython: a superset of the Python language that additionally supports calling C functions and declaring C types on variables and class attributes.</li>
-	</ul>
-	</li>
-	<li>Fortran_fast_loops.ipynb
-	<ul>
-		<li>*Fortran-magic: similar to cython that allows for using Fortran language in python script for fast loop control.</li>
-	</ul>
-	</li>
-</ul>
+	- Cython_fast_loops.ipynb
+		- Cython: a superset of the Python language that additionally supports calling C functions and declaring C types on variables and class attributes.
+	- Fortran_fast_loops.ipynb
+		- Fortran-magic: similar to cython that allows for using Fortran language in python script for fast loop control.
 
-<ol start="2">
-	<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/UCLA%20_%20Soil%20Mechanics">UCLA_Soil Mechanics</a></li>
-</ol>
+2. [UCLA_Soil Mechanics](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/UCLA%20_%20Soil%20Mechanics){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/UCLA%20_%20Soil%20Mechanics))
 
-<p dir="ltr" style="margin-left: 40px;">Python enables one to write texts and equations in latex format for teaching purpose and provides a graphical user interface with which one can readily see the results by changing the input parameters. </p>
+	Python enables one to write texts and equations in latex format for teaching purpose and provides a graphical user interface with which one can readily see the results by changing the input parameters.
 
-<ul style="margin-left: 40px;">
-	<li dir="ltr">
-	<p dir="ltr">StressRotation.ipynb: Provides a graphical user interface of Mohr Circle plot in engineering mechanics that one can see the result by changing input parameters. </p>
-	</li>
-	<li dir="ltr">
-	<p dir="ltr">TerzaghiPlotting.ipynb: Shows a mathematical expression in latex format and plots the solution of the partial differential equation. </p>
-	</li>
-	<li dir="ltr">
-	<p dir="ltr">TerzaghisTheory.ipynb: Describes Terzaghi’s theory of consolidation in soil mechanics along with markdown cell that allows for typing words and latex format. (In general term, jupyter notebook allows us to write texts for engineering and science problems like writing on white board)</p>
-	</li>
-</ul>
+	- StressRotation.ipynb: Provides a graphical user interface of Mohr Circle plot in engineering mechanics that one can see the result by changing input parameters.
+	- TerzaghiPlotting.ipynb: Shows a mathematical expression in latex format and plots the solution of the partial differential equation.
+	- TerzaghisTheory.ipynb: Describes Terzaghi’s theory of consolidation in soil mechanics along with markdown cell that allows for typing words and latex format. (In general term, jupyter notebook allows us to write texts for engineering and science problems like writing on white board)
 
-<ol start="3">
-	<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Univ%20of%20Texas%20_%20FiniteElementAnalyses%20in%20GeotechnicalEngineering">Univ of Texas_FiniteElementAnalyses in GeotechnicalEngineering</a></li>
-</ol>
+3. [Univ of Texas_FiniteElementAnalyses in GeotechnicalEngineering](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Univ%20of%20Texas%20_%20FiniteElementAnalyses%20in%20GeotechnicalEngineering){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/Univ%20of%20Texas%20_%20FiniteElementAnalyses%20in%20GeotechnicalEngineering))
 
-<p dir="ltr" style="margin-left: 40px;">Directory Name: Notebooks </p>
+	Directory Name: Notebooks
 
-<p dir="ltr" style="margin-left: 40px;">Solves the mathematical equations (differential equations) through numerical analysis such as finite element or finite difference methods. </p>
+	Solves the mathematical equations (differential equations) through numerical analysis such as finite element or finite difference methods.
 
-<ul style="margin-left: 40px;">
-	<li dir="ltr">
-	<p dir="ltr">Stiffness_method.ipynb: linear algebra solution to get displacement (Ku=F) </p>
-	</li>
-	<li dir="ltr">
-	<p dir="ltr">Shape_function.ipynb: Creating Lagrange polynomials </p>
-	</li>
-	<li dir="ltr">
-	<p dir="ltr">Elastic_bar_linear_fem.ipynb: One dimensional truss analysis of linear elastic finite element method </p>
-	</li>
-	<li dir="ltr">
-	<p dir="ltr">fdm_seepage_dam.ipynb: finite difference method for numerical integration </p>
-	</li>
-</ul>
+	- Stiffness_method.ipynb: linear algebra solution to get displacement (Ku=F)
+	- Shape_function.ipynb: Creating Lagrange polynomials
+	- Elastic_bar_linear_fem.ipynb: One dimensional truss analysis of linear elastic finite element method
+	- fdm_seepage_dam.ipynb: finite difference method for numerical integration
 
-<ol start="4">
-	<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington">University of Washington</a> (Workflow, Graduate Level Course)</li>
-</ol>
+4. [University of Washington](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington)) (Workflow, Graduate Level Course)
 
-<p dir="ltr" style="margin-left: 40px;">Directory Name: freeFieldEffectiveJupyter </p>
+	Directory Name: freeFieldEffectiveJupyter
 
-<ul dir="ltr">
-	<li style="margin-left: 40px;">This notebook runs OpenSees, one of the applications available from workspace on Designsafe, for a model of one-dimensional site response using the PDMY constitutive model. </li>
-</ul>
+	- This notebook runs OpenSees, one of the applications available from workspace on Designsafe, for a model of one-dimensional site response using the PDMY constitutive model.
 
-<p dir="ltr" style="margin-left: 40px;">Directory Name: freeFieldJupyterPM4Sand</p>
+	Directory Name: freeFieldJupyterPM4Sand
 
-<ul dir="ltr">
-	<li style="margin-left: 40px;">This notebook runs OpenSees, one of the applications available from workspace on Designsafe, for a model of one-dimensional site response using the PM4Sand constitutive model.  </li>
-</ul>
-
+	- This notebook runs OpenSees, one of the applications available from workspace on Designsafe, for a model of one-dimensional site response using the PM4Sand constitutive model.
