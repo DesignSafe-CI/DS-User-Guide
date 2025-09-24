@@ -95,7 +95,7 @@ Video Tutorial (Timestamps - 28:01 to 35:04): [https://www.youtube.com/watch?v=C
 1. Navigate to [JupyterHub portal on DesignSafe](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter).
 2. Sign In: You must have a TACC (Texas Advanced Computing Center) account to access the resources. If you do not have an account, you can register <a href="https://www.designsafe-ci.org/account/register/">here</a>.
 3. Access the Notebook: Once signed in, you can access and interact with the Jupyter notebooks available on your account.
-4. To run <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-4535v2" target="_blank">this Project</a>, you can **either** copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory, then use your favorite way to lunch a Jupyter Notebook and then open the FirstMap.ipynb file **or** [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-4535v2).
+4. To run [this project](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-4535v2){ target="_blank" }, you can copy it to your MyData directory to make it write-able as it is read only in NHERI- published directory, launch a Jupyter Notebook, then open the `FirstMap.ipynb` file; **or** [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-4535v2).
 
     1. Run the following command cell to copy the project to your MyData or change path to wherever you want to copy it to: after opening this Notebook in MyData you don't have to run the below cell again
 

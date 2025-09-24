@@ -17,6 +17,4 @@ The Clawpack 5.4.0 suite has been installed into the DesignSafe Jupyter Hub envi
 
 ### Example Clawpack Use Case
 
-An example GeoClaw notebook in Jupyter can be seen by navigating to 'community / Jupyter Notebooks / Workspace Application Sample Notebooks / GeoClaw' and opening 'GeoClaw_topotools_example.ipynb', and can be previewed and copied to your own space from <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks/Workspace%20Application%20Sample%20Notebooks/GeoClaw" target="_blank">here</a>.<br>
-
-
+An example GeoClaw notebook in Jupyter can be seen at [community / Jupyter Notebooks / Workspace Application Sample Notebooks / GeoClaw](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Jupyter%20Notebooks/Workspace%20Application%20Sample%20Notebooks/GeoClaw){ target="_blank" } and opening `GeoClaw_topotools_example.ipynb`, then you can preview and copy to your own space **or** [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks/Workspace%20Application%20Sample%20Notebooks/GeoClaw).
