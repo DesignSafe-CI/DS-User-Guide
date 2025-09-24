@@ -38,7 +38,7 @@ The following DesignSafe resources were used in developing this use case.
 * [DesignSafe - Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/use-designsafe/tools-applications/analysis/jupyter/)
 * [SimCenter - quoFEM](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/quofem/)
 * [Simulation on DesignSafe - OpenSees](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)
-
+* [Programmatic Access - TAPIS](/user-guide/tools/advanced/dsfaq/#faq-api)
 
 ### Background
 
