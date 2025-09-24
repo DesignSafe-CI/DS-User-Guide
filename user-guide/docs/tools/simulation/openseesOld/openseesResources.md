@@ -3,14 +3,14 @@
 #### Examples in Community Data { #resources-communitydata }
 
 * OpenSees-EXPRESS:
-	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesEXPRESS){target="_blank"}
+	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesEXPRESS){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/app_examples/opensees/OpenSeesEXPRESS))
 	* input TCL file: freeFieldEffective.tcl
 * OpenSeesSP:
-	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesSP){target="_blank"}
+	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesSP){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/app_examples/opensees/OpenSeesSP))
 	* input TCL file: RigidFrame3D.tcl
 	* resources: 1 Node, 2 Processors  
 * OpenSeesMP:
-	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesMP){target="_blank"}
+	* [input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesMP){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/app_examples/opensees/OpenSeesMP))
 	* input TCL file: parallel_motion.tcl
 	* resources: 1 Node, 3 Processors
 

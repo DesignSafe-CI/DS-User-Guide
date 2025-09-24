@@ -12,7 +12,7 @@ The simulation utilizes a finite element grid to model the hydrodynamics in this
 - The grid's discretization varies from approximately 2 km offshore to around 75 m in nearshore areas.
 - Due to the coarse resolution, this model does not accurately resolve circulation near the inlet and the back bay.
 
-The input files for this simulation can be found in the CommunityData directory at [`CommunityData/Use Case Products/ADCIRC/adcirc/adcirc_shinnecock_inlet`](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC/adcirc/adcirc_shinnecock_inlet).
+The input files for this simulation can be found in the CommunityData directory at [`CommunityData/Use Case Products/ADCIRC/adcirc/adcirc_shinnecock_inlet`](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC/adcirc/adcirc_shinnecock_inlet){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/adcirc/adcirc_shinnecock_inlet)).
 
 ###### ADCIRC Input
 
