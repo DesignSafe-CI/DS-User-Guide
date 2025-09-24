@@ -4,7 +4,7 @@
 
 <ol>
 	<li dir="ltr">
-	<p dir="ltr">PRJ-1695 | <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-1695">Probabilistic Seismic Hazard Analysis for the Sliding Displacement of Rigid Sliding Masses</a></p>
+	<p dir="ltr">PRJ-1695 | [Probabilistic Seismic Hazard Analysis for the Sliding Displacement of Rigid Sliding Masses](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-1695){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-1695))</p>
 
 	<ul>
 		<li>
@@ -25,7 +25,7 @@
 	</ul>
 	</li>
 	<li dir="ltr">
-	<p dir="ltr">PRJ-2889 | <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2889">Earthquake Time Series from Events in Texas, Oklahoma, and Kansas</a></p>
+	<p dir="ltr">PRJ-2889 | [Earthquake Time Series from Events in Texas, Oklahoma, and Kansas](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2889){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2889))</p>
 
 	<ul>
 		<li>
@@ -40,7 +40,7 @@
 	</ul>
 	</li>
 	<li dir="ltr">
-	<p dir="ltr">PRJ-2074 | <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2074">NHERI Debris Impact Experiments Jupyter Notebook</a></p>
+	<p dir="ltr">PRJ-2074 | [NHERI Debris Impact Experiments Jupyter Notebook](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2074){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2074))</p>
 
 	<ul>
 		<li>
@@ -61,7 +61,7 @@
 	</ul>
 	</li>
 	<li dir="ltr">
-	<p dir="ltr">PRJ-2259 | <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2259">Next Generation Liquefaction (NGL) Partner Dataset Cone Penetration Test (CPT) Viewer</a></p>
+	<p dir="ltr">PRJ-2259 | [Next Generation Liquefaction (NGL) Partner Dataset Cone Penetration Test (CPT) Viewer](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2259){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2259))</p>
 
 	<ul>
 		<li>
@@ -79,7 +79,7 @@
 	</ul>
 	</li>
 	<li dir="ltr">
-	<p dir="ltr">PRJ-2363 | <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2363/">Soil-Foundation-Structure Interaction Effects on the Cyclic Failure Potential of Silts and Clays</a></p>
+	<p dir="ltr">PRJ-2363 | [Soil-Foundation-Structure Interaction Effects on the Cyclic Failure Potential of Silts and Clays](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2363/){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2363/))</p>
 
 	<ul>
 		<li>
@@ -97,7 +97,7 @@
 	</ul>
 	</li>
 	<li dir="ltr">
-	<p dir="ltr">PRJ-1942 | <a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-1942">NGA-East Geotechnical Working Group Seismic Site Response Simulation Database</a></p>
+	<p dir="ltr">PRJ-1942 | [NGA-East Geotechnical Working Group Seismic Site Response Simulation Database](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-1942){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-1942))</p>
 
 	<ul>
 		<li>
