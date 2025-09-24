@@ -3,7 +3,7 @@ name: DS User Guide PPRD Builds
 on:
   push:
     branches:
-      - feat/GH-206-open-in-designsafe
+      - pprd
 
 jobs:
   docker:
