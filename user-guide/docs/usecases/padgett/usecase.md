@@ -19,8 +19,8 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Read Surge | Surge_Galv.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QGIS/Read_ADCIRC/Surge_Galv.ipynb) |
-| Read Wave | Wave_Galv.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QGIS/Read_ADCIRC/Wave_Galv.ipynb) |
+| Read Surge | Surge_Galv.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QGIS/Read_ADCIRC/Surge_Galv.ipynb) |
+| Read Wave | Wave_Galv.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QGIS/Read_ADCIRC/Wave_Galv.ipynb) |
 
 #### DesignSafe Resources
 
