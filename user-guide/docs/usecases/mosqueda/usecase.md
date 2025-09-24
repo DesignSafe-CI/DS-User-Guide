@@ -21,9 +21,9 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Shake-Table Performance | Case 1. Shake table performance.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%201.%20Shake%20table%20performance.ipynb) |
-| Structural Response and System Identification | Case 2: Structural Response and System Identification.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%202%3A%20Structural%20Response%20and%20System%20Identification.ipynb) |
-| Experimental Workflow | Case 3: Experimental Workflow.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%203%3A%20Experimental%20Workflow.ipynb) |
+| Shake-Table Performance | Case 1. Shake table performance.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%201.%20Shake%20table%20performance.ipynb) |
+| Structural Response and System Identification | Case 2: Structural Response and System Identification.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%202%3A%20Structural%20Response%20and%20System%20Identification.ipynb) |
+| Experimental Workflow | Case 3: Experimental Workflow.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20Experimental%20Data/Case%203%3A%20Experimental%20Workflow.ipynb) |
 
 
 #### DesignSafe Resources
