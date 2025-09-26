@@ -17,12 +17,12 @@ Generating contours for a single case is simple through the web interface. The f
 	<li><b>ADCIRC File.</b> See the reference table below. Generic NetCDF files may also be accepted, if formatted appropriately.</li>
 	<li><b>Variable.</b> Preceded by flag --var. The variable of interest from the NetCDF file. See the reference table below.</li>
 	<li><b>Contour levels.</b> Preceded by flag --levels. Separated by spaces, the minimum contour, maximum contour, and step size.</li>
-	<li><b>Vertical units out.</b>m or ft</li>
+	<li><b>Vertical units out.</b> m or ft</li>
 	<li><b>Vertical units in.</b> m or ft</li>
 	<li><b>Time Steps.</b> Preceded by flag --timesteps. For time-varying files, specific time steps to extract are provided, separated by spaces. Otherwise, all are exported.</li>
 </ul>
 
-After this, generic allocation and archiving preferences are available. Since Kalpana is a serial program, it does not make sense to run on multiple nodes. Additional cores may provide additional memory to process very large files.
+After this, generic allocation and archiving preferences are available. Since Kalpana is a serial program, it does not make sense to run on multiple nodes. However, additional cores may provide additional memory to process very large files.
 
 <table>
 	<caption>Reference Table for Common ADCIRC Files</caption>
