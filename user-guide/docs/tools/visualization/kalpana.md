@@ -71,27 +71,27 @@ After this, generic allocation and archiving preferences are available. Since Ka
 		</tr>
 		<tr>
 			<td>swan_HS.63.nc</td>
-			<td></td>
+			<td>Significant wave height</td>
 			<td>swan_HS</td>
 		</tr>
 		<tr>
 			<td>swan_HS_max.63.nc</td>
-			<td></td>
+			<td>Maximum significant wave height</td>
 			<td>swan_HS_max</td>
 		</tr>
 		<tr>
 			<td>swan_TPS.63.nc</td>
-			<td></td>
+			<td>Peak wave period</td>
 			<td>swan_TPS</td>
 		</tr>
 		<tr>
 			<td>swan_TPS_max.63.nc</td>
-			<td></td>
+			<td>Maximum peak wave period</td>
 			<td>swan_TPS_max</td>
 		</tr>
 		<tr>
 			<td>swan_TMM10.63.nc</td>
-			<td></td>
+			<td>Mean wave period</td>
 			<td>swan_TMM10</td>
 		</tr>
 	</tbody>
