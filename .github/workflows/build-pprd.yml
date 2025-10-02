@@ -3,7 +3,7 @@ name: DS User Guide PPRD Builds
 on:
   push:
     branches:
-      - feat/mesteva-writing-effective-data-reports
+      - pprd
 
 jobs:
   docker:

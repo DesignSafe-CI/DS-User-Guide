@@ -21,8 +21,8 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Jupyter PyFoam Example | Jupyter_PyFoam.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter/Jupyter_PyFoam.ipynb) |
-| Use case Example | OpenFOAM_Run_example.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/OpenFOAM_Run_example.ipynb) |
+| Jupyter PyFoam Example | Jupyter_PyFoam.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter/Jupyter_PyFoam.ipynb) |
+| Use case Example | OpenFOAM_Run_example.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/OpenFOAM_Run_example.ipynb) |
 
 #### DesignSafe Resources
 
@@ -66,7 +66,7 @@ Jupyter Notebooks can provide an interpretable and interactive computing environ
 
 ##### Jupyter Notebook example for advanced utilities
 
-For better understanding, A Jupyter Notebook example, [Jupyter_PyFoam.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter/){target=_blank}, is provided that facilitates the automated CFD modeling with the aid of advanced utilities. Automated mesh generation and inflow configuration in the Jupyter Notebooks are explored through the case study of a rectangular building's cross-section. [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter/Jupyter_PyFoam.ipynb)
+For better understanding, A Jupyter Notebook example, [Jupyter_PyFoam.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter/){target=_blank}, is provided that facilitates the automated CFD modeling with the aid of advanced utilities. Automated mesh generation and inflow configuration in the Jupyter Notebooks are explored through the case study of a rectangular building's cross-section. [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter/Jupyter_PyFoam.ipynb)
 
 In addition, a baseline model housed in [DH_Baseline](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/PyFoam_Jupyter){target=_blank} directory is provided that can be used to generate an input environment for an OpenFOAM simulation.
 
@@ -136,7 +136,7 @@ More detailed information can be found in the [Jupyter_PyFoam.ipynb](https://www
 
 ##### Description
 
-A use case example is a `URANS` simulation for wind flow around a rectangular building's cross-section, which is implemented at a Jupyter Notebook, [OpenFOAM_Run_example.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/){target=_blank}. The input environments are prepared at [DH1_run](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/){target=_blank} directory. The test rectangular cross-section model and its mesh are shown in Fig. 4. [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/OpenFOAM_Run_example.ipynb) |
+A use case example is a `URANS` simulation for wind flow around a rectangular building's cross-section, which is implemented at a Jupyter Notebook, [OpenFOAM_Run_example.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/){target=_blank}. The input environments are prepared at [DH1_run](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/OpenFOAM/){target=_blank} directory. The test rectangular cross-section model and its mesh are shown in Fig. 4. [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/OpenFOAM/OpenFOAM_Run_example.ipynb) |
 
 ![fig4](img/fig4.png)
 <p align="center">Fig. 4 Test model and its mesh</p>

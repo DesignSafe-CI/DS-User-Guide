@@ -18,9 +18,9 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| CASE 0 Preprocessing Visualization | Case 0 PreprocessingVisualization.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%200%20PreprocessingVisualization.ipynb) |
-| CASE 1 Linear Regression | Case 1 LinearRegression.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%201%20LinearRegression.ipynb) |
-| CASE 2 Deep Neural Network (DNN) Regression | Case 2 DNN.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%202%20DNN.ipynb) |
+| CASE 0 Preprocessing Visualization | Case 0 PreprocessingVisualization.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%200%20PreprocessingVisualization.ipynb) |
+| CASE 1 Linear Regression | Case 1 LinearRegression.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%201%20LinearRegression.ipynb) |
+| CASE 2 Deep Neural Network (DNN) Regression | Case 2 DNN.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/Shake%20Table%20ML%20Data%20Analysis/Case%202%20DNN.ipynb) |
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.

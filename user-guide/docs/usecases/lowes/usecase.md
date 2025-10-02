@@ -20,12 +20,12 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Matlab to Python | Matlab_to_Python.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Matlab_to_Python.ipynb) |
-| Tcl-Script Creator | TCL_Script_Creator.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/TCL_Script_Creator.ipynb) |
-| Load-Displacement History | DisplacementLoadHistory.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/DisplacementLoadHistory.ipynb) |
-| Cross-Sectional Analysis | CrossSectionSteelConcreteProfile.ipynb | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/CrossSectionSteelConcreteProfile.ipynb)<br> -- this notebook has been removed|
-| Movies | Movies.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Movies.ipynb) |
-| Crack Angle Viz | CrackedModel.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/CrackedModel.ipynb) |
+| Matlab to Python | Matlab_to_Python.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Matlab_to_Python.ipynb) |
+| Tcl-Script Creator | TCL_Script_Creator.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/TCL_Script_Creator.ipynb) |
+| Load-Displacement History | DisplacementLoadHistory.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/DisplacementLoadHistory.ipynb) |
+| Cross-Sectional Analysis | CrossSectionSteelConcreteProfile.ipynb | [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/CrossSectionSteelConcreteProfile.ipynb)<br> -- this notebook has been removed|
+| Movies | Movies.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/Movies.ipynb) |
+| Crack Angle Viz | CrackedModel.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/QUOFEM/CrackedModel.ipynb) |
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
