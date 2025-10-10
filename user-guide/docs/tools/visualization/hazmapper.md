@@ -4,9 +4,23 @@
 
 ### What is Hazmapper { #hazmapper }
 
-DesignSafe HazMapper is a rich web-based application for visualizing and analyzing geospatial data [assets](/user-guide/tools/visualization/hazmapper/#supported-asset-types).
+<!-- DesignSafe HazMapper is a rich web-based application for visualizing and analyzing geospatial data [assets](/user-guide/tools/visualization/hazmapper/#supported-asset-types). -->
+DesignSafe Hazmapper is a rich web-based application for visualizing and analyzing geospatial data (assets). It serves both as a **collaborative tool** for sharing maps and datasets among project team members, and as a way to create a **public map** for published data.
+
+Public Hazmapper maps allow visitors to:
+
+- View selected datasets from your DesignSafe project directly on the web.
+- Explore and discover project data without needing specialized software or local processing.
+- Gain quick insight into curated, geospatial aspects of your project.
+
+When linked to a [DesignSafe Published Project](/user-guide/tools/visualization/hazmapper/#public-maps-published-projects), a Hazmapper public map provides an interactive entry point, letting other researchers (and the public) preview and explore your data online.
+
+/// html | article.card--plain
+    markdown: block
 
 **Note**: At this time, **DO NOT** include ".hazmapper" extension files in the list of pieces of a project to curate and publish with any project that needs to acquire a DOI. The curated map will not be public for viewing with the DOI. Instead, make a public version of the map, and include the URL of the public map in the project description.
+
+///
 
 ### Accessing Hazmapper { #accessing }
 
@@ -36,11 +50,11 @@ From the _Tools &amp; Applications_ page, the user can navigate to _Hazmapper (2
 
 #### Welcome Menu { #welcome-menu }
 
-The welcome menu is the first interface that the user will see. This menu lists all of the [maps](/user-guide/tools/visualization/hazmapper/#maps) that are tied to the user either from [creating the map](/user-guide/tools/visualization/hazmapper/#mapcreationprompt) or from a [shared map](/user-guide/tools/visualization/hazmapper/#collaboration-sharedmaps) (_Fig 2.1_).
+The welcome menu is the first interface that the user will see. This menu lists all of the [maps](/user-guide/tools/visualization/hazmapper/#maps) that are tied to the user either from [creating the map](/user-guide/tools/visualization/hazmapper/#map-creation-prompt) or from a [shared map](/user-guide/tools/visualization/hazmapper/#collaboration-sharedmaps) (_Fig 2.1_).
 
 The header of the menu displays the name of the map and the DesignSafe project that it is saved in. If it is saved to the Data Depot, it will show a `----------`.
 
-On the rightmost side of the header is the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } _Create a New Map_ button, which opens the [map creation prompt](/user-guide/tools/visualization/hazmapper/#mapcreationprompt).
+On the rightmost side of the header is the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } _Create a New Map_ button, which opens the [map creation prompt](/user-guide/tools/visualization/hazmapper/#map-creation-prompt).
 
 The icons on the right side of each map item are _edit_ ![](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } and _delete_ ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" }.
 
@@ -50,7 +64,7 @@ To access a map, the user can either click on a map item or click on the _edit_ 
 
 **Fig 2.1**
 
-#### Map Creation Prompt { #mapcreationprompt }
+#### Map Creation Prompt { #map-creation-prompt }
 
 Clicking on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } _Create a New Map_ button from the [welcome menu](/user-guide/tools/visualization/hazmapper/#welcome-menu) (_Fig 2.2_) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
 
@@ -63,6 +77,15 @@ First, the user is required to give the map a name and a description.
 Once the user selects the name and description, unless manually specified, the map will be saved to a file with the same name as the map name with a `.hazmapper` extension.
 
 Next, by browsing through the file browser, the user can select a location in the DesignSafe Data Depot the map will be saved to.
+
+/// html | article.card--plain
+    markdown: block
+
+By saving the map into the correct DesignSafe project folder, Hazmapper automatically associates the map with that project. This ensures that once the project is published, the DesignSafe Published Project page can link directly to your Hazmapper map, providing a curated, interactive geospatial view of your data for the public.
+
+_See [Public Hazmapper Maps and DesignSafe Published Projects](/user-guide/tools/visualization/hazmapper/#public-maps-published-projects) for more information._
+
+///
 
 For clarity, the selected location will be displayed in the _Save Location_ section.
 
@@ -256,13 +279,13 @@ Because we rely on this external service, much of the functionality is catered t
 
 Mapillary is a service that allows its users to import streetview imagery to view through their app. They also expose a tile-based API that allows other apps to integrate with their services.
 
-###### Mapillary Terminology { #panels-streetview-terminology }
+###### Mapillary Terminology { #panels-streetview-mapillary-terminology }
 
-* _Organization_: ( [mapillary documentation](https://help.mapillary.com/hc/en-us/articles/360016036931-Mapillary-for-Organizations-getting-started) ) This is somewhat like a shared account in Mapillary that can be accessed by multiple individual users to collaborate. Any user with access to an organization can upload streetview assets through it. We have a constraint in our upload workflow to enforce users to upload to a target organization and not their accounts. Thus, users can only work with assets through organizations and not from their personal Mapillary account.
-* _Sequence_: ( [mapillary documentation](https://help.mapillary.com/hc/en-us/articles/115001724849-Sequences-on-the-Mapillary-Web-App) ) This is a unit of a collection of streetview images that Mapillary uses to organize their assets with a max size of 500 images. During upload, if the selected folder is more than 500 images, Mapillary will split the assets being uploaded into multiple sequences. Thus, a folder can be linked with multiple sequences.
-* _Processing_: ( [mapillary documentation](https://blog.mapillary.com/update/2018/04/19/accurate-privacy-blurring-at-scale.html) ) This is a step in the upload process that takes place on the Mapillary side. Once all the data is transferred, Mapillary processes the images so that faces and car plates are blurred for privacy concerns. Thus, it will take some time after all the transferring (depending on how many images are uploaded at the same time).
+* _[Organization](https://help.mapillary.com/hc/en-us/articles/360016036931-Mapillary-for-Organizations-getting-started)_: This is somewhat like a shared account in Mapillary that can be accessed by multiple individual users to collaborate. Any user with access to an organization can upload streetview assets through it. We have a constraint in our upload workflow to enforce users to upload to a target organization and not their accounts. Thus, users can only work with assets through organizations and not from their personal Mapillary account.
+* _[Sequence](https://help.mapillary.com/hc/en-us/articles/115001724849-Sequences-on-the-Mapillary-Web-App)_: This is a unit of a collection of streetview images that Mapillary uses to organize their assets with a max size of 500 images. During upload, if the selected folder is more than 500 images, Mapillary will split the assets being uploaded into multiple sequences. Thus, a folder can be linked with multiple sequences.
+* _[Processing](https://blog.mapillary.com/update/2018/04/19/accurate-privacy-blurring-at-scale.html)_: This is a step in the upload process that takes place on the Mapillary side. Once all the data is transferred, Mapillary processes the images so that faces and car plates are blurred for privacy concerns. Thus, it will take some time after all the transferring (depending on how many images are uploaded at the same time).
 
-###### Logging in to Mapillary
+###### Logging in to Mapillary { #mapillary-login }
 
 To start using streetview assets with Mapillary, the user must log in to Mapillary.
 
@@ -280,11 +303,13 @@ This will redirect the user to an external login page.
 
 **Fig 2.24**
 
-Once authorized from the external site, the user must provide Hazmapper a Mapillary _username_ and at least one _organization key_ of an organization. { #streetview-login-username }
+Once authorized from the external site, the user must provide Hazmapper a Mapillary _username_ and at least one _organization key_ of an organization.
 
 ![](./imgs/hazmapper-2.25.png){: class="align-center" }
 
 **Fig 2.25**
+
+###### Organizations { #mapillary-organizations }
 
 ![](./imgs/hazmapper-2.26.png){: class="align-center" }
 
@@ -320,7 +345,7 @@ If a user adds a correct organization key, Hazmapper will automatically add the 
 
 ###### Display Mapillary Sequences { #panels-streetview-display }
 
-This will display all of the [mapillary assets](/user-guide/tools/visualization/hazmapper/#mapillary-assets) of a selected organization in the [filters tab](/user-guide/tools/visualization/hazmapper/#filters-tab).
+This will display all of the [mapillary assets](/user-guide/tools/visualization/hazmapper/#panels-streetview-mapillary-assets) of a selected organization in the [filters tab](/user-guide/tools/visualization/hazmapper/#panels-streetview-filters-tab).
 
 ![](./imgs/hazmapper-2.32.png){: class="align-center" }
 
@@ -330,7 +355,7 @@ This will display all of the [mapillary assets](/user-guide/tools/visualization/
 
 This allows the user to upload and publish images from DesignSafe to Mapillary. During the process, the images are linked to hazmapper.
 
-**Note**: _The assets published here will be imported as [mapillary assets](/user-guide/tools/visualization/hazmapper/#mapillary-assets)_.
+**Note**: _The assets published here will be imported as [mapillary assets](/user-guide/tools/visualization/hazmapper/#panels-streetview-mapillary-assets)_.
 
 ![](./imgs/hazmapper-2.33.png){: class="align-center" }
 
@@ -344,7 +369,7 @@ On clicking the _Publish_ button, the user will see a prompt that asks for the u
 
 ###### Assets Tab { #panels-streetview-assets }
 
-This tab will all of the [linked mapillary assets](/user-guide/tools/visualization/hazmapper/#linked-mapillary-assets). On clicking on the asset, the prompt will display the [mapillary sequences](/user-guide/tools/visualization/hazmapper/#mapillary-terminology) associated with a system/path.
+This tab will list all of the [linked mapillary assets](/user-guide/tools/visualization/hazmapper/#linked-mapillary-assets). If you click on the asset, the prompt will display the [mapillary sequences](/user-guide/tools/visualization/hazmapper/#panels-streetview-mapillary-terminology) associated with a system/path.
 
 ![](./imgs/hazmapper-2.35.png){: class="align-center" }
 
@@ -352,41 +377,41 @@ This tab will all of the [linked mapillary assets](/user-guide/tools/visualizati
 
 In this interface (_Fig 2.36_), the user can:
 
-* [Imported the streetview assets to the map](/user-guide/tools/visualization/hazmapper/#imported-streetview-assets) (![link icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/link.svg){: height="12" width="12" }).
-* Jump to the sequence in the map.
-* Delete the sequence's association with Hazmapper (![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" }).
+* Import streetview assets into the map (![link icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/link.svg){: height="12" width="12" }).
+* Jump to a specific sequence in the map.
+* Delete a sequence's association with Hazmapper (![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" }).
 
 ![](./imgs/hazmapper-2.36.png){: class="align-center" }
 
-**Fig 2.37**
+**Fig 2.36**
 
 ###### Log Tab { #panels-streetview-log }
 
-The _Publish_ process prompted by the user submitting a [publish job](/user-guide/tools/visualization/hazmapper/#publish-button) requires the images to be first collected from DesignSafe and then published to Mapillary.
+The _Publish_ process prompted by the user submitting a [publish job](/user-guide/tools/visualization/hazmapper/#panels-streetview-publish) requires the images to be first collected from DesignSafe and then published to Mapillary.
 
 This tab shows a list of the progress of active publish processes.
 
 ![](./imgs/hazmapper-2.37.png){: class="align-center" }
 
-**Fig 2.38**
+**Fig 2.37**
 
-###### Filters Tab { #panels-streetview-filterstab }
+###### Filters Tab { #panels-streetview-filters-tab }
 
-The interface of the _Filters tab_ is similar to that of the [filters panel](/user-guide/tools/visualization/hazmapper/#filters-panel). However, instead of filtering based on a date range or asset type, this will filter by the organizations that a user added (either on login or through the [account tab](/user-guide/tools/visualization/hazmapper/#account-tab)).
+The interface of the _Filters tab_ is similar to that of the [filters panel](/user-guide/tools/visualization/hazmapper/#panels-filters). However, instead of filtering based on a date range or asset type, this will filter by the organizations that a user added (either on login or through the [account tab](/user-guide/tools/visualization/hazmapper/#panels-streetview-account-tab).
 
 ![](./imgs/hazmapper-2.38.png){: class="align-center" }
 
-**Fig 2.39**
+**Fig 2.38**
 
-###### Account Tab { #panels-streetview-accounttab }
+###### Account Tab { #panels-streetview-account-tab }
 
 The account tab is where the user can view and modify the mapillary account information associated with Hazmapper.
 
 The _Logout_ button will log the user out of the current account.
 
-The _Change Username_ and _Manage Organization_ buttons will each open a prompt similar to the one the user sees on [login](/user-guide/tools/visualization/hazmapper/#streetview-login-username). They allow the user to modify the account information associated with Mapillary.
+The _Change Username_ and _Manage Organization_ buttons will each open a prompt similar to the one the user sees on [login](/user-guide/tools/visualization/hazmapper/#mapillary-login). They allow the user to modify the account information associated with Mapillary.
 
-The _Delete Streetview Service_ button will delete all of the associations created through [publish](/user-guide/tools/visualization/hazmapper/#publish-button) or [link](/user-guide/tools/visualization/hazmapper/#mapillary-link). This operation cannot be reverted! So, the user must be extremely cautious before proceeding. This functionality was implemented so that if the user desires, the user could destroy all of the Mapillary information stored in Hazmapper.
+The _Delete Streetview Service_ button will delete all of the associations created through [publish](/user-guide/tools/visualization/hazmapper/#panels-streetview-publish) or [link](/user-guide/tools/visualization/hazmapper/#panels-streetview-assets). This operation cannot be reverted! So, the user must be extremely cautious before proceeding. This functionality was implemented so that if the user desires, the user could destroy all of the Mapillary information stored in Hazmapper.
 
 **Note**: _Changes here will not affect the actual Mapillary account. For example, changing the username will not change the actual Mapillary username but only change the username that Hazmapper keeps track of._
 
@@ -394,7 +419,7 @@ The _Delete Streetview Service_ button will delete all of the associations creat
 
 **Fig 2.39**
 
-###### Streetview Assets { #panels-streetview-streetview }
+###### Streetview Assets { #panels-streetview-assets }
 
 The streetview support in Hazmapper comes with different asset components.
 
@@ -413,13 +438,13 @@ First, there are some commonalities among the different asset components:
 
 **Fig 2.41**
 
-###### Mapillary assets { #panels-streetview-mapillaryassets }
+###### Mapillary assets { #panels-streetview-mapillary-assets }
 
 Because the Mapillary account is tied to an individual user, Mapillary assets are _not_ part of the map itself. Thus, they will not be shown across members of the map and those with access to the public version of the map.
 
-_Non-linked mapillary assets_ { #non-linked-mapillary-asset}
+###### _Non-linked mapillary assets_ { #non-linked-mapillary-asset }
 
-These are the assets under an [organization](#tbd) that can be added through the [account](#tbd) or when [logging in](#tbd) tab and can be filtered by organizations with the [Filters](#tbd) tab. The only association they have will be through the organization.
+These are the assets under an [organization](/user-guide/tools/visualization/hazmapper/#mapillary-organizations) that can be added through the [account](/user-guide/tools/visualization/hazmapper/#panels-streetview-account-tab) tab or when [logging in](/user-guide/tools/visualization/hazmapper/#mapillary-login) and can be filtered by organizations with the [filters](/user-guide/tools/visualization/hazmapper/#panels-streetview-filters-tab) tab. The only association they have will be through the organization.
 
 They are displayed in this color: .
 
@@ -435,9 +460,9 @@ This will open a modal, in which the user can select a location to link the sequ
 
 **Fig 2.43**
 
-_Linked mapillary assets_ { #linked-mapillary-assets }
+###### _Linked mapillary assets_ { #linked-mapillary-assets }
 
-These are created either by manually adding a link from a non-linked mapillary asset or [publishing](/user-guide/tools/visualization/hazmapper/#publish-button) streetview assets to Mapillary through Hazmapper.
+These are created either by manually adding a link from a non-linked mapillary asset or [publishing](/user-guide/tools/visualization/hazmapper/#panels-streetview-publish) streetview assets to Mapillary through Hazmapper.
 
 They are displayed in this color: .
 
@@ -447,11 +472,11 @@ They are displayed in this color: .
 
 ###### Imported streetview feature assets { #panels-streetview-feature }
 
-Although the user is required to log in to the Mapillary to utilize them, imported streetview assets _are_ part of the map. Thus, unlike [mapillary assets](/user-guide/tools/visualization/hazmapper/#mapillary-assets), they can be shared among the members of the map and with those with access to the public version of the map.
+Although the user is required to log in to the Mapillary to utilize them, imported streetview assets _are_ part of the map. Thus, unlike [mapillary assets](/user-guide/tools/visualization/hazmapper/#panels-streetview-mapillary-assets), they can be shared among the members of the map and with those with access to the public version of the map.
 
-They appear in the Hazmapper [assets panel](/user-guide/tools/visualization/hazmapper/#assets-panel).
+They appear in the Hazmapper [assets panel](/user-guide/tools/visualization/hazmapper/#panels-assets).
 
-They are displayed in this color: .
+They are displayed in this color:
 
 ![](./imgs/hazmapper-2.45.png){: class="align-center" }
 
@@ -479,7 +504,7 @@ The _Members_ tab allows the user to view other users with access to the map (th
 
 ###### Public Tab { #panels-manage-public }
 
-The _Public_ tab allows the user to create a [public version of the map](/user-guide/tools/visualization/hazmapper/#public-maps) by creating a permanent link that can be shared with anyone. (_Fig 2.48_).
+The _Public_ tab allows the user to create a [public version of the map](/user-guide/tools/visualization/hazmapper/#collaboration-public) by creating a permanent link that can be shared with anyone. (_Fig 2.48_).
 
 The public map will have access to all of the [map-associated assets](/user-guide/tools/visualization/hazmapper/#map-associated-assets) (_Fig 2.49_). However, none of the editing functionality will be provided.
 
@@ -551,13 +576,13 @@ They can be analyzed further through the Potree Viewer, which shows a 3D model o
 
 ##### Imported Streetview Assets { #asset-types-map-streetview }
 
-These are imported versions of mapillary streetview assets and bound to the map (different from [non-imported streetview assets](/user-guide/tools/visualization/hazmapper/#non-imported-streetview-assets) shown and accessed through the [Streetview panel](/user-guide/tools/visualization/hazmapper/#streetview-panel)).
+These are imported versions of mapillary streetview assets and bound to the map (different from [non-imported streetview assets](/user-guide/tools/visualization/hazmapper/#non-linked-mapillary-asset) shown and accessed through the [Streetview panel](/user-guide/tools/visualization/hazmapper/#panels-streetview)).
 
 Thus, they can be shared among users of the map and with those who have access to the public link map if the map has a public version.
 
 ##### Tile Layers { #asset-types-map-layers }
 
-These are tile layers from an external tile server. They are managed through the [Layers panel](/user-guide/tools/visualization/hazmapper/#layers-panel).
+These are tile layers from an external tile server. They are managed through the [Layers panel](/user-guide/tools/visualization/hazmapper/#panels-layers).
 
 Currently, supported formats are:
 
@@ -573,7 +598,7 @@ Currently, supported formats are:
 
 ##### Non-imported Streetview Assets { #asset-types-thirdparty-streetview }
 
-These are supported through a Mapillary's tile service. Because these are user-dependent services, they cannot be shared among users of a map. Thus, they must be [imported](/user-guide/tools/visualization/hazmapper/#assets-tab) as [imported streetview assets](/user-guide/tools/visualization/hazmapper/#imported-streetview-assets).
+These are supported through a Mapillary's tile service. Because these are user-dependent services, they cannot be shared among users of a map. Thus, they must be [imported](/user-guide/tools/visualization/hazmapper/#panels-assets) as [imported streetview assets](/user-guide/tools/visualization/hazmapper/#panels-streetview-assets).
 
 ### Collaboration { #collaboration }
 
@@ -583,5 +608,21 @@ As briefly mentioned in the [Maps](/user-guide/tools/visualization/hazmapper/#ma
 
 #### Public Maps { #collaboration-public }
 
-Any map can have a public version of the map through the [public tab of the manage panel](/user-guide/tools/visualization/hazmapper/#panels-manage-public). The generated link will be permanent unless the owner of the map makes the map private, or unless the owner of the map deletes the original map.
+Any map can have a public version of the map through the [public tab of the manage panel](/user-guide/tools/visualization/hazmapper/#panels-manage-public). The generated link will be permanent unless the owner of the map makes the map private or deletes the original map.
+
+##### Public Hazmapper Maps and DesignSafe Published Projects { #public-maps-published-projects }
+
+When a Hazmapper map is associated with a DesignSafe project and made public, it provides an interactive way for others to view curated project data directly on the web. This allows visitors to:
+
+- Preview geospatial datasets without needing specialized software.
+- Discover and explore curated subsets of data within the context of the published project.
+
+Checklist for ensuring your Hazmapper map appears on your DesignSafe Published Project page:
+
+- Associate the map with your DesignSafe project during creation (see [Creating Projects](/user-guide/tools/visualization/hazmapper/#map-creation-prompt)).
+- Import relevant geospatial datasets into the map to provide context and visualization for your project.
+- Publish the datasets in DesignSafe so they are publicly accessible.  Note all data imported to a map should be also published to DesignSafe.
+-  Make the Hazmapper map public so the link on the DesignSafe project will resolve to a shareable, viewable map.
+
+Once these steps are complete, your DesignSafe Published Project will automatically include a link to your Hazmapper map, giving other researchers and the public an interactive way to preview and discover your geospatial data.
 
