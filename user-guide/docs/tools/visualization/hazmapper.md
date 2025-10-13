@@ -1,7 +1,5 @@
 ## Hazmapper
 
-**Version 2.8**
-
 ### What is Hazmapper { #hazmapper }
 
 <!-- DesignSafe HazMapper is a rich web-based application for visualizing and analyzing geospatial data [assets](/user-guide/tools/visualization/hazmapper/#supported-asset-types). -->
@@ -14,13 +12,6 @@ Public Hazmapper maps allow visitors to:
 - Gain quick insight into curated, geospatial aspects of your project.
 
 When linked to a [DesignSafe Published Project](/user-guide/tools/visualization/hazmapper/#public-maps-published-projects), a Hazmapper public map provides an interactive entry point, letting other researchers (and the public) preview and explore your data online.
-
-/// html | article.card--plain
-    markdown: block
-
-**Note**: At this time, **DO NOT** include ".hazmapper" extension files in the list of pieces of a project to curate and publish with any project that needs to acquire a DOI. The curated map will not be public for viewing with the DOI. Instead, make a public version of the map, and include the URL of the public map in the project description.
-
-///
 
 ### Accessing Hazmapper { #accessing }
 
@@ -622,7 +613,8 @@ Checklist for ensuring your Hazmapper map appears on your DesignSafe Published P
 - Associate the map with your DesignSafe project during creation (see [Creating Projects](/user-guide/tools/visualization/hazmapper/#map-creation-prompt)).
 - Import relevant geospatial datasets into the map to provide context and visualization for your project.
 - Publish the datasets in DesignSafe so they are publicly accessible.  Note all data imported to a map should be also published to DesignSafe.
--  Make the Hazmapper map public so the link on the DesignSafe project will resolve to a shareable, viewable map.
+- Make the Hazmapper map public so the link on the DesignSafe project will resolve to a shareable, viewable map.
+- Do not include `.hazmapper` extension files in the list of pieces of a project to curate and publish with any project that needs to acquire a DOI.
 
 Once these steps are complete, your DesignSafe Published Project will automatically include a link to your Hazmapper map, giving other researchers and the public an interactive way to preview and discover your geospatial data.
 
