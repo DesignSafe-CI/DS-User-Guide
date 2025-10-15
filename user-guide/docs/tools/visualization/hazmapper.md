@@ -44,7 +44,7 @@ The welcome menu is the first interface that the user will see. This menu lists 
 
 The header of the menu displays the name of the map and the DesignSafe project that it is saved in. If it is saved to the Data Depot, it will show a `----------`.
 
-On the rightmost side of the header is the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } _Create a New Map_ button, which opens the [map creation prompt](/user-guide/tools/visualization/hazmapper/#map-creation-prompt).
+On the rightmost side of the header is the _Create a New Map_{: .fa .fa-plus } button, which opens the [map creation prompt](/user-guide/tools/visualization/hazmapper/#map-creation-prompt).
 
 The icons on the right side of each map item are _edit_{: .fa .fa-edit } and _delete_{: .fa .fa-trash }.
 
@@ -56,7 +56,7 @@ To access a map, the user can either click on a map item or click on the _edit_{
 
 ### Map Creation Prompt { #map-creation-prompt }
 
-Clicking on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } _Create a New Map_ button from the [welcome menu](/user-guide/tools/visualization/hazmapper/#welcome-menu) (_Fig 2.2_) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
+Clicking on the _Create a New Map_{: .fa .fa-plus } button from the [welcome menu](/user-guide/tools/visualization/hazmapper/#welcome-menu) (_Fig 2.2_) will open the project creation prompt. This prompt will guide the user through options needed to create a map.
 
 ![](./imgs/hazmapper-2.2.png){: class="align-center" }
 
@@ -89,7 +89,7 @@ Once you create a map or select a map from the welcome menu, you will see the fo
 
 We will start the overview of the map interface by first looking at the title bar section of the interface.
 
-Starting from the left to right, we can see a left arrow button ![left arrow icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/arrow-left.svg){: height="12" width="12" }. Clicking on this button will bring the user back to the welcome menu we looked into in the previous section.
+Starting from the left to right, we can see a left arrow button _left arrow icon_{: .fa .fa-arrow-left }. Clicking on this button will bring the user back to the welcome menu we looked into in the previous section.
 
 The next part of the title bar is the name of the map with the associated DesignSafe Project if it exists.
 
@@ -155,7 +155,7 @@ In the point cloud creation prompt, the user is required to create a _Descriptio
 
 Once created, the point cloud object with be shown in the panel.
 
-Now, the user can add a point cloud asset (las or laz), delete ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" } the point cloud object, or view ![info icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/info-circle.svg){: height="14" width="14" } the object information.
+Now, the user can add a point cloud asset (las or laz), delete _trash icon_{: .fa .fa-trash } the point cloud object, or view _info icon_{: .fa .fa-info-circle } the object information.
 
 To add a point cloud asset to the point cloud object, the user must click on the _Add las/laz_ button.
 
@@ -199,7 +199,7 @@ By default, the **Roads** and **Satellite** base layers will be added and enable
 
 **Fig 2.15**
 
-To add more layers, the user must click on the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } button directly under _Tile Layers_.
+To add more layers, the user must click on the _plus icon_{: .fa .fa-plus } button directly under _Tile Layers_.
 
 This will open the tile layer creation prompt.
 
@@ -363,9 +363,9 @@ This tab will list all of the [linked mapillary assets](/user-guide/tools/visual
 
 In this interface (_Fig 2.36_), the user can:
 
-* Import streetview assets into the map (![link icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/link.svg){: height="12" width="12" }).
+* Import streetview assets into the map (_link icon_{: .fa .fa-link }).
 * Jump to a specific sequence in the map.
-* Delete a sequence's association with Hazmapper (![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" }).
+* Delete a sequence's association with Hazmapper (_trash icon_{: .fa .fa-trash }).
 
 ![](./imgs/hazmapper-2.36.png){: class="align-center" }
 
