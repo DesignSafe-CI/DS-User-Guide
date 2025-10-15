@@ -69,14 +69,10 @@ Once the user selects the name and description, unless manually specified, the m
 
 Next, by browsing through the file browser, the user can select a location in the DesignSafe Data Depot the map will be saved to.
 
-/// html | article.card--plain
-    markdown: block
+!!! note
+    By saving the map into the correct DesignSafe project folder, Hazmapper automatically associates the map with that project. This ensures that once the project is published, the DesignSafe Published Project page can link directly to your Hazmapper map, providing a curated, interactive geospatial view of your data for the public.
 
-By saving the map into the correct DesignSafe project folder, Hazmapper automatically associates the map with that project. This ensures that once the project is published, the DesignSafe Published Project page can link directly to your Hazmapper map, providing a curated, interactive geospatial view of your data for the public.
-
-_See [Public Hazmapper Maps and DesignSafe Published Projects](/user-guide/tools/visualization/hazmapper/#public-maps-published-projects) for more information._
-
-///
+    _See [Public Hazmapper Maps and DesignSafe Published Projects](/user-guide/tools/visualization/hazmapper/#public-maps-published-projects) for more information._
 
 For clarity, the selected location will be displayed in the _Save Location_ section.
 
