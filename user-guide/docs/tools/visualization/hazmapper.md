@@ -1,6 +1,6 @@
 ## Hazmapper
 
-### What is Hazmapper { #hazmapper }
+### What is Hazmapper
 
 <!-- DesignSafe HazMapper is a rich web-based application for visualizing and analyzing geospatial data [assets](/user-guide/tools/visualization/hazmapper/#supported-asset-types). -->
 DesignSafe Hazmapper is a rich web-based application for visualizing and analyzing geospatial data (assets). It serves both as a **collaborative tool** for sharing maps and datasets among project team members, and as a way to create a **public map** for published data.
