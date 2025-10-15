@@ -1,14 +1,14 @@
 # Transferring Your Data
 
-DesignSafe supports multiple ways of moving data in and out of the Data Depot, the data transfer method that is best for you will depend on the quantity of data you wish to move. There are two broad categories of data transfer methods available; we will refer to these categories as large data transfer methods and normal data transfer methods. Large data transfer methods are for situations where you want to move a large amount of data (&gt; 2GB), a large numbers of files (&gt; 25), or folders. Whereas normal data transfer methods are for situations where you wish to move a small amount of data (&lt; 2GB) stored across a small number of files (&lt; 25).
+DesignSafe supports multiple ways of moving data in and out of the Data Depot, and the data transfer method that is best for you will depend on the quantity of data you wish to move. There are two broad categories of data transfer methods available; we will refer to these categories as large data transfer methods and normal data transfer methods. Large data transfer methods are for situations where you want to move a large amount of data (&gt; 2GB upload or &gt; 5GB download), a large numbers of files (&gt; 25), or folders. Whereas normal data transfer methods are for situations where you wish to move a small amount of data (&lt; 2GB upload or &lt; 5GB download) stored across a small number of files (&lt; 25). 
 
-This document provides a brief description of the various methods available for moving data to and from DesignSafe to assist you in identifying the right data transfer method for your research needs. Once you have selected your data transfer method, each description concludes with a link to detailed instructions for initiating your transfer.
+This document provides a brief description of the various methods available for moving data to and from DesignSafe to assist you in identifying the right data transfer method for your research needs. Once you have selected your data transfer method, each description concludes with a link to detailed instructions for initiating your transfer. File paths and host names are needed when using any of the data transfer methods that are external to the Data Depot's web-based transfers, with guidance found in the [Setting File Paths for DesignSafe](user-guide/managingdata/datatransfer/#setting-file-paths-for-designsafe) section of this user guide.
 
 ## Recommended Data Transfer Methods { #recommended }
 
 ### Recommended LARGE Data Transfer Methods { #recommended-largedatatransfer }
 
-We define a "**large**" data transfer here as any file transfer that is  &gt; 2GB, or &gt; 25 files or &gt; 2 folders.
+We define a "**large**" data transfer here as any file transfer that is  &gt; 2GB upload or &gt; 5GB download, or &gt; 25 files or &gt; 2 folders.
 
 /// html | article.card--plain
     markdown: block
@@ -39,7 +39,7 @@ Common command-line utilities, such as `scp` and `rsync`, may also be used to tr
 
 ### Recommended NORMAL Data Transfer Methods { #recommended-normaldatatransfer }
 
-We define a "**normal**" data transfer as &lt; 2GB or  &lt; 25 files or &lt; 2 folders
+We define a "**normal**" data transfer as &lt; 2GB upload or &lt; 5GB download or  &lt; 25 files or &lt; 2 folders
 
 /// html | article.card--plain
     markdown: block
