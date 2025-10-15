@@ -108,6 +108,16 @@ b {
 
 
 
+/* TACC-DOCS via DS-DOCS */
+/* To add CSS that should be moved to TACC/TACC-Docs */
+
+/* To add space before and after icon from `_text_{ .fa fa.icon-name }` */
+.fa::before {
+    margin-inline: 0.5ch;
+}
+
+
+
 /* DS-DOCS */
 /* To add CSS unique to DesignSafe/DS-User-Guide */
 

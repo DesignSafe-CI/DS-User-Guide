@@ -47,9 +47,9 @@ The header of the menu displays the name of the map and the DesignSafe project t
 
 On the rightmost side of the header is the ![plus icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/plus.svg){: height="12" width="12" } _Create a New Map_ button, which opens the [map creation prompt](/user-guide/tools/visualization/hazmapper/#map-creation-prompt).
 
-The icons on the right side of each map item are _edit_ ![](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } and _delete_ ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" }.
+The icons on the right side of each map item are _edit_{: .fa .fa-edit } and _delete_{: .fa .fa-trash }.
 
-To access a map, the user can either click on a map item or click on the _edit_ ![edit icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/pen-to-square.svg){: height="12" width="12" } button. To delete a map, the user can click on the _delete_ ![trash icon](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg){: height="12" width="12" } button of a map.
+To access a map, the user can either click on a map item or click on the _edit_{: .fa .fa-edit } button. To delete a map, the user can click on the _delete_{: .fa .fa-trash } button of a map.
 
 ![](https://raw.githubusercontent.com/TACC-Cloud/hazmapper/hazmapper-documentation/docs/docs/img/menu.png){: class="align-center" width="70%" }
 
