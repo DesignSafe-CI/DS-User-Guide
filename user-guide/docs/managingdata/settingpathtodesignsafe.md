@@ -27,7 +27,7 @@ The path to Work operates differently than the other locations described above. 
 
 ## Path to Published { #published-nheri }
 
-1. Set Path to `/corral/projects/NHERI/published/<PRJ-XXXX>`.
+1. Set Path to `/corral/projects/NHERI/published/published-data/<PRJ-XXXX>`.
 2. Replace `<PRJ-XXXX>` with the project's number.
     <br><small>The hostname for the location is data.tacc.utexas.edu.</small>
 
