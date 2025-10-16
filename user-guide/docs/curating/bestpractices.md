@@ -69,7 +69,19 @@ Understanding that ArcGIS software is widespread in this community, it is possib
 
 ### Point Cloud Data
 
-It is recommended to avoid publishing proprietary point cloud data extensions. Instead, users should consider publishing post-processed and open format data such as las or laz files. In addition, point cloud data publications may be very large and therefore of difficult access if not displayed on a map. In [Tools and Applications](https://www.designsafe-ci.org/use-designsafe/tools-applications/), we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a Potree readable format for visualization in DesignSafe.
+Point cloud data should be published in open, non-proprietary formats that ensure long-term usability and interoperability (e.g., LAS/LAZ, E57). The standard formats for publication are LAS and its compressed counterpart LAZ, both of which are widely supported by geospatial software and community tools. These formats store the raw point measurements along with important metadata, including the coordinate reference system (CRS), which is essential to accurately locate the data in space and make it usable in mapping and analysis. In DS, we have Potree available for users to view point cloud datasets. Through the Potree Convertor application, non-proprietary point cloud files can be converted to a Potree readable format for visualization in DesignSafe.
+
+Authors are encouraged to:
+
+- Publish their point cloud data in LAS/LAZ format.
+- Create a Hazmapper map (optional) to allow users to interactively view the point cloud data on the dataset's landing page online. While users can download data from a published project landing page, Hazmapper provides a convenient way to preview the dataset and support discovery, while users can download the published LAS/LAZ files directly from DesignSafe. See [Hazmapper > Collaboration](/user-guide/tools/visualization/hazmapper/#collaboration) for more details about how to create and publish a map in the project level landing page.
+
+Before publishing, ensure that:
+
+- Point cloud files are provided in open, non-proprietary formats (e.g. LAS, LAZ)
+- The coordinate reference system (CRS) is correctly defined and stored within the file metadata. This is critical so users know exactly where the data is located on the Earth's surface and can align it with other spatial datasets.
+- Provide a README file including information about the directory structure, what files are located where and a dictionary to the file naming convention used. This "map" to your data will allow reusers to find the files they want to use.
+- If applicable, some authors include precursor/raw sensor files used to generate the LAS/LAZ. It is important to evaluate if these are valuable for researchers who wish to reprocess the data. However, when publishing precursor/raw files, we recommend not to just deposit a dump from the instruments. Instead, clean the content from instrument related files that are not useful for reuse, and clearly document how the raw files relate to the LAS/LAZ products and how they could be reused in the README file or in the Data Report.
 
 ### Research Software
 
