@@ -562,26 +562,31 @@ To enhance contextual information by pointing to the relations of the published 
 
 ## Publishing Research Software
 
-The definition from the Journal of Open Source Software (JOSS) applies to the Research Software that can be published in the DDR.
+The following definition from the Journal of Open Source Software (JOSS) applies to the Research Software that can be published in the DDR.
 
 > ...software that: solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar.
 
-Below are requirements for publishing research software in the DDR:
+Research software in DDR can be published within the:
 
-* To be published using the Research Software Project Type, the software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR. 
-* Research software that is not maintained in a GitHub repository can be published using Project Type Other and involving the same requirements.
-* Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License. 
+* Project type Research Software when it is maintained in Github.
+    * The software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR.
+* Project type Other, if it is not maintained in Github.
+
+Below are the requirements for publishing research software in the DDR:
+
+* Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License.
 * If the research software uses libraries/dependencies, their respective licenses should allow reuse without restrictions.
-* Include a CodeMeta file with information that allows for attribution, dissemination, reuse, and interoperability of the research software. 
-* Include a readme file that explains how to install and use the software.
-* Prior to publishing using the Research Software Project Type, users agree that the software is functional and works according to the instructions provided in the readme file.
-* For guidance on publishing good quality research software, see [our Best Practices](/user-guide/curating/bestpractices/#research-software).
+* Within the publication package a CodeMeta file (in `json` format) with information that allows for attribution, dissemination, reuse, and interoperability of the research software should be included.
+* Also include a `Readme` file that explains how to install and use the software.
+* Prior to publishing, users agree that the software is functional and works according to the instructions provided in the readme file.
+* Research software should be self contained. While it should be possible to use the software with published data in DesignSafe or within DesignSafe Tools and Applications, it should not be written such that it is dependent on absolute file paths in DesignSafe data publications or on external file systems.
+* Research software publications should not include datasets. Instead datasets that are used by the research software for training, testing, validation, etc. should be published as a stand-alone datasets and linked to the research software publication via the Related Work/linked entry available in the curation form. In turn, a dataset can be related to the research software publication via the Referenced Data and Software/cites entry available in the curation form.
+* For guidance on publishing good quality research software, see Research Software Best Practices.
 
 What does not qualify as research software:
 
 * Minor 'utility' packages, including 'thin' API clients, and single-function packages are not research software.
-* Exploratory visualizations, or basic scripting tools to analyze data are not considered research software. These can be published along with their respective datasets.
-* Data related to the published research software (training, testing, validation, etc.) should be published as a stand-alone dataset and linked to the research software publication via the Related Work/is  linked entry in the curation form. From the research software publication, data can be related via the Referenced Data and Software/cites entry available in the curation form. 
+* Exploratory visualizations or basic scripting tools to analyze data are not considered research software. These can be published along with their respective datasets.
 
 ## Subsequent Publishing
 
