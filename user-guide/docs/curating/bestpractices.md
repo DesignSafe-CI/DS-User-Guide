@@ -85,9 +85,9 @@ Before publishing, ensure that:
 
 ### Research Software
 
-In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https://www.nature.com/articles/s41597-022-01710-x), research software published in DDR should be feature complete and designed to be actively maintained, enhanced, and versioned. Whether published as Project Type "Other" or Project Type "Research Software", it should  include sufficient documentation about its provenance (CodeMeta metadata) and how to use it (Readme).
+In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https://www.nature.com/articles/s41597-022-01710-x), research software published in DDR should be feature complete and designed to be actively maintained, enhanced, and versioned. Whether published as Project Type "Other" or Project Type "Research Software", it should include sufficient documentation about its provenance (CodeMeta metadata) and how to use it (Readme).
 
-A [CodeMeta `json` file should be generated online](https://codemeta.github.io/codemeta-generator/) and uploaded to the GitHub repository, or uploaded along with the software files to  Project Type “Other”. When filling the CodeMeta file, it is important to include as much information as possible, which allows for others to understand, reuse, and attribute your software.
+A [CodeMeta `json` file should be generated online](https://codemeta.github.io/codemeta-generator/) and uploaded to the GitHub repository, or uploaded along with the software files to Project Type “Other”. When filling the CodeMeta file, it is important to include as much information as possible, which allows for others to understand, reuse, and attribute your software.
 
 A Readme file including details of how to install and use the software should also be part of the publication. To be reproducible, the software publication needs to include documentation about, and  links to libraries and dependencies needed to run it. Links to dependencies can be noted in the Related Data and Software entry which is available in the . If allowed by their licenses, dependency files can and should be included as part of the publication package for ease of software installation. We ask researchers to test that the software can be installed according to instructions and that it is working properly at the time of publication.
 
