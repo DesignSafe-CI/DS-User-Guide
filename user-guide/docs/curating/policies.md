@@ -569,7 +569,7 @@ The following definition from the Journal of Open Source Software (JOSS) applies
 Research software in DDR can be published within the:
 
 * Project type Research Software when it is maintained in Github.
-  * The software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR.
+    * The software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR.
 * Project type Other, if it is not maintained in Github.
 
 Below are the requirements for publishing research software in the DDR:
@@ -579,7 +579,7 @@ Below are the requirements for publishing research software in the DDR:
 * Within the publication package a CodeMeta file (in `json` format) with information that allows for attribution, dissemination, reuse, and interoperability of the research software should be included.
 * Also include a `Readme` file that explains how to install and use the software.
 * Prior to publishing, users agree that the software is functional and works according to the instructions provided in the readme file.
-* Research software should be self contained. While it should be possible to use the software with published data in DesignSafe or within DesignSafe Tools and Applications,  it should not be written such that it is dependent on absolute file paths in DesignSafe data publications or on external file systems.
+* Research software should be self contained. While it should be possible to use the software with published data in DesignSafe or within DesignSafe Tools and Applications, it should not be written such that it is dependent on absolute file paths in DesignSafe data publications or on external file systems.
 * Research software publications should not include datasets. Instead datasets that are used by the research software for training, testing, validation, etc. should be published as a stand-alone datasets and linked to the research software publication via the Related Work/linked entry available in the curation form. In turn, a dataset can be related to the research software publication via the Referenced Data and Software/cites entry available in the curation form.
 * For guidance on publishing good quality research software, see Research Software Best Practices.
 
