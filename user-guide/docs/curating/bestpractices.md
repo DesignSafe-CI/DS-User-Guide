@@ -97,7 +97,7 @@ Many times users include or small subsets of data/demo files to their research s
 
 If planning to publish a Jupyter Notebook in the DDR, the content must comply with the definition of research software available in the Research Software Publication Policy. Thus, the content of the Jupyter Notebook must be a contribution to solving a scientific problem. It should also comply with Research Software Best Practices outlined above. 
 
-Jupyter Notebooks, published via GitHub or as Project Type Other should be self-contained and should not depend on file paths on DesignSafe computing resources or external file systems. Please see instructions on how to publish Jupyter Notebooks here. 
+Jupyter Notebooks, published via GitHub or as Project Type Other should be self-contained and should not depend on file paths on DesignSafe computing resources or external file systems. Please see [instructions on how to publish Jupyter Notebooks](/user-guide/docs/tools/jupyterhub/publishingnotebooks.md).
 
 Many users publish notebooks along with a sample dataset or in connection to a published dataset. Always reference the dataset in the Related Data and Software entry.
 
