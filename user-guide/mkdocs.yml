@@ -46,6 +46,7 @@ nav:
 
   - DesignSafe Data Depot:
     - Overview: datadepot.md
+    - Virtual Office Hours: https://designsafe-ci.org/facilities/virtual-office-hours/
     - Transferring Your Data: managingdata/datatransfer.md
     # WARNING: From here down, preserve URLs
     #          If URLs must change, add/use redirect plugin
