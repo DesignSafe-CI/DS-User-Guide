@@ -77,7 +77,7 @@ First, determine the PyTorch version you need. Then, find a docker image from [n
 
 To build a Docker container, we begin with the FROM command, using the NVIDIA PyTorch base image. Then, copy your requirements.txt file and install the necessary Python packages using pip. 
 
-    Note: This tutorial does not include a requirements.txt file. You need to create one based on your project’s dependencies.
+Note: This tutorial does not include a requirements.txt file. You need to create one based on your project’s dependencies.
 
 Example Dockerfile:
 ```
