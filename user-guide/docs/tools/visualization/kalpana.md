@@ -2,10 +2,9 @@
 <a name="kaplana-user-guide"></a><!-- old heading name/id -->
 
 Kalpana is a Python library which primarily converts ADCIRC NetCDF output files to GIS-compatible shapefiles. Secondary functions are not available in the DesignSafe application. It was developed by the Coastal and Computational Hydraulics Team at North Carolina State University. More information regarding Kalpana can be found at:
-<ul>
-	<li>The CCHT website: <a href="https://ccht.ccee.ncsu.edu/kalpana/" target="_blank">https://ccht.ccee.ncsu.edu/kalpana/</a></li>
-	<li>The official GitHub repository, which contains the latest release and examples: <a href="https://github.com/ccht-ncsu/Kalpana" target="_blank">https://github.com/ccht-ncsu/Kalpana</a></li>
-</ul>
+
+- [Kaplana page on CCH website](https://ccht.ccee.ncsu.edu/kalpana/)
+- [official GitHub repository](https://github.com/ccht-ncsu/Kalpana), which contains the latest release and examples
 
 ### Submitting a Job
 
@@ -13,14 +12,13 @@ Kalpana is a Python library which primarily converts ADCIRC NetCDF output files 
 
 Generating contours for a single case is simple through the web interface. The following information is required:
 
-<ul>
-	<li><b>ADCIRC File.</b> See the reference table below. Generic NetCDF files may also be accepted, if formatted appropriately.</li>
-	<li><b>Variable.</b> Preceded by flag --var. The variable of interest from the NetCDF file. See the reference table below.</li>
-	<li><b>Contour levels.</b> Preceded by flag --levels. Separated by spaces, the minimum contour, maximum contour, and step size.</li>
-	<li><b>Vertical units out.</b> m or ft</li>
-	<li><b>Vertical units in.</b> m or ft</li>
-	<li><b>Time Steps.</b> Preceded by flag --timesteps. For time-varying files, specific time steps to extract are provided, separated by spaces. Otherwise, all are exported.</li>
-</ul>
+
+- **ADCIRC File.** See the reference table below. Generic NetCDF files may also be accepted, if formatted appropriately.
+- **Variable.** Preceded by flag `--var`. The variable of interest from the NetCDF file. See the reference table below.
+- **Contour levels.** Preceded by flag `--levels`. Separated by spaces, the minimum contour, maximum contour, and step size.
+- **Vertical units out.** m or ft
+- **Vertical units in.** m or ft
+- **Time Steps.** Preceded by flag `--timesteps`. For time-varying files, specific time steps to extract are provided, separated by spaces. Otherwise, all are exported.
 
 After this, generic allocation and archiving preferences are available. Since Kalpana is a serial program, it does not make sense to run on multiple nodes. However, additional cores may provide additional memory to process very large files.
 
@@ -99,4 +97,4 @@ After this, generic allocation and archiving preferences are available. Since Ka
 
 #### Advanced Functionality with Tapis
 
-To generate shapefiles for an ensemble, or to modify advanced Kalpana settings, submit JSON job requests using TapiPy (<a href="https://github.com/tapis-project/tapipy" target="_blank">https://github.com/tapis-project/tapipy</a>). Descriptions for each flag are available in the Tapis app specification or the source file on GitHub, see function nc2shp (<a href="https://github.com/ccht-ncsu/Kalpana/blob/master/kalpana/export.py" target="_blank">https://github.com/ccht-ncsu/Kalpana/blob/master/kalpana/export.py</a>).
+To generate shapefiles for an ensemble, or to modify advanced Kalpana settings, submit JSON job requests using [TapiPy](https://github.com/tapis-project/tapipy){ target="_blank" }. Descriptions for each flag are available in the Tapis app specification or the source file on GitHub, see [function `nc2shp`](https://github.com/ccht-ncsu/Kalpana/blob/v0.0.25/kalpana/export.py#L764){ target="_blank" }).
