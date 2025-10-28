@@ -50,7 +50,7 @@ On DesignSafe web portal, three versions of Jupyter have been created, including
 
 This part of the document contains two sections:
 
-1. [Container Build](#container-build-with-pytorch-and-additional-packages) – How to create a Dockerfile and share the image.
+1. [Container Build](#container-build-with-pytorch-and-additional-packages) – How to create a `Dockerfile` and share the image.
 
 2. [Containerized Kernel for JupyterLab](#containerized-kernel-for-jupyterlab) – How to distribute and use containerized kernels in JupyterLab. 
 
@@ -73,13 +73,14 @@ First, determine the PyTorch version you need. Then, find a docker image from [n
   <figcaption>Release notes show PyTorch version</figcaption>
 </figure>
 
-### Writing a Dockerfile
+### Writing a `Dockerfile`
 
-To build a Docker container, we begin with the FROM command, using the NVIDIA PyTorch base image. Then, copy your requirements.txt file and install the necessary Python packages using pip. 
+To build a Docker container, we begin with the FROM command, using the NVIDIA PyTorch base image. Then, copy your `requirements.txt` file and install the necessary Python packages using pip. 
 
-Note: This tutorial does not include a requirements.txt file. You need to create one based on your project’s dependencies.
+!!! note
+    This tutorial does not include a `requirements.txt` file. You need to create one based on your project’s dependencies.
 
-Example Dockerfile:
+Example `Dockerfile`:
 ```
 ============== Dockerfile Example ==============
 FROM nvcr.io/nvidia/pytorch:25.08-py3
@@ -93,42 +94,42 @@ RUN pip install -r requirements.txt
 ============== End Dockerfile ==============
 ```
 
-### Building a docker image from the Dockerfile
+### Building a docker image from the `Dockerfile`
 
 When building the container, we have to build it for the specific computer architecture we plan to run the container on. In the case of Vista, that’s linux/arm64. TACC has a [tutorial](https://containers-at-tacc.readthedocs.io/en/latest/advanced/02.multiarchitecture.html) of how to create a Docker image that can support multiple architectures. Also note, Docker Desktop on Mac/Windows can build for architectures different than the one they are running on by default, but Linux requires some additional software libraries (outlined in the linked tutorial)
 
-After you’ve saved your dockerfile, navigate to its location. Ensure the requirements.txt file is in the same directory as the dockerfile. Now run the following command to build the container:
-```
+After you’ve saved your `Dockerfile`, navigate to its location. Ensure the `requirements.txt` file is in the same directory as the `Dockerfile`. Now run the following command to build the container:
+```sh
 docker build --platform [architecture] -t [username]/[container name]:[tag] .
 ```
 
 Example:
-```
+```sh
 docker build --platform linux/arm64 -t testUser/chishiki:0.0.1 .
 ```
 
 ### Optional: Test container locally
 
 If you want to test out the container locally on a system with gpus you can run
-```
+```sh
 docker run --gpus all --ipc=host -it --rm [username]/[container name]:[tag]
 ```
 
 Example:
-```
+```sh
 docker run --gpus all --ipc=host -it --rm testUser/chishiki:0.0.1
 ```
 
 ### Upload container to dockerhub
 
 Once you’re satisfied with your container, you can upload the docker image to docker hub
-```
+```sh
 docker login
 docker push [username]/[container name]:[tag]
 ```
 
 Example:
-```
+```sh
 docker push testUser/chishiki:0.0.1
 ```
 
@@ -144,7 +145,8 @@ When we launch a jupyter notebook, we have the ability to select what kernel (pr
 
 ### Containerized Kernels at TACC 
 
-Note: This tutorial assumes you have a working container on dockerhub. We will reference the kernel created in the [Container Build](#container-build-with-pytorch-and-additional-packages) section of this tutorial. 
+!!! note
+    This tutorial assumes you have a working container on dockerhub. We will reference the kernel created in the [Container Build](#container-build-with-pytorch-and-additional-packages) section of this tutorial. 
 
 ### Preparation
 
@@ -167,35 +169,35 @@ Run the following commands in terminal.
 ![input command](imgs/type_command.png)
 
 1. Load apptainer module
-    ```
+    ```sh
     module load tacc-apptainer
     ```
 
 2. Navigate to the location on TACCs filesystem where you would like to download the container. For this example you could move to SCRATCH:
-    ```
+    ```sh
     cds
     ```
-	
+
 3. Then, pull the container you would like to use from dockerhub
-    ```
+    ```sh
     apptainer pull docker://[username]/[container name]:[tag]
     ```
 
     The command above creates a `<container name>-<version tag>.sif` file which can be renamed and or stored where you need it.
 
     Example:
-    ```
+    ```sh
     apptainer pull docker://testUser/chishiki:0.0.1
     ```
 
-4. Set up Kernel.json
+4. Set up `kernel.json`
 
     In addition to the container, we need to add a kernel configuration json file to the users environment. This file, named `kernel.json`, has the command to run the kernel, the name of the kernel, which appears in the list of kernels in Notebook tab in the launching interface, and the language.
 
     ![new kernel](imgs/new_kernel.png)
 
-    Below is a generic kernel.json file for a kernel using a container and running Python. In the file below you will need to make two modifications. First is to replace "PATH_TO_SIF_FILE" with path to your own sif file. Second the to replace "NAME" with name of your prefered name. The changes add the path to the .sif file for you container as well as adding a display name for this particular kernel: 
-    ```
+    Below is a generic `kernel.json` file for a kernel using a container and running Python. In the file below you will need to make two modifications. First is to replace "PATH_TO_SIF_FILE" with path to your own sif file. Second the to replace "NAME" with name of your prefered name. The changes add the path to the .sif file for you container as well as adding a display name for this particular kernel: 
+    ```json
     {
         "argv": [
             "/opt/apps/tacc-apptainer/1.4.1/bin/apptainer",
@@ -216,18 +218,18 @@ Run the following commands in terminal.
     }
     ```
 
-    To fully understand building kernel.json files please reference the [jupyter docs](https://jupyter-client.readthedocs.io/en/stable/kernels.html). The import notes about the file above is that *argv* includes a list of command line arguments used to start the kernel. Above we are specifying that we want to launch the specified container with apptainer, then start python. Additionally, the *display_name* will be the name of the kernel displayed in the jupyter notebook UI. 
+    To fully understand building `kernel.json` files please reference the [jupyter docs](https://jupyter-client.readthedocs.io/en/stable/kernels.html). The import notes about the file above is that *argv* includes a list of command line arguments used to start the kernel. Above we are specifying that we want to launch the specified container with apptainer, then start python. Additionally, the *display_name* will be the name of the kernel displayed in the jupyter notebook UI. 
 
 ### Installing Kernel
 
-Once you have kernel.json, place it in the Jupyter kernelspec directory. The default kernelspec directory is ~/.local/share/jupyter/kernels/. You could [customized your kernelspec directory](#launch-the-jupyter-lab-hpc-gpu).
+Once you have `kernel.json`, place it in the Jupyter kernelspec directory. The default kernelspec directory is ~/.local/share/jupyter/kernels/. You could [customized your kernelspec directory](#launch-the-jupyter-lab-hpc-gpu).
 
 ![kernelspec](imgs/DesignSafe_Portal_new_3.png)
 
 The example code assumes you are using the default kernelspec directory. If you use a custom kernelspec directory, adjust accordingly.
 
 Each kernel has its own directory (which should reflect which kernel it is but is not used by Jupyter). To install the kernel you need to execute the following commands:
-```
+```sh
 mkdir  ~/.local/share/jupyter/kernels/<kernel directory>
 cp kernel.json ~/.local/share/jupyter/kernels/<kernel directory>
 ```
