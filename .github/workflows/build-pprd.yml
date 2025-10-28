@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - pprd
+      - add-custom-kernel-guide
 
 jobs:
   docker:
