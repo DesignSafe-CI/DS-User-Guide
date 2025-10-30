@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - pprd
+      - feat/notice-1tb-transfer
 
 jobs:
   docker:
