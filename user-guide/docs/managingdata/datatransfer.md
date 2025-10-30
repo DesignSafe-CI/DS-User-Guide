@@ -1,7 +1,7 @@
 # Transferring Your Data
 
 !!! attention
-    Please [submit a ticket](https://designsafe-ci.org/help/new-ticket/) to notify us prior to uploading 1TB or more of data.
+    Please [submit a ticket](https://designsafe-ci.org/help/new-ticket/){target="_blank"} to notify us prior to uploading 1TB or more of data.
 
 DesignSafe supports multiple ways of moving data in and out of the Data Depot, and the data transfer method that is best for you will depend on the quantity of data you wish to move. There are two broad categories of data transfer methods available; we will refer to these categories as large data transfer methods and normal data transfer methods. Large data transfer methods are for situations where you want to move a large amount of data (&gt; 2GB upload or &gt; 5GB download), a large numbers of files (&gt; 25), or folders. Whereas normal data transfer methods are for situations where you wish to move a small amount of data (&lt; 2GB upload or &lt; 5GB download) stored across a small number of files (&lt; 25). 
 
