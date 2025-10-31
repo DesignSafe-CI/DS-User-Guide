@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - pprd
+      - test/deeper-navigation
 
 jobs:
   docker:
