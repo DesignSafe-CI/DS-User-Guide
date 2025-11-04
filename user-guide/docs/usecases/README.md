@@ -6,7 +6,7 @@ How to contribute to [DesignSafe Use Cases](https://designsafe-ci.org/user-guide
 
 ### <a id="fork-repo"></a> 1. Fork Repo
 
-The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
+Contributor should [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this [DS User Guide repo][DS-User-Guide] to their own account. If prompted, select an organziation to create the fork.
 
 | fork the repo |
 | - |
@@ -16,7 +16,7 @@ The Principal Investigator (PI) should [Fork](https://docs.github.com/en/pull-re
 | - |
 | ![forking](docs/images/01-forking.png) |
 
-The PI can later [add their students as collaborators in the Settings page](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository):
+The contributor can later [add their students as collaborators in the Settings page](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository):
 
 | add collaborators |
 | - |
@@ -33,17 +33,17 @@ GitHub will create a forked repo in your user account.
 | - |
 | ![forked-repo](docs/images/02-forked-repo.png) |
 
-### <a id="find-usecase"></a> 3. Find Usecase
+### <a id="find-usecase"></a> 3. Find Use Case
 
-Navigate to your use case folder, which is located in the `user-guide/docs/usecases` folder. The folders are named after the PI, so find the folder with your name to edit your template. **Always check you are only editing your use case folder**.
+Navigate to existing use case folder within `user-guide/docs/usecases/`. The folders are named after the PI, so find the folder with PI's name to edit your template. If one does not exist, you may create one (e.g. in `user-guide/docs/usecases/` add `the_pi_name/usecase.md`). **Always check you are only editing the PI's use case folder**.
 
 | PI use case folder |
 | - |
 | ![PI use case folder](docs/images/03-pi-usecase-folder.png) |
 
-### <a id="edit-usecase"></a> 4. Edit Usecase
+### <a id="edit-usecase"></a> 4. Edit Use Case
 
-Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
+Click on the `usecase.md` file in the usec ase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
 > **Note:**
 > - The document is written in plain text.
@@ -63,7 +63,7 @@ Click on the `usecase.md` file in your usecase folder to [Edit](https://docs.git
 
 ### <a id="save-changes"></a> 5. Save Changes
 
-Once you have completed editing your use case, you save your changes by [commiting](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits). Scroll down to the bottom of the page and type a descriptive phrase explaining the changes you have made and click "Commit changes". These changes will be saved only on your repo and will not be reflected in the [original DS User Guide repo][DS-User-Guide] until you create a Pull Request (PR) (that step is explained later).
+Once you have completed editing the use case, you save the changes by [commiting](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits). Scroll down to the bottom of the page and type a descriptive phrase explaining the changes you have made and click "Commit changes". If you created a fork, these changes will be saved only in that fork and will not be reflected in the [DesignSafe-CI/DS-User-Guide][DS-User-Guide] repo until you create a Pull Request (PR) (that step is explained later).
 
 | commit your edits |
 | - |
@@ -71,7 +71,7 @@ Once you have completed editing your use case, you save your changes by [commiti
 
 ### <a id="add-images"></a> 6. Add Images
 
-1. To add images to your use case, navigate to your use case folder and select the `img` folder. **Ensure that you are in your usecase `img` folder** before adding images.
+1. To add images to the use case, navigate to the use case folder and select the `img` folder. **Ensure that you are in the use case's `img/` folder** before adding images.
 
     | the image folder |
     | - |
@@ -81,7 +81,7 @@ Once you have completed editing your use case, you save your changes by [commiti
     | - |
     | ![add image](docs/images/08-add-img.png) |
 
-2. [Select image files (you can select multiple files) and upload.](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) Once the images are added, type a descriptive commit message and click "Commit changes" to add relevant images to your folder.
+2. [Select image files (you can select multiple files) and upload.](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) Once the images are added, type a descriptive commit message and click "Commit changes" to add relevant images to the use case's `img/` folder.
 
     | uploading image(s) |
     | - |
@@ -89,13 +89,13 @@ Once you have completed editing your use case, you save your changes by [commiti
 
 ### <a id="insert-image"></a> 8. Insert Image
 
-To insert the image in your `usecase.md` file, add syntax like this into the text:
+To show the image in the `usecase.md` file, add syntax like this into the text:
 
 ```md
-![alternate text](image-location.png)
+![alternate text](img/image-name.png)
 ```
 
-In this case, we added an image called `mpm-algorithm.png`, which is located in the use case folder `img`. We can reference it in the text usingg:
+In this case, we added an image called `mpm-algorithm.png`, which is located in the use case folder `img`. We can reference it in the text using:
 
 ```md
 ![MPM Algorithm](img/mpm-algorithm.png)
@@ -118,7 +118,7 @@ Commit your changes to GitHub with a meaningful message.
 
 ### <a id="sync-fork"></a> 9. Sync Fork
 
-Before you are ready to make changes to the [original DS-User-Guide repo][DS-User-Guide]. Make sure your repository on GitHub is up to date with all the changes from the original repo. You can do this by navigating your repo and click on "Fetch upstream". It will probably say there is nothing new to fetch.
+Before you are ready to make changes to the [DesignSafe-CI/DS-User-Guide][DS-User-Guide] repo. Make sure your repository on GitHub is up to date with all the changes from the original repo. You can do this by navigating your repo and click on "Fetch upstream". It might say there is nothing new to fetch.
 
 | no upstream changes to fetch |
 | - |
@@ -173,7 +173,7 @@ You can [**test your changes** on your local machine](../../../README.md#testing
 
 > **Note**: This valuable automated feature was in [DS_Use_Case_template](https://github.com/DesignSafe-CI/DS_Use_Case_template/blob/c32d48a/README.md?plain=1#L76-L80). It will eventually be added here also.
 
-After a minute or so a preview deployment of your use case will be available on the pull request page. Select the preview link generated by Netlify to view your changes similar to how it would be rendered in the final version. If you want to make some tweaks. Visit *your* GitHub repo of the DS Use Case and make changes. As long as the current PR remains open GitHub will automatically pull your changes.
+After a minute or so a preview deployment of your use case will be available on the pull request page. Select the preview link generated by Netlify to view your changes similar to how it would be rendered in the final version. If you want to make some tweaks. If you created a fork repo, visit that fork repo to make changes. As long as the current PR remains open GitHub will automatically pull your changes.
 
 | link to preview of deployment |
 | - |
@@ -189,7 +189,7 @@ After a minute or so a preview deployment of your use case will be available on 
 
 ### <a id="add-to-guide"></a> 12. Add Use Case New to User Guide
 
-If you have added a Use Case, include it into one of the existing use case category documents —
+If you have added a use case, include it into one of the existing use case category documents —
 
 | Category | Document |
 | - | - |
@@ -205,7 +205,7 @@ If you have added a Use Case, include it into one of the existing use case categ
 
 To add to [`dataanalyticsusecases.md` (Data Analytics)](./dataanalyticsusecases.md):
 
-1. Find bottommost `{% include-markdown '…' %}` e.g.
+1. Find bottom-most `{% include-markdown '…' %}` e.g.
 
     ```md
 
@@ -216,7 +216,7 @@ To add to [`dataanalyticsusecases.md` (Data Analytics)](./dataanalyticsusecases.
     {% include-markdown 'padgett/usecase_JN_viz.md' %}
     ```
 
-    <sup>Bottommost include may be different since last update.</sup>
+    <sup>Bottom-most include may be different since last update.</sup>
 
 2. Add an include to your document in the same way:
 
@@ -226,10 +226,10 @@ To add to [`dataanalyticsusecases.md` (Data Analytics)](./dataanalyticsusecases.
 
     <!-- ## Description of yur use case -->
 
-    {% include-markdown 'your-usecase/usecase.md' %}
+    {% include-markdown 'the_pi_name/usecase.md' %}
     ```
 
-    <sup>Edit this include to point to your use case.</sup>
+    <sup>Edit this include to point to the use case.</sup>
 
 [DS-User-Guide]: https://github.com/DesignSafe-CI/DS-User-Guide/
 [DS_Use_Case_template]: https://github.com/DesignSafe-CI/DS_Use_Case_template/
