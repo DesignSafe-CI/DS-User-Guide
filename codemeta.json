@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Hurricane/Wind/Tropical Storm",
+    "author": [
+        {
+            "id": "_:author_1",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Florida Institute of Technology"
+            },
+            "email": "mbakhshandeh2023@my.fit.edu",
+            "familyName": "Bakhshandeh",
+            "givenName": "Mohammad"
+        },
+        {
+            "type": "Role",
+            "schema:author": "_:author_1",
+            "roleName": "Developer"
+        },
+        {
+            "id": "_:author_2",
+            "type": "Person",
+            "email": "pinelli@fit.edu",
+            "familyName": "Pinelli",
+            "givenName": "Jean Paul"
+        },
+        {
+            "type": "Role",
+            "schema:author": "_:author_2",
+            "roleName": "Supervisor"
+        },
+        {
+            "id": "_:author_3",
+            "type": "Person",
+            "familyName": "Cocke",
+            "givenName": "Steven"
+        }
+    ],
+    "dateCreated": "2025-10-01",
+    "dateModified": "2025-10-01",
+    "datePublished": "2025-10-01",
+    "description": "This Jupyter notebook interpolates wind speed data from any given hurricane to any location in Florida. The input data can be provided on any arbitrary grid. It can be provided for different types of exposure and average time intervals at different heights. It accepts input data on any grid format and handles different exposure types (like marine conditions, open terrain, or urban terrain) and time averages (including 3-second gusts, 1-minute sustained winds, and 10-minute averages). It performs three key functions: (1) linear interpolation from source grid points to target locations, (2) conversion between exposure types and time intervals using modular, and (3) conversion form one height to another.\n\nThe Jupyter notebook first interpolates wind speeds to exact property coordinates using linear interpolation, then applies terrain adjustments accounting for urban drag, coastal, and surface roughness effects derived from GeoTIFF data to get actual terrain wind speeds at the policy. For example, Applied Research Associates (ARA) (under contract with the National Institute of Standards and Technology or NIST) provides both 10 m open-terrain 3-second gusts and 1-minute sustained winds field data on a grid, for all hurricanes from 2017 onward. These data are published in DesignSafe. For any hurricane processed by ARA (e.g., Hurricane Michael), the notebook interpolates the ARA 3-second gusts or 1-minute sustained winds for any given location, then adjusts these values based on terrain roughness (e.g., urban, coastal, or forested), to get actual terrain wind speeds at that location. Outputs include both interactive visualization maps and standardized CSV files.",
+    "funder": {
+        "type": "Organization",
+        "name": "DesignSafe Cyberinfrastructure"
+    },
+    "keywords": [
+        "Jupyter Notebook",
+        "wind hazard",
+        "hurricane",
+        "wind speed modeling",
+        "interpolation",
+        "conversion",
+        "geospatial dataset",
+        "disaster risk"
+    ],
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "name": "Wind Speed Estimation and Conversion",
+    "programmingLanguage": "Python",
+    "softwareRequirements": [],
+    "version": "1",
+    "funding": "No. 2022469"
+}
