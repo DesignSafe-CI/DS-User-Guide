@@ -1,4 +1,4 @@
-## Wind Speed Estimation and Conversion Use Case
+# Wind Speed Estimation and Conversion Use Case
 
 ### Mohammad Bakhshandeh – Florida Institute of Technology  
 ### Jean-Paul Pinelli – Florida Institute of Technology  
