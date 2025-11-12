@@ -449,14 +449,16 @@ Once finished, click **Submit** and you will be taken to your new project in the
 Upon entering your new project, you will be prompted to select a Project Type.
 ![](./imgs/guide-researchsoftware-1c.png)
 
-Select Research Software and continue.
+Select ***Research Software*** and select ***Continue***.
 ![](./imgs/guide-researchsoftware-1d.png)
 
-### 2. Add Citation and CodeMeta files to GitHub
+You will then be prompted to fill out additional metadata. Once all Required fields are filled, select ***Update Project*** and you will be brought to the curation directory.
 
-Your publication must include a Citation file with that cites DesignSafe and a CodeMeta file with metadata about your project.
+### 2. Add Citation & CodeMeta Files to GitHub
 
-To Generate a CodeMeta file, go to:[https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/), fill out the form, and add it in your GitHub repository.
+Your publication must include a citation file that cites DesignSafe and a CodeMeta file with additional software-specific metadata about your project.
+
+To Generate a CodeMeta file, go to:[https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
 
 To cite DesignSafe, add a file called ```Citation.cff``` to your GitHub repository and paste the following:
 
@@ -506,11 +508,11 @@ preferred-citation:
   doi: "10.1061/(ASCE)NH.1527-6996.0000246"
 ```
 
-After adding both of those files, create a new release that includes them.
+After adding both files, create a new release that includes them.
 
 ### 3. Transfer Repository
 
-Navigate to the Curation Directory, enter the GitHub release URL.
+Navigate to the Curation Directory and enter the GitHub release URL.
 
 How to find the release URL: https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases
 
@@ -521,7 +523,7 @@ Select Transfer and the release will be transfered to DesignSafe.
 ### 4. Preview Publication
 Navigate to the Publication Preview to see your transfered GitHub release files and how your final publication will appear.
 
-When you have proofread your metadata and verified that the right files are published, select "Prepare to Publish/Version/Amend" to continue.
+When you have proofread your metadata and verified that the right files have been transfered, select ***Prepare to Publish/Version/Amend*** to continue.
 ![](./imgs/guide-researchsoftware-4.png)
 
 ### 5. Prepare to Publish
