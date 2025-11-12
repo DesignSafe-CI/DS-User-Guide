@@ -448,11 +448,11 @@ Upon entering your new project, you will be prompted to select a project type.
 
 ![](./imgs/guide-researchsoftware-1c.png)
 
-Select ***Research Software***, then select ***Continue***.
+Select **Research Software**, then select **Continue**.
 
 ![](./imgs/guide-researchsoftware-1d.png)
 
-You will be prompted to fill out additional metadata. Once all required fields are filled, select ***Update Project*** and you will be brought to the curation directory.
+You will be prompted to fill out additional metadata. Once all required fields are filled, select **Update Project** and you will be brought to the curation directory.
 
 ### 2. Add Citation & CodeMeta Files to GitHub
 
@@ -528,7 +528,7 @@ When you have proofread your metadata and verified that the correct files have b
 ![](./imgs/guide-researchsoftware-4.png)
 
 ### 5. Prepare to Publish
-If publishing from this project for the first time, select ***Publish***.
+If publishing from this project for the first time, select **Publish**.
 
 After publishing for the first time, you can return to this page to amend certain metadata or publish a new version. 
 
@@ -542,7 +542,7 @@ Order the authors of the publication and preview how your citation will appear.
 
 Lastly, you will confirm the software license to be used. The license selected on GitHub, the CodeMeta file, and DesignSafe should match.
 
-When you have thorougly proofread and are ready to publish, select ***Request DOI & Publish*** and your software publication will eventually appear in the ***Published*** section of the Data Depot. The time for it to appear may vary, be patient.
+When you have thorougly proofread and are ready to publish, select **Request DOI & Publish** and your software publication will eventually appear in the **Published** section of the Data Depot. The time for it to appear may vary, be patient.
 
 ---
 ## Other
