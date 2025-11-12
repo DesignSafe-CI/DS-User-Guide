@@ -427,9 +427,10 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ![](./imgs/guide-fieldresearch-8.jpg)
 
 ---
+
 ## Research Software
 
-### 1. Add a project { #researchsoftware-step1 }
+### 1. Add a project
 
 To add a new project, click **+ Add**, then select **New Project**.
 
@@ -456,6 +457,53 @@ Select Research Software and continue.
 Generate a metadata file at https://codemeta.github.io/codemeta-generator/ and include it in your GitHub release.
 
 Adding a CITATION.cff with DesignSafe's helps DesignSafe with funding...
+
+```yaml
+cff-version: 1.2.0
+message: "If you use this software, please cite the following DesignSafe paper:"
+preferred-citation:
+  type: article
+  title: "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering"
+  authors:
+    - family-names: Rathje
+      given-names: Ellen
+    - family-names: Dawson
+      given-names: Clint
+    - family-names: Padgett
+      given-names: Jamie E.
+    - family-names: Pinelli
+      given-names: Jean-Paul
+    - family-names: Stanzione
+      given-names: Daniel
+    - family-names: Adair
+      given-names: Andrew
+    - family-names: Arduino
+      given-names: Paolo
+    - family-names: Brandenberg
+      given-names: Scott J.
+    - family-names: Cockerill
+      given-names: Timothy
+    - family-names: Dey
+      given-names: Christopher
+    - family-names: Esteva
+      given-names: Milena
+    - family-names: Haan, Jr.
+      given-names: Floyd L.
+    - family-names: Hanlon
+      given-names: Michael
+    - family-names: Kareem
+      given-names: Ahsan
+    - family-names: Lowes
+      given-names: Laura
+    - family-names: Mock
+      given-names: Scott
+    - family-names: Mosqueda
+      given-names: Gilberto
+  year: 2017
+  journal: "ASCE Natural Hazards Review"
+  doi: "10.1061/(ASCE)NH.1527-6996.0000246"
+```
+
 
 Create a release with both of these files
 
