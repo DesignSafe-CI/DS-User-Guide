@@ -523,7 +523,7 @@ Select Transfer and the release will be transfered to DesignSafe.
 ### 4. Preview Publication
 Navigate to the Publication Preview to see the transfered GitHub files and preview how your final publication will appear.
 
-When you have proofread your metadata and verified that the correct files have been transfered, select ***Prepare to Publish/Version/Amend*** to continue.
+When you have proofread your metadata and verified that the correct files have been transfered, select **Prepare to Publish/Version/Amend** to continue.
 
 ![](./imgs/guide-researchsoftware-4.png)
 
