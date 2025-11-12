@@ -13,6 +13,7 @@ Once your account returns to an Active state, you will also need to [pair your M
 ## Profile Update
 
 There are multiple reasons you would either want to or be required to [update your profile](https://accounts.tacc.utexas.edu/profile). Some of the most common include:
+
 1. Your email address changes.
 2. Your Institution/Company/Organization changes.
 3. Your citizenship changes.
