@@ -427,7 +427,33 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ![](./imgs/guide-fieldresearch-8.jpg)
 
 ---
+## Research Software
 
+### 1. Add a project { #researchsoftware-step1 }
+
+To add a new project, click **+ Add**, then select **New Project**.
+
+![](./imgs/guide-researchsoftware-1.png)
+
+In the Add New Project window, fill in a project title, description, and list the principal investigator (PI) and project members.
+
+![](./imgs/guide-researchsoftware-1b.png)
+
+PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs.
+
+You can edit all these fields later if you make any mistakes.
+
+Once finished, click **Submit** and you will be taken to your new project in the My Projects tab.
+
+![](.imgs/guide-researchsoftware-1c.png)
+
+![](.imgs/guide-researchsoftware-1d.png)
+
+### 2. Add Citation and CodeMeta file to your GitHub
+
+
+
+---
 ## Other
 
 ### 1. Add a Project { #other-step1 }
