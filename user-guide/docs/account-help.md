@@ -17,6 +17,7 @@ There are multiple reasons you would either want to or be required to [update yo
 2. Your Institution/Company/Organization changes.
 3. Your citizenship changes.
 4. You receive an email from TACC requiring an annual profile update.
+
 It's possible the policies regarding email domains and Institutions have changed since the last time you either created your account or updated your profile, so you may want to review the [User Account Registration guide](https://designsafe-ci.org/user-guide/#user-account-registration) for the current guidance.
 
 ## Additional Account Resources
