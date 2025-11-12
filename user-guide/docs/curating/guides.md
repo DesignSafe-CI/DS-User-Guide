@@ -436,7 +436,7 @@ To add a new project, click **+ Add**, then select **New Project**.
 
 ![](./imgs/guide-researchsoftware-1a.png)
 
-In the Create a New Project pop-up, enter a project title, description, and list the principal investigator (PI) and project members.
+In the pop-up, enter a project title, description, and list the principal investigator (PI) and project members.
 
 ![](./imgs/guide-researchsoftware-1b.png)
 
