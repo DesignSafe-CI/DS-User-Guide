@@ -447,9 +447,11 @@ You can edit all these fields later if you make any mistakes.
 Once finished, click **Submit** and your new project will be created.
 
 Upon entering your new project, you will be prompted to select a Project Type.
+
 ![](./imgs/guide-researchsoftware-1c.png)
 
 Select ***Research Software*** and select ***Continue***.
+
 ![](./imgs/guide-researchsoftware-1d.png)
 
 You will then be prompted to fill out additional metadata. Once all required fields are filled, select ***Update Project*** and you will be brought to the curation directory.
@@ -524,6 +526,7 @@ Select Transfer and the release will be transfered to DesignSafe.
 Navigate to the Publication Preview to see your transfered GitHub release files and how your final publication will appear.
 
 When you have proofread your metadata and verified that the right files have been transfered, select ***Prepare to Publish/Version/Amend*** to continue.
+
 ![](./imgs/guide-researchsoftware-4.png)
 
 ### 5. Prepare to Publish
