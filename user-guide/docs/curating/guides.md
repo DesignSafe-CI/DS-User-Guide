@@ -525,10 +525,21 @@ When you have proofread your metadata and verified that the right files are publ
 ![](./imgs/guide-researchsoftware-4.png)
 
 ### 5. Prepare to Publish
+When publishing for the first time, select ***Publish***
+
+After publishing for the first time, you can return to this page to amend certain metadata or publish a new version. 
+
+If you publish a new version on GitHub, you must manually transfer and publish the new version on DesignSafe as well.
 
 ![](./imgs/guide-researchsoftware-5a.png)
 
+Order the authors of the publication and preview how your citation will appear.
+
 ![](./imgs/guide-researchsoftware-5b.png)
+
+Lastly, you will confirm the software license to be used. The license selected on GitHub, the CodeMeta file, and DesignSafe should match.
+
+When you have thorougly proofread and are ready to publish, select ***Request DOI & Publish*** and your software publication will eventually appear in the ***Published*** section of the Data Depot. The time for it to appear may vary, be patient.
 
 ---
 ## Other
