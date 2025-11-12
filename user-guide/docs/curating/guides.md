@@ -454,62 +454,17 @@ Select **Research Software** and continue.
 
 You will be prompted to fill out additional metadata. Once all required fields are filled, select **Update Project** and you will be brought to the curation directory.
 
-### 2. Add Citation & CodeMeta Files to GitHub
+### 2. Add CodeMeta File to GitHub
 
-Your GitHub release must include a citation file that cites DesignSafe and a CodeMeta file with additional software-specific metadata.
+Your GitHub release must include a CodeMeta file with additional software-specific metadata.
 
 To generate a CodeMeta file, go to:
 [https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
 
-To cite DesignSafe, add a file called ```Citation.cff``` to your GitHub repository and paste the following:
+Make sure to select the software license that DesignSafe issues,  
+**3-Clause BSD License**, in both the CodeMeta file and the GitHub release.
 
-```yaml
-cff-version: 1.2.0
-message: "If you use this software, please cite the following DesignSafe paper:"
-preferred-citation:
-  type: article
-  title: "DesignSafe: A New Cyberinfrastructure for Natural Hazards Engineering"
-  authors:
-    - family-names: Rathje
-      given-names: Ellen
-    - family-names: Dawson
-      given-names: Clint
-    - family-names: Padgett
-      given-names: Jamie E.
-    - family-names: Pinelli
-      given-names: Jean-Paul
-    - family-names: Stanzione
-      given-names: Daniel
-    - family-names: Adair
-      given-names: Andrew
-    - family-names: Arduino
-      given-names: Paolo
-    - family-names: Brandenberg
-      given-names: Scott J.
-    - family-names: Cockerill
-      given-names: Timothy
-    - family-names: Dey
-      given-names: Christopher
-    - family-names: Esteva
-      given-names: Milena
-    - family-names: Haan, Jr.
-      given-names: Floyd L.
-    - family-names: Hanlon
-      given-names: Michael
-    - family-names: Kareem
-      given-names: Ahsan
-    - family-names: Lowes
-      given-names: Laura
-    - family-names: Mock
-      given-names: Scott
-    - family-names: Mosqueda
-      given-names: Gilberto
-  year: 2017
-  journal: "ASCE Natural Hazards Review"
-  doi: "10.1061/(ASCE)NH.1527-6996.0000246"
-```
-
-After adding both files, create a new release.
+After adding the file, create a new release.
 
 ### 3. Transfer Repository
 
@@ -544,7 +499,8 @@ Order the authors of the software and preview how your citation will appear.
 
 ![](./imgs/guide-researchsoftware-5b.png)
 
-Lastly, you will confirm the software license to be used. The license selected on GitHub, the CodeMeta file, and DesignSafe should match.
+Lastly, you will confirm the software license to be used. The only license DesignSafe provides for research software is the
+3-Clause BSD License.
 
 When you have thorougly proofread and are ready to publish, select **Request DOI & Publish** and your software publication will eventually appear in the **Published** section of the Data Depot. The time for it to appear may vary, be patient.
 
