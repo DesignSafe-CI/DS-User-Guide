@@ -540,7 +540,7 @@ If you publish a new version on GitHub, you must manually transfer and publish t
 
 ![](./imgs/guide-researchsoftware-5a.png)
 
-Order the authors of the publication and preview how your citation will appear.
+Order the authors of the software and preview how your citation will appear.
 
 ![](./imgs/guide-researchsoftware-5b.png)
 
