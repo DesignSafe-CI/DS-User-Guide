@@ -518,7 +518,7 @@ Navigate to the Curation Directory and enter the GitHub release URL.
 How to find the release URL: 
 [https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases)
 
-Select Transfer and the release will be transfered to DesignSafe.
+Select **Transfer** and the release will be transfered to DesignSafe.
 
 ![](./imgs/guide-researchsoftware-3.png)
 
