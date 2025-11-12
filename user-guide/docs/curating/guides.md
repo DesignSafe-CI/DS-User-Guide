@@ -434,7 +434,7 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 To add a new project, click **+ Add**, then select **New Project**.
 
-![](./imgs/guide-researchsoftware-1.png)
+![](./imgs/guide-researchsoftware-1a.png)
 
 In the Add New Project window, fill in a project title, description, and list the principal investigator (PI) and project members.
 
@@ -444,7 +444,7 @@ PIs and project members have the same level of access to the project, but the PI
 
 You can edit all these fields later if you make any mistakes.
 
-Once finished, click **Submit** and you will be taken to your new project in the My Projects tab.
+Once finished, click **Submit** and your new project will be created.
 
 Upon entering your new project, you will be prompted to select a Project Type.
 ![](./imgs/guide-researchsoftware-1c.png)
@@ -452,7 +452,7 @@ Upon entering your new project, you will be prompted to select a Project Type.
 Select ***Research Software*** and select ***Continue***.
 ![](./imgs/guide-researchsoftware-1d.png)
 
-You will then be prompted to fill out additional metadata. Once all Required fields are filled, select ***Update Project*** and you will be brought to the curation directory.
+You will then be prompted to fill out additional metadata. Once all required fields are filled, select ***Update Project*** and you will be brought to the curation directory.
 
 ### 2. Add Citation & CodeMeta Files to GitHub
 
