@@ -590,7 +590,11 @@ What does not qualify as research software:
 
 ## Subsequent Publishing
 
-DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources (software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
+DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique citation and DOI. This feature is necessary due to the timing of research projects involving multiple experiments,  simulations, and field research missions which happen over time. These datasets may involve different teams, and require the publication of different documents or datasets at different time intervals.
+
+While users may publish more than one dataset in a project at one time, subsequent publications are  enabled for Experimental, Simulation, Hybrid Simulation, and Field research projects. Project types Other and Research Software do not allow subsequent publications.
+
+Within My Project, users can upload new data, and add a new simulation, hybrid simulation, mission, document collection, or experiment to their published project. Curating and publishing the new dataset follows the same pipeline as publishing the previous dataset/s. Once the new dataset is curated, users should go to Publication Preview and follow the green button  "publish additional datasets". All project's datasets can be amended and versioned individually.
 
 ## Timely Data Publication
 
