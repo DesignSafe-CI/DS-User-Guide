@@ -430,7 +430,7 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 ## Research Software
 
-### 1. Add a project
+### 1. Add a Project
 
 To add a new project, click **+ Add**, then select **New Project**.
 
@@ -452,11 +452,13 @@ Upon entering your new project, you will be prompted to select a Project Type.
 Select Research Software and continue.
 ![](./imgs/guide-researchsoftware-1d.png)
 
-### 2. Add DesignSafe Citation and CodeMeta file to your GitHub Release
+### 2. Add Citation and CodeMeta files to GitHub
 
-Generate a metadata file at https://codemeta.github.io/codemeta-generator/ and include it in your GitHub release.
+Your publication must include a Citation file with that cites DesignSafe and a CodeMeta file with metadata about your project.
 
-Adding a CITATION.cff with DesignSafe's helps DesignSafe with funding...
+To Generate a CodeMeta file, go to:[https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/), fill out the form, and add it in your GitHub repository.
+
+To cite DesignSafe, add a file called ```Citation.cff``` to your GitHub repository and paste the following:
 
 ```yaml
 cff-version: 1.2.0
@@ -504,20 +506,29 @@ preferred-citation:
   doi: "10.1061/(ASCE)NH.1527-6996.0000246"
 ```
 
-
-Create a release with both of these files
+After adding both of those files, create a new release that includes them.
 
 ### 3. Transfer Repository
 
-Navigate to the Curation Directory, enter the GitHub release URL, then select Transfer and repository will be transfered to DesignSafe.
+Navigate to the Curation Directory, enter the GitHub release URL.
 
 How to find the release URL: https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases
+
+Select Transfer and the release will be transfered to DesignSafe.
 
 ![](./imgs/guide-researchsoftware-3.png)
 
 ### 4. Preview Publication
+Navigate to the Publication Preview to see your transfered GitHub release files and how your final publication will appear.
+
+When you have proofread your metadata and verified that the right files are published, select "Prepare to Publish/Version/Amend" to continue.
+![](./imgs/guide-researchsoftware-4.png)
 
 ### 5. Prepare to Publish
+
+![](./imgs/guide-researchsoftware-5a.png)
+
+![](./imgs/guide-researchsoftware-5b.png)
 
 ---
 ## Other
