@@ -458,7 +458,7 @@ You will be prompted to fill out additional metadata. Once all required fields a
 
 Your GitHub release must include a citation file that cites DesignSafe and a CodeMeta file with additional software-specific metadata.
 
-To generate a CodeMeta file, go to:[https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
+To generate a CodeMeta file, go to: [https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
 
 To cite DesignSafe, add a file called ```Citation.cff``` to your GitHub repository and paste the following:
 
