@@ -1,6 +1,6 @@
 # Steps to Curate and Publish Your Datasets
 
-We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
+We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Research Software**](#researchsoftware), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
 ## Experimental
 
@@ -445,13 +445,31 @@ You can edit all these fields later if you make any mistakes.
 
 Once finished, click **Submit** and you will be taken to your new project in the My Projects tab.
 
-![](.imgs/guide-researchsoftware-1c.png)
+Upon entering your new project, you will be prompted to select a Project Type.
+![](./imgs/guide-researchsoftware-1c.png)
 
-![](.imgs/guide-researchsoftware-1d.png)
+Select Research Software and continue.
+![](./imgs/guide-researchsoftware-1d.png)
 
-### 2. Add Citation and CodeMeta file to your GitHub
+### 2. Add DesignSafe Citation and CodeMeta file to your GitHub Release
 
+Generate a metadata file at https://codemeta.github.io/codemeta-generator/ and include it in your GitHub release.
 
+Adding a CITATION.cff with DesignSafe's helps DesignSafe with funding...
+
+Create a release with both of these files
+
+### 3. Transfer Repository
+
+Navigate to the Curation Directory, enter the GitHub release URL, then select Transfer and repository will be transfered to DesignSafe.
+
+How to find the release URL: https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases
+
+![](./imgs/guide-researchsoftware-3.png)
+
+### 4. Preview Publication
+
+### 5. Prepare to Publish
 
 ---
 ## Other
