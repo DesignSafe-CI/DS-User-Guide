@@ -522,7 +522,7 @@ Select **Transfer** and the release will be transfered to DesignSafe.
 
 ![](./imgs/guide-researchsoftware-3.png)
 
-Only files transfered from GitHub can be published in a Research Software publication. Any files uploaded to the working directory before selecting research software project type cannot be published alongside the GitHub release.
+Only files transfered from GitHub can be published in a research software publication. Any files uploaded to the working directory before selecting research software project type cannot be published alongside the GitHub release.
 
 ### 4. Preview Publication
 Navigate to the **Publication Preview** to see the transfered GitHub files and preview how your final publication will appear.
