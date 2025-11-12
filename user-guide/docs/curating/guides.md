@@ -458,7 +458,8 @@ You will be prompted to fill out additional metadata. Once all required fields a
 
 Your GitHub release must include a citation file that cites DesignSafe and a CodeMeta file with additional software-specific metadata.
 
-To generate a CodeMeta file, go to: [https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
+To generate a CodeMeta file, go to:
+[https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
 
 To cite DesignSafe, add a file called ```Citation.cff``` to your GitHub repository and paste the following:
 
@@ -514,7 +515,8 @@ After adding both files, create a new release.
 
 Navigate to the Curation Directory and enter the GitHub release URL.
 
-How to find the release URL: https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases
+How to find the release URL: 
+[https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases)
 
 Select Transfer and the release will be transfered to DesignSafe.
 
