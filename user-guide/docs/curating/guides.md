@@ -450,11 +450,13 @@ Upon entering your new project, you will be prompted to select a project type.
 
 Select **Research Software** and continue.
 
+The research software option only publishes GitHub releases. If you don't use GitHub, select project type **Other** and make sure to select **Research Software** as the data type in the project metadata.
+
 ![](./imgs/guide-researchsoftware-1d.png)
 
 You will be prompted to fill out additional metadata. Once all required fields are filled, select **Update Project** and you will be brought to the curation directory.
 
-### 2. Add CodeMeta File to GitHub
+### 2. Add Metadata Files to GitHub
 
 Your GitHub release must include a CodeMeta file with additional software-specific metadata.
 
@@ -464,7 +466,13 @@ To generate a CodeMeta file, go to:
 Make sure to select the software license that DesignSafe issues,  
 **3-Clause BSD License**, in both the CodeMeta file and the GitHub release.
 
-After adding the file, create a new release.
+In addition, the release must include a README file with detailed instructions on how to install and use the software.
+
+Failure to adequately describe your software with these files may result in removal of your publication.
+
+[Read about best practices for creating CodeMeta and README files.](https://www.designsafe-ci.org/user-guide/curating/bestpractices/#research-software)
+
+After adding these files, create a new release.
 
 ### 3. Transfer Repository
 
