@@ -198,7 +198,7 @@ Produces vulnerability and fragility curves for a single structural class.
 This enables evaluation across construction periods, structural types, and datasets.
 
 ## Citation
-> Bonfante, N. & Pinelli, J.-P. (2025). *Empirical Hurricane Vulnerability and Fragility Curves* DesignSafe-CI. DOI: [10.17603/ds2-q60v-z247](https://doi.org/10.17603/ds2-q60v-z247)
+> Bonfante, N., Pinelli, J.-P., Bakhshandeh, M., & Guennec, T. (2025). *Empirical Hurricane Vulnerability and Fragility Curves*. DesignSafe-CI. DOI: [10.17603/ds2-q60v-z247](https://doi.org/10.17603/ds2-q60v-z247)
 ## Licensing
 **License:** BSD 3-Clause License  
 
