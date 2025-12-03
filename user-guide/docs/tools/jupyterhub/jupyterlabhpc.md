@@ -1,20 +1,22 @@
 # DesignSafe HPC Jupyter Guide
 
-On DesignSafe web portal, three versions of Jupyter have been created, including **Jupyter**, **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)**. **Jupyter** will be run on a virtual machine, while **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)** will be run on the CPU nodes on Stampede3 and GPU nodes on Vista, respectively. In particular, the **Jupyter Lab HPC (GPU)** will be run on Vista's NVIDIA H100 GPU nodes that have the best performance, and many commonly used Python packages for AI/ML applications have been pre-installed, including PyTorch.
+On DesignSafe web portal, three versions of Jupyter have been created, including **JupyterHub**, **Jupyter HPC Native (Vista)** and **Jupyter HPC Native (Stampede3)**. **JupyterHub** is run on a virtual machine, while **Jupyter HPC Native (Vista)** and **Jupyter HPC Native (Stampede3)** will be run on the TACC HPC systems Vista and Stampede3. Both Vista and Stampede3 provide access to either CPU or GPU nodes depending on which queue you select when starting your Jupyter session. The [Vista](https://docs.tacc.utexas.edu/hpc/vista/) and [Stampede3](https://docs.tacc.utexas.edu/hpc/stampede3/) user guides provide detailed information on their respective system architectures and queues. For either HPC system any commonly used Python packages for AI/ML applications have been pre-installed, including PyTorch. Vista's NVIDIA H200 GPU nodes have the best GPU performance while Stampede3's NVIDIA H100 GPU nodes are still very performant being only one generation removed from the H200.
 
-![DS Jupyter](imgs/DSJupyter_new.png)
+![DS Jupyter](imgs/DSJupyter_3Dec2025.png)
 
 | Application | Pro | Con |
 | --- | - | - |
-| **Jupyter** | No wait; <br>No maximum job runtime limit; <br>Sufficient memory for data processing purpose | Low performance for AI/ML jobs; <br>Need to install Python packages every time |
-| **Jupyter Lab HPC (CPU)** | More memory and faster than **Jupyter**; <br>No need to reinstall Python packages once they have been installed; <br>Excellent capability for data processing and parallel computing using 56 cores. | Queue exists, longer wait time may be needed; <br>Slower than **Jupyter Lab HPC (GPU)** for deep learning jobs; <br>Maximum job runtime is 48 hours | 
-| **Jupyter Lab HPC (GPU)** | Four GPUs in total, best performance for AI/ML jobs; <br> Many commonly used Python packages for AI/ML applications have been pre-installed, including TensorFlow and PyTorch | Queue exists, longer wait time may be needed; <br>Maximum job runtime is 48 hours |
+| **JupyterHub** | No wait; <br>No maximum job runtime limit; <br>Sufficient memory for data processing purpose | Low performance for AI/ML jobs; <br>Need to install Python packages every time |
+| **Jupyter HPC Native (Vista)** | Best performance for AI/ML jobs using GPU nodes (select the gh queue, each node has 1 GPU); <br> Many commonly used Python packages for AI/ML applications have been pre-installed, including TensorFlow and PyTorch; <br> More memory and faster than **JupyterHub** | Job submits to a queue, longer wait time to launch session may be experienced; <br>Maximum job runtime is 48 hours |
+| **Jupyter HPC Native (Stampede3)** | No need to reinstall Python packages once they have been installed; <br>Excellent capability for data processing and parallel computing using 56 cores. <br> Very good performance for AI/ML jobs using GPU nodes (select the h100 queue, each node has 4 GPU);  <br> More memory and faster than **JupyterHub**| Job submits to a queue, longer wait time to launch session may be experienced; <br>Maximum job runtime is 48 hours | 
 
-**Note:** When using the **Jupyter Lab HPC (CPU)** and **Jupyter Lab HPC (GPU)**, you need to place all your files/data/codes/Jupyter Notebooks inside the *Work* folder. This can be done on DesignSafe Data Depot page without submitting any jobs.
+**Note:** When using the **Jupyter HPC Native (Stampede3)** and **Jupyter HPC Native (Vista)**, you need to place all your files/data/codes/Jupyter Notebooks inside the *Work* folder. This can be done on DesignSafe Data Depot page without submitting any jobs.
 
 ![JupyterLab](imgs/HPCWork_new.png)
 
-## Launch the Jupyter Lab HPC (GPU)
+## Launch the Jupyter HPC Native 
+
+While the following example is for **Jupyter HPC Native (Vista)**, the same process is used when you select to launch **Jupyter HPC Native (Stampede3)**.
 
 1. Go to [DesignSafe website](https://www.designsafe-ci.org) and sign in to your DesignSage account. Then click "Use DesignSafe" > "Tools & Applications" > "Analysis" > "Jupyter" and select "Jupyter HPC Native (Vista)".
 
