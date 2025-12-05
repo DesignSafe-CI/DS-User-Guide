@@ -26,13 +26,13 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Real Estate Data Set |  0_real_estate.ipynb<br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/0_real_estate.ipynb) |
-| Real Estate Data Set <br>Learning Curves |  1_real_estate_learning_curves.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/1_real_estate_learning_curves.ipynb)  |
-| Real Estate Data Set <br>Regularization |  2_real_estate_regularization.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/2_real_estate_regularization.ipynb)  |
-| Random forest classification <br>Multi-Class |  RandomForestClassification_MultiClass.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/1_random_forest/RandomForestClassification_MultiClass.ipynb)  |
-| Neural Networks |  ANNClassification_MultiClass.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/2_artificial_neural_networks/ANNClassification_MultiClass.ipynb)  |
-| Convolutional Neural Networks <br>MNIST Dataset |  0_mnist.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/0_mnist.ipynb)  |
-| Convolutional Neural Networks <br>MNIST Dataset - Parallel |  1_mnist_parallel.ipynb<br>[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/1_mnist_parallel.ipynb)  |
+| Real Estate Data Set |  0_real_estate.ipynb<br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/0_real_estate.ipynb) |
+| Real Estate Data Set <br>Learning Curves |  1_real_estate_learning_curves.ipynb<br>[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/1_real_estate_learning_curves.ipynb)  |
+| Real Estate Data Set <br>Regularization |  2_real_estate_regularization.ipynb<br>[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/2_real_estate_regularization.ipynb)  |
+| Random forest classification <br>Multi-Class |  RandomForestClassification_MultiClass.ipynb<br>[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/1_random_forest/RandomForestClassification_MultiClass.ipynb)  |
+| Neural Networks |  ANNClassification_MultiClass.ipynb<br>[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/2_artificial_neural_networks/ANNClassification_MultiClass.ipynb)  |
+| Convolutional Neural Networks <br>MNIST Dataset |  0_mnist.ipynb<br>[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/0_mnist.ipynb)  |
+| Convolutional Neural Networks <br>MNIST Dataset - Parallel |  1_mnist_parallel.ipynb<br>[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/1_mnist_parallel.ipynb)  |
 
 #### DesignSafe Resources
 
@@ -86,9 +86,9 @@ machine learning problems.
 
 Open Jupyter Notebook dirctly:
 
-- Linear Regression, Real Estate Data Set: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/0_real_estate.ipynb) 
-- Linear Regression, Real Estate Data Set - Learning Curves: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/1_real_estate_learning_curves.ipynb) 
-- Linear Regression, Real Estate Data Set - Regularization: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/2_real_estate_regularization.ipynb)
+- Linear Regression, Real Estate Data Set: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/0_real_estate.ipynb) 
+- Linear Regression, Real Estate Data Set - Learning Curves: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/1_real_estate_learning_curves.ipynb) 
+- Linear Regression, Real Estate Data Set - Regularization: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/0_linear_regression/2_real_estate_regularization.ipynb)
 
 or
 View in the Data Depot:
@@ -102,7 +102,7 @@ Random forests or random decision forests is an ensemble learning method for cla
 
 Open Jupyter Notebook directly:
 
-- Random forest classification -- Multi-Class: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/1_random_forest/RandomForestClassification_MultiClass.ipynb)
+- Random forest classification -- Multi-Class: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/1_random_forest/RandomForestClassification_MultiClass.ipynb)
 
 or
 View in the Data Depot:
@@ -116,7 +116,7 @@ Artificial neural networks (ANNs), usually simply called neural networks (NNs), 
 
 Open Jupyter Notebook dirctly:
 
-- Neural Networks: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/2_artificial_neural_networks/ANNClassification_MultiClass.ipynb)
+- Neural Networks: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/2_artificial_neural_networks/ANNClassification_MultiClass.ipynb)
 
 or
 View in the Data Depot:
@@ -137,8 +137,8 @@ resources a replica of the main notebook is provided that can run across multipl
 
 Open Jupyter Notebook dirctly:
 
-- Convolutional Neural Networks, MNIST Dataset: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/0_mnist.ipynb) 
-- Convolutional Neural Networks, MNIST Dataset - Parallel: [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/1_mnist_parallel.ipynb)
+- Convolutional Neural Networks, MNIST Dataset: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/0_mnist.ipynb) 
+- Convolutional Neural Networks, MNIST Dataset - Parallel: [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/An%20Example-Based%20Introduction%20to%20Machine%20Learning/3_convolutional_neural_networks/1_mnist_parallel.ipynb)
 
 or
 View in the Data Depot:

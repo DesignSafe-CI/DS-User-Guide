@@ -17,18 +17,18 @@
 
 0. Clone this repository onto your machine.
 1. Navigate into your clone of this repo.
-2. Run `bin/tacc-setup.sh` to reproduce files from TACC Docs.
+2. Run `bin/tacc-setup.sh` to reproduce config from TACC Docs.
 3. Install/Update project dependencies:\
     <sup>You should only need to do this after new releases.</sup>
     ```shell
     poetry install --sync
     ```
-4. Activate project dependencies:\
+4. Activate project dependencies:
     ```shell
     poetry shell
     ```
     <sup>After the `poetry shell` command, you should be in a Poetry-managed environment. Your prompt might be prefixed with the name of the environment.</sup>
-5. Serve the docs:\
+5. Serve the docs:
     ```shell
     mkdocs serve
     ```

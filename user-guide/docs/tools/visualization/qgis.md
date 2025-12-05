@@ -1,4 +1,4 @@
-## QGIS Desktop User Guide
+## QGIS Desktop
 
 QGIS is a free and open source Geographic Information System. Geospatial information can be created, edited, visualized and analyzed using this application. This application runs as an interactive QGIS Desktop session on a virtual machine using VNC technology.
 

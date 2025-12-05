@@ -38,49 +38,62 @@ plugins:
 
 nav:
   - DesignSafe Essentials:
-    - Documentation Overview: overview.md
     - Getting Started: index.md
     - Account Help: account-help.md
+    - DesignSafe FAQ: tools/advanced/dsfaq.md
+    - How to Cite DesignSafe: how-to-cite.md
     - Training Resources: training.md
 
-  - Data Depot:
+  - DesignSafe Data Depot:
     - Overview: datadepot.md
-    - Managing Data:
-      - Overview: managingdata/datadepot.md
-      - Setting Path to DS on Corral: managingdata/settingpathtodesignsafe.md
-      - Data Transfer Guides: managingdata/datatransfer.md
-      - Data Management Plan: managingdata/datamanagementplan.md
-      - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
-    - Data Depot Repository:
-      - About: datadepotrepo/about.md
-      - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
-      - Curating &amp; Publication:
-        - Guides: curating/guides.md
-        - Frequently Asked Questions: curating/faq.md
-      - Best Practices: curating/bestpractices.md
-      - Metrics Documentation: curating/metrics.md
-      - Policies: curating/policies.md
-      - Metadata Dictionaries: dictionary.md
-    - Recon Portal:
-      - Recon Portal User Guide: tools/recon.md
+    - Virtual Office Hours: https://designsafe-ci.org/facilities/virtual-office-hours/
+    - Transferring Your Data: managingdata/datatransfer.md
+    # WARNING: From here down, preserve URLs
+    #          If URLs must change, add/use redirect plugin
+    - Steps to Curate and Publish Your Datasets: curating/guides.md
+    - Best Practices for Data Curation and Publication: curating/bestpractices.md
+    - Data Dissemination and Impact: curating/metrics.md
+    - Resources for Users:
+      - Frequently Asked Questions: curating/faq.md
+      - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
+      - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
+    - About the Data Depot: datadepotrepo/about.md
+    - Policies: curating/policies.md
 
   - Tools and Apps:
-    - Analysis Apps: analysis.md
-    - Jupyter: tools/jupyterhub.md
+    - Training Resources: training.md
+    - Popular:
+      - OpenSees: tools/simulation/opensees/opensees.md
+      - ADCIRC: tools/simulation/adcirc/adcirc.md
+      - OpenFoam: tools/simulation/openfoam.md
+      - Jupyter: tools/jupyterhub.md
+      - MATLAB: analysis/matlab.md
+    - Simulation:
+      - ADCIRC: tools/simulation/adcirc/adcirc.md
+      - Ansys: tools/simulation/ansys.md
+      #- ClawPack: tools/simulation/clawpack.md
+      #- Dakota: tools/simulation/dakota.md
+      - IN-CORE: tools/simulation/in-core.md
+      - LS-DYNA: tools/simulation/lsdyna.md
+      - OpenFoam: tools/simulation/openfoam.md
+      - OpenSees : tools/simulation/opensees/opensees.md
+    - Analysis:
+      - Jupyter: tools/jupyterhub.md
+      - MATLAB: analysis/matlab.md
+      - HVSRweb: analysis/hvsrweb.md
+      - SWbatch: analysis/swbatch.md
+    - GIS Tools:
+      - Hazmapper: tools/visualization/hazmapper.md
+      - QGIS: tools/visualization/qgis.md
+      - "Taggit: Basic Image Browsing and Mapping": tools/visualization/taggit-browse-map.md
+      - "Taggit: Grouping and Tagging Image Files": tools/visualization/taggit-categorize.md
+    - Visualization: tools/visualization.md
     - Hazard Apps: tools/hazard.md
-    - Utility Apps: tools/utilities.md
-    - Visualization Apps: tools/visualization.md
+    - Utilities: tools/utilities.md
+    - Requesting New Applications: tools/overview.md
 
-  - Simulation Apps:
-    - Overview: tools/simulation/overview.md
-    - ADCIRC: tools/simulation/adcirc/adcirc.md
-    - Ansys: tools/simulation/ansys.md
-    #- ClawPack: tools/simulation/clawpack.md
-    #- Dakota: tools/simulation/dakota.md
-    - IN-CORE: tools/simulation/in-core.md
-    - LS-DYNA: tools/simulation/lsdyna.md
-    - OpenFoam: tools/simulation/openfoam.md
-    - OpenSees : tools/simulation/opensees/opensees.md
+  - Recon Portal:
+    - Recon Portal User Guide: tools/recon.md
 
 # Old navigation for OpenSees
 #      - OpenSees on DesignSafe:
@@ -128,6 +141,7 @@ nav:
     - Wind and Storm Surge:
       - Field Sensing Wind Events: usecases/pinelli/usecase.md
       - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
+      - Wind Speed Estimation and Conversion: usecases/pinelli/3usecase.md
       - ADCIRC Datasets: usecases/dawson/usecase2.md
       - Large-Scale Storm Surge: usecases/dawson/usecase.md
       - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
@@ -138,6 +152,5 @@ nav:
   - Advanced:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
-    - DesignSafe FAQ: tools/advanced/dsfaq.md
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
 

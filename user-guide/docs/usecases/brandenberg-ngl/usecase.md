@@ -54,7 +54,7 @@ you will need to understand the organizational structure of the database, called
 schema is documented at the following URL:
 
 [https://nextgenerationliquefaction.org/schema/index.html](https://nextgenerationliquefaction.org/schema/index.html){target=_blank}
-  
+
 ### Querying Data via Jupyter Notebooks
 
 Jupyter notebooks provide the capability to query NGL data, and subsequently process, visualize, and learn from the data in an end-to-end workflow. Jupyter notebooks run in the cloud on DesignSafe, and provide a number of benefits compared with a more traditional local mode of operation:

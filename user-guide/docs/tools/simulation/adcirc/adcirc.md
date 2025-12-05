@@ -1,4 +1,4 @@
-# ADCIRC User Guide { #adcirc_user_guide }
+# ADCIRC
 
 The ADCIRC (ADvanced CIRCulation) model is a system of computer programs often used in Coastal Engineering Storm Surge research for solving time dependent, free surface circulation and transport problems in two and three dimensions.
 These programs utilize the finite element method in space allowing the use of highly flexible, unstructured grids.

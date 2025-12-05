@@ -41,7 +41,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
+| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
 
 #### DesignSafe Resources
 The following DesignSafe resources were leveraged in developing this use case.
@@ -106,7 +106,7 @@ For example the file may look like:
 
 ### Example Notebook: Creating ADCIRC DataSet
 
-The example within this use case comprises of 4 main steps to create a data-set starting from a set of ADCIRC control input files. The notebook can be found at in the [ADCIRC Use Case’s](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC) folder with the name `Creating an ADCIRC DataSet.ipynb` . Note that the notebook should be copied to the users `~/MyData` directory before being able to use it (these steps are covered in the notebook). [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb)
+The example within this use case comprises of 4 main steps to create a data-set starting from a set of ADCIRC control input files. The notebook can be found at in the [ADCIRC Use Case’s](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/ADCIRC) folder with the name `Creating an ADCIRC DataSet.ipynb` . Note that the notebook should be copied to the users `~/MyData` directory before being able to use it (these steps are covered in the notebook). [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb)
 
 The notebook covers the first two steps of this use case, namely identifying storm surge events and creating base input data sets to run using ADCIRC. We briefly overview the notebook’s results below.
 

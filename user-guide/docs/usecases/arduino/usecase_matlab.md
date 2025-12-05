@@ -11,7 +11,7 @@
 
 This example makes use of the following DesignSafe resources:
 
-[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/MatlabBatch/matlabBatch-VM.ipynb)
+[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Jupyter%20Notebooks%20for%20Civil%20Engineering%20Courses/University_of_Washington/MatlabBatch/matlabBatch-VM.ipynb)
 
 The notebook, and required scripts, are available in the Community Data folder and can be executed without any modification. Users are invited to try this notebook and use any parts of it.
 
@@ -32,7 +32,6 @@ A schematic workflow for this example is presented in Fig. 1
 
 ![Schematic of Matlab workflow](img/UC3-Arduino-0.png "Schematic of Matlab workflow")
 <p style="text-align: center;"> Fig.1 - Schematic of Matlab workflow</p>
-    
 ## Implementation
 
 The notebook can be broken down into three main components:
@@ -226,12 +225,10 @@ nMotions = 7
 for idx in range(1, nMotions+1):
     filename = './RS-motion'+str(idx)+'.out'
     RSm = np.loadtxt(filename)
-    
     axs2[0].semilogx(RSm[:,0],RSm[:,3], \
                 color=colors[idx], linestyle='solid', linewidth=1.5, \
                 #marker=symbols[0], markersize=6, markerfacecolor = 'white', \
                 label = 'Motion'+str(idx))
-    
 axs2[0].set_xlabel('Period(s)')
 axs2[0].set_ylabel('Spectral Acc $(m/s^2)$')
 axs2[0].legend()

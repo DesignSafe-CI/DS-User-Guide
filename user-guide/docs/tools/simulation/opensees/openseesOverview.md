@@ -1,4 +1,4 @@
-# OpenSees User Guide
+# OpenSees
 
 ## OpenSees On DesignSafe
 

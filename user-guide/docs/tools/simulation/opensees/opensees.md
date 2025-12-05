@@ -1,4 +1,4 @@
-# OpenSees User Guide
+# OpenSees
 
 ## OpenSees On DesignSafe
 
@@ -527,7 +527,6 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
 
 
-    
 ```
 <small><a href="https://github.com/OpenSees/OpenSees/blob/master/EXAMPLES/LargeSP/Example.tcl" target="_blank">Click here to access this example and more on GitHub</a></small>
 
@@ -588,7 +587,6 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
    <li><b>barrier</b>: causes all processes to wait until all process reach this point in the code.
 </ul>
 </p>
-
 
 
 
@@ -833,7 +831,6 @@ for count,thisParameter in enumerate(ParameterList):
         ## Analysis Commands
         ops.wipe()
     	print(f'pid {pid} done parameter: {thisParameter})'
-    
 print(f'pid {pid} ALL DONE!!!')
 ```
 </li>
