@@ -3,7 +3,7 @@
 ## Multi-Data Set Image Analysis in Taggit
 
 Combining Taggit analysis results with external data sets to do further analysis on image files
-/// 
+///
 
 
 **Fred Haan – Calvin University **
@@ -20,7 +20,7 @@ The example makes use of the following DesignSafe resources:
 
 The example also makes use of the following National Weather Service resource, the Damage Assessment Toolkit:
 
-* <a href="https://apps.dat.noaa.gov/StormDamage/DamageViewer">https://apps.dat.noaa.gov/StormDamage/DamageViewer</a> 
+* <a href="https://apps.dat.noaa.gov/StormDamage/DamageViewer">https://apps.dat.noaa.gov/StormDamage/DamageViewer</a>
 
 ### Description
 
@@ -32,7 +32,7 @@ Taggit enables you to organize images into groups and to tag images. These group
 
 #### Gathering the Necessary Data Files
 
-For this example, we will consider a case of a water tower that collapsed during the 10 December 2021 tornado in Mayfield, Kentucky.  Numerous photos were taken of this collapsed debris of the water tower including photos of measurements of the structural components on the ground.  Using Taggit, these photos were organized into a Group called “Measurements.” NOTE: These photos were grouped according to the instructions in the documentation file Grouping and Tagging Image Files. See that document if you do not know how to group and tag images with Taggit. 
+For this example, we will consider a case of a water tower that collapsed during the 10 December 2021 tornado in Mayfield, Kentucky.  Numerous photos were taken of this collapsed debris of the water tower including photos of measurements of the structural components on the ground.  Using Taggit, these photos were organized into a Group called “Measurements.” NOTE: These photos were grouped according to the instructions in the documentation file Grouping and Tagging Image Files. See that document if you do not know how to group and tag images with Taggit.
 
 ![](img3/image001.png)
 
@@ -40,7 +40,7 @@ The Export Tags/Groups function in Taggit (see below) will generate json and csv
 
 ![](img3/image002.png)
 
-The csv files that Taggit generates look like what is shown below. In this case, the csv file contains all the photos that were included in the group called “Measurements.” 
+The csv files that Taggit generates look like what is shown below. In this case, the csv file contains all the photos that were included in the group called “Measurements.”
 
 ![](img3/image003.png)
 
@@ -50,7 +50,7 @@ The U.S. National Weather Service (NWS) maintains a database called the Damage A
 
 <!-- ![](img3/image004.png) -->
 
-QGIS is used in this example both to demonstrate how it works and to show how nicely it displays the NWS wind speed estimates. Launch QGIS from the Visualization tab of the DesignSafe Tools &amp; Applications menu. Select QGIS Desktop 3.16. 
+QGIS is used in this example both to demonstrate how it works and to show how nicely it displays the NWS wind speed estimates. Launch QGIS from the Visualization tab of the DesignSafe Tools &amp; Applications menu. Select QGIS Desktop 3.16.
 
 ![](img3/DS_apps_QGIS.jpg)
 
@@ -66,15 +66,15 @@ This displays a map and lists the OpenStreetMap in the Layers list on the lower 
 
 ![](img3/image010.png)
 
-The shapefile data from the NWS DAT can then be loaded by selecting Layer, Add Layer, Add Vector Layer as shown below. 
+The shapefile data from the NWS DAT can then be loaded by selecting Layer, Add Layer, Add Vector Layer as shown below.
 
 ![](img3/image011.png)
 
-Click on the … symbol to select your DAT output files (which can be an entire zip file), click Add, then click Close. NOTE: your DAT output files will need to be in DesignSafe either in your MyData or in a Project you have access to. 
+Click on the … symbol to select your DAT output files (which can be an entire zip file), click Add, then click Close. NOTE: your DAT output files will need to be in DesignSafe either in your MyData or in a Project you have access to.
 
 ![](img3/image012.png)
 
-Zoom in on the portion of the map we’re interested in. For our example, we zoom in on Mayfield, Kentucky. Notice the “nws_dat” layer has been added to the Layers list. 
+Zoom in on the portion of the map we’re interested in. For our example, we zoom in on Mayfield, Kentucky. Notice the “nws_dat” layer has been added to the Layers list.
 
 <!-- ![](img3/image008.png) -->
 
@@ -88,11 +88,11 @@ As before, click on the … symbol and select the csv file, click Add, then clic
 
 ![](img3/image015.png)
 
-Now we can zoom in on the location where these new Taggit symbols appeared (see below). The Taggit symbols are the layer shown here as “group-1.” On the map, the red points are from the NWS database, and the yellow points are from the Taggit data. 
+Now we can zoom in on the location where these new Taggit symbols appeared (see below). The Taggit symbols are the layer shown here as “group-1.” On the map, the red points are from the NWS database, and the yellow points are from the Taggit data.
 
 ![](img3/image016.png)
 
-To see the wind speeds from the NWS DAT data, select the nws_dat layer from the Layer list and select the Identify Features button from the icons across the top (see red arrows below). Once you have selected these, you can then click on any of the NWS DAT points and see the metadata for that point. The metadata includes a wind speed estimate (see the black arrows below). 
+To see the wind speeds from the NWS DAT data, select the nws_dat layer from the Layer list and select the Identify Features button from the icons across the top (see red arrows below). Once you have selected these, you can then click on any of the NWS DAT points and see the metadata for that point. The metadata includes a wind speed estimate (see the black arrows below).
 
 <!-- ![](img3/image008.png) -->
 

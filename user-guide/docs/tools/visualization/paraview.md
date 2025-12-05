@@ -1,4 +1,5 @@
-## Paraview User Guide
+## Paraview
+<a name="paraview-user-guide"></a><!-- old heading name/id -->
 
 ParaView is an open-source, multi-platform data analysis and visualization application. ParaView users can quickly build visualizations to analyze their data using qualitative and quantitative techniques. ParaView was developed to analyze extremely large datasets using distributed memory computing resources. Using ParaView in the Workspace, you will be running interactively in a GUI.
 

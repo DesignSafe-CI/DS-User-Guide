@@ -36,7 +36,7 @@ This use case demonstrates how to run MPM simulations on DesignSafe using [Jupyt
 
 ### Input generation
 
-Input files for the MPM code can be generated using [pycbg](https://forgemia.inra.fr/mpm-at-recover/pycbg){target=_blank}. The documentation of the input generator is [here](https://pycbg.readthedocs.io/en/latest/){target=_blank}. For more information on the input files, please refer to [CB-Geo MPM documentation](https://mpm.cb-geo.com/#/user/preprocess/input){target=_blank}. The generator is available at [PyPI](https://pypi.org/project/pycbg/){target=_blank} and an be easily installed with `pip install pycbg`. `pycbg` enables a Python generation of expected `.json` input files, offering all Python capabilities to CB-Geo MPM users for this preprocessing stage.
+Input files for the MPM code can be generated using [pycbg](https://forgemia.inra.fr/mpm-at-recover/pycbg){target=_blank}. For API details, please refer to [pycbg's documentation](https://pycbg.readthedocs.io/en/latest/){target=_blank}. For more information on the input files, please refer to [CB-Geo MPM documentation](https://mpm.cb-geo.com/#/user/preprocess/input){target=_blank}. The generator is available at [PyPI](https://pypi.org/project/pycbg/){target=_blank} and an be easily installed with `pip install pycbg`. `pycbg` enables a Python generation of expected `.json` input files, offering all Python capabilities to CB-Geo MPM users for this preprocessing stage.
 
 Typing a few Python lines is usually enough for a user to define all necessary ingredients for a MPM simulation:
 
@@ -53,7 +53,7 @@ Typing a few Python lines is usually enough for a user to define all necessary i
  - setup batch of simulations (the documentation doesn't mention it yet but the function `pycbg.preprocessing.setup_batch` has a complete docstring)
 
 
-#### An example 
+#### An example
 
 Simulation of a settling column made with two different materials is described in [preprocess.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/Use%20Case%20Products/MPM){target=_blank} as follows:
 

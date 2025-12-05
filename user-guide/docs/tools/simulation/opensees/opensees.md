@@ -1,4 +1,4 @@
-# OpenSees User Guide
+# OpenSees
 
 ## OpenSees On DesignSafe
 
@@ -28,14 +28,14 @@ DesignSafe provides different platforms to run the OpenSees applications. These 
 1. The <b>Jupyter Hub</b> provides a versatile Jupyter-based IDE for developing a complete workflow that integrates pre- and post-processing with the OpenSees analyses interactively via Jupyter Notebooks. The Jupyter Hub can be run in a dedicated VM, which requires no allocation, or in an allocation in HPC. While OpenSeesPy can be run directly in a Python-based Jupyter Notebook, Julia, Matlab, and R can also be used interactively within a Jupyter Notebook to create the OpenSees input files, submit them to HPC, and post-process the results.
 1. An <b>HPC allocation</b> allows the user to submit very large jobs to the larger queues available on DesignSafe and TACC.
 
-The choice of OpenSees Application and DesignSafe platform depends on your project needs. 
+The choice of OpenSees Application and DesignSafe platform depends on your project needs.
 
 
 ### OpenSees-Project "Size"
 
 As you plan your OpenSees project on DesignSafe, you need to have an idea of the project's "size," which is defined by its scope. The project scope is defined by the size of your model and the type and number of parametric analyses.
 
-Understanding the scope of your project, and how that scope grows in "size", will help you choose the right OpenSees application as well as DesignSafe platform. 
+Understanding the scope of your project, and how that scope grows in "size", will help you choose the right OpenSees application as well as DesignSafe platform.
 
 1. The <b>Model Size</b> affects the size of the system of equations that must be solved (the matrix that needs to be inverted) as well as the number of nonlinear state determinations which can be iterative. <br>
 Here are a few items that affect Model Size:
@@ -69,12 +69,12 @@ The following figure provides the decision matrix: a visual tool for quick asses
 
 ![](./DecisionMatrixForOpenSeesApplications.jpg)
 
-Choose the right OpenSees application to make the best use of resources such as modeler time, run time, and computer resources. 
+Choose the right OpenSees application to make the best use of resources such as modeler time, run time, and computer resources.
 
 
 ### Decision Matrix for DesignSafe Platform for OpenSees
 
-The following table provides a comparison of all the ways you can run OpenSees on the DesignSafe CI execution platforms and configurations. Each platform has different interfaces for you to interact with OpenSees. Items in the table are placed in order of complexity and recommendation. 
+The following table provides a comparison of all the ways you can run OpenSees on the DesignSafe CI execution platforms and configurations. Each platform has different interfaces for you to interact with OpenSees. Items in the table are placed in order of complexity and recommendation.
 
 ![](./DecisionMatrixForOpenSeesOnDesignSafeCI.jpg)
 ### Running OpenSees at the Linux Terminal
@@ -117,7 +117,7 @@ However, for case of the platforms that have the integrated Jupyter environment,
 The Tcl-Interpreter OpenSees applications (OpenSees-Express, OpenSeesSP, and OpenSeesMP) are compiled executable programs. The MPI, therefore, will run NP processes of this executable.<br>
 OpenSeesPy, on the other hand, is a python library that has been pre-installed in the VM and is called within the python environment. In this case, therefore, the MPI will run NP Python processes and each process will call its own Python library. In addition, all three OpenSees applications are integrated into a single library, OpenSeesPy.</p>
 
-#### Examples 
+#### Examples
 
 The following examples give you the command to executed as well as a demonstration of the Interaction with OpenSees:
 
@@ -527,7 +527,6 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
 
 
 
-    
 ```
 <small><a href="https://github.com/OpenSees/OpenSees/blob/master/EXAMPLES/LargeSP/Example.tcl" target="_blank">Click here to access this example and more on GitHub</a></small>
 
@@ -588,7 +587,6 @@ The following example was uploaded to the OpenSees Github by Dr. Frank McKenna
    <li><b>barrier</b>: causes all processes to wait until all process reach this point in the code.
 </ul>
 </p>
-
 
 
 
@@ -833,7 +831,6 @@ for count,thisParameter in enumerate(ParameterList):
         ## Analysis Commands
         ops.wipe()
     	print(f'pid {pid} done parameter: {thisParameter})'
-    
 print(f'pid {pid} ALL DONE!!!')
 ```
 </li>
@@ -849,7 +846,7 @@ mpiexec -np 5 python simpleMP.py
 
 
 
-## OpenSees Platforms 
+## OpenSees Platforms
 
 ### Running OpenSees on DesignSafe
 

@@ -1,4 +1,4 @@
-### How to Submit an OpenSees Job in the Workspace { #submit } 
+### How to Submit an OpenSees Job in the Workspace { #submit }
 
 1. Select the OpenSees application from the simulation tab in the workspace.
 
@@ -20,7 +20,7 @@
 
 6. Enter a job name (Optional).
 
-7. Enter an output archive location or use the default provided. 
+7. Enter an output archive location or use the default provided.
 
 8. Node Count: Number of requested process nodes for the job.
 
@@ -34,7 +34,6 @@
 
 
 	![](./imgs/opensees-5.png)
-
 
 
 

@@ -56,7 +56,6 @@
 
 
 
-
 #### Changes to the script with Examples
 
 <p>When using OpenSeesMP, you need to augment your script to manually assign subdomains or analyses to the different processors, as well as update some analysis objects to ones that can handle parallel computing. These commands, in the equivalent python format, are also available in OpenSeesPy</p>

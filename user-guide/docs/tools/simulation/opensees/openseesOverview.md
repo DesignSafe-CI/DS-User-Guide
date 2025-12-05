@@ -1,4 +1,4 @@
-# OpenSees User Guide
+# OpenSees
 
 ## OpenSees On DesignSafe
 
@@ -25,6 +25,6 @@ DesignSafe provides different platforms to run the OpenSees applications. These 
 1. The <b>Jupyter Hub</b> provides a versatile Jupyter-based IDE for developing a complete workflow that integrates pre- and post-processing with the OpenSees analyses interactively via Jupyter Notebooks. The Jupyter Hub can be run in a dedicated VM, which requires no allocation, or in an allocation in HPC. While OpenSeesPy can be run directly in a Python-based Jupyter Notebook, Julia, Matlab, and R can also be used interactively within a Jupyter Notebook to create the OpenSees input files, submit them to HPC, and post-process the results.
 1. An <b>HPC allocation</b> allows the user to submit very large jobs to the larger queues available on DesignSafe and TACC.
 
-The choice of OpenSees Application and DesignSafe platform depends on your project needs. 
+The choice of OpenSees Application and DesignSafe platform depends on your project needs.
 
 

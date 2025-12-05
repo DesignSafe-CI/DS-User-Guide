@@ -1,4 +1,5 @@
-##  IN-CORE User Guide
+##  IN-CORE
+<a name="in-core-user-guide"></a><!-- old heading name/id -->
 
 The Interdependent Networked Community Resilience Modeling Environment (IN-CORE) platform, in continuous development by the Center of Excellence for Risk-Based Community Resilience Planning (CoE), is the result of a multi-university research center funded by The National Institute of Standards and Technology (NIST). Moreover, the platform is intended to offer the potential for community contributed code as resilience modeling research evolves. The platform focuses on measurement science to support community resilience assessment through a risk-based approach to support decision-making for definition, prioritization, and comparison of resilience strategies at the community level.
 
@@ -20,7 +21,7 @@ Using a client-based development, IN-CORE Python libraries can connect directly 
 
 ### Installation of pyincore on DesignSafe
 
-The user can install pyincore using any of these two options: 
+The user can install pyincore using any of these two options:
 
 1) the [temporary user installation](#Title1.1) 
 2) creating a [specific kernel for pyincore](#Title1.2)
@@ -78,13 +79,13 @@ ipython kernel install --user --name=pyincore_on_DS
 
 After waiting a few seconds, the pre-existing user-defined kernels may appear after clicking on the "switch kernel" panel (right upper corner, as shown in Figure 3). If not, refresh your browser and check the "switch kernel" panel again.
 
-### Example: IN-CORE tools within DesignSafe-CI 
+### Example: IN-CORE tools within DesignSafe-CI
 
 The following example leverages the use case published in the Data Depot as [PRJ-4675 “IN-CORE on DesignSafe”](https://doi.org/10.17603/ds2-cx62-ve21). 
 The notebook presents a use case focused on the risk analysis of a regional scale portfolio of bridges exposed to seismic events. The goal of this use case is to show the interaction of DesignSafe with IN-CORE Python tools. 
 You can copy this folder to your “My Data” folder to enable editing permission, thus enabling working directly on the Jupyter Notebook. To access to the main Jupyter notebook of the published use case (called **main.ipynb**), click on the button below.
 
-[![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-4675v2/main.ipynb)
+[![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-4675v2/main.ipynb)
 
 For more information about advanced analyses in IN-CORE, including housing unit allocation, population dislocation evaluation, recovery analyses, and computable general equilibrium modeling for quantifying community-level recovery, the reader is referred to the IN-CORE user documentation at the [IN-CORE website](https://incore.ncsa.illinois.edu/doc/incore/introduction.html).
 

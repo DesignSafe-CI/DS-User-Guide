@@ -1,4 +1,4 @@
-# ADCIRC User Guide { #adcirc_user_guide }
+# ADCIRC
 
 The ADCIRC (ADvanced CIRCulation) model is a system of computer programs often used in Coastal Engineering Storm Surge research for solving time dependent, free surface circulation and transport problems in two and three dimensions.
 These programs utilize the finite element method in space allowing the use of highly flexible, unstructured grids.
@@ -116,7 +116,7 @@ Disadvantages include:
 
 **Overall, the interactive VM is meant to be as a testing and learning environment. It is ideal to configure and test smaller runs of large jobs before submitting to the HPC queue to verify inputs/outputs are configured correctly for ADCIRC and supporting programs.**
 
-#### Getting Started 
+#### Getting Started
 
 You can access the interactive VM  via the DesignSafe-CI workspace by selecting "Workspace" &gt; "Tools &amp; Applications" &gt; "Simulation" &gt; "ADCIRC" &gt; Select "Jupyter" &gt; "Interactive VM for ADCIRC" to start the interactive VM.
 

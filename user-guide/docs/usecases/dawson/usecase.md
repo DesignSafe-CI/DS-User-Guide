@@ -20,8 +20,8 @@ Accompanying jupyter notebooks for this use case can be found in the ADCIRC fold
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
-| Create an Ensemble Simulations | ADCIRC Ensemble Simulations.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/ADCIRC%20Ensemble%20Simulations.ipynb) |
+| Create an ADCIRC DataSet | Creating an ADCIRC DataSet.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/Creating%20an%20ADCIRC%20Dataset.ipynb) |
+| Create an Ensemble Simulations | ADCIRC Ensemble Simulations.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/ADCIRC/ADCIRC%20Ensemble%20Simulations.ipynb) |
 
 #### DesignSafe Resources
 The following DesignSafe resources were used in developing this use case.
@@ -107,7 +107,6 @@ do
   # Call generator if it exists script
   if [ -e generator.sh ]
   then
-    
     ./generator.sh ${ITER} $SLURM_NPROCS $generator_args
   fi
 
@@ -121,13 +120,13 @@ do
 done
 ```
 
-Note how a generator script is not required, with a static pylauncher file, of input name determined as a job parameter `pylauncher_input`, being sufficient to run a single batch of jobs. 
+Note how a generator script is not required, with a static pylauncher file, of input name determined as a job parameter `pylauncher_input`, being sufficient to run a single batch of jobs.
 
 All input scripts and files for each parametric job should be zipped into a file and passed as an input to the pylauncher application. Note that these files shouldn't be too large and shouldn't contain data as tapis will be copying them around to stage and archive jobs. Data should ideally be pre-staged and not part of the zipped job inputs.
 
-##### Staging Files 
+##### Staging Files
 
-For large scale ensemble simulations, it is best to stage individual ADCIRC run files in a project directory that execution systems can access before-hand so that Tapis itself isn't doing the moving and staging of data. 
+For large scale ensemble simulations, it is best to stage individual ADCIRC run files in a project directory that execution systems can access before-hand so that Tapis itself isn't doing the moving and staging of data.
 
 The corresponding TACC base path to your project with a particular id can be found at `/corral-repl/projects/NHERI/projects/[id]/`. To find the ID for your project, you can just look at the URL of your project directory in designsafe:
 

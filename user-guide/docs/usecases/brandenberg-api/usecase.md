@@ -4,14 +4,14 @@
 
 Introduction to APIs With Examples
 
-/// 
+///
 
 **Scott J. Brandenberg - UCLA** <br>
 **Meera Kota - UCLA** <br>
 <br>
 _Keywords: API, Application Programming Interface, Jupyter, Python, requests, US Census, USGS, NASA, NOAA_
 
-This use case provides some background information on application programming interfaces (API's) followed by examples that utilize the Python requests package to pull data from API's maintained by NASA, the US Census Bureau, the US Geological Survey, and the National Oceanic and Atmospheric Administration. 
+This use case provides some background information on application programming interfaces (API's) followed by examples that utilize the Python requests package to pull data from API's maintained by NASA, the US Census Bureau, the US Geological Survey, and the National Oceanic and Atmospheric Administration.
 
 
 
@@ -26,27 +26,27 @@ This use case provides some background information on application programming in
  <tr>
   <td>NASA astronomy photo of the day</td>
   <td>io, json, requests, pillow</td>
-  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a></td>
  </tr>
  <tr>
   <td>US Census map</td>
   <td>folium, geopandas, requests, json, getpass</td>
-  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a></td>
  </tr>
  <tr>
   <td>USGS map of recent earthquakes</td>
   <td>folium, geopandas, requests, json</td>
-  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a></td>
  </tr>
  <tr>
   <td>USGS Shakemap contours</td>
   <td>folium, geopandas, requests, json, pandas</td>
-  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a></td>
  </tr>
  <tr>
   <td>NOAA hourly wind data</td>
   <td>folium, matplotlib, requests, json</td>
-  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
+  <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a></td>
  </tr>
 </table>
 
@@ -60,7 +60,7 @@ A primary benefit of API's is that users can retrieve information from the datab
 
 #### Authentication, Authorization, Keys, and Tokens
 
-Authentication verifies the identity of a user, generally by entering a username and password, and sometimes through additional measures like multi-factor authentication. When a user authenticates through a website, the server may store information about that user in a manner that persists through the user session. 
+Authentication verifies the identity of a user, generally by entering a username and password, and sometimes through additional measures like multi-factor authentication. When a user authenticates through a website, the server may store information about that user in a manner that persists through the user session.
 
 Authorization determines the access rights extended to a user. For example, a particular user may have access to only their own data when they log in to a website, but they are not permitted to see other users' data.
 
@@ -68,13 +68,13 @@ API's are often stateless, meaning that the server does not store any informatio
 
 API keys are designed to identify the client to the server. In some cases you may need to request a key for a particular API. This often requires you to create an account and authenticate. Generally that key will remain the same and you'll need to include it with your API requests. Note that you typically do not need to authenticate each time a request is made. Simply including the key is adequate.
 
-Tokens are similar to keys in that they are text strings, but they often carry additional information required to authorize the user (i.e., the token bearer). Tokens are often generated when a user authenticates, and set to expire after a specified time period, at which point the user must re-authenticate to obtain a new token.  
+Tokens are similar to keys in that they are text strings, but they often carry additional information required to authorize the user (i.e., the token bearer). Tokens are often generated when a user authenticates, and set to expire after a specified time period, at which point the user must re-authenticate to obtain a new token.
 
 #### HTTP Status Codes
  
 By default, the print(r) command above contains information about the HTTP status code, which indicates whether the request was succesful. A successful request will result in a 3-digit HTTP status code beginning with 2 (i.e., 2xx), with "Response \[200\]" indicating that the request was successful. Status code 1xx means that the request was received but has not yet been processed, 3xx means that the user must take additional action to complete the request, 4xx indicates a client error, and 5xx indicates that the server failed to fulfill a request
  
-More about HTTP status codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes 
+More about HTTP status codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 ### Implementation
 
@@ -82,13 +82,13 @@ The use cases below provide a description of each API followed by code required 
 
 #### NASA Astronomy Picture of the Day
 
-<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/api_background.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a>
 
 NASA maintains a number of open API's to make NASA data, including imagery, available to the public. Here we focus on the Astronomy Picture of the Day, or APOD. Many of NASA's API's require an API key, which can be obtained by signing up through their form at https://api.nasa.gov/. We have elected to use APOD because a demo key can be used to retrieve photos. Therefore this example will work for users who do not have a NASA API token. Below is an example query.
 
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 
-If you click on the link above, or paste the URL in your web browser, you will see a JSON string that contains information about the image, including a copyright, date, explanation, hdurl, media_type, service_version, title, and url. The JSON string looks like a Python dictionary, and may easily be converted to one using the Python JSON package. While entering the URL into a web browser returns useful information in the form of the JSON string, it does not actually display the image. Rather, the hdurl or url fields contain links to the image, and users could click these links to view the image. But the real power of the API is unlocked by interacting with it programatically rather than through a browser window. 
+If you click on the link above, or paste the URL in your web browser, you will see a JSON string that contains information about the image, including a copyright, date, explanation, hdurl, media_type, service_version, title, and url. The JSON string looks like a Python dictionary, and may easily be converted to one using the Python JSON package. While entering the URL into a web browser returns useful information in the form of the JSON string, it does not actually display the image. Rather, the hdurl or url fields contain links to the image, and users could click these links to view the image. But the real power of the API is unlocked by interacting with it programatically rather than through a browser window.
 
 ```python
 # Step 1: import packages
@@ -109,7 +109,6 @@ if(r.status_code == 200):
     json_string = r.text
 else:
     json_string = 'Request was not successful. Status code = ' + str(r.status_code)
-    
 # Step 5: Convert the JSON string to a python dictionary using the json package
 r_dict = json.loads(r.text)
 
@@ -145,7 +144,7 @@ Description: Do you see the horse's head? What you are seeing is not the famous 
 
 #### US Census Map
 
-<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a>
 
 This use case demonstrates how to pull data from a US Census API request and plot it using Folium. The Jupyter notebook is more heavily annotated and divided into cells. This page presents an abridged version highlighting key details. Details about the US Census API can be found at https://www.census.gov/data/developers/guidance/api-user-guide.html. This use case focuses on the American Community Survey (ACS) https://www.census.gov/programs-surveys/acs, which is a survey conducted by the US Census which details housing and population counts for the nation. A US Census API Key is required to use this use case product. So go over to https://api.census.gov/data/key_signup.html and get your API key now! We'll be here when you get back.
 
@@ -181,7 +180,6 @@ df['aa_pct'] = (df['aa_pop'] / df['total_pop'] * 100).round()
 with TemporaryDirectory() as temp_dir:
     with open(f"{temp_dir}/states.zip", "wb") as zip_file:
         zip_file.write(shape_zip)
-    
     with open(f"{temp_dir}/states.zip", "rb") as zip_file:
         states_gdf = gpd.read_file(zip_file)
         #states_gdf.rename(columns={5: 'state'})
@@ -220,7 +218,7 @@ display(pop_map)
 
 #### USGS recent earthquake map
 
-<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a>
 
 This Jupyter notebook demonstrates the USGS API for retrieving details of earthquakes over a certain magntiude that occured over a specific time period. The goal of this notebook is to take the USGS hourly/weekly/monthly earthquake RSS feed ( https://earthquake.usgs.gov/earthquakes/feed/) and plot the earthquakes and their relevant magnitudes using the Folium Python package(https://python-visualization.github.io/folium/). This API does not require a key.
 
@@ -267,7 +265,7 @@ my_map
 
 #### USGS Shakemap contours
 
-<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a>
 
 This Jupyter notebook will walk through how to access an USGS Shakemap API. The goal of this example is to use an API request to retrieve a USGS Shakemap (https://earthquake.usgs.gov/data/shakemap/) and plot the shakemap for the earthquake using a Python Package called Folium (https://python-visualization.github.io/folium/)
 
@@ -315,7 +313,7 @@ m
 
 #### NOAA hourly wind data
 
-<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="/user-guide/img/Open-in-DesignSafe.svg"></a>
 
 The following use case will detail data from the NOAA Co-OPS Data Retrieval API. You can learn more information here :https://api.tidesandcurrents.noaa.gov/api/prod/. Data regarding tidal/water levels, wind data, temperature data, air temperature/pressure, conductivity, visibility, humidity, and salinity are available. The locations where data is availble is based on buoy and instrumentation location. Predictions as well as reviewed NOAA data is available to users.
 

@@ -19,7 +19,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Visualizing geospatial hurricane impact data |  FirstMap.ipynb<br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/FirstMap.ipynb) |
+| Visualizing geospatial hurricane impact data |  FirstMap.ipynb<br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/FirstMap.ipynb) |
 
 #### DesignSafe Resources
 * <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Hazard-Exposure-Reconnaissance%20Integration%20and%20Visualization/FirstMap.ipynb">Jupyter notebook on DesignSafe Jupyterhub</a>
@@ -101,11 +101,11 @@ Each state and county in the United Sates have a unique FIPS code. Building data
 
 In this example we get building data in Bay County, Florida. For any other county, replace 'Bay County, Florida' with the desired county and state. Keep this format exactly as it is. Capitalize the first letters and write a comma after County.
 
-#### Download ARA Wind and Building Damage Data 
+#### Download ARA Wind and Building Damage Data
 
 ARA wind grid data for hurricane events is available on DesignSafe for each event. The grid wind data includes two fields: The 1-minute sustained maximum wind speed (mph) and the 3-second maximum wind gust (mph), both at 10-meters for open terrain. Both can be displayed as separate layers on the map.
 
-StEER reconnaissance data can be accessed and downloaded from <a href="https://web.fulcrumapp.com/apps">https://web.fulcrumapp.com/apps</a> or from DesignSafe (Roueche at al.2020). 
+StEER reconnaissance data can be accessed and downloaded from <a href="https://web.fulcrumapp.com/apps">https://web.fulcrumapp.com/apps</a> or from DesignSafe (Roueche at al.2020).
 
 In this script we access the data from Fulcrum. Both ARA wind and the StEER damage reconnaissance data must be in CSV format and in UTF-8 Unicode.
 
@@ -123,7 +123,7 @@ The desired URL pops up in a new window. Copy and replace the JSON REST Service 
 
 ![](newimgs/image007.png)
 
-#### Adding previously collected data and displaying them on the map 
+#### Adding previously collected data and displaying them on the map
 
 As the Python script adds data to the map, the user still must set it up to display using the panel on the left. In fact, a new layer needs to be added and configured for each data source. The left panel is activated and deactivated by clicking on the small arrow, circled in red on Figure 5.
 
@@ -131,7 +131,7 @@ As the Python script adds data to the map, the user still must set it up to disp
 
 Figure 5. Every data is added as a new layer on the map.
 
-For each new layer, the user specifies the basic type (point, polygon, arc, line etc.), selects the latitude and longitude fields from the data (Lat, Long) and decides on the fill color, too. The color can be based on a field value, making the map to be color-coded. In this JupyterLab, the reconnaissance damage data has been color-coded based on the wind damage rating value (0-4). The deeper purple the color, the higher the wind damage rating of the property. The layer of buildings is also color-coded based on the field median-year-built. This is an estimated value only and the map shows larger areas with the same color implying that this attribute must be treated with caution. 
+For each new layer, the user specifies the basic type (point, polygon, arc, line etc.), selects the latitude and longitude fields from the data (Lat, Long) and decides on the fill color, too. The color can be based on a field value, making the map to be color-coded. In this JupyterLab, the reconnaissance damage data has been color-coded based on the wind damage rating value (0-4). The deeper purple the color, the higher the wind damage rating of the property. The layer of buildings is also color-coded based on the field median-year-built. This is an estimated value only and the map shows larger areas with the same color implying that this attribute must be treated with caution.
 
 Finally, the maximum open terrain 1-minute sustained wind speed (mph) and 3-second wind gust (mph) at 10-meters are also color-coded.
 

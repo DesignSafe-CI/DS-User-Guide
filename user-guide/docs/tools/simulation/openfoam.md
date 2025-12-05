@@ -1,8 +1,9 @@
-## OpenFOAM User Guide
+## OpenFOAM
+<a name="openfoam-user-guide"></a><!-- old heading name/id -->
 
 The OpenFOAM (Open Field Operation and Manipulation) CFD (Computational Fluid Dynamics) Toolbox is a free, open source CFD software package which has a large user base across most areas of engineering and science, from both commercial and academic organizations. OpenFOAM has an extensive range of features to solve anything from complex fluid flows involving chemical reactions, turbulence and heat transfer, to solid dynamics and electromagnetics. It includes tools for meshing, notably snappyHexMesh, a parallelised mesher for complex CAD geometries, and for pre- and post-processing. Almost everything (including meshing, and pre- and post-processing) runs in parallel as standard, enabling users to take full advantage of high performance computing resources.
 
-More detailed information and OpenFOAM user documentation can be found at the <a href="https://openfoam.org/" target="_blank">OpenFOAM website</a>. 
+More detailed information and OpenFOAM user documentation can be found at the <a href="https://openfoam.org/" target="_blank">OpenFOAM website</a>.
 
 
 ### How to Submit an OpenFOAM Job in the Workspace
@@ -11,11 +12,11 @@ More detailed information and OpenFOAM user documentation can be found at the <a
 
 ![](./imgs/openfoam-1.png)
 
-* Select the version of OpenFOAM you wanted to work with (Designsafe supports version 6 and 7). 
+* Select the version of OpenFOAM you wanted to work with (Designsafe supports version 6 and 7).
 
 ![](./imgs/openfoam-2.png)
 
-* Locate your Case Directory (Folder) with your input files that are in the Data Depot and follow the onscreen directions to enter this directory in the form. The following figure shows the example case in the community data. 
+* Locate your Case Directory (Folder) with your input files that are in the Data Depot and follow the onscreen directions to enter this directory in the form. The following figure shows the example case in the community data.
 
 ![](./imgs/openfoam-3.png)
 
@@ -23,7 +24,7 @@ More detailed information and OpenFOAM user documentation can be found at the <a
 
 ![](./imgs/openfoam-4.png)
 
-* Choose decompostion and mesh generation options from the dropdown menu. 
+* Choose decompostion and mesh generation options from the dropdown menu.
 
 ![](./imgs/openfoam-5.png)
 

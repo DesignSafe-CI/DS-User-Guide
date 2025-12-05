@@ -6,6 +6,7 @@
 /* CORE STYLES */
 /* To customize TACC/Core-Styles CSS */
 /* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.base.css */
+/* https://github.com/TACC/Core-Styles/blob/main/src/lib/_imports/core-styles.docs.css */
 
 @import url('https://cdn.jsdelivr.net/gh/TACC/Core-Styles@epic/v3--gh-345-tokens-from-figma/src/v3/variables/designsafe.light.css') layer(cosmetic);
 
@@ -24,12 +25,25 @@
 /* To also support underlining headings in hovered card for `.h1` et cetera */
 /* https://github.com/DesignSafe-CI/DS-User-Guide/blob/df64c11/user-guide/docs/usecases/overview.md?plain=1#L34-L37 */
 /* https://github.com/TACC/Core-Styles/blob/v2.27.0/src/lib/_imports/components/c-card--docs.css#L23-L29 */
-[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
+a[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-thickness: var(--global-border-width--normal);
     text-underline-offset: .2em;
 }
+
+/* To restore some font weight to the deepest headings */
+/* NOTE: Designer says these are too deep to support,
+         but documentation is deeper than websites */
+/* TODO: Migrate change to Core-Styles */
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h5 { font-weight: var(--extra-bold); letter-spacing: 0.03125em; }
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h6 { font-weight: var(--bold); }
 
 
 
@@ -73,6 +87,35 @@ b {
     font-weight: var(--bold);
 }
 
+/* To extend grid pattern (for pages like usecases/overview) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L521-L527 */
+/* https://github.com/TACC/mkdocs-tacc/blob/v0.6.0/mkdocs_tacc/tacc_readthedocs/css/tacc-theme/core-docs.css#L52-L58 */
+.grid__header,
+.grid > :is(h1, h2, h3, h4, h5, h6) {
+    margin-block: 0;
+    grid-column: span 2;
+}
+/* To remove space from top of header-less intro paragraph in a grid */
+/* https://github.com/TACC/TACC-Docs/blob/f2e80b4/docs/index.md?plain=1#L107-L109 */
+/* https://github.com/DesignSafe-CI/DS-User-Guide/blob/92882f2/user-guide/docs/usecases/overview.md?plain=1#L21-L23 */
+.grid__header > p:first-child {
+    margin-top: 0;
+}
+/* To remove extra space under cards */
+.grid [class*="card"] {
+    margin-bottom: 0;
+}
+
+
+
+/* TACC-DOCS via DS-DOCS */
+/* To add CSS that should be moved to TACC/TACC-Docs */
+
+/* To add space before and after icon from `_text_{ .fa fa.icon-name }` */
+.fa::before {
+    margin-inline: 0.5ch;
+}
+
 
 
 /* DS-DOCS */
@@ -83,28 +126,68 @@ hr.spacer {
     margin-block: 20rem 5rem;
 }
 
-/* To both couple and distinguish short title and long title */
-.rst-content header p:is(#tacc-readthedocs *) {
+/* To make:
+    - short title (heading) less emphasized
+    - long heading (paragraph following heading) a long title that looks like a heading */
+/* (if using TACC theme) */
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h2 + p {
     font-size: var(--global-font-size--xx-large);
     font-weight: var(--bold);
 }
-.rst-content header h2:is(#tacc-readthedocs *) {
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h3 + p {
     font-size: var(--global-font-size--x-large);
-    font-weight: var(--regular);
-
-    /* To remove excess space between titles */
-    margin-bottom: -24px;
+    font-weight: var(--bold);
 }
-.rst-content header p:not(#tacc-readthedocs *) {
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h4 + p {
+    font-size: var(--global-font-size--large);
+    font-weight: var(--bold);
+}
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header :is(h2, h3, h4) {
+    font-weight: var(--regular);
+    margin-bottom: -24px; /* to remove excess space between titles */
+}
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h2 {
+    font-size: var(--global-font-size--x-large);
+}
+.rst-content [itemprop="articleBody"]>[id^="tacc"] header h3 {
+    font-size: var(--global-font-size--large);
+}
+/* (not using TACC theme) */
+/* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header :is(h2, h3, h4) + p {
     font-size: 150%;
     font-weight: 700;
 }
-.rst-content header h2:not(#tacc-readthedocs *) {
-    font-size: 16px;
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header :is(h2, h3, h4) {
     font-weight: unset;
+    margin-bottom: -24px; /* to remove excess space between titles */
+}
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h2 {
+    font-size: 21px;
+}
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h3 {
+    font-size: 18px;
+}
+.rst-content [itemprop="articleBody"]>:not([id^="tacc"]) header h4 {
+    font-size: 16px;
+}
 
-    /* To remove excess space between titles */
-    margin-bottom: 0.5em;
+/* To add subtitle after headings */
+[data-subtitle]::after {
+    content: ' ' attr(data-subtitle);
+}
+[data-subtitle]:not(
+    /* headings only distinguished by weight */
+    h5, h6
+)::after {
+    font-weight: normal;
+}
+[data-subtitle]:is(
+    /* headings that need subtitle below */
+    h1
+)::after {
+    text-transform: none;
+    font-size: var(--global-font-size--xx-large);
 }
 
 /* To hide unused space at bottom of overview pages */
@@ -135,4 +218,47 @@ hr.spacer {
 :where(h1, h2, h3, h4, h5, h6) > u > b {
   color: #cb463f;
   font-weight: var(--black);
+}
+
+/* To hide extra spacing caused by paragraph side-effect of nested <details> */
+details li > p {
+    margin: 0;
+}
+/* To hide extra spacing caused by core-styles space on all <details> */
+li > details {
+    margin: 0;
+}
+
+/* To un-indent details in a list item */
+li:has(> details) {
+    list-style-type: none;
+}
+li > details > summary {
+    translate: calc(-1em);
+}
+
+/* To restore space (removed by TACC) at bottom of idnex page */
+/* (unnecessary after DesignSafe-CI/DS-User-Guide#155) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L510-L512 */
+[data-page-name="index.md"] footer {
+    display: revert;
+}
+
+/* To style definition lists */
+/* https://python-markdown.github.io/extensions/definition_lists/ */
+/* TODO: Move to Core-Styles, Demo in Mkdocs-TACC */
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
+}
+
+/* To distinguish active item from heading */
+/* To highlight active item with more than just bold */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L75-L104 */
+/* FAQ: Overrides TACC (which overrides ReadTheDocs) */
+/* NOTE: Remove after repo uses mkdocs-tacc, cuz it has this style */
+.wy-menu-vertical li.current > a:not(:has(+ ul li.current)) {
+    background: #e3e3e3; /* copied from TACC's .wy-menu-vertical a:hover */
 }

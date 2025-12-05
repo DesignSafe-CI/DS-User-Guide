@@ -1,6 +1,4 @@
-## Jupyter Notebook for DEDM-HR
-
-**Jupyter Notebook for Database-Enabled Design Module for High-Rise Buildings**
+## Jupyter Notebook for <abbr title="Database-Enabled Design Module for High-Rise Buildings">DEDM-HR</abbr>
 
 **Dae Kun Kwon - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/) & [Center for Research Computing (CRC)](https://crc.nd.edu/), University of Notre Dame**  
 **Ahsan Kareem - [NatHaz Modeling Laboratory](https://nathaz.nd.edu/), University of Notre Dame**
