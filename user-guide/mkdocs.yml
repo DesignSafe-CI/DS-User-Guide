@@ -120,19 +120,10 @@ nav:
 #        - 4. Jupyter & HPC: tools/simulation/opensees/openseesRunJupyterHPC.md
 #        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
 
-  # - Use Cases Flat:
-  #   - Overview: usecases/overview.md
-  #   - Data Analytics: usecases/dataanalyticsusecases.md
-  #   - GeoHazard: usecases/geohazardusecases.md
-  #   - Seismic: usecases/seismicusecases.md
-  #   - Wind and Storm Surge: usecases/windstormsurgeusecases.md
 
   - Use Cases:
     - Overview: usecases/overview.md
     - Data Analytics:
-# the following have been moved to the user guide. we need to remove these files from the directory in use cases, but doing so would break `{% include-markdown '../usecases/haan/usecase` in `user-guide/docs/tools/visualization.md`
-#      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
-#      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
