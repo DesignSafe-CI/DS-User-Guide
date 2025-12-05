@@ -1,4 +1,4 @@
-## Ansys User Guide
+## Ansys
 
 Ansys suite of computational simulation products are available to DesignSafe users, including the structural analysis and computational fluid dynamics modules. Most simulations are performed using the Ansys Workbench system.
 

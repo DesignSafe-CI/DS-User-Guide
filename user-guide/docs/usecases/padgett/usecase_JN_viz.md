@@ -18,7 +18,7 @@ The following Jupyter notebook is the basis for the use case described in this s
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| visualization of <br> spatially-distributed Data | visualization_risk_resilience.ipynb <br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)|
+| visualization of <br> spatially-distributed Data | visualization_risk_resilience.ipynb <br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)|
 
 
 
@@ -52,7 +52,7 @@ This use case adopts a representative hazard and distributed infrastructure syst
 
 To start working with this use case, open the Jupyter Notebook on the published project using the button below (*same notebook as above*).
 
-[![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)
+[![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3939v3/visualization_risk_resilience.ipynb)
 
 It may be necessary to click on "Run">"Run All Cells" to allow the visualization of some of the interactive figures. Note: Some cells are used to save figures, which will present an error because the published notebook is in a "Read Only" folder. To run these specific cells or save customized figures, copy the notebook and the input files to your "My Data" folder, as explained below.
 

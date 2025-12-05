@@ -15,7 +15,7 @@ The example makes use of the following DesignSafe resources:
 
 | Scope | Notebook | Link | 
 | :-------: | :---------:  | :---------:  |
-| Basic example | SQLiteExample.ipynb | [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/SQLite/SQLiteExample.ipynb) |
+| Basic example | SQLiteExample.ipynb | [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/SQLite/SQLiteExample.ipynb) |
 
 ### Background
 #### Citations and Licensing
@@ -395,4 +395,4 @@ This notebook contains practical examples of SQLite database operations for NHER
 5. Import/export workflows for sharing research data
 6. Quality control and validation procedures
 
-Try the SQLite example on Jupyter: [![DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/SQLite/SQLiteExample.ipynb)
+Try the SQLite example on Jupyter: [![DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/Use%20Case%20Products/SQLite/SQLiteExample.ipynb)

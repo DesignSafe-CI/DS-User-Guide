@@ -1,6 +1,6 @@
 /// html | header
 
-## Taggit User Guide: Grouping and Tagging Image Files
+## Taggit: Grouping and Tagging Image Files
 
 Using Taggit to categorize image files with groups and tags
 ///

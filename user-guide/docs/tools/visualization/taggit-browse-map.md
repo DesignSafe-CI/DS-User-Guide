@@ -1,6 +1,6 @@
 /// html | header
 
-## Taggit User Guide: Basic Image Browsing and Mapping
+## Taggit: Basic Image Browsing and Mapping
 
 Using HazMapper and Taggit to browse thumbnails of large numbers of images and map their locations
 

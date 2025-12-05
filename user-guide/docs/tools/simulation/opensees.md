@@ -1,4 +1,4 @@
-## OpenSees User Guide
+## OpenSees
 
 The Open System for Earthquake Engineering Simulation ([OpenSees](http://opensees.berkeley.edu/){target="_blank"}) is a software framework for simulating the static and seismic response of structural and geotechnical systems. It has advanced capabilities for modeling and analyzing the nonlinear response of systems using a wide range of material models, elements, and solution algorithms.
 

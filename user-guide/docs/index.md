@@ -13,12 +13,13 @@ Any natural hazards researcher or practitioner that wants an environment to stor
 
 1. [**Request a user account.**](https://accounts.tacc.utexas.edu/register/)
 2. You will be redirected to the TACC account registration page.
-3. On the account registration form **we highly recommend** you use the email address provided by your Institution or Company.
-4. Set up [multi-factor authentication](https://docs.tacc.utexas.edu/basics/mfa/) for your account.
-5. Check for an email containing a confirmation and activation link. Once you confirm your email, your account status will update to either "Pending" or "Active".
+3. On the account registration form **it is now required that you use the email address provided by your Institution or Company or Organization**. Commercial providers such as Gmail, Yahoo Mail, etc are no longer allowed.
+4. For the Institution field, if your Institution/Company/Organization is not coming up as an option for you to select, then you will be guided to a process to request that it be added to TACC's database. 
+5. Set up [multi-factor authentication](https://docs.tacc.utexas.edu/basics/mfa/) for your account.
+6. Check for an email containing a confirmation and activation link. Once you confirm your email, your account status will update to either "Pending" or "Active".
     1. It's possible that your email provider will either block or mark as spam/junk an email TACC sends with a link to confirm your email address after you submit the registration form. If so, send email to helpATdesignsafe-ci.org letting us know you did not receive the email.
-6.  If your account status is "Pending" then your account request will need further review by our User Services team. No action is required and a team member will reach out to you.
-7. Once your account status is "Active", you will then be able to [**log in to DesignSafe**](https://www.designsafe-ci.org/login/).
+7.  If your account status is "Pending" then your account request will need further review by our User Services team. No action is required and a team member will reach out to you.
+8. Once your account status is "Active", you will then be able to [**log in to DesignSafe**](https://www.designsafe-ci.org/login/).
 
 <!-- TODO: Use this when message box is smaller -->
 <!-- https://github.com/TACC/TACC-Docs/issues/54 >
@@ -40,14 +41,18 @@ When you are ready to begin uploading your own data to the Data Depot or want to
 
 There are 2 ways to invoke the onboarding:
 
-1. Navigate to the Data Depot.
-2. Navigate to Tools & Apps, then into any of the apps and find one that uses HPC (such as OpenSeesMP) and click Get Started.
+1. Navigate to the [Data Depot](https://www.designsafe-ci.org/data/browser/).
+2. Navigate to [Tools & Apps](https://www.designsafe-ci.org/use-designsafe/tools-applications/), then into any of the apps and find one that uses HPC (such as OpenSeesMP) and click Get Started.
 
-You will be redirected to the Onboarding Setup page, and you will then want to click Request Access. While rare, we occasionally will reach out to you requesting additional information prior to approving onboarding. Approvals typically are processed within 1 business day.
+You will be redirected to the Onboarding Setup page, and you will then want to click **Request Access**. While rare, we occasionally will reach out to you requesting additional information prior to approving onboarding. Approvals typically are processed within 1 business day.
+
+## Slack & Email Communications
+
+Upon completion of Initial Onboarding you will be invited to join our [Slack team](https://designsafe-ci.slack.com/) and you will be added to our mail list to receive email announcements. To prevent NHERI email announcements from being filtered as Junk or Spam, please add the following email addresses to your contacts: [nheri-nco@nheri-network.org](mailto:nheri-nco@nheri-network.org), [announcements@nheri-network.org](mailto:announcements@nheri-network.org).
 
 ## Request Allocations { #requestallocations }
 
-DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these (such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)) and clicking on "Get Started", you will see a banner informing you to submit a ticket requesting an allocation if you don't already have one. Please provide the following information in your allocation request:
+DesignSafe provides many HPC-enabled Tools & Apps that require an allocation of computing time. Upon navigating to one of these (such as [OpenSeesMP](https://www.designsafe-ci.org/use-designsafe/tools-applications/simulation/opensees/)) and clicking on "Get Started", you will see a banner informing you to [submit a ticket](https://designsafe-ci.org/help/new-ticket/) requesting an allocation if you don't already have one. Please provide the following information in your allocation request:
 
 1. Provide a paragraph describing your research topic, including which of the DesignSafe Tools & Apps you anticipate using.
 2. If you are faculty, please provide a link to your web page.

@@ -1,4 +1,5 @@
-## ClawPack User Guide
+## ClawPack
+<a name="clawpack-user-guide"></a><!-- old heading name/id -->
 
 <a href="http://www.clawpack.org/" target="_blank">Clawpack</a> (“Conservation Laws Package”) is a collection of finite volume methods for linear and nonlinear hyperbolic systems of conservation laws. Clawpack employs high-resolution Godunov-type methods with limiters in a general framework applicable to many kinds of waves.
 

@@ -7,6 +7,7 @@ Here are some important resources:
 * [Known Issues](https://github.com/TACC/TACC-Docs/issues)
 * [Active Proposals](https://github.com/TACC/TACC-Docs/pulls)
 * [How to Test](./TESTING.md)
+* [How to Organize](./ORGANIZING.md)
 
 ## Step by Step
 

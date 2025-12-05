@@ -1,40 +1,100 @@
-## Kalpana User Guide
+## Kalpana
+<a name="kaplana-user-guide"></a><!-- old heading name/id -->
 
-!!! note
-	Kalpana is **temporarily unavailable**. It is being updated.
+Kalpana is a Python library which primarily converts ADCIRC NetCDF output files to GIS-compatible shapefiles. Secondary functions are not available in the DesignSafe application. It was developed by the Coastal and Computational Hydraulics Team at North Carolina State University. More information regarding Kalpana can be found at:
 
-Kalpana is a python script that converts ADCIRC output files to GIS compatible shapefiles. The code accepts NetCDF formatted ADCIRC outputs for maximum water levels and wind speeds (maxele.63.nc and maxwvel.63.nc) and converts these to polyline/polygon shapefiles.
+- [Kaplana page on CCH website](https://ccht.ccee.ncsu.edu/kalpana/)
+- [official GitHub repository](https://github.com/ccht-ncsu/Kalpana), which contains the latest release and examples
 
-More information regarding Kalpana can be found at: <a href="https://ccht.ccee.ncsu.edu/how-to-run-kalpana/" target="_blank">https://ccht.ccee.ncsu.edu/how-to-run-kalpana/</a>.
+### Submitting a Job
 
-### How to Submit a Kalpana Job in the Workspace
+#### On the Web Portal
 
-You will have to fill out a form to submit your job that asks multiple information as follows:
-
-<ol>
-<li><b>Working Directory:</b><br>
-	This is the directory that contains the ADCIRC simulation NetCDF file to be converted. You can either drag and drop the directory from Data depot browser on the left or use select button.<br>
-	 </li>
-<li><b>File type:</b><br>
-	The Kalpana software on DesignSafe is capable to convert two NetCDF file types.<br>
-	(a) maxele.63.nc for maximum water levels,<br>
-	(b) maxwvel.63.nc for maximum wind speeds.<br>
-	 </li>
-<li><b>Vector shape:</b><br>
-	Vector shape can be selected from a dropdown menu to be (a) polyline or (b) polygon.<br>
-	 </li>
-<li><b>Contour type and Contour information:</b><br>
-	If you select contourrange for contour type, the contour information should be provided in this format 'min max interval' (e.g. '0 5 0.5').<br>
-	 <br>
-	If you select contourlevel for contour type, the contour information should be provided as a custom set of contour levels (e.g. '0 1 2 3 4 5 6 7 8 9 10 11 12'). Please note that the selection of contour values depends on the range of your simulation output.</li>
-</ol>
-
-Next enter a job name and an output archive location or use the default provided. Now, click Run to submit your job.
-
-![](./imgs/kalpana-1.png){: class="align-center" }
-
-You can track the status of your job to the right side of the same page. The status will change from “Pending” to “Staged”, “Submitting” and “Running”. These processes usually take about 1 to 2 minutes.
-
-Once the status changed to “FINISHED”, you can find the outputs in data depot by navigating to the archived location. If not specified by the user, the job output including the converted shapefile can be found at: My Data / archive / jobs / ${YYYY-MM-DD} / ${JOB_NAME}-${JOB_ID}
+Generating contours for a single case is simple through the web interface. The following information is required:
 
 
+- **ADCIRC File.** See the reference table below. Generic NetCDF files may also be accepted, if formatted appropriately.
+- **Variable.** Preceded by flag `--var`. The variable of interest from the NetCDF file. See the reference table below.
+- **Contour levels.** Preceded by flag `--levels`. Separated by spaces, the minimum contour, maximum contour, and step size.
+- **Vertical units out.** m or ft
+- **Vertical units in.** m or ft
+- **Time Steps.** Preceded by flag `--timesteps`. For time-varying files, specific time steps to extract are provided, separated by spaces. Otherwise, all are exported.
+
+After this, generic allocation and archiving preferences are available. Since Kalpana is a serial program, it does not make sense to run on multiple nodes. However, additional cores may provide additional memory to process very large files.
+
+<table>
+	<caption>Reference Table for Common ADCIRC Files</caption>
+	<thead>
+		<tr>
+			<th>File</th>
+			<th>Description</th>
+			<th>Variables of Interest</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>fort.63.nc</td>
+			<td>Time-dependent water elevation</td>
+			<td>depth, zeta</td>
+		</tr>
+		<tr>
+			<td>fort.64.nc</td>
+			<td>Time-dependent water velocity</td>
+			<td>depth, u-vel, v-vel</td>
+		</tr>
+		<tr>
+			<td>fort.73.nc</td>
+			<td>Time-dependent air pressure</td>
+			<td>depth, pressure</td>
+		</tr>
+		<tr>
+			<td>fort.74.nc</td>
+			<td>Time-dependent wind velocity</td>
+			<td>depth, windx, windy</td>
+		</tr>
+		<tr>
+			<td>maxele.63.nc</td>
+			<td>Maximum water elevation</td>
+			<td>depth, time_of_zeta_max, zeta_max</td>
+		</tr>
+		<tr>
+			<td>maxvel.63.nc</td>
+			<td>Maximum water velocity</td>
+			<td>depth, time_of_vel_max, vel_max</td>
+		</tr>
+		<tr>
+			<td>maxwvel.63.nc</td>
+			<td>Maximum wind velocity</td>
+			<td>depth, time_of_wind_max, wind_max</td>
+		</tr>
+		<tr>
+			<td>swan_HS.63.nc</td>
+			<td>Significant wave height</td>
+			<td>swan_HS</td>
+		</tr>
+		<tr>
+			<td>swan_HS_max.63.nc</td>
+			<td>Maximum significant wave height</td>
+			<td>swan_HS_max</td>
+		</tr>
+		<tr>
+			<td>swan_TPS.63.nc</td>
+			<td>Peak wave period</td>
+			<td>swan_TPS</td>
+		</tr>
+		<tr>
+			<td>swan_TPS_max.63.nc</td>
+			<td>Maximum peak wave period</td>
+			<td>swan_TPS_max</td>
+		</tr>
+		<tr>
+			<td>swan_TMM10.63.nc</td>
+			<td>Mean wave period</td>
+			<td>swan_TMM10</td>
+		</tr>
+	</tbody>
+</table>
+
+#### Advanced Functionality with Tapis
+
+To generate shapefiles for an ensemble, or to modify advanced Kalpana settings, submit JSON job requests using [TapiPy](https://github.com/tapis-project/tapipy){ target="_blank" }. Descriptions for each flag are available in the Tapis app specification or the source file on GitHub, see [function `nc2shp`](https://github.com/ccht-ncsu/Kalpana/blob/v0.0.25/kalpana/export.py#L764){ target="_blank" }).

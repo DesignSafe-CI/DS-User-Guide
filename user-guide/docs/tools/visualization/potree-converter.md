@@ -1,4 +1,5 @@
-## Potree Converter User Guide
+## Potree Converter
+<a name="potree-converter-user-guide"></a><!-- old heading name/id -->
 
 The Potree Converter converts point clouds to a format compatible with the Potree Viewer. Several options are available for you to customize your conversion, and can be found on the Potree Converter Github site.
 
@@ -25,7 +26,7 @@ The job log files will be stored at archive folder in “Mydata”: {username}/a
 
 When the form is completed, you can click “Launch” to submit your job. The job status can be monitored to the right of this form. It will change from “Pending” to “Staged”, “Submitted” and “Running” before it is successfully “Finished.”
 
-### FAQ { #faq }
+### Potree Converter FAQ { #faq }
 
 <ol>
 <li>My job’s status will change swiftly from Running to Finished with no converted output directory?<br>

@@ -1,4 +1,5 @@
-## STKO User Guide
+## STKO
+<a name="stko-user-guide"></a><!-- old heading name/id -->
 
 {% include-markdown '../../deleted.md' %}
 

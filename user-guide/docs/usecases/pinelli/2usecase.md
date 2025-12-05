@@ -19,7 +19,7 @@ The following Jupyter notebooks are available to facilitate the analysis of each
 
 | Scope | Notebook |
 | :-------: | :---------:  |
-| Visualizing geospatial hurricane impact data |  FirstMap.ipynb<br> [![Open In DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/FirstMap.ipynb) |
+| Visualizing geospatial hurricane impact data |  FirstMap.ipynb<br> [![Open In DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/MyData/PRJ-3903/PRJ-3903vmyself/FirstMap.ipynb) |
 
 #### DesignSafe Resources
 * <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/Hazard-Exposure-Reconnaissance%20Integration%20and%20Visualization/FirstMap.ipynb">Jupyter notebook on DesignSafe Jupyterhub</a>
