@@ -116,6 +116,24 @@ b {
     margin-inline: 0.5ch;
 }
 
+/* To distinguish deeper nav from shallower nav */
+:is(
+    .wy-menu-vertical li.toctree-l5,
+    .wy-menu-vertical li.toctree-l6,
+    .wy-menu-vertical li.toctree-l7,
+    .wy-menu-vertical li.toctree-l8,
+    .wy-menu-vertical li.toctree-l9,
+    .wy-menu-vertical li[class*="toctree-l1"]:not(.toctree-l1)
+) {
+    & a.current {
+        font-weight: var(--medium);
+    }
+    & a:not(.current) {
+        font-weight: var(--regular);
+    }
+}
+
+
 
 
 /* DS-DOCS */
