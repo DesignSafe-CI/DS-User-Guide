@@ -2,7 +2,10 @@ name: DS User Guide PPRD Builds
 
 on:
   push:
-    branches: [pprd, any/branch-you-want, research-software-guide]
+    branches:
+      - pprd
+      - any/branch-you-want
+      - test/deeper-navigation
 
 jobs:
   docker:
