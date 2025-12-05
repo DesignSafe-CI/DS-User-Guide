@@ -46,6 +46,7 @@ nav:
 
   - DesignSafe Data Depot:
     - Overview: datadepot.md
+    - Virtual Office Hours: https://designsafe-ci.org/facilities/virtual-office-hours/
     - Transferring Your Data: managingdata/datatransfer.md
     # WARNING: From here down, preserve URLs
     #          If URLs must change, add/use redirect plugin
@@ -119,19 +120,10 @@ nav:
 #        - 4. Jupyter & HPC: tools/simulation/opensees/openseesRunJupyterHPC.md
 #        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
 
-  # - Use Cases Flat:
-  #   - Overview: usecases/overview.md
-  #   - Data Analytics: usecases/dataanalyticsusecases.md
-  #   - GeoHazard: usecases/geohazardusecases.md
-  #   - Seismic: usecases/seismicusecases.md
-  #   - Wind and Storm Surge: usecases/windstormsurgeusecases.md
 
   - Use Cases:
     - Overview: usecases/overview.md
     - Data Analytics:
-# the following have been moved to the user guide. we need to remove these files from the directory in use cases, but doing so would break `{% include-markdown '../usecases/haan/usecase` in `user-guide/docs/tools/visualization.md`
-#      - Basic Image Browsing and Mapping: usecases/haan/usecase.md
-#      - Grouping and Tagging Image Files: usecases/haan/usecase-2.md
       - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
@@ -149,6 +141,7 @@ nav:
     - Wind and Storm Surge:
       - Field Sensing Wind Events: usecases/pinelli/usecase.md
       - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
+      - Wind Speed Estimation and Conversion: usecases/pinelli/3usecase.md
       - ADCIRC Datasets: usecases/dawson/usecase2.md
       - Large-Scale Storm Surge: usecases/dawson/usecase.md
       - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md

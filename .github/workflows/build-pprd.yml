@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - pprd
+      - any/branch-you-want
       - test/deeper-navigation
 
 jobs:

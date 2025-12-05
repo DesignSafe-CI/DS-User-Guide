@@ -26,6 +26,7 @@ An Expanding Collection of the Most Frequently Asked Questions
 - [OpenFOAM](#faq-openfoam)
 - [ParaView](#faq-paraview)
 - [Experimental Facilities](#faq-ef)
+- [Programmatic Access](#faq-api)
 - [Data Curation &amp; Publication](/user-guide/curating/faq/)
 
 ---
@@ -248,6 +249,16 @@ A more detailed description can be found on the [ParaView website](http://www.pa
 /// details | Where did my ParaView job output go?
 
 If you do not specify a location, the default output is shown in the grayed-out text in the Job Output Archive Location field in the job submission form, which is your My Data/Archive/Jobs/YYYY-MO-DD/JobName folder.
+
+///
+
+---
+
+## Programmatic Access { #faq-api }
+
+/// details | How can I learn to use TAPIS?
+
+{% include-markdown '../../include/api-note.md' %}
 
 ///
 

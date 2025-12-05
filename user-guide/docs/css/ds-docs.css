@@ -25,7 +25,7 @@
 /* To also support underlining headings in hovered card for `.h1` et cetera */
 /* https://github.com/DesignSafe-CI/DS-User-Guide/blob/df64c11/user-guide/docs/usecases/overview.md?plain=1#L34-L37 */
 /* https://github.com/TACC/Core-Styles/blob/v2.27.0/src/lib/_imports/components/c-card--docs.css#L23-L29 */
-[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
+a[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-thickness: var(--global-border-width--normal);
@@ -104,6 +104,16 @@ b {
 /* To remove extra space under cards */
 .grid [class*="card"] {
     margin-bottom: 0;
+}
+
+
+
+/* TACC-DOCS via DS-DOCS */
+/* To add CSS that should be moved to TACC/TACC-Docs */
+
+/* To add space before and after icon from `_text_{ .fa fa.icon-name }` */
+.fa::before {
+    margin-inline: 0.5ch;
 }
 
 
