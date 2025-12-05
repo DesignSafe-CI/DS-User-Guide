@@ -2,7 +2,7 @@
 
 On DesignSafe web portal, three versions of Jupyter have been created, including **JupyterHub**, **Jupyter HPC Native (Vista)** and **Jupyter HPC Native (Stampede3)**. **JupyterHub** is run on a virtual machine, while **Jupyter HPC Native (Vista)** and **Jupyter HPC Native (Stampede3)** will be run on the TACC HPC systems Vista and Stampede3. Both Vista and Stampede3 provide access to either CPU or GPU nodes depending on which queue you select when starting your Jupyter session. The [Vista](https://docs.tacc.utexas.edu/hpc/vista/) and [Stampede3](https://docs.tacc.utexas.edu/hpc/stampede3/) user guides provide detailed information on their respective system architectures and queues. For either HPC system any commonly used Python packages for AI/ML applications have been pre-installed, including PyTorch. Vista's NVIDIA H200 GPU nodes have the best GPU performance while Stampede3's NVIDIA H100 GPU nodes are still very performant being only one generation removed from the H200.
 
-![DS Jupyter](imgs/DSJupyter_3Dec2025.png)
+![DS Jupyter](imgs/DSJupyter_overview.png)
 
 | Application | Pro | Con |
 | --- | - | - |
