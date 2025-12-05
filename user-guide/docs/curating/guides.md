@@ -1,6 +1,6 @@
 # Steps to Curate and Publish Your Datasets
 
-We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
+We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Research Software**](#research-software), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
 ## Experimental
 
@@ -428,6 +428,91 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 ---
 
+## Research Software
+
+### 1. Add a Project
+
+To add a new project, click **+ Add**, then select **New Project**.
+
+![](./imgs/guide-researchsoftware-1a.png)
+
+In the pop-up, enter a project title, description, and list the principal investigator (PI) and project members.
+
+![](./imgs/guide-researchsoftware-1b.png)
+
+PIs and project members have the same level of access to the project, but the PI will be listed separately in the metadata. Additional PIs will be listed as Co-PIs. You can edit all these fields later if you make any mistakes.
+
+Once finished, click **Submit** and your new project will be created.
+
+Upon entering your new project, you will be prompted to select a project type.
+
+![](./imgs/guide-researchsoftware-1c.png)
+
+Select **Research Software** and continue.
+
+The research software option only publishes GitHub releases. If you don't use GitHub, select project type **Other** and make sure to select **Research Software** as the data type in the project metadata.
+
+![](./imgs/guide-researchsoftware-1d.png)
+
+You will be prompted to fill out additional metadata. Once all required fields are filled, select **Update Project** and you will be brought to the curation directory.
+
+### 2. Add Metadata Files to GitHub
+
+Your GitHub release must include a CodeMeta file with additional software-specific metadata.
+
+To generate a CodeMeta file, go to:
+[https://codemeta.github.io/codemeta-generator/](https://codemeta.github.io/codemeta-generator/)
+
+Make sure to select the software license that DesignSafe issues,  
+**3-Clause BSD License**, in both the CodeMeta file and the GitHub release.
+
+In addition, the release must include a README file with detailed instructions on how to install and use the software.
+
+Failure to adequately describe your software with these files may result in removal of your publication.
+
+[Read about best practices for creating CodeMeta and README files.](https://www.designsafe-ci.org/user-guide/curating/bestpractices/#research-software)
+
+After adding these files, create a new release.
+
+### 3. Transfer Repository
+
+Navigate to the Curation Directory and enter the GitHub release URL.
+
+How to find the release URL: 
+[https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases)
+
+Select **Transfer** and the release will be transfered to DesignSafe.
+
+![](./imgs/guide-researchsoftware-3.png)
+
+Only files transfered from GitHub can be published in a research software publication. Any files uploaded to the working directory before selecting research software project type cannot be published alongside the GitHub release.
+
+### 4. Preview Publication
+Navigate to the **Publication Preview** to see the transfered GitHub files and preview how your final publication will appear.
+
+When you have proofread your metadata and verified that the correct files have been transfered, select **Prepare to Publish/Version/Amend** to continue.
+
+![](./imgs/guide-researchsoftware-4.png)
+
+### 5. Prepare to Publish
+If publishing from this project for the first time, select **Publish**.
+
+After publishing for the first time, you can return to this page to amend certain metadata or publish a new version. 
+
+If you publish a new version on GitHub, you must manually transfer and publish the new version on DesignSafe as well.
+
+![](./imgs/guide-researchsoftware-5a.png)
+
+Order the authors of the software and preview how your citation will appear.
+
+![](./imgs/guide-researchsoftware-5b.png)
+
+Lastly, you will confirm the software license to be used. The only license DesignSafe provides for research software is the
+3-Clause BSD License.
+
+When you have thorougly proofread and are ready to publish, select **Request DOI & Publish** and your software publication will eventually appear in the **Published** section of the Data Depot. The time for it to appear may vary, be patient.
+
+---
 ## Other
 
 ### 1. Add a Project { #other-step1 }

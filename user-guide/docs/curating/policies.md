@@ -550,7 +550,7 @@ For an example of restricted access and conditions see the following dataset: 
 
 Errett, N., C. Hartwell, J. Randazza, G. Bratman, D. Eisenman, B. Ellis, E. Goodsell, C. Levy (2023). "An Exploratory Study of Perspectives from Forest Therapy Guides in a Wildfire Affected Community.", in Forest therapy as a trauma-informed approach to disaster recovery \[Version 2\]. DesignSafe-CI. [https://doi.org/10.17603/ds2-sffr-0489](https://doi.org/10.17603/ds2-sffr-0489)
 
-In DDR, data with granular geographical locations including images that capture humans that are not the focus of the research and would not fall under the purview of an IRB (e.g. StretView, Geolocated imagery) are  considered sensitive and its publication needs to be discussed with the data curator. For example, researchers conducting field observations may capture human subjects in their documentation including work crews, passersby, or people affected by the disaster. If camera instruments capture people that are in the observed areas incidentally, we recommend that their faces and any [PII](https://www.technology.pitt.edu/help-desk/how-to-documents/guide-identifying-personally-identifiable-information-pii) is anonymized/blurred before publishing. In the case of images of team members, make sure they are comfortable with making their images public. Do not include roofing/remodeling records containing any form of PII. When those are public records, researchers should point to the site from which they are obtained using the Referenced Data and Software field. 
+In DDR, data with granular geographical locations including images that capture humans that are not the focus of the research and would not fall under the purview of an IRB (e.g. StreetView, Geolocated imagery) are  considered sensitive and its publication needs to be discussed with the data curator. For example, researchers conducting field observations may capture human subjects in their documentation including work crews, passersby, or people affected by the disaster. If camera instruments capture people that are in the observed areas incidentally, we recommend that their faces and any [PII](https://www.technology.pitt.edu/help-desk/how-to-documents/guide-identifying-personally-identifiable-information-pii) is anonymized/blurred before publishing. In the case of images of team members, make sure they are comfortable with making their images public. Do not include roofing/remodeling records containing any form of PII. When those are public records, researchers should point to the site from which they are obtained using the Referenced Data and Software field. 
 
 It is the user’s responsibility to adhere to these policies and the standards and resolution of their IRB. DesignSafe will not be held liable for any violation regarding improper publication of protected data. User uploads that we are notified of that violate this policy may be removed from the DDR with or without notice, and the user may be asked to suspend their use of the DDR and other DesignSafe resources. We may also contact the user’s IRB and/or other respective institution with any cases of violation, which could incur in an active audit of the research project, so users should review their institution’s policies regarding publishing with protected data before using DesignSafe and DDR. For clarification purposes researchers should contact DDR through a [help ticket](http://www.designsafe-ci.org/help/new-ticket) or join [curation office hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) any time across the curation of this type of data .
 
@@ -562,30 +562,39 @@ To enhance contextual information by pointing to the relations of the published 
 
 ## Publishing Research Software
 
-The definition from the Journal of Open Source Software (JOSS) applies to the Research Software that can be published in the DDR.
+The following definition from the Journal of Open Source Software (JOSS) applies to the Research Software that can be published in the DDR.
 
 > ...software that: solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar.
 
-Below are requirements for publishing research software in the DDR:
+Research software in DDR can be published within the:
 
-* To be published using the Research Software Project Type, the software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR. 
-* Research software that is not maintained in a GitHub repository can be published using Project Type Other and involving the same requirements.
-* Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License. 
+* Project type Research Software when it is maintained in Github.
+    * The software should be maintained and available as the latest release in a GitHub repository from where it is pulled for publication in the DDR.
+* Project type Other, if it is not maintained in Github.
+
+Below are the requirements for publishing research software in the DDR:
+
+* Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License.
 * If the research software uses libraries/dependencies, their respective licenses should allow reuse without restrictions.
-* Include a CodeMeta file with information that allows for attribution, dissemination, reuse, and interoperability of the research software. 
-* Include a readme file that explains how to install and use the software.
-* Prior to publishing using the Research Software Project Type, users agree that the software is functional and works according to the instructions provided in the readme file.
-* For guidance on publishing good quality research software, see [our Best Practices](/user-guide/curating/bestpractices/#research-software).
+* Within the publication package a CodeMeta file (in `json` format) with information that allows for attribution, dissemination, reuse, and interoperability of the research software should be included.
+* Also include a `Readme` file that explains how to install and use the software.
+* Prior to publishing, users agree that the software is functional and works according to the instructions provided in the readme file.
+* Research software should be self contained. While it should be possible to use the software with published data in DesignSafe or within DesignSafe Tools and Applications, it should not be written such that it is dependent on absolute file paths in DesignSafe data publications or on external file systems.
+* Research software publications should not include datasets. Instead datasets that are used by the research software for training, testing, validation, etc. should be published as a stand-alone datasets and linked to the research software publication via the Related Work/linked entry available in the curation form. In turn, a dataset can be related to the research software publication via the Referenced Data and Software/cites entry available in the curation form.
+* For guidance on publishing good quality research software, see Research Software Best Practices.
 
 What does not qualify as research software:
 
 * Minor 'utility' packages, including 'thin' API clients, and single-function packages are not research software.
-* Exploratory visualizations, or basic scripting tools to analyze data are not considered research software. These can be published along with their respective datasets.
-* Data related to the published research software (training, testing, validation, etc.) should be published as a stand-alone dataset and linked to the research software publication via the Related Work/is  linked entry in the curation form. From the research software publication, data can be related via the Referenced Data and Software/cites entry available in the curation form. 
+* Exploratory visualizations or basic scripting tools to analyze data are not considered research software. These can be published along with their respective datasets.
 
 ## Subsequent Publishing
 
-DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique DOI. This arises from the longitudinal and tiered structure of some research projects such as experiments and field research missions which may happen over time, may involve different teams, and may require the publication of different types of resources (software, documentation, or subsequent datasets). While users may publish more than one dataset at the same time, subsequent publications are enabled in My Project where users can create new experiments, simulations, missions, document collections, or hybrid simulations and publish them over time. Project type Other does not allow subsequent publishing. 
+DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique citation and DOI. This feature is necessary due to the timing of research projects involving multiple experiments,  simulations, and field research missions which happen over time. These datasets may involve different teams, and require the publication of different documents or datasets at different time intervals.
+
+While users may publish more than one dataset in a project at one time, subsequent publications are  enabled for Experimental, Simulation, Hybrid Simulation, and Field research projects. Project types Other and Research Software do not allow subsequent publications.
+
+Within My Project, users can upload new data, and add a new simulation, hybrid simulation, mission, document collection, or experiment to their published project. Curating and publishing the new dataset follows the same pipeline as publishing the previous dataset/s. Once the new dataset is curated, users should go to Publication Preview and follow the green button  "publish additional datasets". All project's datasets can be amended and versioned individually.
 
 ## Timely Data Publication
 
