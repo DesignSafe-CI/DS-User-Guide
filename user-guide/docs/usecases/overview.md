@@ -11,7 +11,7 @@ To help users fully embrace DesignSafe functionalities, we have developed a suit
 Make sure you are logged into DesignSafe so that you can access the Use-Case products.
 
 /////
-///// html | article.card--plain.card--image-top
+///// html | a.card--plain.card--image-top[href="../dataanalyticsusecases/"]
      markdown: block
 
 ////// html | img[alt="a data-driven map in a software interface"][src="./img/data.png"]
@@ -22,7 +22,7 @@ Make sure you are logged into DesignSafe so that you can access the Use-Case pro
 Analyze data from multiple datasets, with A.I. and Machine Learning, or via APIs or visualization.
 
 /////
-///// html | article.card--plain.card--image-top
+///// html | a.card--plain.card--image-top[href="../geohazardusecases/"]
      markdown: block
 
 ////// html | img[alt="a color-coded landslide"][src="./img/geo.png"]
@@ -33,7 +33,7 @@ Analyze data from multiple datasets, with A.I. and Machine Learning, or via APIs
 Geological hazard use cases like liquefaction and landslide modeling.
 
 /////
-///// html | article.card--plain.card--image-top
+///// html | a.card--plain.card--image-top[href="../seismicusecases/"]
      markdown: block
 
 ////// html | img[alt="a grid of two kinds of diagonal marks over 4 columns"][src="./img/seismic.jpg"]
@@ -44,7 +44,7 @@ Geological hazard use cases like liquefaction and landslide modeling.
 Analyze seismic responses, soil structure interaction, and shake tables. Integrate with OpenSees.
 
 /////
-///// html | article.card--plain.card--image-top
+///// html | a.card--plain.card--image-top[href="../windstormsurgeusecases/"]
      markdown: block
 
 ////// html | img[alt="a triangular mesh over shallow water area of a coastal map"][src="./img/wind.png"]
