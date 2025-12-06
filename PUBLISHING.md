@@ -17,6 +17,3 @@ A Watchtower service will monitor new pushes to this dockerhub repo and pull dow
 ## Releases
 
 [Releases](https://github.com/DesignSafe-CI/DS-User-Guide/releases) are made when a significant set of **functional** Pull Requests have been merged.
-
-> [!NOTE]
-> Releases are only used by clients of the TACC MkDocs [configuration](https://github.com/DesignSafe-CI/DS-User-Guide/blob/v0.14.0/mkdocs.base.yml) and [theme](https://github.com/DesignSafe-CI/DS-User-Guide/tree/v0.14.0/themes/tacc-readthedocs), so changes to the content of documents do **not** merit a release.

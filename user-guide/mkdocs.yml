@@ -15,8 +15,6 @@ theme:
     cms_name: designsafe-ci.org # TACC Feature
     nav_name: User Guide # TACC Feature
     navigation_depth: 6
-    features:
-      - navigation.top
     analytics:
       gtag: G-D96RT1T24K
 
