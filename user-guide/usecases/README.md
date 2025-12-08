@@ -35,7 +35,9 @@ GitHub will create a forked repo in your user account.
 
 ### <a id="find-usecase"></a> 3. Find Use Case
 
-Navigate to existing use case folder within `user-guide/usecases/`. The folders are named after the PI, so find the folder with PI's name to edit your template. If one does not exist, you may create one (e.g. in `user-guide/usecases/` add `the_pi_name/usecase.md`). **Always check you are only editing the PI's use case folder**.
+Navigate to existing use case folder within `user-guide/usecases/`[^1]. The folders are named after the PI, so find the folder with PI's name to edit your template. If one does not exist, you may create one (e.g. in `user-guide/usecases/`[^1] add `the_pi_name/usecase.md`). **Always check you are only editing the PI's use case folder**.
+
+[^1]: **`user-guide/usecases/` vs. `user-guide/docs/usecases/`**: The path is `user-guide/usecases/`. The images show an outdated path, `user-guide/docs/usecases/`. Find folders in `user-guide/usecases/`, **not** `user-guide/docs/usecases/`.
 
 | PI use case folder |
 | - |
@@ -43,7 +45,7 @@ Navigate to existing use case folder within `user-guide/usecases/`. The folders 
 
 ### <a id="edit-usecase"></a> 4. Edit Use Case
 
-Click on the `usecase.md` file in the usec ase folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
+Click on the `usecase.md` file in the use case folder to [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) your use case.
 
 > **Note:**
 > - The document is written in plain text.
