@@ -16,7 +16,7 @@ Follow [TACC's MkDocs "Testing: Test Locally" instructions](https://tacc.github.
 
 ### Step by Step
 
-[How to Contribute to **Use Cases**.](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/docs/usecases/README.md)
+[How to Contribute to **Use Cases**.](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/user-guide/usecases/README.md)
 
 How to Contribute **Other Changes**:
 

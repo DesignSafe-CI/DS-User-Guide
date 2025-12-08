@@ -2,7 +2,7 @@ site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
 repo_url: https://github.com/DesignSafe-CI/DS-User-Guide
-edit_uri: edit/main/docs/
+edit_uri: edit/main/user-guide/
 # NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
 site_favicon: https://www.designsafe-ci.org/favicon.ico
 
@@ -23,10 +23,10 @@ theme:
   nav_name: User Guide
 
 extra_css:
-  - css/ds-docs.css
+  - css/ds-user-guide.css
 
 extra_javascript:
-  - js/ds-docs.js
+  - js/ds-user-guide.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # for pymdownx.arithmatex
 
 markdown_extensions:

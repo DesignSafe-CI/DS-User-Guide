@@ -6,7 +6,7 @@ DesignSafe-CI's user documentation at [designsafe-ci.org/user-guide](https://des
 
 We welcome contributions, offer a guide for those new to GitHub, and a style guide to simplify reviews. [Read more](./CONTRIBUTING.md) or skip to:
 
-[How to Contribute to **Use Cases**.](./docs/usecases/README.md)
+[How to Contribute to **Use Cases**.](./user-guide/usecases/README.md)
 
 ## Testing
 

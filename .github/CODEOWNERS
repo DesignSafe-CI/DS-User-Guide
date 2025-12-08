@@ -5,7 +5,7 @@
 /.github/          @wesleyboar
 
 # settings
-/docs/index.md @wesleyboar
+/user-guide/index.md @wesleyboar
 
 # assets
 *.js  @wesleyboar
@@ -14,13 +14,13 @@ js/   @wesleyboar
 css/  @wesleyboar
 
 # OpenSees
-/docs/tools/simulation/opensees.md  @silviamazzoni
-/docs/tools/simulation/opensees/    @silviamazzoni
-/docs/tools/simulation/openseesOld/ @silviamazzoni
+/user-guide/tools/simulation/opensees.md  @silviamazzoni
+/user-guide/tools/simulation/opensees/    @silviamazzoni
+/user-guide/tools/simulation/openseesOld/ @silviamazzoni
 
 # ADCIRC
-# /docs/tools/simulation/adcirc.md @cdelcastillo21
-# /docs/tools/simulation/adcirc/   @cdelcastillo21
+# /user-guide/tools/simulation/adcirc.md @cdelcastillo21
+# /user-guide/tools/simulation/adcirc/   @cdelcastillo21
 
 # Arduino
-# /docs/usecases/arduino/ @parduino
+# /user-guide/usecases/arduino/ @parduino
