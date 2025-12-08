@@ -1,20 +1,9 @@
-name: ds-user-guide
-
-version: "3"
 services:
   docs:
     build: .
     volumes:
-      - ./user-guide/docs:/docs/docs
-      - ./user-guide/mkdocs.yml:/docs/mkdocs.yml
-      # To retain TACC assets added during build
-      - skip-tacc-js:/docs/docs/js/core
-      - skip-tacc-css:/docs/docs/css/core
+      - .:/docs
     ports:
       - 127.0.0.1:8000:8000
-    command: mkdocs serve --dev-addr 0.0.0.0:8000 --watch-theme --config-file /docs/mkdocs.yml
-    container_name: ds_docs
-
-volumes:
-  skip-tacc-js:
-  skip-tacc-css:
+    command: ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8000", "--watch-theme", "--config-file", "/docs/mkdocs.yml"]
+    container_name: designsafe_user_guide

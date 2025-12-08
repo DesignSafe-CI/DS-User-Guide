@@ -47,10 +47,8 @@ a[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
 
 
 
-/* TACC-DOCS */
-/* To customize TACC/TACC-Docs CSS */
-/* WARNING: These styles assume documentation is run "Via Docker" */
-/* https://github.com/TACC/TACC-Docs/blob/cbbf261/docs/css/core/tacc-docs.css */
+/* MKDOCS-TACC */
+/* To customize TACC/mkdocs-tacc CSS */
 
 /* To force a logo `<img>` loading an SVG to have dimensions */
 /* FAQ: Happens if `swapImgSvgWithRawSvg.js` does not work or is unavailable */
@@ -68,7 +66,7 @@ a[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
     --pad-horz: 0;
     --link-pad-horz: 0;
 }
-.wy-side-nav-search > a:has(.logo) {
+.wy-side-nav-search > a.logo {
     margin-bottom: 0;
 }
 
@@ -108,11 +106,11 @@ b {
 
 
 
-/* TACC-DOCS via DS-DOCS */
-/* To add CSS that should be moved to TACC/TACC-Docs */
+/* MKDOCS-TACC via DS-DOCS */
+/* To add CSS that should be moved to TACC/mkdocs-tacc */
 
 /* To add space before and after icon from `_text_{ .fa fa.icon-name }` */
-[role="main"] .fa::before {
+.document .fa::before {
     margin-inline: 0.5ch;
 }
 

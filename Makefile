@@ -12,6 +12,3 @@ start:
 .PHONY: stop
 stop:
 	$(DOCKER_COMPOSE_CMD) -f docker-compose.yml down
-	# So assets are not re-used (even after `docker system prune --all --force`)
-	docker volume rm ds-user-guide_skip-tacc-js
-	docker volume rm ds-user-guide_skip-tacc-css

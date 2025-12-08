@@ -3,26 +3,24 @@
 # architecture
 /*                 @wesleyboar
 /.github/          @wesleyboar
-/user-guide/themes @wesleyboar
 
 # settings
-/user-guide/docs/index.md @wesleyboar
-/user-guide/mkdocs.yml    @wesleyboar
+/docs/index.md @wesleyboar
 
-# OpenSees
-/user-guide/docs/tools/simulation/opensees.md  @silviamazzoni
-/user-guide/docs/tools/simulation/opensees/    @silviamazzoni
-/user-guide/docs/tools/simulation/openseesOld/ @silviamazzoni
-
-# ADCIRC
-# /user-guide/docs/tools/simulation/adcirc.md @cdelcastillo21
-# /user-guide/docs/tools/simulation/adcirc/   @cdelcastillo21
-
-# Arduino
-# /user-guide/docs/usecases/arduino/ @parduino
-
-# static assets
+# assets
 *.js  @wesleyboar
 js/   @wesleyboar
 *.css @wesleyboar
 css/  @wesleyboar
+
+# OpenSees
+/docs/tools/simulation/opensees.md  @silviamazzoni
+/docs/tools/simulation/opensees/    @silviamazzoni
+/docs/tools/simulation/openseesOld/ @silviamazzoni
+
+# ADCIRC
+# /docs/tools/simulation/adcirc.md @cdelcastillo21
+# /docs/tools/simulation/adcirc/   @cdelcastillo21
+
+# Arduino
+# /docs/usecases/arduino/ @parduino
