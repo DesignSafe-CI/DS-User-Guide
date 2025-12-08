@@ -5,7 +5,7 @@ on:
     branches:
       - pprd
       - any/branch-you-want
-      - test/deeper-navigation
+      - refactor/gh-158-proper-theme
 
 jobs:
   docker:
