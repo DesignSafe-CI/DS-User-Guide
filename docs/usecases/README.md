@@ -102,7 +102,7 @@ In this case, we added an image called `mpm-algorithm.png`, which is located in 
 ```
 
 > **Note:**
-> Use a relative path `img/mpm-algorithm.png`, **do not use a full path** (e.g., [`https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png`](https://github.com/DesignSafe-CI/DS-User-Guide/user-guide/docs/usecases/kumar/img/mpm-algorithm.png)).
+> Use a relative path (like `img/mpm-algorithm.png`). **Do NOT use a full path** (like [`https://github.com/DesignSafe-CI/DS-User-Guide/blob/bcd070b/user-guide/docs/usecases/kumar/img/mpm-algorithm.png`](https://github.com/DesignSafe-CI/DS-User-Guide/blob/bcd070b/user-guide/docs/usecases/kumar/img/mpm-algorithm.png)).
 
 You can use the "Preview" tab to check images and text formatting before commiting your changes.
 
