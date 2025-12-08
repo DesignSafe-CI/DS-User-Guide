@@ -35,7 +35,7 @@ GitHub will create a forked repo in your user account.
 
 ### <a id="find-usecase"></a> 3. Find Use Case
 
-Navigate to existing use case folder within `user-guide/docs/usecases/`. The folders are named after the PI, so find the folder with PI's name to edit your template. If one does not exist, you may create one (e.g. in `user-guide/docs/usecases/` add `the_pi_name/usecase.md`). **Always check you are only editing the PI's use case folder**.
+Navigate to existing use case folder within `docs/usecases/`. The folders are named after the PI, so find the folder with PI's name to edit your template. If one does not exist, you may create one (e.g. in `docs/usecases/` add `the_pi_name/usecase.md`). **Always check you are only editing the PI's use case folder**.
 
 | PI use case folder |
 | - |
