@@ -4,26 +4,31 @@ We are glad you are reading this. We welcome your contribution.
 
 Here are some important resources:
 
-* [Known Issues](https://github.com/TACC/TACC-Docs/issues)
-* [Active Proposals](https://github.com/TACC/TACC-Docs/pulls)
-* [How to Test](./TESTING.md)
-* [How to Organize](./ORGANIZING.md)
+* [Known Issues][issues]
+* [Active Proposals][proposals]
+* [How to Test][test]
 
-## Step by Step
+## Contribute via Command Line
+
+Follow [TACC's MkDocs "Testing: Test Locally" instructions](https://tacc.github.io/mkdocs-tacc/test/#test-locally).
+
+## Contribute via GitHub
+
+### Step by Step
 
 [How to Contribute to **Use Cases**.](https://github.com/DesignSafe-CI/DS-User-Guide/blob/main/user-guide/docs/usecases/README.md)
 
 How to Contribute **Other Changes**:
 
-1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository.\
-    <sup>(unless you are a direct collaborator)</sup>
-2. [Edit](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) relevant files that need update.\
+1. [Fork][fork] this repository.\
+    <sup>(**unless** you are a direct collaborator)</sup>
+2. [Edit][edit] relevant files that need update.\
     <sup>([upload images](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) as necessary)</sup>
-4. [Commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) your changes.\
+3. [Commit][commit] your changes.\
     <sup>(write [clear commit messages](#writing-commit-messages))</sup>
-5. [Test](./TESTING.md) your changes.\
+4. [Test][test] your changes.\
     <sup>(if comfortable using a command prompt)</sup>
-6. [Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a review.\
+5. [Request][request] a review.\
     <sup>(a.k.a. create a "Pull Request")</sup>
 
 ## Writing Commit Messages
@@ -51,3 +56,12 @@ Start reading our newer docs and you'll get the hang of it. We optimize for read
 
 Thanks,\
 Texas Advanced Computing Center
+
+[issues]: https://github.com/DesignSafe-CI/ds-user-guide/issues
+[proposals]: https://github.com/DesignSafe-CI/ds-user-guide/pulls
+[test]: ./TESTING.md
+
+[fork]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+[edit]: https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files
+[commit]: https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits
+[request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
