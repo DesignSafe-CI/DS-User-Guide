@@ -35,18 +35,18 @@ jobs:
       - name: Install Poetry
         run: pip install poetry
 
-      - name: Check if requirements.txt needs update
+      - name: Detect whether requirements.txt has change
         id: detect
         run: |
           output=$(make requirements.txt 2>&1)
           echo "$output"
 
-          # Check if make indicates the file is up to date
+          # Check whether Make output suggests file is up to date
           if echo "$output" | grep -qi "up to date\|up-to-date\|already up to date"; then
-            echo "needs_update=false" >> $GITHUB_OUTPUT
-            echo "::notice::requirements.txt is already up to date"
+            echo "has_change=false" >> $GITHUB_OUTPUT
+            echo "::notice::requirements.txt seems up to date"
           else
-            echo "needs_update=true" >> $GITHUB_OUTPUT
+            echo "has_change=true" >> $GITHUB_OUTPUT
           fi
 
   commit-delta:
