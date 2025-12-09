@@ -1,4 +1,5 @@
 # DesignSafe User Guide Styles
 
-Styles specific to DS-User-Guide should be in this directoy.
-Styles any TACC docs should be in https://github.com/TACC/TACC-Docs.
+Styles specific to DS-User-Guide should be in this directory.
+
+Styles for all TACC-themed docs belong in https://github.com/TACC/mkdocs-tacc.
