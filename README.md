@@ -6,11 +6,11 @@ DesignSafe-CI's user documentation at [designsafe-ci.org/user-guide](https://des
 
 We welcome contributions, offer a guide for those new to GitHub, and a style guide to simplify reviews. [Read more](./CONTRIBUTING.md) or skip to:
 
-[How to Contribute to **Use Cases**.](user-guide/docs/usecases/README.md)
+[How to Contribute to **Use Cases**.](./user-guide/usecases/README.md)
 
 ## Testing
 
-Testing is manual and requires using a command prompt. You can test [via Python](./TESTING.md#a-via-python) or [via Docker](./TESTING.md#b-via-docker).
+You can test on our development server or locally via command line. [Read more](./TESTING.md).
 
 ## Publishing
 
@@ -18,4 +18,4 @@ We automatically publish `main` branch commits. We manually release versions of 
 
 ## Developing
 
-We use [Poetry](https://python-poetry.org/), [Docker](https://www.docker.com/), [MkDocs](https://mkdocs.readthedocs.io/) and a customized theme. [Read more](./DEVELOPING.md).
+We use [PIP](https://pip.pypa.io/) or [Poetry](https://python-poetry.org/), and [MkDocs](https://mkdocs.readthedocs.io/) with a customized theme. We offer [Docker](https://www.docker.com/) (and a [Makefile](https://www.gnu.org/software/make/manual/make.html#Introduction)). [Read more.](./DEVELOPING.md)

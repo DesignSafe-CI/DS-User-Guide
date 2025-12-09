@@ -1,32 +1,51 @@
-INHERIT: ./mkdocs.base.yml
-
 site_name: DesignSafe User Guide
 site_description: DesignSafe User Guide
 site_url: https://designsafe-ci.org/user-guide/
 repo_url: https://github.com/DesignSafe-CI/DS-User-Guide
-edit_uri: edit/main/user-guide/docs/
+edit_uri: edit/main/user-guide/
 # NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
 site_favicon: https://www.designsafe-ci.org/favicon.ico
 
 theme:
-    name: readthedocs
-    logo: img/NSF_NHERI-DS.svg
-    cms_url: https://designsafe-ci.org/ # TACC Feature
-    cms_name: designsafe-ci.org # TACC Feature
-    nav_name: User Guide # TACC Feature
-    navigation_depth: 6
-    analytics:
-      gtag: G-D96RT1T24K
+  name: tacc_readthedocs
+  navigation_depth: 6
+  analytics:
+    gtag: G-D96RT1T24K
+  hljs_languages:
+    - python
+    - json
+  # "ReadTheDocs" Theme Features
+  logo: img/logo.svg
+  # "TACC" Theme Features
+  logo_svg_inject: true
+  portal_url: https://designsafe-ci.org/
+  portal_name: designsafe-ci.org
+  nav_name: User Guide
 
 extra_css:
-  # TACC/TACC-Docs:/mkdocs.base.yml
-  - css/core/bootstrap.css
-  - css/core/core-styles.css
-  - css/core/tacc-docs.css
-  - css/core/highlight-js.css
-  - css/core/permalink.css
-  # DesignSafe/DS-User-Guide
-  - css/ds-docs.css
+  - css/ds-user-guide.css
+
+extra_javascript:
+  - js/ds-user-guide.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # for pymdownx.arithmatex
+
+markdown_extensions:
+  - extra
+  - admonition
+  - toc:
+      permalink: "" # i.e. `true` but without "¶"
+      permalink_class: headerlink fa fa-link
+      permalink_title: Link to Heading
+  # PyMdown Extensions
+  # - pymdownx.blocks.admonition # to use: disable `admonition`, convert `!!!`s
+  - pymdownx.blocks.details
+  - pymdownx.blocks.html
+  - pymdownx.blocks.tab
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.saneheaders
+  - pymdownx.arithmatex:
+      generic: true # for mathjax
 
 plugins:
   - search
@@ -151,4 +170,3 @@ nav:
     - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
-

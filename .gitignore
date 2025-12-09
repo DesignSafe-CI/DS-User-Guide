@@ -1,19 +1,12 @@
-# Ignore site
-user-guide/site/
+# build
+site/
 
-# TACC files
-mkdocs.base.yml
-poetry.lock
-pyproject.toml
-user-guide/docs/**/core
-user-guide/themes/tacc-readthedocs
-
-# Temporary files
+# os
 .DS_Store
 
-# Igonre pyenv
+# python
 .python-version
 
-# Ignore user configs
+# ide
 .vs
 .vscode
