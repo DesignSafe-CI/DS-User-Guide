@@ -1,8 +1,8 @@
 # How to Test
 
-- [On Free Machine](#preview-server)
-- [On Your Machine](#ad-hoc-server)
-- [On Our Machine](#test-server)
+- [On Free Machine](#on-free-machine)
+- [On Your Machine](#on-your-machine)
+- [On Our Machine](#on-our-machine)
 
 ## On Free Machine
 
