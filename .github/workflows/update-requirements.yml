@@ -1,5 +1,4 @@
-# .github/workflows/update-requirements.yml
-name: Update requirements.txt
+name: Update `requirements.txt`
 
 on:
   pull_request:
@@ -35,7 +34,7 @@ jobs:
         run: pip install poetry
 
       - name: Generate requirements.txt
-        run: make requirements
+        run: make requirements.txt
 
       - name: Configure Git
         run: |
