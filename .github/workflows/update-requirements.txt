@@ -1,0 +1,52 @@
+# .github/workflows/update-requirements.yml
+name: Update requirements.txt
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-requirements:
+    runs-on: ubuntu-latest
+
+    # Skip if the last commit was from the bot (prevent infinite loops)
+    if: github.event.head_commit.author.name != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Generate requirements.txt
+        run: make requirements
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit requirements.txt if changed
+        run: |
+          git add -f requirements.txt
+          if git diff --staged --quiet; then
+            echo "No changes to requirements.txt"
+          else
+            git commit -m "chore: auto-update requirements.txt [bot]"
+            git push
+          fi
