@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  detect-delta:
+  detect-requirements-delta:
     runs-on: ubuntu-latest
     outputs:
       has_change: ${{ steps.detect.outputs.has_change }}
@@ -46,10 +46,10 @@ jobs:
             echo "has_change=true" >> $GITHUB_OUTPUT
           fi
 
-  commit-delta:
+  commit-requirements-delta:
     runs-on: ubuntu-latest
-    needs: detect-delta
-    if: needs.detect-delta.outputs.has_change == 'true'
+    needs: detect-requirements-delta
+    if: needs.detect-requirements-delta.outputs.has_change == 'true'
 
     steps:
       - name: Checkout code

@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  reject-drift:
+  reject-requirements-drift:
     runs-on: ubuntu-latest
 
     # Skip if the last commit was from the bot (prevent unnecessary check)
