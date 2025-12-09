@@ -1,4 +1,4 @@
-name: Update `requirements.txt`
+name: Update requirements.txt
 
 on:
   pull_request:

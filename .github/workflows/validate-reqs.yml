@@ -1,4 +1,4 @@
-name: Validate `requirements.txt`
+name: Validate requirements.txt
 
 on:
   pull_request:
