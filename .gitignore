@@ -6,6 +6,8 @@ site/
 
 # python
 .python-version
+# python: only for Netlify, which does not support pyproject.toml yet
+requirements.txt
 
 # ide
 .vs
