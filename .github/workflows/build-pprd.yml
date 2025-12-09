@@ -6,7 +6,7 @@ on:
       - pprd
       - epic/v3
       - any/branch-you-want
-      - fix/docs_dir-not-set
+      - fix/GH-61-netlify-auto-deploy
 
 jobs:
   docker:
