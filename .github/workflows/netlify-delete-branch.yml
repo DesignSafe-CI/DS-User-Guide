@@ -1,0 +1,40 @@
+name: Delete Netlify Preview Branches
+
+on:
+  pull_request:
+    types: [closed]
+
+env:
+  DEPLOY_BRANCH_PREFIX: "netlify-deploy"
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Determine branch to delete
+        id: branch
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            SOURCE_BRANCH="${{ github.head_ref }}"
+          else
+            SOURCE_BRANCH="${{ github.event.ref }}"
+          fi
+          DEPLOY_BRANCH="${{ env.DEPLOY_BRANCH_PREFIX }}/${SOURCE_BRANCH}"
+
+          echo "deploy_branch=${DEPLOY_BRANCH}" >> $GITHUB_OUTPUT
+
+      - name: Delete deploy branch
+        run: |
+          DEPLOY_BRANCH="${{ steps.branch.outputs.deploy_branch }}"
+
+          # Delete remote branch if it exists
+          if git ls-remote --exit-code --heads origin "${DEPLOY_BRANCH}"; then
+            git push origin --delete "${DEPLOY_BRANCH}"
+            echo "Deleted deploy branch: ${DEPLOY_BRANCH}"
+          else
+            echo "Deploy branch does not exist: ${DEPLOY_BRANCH}"
+          fi

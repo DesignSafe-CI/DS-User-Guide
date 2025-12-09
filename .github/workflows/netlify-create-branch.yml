@@ -1,0 +1,80 @@
+name: Create Netlify Preview Branch
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - fix/GH-61-netlify-auto-deploy
+
+env:
+  DEPLOY_BRANCH_PREFIX: "netlify"
+
+jobs:
+  update-preview-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Poetry
+        uses: python-poetry/install@v1
+
+      - name: Generate requirements.txt
+        run: make requirements.txt
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Determine source and deploy branch names
+        id: branches
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            SOURCE_BRANCH="${{ github.head_ref }}"
+          else
+            SOURCE_BRANCH="${{ github.ref_name }}"
+          fi
+          DEPLOY_BRANCH="${{ env.DEPLOY_BRANCH_PREFIX }}/${SOURCE_BRANCH}"
+
+          echo "source_branch=${SOURCE_BRANCH}" >> $GITHUB_OUTPUT
+          echo "deploy_branch=${DEPLOY_BRANCH}" >> $GITHUB_OUTPUT
+
+      - name: Create/update deploy branch
+        run: |
+          DEPLOY_BRANCH="${{ steps.branches.outputs.deploy_branch }}"
+
+          git checkout -B "${DEPLOY_BRANCH}"
+          git add -f requirements.txt
+          git commit -m "Add requirements.txt for Netlify deployment [skip ci]"
+          git push origin "${DEPLOY_BRANCH}" --force
+
+      - name: Comment on PR with deploy info
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const deployBranch = '${{ steps.branches.outputs.deploy_branch }}';
+            const body = `### 🚀 Netlify Deploy Branch Created
+
+            **Deploy branch:** \`${deployBranch}\`
+
+            Configure Netlify to deploy from this branch to get a preview for this PR.
+
+            The branch will be automatically updated with each commit to this PR.`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
