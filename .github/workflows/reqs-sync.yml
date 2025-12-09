@@ -1,6 +1,5 @@
 # Netlify requires requirements.txt (humans do not)
-# SEE: validate-reqs.yml
-name: Check/Update requirements.txt
+name: Sync requirements.txt with pyproject.toml
 
 on:
   pull_request:
@@ -14,10 +13,10 @@ permissions:
   contents: write
 
 jobs:
-  check-requirements:
+  detect-delta:
     runs-on: ubuntu-latest
     outputs:
-      needs_update: ${{ steps.check.outputs.needs_update }}
+      has_change: ${{ steps.detect.outputs.has_change }}
 
     # Skip if the last commit was from the bot (prevent infinite loops)
     if: github.event.head_commit.author.name != 'github-actions[bot]'
@@ -37,7 +36,7 @@ jobs:
         run: pip install poetry
 
       - name: Check if requirements.txt needs update
-        id: check
+        id: detect
         run: |
           output=$(make requirements.txt 2>&1)
           echo "$output"
@@ -50,10 +49,10 @@ jobs:
             echo "needs_update=true" >> $GITHUB_OUTPUT
           fi
 
-  update-requirements:
+  commit-delta:
     runs-on: ubuntu-latest
-    needs: check-requirements
-    if: needs.check-requirements.outputs.needs_update == 'true'
+    needs: detect-delta
+    if: needs.detect-delta.outputs.has_change == 'true'
 
     steps:
       - name: Checkout code

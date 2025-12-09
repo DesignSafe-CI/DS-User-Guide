@@ -1,13 +1,12 @@
 # Humans should not manage requirements.txt (bots do)
-# SEE: update-reqs.yml
-name: Validate requirements.txt
+name: Validate requirements.txt not changed by human
 
 on:
   pull_request:
   push:
 
 jobs:
-  check-requirements:
+  reject-drift:
     runs-on: ubuntu-latest
 
     steps:
