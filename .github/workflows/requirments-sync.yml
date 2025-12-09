@@ -1,0 +1,85 @@
+# Netlify requires requirements.txt (humans do not)
+name: Sync requirements.txt with pyproject.toml
+
+on:
+  pull_request:
+    paths: ['pyproject.toml']
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+
+jobs:
+  detect-requirements-delta:
+    runs-on: ubuntu-latest
+    outputs:
+      has_change: ${{ steps.detect.outputs.has_change }}
+
+    # Skip if the last commit was from the bot (prevent infinite loops)
+    if: github.event.head_commit.author.name != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: 'pyproject.toml'
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Detect whether requirements.txt has change
+        id: detect
+        run: |
+          output=$(make requirements.txt 2>&1)
+          echo "$output"
+
+          # Check whether Make output suggests file is up to date
+          if echo "$output" | grep -qi "up to date\|up-to-date\|already up to date"; then
+            echo "has_change=false" >> $GITHUB_OUTPUT
+            echo "::notice::requirements.txt seems up to date"
+          else
+            echo "has_change=true" >> $GITHUB_OUTPUT
+          fi
+
+  commit-requirements-delta:
+    runs-on: ubuntu-latest
+    needs: detect-requirements-delta
+    if: needs.detect-requirements-delta.outputs.has_change == 'true'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: 'pyproject.toml'
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Generate requirements.txt
+        run: make requirements.txt
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit requirements.txt if changed
+        run: |
+          git add -f requirements.txt
+          if git diff --staged --quiet; then
+            echo "No changes to requirements.txt"
+          else
+            git commit -m "chore: auto-update requirements.txt [bot]"
+            git push
+          fi

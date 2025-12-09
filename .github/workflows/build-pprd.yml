@@ -6,7 +6,6 @@ on:
       - pprd
       - epic/v3
       - any/branch-you-want
-      - fix/docs_dir-not-set
 
 jobs:
   docker:
