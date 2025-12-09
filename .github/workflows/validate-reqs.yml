@@ -24,7 +24,7 @@ jobs:
             if [ "$AUTHOR" != "github-actions[bot]" ]; then
               echo "❌ ERROR: You may NOT edit 'requirements.txt'"
               echo "To pin dependencies, use 'poetry add <package-name>'."
-              echo "Please remove your changes to requirements.txt, so the robot can maintain it."
+              echo "Please remove your changes to requirements.txt, so robot can maintain it."
               exit 1
             fi
           fi
