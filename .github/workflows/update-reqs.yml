@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - epic/v3
-      - fix/GH-61-netlify-auto-deploy
 
 permissions:
   contents: write
