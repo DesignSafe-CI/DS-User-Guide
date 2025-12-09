@@ -8,10 +8,6 @@ requirements.txt: poetry.lock
 	&& pip uninstall --yes poetry-plugin-export
 
 
-.PHONY: install
-install: poetry.lock
-	poetry install --sync
-
 .PHONY: build
 build:
 	$(DOCKER_COMPOSE_CMD) -f ./docker-compose.yml build
