@@ -3,6 +3,7 @@ name: Validate requirements.txt not changed by human
 
 on:
   pull_request:
+    paths: ['requirements.txt']
     types: [opened, synchronize, reopened]
 
 jobs:
