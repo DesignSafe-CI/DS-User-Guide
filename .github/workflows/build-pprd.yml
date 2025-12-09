@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - pprd
+      - epic/v3
       - any/branch-you-want
       - refactor/gh-158-proper-theme
 
