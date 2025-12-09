@@ -6,7 +6,7 @@ on:
       - pprd
       - epic/v3
       - any/branch-you-want
-      - refactor/gh-158-proper-theme
+      - fix/docs_dir-not-set
 
 jobs:
   docker:
