@@ -17,7 +17,7 @@ maintainers = [
   { name = "TACC ACI WMA", email = "wma-portals@tacc.utexas.edu" }
 ]
 readme = "README.md"
-requires-python = ">=3.10,<4.0"
+requires-python = ">=3.10,<3.13"
 dependencies = [
   "mkdocs-tacc[all] (>=1.0.0,<2.0.0)",
   "mkdocs-exclude-search (>=0.6.6,<0.7.0)",
