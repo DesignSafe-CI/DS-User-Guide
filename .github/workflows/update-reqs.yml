@@ -1,3 +1,5 @@
+# Netlify requires requirements.txt (humans do not)
+# SEE: validate-reqs.yml
 name: Update requirements.txt
 
 on:

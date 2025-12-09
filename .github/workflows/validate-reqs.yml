@@ -1,3 +1,5 @@
+# Humans should not manage requirements.txt (bots do)
+# SEE: update-reqs.yml
 name: Validate requirements.txt
 
 on:
