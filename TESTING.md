@@ -1,24 +1,31 @@
 # How to Test
 
-## Local Server
+- [On Free Machine](#preview-server)
+- [On Your Machine](#ad-hoc-server)
+- [On Our Machine](#test-server)
+
+## On Free Machine
+
+> [!TIP]
+> Create a pull request; automatically get a remote preview server.
+
+## On Your Machine
+
+> [!NOTE]
+> Run a server manually or programatically on your machine.
+
+You can [test with **PIP** or **Poetry** or **Docker** or **Make**](https://tacc.github.io/mkdocs-tacc/test/#test-locally).
+
+## On Our Machine
 
 > [!WARNING]
-> Testing is manual and requires using a command prompt.
-
-You can [test with **PIP** or **Poetry** or **Docker** or **Make**](https://tacc.github.io/mkdocs-tacc/test/#test-locally) as a client.
-
-## Remote Server
-
-> [!WARNING]
-> Your test may be overridden by others working on the same test server.
-
-Deploy to our test server:
+> Only authorized contributors may deploy to our test server.
 
 0. Have a branch with changes ready to deploy.
-1. On your branch, edit the [pre-prod workflow config](./.github/workflows/build-pprd.yml) `branches:` list.
+1. On your branch, edit the [pre-prod workflow config](./.github/workflows/build-pprd.yml) `branches:` list to include your branch.
 2. Commit the change to trigger the workflow.
 3. Wait for [GitHub action](https://github.com/DesignSafe-CI/ds-user-guide/actions) to complete.
 4. Load https://pprd.designsafe-ci.org/user-guide/.
 
-> [!TIP]
-> In the future, we will offer a dedicated test server. Task is pending [issue #61](https://github.com/DesignSafe-CI/DS-User-Guide/issues/61).
+> [!CAUTION]
+> Others can override your test by deploying to this server.
