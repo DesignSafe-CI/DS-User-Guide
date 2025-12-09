@@ -4,10 +4,6 @@ name: Sync requirements.txt with pyproject.toml
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-  push:
-    branches:
-      - epic/v3
-      - fix/GH-61-netlify-auto-deploy
 
 permissions:
   contents: write
