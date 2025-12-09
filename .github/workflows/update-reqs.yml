@@ -1,6 +1,6 @@
 # Netlify requires requirements.txt (humans do not)
 # SEE: validate-reqs.yml
-name: Update requirements.txt
+name: Check/Update requirements.txt
 
 on:
   pull_request:
@@ -14,11 +14,46 @@ permissions:
   contents: write
 
 jobs:
-  update-requirements:
+  check-requirements:
     runs-on: ubuntu-latest
+    outputs:
+      needs_update: ${{ steps.check.outputs.needs_update }}
 
     # Skip if the last commit was from the bot (prevent infinite loops)
     if: github.event.head_commit.author.name != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: 'pyproject.toml'
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Check if requirements.txt needs update
+        id: check
+        run: |
+          output=$(make requirements.txt 2>&1)
+          echo "$output"
+
+          # Check if make indicates the file is up to date
+          if echo "$output" | grep -qi "up to date\|up-to-date\|already up to date"; then
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+            echo "::notice::requirements.txt is already up to date"
+          else
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          fi
+
+  update-requirements:
+    runs-on: ubuntu-latest
+    needs: check-requirements
+    if: needs.check-requirements.outputs.needs_update == 'true'
 
     steps:
       - name: Checkout code
