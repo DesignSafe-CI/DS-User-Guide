@@ -8,10 +8,6 @@ on:
 
 jobs:
   reject-requirements-drift:
-    # To temporarily ignore epic/v3 branch, which introduces requirements.txt
-    # TODO: Delete this after merging #246
-    if: "!startsWith(github.head_ref, 'epic/')"
-
     runs-on: ubuntu-latest
 
     # Skip if the last commit was from the bot (prevent unnecessary check)
