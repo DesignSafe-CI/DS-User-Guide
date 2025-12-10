@@ -7,7 +7,7 @@ package-mode = true # to make PIP use [project.dependencies]
 
 [project]
 name = "ds-user-guide"
-version = "0.1.0"
+version = "3.0.0"
 description = "User Guide for DesignSafe"
 authors = [
   { name = "TACC COA CMD", email = "coa-cmd@tacc.utexas.edu" }
