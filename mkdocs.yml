@@ -80,6 +80,7 @@ nav:
 
   - Tools and Apps:
     - Training Resources: training.md
+    - Computational Workflows: https://designsafe-ci.github.io/training-OpenSees-on-DesignSafe/Docs_MD/Oview_ComputationalWorkflow.html
     - Popular:
       - OpenSees: tools/simulation/opensees/opensees.md
       - ADCIRC: tools/simulation/adcirc/adcirc.md
