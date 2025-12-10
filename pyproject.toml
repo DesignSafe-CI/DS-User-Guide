@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core>=1.5.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = true # to make PIP use [project.dependencies]
+
+[project]
+name = "ds-user-guide"
+version = "3.0.0"
+description = "User Guide for DesignSafe"
+authors = [
+  { name = "TACC COA CMD", email = "coa-cmd@tacc.utexas.edu" }
+]
+maintainers = [
+  { name = "TACC COA CMD", email = "coa-cmd@tacc.utexas.edu" },
+  { name = "TACC ACI WMA", email = "wma-portals@tacc.utexas.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "mkdocs-tacc[all] (>=1.0.0,<2.0.0)",
+  "mkdocs-exclude-search (>=0.6.6,<0.7.0)",
+  "mkdocs-include-markdown-plugin (>=5.1.0,<6.0.0)",
+]
+
+[project.urls]
+homepage = "https://designsafe-ci.org/user-guide"
+github = "https://github.com/DesignSafe-CI/ds-user-guide"
