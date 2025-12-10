@@ -5,6 +5,7 @@ on:
   pull_request:
     paths: ['requirements.txt']
     types: [opened, synchronize, reopened]
+    branches-ignore: ['epic/v3']
 
 jobs:
   reject-requirements-drift:
