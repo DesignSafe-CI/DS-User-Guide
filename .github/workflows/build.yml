@@ -1,4 +1,4 @@
-name: DS User Guide Builds
+name: Build and Push
 
 on:
   workflow_dispatch:
