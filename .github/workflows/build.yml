@@ -32,11 +32,12 @@ jobs:
         run: |
           if [ -z "$EVENT_SHA" ]; then SHORT_SHA=${GITHUB_SHA::8}; else SHORT_SHA=${EVENT_SHA::8}; fi
           echo ::set-output name=sha_short::${SHORT_SHA}
-          SHORT_REF=`git symbolic-ref --short HEAD | sed 's/[^[:alnum:]\.\_\-]/-/g'`
+          SHORT_REF=`git symbolic-ref --short HEAD | sed 's/[^[:alnum:]._-]/-/g'`
           echo ::set-output name=ref_short::${SHORT_REF}
         env:
           EVENT_SHA: ${{ github.event.client_payload.sha }}
-      - name: Determine environment tag
+      -
+        name: Determine environment tag
         id: env_tag
         run: |
           if [ -n "${{ inputs.tag_custom }}" ]; then
@@ -49,7 +50,8 @@ jobs:
             ENV_TAG="${{ github.ref_name }}"
           fi
           echo ::set-output name=env_tag::${ENV_TAG}
-      - name: Print vars
+      -
+        name: Print vars
         run: |
           echo "Short SHA: $SHORT_SHA"
           echo "Short Ref: $SHORT_REF"
