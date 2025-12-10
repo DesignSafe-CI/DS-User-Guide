@@ -47,7 +47,7 @@ jobs:
           elif [ "${{ github.ref_name }}" = "pprd" ]; then
             ENV_TAG="pprd"
           else
-            ENV_TAG="${{ github.ref_name }}"
+            ENV_TAG="${{ steps.vars.outputs.ref_short }}"
           fi
           echo ::set-output name=env_tag::${ENV_TAG}
       -
