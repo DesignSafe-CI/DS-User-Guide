@@ -104,63 +104,58 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
 1. **Generate the processed hazard–exposure dataset**
 
-**Notebook:** `00_generator_of_processed_Info_Natural_Event.ipynb`  
-This notebook loads the cleaned input files found in `00_data_cleaned/`, verifies their structure, and merges hazard data (wind speeds) with exposure and damage attributes.  
-It produces the first standardized dataset used by all subsequent steps.  
-**Outputs:** `01_checking_data.csv`, `02_combined_processed_files.csv`.
-
+    **Notebook:** `00_generator_of_processed_Info_Natural_Event.ipynb`  
+    This notebook loads the cleaned input files found in `00_data_cleaned/`, verifies their structure, and merges hazard data (wind speeds) with exposure and damage attributes.  
+    It produces the first standardized dataset used by all subsequent steps.  
+    **Outputs:** `01_checking_data.csv`, `02_combined_processed_files.csv`.
 
 2. **Compute damage ratios and define wind-speed ranges**
 
-**Notebook:** `03_damage_ratios_&_ranges.ipynb`  
-This step calculates the *damage ratio* for each record (loss divided by replacement value) and assigns each row to a wind-speed bin.  
-The notebook also produces exploratory visualizations to understand early behavior of the data.  
-**Output:** `04_combined_processed_with_ratios.csv`.
+    **Notebook:** `03_damage_ratios_&_ranges.ipynb`  
+    This step calculates the *damage ratio* for each record (loss divided by replacement value) and assigns each row to a wind-speed bin.  
+    The notebook also produces exploratory visualizations to understand early behavior of the data.  
+    **Output:** `04_combined_processed_with_ratios.csv`.
 
 3. **Build the empirical vulnerability matrix**
 
-**Notebook:** `05_vulnerability_matrix.ipynb`  
-This notebook aggregates thousands of records into an empirical vulnerability matrix, where each wind-speed bin is associated with an Expected Damage Ratio (EDR).  
-It also generates a graphical summary of empirical EDR values.  
-**Outputs:** `06_vulnerability_matrix.csv`, `07_vulnerability_matrix.png`.
+    **Notebook:** `05_vulnerability_matrix.ipynb`  
+    This notebook aggregates thousands of records into an empirical vulnerability matrix, where each wind-speed bin is associated with an Expected Damage Ratio (EDR).  
+    It also generates a graphical summary of empirical EDR values.  
+    **Outputs:** `06_vulnerability_matrix.csv`, `07_vulnerability_matrix.png`.
 
 4. **Fit and visualize vulnerability curves**
 
-**Notebook:** `08_vulnerability_curve_analysis.ipynb`  
-This step transforms the empirical matrix into a smooth functional curve.  
-Two representations are produced:
-- **Empirical curve** derived directly from observed data.  
-- **Logistic-regression curve** that provides a smooth vulnerability function across all wind speeds.
+    **Notebook:** `08_vulnerability_curve_analysis.ipynb`  
+    This step transforms the empirical matrix into a smooth functional curve.  
+    Two representations are produced:
 
-Model performance is evaluated using R², RMSE, MAE, and visual comparison.  
-**Outputs:** `09_vulnerability_data.csv`, `10_vulnerability_data.png`,  
-`11_vulnerability_curve_with_logistic_regression.csv`,  
-`12_vulnerability_curve_with_logistic_regression.png`.
+    - **Empirical curve** derived directly from observed data.  
+    - **Logistic-regression curve** that provides a smooth vulnerability function across all wind speeds.
 
-
+    Model performance is evaluated using R², RMSE, MAE, and visual comparison.  
+    **Outputs:** `09_vulnerability_data.csv`, `10_vulnerability_data.png`,  
+    `11_vulnerability_curve_with_logistic_regression.csv`,  
+    `12_vulnerability_curve_with_logistic_regression.png`.
 
 5. **Generate fragility curves**
 
-**Notebook:** `13_Fragility_curve_analysis.ipynb`  
-This notebook converts vulnerability information into *fragility curves*, which express the probability that damage exceeds a specified threshold.  
-These curves are useful for engineering applications, insurance analysis, and risk modeling.  
-**Outputs:** `14_fragility_data.csv`, `15_fragility_data.png`,  
-`16_fragility_curves_with_logistic_regression.csv`,  
-`17_fragility_curves_with_logistic_regression.png`.
-
-
+    **Notebook:** `13_Fragility_curve_analysis.ipynb`  
+    This notebook converts vulnerability information into *fragility curves*, which express the probability that damage exceeds a specified threshold.  
+    These curves are useful for engineering applications, insurance analysis, and risk modeling.  
+    **Outputs:** `14_fragility_data.csv`, `15_fragility_data.png`,  
+    `16_fragility_curves_with_logistic_regression.csv`,  
+    `17_fragility_curves_with_logistic_regression.png`.
 
 6. **Compare vulnerability and fragility across classes**
 
-**Notebook:** `18_Comparison_of_curves_analysis.ipynb`  
-The final step allows side-by-side comparisons of vulnerability and fragility curves across construction classes, building types, or datasets.  
-This notebook highlights differences in performance and produces publication-ready figures.  
-**Outputs:**  
-`19_comparison_vulnerability_curves.csv`,  
-`20_comparison_vulnerability_curves.png`,  
-`21_fragility_comparison_Fragility_10.csv`,  
-`22_fragility_comparison_Fragility_10.png`.
-
+    **Notebook:** `18_Comparison_of_curves_analysis.ipynb`  
+    The final step allows side-by-side comparisons of vulnerability and fragility curves across construction classes, building types, or datasets.  
+    This notebook highlights differences in performance and produces publication-ready figures.  
+    **Outputs:**  
+    `19_comparison_vulnerability_curves.csv`,  
+    `20_comparison_vulnerability_curves.png`,  
+    `21_fragility_comparison_Fragility_10.csv`,  
+    `22_fragility_comparison_Fragility_10.png`.
 
 
 ### Summary
