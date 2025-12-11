@@ -31,7 +31,7 @@ You can access and run them directly on **DesignSafe** by clicking the link belo
 
 | **Scope** | **Notebook** |
 |------------|---------------|
-| Interpolating and converting hurricane wind field data | [Wind_Speed_Estimation.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-5778) <br> [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-5778) |
+| Interpolating and converting hurricane wind field data | [Wind_Speed_Estimation.ipynb](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-5778) <br> [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-5778) |
 
 
 ### DesignSafe Resources
