@@ -35,12 +35,12 @@ You can access and run them directly on **DesignSafe** by clicking the link belo
 
 | **Scope** | **Notebook** | **Open in DesignSafe** |
 |-----------|--------------|-------------------------|
-| Generate processed hazard & exposure dataset | `00_generator_of_processed_Info_Natural_Event.ipynb` | [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
-| Compute damage ratios and define wind ranges | `03_damage_ratios_&_ranges.ipynb` | [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
-| Build empirical vulnerability matrix | `05_vulnerability_matrix.ipynb` | [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
-| Fit and visualize vulnerability curves | `08_vulnerability_curve_analysis.ipynb` | [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
-| Generate fragility curves | `13_Fragility_curve_analysis.ipynb` | [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
-| Compare curves across structural classes | `18_Comparison_of_curves_analysis.ipynb` | [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
+| Generate processed hazard & exposure dataset | `00_generator_of_processed_Info_Natural_Event.ipynb` | [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
+| Compute damage ratios and define wind ranges | `03_damage_ratios_&_ranges.ipynb` | [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
+| Build empirical vulnerability matrix | `05_vulnerability_matrix.ipynb` | [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
+| Fit and visualize vulnerability curves | `08_vulnerability_curve_analysis.ipynb` | [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
+| Generate fragility curves | `13_Fragility_curve_analysis.ipynb` | [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
+| Compare curves across structural classes | `18_Comparison_of_curves_analysis.ipynb` | [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2) |
 
 ### DesignSafe Resources
 
@@ -69,7 +69,7 @@ Before running the notebook, make sure the following Python libraries are instal
 
 ## Steps to Run
 
-1. **Download or access the repository:** [![Open in DesignSafe](https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2)
+1. **Download or access the repository:** [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2)
 
 2. **Open the Jupyter notebooks** located in the root directory:
    - `00_generator_of_processed_Info_Natural_Event.ipynb`
