@@ -17,7 +17,7 @@ The uniqueness of this project lies in its transparency, flexibility, and modula
 
 The primary audience for this project includes researchers in wind engineering, structural safety, and risk analysis who require transparent methods for vulnerability modeling. It is also intended for insurance and reinsurance professionals seeking empirically derived curves for underwriting, pricing, and capital allocation. Policy makers and engineers can use the results to support evidence-based decision making and improvements in building codes. Finally, educators and students can adopt the notebooks as teaching material for courses on catastrophe modeling, vulnerability analysis, and disaster risk reduction.
 
-**Key steps:** 
+**Key steps:**
 
 - **Data Processing:** Cleaning raw datasets and producing an integrated hazard–damage file.
 - **Damage Ratio Calculation:** Computing losses relative to replacement value and assigning wind-speed bins.
@@ -46,13 +46,13 @@ You can access and run them directly on **DesignSafe** by clicking the link belo
 
 The following DesignSafe resources were used in developing this Use Case:
 
-- [Jupyter notebook on DesignSafe JupyterHub](https://www.designsafe-ci.org/rw/workspace/jupyter/)  
+- [Jupyter notebook on DesignSafe JupyterHub](https://www.designsafe-ci.org/rw/workspace/jupyter/)
 - [DesignSafe Publication: Empirical Hurricane Vulnerability and Fragility Curves (DOI: 10.17603/ds2-q60v-z247)](https://doi.org/10.17603/ds2-q60v-z247)
 
 ## System Requirements
 
-- **Python 3.11+**  
-- **Jupyter Notebook environment** (DesignSafe JupyterHub or local)  
+- **Python 3.11+**
+- **Jupyter Notebook environment** (DesignSafe JupyterHub or local)
 
 ## Required Libraries
 
@@ -60,12 +60,12 @@ Before running the notebook, make sure the following Python libraries are instal
 
 | **Package** | **Description** |
 |-------------|-----------------|
-|  `numpy` | Numerical operations and array handling |
-|   `pandas` | Data manipulation and tabular data processing |
-|   `scipy` | Curve fitting and optimization routines (`curve_fit`) |
-|  `scikit-learn` | Regression metrics (R², MAE, RMSE) used for evaluating fitted curves |
-|  `matplotlib` | Plotting vulnerability and fragility curves |
-|   `seaborn` | Statistical visualization and enhanced plotting (used in damage ratio analysis) |
+| `numpy` | Numerical operations and array handling |
+| `pandas` | Data manipulation and tabular data processing |
+| `scipy` | Curve fitting and optimization routines (`curve_fit`) |
+| `scikit-learn` | Regression metrics (R², MAE, RMSE) used for evaluating fitted curves |
+| `matplotlib` | Plotting vulnerability and fragility curves |
+| `seaborn` | Statistical visualization and enhanced plotting (used in damage ratio analysis) |
 
 ## Steps to Run
 
@@ -106,7 +106,7 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
     **Notebook:** `00_generator_of_processed_Info_Natural_Event.ipynb`  
     This notebook loads the cleaned input files found in `00_data_cleaned/`, verifies their structure, and merges hazard data (wind speeds) with exposure and damage attributes.  
-    It produces the first standardized dataset used by all subsequent steps.  
+    It produces the first standardized dataset used by all subsequent steps.
 
     **Outputs:**  
     `01_checking_data.csv`,  
@@ -116,7 +116,7 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
     **Notebook:** `03_damage_ratios_&_ranges.ipynb`  
     This step calculates the *damage ratio* for each record (loss divided by replacement value) and assigns each row to a wind-speed bin.  
-    The notebook also produces exploratory visualizations to understand early behavior of the data.  
+    The notebook also produces exploratory visualizations to understand early behavior of the data.
 
     **Output:**  
     `04_combined_processed_with_ratios.csv`.
@@ -125,7 +125,7 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
     **Notebook:** `05_vulnerability_matrix.ipynb`  
     This notebook aggregates thousands of records into an empirical vulnerability matrix, where each wind-speed bin is associated with an Expected Damage Ratio (EDR).  
-    It also generates a graphical summary of empirical EDR values.  
+    It also generates a graphical summary of empirical EDR values.
 
     **Outputs:**  
     `06_vulnerability_matrix.csv`,  
@@ -140,7 +140,7 @@ The following guidance summarizes what each notebook does, what to expect, and h
     - **Empirical curve** derived directly from observed data.  
     - **Logistic-regression curve** that provides a smooth vulnerability function across all wind speeds.
 
-    Model performance is evaluated using R², RMSE, MAE, and visual comparison.  
+    Model performance is evaluated using R², RMSE, MAE, and visual comparison.
 
     **Outputs:**  
     `09_vulnerability_data.csv`,  
@@ -152,7 +152,7 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
     **Notebook:** `13_Fragility_curve_analysis.ipynb`  
     This notebook converts vulnerability information into *fragility curves*, which express the probability that damage exceeds a specified threshold.  
-    These curves are useful for engineering applications, insurance analysis, and risk modeling.  
+    These curves are useful for engineering applications, insurance analysis, and risk modeling.
 
     **Outputs:**  
     `14_fragility_data.csv`,  
@@ -164,7 +164,7 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
     **Notebook:** `18_Comparison_of_curves_analysis.ipynb`  
     The final step allows side-by-side comparisons of vulnerability and fragility curves across construction classes, building types, or datasets.  
-    This notebook highlights differences in performance and produces publication-ready figures.  
+    This notebook highlights differences in performance and produces publication-ready figures.
 
     **Outputs:**  
     `19_comparison_vulnerability_curves.csv`,  
@@ -212,7 +212,7 @@ This enables evaluation across construction periods, structural types, and datas
 ## Citation
 > Bonfante, N., Pinelli, J.-P., Bakhshandeh, M., & Guennec, T. (2025). *Empirical Hurricane Vulnerability and Fragility Curves*. DesignSafe-CI. DOI: [10.17603/ds2-q60v-z247](https://doi.org/10.17603/ds2-q60v-z247)
 ## Licensing
-**License:** BSD 3-Clause License  
+**License:** BSD 3-Clause License
 
 ## Acknowledgment:
 This research was supported by the **National Science Foundation (NSF)** under **Award No. 1520817**, through the **NHERI DesignSafe Cyberinfrastructure**. The opinions and conclusions expressed are those of the authors and do not necessarily reflect the views of the NSF.
