@@ -161,6 +161,7 @@ nav:
       - Field Sensing Wind Events: usecases/pinelli/usecase.md
       - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
       - Wind Speed Estimation and Conversion: usecases/pinelli/3usecase.md
+      - Empirical Hurricane Vulnerability and Fragility Curves: usecases/pinelli/4usecase.md
       - ADCIRC Datasets: usecases/dawson/usecase2.md
       - Large-Scale Storm Surge: usecases/dawson/usecase.md
       - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
