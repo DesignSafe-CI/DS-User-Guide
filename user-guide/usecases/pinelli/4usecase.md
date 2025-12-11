@@ -72,25 +72,25 @@ Before running the notebook, make sure the following Python libraries are instal
 1. **Download or access the repository:** [![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-6138?version=2)
 
 2. **Open the Jupyter notebooks** located in the root directory:
-   - `00_generator_of_processed_Info_Natural_Event.ipynb`
-   - `03_damage_ratios_&_ranges.ipynb`
-   - `05_vulnerability_matrix.ipynb`
-   - `08_vulnerability_curve_analysis.ipynb`
-   - `13_Fragility_curve_analysis.ipynb`
-   - `18_Comparison_of_curves_analysis.ipynb`
+    - `00_generator_of_processed_Info_Natural_Event.ipynb`
+    - `03_damage_ratios_&_ranges.ipynb`
+    - `05_vulnerability_matrix.ipynb`
+    - `08_vulnerability_curve_analysis.ipynb`
+    - `13_Fragility_curve_analysis.ipynb`
+    - `18_Comparison_of_curves_analysis.ipynb`
 3. **Use the input CSV files already provided** inside the folder:
-   ```
-   00_data_cleaned/
-   ```
+    ```
+    00_data_cleaned/
+    ```
 4. **Execute the notebooks in sequence**, from `00_` to `18_`, ensuring that all cells run successfully.
 
 5. **Processed outputs** will be automatically generated at each stage, including:
-   - Combined and cleaned datasets
-   - Damage ratios
-   - Vulnerability matrices
-   - Vulnerability curves (empirical and logistic regression)
-   - Fragility curves
-   - Comparative vulnerability/fragility plots
+    - Combined and cleaned datasets
+    - Damage ratios
+    - Vulnerability matrices
+    - Vulnerability curves (empirical and logistic regression)
+    - Fragility curves
+    - Comparative vulnerability/fragility plots
 
 6. All output files are saved in the same directory as the notebooks, following the sequential numbering (00–22) generated throughout the workflow.
 
