@@ -108,7 +108,9 @@ The following guidance summarizes what each notebook does, what to expect, and h
     This notebook loads the cleaned input files found in `00_data_cleaned/`, verifies their structure, and merges hazard data (wind speeds) with exposure and damage attributes.  
     It produces the first standardized dataset used by all subsequent steps.  
 
-    **Outputs:** `01_checking_data.csv`, `02_combined_processed_files.csv`.
+    **Outputs:**  
+    `01_checking_data.csv`,  
+    `02_combined_processed_files.csv`.
 
 2. **Compute damage ratios and define wind-speed ranges**
 
@@ -116,7 +118,8 @@ The following guidance summarizes what each notebook does, what to expect, and h
     This step calculates the *damage ratio* for each record (loss divided by replacement value) and assigns each row to a wind-speed bin.  
     The notebook also produces exploratory visualizations to understand early behavior of the data.  
 
-    **Output:** `04_combined_processed_with_ratios.csv`.
+    **Output:**  
+    `04_combined_processed_with_ratios.csv`.
 
 3. **Build the empirical vulnerability matrix**
 
@@ -124,7 +127,9 @@ The following guidance summarizes what each notebook does, what to expect, and h
     This notebook aggregates thousands of records into an empirical vulnerability matrix, where each wind-speed bin is associated with an Expected Damage Ratio (EDR).  
     It also generates a graphical summary of empirical EDR values.  
 
-    **Outputs:** `06_vulnerability_matrix.csv`, `07_vulnerability_matrix.png`.
+    **Outputs:**  
+    `06_vulnerability_matrix.csv`,  
+    `07_vulnerability_matrix.png`.
 
 4. **Fit and visualize vulnerability curves**
 
@@ -137,7 +142,9 @@ The following guidance summarizes what each notebook does, what to expect, and h
 
     Model performance is evaluated using R², RMSE, MAE, and visual comparison.  
 
-    **Outputs:** `09_vulnerability_data.csv`, `10_vulnerability_data.png`,  
+    **Outputs:**  
+    `09_vulnerability_data.csv`,  
+    `10_vulnerability_data.png`,  
     `11_vulnerability_curve_with_logistic_regression.csv`,  
     `12_vulnerability_curve_with_logistic_regression.png`.
 
@@ -147,7 +154,9 @@ The following guidance summarizes what each notebook does, what to expect, and h
     This notebook converts vulnerability information into *fragility curves*, which express the probability that damage exceeds a specified threshold.  
     These curves are useful for engineering applications, insurance analysis, and risk modeling.  
 
-    **Outputs:** `14_fragility_data.csv`, `15_fragility_data.png`,  
+    **Outputs:**  
+    `14_fragility_data.csv`,  
+    `15_fragility_data.png`,  
     `16_fragility_curves_with_logistic_regression.csv`,  
     `17_fragility_curves_with_logistic_regression.png`.
 
