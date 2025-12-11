@@ -1,6 +1,13 @@
 # WARNING: Using `docker-compose` is deprecated
 DOCKER_COMPOSE_CMD := $(shell if command -v docker-compose > /dev/null; then echo "docker-compose"; else echo "docker compose"; fi)
 
+
+requirements.txt: poetry.lock
+	pip install --user poetry-plugin-export \
+	&& poetry export -f requirements.txt --output requirements.txt \
+	&& pip uninstall --yes poetry-plugin-export
+
+
 .PHONY: build
 build:
 	$(DOCKER_COMPOSE_CMD) -f ./docker-compose.yml build
@@ -12,6 +19,3 @@ start:
 .PHONY: stop
 stop:
 	$(DOCKER_COMPOSE_CMD) -f docker-compose.yml down
-	# So assets are not re-used (even after `docker system prune --all --force`)
-	docker volume rm ds-user-guide_skip-tacc-js
-	docker volume rm ds-user-guide_skip-tacc-css

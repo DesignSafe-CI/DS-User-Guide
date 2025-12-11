@@ -1,0 +1,173 @@
+site_name: DesignSafe User Guide
+site_description: DesignSafe User Guide
+site_url: https://designsafe-ci.org/user-guide/
+repo_url: https://github.com/DesignSafe-CI/DS-User-Guide
+edit_uri: edit/main/user-guide/
+docs_dir: user-guide
+# NOTE: Unrecognized by MkDocs, but recognized by ReadTheDocs theme
+site_favicon: https://www.designsafe-ci.org/favicon.ico
+
+theme:
+  name: tacc_readthedocs
+  navigation_depth: 6
+  analytics:
+    gtag: G-D96RT1T24K
+  hljs_languages:
+    - python
+    - json
+  # "ReadTheDocs" Theme Features
+  logo: img/logo.svg
+  # "TACC" Theme Features
+  logo_svg_inject: true
+  portal_url: https://designsafe-ci.org/
+  portal_name: designsafe-ci.org
+  nav_name: User Guide
+
+extra_css:
+  - css/ds-user-guide.css
+
+extra_javascript:
+  - js/ds-user-guide.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # for pymdownx.arithmatex
+
+markdown_extensions:
+  - extra
+  - admonition
+  - toc:
+      permalink: "" # i.e. `true` but without "¶"
+      permalink_class: headerlink fa fa-link
+      permalink_title: Link to Heading
+  # PyMdown Extensions
+  # - pymdownx.blocks.admonition # to use: disable `admonition`, convert `!!!`s
+  - pymdownx.blocks.details
+  - pymdownx.blocks.html
+  - pymdownx.blocks.tab
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.saneheaders
+  - pymdownx.arithmatex:
+      generic: true # for mathjax
+
+plugins:
+  - search
+  - exclude-search:
+      exclude_unreferenced: true
+  - include-markdown
+
+nav:
+  - DesignSafe Essentials:
+    - Getting Started: index.md
+    - Account Help: account-help.md
+    - DesignSafe FAQ: tools/advanced/dsfaq.md
+    - How to Cite DesignSafe: how-to-cite.md
+    - Training Resources: training.md
+
+  - DesignSafe Data Depot:
+    - Overview: datadepot.md
+    - Virtual Office Hours: https://designsafe-ci.org/facilities/virtual-office-hours/
+    - Transferring Your Data: managingdata/datatransfer.md
+    # WARNING: From here down, preserve URLs
+    #          If URLs must change, add/use redirect plugin
+    - Steps to Curate and Publish Your Datasets: curating/guides.md
+    - Best Practices for Data Curation and Publication: curating/bestpractices.md
+    - Data Dissemination and Impact: curating/metrics.md
+    - Resources for Users:
+      - Frequently Asked Questions: curating/faq.md
+      - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
+      - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
+    - About the Data Depot: datadepotrepo/about.md
+    - Policies: curating/policies.md
+
+  - Tools and Apps:
+    - Training Resources: training.md
+    - Popular:
+      - OpenSees: tools/simulation/opensees/opensees.md
+      - ADCIRC: tools/simulation/adcirc/adcirc.md
+      - OpenFoam: tools/simulation/openfoam.md
+      - Jupyter: tools/jupyterhub.md
+      - MATLAB: analysis/matlab.md
+    - Simulation:
+      - ADCIRC: tools/simulation/adcirc/adcirc.md
+      - Ansys: tools/simulation/ansys.md
+      #- ClawPack: tools/simulation/clawpack.md
+      #- Dakota: tools/simulation/dakota.md
+      - IN-CORE: tools/simulation/in-core.md
+      - LS-DYNA: tools/simulation/lsdyna.md
+      - OpenFoam: tools/simulation/openfoam.md
+      - OpenSees : tools/simulation/opensees/opensees.md
+    - Analysis:
+      - Jupyter: tools/jupyterhub.md
+      - MATLAB: analysis/matlab.md
+      - HVSRweb: analysis/hvsrweb.md
+      - SWbatch: analysis/swbatch.md
+    - GIS Tools:
+      - Hazmapper: tools/visualization/hazmapper.md
+      - QGIS: tools/visualization/qgis.md
+      - "Taggit: Basic Image Browsing and Mapping": tools/visualization/taggit-browse-map.md
+      - "Taggit: Grouping and Tagging Image Files": tools/visualization/taggit-categorize.md
+    - Visualization: tools/visualization.md
+    - Hazard Apps: tools/hazard.md
+    - Utilities: tools/utilities.md
+    - Requesting New Applications: tools/overview.md
+
+  - Recon Portal:
+    - Recon Portal User Guide: tools/recon.md
+
+# Old navigation for OpenSees
+#      - OpenSees on DesignSafe:
+#        - Overview: tools/simulation/opensees/openseesOverview.md
+#        - Project Size: tools/simulation/opensees/openseesProjectSize.md
+#        - Decision Matrix - Applications: tools/simulation/opensees/openseesDecisionMatrixApplication.md
+#        - Decision Matrix - Platforms: tools/simulation/opensees/openseesDecisionMatrixPlatform.md
+#        - OpenSees at the Linux Terminal: tools/simulation/opensees/openseesRunLinux.md
+#        - Resources: tools/simulation/opensees/openseesResources.md
+#      - OpenSees Applications :
+#        - Overview: tools/simulation/opensees/openseesApplications.md
+#        - 1. OpenSees-Express: tools/simulation/opensees/openseesExpress.md
+#        - 2. OpenSeesSP: tools/simulation/opensees/openseesSP.md
+#        - 3. OpenSeesMP: tools/simulation/opensees/openseesMP.md
+#        - 4. OpenSeesPy: tools/simulation/opensees/openseesPy.md
+#      - DesignSafe Platforms for OpenSees:
+#        - Overview: tools/simulation/opensees/openseesRunning.md
+#        - 1. The Interactive VM: tools/simulation/opensees/openseesRunVM.md
+#        - ...1a. Specifications: tools/simulation/opensees/openseesRunVM_Specs.md
+#        - 2. DesignSafe WebPortal: tools/simulation/opensees/openseesRunWebPortal.md
+#        - ...2a. Form Input: tools/simulation/opensees/openseesRunWebPortal_Form.md
+#        - ...2b. Specifications: tools/simulation/opensees/openseesRunWebPortal_Specs.md
+#        - 3. Jupyter & OpenSeesPy: tools/simulation/opensees/openseesRunJupyterPy.md
+#        - 4. Jupyter & HPC: tools/simulation/opensees/openseesRunJupyterHPC.md
+#        - 5. TACC: tools/simulation/opensees/openseesRunTACC.md
+
+
+  - Use Cases:
+    - Overview: usecases/overview.md
+    - Data Analytics:
+      - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
+      - ML and AI: usecases/vantassel_and_zhang/usecase.md
+      - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
+      - SQLite Database Management in DesignSafe: usecases/brandenberg-sqlite/usecase.md
+      - Visualization of spatially distributed data: usecases/padgett/usecase_JN_viz.md
+    - GeoHazard:
+      - NGL Database: usecases/brandenberg-ngl/usecase.md
+      - MPM Landslide: usecases/kumar/usecase.md
+    - Seismic:
+      - Seismic Response of Concrete Walls: usecases/lowes/usecase.md
+      - Soil Structure Interaction: usecases/rathje/usecase.md
+      - Experimental Shake Table Testing: usecases/mosqueda/usecase.md
+      - Shake Table Data Analysis Using ML: usecases/mosqueda/erler-mosqueda.md
+      - OpenSees Model Calibration: usecases/arduino/usecase.md
+    - Wind and Storm Surge:
+      - Field Sensing Wind Events: usecases/pinelli/usecase.md
+      - Hurricane Data Integration Visualization: usecases/pinelli/2usecase.md
+      - Wind Speed Estimation and Conversion: usecases/pinelli/3usecase.md
+      - ADCIRC Datasets: usecases/dawson/usecase2.md
+      - Large-Scale Storm Surge: usecases/dawson/usecase.md
+      - CFD Analysis of Winds on Structures: usecases/kareem/usecase.md
+      - CFD Analysis of Winds on Low-Rise Building: usecases/kareem/usecase2.md
+      - Tamkang Database: usecases/kareem/usecase3.md
+      - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
+
+  - Advanced:
+    - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
+    - Cybersecurity Policy: tools/advanced/cybersecurity.md
+    - HPC Allocations Policy: tools/advanced/hpcallocations.md
