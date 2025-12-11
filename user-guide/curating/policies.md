@@ -588,7 +588,7 @@ What does not qualify as research software:
 * Minor 'utility' packages, including 'thin' API clients, and single-function packages are not research software.
 * Exploratory visualizations or basic scripting tools to analyze data are not considered research software. These can be published along with their respective datasets.
 
-## Subsequent Publishing
+## Publishing Additional Datasets
 
 DDR enables publishing datasets subsequently within a project, and each dataset will bear a unique citation and DOI. This feature is necessary due to the timing of research projects involving multiple experiments,  simulations, and field research missions which happen over time. These datasets may involve different teams, and require the publication of different documents or datasets at different time intervals.
 
