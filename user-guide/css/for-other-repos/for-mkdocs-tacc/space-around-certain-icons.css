@@ -1,0 +1,6 @@
+/* TODO: Move to TACC/mkdocs-tacc */
+
+/* To add space before and after icon from `_text_{ .fa fa.icon-name }` */
+.document .fa::before {
+    margin-inline: 0.5ch;
+}

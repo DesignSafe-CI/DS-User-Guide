@@ -1,0 +1,28 @@
+/* TACC/CORE-STYLES */
+/* To customize TACC/Core-Styles CSS */
+/* https://github.com/TACC/Core-Styles/blob/v2/src/lib/_imports/core-styles.base.css */
+/* https://github.com/TACC/Core-Styles/blob/v2/src/lib/_imports/core-styles.docs.css */
+
+/* To use DesignSafe colors */
+@import url('https://cdn.jsdelivr.net/gh/TACC/Core-Styles@epic/v3--gh-345-tokens-from-figma/src/v3/variables/designsafe.light.css');
+:scope {
+    --global-color-accent--xxx-light: var(--color-accent-1-light-3x);
+    --global-color-accent--xx-light: var(--color-accent-1-light-2x);
+    --global-color-accent--x-light: var(--color-accent-1-light-x);
+    --global-color-accent--light: var(--color-accent-1-light);
+    --global-color-accent--normal: var(--color-accent-1-normal);
+    --global-color-accent--dark: var(--color-accent-1-dark);
+    --global-color-accent--x-dark: var(--color-accent-1-dark-x);
+    --global-color-accent--xx-dark: var(--color-accent-1-dark-2x);
+    --global-color-accent--xxx-dark: var(--color-accent-1-dark-3x);
+}
+
+/* To also support underlining headings in hovered card for `.h1` et cetera */
+/* https://github.com/DesignSafe-CI/DS-User-Guide/blob/df64c11/user-guide/docs/usecases/overview.md?plain=1#L34-L37 */
+/* https://github.com/TACC/Core-Styles/blob/v2.27.0/src/lib/_imports/components/c-card--docs.css#L23-L29 */
+a[class*=card--]:hover :is( .h1, .h2, .h3, .h4, .h5, .h6 ) {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: var(--global-border-width--normal);
+    text-underline-offset: .2em;
+}

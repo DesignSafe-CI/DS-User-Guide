@@ -1,0 +1,4 @@
+/* A custom horizontal rule to use between large documents */
+hr.spacer {
+    margin-block: 20rem 5rem;
+}

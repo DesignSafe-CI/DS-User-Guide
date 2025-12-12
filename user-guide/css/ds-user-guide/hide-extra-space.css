@@ -1,0 +1,17 @@
+/* To hide unused space at bottom of overview pages */
+/* https://github.com/TACC/TACC-Docs/blob/a9d01e1/docs/css/core/tacc-docs.css#L568-L574 */
+[data-page-name$="usecases/overview.md"] footer {
+  display: none; /* undo theme.css */
+}
+[data-page-name$="usecases/overview.md"] .wy-nav-content {
+  padding-bottom: 0; /* undo theme.css */
+}
+
+/* To hide extra spacing caused by paragraph side-effect of nested <details> */
+details li > p {
+    margin: 0;
+}
+/* To hide extra spacing caused by core-styles space on all <details> */
+li > details {
+    margin: 0;
+}
