@@ -1,0 +1,4 @@
+/* To hide anchor link for deeper headings */
+:is(h4, h5, h6) .headerlink {
+  display: none;
+}

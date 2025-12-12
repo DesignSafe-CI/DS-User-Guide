@@ -24,7 +24,7 @@ theme:
   nav_name: User Guide
 
 extra_css:
-  - css/ds-user-guide.css
+  - css/extra.css
 
 extra_javascript:
   - js/ds-user-guide.js
