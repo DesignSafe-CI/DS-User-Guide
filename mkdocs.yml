@@ -24,7 +24,7 @@ theme:
   nav_name: User Guide
 
 extra_css:
-  - css/extra.css
+  - css/import.css
 
 extra_javascript:
   - js/extra.js
