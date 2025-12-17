@@ -24,10 +24,10 @@ theme:
   nav_name: User Guide
 
 extra_css:
-  - css/ds-user-guide.css
+  - css/import.css
 
 extra_javascript:
-  - js/ds-user-guide.js
+  - js/import.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # for pymdownx.arithmatex
 
 markdown_extensions:
