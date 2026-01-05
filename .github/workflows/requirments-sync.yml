@@ -89,3 +89,4 @@ jobs:
               exit 1
             fi
             git commit -m "$commit_msg"
+          fi
