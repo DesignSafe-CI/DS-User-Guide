@@ -83,6 +83,9 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to requirements.txt"
           else
-            git commit -m "chore: auto-update requirements.txt [bot]"
-            git push
-          fi
+            commit_msg=$(sed -n '1p' .github/commit-messages/requirements_update.txt 2>/dev/null | tr -d '\r')
+            if [ -z "$commit_msg" ]; then
+              echo "::error::Missing or empty canonical commit message file: .github/commit-messages/requirements_update.txt"
+              exit 1
+            fi
+            git commit -m "$commit_msg"
