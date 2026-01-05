@@ -32,6 +32,9 @@ jobs:
       - name: Install Poetry
         run: pip install poetry
 
+      - name: Install Dependencies via Poetry
+        run: poetry install --only main --no-root
+
       - name: Detect whether requirements.txt has change
         id: detect
         run: |
