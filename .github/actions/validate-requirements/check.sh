@@ -104,3 +104,5 @@ else
   echo "Latest message: \"$latest_subject\""
   exit 1
 fi
+
+echo "'requirements.txt' unchanged or the change is allowed"
