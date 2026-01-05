@@ -49,10 +49,51 @@ jobs:
             echo "has_change=true" >> $GITHUB_OUTPUT
           fi
 
-  commit-requirements-delta:
+  prevent-bot-commit-if-human-edit:
     runs-on: ubuntu-latest
     needs: detect-requirements-delta
     if: needs.detect-requirements-delta.outputs.has_change == 'true'
+    outputs:
+      is_human_edit: ${{ steps.check.outputs.is_human_edit }}
+      offender_author: ${{ steps.check.outputs.offender_author }}
+      offender_subject: ${{ steps.check.outputs.offender_subject }}
+    env:
+      ALLOWED_BOTS: 'github-actions[bot],dependabot[bot]'
+      COMMIT_MSG_FILE: .github/commit-messages/requirements_update.txt
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Check for human edits
+        id: check
+        env:
+          MODE: detect
+        run: bash ./.github/actions/validate-requirements/check.sh
+
+      - name: Comment on PR about human edit
+        if: steps.check.outputs.is_human_edit == 'true'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const author = `${{ steps.check.outputs.offender_author }}`
+            const subject = `${{ steps.check.outputs.offender_subject }}`
+            const body = `Undo edits to \`requirements.txt\` in this PR. That file is maintained by a bot; human edits should be reverted so the bot can manage it. Offending commit by ${author}: "${subject}". If you intended to pin a dependency, use \`poetry add <package>\`.`
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            })
+
+  commit-requirements-delta:
+    runs-on: ubuntu-latest
+    needs: [detect-requirements-delta, prevent-bot-commit-if-human-edit]
+    if: needs.detect-requirements-delta.outputs.has_change == 'true' && needs.prevent-bot-commit-if-human-edit.outputs.is_human_edit == 'false'
     env:
       COMMIT_MSG_FILE: .github/commit-messages/requirements_update.txt
 

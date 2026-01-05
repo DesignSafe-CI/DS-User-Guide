@@ -2,6 +2,8 @@
 set -euo pipefail
 IFS=$'\n\t'
 
+# Mode: "validate" (default, exits non-zero on human edit) or "detect" (outputs to GITHUB_OUTPUT)
+MODE="${MODE:-validate}"
 ALLOWED_BOTS="${ALLOWED_BOTS:-github-actions[bot],dependabot[bot]}"
 
 # Determine the comparison range
@@ -24,49 +26,69 @@ else
   COMPARE_RANGE="HEAD~1..HEAD"
 fi
 
-# If requirements.txt changed in comparison range, ensure latest change's commit was authored by an allowed bot, or the latest commit message exactly matches the canonical bot commit message, or fallback to any bot-authored commit
-if git diff --name-only $COMPARE_RANGE | grep -q "^requirements.txt$"; then
-  # Get commits touching requirements.txt in the range
-  commits=$(git log --pretty=format:'%H' $COMPARE_RANGE -- requirements.txt || true)
-
-  if [ -z "$commits" ]; then
-    echo "::error::No commits found touching requirements.txt in range $COMPARE_RANGE"
-    exit 1
+# Check if requirements.txt changed
+if ! git diff --name-only $COMPARE_RANGE | grep -q "^requirements.txt$"; then
+  echo "'requirements.txt' unchanged"
+  if [ "$MODE" = "detect" ]; then
+    echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   fi
+  exit 0
+fi
 
-  # Build a grep-friendly regex from comma-separated allowed bots
-  allowed_regex=$(echo "$ALLOWED_BOTS" | sed 's/,/\\|/g')
+# Get latest commit that touched requirements.txt
+latest_sha=$(git log -1 --pretty=format:'%H' $COMPARE_RANGE -- requirements.txt || true)
 
-  # Read canonical commit message first line if available
-  canonical_msg=""
-  if [ -n "${COMMIT_MSG_FILE:-}" ] && [ -f "$COMMIT_MSG_FILE" ]; then
-    canonical_msg=$(sed -n '1p' "$COMMIT_MSG_FILE" | tr -d '\r')
+if [ -z "$latest_sha" ]; then
+  echo "::error::No commits found touching requirements.txt in range $COMPARE_RANGE"
+  if [ "$MODE" = "detect" ]; then
+    echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   fi
-
-  # Short check: report any commit touching requirements.txt in the range that is not authored by an allowed bot and does not exactly match the canonical bot commit message (first line)
-  offending=$(git log $COMPARE_RANGE --pretty=format:'%H|%an|%s' -- requirements.txt |
-    while IFS='|' read -r sha author subject; do
-      if echo "$author" | grep -qE "^($allowed_regex)$"; then
-        continue
-      fi
-      if [ -n "$canonical_msg" ] && [ "$subject" = "$canonical_msg" ]; then
-        continue
-      fi
-      printf '%s|%s|%s\n' "$sha" "$author" "$subject"
-      break
-    done)
-
-  if [ -z "$offending" ]; then
-    echo "All commits touching requirements.txt in the range are from allowed bots or canonical bot messages: OK"
-    exit 0
-  fi
-
-  echo "::error::You may NOT edit 'requirements.txt'"
-  echo "::warning::Undo your changes to requirements.txt, so robot can maintain it."
-  echo "::notice::To pin dependencies, use 'poetry add <package-name>'."
-  echo "Offending commit(s):"
-  echo "$offending" | sed 's/^/  /'
   exit 1
 fi
 
-echo "'requirements.txt' unchanged (or latest change by allowed bot/marker)"
+latest_author=$(git show -s --format='%an' "$latest_sha")
+latest_committer=$(git show -s --format='%cn' "$latest_sha")
+latest_message=$(git show -s --format='%B' "$latest_sha")
+latest_subject=$(echo "$latest_message" | head -n1 | sed -e 's/[[:space:]]*$//')
+
+# Build a grep-friendly regex from comma-separated allowed bots
+allowed_regex=$(echo "$ALLOWED_BOTS" | sed 's/,/\\|/g')
+
+# Check 1: author or committer is allowed bot
+if echo "$latest_author" | grep -qE "^($allowed_regex)$" || echo "$latest_committer" | grep -qE "^($allowed_regex)$"; then
+  echo "Latest change by allowed bot: OK"
+  if [ "$MODE" = "detect" ]; then
+    echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+  fi
+  exit 0
+fi
+
+# Check 2: commit message exactly matches canonical message
+if [ -n "${COMMIT_MSG_FILE:-}" ] && [ -f "$COMMIT_MSG_FILE" ]; then
+  canonical_msg=$(sed -n '1p' "$COMMIT_MSG_FILE" | tr -d '\r')
+  if [ "$latest_subject" = "$canonical_msg" ]; then
+    echo "Latest commit message exactly matches canonical bot message: OK"
+    if [ "$MODE" = "detect" ]; then
+      echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+    fi
+    exit 0
+  fi
+fi
+
+# Human edit detected
+if [ "$MODE" = "detect" ]; then
+  echo "human_edit=true" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+  echo "offender_author=$latest_author" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+  echo "offender_subject=$latest_subject" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+  echo "Human edit detected"
+  exit 0
+else
+  echo "::error::You may NOT edit 'requirements.txt'"
+  echo "::warning::Undo your changes to requirements.txt, so robot can maintain it."
+  echo "::notice::To pin dependencies, use 'poetry add <package-name>'."
+  echo "Latest commit: $latest_sha"
+  echo "Latest author: $latest_author"
+  echo "Latest committer: $latest_committer"
+  echo "Latest message: $latest_subject"
+  exit 1
+fi
