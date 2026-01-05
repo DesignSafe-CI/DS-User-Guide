@@ -5,15 +5,15 @@ IFS=$'\n\t'
 ALLOWED_BOTS="${ALLOWED_BOTS:-github-actions[bot],dependabot[bot]}"
 
 # Determine the comparison range
-is_pr=;
+is_pr=""
 if [ "${GITHUB_EVENT_NAME:-}" = "pull_request" ]; then
   is_pr=1
 fi
-has_base_ref=;
+has_base_ref=""
 if [ -n "${GITHUB_BASE_REF:-}" ]; then
   has_base_ref=1
 fi
-origin_base_ref_exists=;
+origin_base_ref_exists=""
 if [ -n "${GITHUB_BASE_REF:-}" ] && git rev-parse --verify "origin/${GITHUB_BASE_REF}" >/dev/null 2>&1; then
   origin_base_ref_exists=1
 fi
