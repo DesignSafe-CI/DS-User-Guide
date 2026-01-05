@@ -1,0 +1,33 @@
+name: "Validate requirements"
+
+description: |
+  Reject direct edits to `requirements.txt` by humans: the action fails if
+  any commit touching the file in the compare range appears to be authored by a
+  human or otherwise not from an allowed bot (unless the commit message exactly
+  matches the canonical bot commit message).
+
+inputs:
+  allowed_bots:
+    description: "Comma-separated list of allowed bot author names"
+    required: false
+    default: "github-actions[bot],dependabot[bot]"
+  commit_message_file:
+    description: "Path to file that contains canonical commit message (exact match)"
+    required: false
+    default: ".github/commit-messages/requirements_update.txt"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Run requirements check
+      shell: bash
+      env:
+        ALLOWED_BOTS: ${{ inputs.allowed_bots }}
+        COMMIT_MSG_FILE: ${{ inputs.commit_message_file }}
+      run: |
+        bash ./.github/actions/validate-requirements/check.sh
