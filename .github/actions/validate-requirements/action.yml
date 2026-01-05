@@ -1,8 +1,10 @@
 name: "Validate requirements"
 
 description: |
-  Reject changes to `requirements.txt` unless the latest commit that touched
-  the file in the compare range was authored by an allowed bot.
+  Reject direct edits to `requirements.txt` by humans: the action fails if
+  any commit touching the file in the compare range appears to be authored by a
+  human or otherwise not from an allowed bot (unless the commit message exactly
+  matches the canonical bot commit message).
 
 inputs:
   allowed_bots:
