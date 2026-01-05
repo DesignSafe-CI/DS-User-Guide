@@ -7,6 +7,8 @@ on:
 jobs:
   check-requirements:
     runs-on: ubuntu-latest
+    env:
+      COMMIT_MSG_FILE: .github/commit-messages/requirements_update.txt
 
     steps:
       - name: Checkout code
@@ -18,4 +20,5 @@ jobs:
         uses: ./.github/actions/validate-requirements
         with:
           allowed_bots: 'github-actions[bot],dependabot[bot]'
+          commit_message_file: ${{ env.COMMIT_MSG_FILE }}
 
