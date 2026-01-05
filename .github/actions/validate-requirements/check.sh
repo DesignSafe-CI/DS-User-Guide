@@ -30,9 +30,21 @@ fi
 if ! git diff --name-only $COMPARE_RANGE | grep -q "^requirements.txt$"; then
   echo "'requirements.txt' unchanged"
   if [ "$MODE" = "detect" ]; then
-    echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+    echo "is_human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   fi
   exit 0
+fi
+
+# Check if requirements.txt differs from base (net change across all commits in range)
+if [ -n "$is_pr" ] && [ -n "$has_base_ref" ] && [ -n "$origin_base_ref_exists" ]; then
+  BASE_REF_PARSED="origin/${GITHUB_BASE_REF}"
+  if git diff --quiet "$BASE_REF_PARSED" HEAD -- requirements.txt; then
+    echo "requirements.txt touched but matches base branch (likely reverted): OK"
+    if [ "$MODE" = "detect" ]; then
+      echo "is_human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+    fi
+    exit 0
+  fi
 fi
 
 # Get latest commit that touched requirements.txt
@@ -41,7 +53,7 @@ latest_sha=$(git log -1 --pretty=format:'%H' $COMPARE_RANGE -- requirements.txt 
 if [ -z "$latest_sha" ]; then
   echo "::error::No commits found touching requirements.txt in range $COMPARE_RANGE"
   if [ "$MODE" = "detect" ]; then
-    echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+    echo "is_human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   fi
   exit 1
 fi
@@ -58,7 +70,7 @@ allowed_regex=$(echo "$ALLOWED_BOTS" | sed 's/,/\\|/g')
 if echo "$latest_author" | grep -qE "^($allowed_regex)$" || echo "$latest_committer" | grep -qE "^($allowed_regex)$"; then
   echo "Latest change by allowed bot: OK"
   if [ "$MODE" = "detect" ]; then
-    echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+    echo "is_human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   fi
   exit 0
 fi
@@ -69,7 +81,7 @@ if [ -n "${COMMIT_MSG_FILE:-}" ] && [ -f "$COMMIT_MSG_FILE" ]; then
   if [ "$latest_subject" = "$canonical_msg" ]; then
     echo "Latest commit message exactly matches canonical bot message: OK"
     if [ "$MODE" = "detect" ]; then
-      echo "human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+      echo "is_human_edit=false" >> "${GITHUB_OUTPUT:-/dev/stdout}"
     fi
     exit 0
   fi
@@ -77,7 +89,7 @@ fi
 
 # Human edit detected
 if [ "$MODE" = "detect" ]; then
-  echo "human_edit=true" >> "${GITHUB_OUTPUT:-/dev/stdout}"
+  echo "is_human_edit=true" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   echo "offender_author=$latest_author" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   echo "offender_subject=$latest_subject" >> "${GITHUB_OUTPUT:-/dev/stdout}"
   echo "Human edit detected"

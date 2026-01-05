@@ -82,7 +82,7 @@ jobs:
           script: |
             const author = `${{ steps.check.outputs.offender_author }}`
             const subject = `${{ steps.check.outputs.offender_subject }}`
-            const body = `Undo edits to \`requirements.txt\` in this PR. That file is maintained by a bot; human edits should be reverted so the bot can manage it. Offending commit by ${author}: "${subject}". If you intended to pin a dependency, use \`poetry add <package>\`.`
+            const body = `Please undo edits to \`requirements.txt\` in this PR. This file is maintained by a bot and human edits should be reverted so the bot can manage it. Offending commit by ${author}: "${subject}". If you intended to pin a dependency, use \`poetry add <package>\`.`
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
