@@ -266,14 +266,14 @@ cache = ["platformdirs"]
 
 [[package]]
 name = "mkdocs-tacc"
-version = "1.0.1"
+version = "1.0.2"
 description = "TACC-specific MkDocs theme"
 optional = false
 python-versions = "<3.13,>=3.10"
 groups = ["main"]
 files = [
-    {file = "mkdocs_tacc-1.0.1-py3-none-any.whl", hash = "sha256:f14ac8d3833bb43447cdb91210f6179e85fe5bef92f7d948ac9c50e41ec8e6c0"},
-    {file = "mkdocs_tacc-1.0.1.tar.gz", hash = "sha256:08b8e0b1ab5bdcdfea493c2f18077723b36569afdd71a23a5d097fb7942799ea"},
+    {file = "mkdocs_tacc-1.0.2-py3-none-any.whl", hash = "sha256:2beb36590dc00ec8f815ba59bcf6a3e876ffe2106bcc4a235db9ea04cb2a1601"},
+    {file = "mkdocs_tacc-1.0.2.tar.gz", hash = "sha256:9eb65c4701206fdc17ebbc2555c2750ef3de8de64ed3142b0e45f5df32390e4e"},
 ]
 
 [package.dependencies]
