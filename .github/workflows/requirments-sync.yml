@@ -3,7 +3,7 @@ name: Sync requirements.txt with pyproject.toml
 
 on:
   pull_request:
-    paths: ['pyproject.toml']
+    paths: ['pyproject.toml', 'poetry.lock']
     types: [opened, synchronize, reopened]
 
 permissions:
