@@ -101,6 +101,6 @@ else
   echo "Latest commit: $latest_sha"
   echo "Latest author: $latest_author"
   echo "Latest committer: $latest_committer"
-  echo "Latest message: $latest_subject"
+  echo "Latest message: \"$latest_subject\""
   exit 1
 fi
