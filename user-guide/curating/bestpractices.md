@@ -97,11 +97,11 @@ In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https:/
 * To version research software from Github, users should first create a new release in the software repository, update the URL in their dataset, and then proceed to version.
 * Changes in version number may not coincide between GitHub and DesignSafe. DesignSafe versioning is linear (e.g. `1`, `2`, `3`, …), while GitHub has a non-linear order (e.g. `1.10.5`, `2.0.0`). In addition a researcher may have many versions released in GitHub before they publish for the first time in DesignSafe. Consider that a "Software Release" field displayed in the metadata shows the release that has been published.
 
-#### Adding DesignSafe Research Software Citation with DOI to GitHub Repository
+#### Adding Software Citation with DOI to GitHub Repository {#adding-citation-to-github-repo}
 
 Other users that access software from GitHub should have the opportunity to cite the research software using the formal citation with a DOI. For this, the DesignSafe citation including the DOI should be available in the GitHub repo.
 
-So, once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](/user-guide/curating/github-cite-this-repo/).
+So, once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](#adding-citation-to-github-repo).
 
 ##### Jupyter Notebooks as Research Software
 
