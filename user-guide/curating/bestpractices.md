@@ -92,12 +92,12 @@ In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https:/
 * Often researchers include data in their research software publications. Since Github is not a data repository, when using Project Type Research Software,  data can be published in DesignSafe using Project Type "Other," or another corresponding Project Type. Instead, if you use Project Type "Other" to publish Research Software, you can also include the data.
 * When present, the relation between the research software and the corresponding dataset should be indicated. From the research software publication, the dataset should be noted in the Related Work /linked entry available in the curation form. From the dataset publication, the research software should be related via the Referenced Data and Software/cites entry available in the curation form.  These linkages connect both publications, from data to software and vice versa. Linkages can be added after the data or the software have been published via Amends. The location of the dataset should also be  noted in the software Readme file.
 
-Versioning Research Software:
+#### Versioning Research Software
 
 * To version research software from Github, users should first create a new release in the software repository, update the URL in their dataset, and then proceed to version.
 * Changes in version number may not coincide between GitHub and DesignSafe. DesignSafe versioning is linear (e.g. `1`, `2`, `3`, …), while GitHub has a non-linear order (e.g. `1.10.5`, `2.0.0`). In addition a researcher may have many versions released in GitHub before they publish for the first time in DesignSafe. Consider that a "Software Release" field displayed in the metadata shows the release that has been published.
 
-Adding the DesignSafe research software citation with DOI to the GitHub repository:
+#### Adding DesignSafe Research Software Citation with DOI to GitHub Repository
 
 * Other users that access software from GitHub should have the opportunity to cite the research software using the formal citation with a DOI. For this, the DesignSafe citation including the DOI should be available in the GitHub repo.
 * Once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](/user-guide/curating/github-cite-this-repo/).
