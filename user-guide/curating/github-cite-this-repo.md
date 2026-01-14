@@ -6,11 +6,11 @@ GitHub will show a "Cite this repository" link on your repository's homepage whe
 
 1. Create a `CITATION.cff` file using the [cff-initializer tool](https://citation-file-format.github.io/cff-initializer-javascript/).
 
-	> [!NOTE]
-	> You can add or update this file at any time, **before** a release (if you know the version number in advance) or **after** a release. [Learn more.](#updating-version-in-citation-file)
+	!!! tip
+		You can add or update this file at any time, **before** a release (if you know the version number in advance) or **after** a release. [Learn more.](#updating-version-in-citation-file)
 
-	> [!WARNING]
-	> If you have a build pipeline with a programmatically defined version, consider adjusting it to ensure the `CITATION.cff` file version has correct version number when a new software version is built.
+	!!! important
+		If you have a build pipeline with a programmatically defined version, consider adjusting it to ensure the `CITATION.cff` file version has correct version number when a new software version is built.
 
 2. Add the `CITATION.cff` file to the root directory of your repository's default branch.
 
