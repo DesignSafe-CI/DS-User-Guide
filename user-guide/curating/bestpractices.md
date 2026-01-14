@@ -99,8 +99,9 @@ In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https:/
 
 #### Adding DesignSafe Research Software Citation with DOI to GitHub Repository
 
-* Other users that access software from GitHub should have the opportunity to cite the research software using the formal citation with a DOI. For this, the DesignSafe citation including the DOI should be available in the GitHub repo.
-* Once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](/user-guide/curating/github-cite-this-repo/).
+Other users that access software from GitHub should have the opportunity to cite the research software using the formal citation with a DOI. For this, the DesignSafe citation including the DOI should be available in the GitHub repo.
+
+So, once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](/user-guide/curating/github-cite-this-repo/).
 
 ##### Jupyter Notebooks as Research Software
 
