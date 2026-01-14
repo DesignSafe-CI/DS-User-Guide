@@ -103,7 +103,7 @@ Other users that access software from GitHub should have the opportunity to cite
 
 So, once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](/user-guide/curating/github-cite-this-repo/).
 
-##### Jupyter Notebooks as Research Software
+### Jupyter Notebooks as Research Software
 
 If planning to publish a Jupyter Notebook in the DDR, the content must comply with the definition of research software available in the [Research Software Publication Policy](/user-guide/curating/policies/#publishing-research-software). Thus, the content of the Jupyter Notebook must be a contribution to solving a scientific problem. It should also comply with [Research Software Best Practices](#research-software) outlined above. 
 
