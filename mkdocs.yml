@@ -73,6 +73,7 @@ nav:
     - Data Dissemination and Impact: curating/metrics.md
     - Resources for Users:
       - Frequently Asked Questions: curating/faq.md
+      - Github's "Cite this Repository": curating/github-cite-this-repo.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
       - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
     - About the Data Depot: datadepotrepo/about.md
