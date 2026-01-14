@@ -95,7 +95,7 @@ In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https:/
 Versioning Research Software:
 
 * To version research software from Github, users should first create a new release in the software repository, update the URL in their dataset, and then proceed to version.
-* Changes in version number may not coincide between GitHub and DesignSafe. DesignSafe versioning is linear (e.g. `1`, `2`, `3`, …), while GitHub has a non-linear order (e.g. `1.10.5`, `2.0.0`). In addition a researcher may have many versions cut in GitHub before they publish for the first time in DesignSafe. Consider that a "Software Release" field displayed in the metadata shows the release that has been published.
+* Changes in version number may not coincide between GitHub and DesignSafe. DesignSafe versioning is linear (e.g. `1`, `2`, `3`, …), while GitHub has a non-linear order (e.g. `1.10.5`, `2.0.0`). In addition a researcher may have many versions released in GitHub before they publish for the first time in DesignSafe. Consider that a "Software Release" field displayed in the metadata shows the release that has been published.
 
 Adding the DesignSafe research software citation with DOI to the GitHub repository:
 
