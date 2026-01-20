@@ -576,12 +576,13 @@ Below are the requirements for publishing research software in the DDR:
 
 * Research software should be open source, which includes being distributed with an open source license. The software license offered in the Data Depot is the 3-Clause BSD License.
 * If the research software uses libraries/dependencies, their respective licenses should allow reuse without restrictions.
-* Within the publication package a CodeMeta file (in `json` format) with information that allows for attribution, dissemination, reuse, and interoperability of the research software should be included.
+* Within the publication package a [CodeMeta file (in `json` format)](https://codemeta.github.io/codemeta-generator/) with information that allows for attribution, dissemination, reuse, and interoperability of the research software should be included.
 * Also include a `Readme` file that explains how to install and use the software.
 * Prior to publishing, users agree that the software is functional and works according to the instructions provided in the readme file.
 * Research software should be self contained. While it should be possible to use the software with published data in DesignSafe or within DesignSafe Tools and Applications, it should not be written such that it is dependent on absolute file paths in DesignSafe data publications or on external file systems.
 * Research software publications should not include datasets. Instead datasets that are used by the research software for training, testing, validation, etc. should be published as a stand-alone datasets and linked to the research software publication via the Related Work/linked entry available in the curation form. In turn, a dataset can be related to the research software publication via the Referenced Data and Software/cites entry available in the curation form.
-* For guidance on publishing good quality research software, see Research Software Best Practices.
+* The citation and DOI obtained should be included in the GitHub repo and [show as Cite this Repository](/user-guide/curating/github-cite-this-repo/).
+* For guidance on publishing good quality research software, see [Research Software Best Practices](/user-guide/curating/bestpractices/#research-software).
 
 What does not qualify as research software:
 

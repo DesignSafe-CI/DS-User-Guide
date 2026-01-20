@@ -1,0 +1,9 @@
+/* To style definition lists */
+/* https://python-markdown.github.io/extensions/definition_lists/ */
+/* TODO: Consider moving to Core-Styles and demo-ing in Mkdocs-TACC */
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
+}
