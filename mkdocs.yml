@@ -92,12 +92,12 @@ nav:
       - Ansys: tools/simulation/ansys.md
       #- ClawPack: tools/simulation/clawpack.md
       #- Dakota: tools/simulation/dakota.md
+      - EE-UQ: https://nheri-simcenter.github.io/EE-UQ-Documentation/
+      - Hydro-UQ: https://nheri-simcenter.github.io/Hydro-Documentation/
       - IN-CORE: tools/simulation/in-core.md
       - LS-DYNA: tools/simulation/lsdyna.md
       - OpenFoam: tools/simulation/openfoam.md
       - OpenSees: tools/simulation/opensees/opensees.md
-      - EE-UQ: https://nheri-simcenter.github.io/EE-UQ-Documentation/
-      - Hydro-UQ: https://nheri-simcenter.github.io/Hydro-Documentation/
       - PBE: https://nheri-simcenter.github.io/PBE-Documentation/
       - quoFEM: https://nheri-simcenter.github.io/quoFEM-Documentation/
       - R2D: https://nheri-simcenter.github.io/R2D-Documentation/
