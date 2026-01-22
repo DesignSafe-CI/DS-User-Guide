@@ -10,4 +10,4 @@
 import('./inbox.module.js');
 
 /* Organize established scripts */
-import('./ds-user-guide/sample.module.js');
+import('./ds-user-guide/add-simcenter-label.module.js');
