@@ -572,3 +572,25 @@ In **Order Authors**, order the authors of the publication and preview how your 
 In **Licenses**, select one or more licenses that best fit your data.
 
 Finally, click **Request DOI & Publish** and agree to the agreement to publish your work.
+
+---
+## Versioning
+
+After publishing, you can publish new versions of datasets if you wish to update the files/data. A version number will be appended to the end of the citation.
+
+Notice: If you only need to update metadata, you can amend the metadata without creating a new version.
+
+### 1. Make Changes in Curation Directory
+Add and remove files from a dataset (Experiment, Simulation, Mission, or anything with a DOI) in the **Curation Directory**, before selecting Prepare to Publish.
+
+### 2. Preview the Updated Dataset
+Make sure the new version of the dataset is correct by using the publication preview to proofread how it will appear once published.
+
+### 3. Prepare to Publish New Versions
+Image of fork in road screen
+
+If you made changes across multiple datasets, select each dataset to be updated.
+
+image of selection screen
+### 3. Explain Changes & Publish
+image of explanation screen
