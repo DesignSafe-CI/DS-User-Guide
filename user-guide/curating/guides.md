@@ -602,7 +602,7 @@ Select each published dataset that has been updated and continue. Datasets that 
 
 ### 3. Explain Changes & Publish
 
-![](./imgs/guide-versioning-3.png)
+![](./imgs/guide-versioning-3a.png)
 
 You will be asked to explain the changes made to this new version. This will help someone viewing your data to understand its history, so be thorough in your explanation.
 
