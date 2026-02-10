@@ -578,19 +578,33 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 After publishing, you can publish new versions of datasets if you wish to update the files/data. A version number will be appended to the end of the citation.
 
-Notice: If you only need to update metadata, you can amend the metadata without creating a new version.
+Note: If you only need to update metadata, you can amend the metadata without creating a new version. See step 3 for where to do this.
 
 ### 1. Make Changes in Curation Directory
-Add and remove files from a dataset (Experiment, Simulation, Mission, or anything with a DOI) in the **Curation Directory**, before selecting Prepare to Publish.
 
-### 2. Preview the Updated Dataset
-Make sure the new version of the dataset is correct by using the publication preview to proofread how it will appear once published.
+![](./imgs/guide-versioning-1a.png)
+Remove files from a dataset (Experiment, Simulation, Mission, or anything with a DOI) in the **Curation Directory** by removing their relationship to the dataset or the category/collection within the dataset.
+
+
+![](./imgs/guide-versioning-1b.png)
+Add new files to the dataset by assigning them to a dataset or a category/collection within a dataset.
+
+For project type Other, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new file is uploaded in the Curation or Working Directory. Selecting which files will appear in the version occurs in the next step for project type Other.
 
 ### 3. Prepare to Publish New Versions
-Image of fork in road screen
+![](./imgs/guide-versioning-2a.png)
+After selecting Prepare to Publish, you will be given the choice to Publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
 
-If you made changes across multiple datasets, select each dataset to be updated.
+Note: If you only need to update metadata, select **Amend**.
 
-image of selection screen
+Select each published dataset that has been updated and continue. Datasets that have not been published for the first time cannot be selected. For project type Other, select each file to be included in the new version.
+![](./imgs/guide-versioning-2b.png)
+
 ### 3. Explain Changes & Publish
-image of explanation screen
+
+![](./imgs/guide-versioning-3.png)
+
+You will be asked to explain the changes made to this new version. This will help someone viewing your data to understand its history, so be thorough in your explanation.
+
+![](./imgs/guide-versioning-3b.png)
+Once published, a viewer will be able to toggle between the versions.
