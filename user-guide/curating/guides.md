@@ -592,7 +592,7 @@ Add new files to the dataset by assigning them to a dataset or a category/collec
 
 For **Project Type Other**, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new files are in the **Curation Directory** so they can be selected for the new version in step 2.
 
-### 2. Prepare to Publish New Versions
+### 2. Prepare to Version
 
 ![](./imgs/guide-versioning-2a.png)
 
