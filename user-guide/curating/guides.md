@@ -583,21 +583,26 @@ Note: If you only need to update metadata, you can amend the metadata without cr
 ### 1. Make Changes in Curation Directory
 
 ![](./imgs/guide-versioning-1a.png)
+
 Remove files from a dataset (Experiment, Simulation, Mission, or anything with a DOI) in the **Curation Directory** by removing their relationship to the dataset or the category/collection within the dataset.
 
 
 ![](./imgs/guide-versioning-1b.png)
+
 Add new files to the dataset by assigning them to a dataset or a category/collection within a dataset.
 
 For project type Other, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new file is uploaded in the Curation or Working Directory. Selecting which files will appear in the version occurs in the next step for project type Other.
 
 ### 3. Prepare to Publish New Versions
+
 ![](./imgs/guide-versioning-2a.png)
+
 After selecting Prepare to Publish, you will be given the choice to Publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
 
 Note: If you only need to update metadata, select **Amend**.
 
 Select each published dataset that has been updated and continue. Datasets that have not been published for the first time cannot be selected. For project type Other, select each file to be included in the new version.
+
 ![](./imgs/guide-versioning-2b.png)
 
 ### 3. Explain Changes & Publish
@@ -607,4 +612,5 @@ Select each published dataset that has been updated and continue. Datasets that 
 You will be asked to explain the changes made to this new version. This will help someone viewing your data to understand its history, so be thorough in your explanation.
 
 ![](./imgs/guide-versioning-3b.png)
+
 Once published, a viewer will be able to toggle between the versions.
