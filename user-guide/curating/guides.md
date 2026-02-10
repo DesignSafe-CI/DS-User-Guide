@@ -602,7 +602,7 @@ Select **Prepare to Publish / Amend / Version** in the **Publication Preview** a
 
 ![](./imgs/guide-versioning-2b.png)
 
-Select each published dataset that has been updated and continue. Datasets that have not been published for the first time cannot be selected. 
+Select each published dataset that has been updated and continue. You can version multiple datasets at once. Datasets that have not been published for the first time cannot be selected. 
 
 For **Project Type Other**, select each file to be included in the new version.
 
