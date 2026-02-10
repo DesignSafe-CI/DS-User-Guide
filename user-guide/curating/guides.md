@@ -588,7 +588,7 @@ Remove files from a dataset (Experiment, Simulation, Mission, or anything with a
 
 ![](./imgs/guide-versioning-1b.png)
 
-Add new files to the dataset by assigning them to a dataset or a category/collection within a dataset.
+Add new files by assigning them to a dataset or a category/collection within a dataset.
 
 For **Project Type Other**, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new files are in the **Curation Directory** so they can be selected for the new version in step 2.
 
