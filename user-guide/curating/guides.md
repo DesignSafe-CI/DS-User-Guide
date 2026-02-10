@@ -578,7 +578,7 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 After publishing, you can publish new versions of datasets if you wish to update the files/data. A version number will be appended to the end of the citation.
 
-Note: If you only need to update metadata, you can amend the metadata without creating a new version. Simply change the metadata in the curation directory, then select Amend after selecting Prepare to Publish (See step 2).
+**Note:** If you only need to update metadata, you can amend the metadata without creating a new version. Simply change the metadata in the curation directory, then select **Amend** after selecting **Prepare to Publish / Version / Amend** (See step 2).
 
 ### 1. Make Changes in Curation Directory
 
@@ -590,13 +590,13 @@ Remove files from a dataset (Experiment, Simulation, Mission, or anything with a
 
 Add new files to the dataset by assigning them to a dataset or a category/collection within a dataset.
 
-For project type Other, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new files are in the Curation or Working Directory so they can be selected for the new version in step 2.
+For **Project Type Other**, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new files are in the **Curation** or **Working Directory** so they can be selected for the new version in step 2.
 
 ### 2. Prepare to Publish New Versions
 
 ![](./imgs/guide-versioning-2a.png)
 
-Select **Prepare to Publish / Amend / Version** in the Publication Preview and you will be given the choice to Publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
+Select **Prepare to Publish / Amend / Version** in the **Publication Preview** and you will be given the choice to publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
 
 Note: If you only need to update metadata, select **Amend**.
 
@@ -604,7 +604,7 @@ Note: If you only need to update metadata, select **Amend**.
 
 Select each published dataset that has been updated and continue. Datasets that have not been published for the first time cannot be selected. 
 
-For project type Other, select each file to be included in the new version.
+For **Project Type Other**, select each file to be included in the new version.
 
 ### 3. Explain Changes & Publish
 
