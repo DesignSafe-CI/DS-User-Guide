@@ -596,7 +596,7 @@ For **Project Type Other**, new files do not need to be assigned to a specific d
 
 ![](./imgs/guide-versioning-2a.png)
 
-Select **Prepare to Publish / Amend / Version** in the **Publication Preview** and you will be given the choice to publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
+Select **Prepare to Publish / Amend / Version** in the **Publication Preview** and you will be given the choice to publish new datasets to your project, amend metadata, or version an existing published datasets. Select **Version** to continue.
 
 Note: If you only need to update metadata, select **Amend**.
 
