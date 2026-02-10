@@ -578,14 +578,13 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 
 After publishing, you can publish new versions of datasets if you wish to update the files/data. A version number will be appended to the end of the citation.
 
-Note: If you only need to update metadata, you can amend the metadata without creating a new version. See step 3 for where to do this.
+Note: If you only need to update metadata, you can amend the metadata without creating a new version. Simply change the metadata in the curation directory, then select Amend after selecting Prepare to Publish (See step 3).
 
 ### 1. Make Changes in Curation Directory
 
 ![](./imgs/guide-versioning-1a.png)
 
 Remove files from a dataset (Experiment, Simulation, Mission, or anything with a DOI) in the **Curation Directory** by removing their relationship to the dataset or the category/collection within the dataset.
-
 
 ![](./imgs/guide-versioning-1b.png)
 
@@ -597,13 +596,13 @@ For project type Other, new files do not need to be assigned to a specific datas
 
 ![](./imgs/guide-versioning-2a.png)
 
-After selecting Prepare to Publish, you will be given the choice to Publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
+Select Prepare to Publish in the Publication Preview and you will be given the choice to Publish new datasets to your project, amend metadata, or version an existing published dataset. Select **Version** to continue.
 
 Note: If you only need to update metadata, select **Amend**.
 
-Select each published dataset that has been updated and continue. Datasets that have not been published for the first time cannot be selected. For project type Other, select each file to be included in the new version.
-
 ![](./imgs/guide-versioning-2b.png)
+
+Select each published dataset that has been updated and continue. Datasets that have not been published for the first time cannot be selected. For project type Other, select each file to be included in the new version.
 
 ### 3. Explain Changes & Publish
 
