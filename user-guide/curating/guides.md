@@ -576,21 +576,21 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ---
 ## Versioning
 
-After publishing, you can publish new versions of datasets if you wish to update the files/data. A version number will be appended to the end of the citation.
+After publishing, you can publish new versions of datasets (Datasets contain a DOI, such as an Experiment, Simulation, or Mission) if you wish to update the files/data. A version number will be appended to the end of the citation, but the DOI will not change.
 
-**Note:** If you only need to update metadata, you can amend the metadata without creating a new version. Simply change the metadata in the curation directory, then select **Amend** after selecting **Prepare to Publish / Version / Amend** (See step 2).
+If you only need to update metadata, you can amend without creating a new version. Simply change the metadata in the **Curation Directory**, then select **Amend** after selecting **Prepare to Publish / Version / Amend** (See step 2).
 
 ### 1. Make Changes in Curation Directory
 
 ![](./imgs/guide-versioning-1a.png)
 
-Remove files from a dataset (Experiment, Simulation, Mission, or anything with a DOI) in the **Curation Directory** by removing their relationship to the dataset or the category/collection within the dataset.
+Remove files from a dataset in the **Curation Directory** by removing their relationship to the dataset or the category/collection within the dataset.
 
 ![](./imgs/guide-versioning-1b.png)
 
-Add new files by assigning them to a dataset or a category/collection within a dataset.
+Add new files by assigning them to a dataset or a category/collection within the dataset.
 
-For **Project Type Other**, new files do not need to be assigned to a specific dataset because entire project is one dataset. Make sure the new files are in the **Curation Directory** so they can be selected for the new version in step 2.
+For **Project Type Other**, new files do not need to be assigned to a specific dataset because one DOI encompasses the entire project. Make sure the new files are in the **Curation Directory** so they can be selected for the new version in step 2.
 
 ### 2. Prepare to Version
 
@@ -598,11 +598,11 @@ For **Project Type Other**, new files do not need to be assigned to a specific d
 
 Select **Prepare to Publish / Amend / Version** in the **Publication Preview** and you will be given the choice to publish new datasets to your project, amend metadata, or version existing published datasets. Select **Version** to continue.
 
-**Note:** If you only need to update metadata, select **Amend**.
+If you only need to update metadata, select **Amend**.
 
 ![](./imgs/guide-versioning-2b.png)
 
-Select each published dataset that has been updated and continue. You can version multiple datasets at once. Datasets that have not been published for the first time cannot be selected. 
+Select each published dataset that has been updated and continue.
 
 For **Project Type Other**, select each file to be included in the new version.
 
@@ -610,7 +610,7 @@ For **Project Type Other**, select each file to be included in the new version.
 
 ![](./imgs/guide-versioning-3a.png)
 
-You will be asked to explain the changes made to this new version. This will help someone viewing your data to understand its history, so be thorough in your explanation.
+You will be asked to explain the changes made to this new version. This will be displayed to those viewing your publication, so be detailed and formal in your explanation.
 
 ![](./imgs/guide-versioning-3b.png)
 
