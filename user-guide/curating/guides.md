@@ -576,21 +576,24 @@ Finally, click **Request DOI & Publish** and agree to the agreement to publish y
 ---
 ## Versioning
 
-After publishing, you can publish new versions of datasets (Datasets contain a DOI, such as an Experiment, Simulation, or Mission) if you wish to update the files/data. A version number will be appended to the end of the citation, but the DOI will not change.
+If after publishing a dataset with a DOI you wish to make changes to the content of files, upload new and/or remove files, you can version the dataset. The version number will be appended to the end of the citation, but the DOI will not change, and it will always be possible for users to view the previous versions. 
 
-If you only need to update metadata, you can amend without creating a new version. Simply change the metadata in the **Curation Directory**, then select **Amend** after selecting **Prepare to Publish / Version / Amend** (See step 2).
+If you only need to update the metadata, you can amend without creating a new version. Simply change the metadata in the **Curation Directory**, then select **Amend** after selecting **Prepare to Publish / Version / Amend** (See step 2).
 
 ### 1. Make Changes in Curation Directory
+For project types **Field Research**, **Experimental**, and **Simulation** follow the next step:
 
 ![](./imgs/guide-versioning-1a.png)
 
-Remove files from a dataset in the **Curation Directory** by removing their relationship to the dataset or the category/collection within the dataset.
+Remove files from a dataset in the **Curation Directory** by removing their relationship to the category/collection within the dataset.
 
 ![](./imgs/guide-versioning-1b.png)
 
-Add new files by assigning them to a dataset or a category/collection within the dataset.
+Add new files by assigning them to a category/collection within the dataset.
 
-For **Project Type Other**, new files do not need to be assigned to a specific dataset because one DOI encompasses the entire project. Make sure the new files are in the **Curation Directory** so they can be selected for the new version in step 2.
+In project type **Other**, the DOI encompasses the published dataset. Make sure that the updated files are in the Curation Directory so they can be selected for the new version in step 2.
+
+In project type **Research Software**, transfer the new GitHub repository.
 
 ### 2. Prepare to Version
 
