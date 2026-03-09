@@ -8,7 +8,7 @@ Rathje, E., Dawson, C. Padgett, J.E., Pinelli, J.-P., Stanzione, D., Adair, A., 
 
 ## Additional Citation Information
 
-If you receive HPC allocations for use in your computational research, in addition to citing DesignSafe per the marker paper please use the following acknowledgement:
+If you receive HPC allocations for use in your computational research, in addition to citing DesignSafe per the marker paper please use the following acknowledgement. We also encourage you to curate and publish simulation data results using the [Simulation Data Model](https://www.designsafe-ci.org/user-guide/curating/guides/#simulation). 
 
 <i>The authors acknowledge the Texas Advanced Computing Center (TACC) at The University of Texas at Austin for providing computational resources that have contributed to the research results reported within this paper. URL: http://www.tacc.utexas.edu</i>
 
