@@ -327,6 +327,8 @@ Adding a mission involves filling out high-level information (e.g. title, date, 
 
 Each mission will receive a unique DOI. Add multiple missions if any of this high-level information changes or you want multiple DOIs. Do not add another mission if you are surveying the same location with different instruments and this information stays the same. Instead, you can add multiple collections to one mission.
 
+Missions and Document Datasets can be published incrementally over time. You can publish mutliple Missions or Document Datasets now, then publish more later. This feature accomodates projects with long lifespans or researchers that are required to publish a preliminary report before going out into the field.
+
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions. You can order the authors later when it is time to publish.
 
 Click **+ Add Mission** when you are done and it will appear below in your inventory.
