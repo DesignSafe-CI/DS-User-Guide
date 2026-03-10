@@ -32,6 +32,8 @@ Go through the overview and fill out additional required fields in the **Edit Pr
 
 Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment will receive its own DOI. Add multiple experiments if any of this information changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and this information stays the same. Instead, you can add multiple models to one experiment.
 
+Experiments can be published incrementally over time. You can publish mutliple Experiments now, then publish more later. This feature accomodates projects with long lifespans.
+
 ![](./imgs/guide-experimental-2b.png)
 
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions.
@@ -172,6 +174,8 @@ To begin curation and add a simulation, click on the **Curation Directory** and 
 Go through the overview and fill out additional required fields in the **Edit Project** window, click **Update Project,** then click **Add Simulations**.
 
 Adding a simulation involves filling out high level information about the files you will be publishing. Each simulation will receive its own DOI. Add multiple simulations if any of this information changes or you want multiple DOIs. Do not add another simulation if you are testing multiple models and this information stays the same. Instead, you can add multiple models to one simulation.
+
+Simulations can be published incrementally over time. You can publish mutliple Simulations now, then publish more later. This feature accomodates projects with long lifespans.
 
 ![](./imgs/guide-simulation-2b.png)
 
