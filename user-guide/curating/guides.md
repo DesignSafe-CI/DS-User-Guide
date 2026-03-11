@@ -124,7 +124,7 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 ### 8. Prepare to Publish { #step8 }
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
+When you are satisfied with how your work is curated and wish to publish it, select **Prepare to Publish / Version / Amend** in the Publication Preview.
 
 ![](./imgs/guide-experimental-8.png)
 
@@ -179,9 +179,9 @@ To begin curation and add a simulation, click on the **Curation Directory** and 
 
 Go through the overview and fill out additional required fields in the **Edit Project** window, click **Update Project,** then click **Add Simulations**.
 
-Adding a simulation involves filling out high level information about the files you will be publishing. Each simulation will receive its own DOI. Add multiple simulations if any of this information changes or you want multiple DOIs. Do not add another simulation if you are testing multiple models and this information stays the same. Instead, you can add multiple models to one simulation.
+Adding a simulation involves filling out high level metadata about the files you will be publishing. Each simulation is a dataset that will receive its own DOI and citation. Add multiple simulations if any of its metadata changes or you want multiple DOIs. Do not add another simulation if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Simulations can be published incrementally over time. You can publish mutliple Simulations now, then publish more later. This feature accomodates projects with long lifespans.
+Simulation datasets can be published incrementally over time to accomodate projects with long lifespans.
 
 ![](./imgs/guide-simulation-2b.png)
 
@@ -274,9 +274,15 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 ![](./imgs/guide-simulation-8a.png)
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
+When you are satisfied with how your work is curated and wish to publish it, select **Prepare to Publish / Version / Amend** in the Publication Preview.
 
 ![](./imgs/guide-simulation-8b.png)
+
+If this is your first time publishing from this project, select **Publish** to continue.
+
+If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
+
+Datasets can be published incrementally over time to accomodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
 
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Simulation, Proofread Categories, Order Authors, and Licenses
@@ -333,7 +339,7 @@ Adding a mission involves filling out high-level information (e.g. title, date, 
 
 Each mission will receive a unique DOI. Add multiple missions if any of this high-level information changes or you want multiple DOIs. Do not add another mission if you are surveying the same location with different instruments and this information stays the same. Instead, you can add multiple collections to one mission.
 
-Missions and Document Datasets can be published incrementally over time. You can publish mutliple Missions or Document Datasets now, then publish more later. This feature accomodates projects with long lifespans or researchers that are required to publish a preliminary report before going out into the field.
+Missions and Document Datasets can be published incrementally over time to accomodate projects with long lifespans or researchers that are required to publish a preliminary report before going out into the field.
 
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions. You can order the authors later when it is time to publish.
 
@@ -419,7 +425,13 @@ Look through the Publication Preview early and often to make changes or catch mi
 
 ### 8. Prepare to Publish { #fieldresearch-step8 }
 
-When you are satisfied with how your work is curated and wish to publish it, select Prepare to Publish in the Publication Preview.
+When you are satisfied with how your work is curated and wish to publish it, select **Prepare to Publish / Version / Amend** in the Publication Preview.
+
+If this is your first time publishing from this project, select **Publish** to continue.
+
+If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
+
+Datasets can be published incrementally over time to accomodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
 
 There are 6 stages in the publication process:   
 Selection, Proofread Project, Proofread Mission, Proofread Collections, Order Authors, and Licenses
