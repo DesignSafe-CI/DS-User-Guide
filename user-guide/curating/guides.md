@@ -32,7 +32,7 @@ Go through the overview and fill out additional required fields in the **Edit Pr
 
 Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment is a dataset that will receive its own DOI and citation. Add multiple experiments if any of its metadata changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Experiment datasets can be published incrementally over time to accomodate projects with long lifespans.
+Experiment datasets can be published incrementally over time to accommodate projects with long lifespans.
 
 ![](./imgs/guide-experimental-2b.png)
 
@@ -132,7 +132,7 @@ If this is your first time publishing from this project, select **Publish** to c
 
 If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
 
-Datasets can be published incrementally over time to accomodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
+Datasets can be published incrementally over time to accommodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
 
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Experiment, Proofread Categories, Order Authors, and Licenses
@@ -181,7 +181,7 @@ Go through the overview and fill out additional required fields in the **Edit Pr
 
 Adding a simulation involves filling out high level metadata about the files you will be publishing. Each simulation is a dataset that will receive its own DOI and citation. Add multiple simulations if any of its metadata changes or you want multiple DOIs. Do not add another simulation if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Simulation datasets can be published incrementally over time to accomodate projects with long lifespans.
+Simulation datasets can be published incrementally over time to accommodate projects with long lifespans.
 
 ![](./imgs/guide-simulation-2b.png)
 
@@ -337,9 +337,9 @@ A mission is a group of data collections that are associated with a common goal 
 
 Adding a mission involves filling out high-level information (e.g. title, date, geolocation and description) about the files you will be publishing.
 
-Each mission will receive a unique DOI. Add multiple missions if any of this high-level information changes or you want multiple DOIs. Do not add another mission if you are surveying the same location with different instruments and this information stays the same. Instead, you can add multiple collections to one mission.
+Each mission will receive a unique DOI and citation. Add multiple missions if any of this high-level metadata changes or you want multiple DOIs. Do not add another mission if you are surveying the same location with different instruments and this information stays the same. Instead, you can add multiple collections to one mission.
 
-Missions and Document Datasets can be published incrementally over time to accomodate projects with long lifespans or researchers that are required to publish a preliminary report before going out into the field.
+Missions and Document Datasets can be published incrementally over time to accommodate projects with long lifespans or researchers that are required to publish a preliminary report before going out into the field.
 
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions. You can order the authors later when it is time to publish.
 
@@ -431,7 +431,7 @@ If this is your first time publishing from this project, select **Publish** to c
 
 If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
 
-Datasets can be published incrementally over time to accomodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
+Datasets can be published incrementally over time to accommodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
 
 There are 6 stages in the publication process:   
 Selection, Proofread Project, Proofread Mission, Proofread Collections, Order Authors, and Licenses
