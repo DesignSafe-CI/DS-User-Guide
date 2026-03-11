@@ -30,9 +30,9 @@ To begin curation and add an experiment, click on the **Curation Directory** and
 
 Go through the overview and fill out additional required fields in the **Edit Project** window, click **Update Project**, then click **Add Experiments**.
 
-Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment will receive its own DOI. Add multiple experiments if any of this information changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and this information stays the same. Instead, you can add multiple models to one experiment.
+Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment is a dataset that will receive its own DOI and citation. Add multiple experiments if any of its metadata changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Experiments can be published incrementally over time. You can publish mutliple Experiments now, then publish more later. This feature accomodates projects with long lifespans.
+Experiment datasets can be published incrementally over time to accomodate projects with long lifespans.
 
 ![](./imgs/guide-experimental-2b.png)
 
@@ -128,10 +128,16 @@ When you are satisfied with how your work is curated and wish to publish it, sel
 
 ![](./imgs/guide-experimental-8.png)
 
+If this is your first time publishing from this project, select **Publish** to continue.
+
+If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
+
+Datasets can be published incrementally over time to accomodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
+
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Experiment, Proofread Categories, Order Authors, and Licenses
 
-In **Selection**, select which experiment you want to publish. You can only publish one at a time.
+In **Selection**, select which experiments you want to publish.
 
 In **Proofread Project**, **Experiment**, & **Categories**, take time to proofread all the descriptions and metadata you have entered. You cannot make changes after publishing.
 
