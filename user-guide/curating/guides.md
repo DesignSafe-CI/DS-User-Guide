@@ -276,8 +276,6 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 When you are satisfied with how your work is curated and wish to publish it, select **Prepare to Publish / Version / Amend** in the Publication Preview.
 
-![](./imgs/guide-simulation-8b.png)
-
 If this is your first time publishing from this project, select **Publish** to continue.
 
 If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
@@ -292,6 +290,8 @@ In **Selection**, select which simulation you want to publish. You can only publ
 In **Proofread Project**, **Simulation**, & **Categories**, take time to proofread all the descriptions and metadata you have entered. You cannot make changes after publishing.
 
 In **Order Authors**, order the authors of the simulation and preview how your citation will appear.
+
+![](./imgs/guide-simulation-8b.png)
 
 In **Licenses**, select one or more licenses that best fit your data.
 
