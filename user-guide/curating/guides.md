@@ -442,13 +442,13 @@ In **Proofread Project**, **Missions**, & **Collections**, take time to read all
 
 In **Order Authors**, order the authors of the mission and preview how your citation will appear.
 
+![](./imgs/guide-fieldresearch-8.jpg)
+
 In **Licenses**, select one or more licenses that best fit your data.
 
 Please see the [Data Publication Guidelines](/user-guide/curating/bestpractices) for more information.
 
 Finally, click **Request DOI & Publish** and agree to the agreement to publish your work.
-
-![](./imgs/guide-fieldresearch-8.jpg)
 
 ---
 
