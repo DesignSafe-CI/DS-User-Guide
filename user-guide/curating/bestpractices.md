@@ -117,20 +117,21 @@ In the DDR, social science datasets are curated and published as Missions within
 
 Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release. Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
 
-1. In case of doubts about how to manage indirect identifiers and geolocation in human subjects data please attend office hours to clarify these points. 
-All the fields of the dataset should be explained in a data dictionary and the correspondence between the survey questions and the data entries should be clear.
+1. In case of doubts about how to manage indirect identifiers and geolocation in human subjects data please attend office hours to clarify these points.
 
-2. Include explanations of which PII was anonymized and how in the collection description and or in a data report.
+2. All the fields of the dataset should be explained in a data dictionary and the correspondence between the survey questions and the data entries should be clear.
 
-3. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Else, it is not possible to understand the resultant data. These documents, along with IRB paperwork can be added under the category Research Planning Collection.
+3. Include explanations of which PII was anonymized and how in the collection description and or in a data report.
 
-4. If the data is restricted to public access, authors should explain the reasons why this is the case in the description. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
+4. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Else, it is not possible to understand the resultant data. These documents, along with IRB paperwork can be added under the category Research Planning Collection.
+
+5. If the data is restricted to public access, authors should explain the reasons why this is the case in the description. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
 
     > Errett, N., C. Hartwell, J. Randazza, G. Bratman, D. Eisenman, B. Ellis, E. Goodsell, C. Levy (2023). "An Exploratory Study of Perspectives from Forest Therapy Guides in a Wildfire Affected Community.", in Forest therapy as a trauma-informed approach to disaster recovery [Version 2]. DesignSafe-CI. https://doi.org/10.17603/ds2-sffr-0489
 
-5. Some social scientists publish their research instruments and protocols first as a Document Collection, and the data later in a Mission via versioning. Many never publish the data. To be published as stand-alone resources with a citation and a DOI, instruments should be very well contextualized to describe how the data was gathered, from whom, when, etc.
+6. Some social scientists publish their research instruments and protocols first as a Document Collection, and the data later in a Mission via versioning. Many never publish the data. To be published as stand-alone resources with a citation and a DOI, instruments should be very well contextualized to describe how the data was gathered, from whom, when, etc.
 
-6. Those planning their social science data collection should consider that publishing both the instruments and the data is a bigger contribution. We encourage researchers to explore with their IRBs ways to design the data collection and processing phases so data can be publicly available, while protecting the privacy of their participants.
+7. Those planning their social science data collection should consider that publishing both the instruments and the data is a bigger contribution. We encourage researchers to explore with their IRBs ways to design the data collection and processing phases so data can be publicly available, while protecting the privacy of their participants.
 
 ## Organizing and Naming Files
 
