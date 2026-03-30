@@ -117,13 +117,13 @@ In the DDR, social science datasets are curated and published as Missions within
 
 Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release. Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
 
-1. If uncertain how to manage indirect identifiers and geolocation in human subjects data please attend [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) to clarify these points.
+1. If uncertain how to manage indirect identifiers and geolocation in human subjects data, please attend [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) to clarify these points.
 
 2. All the fields of the dataset should be explained in a data dictionary and the correspondence between the survey questions and the data entries should be clear.
 
 3. Include explanations of which PII (Personally Identifiable Information) was anonymized and how in the collection description and/or in a data report.
 
-4. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Else, it is not possible to understand the resultant data. These documents, along with IRB (Institutional Review Board) paperwork can be added under the category Research Planning Collection.
+4. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Otherwise, it would not be possible to understand the resultant data. These documents, along with IRB (Institutional Review Board) paperwork, can be added under the category Research Planning Collection.
 
 5. If the data is restricted from public access, authors should explain the reasons why this is the case in the description. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
 
