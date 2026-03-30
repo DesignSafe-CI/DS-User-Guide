@@ -111,7 +111,7 @@ Jupyter Notebooks, published via GitHub or as Project Type Other should be self-
 
 Many users publish notebooks along with a sample dataset or in connection to a published dataset. Always reference the dataset in the Related Data and Software entry.
 
-## Social Science Datasets
+### Social Science Datasets
 
 In the DDR, social science datasets are curated and published as Missions within the Field Research project type. There is a specific Social Sciences Collection category that includes relevant metadata fields to describe this kind of data.
 
