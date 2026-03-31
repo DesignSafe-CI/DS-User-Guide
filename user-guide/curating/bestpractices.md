@@ -129,7 +129,7 @@ Below are specific recommendations for curating and publishing social science da
 
 4. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Otherwise, it would not be possible to understand the resultant data. These documents, along with IRB (Institutional Review Board) paperwork, can be added under the category Research Planning Collection.
 
-5. If the data is restricted from public access, authors should explain the reasons why this is the case in the description. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
+5. If the data is restricted from public access, authors should explain during citation the reasons why this is the case. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
 
     > Errett, N., C. Hartwell, J. Randazza, G. Bratman, D. Eisenman, B. Ellis, E. Goodsell, C. Levy (2023). "An Exploratory Study of Perspectives from Forest Therapy Guides in a Wildfire Affected Community.", in Forest therapy as a trauma-informed approach to disaster recovery [Version 2]. DesignSafe-CI. [https://doi.org/10.17603/ds2-sffr-0489](https://doi.org/10.17603/ds2-sffr-0489)
 
