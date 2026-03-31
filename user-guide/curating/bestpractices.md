@@ -115,7 +115,11 @@ Many users publish notebooks along with a sample dataset or in connection to a p
 
 In the DDR, social science datasets are curated and published as Missions within the Field Research project type. There is a specific Social Sciences Collection category that includes relevant metadata fields to describe this kind of data.
 
-Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release. Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
+Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release.
+
+Some human subjects datasets must be restricted from public access, because the dataset contains sensitive and or personal information that can expose the participants identity even if it is anonymized. Examples of such information are: political standing, health status, address, criminal record, etc.
+
+Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
 
 1. If uncertain how to manage indirect identifiers and geolocation in human subjects data, please attend [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) to clarify these points.
 
@@ -125,7 +129,7 @@ Most social science datasets have human subjects data. Prior to publication, hum
 
 4. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Otherwise, it would not be possible to understand the resultant data. These documents, along with IRB (Institutional Review Board) paperwork, can be added under the category Research Planning Collection.
 
-5. If the data is restricted from public access, authors should explain the reasons why this is the case in the description. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
+5. If the data is restricted from public access, authors should explain during citation the reasons why this is the case. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
 
     > Errett, N., C. Hartwell, J. Randazza, G. Bratman, D. Eisenman, B. Ellis, E. Goodsell, C. Levy (2023). "An Exploratory Study of Perspectives from Forest Therapy Guides in a Wildfire Affected Community.", in Forest therapy as a trauma-informed approach to disaster recovery [Version 2]. DesignSafe-CI. [https://doi.org/10.17603/ds2-sffr-0489](https://doi.org/10.17603/ds2-sffr-0489)
 
