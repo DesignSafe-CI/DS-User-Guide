@@ -1,0 +1,3 @@
+/* To customize TACC styles */
+@import url('core-styles.docs.css') layer(project);
+@import url('mkdocs-tacc.css') layer(cosmetic);

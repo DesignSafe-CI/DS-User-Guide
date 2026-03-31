@@ -1,6 +1,6 @@
 # Steps to Curate and Publish Your Datasets
 
-We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Research Software**](#research-software), [**Other**](#other). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
+We offer step-by-step guides on how to create projects in the Data Depot, and curate and publish work/data across DesignSafe: [**Experimental**](#experimental), [**Simulation**](#simulation), [**Field Research**](#fieldresearch), [**Research Software**](#research-software), [**Other**](#other), [**Versioning**](#versioning). For more information: [Policies](/user-guide/curating/policies), [Best Practices](/user-guide/curating/bestpractices/), [Frequently Asked Questions](/user-guide/curating/faq/).
 
 ## Experimental
 
@@ -572,3 +572,49 @@ In **Order Authors**, order the authors of the publication and preview how your 
 In **Licenses**, select one or more licenses that best fit your data.
 
 Finally, click **Request DOI & Publish** and agree to the agreement to publish your work.
+
+---
+## Versioning
+
+If after publishing a dataset with a DOI you wish to make changes to the content of files, upload new and/or remove files, you can version the dataset. The version number will be appended to the end of the citation, but the DOI will not change, and it will always be possible for users to view the previous versions. 
+
+If you only need to update the metadata, you can amend without creating a new version. Simply change the metadata in the **Curation Directory**, then select **Amend** after selecting **Prepare to Publish / Version / Amend** (See step 2).
+
+### 1. Make Changes in Curation Directory
+For project types **Field Research**, **Experimental**, and **Simulation** follow the next step:
+
+![](./imgs/guide-versioning-1a.png)
+
+Remove files from a dataset in the **Curation Directory** by removing their relationship to the category/collection within the dataset.
+
+![](./imgs/guide-versioning-1b.png)
+
+Add new files by assigning them to a category/collection within the dataset.
+
+In project type **Other**, the DOI encompasses the published dataset. Make sure that the updated files are in the Curation Directory so they can be selected for the new version in step 2.
+
+In project type **Research Software**, transfer the new GitHub repository.
+
+### 2. Prepare to Version
+
+![](./imgs/guide-versioning-2a.png)
+
+Select **Prepare to Publish / Amend / Version** in the **Publication Preview** and you will be given the choice to publish new datasets to your project, amend metadata, or version existing published datasets. Select **Version** to continue.
+
+If you only need to update metadata, select **Amend**.
+
+![](./imgs/guide-versioning-2b.png)
+
+Select each published dataset that has been updated and continue.
+
+For **Project Type Other**, select each file to be included in the new version.
+
+### 3. Explain Changes & Publish
+
+![](./imgs/guide-versioning-3a.png)
+
+You will be asked to explain the changes made to this new version. This will be displayed to those viewing your publication, so be detailed and formal in your explanation.
+
+![](./imgs/guide-versioning-3b.png)
+
+Once published, a viewer will be able to toggle between the versions.

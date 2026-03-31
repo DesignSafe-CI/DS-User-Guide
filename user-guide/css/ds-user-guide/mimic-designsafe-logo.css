@@ -1,0 +1,15 @@
+/* To write "DESIGNSAFE" like its logo */
+/* FAQ: To use, write `# <u><b>Design</b>Safe</u>` */
+:where(h1, h2, h3, h4, h5, h6) > u {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: var(--medium);
+  color: #565656;
+
+  /* To use DesignSafe logo font */
+  font-family: Futura; /* WARNING: requires user have this font installed */
+}
+:where(h1, h2, h3, h4, h5, h6) > u > b {
+  color: #cb463f;
+  font-weight: var(--black);
+}

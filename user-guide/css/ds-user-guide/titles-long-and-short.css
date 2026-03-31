@@ -1,0 +1,25 @@
+/* To make:
+    - short title (heading) less emphasized
+    - long title (paragraph following heading) look like heading */
+.document header h2 + p {
+    font-size: var(--global-font-size--xx-large);
+    font-weight: var(--bold);
+}
+.document header h3 + p {
+    font-size: var(--global-font-size--x-large);
+    font-weight: var(--bold);
+}
+.document header h4 + p {
+    font-size: var(--global-font-size--large);
+    font-weight: var(--bold);
+}
+.document header :is(h2, h3, h4) {
+    font-weight: var(--regular);
+    margin-bottom: -24px; /* to remove excess space between titles */
+}
+.document header h2 {
+    font-size: var(--global-font-size--x-large);
+}
+.document header h3 {
+    font-size: var(--global-font-size--large);
+}

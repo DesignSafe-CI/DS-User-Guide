@@ -1,0 +1,7 @@
+/* To un-indent details in a list item */
+li:has(> details) {
+    list-style-type: none;
+}
+li > details > summary {
+    translate: calc(-1em);
+}

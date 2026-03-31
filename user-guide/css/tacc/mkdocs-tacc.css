@@ -1,0 +1,56 @@
+/* TACC/MKDOCS-TACC */
+/* To customize TACC/mkdocs-tacc CSS */
+
+/* To force a logo `<img>` loading an SVG to have dimensions */
+/* FAQ: Happens if `swapImgSvgWithRawSvg.js` does not work or is unavailable */
+.wy-side-nav-search > a img.logo[src$=".svg"] {
+    width: 100%;
+}
+
+/* To customize name under logo */
+.wy-side-nav-search .nav-name {
+    font-weight: var(--medium);
+    color: #565656;
+}
+/* To give logo more horizontal space */
+.wy-side-nav-search > a {
+    --pad-horz: 0;
+    --link-pad-horz: 0;
+}
+.wy-side-nav-search > a.logo {
+    margin-bottom: 0;
+}
+
+/* To make horizontal rules more obvious */
+/* FAQ: Our pages are so tall, that we will let users on big <hr>s */
+/* NOTE: Alternative UX is more difficult using our ReadTheDocs theme */
+hr:where(:not(
+    [role="navigation"] hr,
+    [role="main"] ~ footer hr
+)) {
+    margin-block: 3rem;
+}
+
+/* To update old markup that should be `<strong>` */
+b {
+    font-weight: var(--bold);
+}
+
+/* To extend grid pattern (for pages like usecases/overview) */
+/* https://github.com/TACC/TACC-Docs/blob/v0.15.1/docs/css/core/tacc-docs.css#L521-L527 */
+/* https://github.com/TACC/mkdocs-tacc/blob/v0.6.0/mkdocs_tacc/tacc_readthedocs/css/tacc-theme/core-docs.css#L52-L58 */
+.grid__header,
+.grid > :is(h1, h2, h3, h4, h5, h6) {
+    margin-block: 0;
+    grid-column: span 2;
+}
+/* To remove space from top of header-less intro paragraph in a grid */
+/* https://github.com/TACC/TACC-Docs/blob/f2e80b4/docs/index.md?plain=1#L107-L109 */
+/* https://github.com/DesignSafe-CI/DS-User-Guide/blob/92882f2/user-guide/docs/usecases/overview.md?plain=1#L21-L23 */
+.grid__header > p:first-child {
+    margin-top: 0;
+}
+/* To remove extra space under cards */
+.grid [class*="card"] {
+    margin-bottom: 0;
+}

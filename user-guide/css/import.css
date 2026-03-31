@@ -1,0 +1,15 @@
+/*
+ * DesignSafe User Guide Styles - Import Manifest
+ *
+ * IMPORTANT: Do not add styles directly to this file.
+ * Add styles to appropriate stylesheet listed below.
+ * If unsure where styles belong, add them to `inbox.css`
+ */
+
+/* Contribute any styles */
+@import url("inbox.css");
+
+/* Organize established styles */
+@import url("for-other-repos/_import.css");
+@import url("ds-user-guide/_import.css") @layer(cosmetic);
+@import url("tacc/_import.css");

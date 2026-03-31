@@ -1,0 +1,14 @@
+/* To organize styles that belong in other repositories */
+
+/* TACC/CORE-STYLES */
+/* To add CSS intended for TACC/Core-Styles */
+/* TODO: Move to TACC/Core-Styles */
+
+@import url('./for-mkdocs-tacc/user-guide/css/tacc/for-core-styles/h5-and-h6.css') layer(project);
+
+/* TACC/MKDOCS-TACC */
+/* To add CSS intended for TACC/mkdocs-tacc */
+/* TODO: Move to TACC/mkdocs-tacc */
+
+@import url('./for-mkdocs-tacc/deep-vs-shallow-nav.css') layer(cosmetic);
+@import url('./for-mkdocs-tacc/space-around-certain-icons.css') layer(cosmetic);

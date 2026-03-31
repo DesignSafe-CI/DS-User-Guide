@@ -115,9 +115,9 @@ mkdocs-exclude-search==0.6.6 ; python_version >= "3.10" and python_version < "3.
 mkdocs-include-markdown-plugin==5.1.0 ; python_version >= "3.10" and python_version < "3.13" \
     --hash=sha256:4a1b8d79a0e1b6fd357ca8013a6d1701c755ada4acb74ee97b0642d1afe6756e \
     --hash=sha256:e9ca188ab1d86f5fc4a6b96ce8c85acf6e25f114897868041056ec7945f29f65
-mkdocs-tacc==1.0.0 ; python_version >= "3.10" and python_version < "3.13" \
-    --hash=sha256:5d9f1d4a4b871526f74e92bda8eb52584ece817d1eef5d4064ef40fe6adcf99d \
-    --hash=sha256:cbd107eab1ff1659bc164c84f17055f367097a0b3dfe2ec3b41ef34850f7181c
+mkdocs-tacc==1.0.2 ; python_version >= "3.10" and python_version < "3.13" \
+    --hash=sha256:2beb36590dc00ec8f815ba59bcf6a3e876ffe2106bcc4a235db9ea04cb2a1601 \
+    --hash=sha256:9eb65c4701206fdc17ebbc2555c2750ef3de8de64ed3142b0e45f5df32390e4e
 mkdocs==1.4.3 ; python_version >= "3.10" and python_version < "3.13" \
     --hash=sha256:5955093bbd4dd2e9403c5afaf57324ad8b04f16886512a3ee6ef828956481c57 \
     --hash=sha256:6ee46d309bda331aac915cd24aab882c179a933bd9e77b80ce7d2eaaa3f689dd

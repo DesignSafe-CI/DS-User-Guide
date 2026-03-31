@@ -1,0 +1,12 @@
+/* To restore some font weight to the deepest headings */
+/* NOTE: Designer says these are too deep to support,
+         but documentation is deeper than websites */
+/* TODO: Migrate change to Core-Styles */
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h5 { font-weight: var(--extra-bold); letter-spacing: 0.03125em; }
+:where(
+    :is([role=main],main),
+    :not(:is(#root))
+) h6 { font-weight: var(--bold); }

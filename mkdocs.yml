@@ -24,10 +24,10 @@ theme:
   nav_name: User Guide
 
 extra_css:
-  - css/ds-user-guide.css
+  - css/import.css
 
 extra_javascript:
-  - js/ds-user-guide.js
+  - js/import.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # for pymdownx.arithmatex
 
 markdown_extensions:
@@ -73,6 +73,7 @@ nav:
     - Data Dissemination and Impact: curating/metrics.md
     - Resources for Users:
       - Frequently Asked Questions: curating/faq.md
+      - Github's "Cite this Repository": curating/github-cite-this-repo.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
       - Data Management Plan (DMP) Guide: managingdata/datamanagementplan.md
     - About the Data Depot: datadepotrepo/about.md
@@ -94,7 +95,14 @@ nav:
       - IN-CORE: tools/simulation/in-core.md
       - LS-DYNA: tools/simulation/lsdyna.md
       - OpenFoam: tools/simulation/openfoam.md
-      - OpenSees : tools/simulation/opensees/opensees.md
+      - OpenSees: tools/simulation/opensees/opensees.md
+      - SimCenter:
+        - EE-UQ: https://nheri-simcenter.github.io/EE-UQ-Documentation/
+        - Hydro-UQ: https://nheri-simcenter.github.io/Hydro-Documentation/
+        - PBE: https://nheri-simcenter.github.io/PBE-Documentation/
+        - quoFEM: https://nheri-simcenter.github.io/quoFEM-Documentation/
+        - R2D: https://nheri-simcenter.github.io/R2D-Documentation/
+        - WE-UQ: https://nheri-simcenter.github.io/WE-UQ-Documentation/
     - Analysis:
       - Jupyter: tools/jupyterhub.md
       - MATLAB: analysis/matlab.md

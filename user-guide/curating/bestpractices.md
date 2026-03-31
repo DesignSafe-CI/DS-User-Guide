@@ -85,21 +85,57 @@ Before publishing, ensure that:
 
 ### Research Software
 
-In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https://www.nature.com/articles/s41597-022-01710-x), research software published in DDR should be feature complete and designed to be actively maintained, enhanced, and versioned. Whether published as Project Type "Other" or Project Type "Research Software", it should include sufficient documentation about its provenance (CodeMeta metadata) and how to use it (Readme).
+In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https://www.nature.com/articles/s41597-022-01710-x) and [with our policies](/user-guide/curating/policies/#publishing-research-software), research software published in DDR should be feature complete and designed to be actively maintained, enhanced, and versioned. Whether published as Project Type "Other" or Project Type "Research Software", the publication should include documentation about the software's research role, functions,  and technical dependencies. The following are required best practices to publish research software:
 
-A [CodeMeta `json` file should be generated online](https://codemeta.github.io/codemeta-generator/) and uploaded to the GitHub repository, or uploaded along with the software files to Project Type “Other”. When filling the CodeMeta file, it is important to include as much information as possible, which allows for others to understand, reuse, and attribute your software.
+* A [CodeMeta json file should be generated online](https://codemeta.github.io/codemeta-generator/) and uploaded to the GitHub repository, or along with the software files to Project Type “Other”. When filling the CodeMeta file, it is important to include as much information as possible, which allows for others to understand, reuse, and attribute your software. Links to dependencies should be included in the Related Data and Software entry available in the metadata form. If allowed by their licenses, dependency files can and should be included as part of the publication package for ease of software installation.
+* A Readme file with details of how to install and use the software should also be part of the publication. To be reproducible, the software publication needs to include documentation about and  links to libraries and dependencies needed to run it. We ask researchers to test that the software can be installed according to instructions and that it is working properly at the time of publication.
+* Often researchers include data in their research software publications. Since Github is not a data repository, when using Project Type Research Software,  data can be published in DesignSafe using Project Type "Other," or another corresponding Project Type. Instead, if you use Project Type "Other" to publish Research Software, you can also include the data.
+* When present, the relation between the research software and the corresponding dataset should be indicated. From the research software publication, the dataset should be noted in the Related Work /linked entry available in the curation form. From the dataset publication, the research software should be related via the Referenced Data and Software/cites entry available in the curation form.  These linkages connect both publications, from data to software and vice versa. Linkages can be added after the data or the software have been published via Amends. The location of the dataset should also be  noted in the software Readme file.
 
-A Readme file including details of how to install and use the software should also be part of the publication. To be reproducible, the software publication needs to include documentation about, and  links to libraries and dependencies needed to run it. Links to dependencies can be noted in the Related Data and Software entry which is available in the . If allowed by their licenses, dependency files can and should be included as part of the publication package for ease of software installation. We ask researchers to test that the software can be installed according to instructions and that it is working properly at the time of publication.
+#### Versioning Research Software
 
-Many times users include or small subsets of data/demo files to their research software publications. Github is not a data repository so datasets should not be included in the Github repository. If the data cannot be published independently, software and data should be published as project type "Other". In that case, the source/provenance of the demo dataset should be noted in the Readme file and or pointed at in the Referenced Data and Software entry.
+* To version research software from Github, users should first create a new release in the software repository, update the URL in their dataset, and then proceed to version.
+* Changes in version number may not coincide between GitHub and DesignSafe. DesignSafe versioning is linear (e.g. `1`, `2`, `3`, …), while GitHub has a non-linear order (e.g. `1.10.5`, `2.0.0`). In addition a researcher may have many versions released in GitHub before they publish for the first time in DesignSafe. Consider that a "Software Release" field displayed in the metadata shows the release that has been published.
 
-##### Jupyter Notebooks as Research Software
+#### Adding Software Citation with DOI to GitHub Repository {#adding-citation-to-github-repo}
 
-If planning to publish a Jupyter Notebook in the DDR, the content must comply with the definition of research software available in the [Research Software Publication Policy](/user-guide/curating/policies/#publishing-research-software). Thus, the content of the Jupyter Notebook must be a contribution to solving a scientific problem. It should also comply with Research Software Best Practices outlined above. 
+Other users that access software from GitHub should have the opportunity to cite the research software using the formal citation with a DOI. For this, the DesignSafe citation including the DOI should be available in the GitHub repo.
+
+So, once the software is published in DesignSafe, researchers should [add the DesignSafe citation with DOI to the GitHub repo](/user-guide/curating/github-cite-this-repo/).
+
+### Jupyter Notebooks as Research Software
+
+If planning to publish a Jupyter Notebook in the DDR, the content must comply with the definition of research software available in the [Research Software Publication Policy](/user-guide/curating/policies/#publishing-research-software). Thus, the content of the Jupyter Notebook must be a contribution to solving a scientific problem. It should also comply with [Research Software Best Practices](#research-software) outlined above. 
 
 Jupyter Notebooks, published via GitHub or as Project Type Other should be self-contained and should not depend on file paths on DesignSafe computing resources or external file systems. Please see [instructions on how to publish Jupyter Notebooks](/user-guide/tools/jupyterhub/#publishing-notebooks).
 
 Many users publish notebooks along with a sample dataset or in connection to a published dataset. Always reference the dataset in the Related Data and Software entry.
+
+### Social Science Datasets
+
+In the DDR, social science datasets are curated and published as Missions within the Field Research project type. There is a specific Social Sciences Collection category that includes relevant metadata fields to describe this kind of data.
+
+Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release.
+
+Some human subjects datasets must be restricted from public access, because the dataset contains sensitive and or personal information that can expose the participants identity even if it is anonymized. Examples of such information are: political standing, health status, address, criminal record, etc.
+
+Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
+
+1. If uncertain how to manage indirect identifiers and geolocation in human subjects data, please attend [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) to clarify these points.
+
+2. All the fields of the dataset should be explained in a data dictionary and the correspondence between the survey questions and the data entries should be clear.
+
+3. Include explanations of which PII (Personally Identifiable Information) was anonymized and how in the collection description and/or in a data report.
+
+4. Available research instruments, survey/questionnaire protocols, codebooks, data reports/dictionaries should always be included in the publication. Otherwise, it would not be possible to understand the resultant data. These documents, along with IRB (Institutional Review Board) paperwork, can be added under the category Research Planning Collection.
+
+5. If the data is restricted from public access, authors should explain during citation the reasons why this is the case. Ideally, in lieu of data, authors can include data analysis results or aggregated data points. See the following example:
+
+    > Errett, N., C. Hartwell, J. Randazza, G. Bratman, D. Eisenman, B. Ellis, E. Goodsell, C. Levy (2023). "An Exploratory Study of Perspectives from Forest Therapy Guides in a Wildfire Affected Community.", in Forest therapy as a trauma-informed approach to disaster recovery [Version 2]. DesignSafe-CI. [https://doi.org/10.17603/ds2-sffr-0489](https://doi.org/10.17603/ds2-sffr-0489)
+
+6. Some social scientists publish their research instruments and protocols first as a Document Collection, and the data later in a Mission via versioning. Many never publish the data. To be published as stand-alone resources with a citation and a DOI, instruments should be very well contextualized to describe how the data was gathered, from whom, when, etc.
+
+7. Those planning their social science data collection should consider that publishing both the instruments and the data is a bigger contribution. We encourage researchers to explore with their IRBs ways to design the data collection and processing phases so data can be publicly available, while protecting the privacy of their participants.
 
 ## Organizing and Naming Files
 
