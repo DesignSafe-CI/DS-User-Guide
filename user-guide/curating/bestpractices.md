@@ -115,7 +115,11 @@ Many users publish notebooks along with a sample dataset or in connection to a p
 
 In the DDR, social science datasets are curated and published as Missions within the Field Research project type. There is a specific Social Sciences Collection category that includes relevant metadata fields to describe this kind of data.
 
-Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release. Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
+Most social science datasets have human subjects data. Prior to publication, human subjects data and supporting documentation need to be carefully reviewed for compliance with [Protected Data Policy](/user-guide/curating/policies/#protected-data). It is important that these datasets are contextualized with information that supports their public release.
+
+Some human subjects datasets must be restricted from public access, because the dataset contains sensitive and or personal information that can expose the participants identity even if it is anonymized. Examples of such information are: political standing, health status, address, criminal record, etc.
+
+Below are specific recommendations for curating and publishing social science datasets in the Data Depot:
 
 1. If uncertain how to manage indirect identifiers and geolocation in human subjects data, please attend [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) to clarify these points.
 
