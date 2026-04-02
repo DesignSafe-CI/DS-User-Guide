@@ -4,14 +4,6 @@ DesignSafe-CI offers a suite of training resources aimed at equipping researcher
 
 <section class="section--light">
     <div class="grid">
-        <a class="card--plain" href="https://DesignSafe-CI.github.io/training-OpenSees-on-DesignSafe" target="_blank">
-            <h3>
-OpenSees on DesignSafe
-            </h3>
-            <p>
-Learn to use OpenSees to develop, run, and scale structural & geotechnical simulations on DesignSafe/TACC. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
-            </p>
-        </a>
         <a class="card--plain" href="https://DesignSafe-CI.github.io/training-database-api" target="_blank">
             <h3>
 Database API training
