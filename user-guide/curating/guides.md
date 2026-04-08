@@ -290,7 +290,7 @@ In **Proofread Project**, **Simulation**, & **Categories**, take time to proofre
 
 In **Order Authors**, order the authors of the simulation and preview how your citation will appear.
 
-![](./imgs/guide-simulation-8b.png)
+![a screenshot of license options to choose when publishing](./imgs/guide-simulation-8b.png)
 
 In **Licenses**, select one or more licenses that best fit your data.
 
