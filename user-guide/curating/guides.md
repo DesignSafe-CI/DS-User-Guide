@@ -32,7 +32,7 @@ Go through the overview and fill out additional required fields in the **Edit Pr
 
 Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment is a dataset that will receive its own DOI and citation. Add multiple experiments if any of its metadata changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Experimental datasets can be published incrementally to accommodate projects that generate more than one dataset over time
+Experimental datasets can be published incrementally to accommodate projects that generate more than one dataset over time.
 
 ![](./imgs/guide-experimental-2b.png)
 
