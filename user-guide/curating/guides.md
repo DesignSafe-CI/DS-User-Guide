@@ -441,7 +441,7 @@ In **Proofread Project**, **Missions**, & **Collections**, take time to read all
 
 In **Order Authors**, order the authors of the mission and preview how your citation will appear.
 
-![](./imgs/guide-fieldresearch-8.jpg)
+![a screenshot of license options to choose when publishing](./imgs/guide-fieldresearch-8.jpg)
 
 In **Licenses**, select one or more licenses that best fit your data.
 
