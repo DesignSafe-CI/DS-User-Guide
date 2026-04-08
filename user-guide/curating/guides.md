@@ -32,7 +32,7 @@ Go through the overview and fill out additional required fields in the **Edit Pr
 
 Adding an experiment involves filling out high level information about the files you will be publishing. Each experiment is a dataset that will receive its own DOI and citation. Add multiple experiments if any of its metadata changes or you want multiple DOIs. Do not add another experiment if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Experiment datasets can be published incrementally over time to accommodate projects with long lifespans.
+Experimental datasets can be published incrementally to accommodate projects that generate more than one dataset over time
 
 ![](./imgs/guide-experimental-2b.png)
 
@@ -46,7 +46,7 @@ You can edit an experiment from the inventory.
 
 ### 3. Add Categories { #step3 }
 
-Click **Add Categories** to begin.
+Select **Add Categories** to begin.
 
 ![](./imgs/guide-experimental-3.png)
 
@@ -78,7 +78,7 @@ After filling out the fields, click **+ Add Category** and it will appear below 
 
 ### 4. Relate Data { #step4 }
 
-Click **Relate Data** to begin.
+Select **Relate Data** to begin.
 
 ![](./imgs/guide-experimental-4.png)
 
@@ -128,11 +128,11 @@ When you are satisfied with how your work is curated and wish to publish it, sel
 
 ![](./imgs/guide-experimental-8.png)
 
-If this is your first time publishing from this project, select **Publish** to continue.
+If this is your first time publishing a dataset in this project, select Publish to continue.
 
-If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
+If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](/user-guide/curating/guides/#versioning) provides information on how to update, remove or add files to your individual datasets.
 
-Datasets can be published incrementally over time to accommodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
+The process for publishing an additional dataset is identical to publishing one for the first time.
 
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Experiment, Proofread Categories, Order Authors, and Licenses
@@ -181,7 +181,7 @@ Go through the overview and fill out additional required fields in the **Edit Pr
 
 Adding a simulation involves filling out high level metadata about the files you will be publishing. Each simulation is a dataset that will receive its own DOI and citation. Add multiple simulations if any of its metadata changes or you want multiple DOIs. Do not add another simulation if you are testing multiple models and the metadata stays the same. Instead, you can add multiple models to one experiment.
 
-Simulation datasets can be published incrementally over time to accommodate projects with long lifespans.
+Simulation datasets can be published incrementally over time to accommodate projects that generate more than one dataset over time.
 
 ![](./imgs/guide-simulation-2b.png)
 
@@ -227,8 +227,7 @@ After filling out the fields, click **+ Add Category** and it will appear below 
 
 ### 4. Relate Data { #simulation-step4 }
 
-
-Click **Relate Data** to begin.
+Select **Relate Data** to begin.
 
 Relating Data allows you to relate categories to each other and to an simulation, which determines the layout and order of categories in your publication. You can reorder the categories if needed.
 
@@ -276,11 +275,11 @@ Look through the Publication Preview early and often to catch any mistakes. If y
 
 When you are satisfied with how your work is curated and wish to publish it, select **Prepare to Publish / Version / Amend** in the Publication Preview.
 
-If this is your first time publishing from this project, select **Publish** to continue.
+If this is your first time publishing a dataset in this project, select Publish to continue.
 
-If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
+If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](/user-guide/curating/guides/#versioning) provides information on how to update, remove or add files to your individual datasets.
 
-Datasets can be published incrementally over time to accomodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
+The process for publishing an additional dataset is identical to publishing one for the first time.
 
 There are 6 stages in the publication process: <br>
 Selection, Proofread Project, Proofread Simulation, Proofread Categories, Order Authors, and Licenses
@@ -339,7 +338,7 @@ Adding a mission involves filling out high-level information (e.g. title, date, 
 
 Each mission will receive a unique DOI and citation. Add multiple missions if any of this high-level metadata changes or you want multiple DOIs. Do not add another mission if you are surveying the same location with different instruments and this information stays the same. Instead, you can add multiple collections to one mission.
 
-Missions and Document Datasets can be published incrementally over time to accommodate projects with long lifespans or researchers that are required to publish a preliminary report before going out into the field.
+Missions and Document Datasets can be published incrementally to accommodate projects that generate one or more document collections, and one or more datasets over time.
 
 Fill out the required and optional fields using the advice given to create concise and understandable descriptions. You can order the authors later when it is time to publish.
 
@@ -349,7 +348,7 @@ You can edit a mission from the mission inventory.
 
 ### 3. Add Collections { #fieldresearch-step3 }
 
-Click **Add Collections** to begin.
+Select **Add Collections** to begin.
 
 Collections group files together based on a shared purpose in a mission. There are three different collection types in field research data model:
 
@@ -369,7 +368,7 @@ Social Sciences Collection
 
 ### 4. Relate Data { #fieldresearch-step4 }
 
-Click **Relate Data** to begin.
+Select **Relate Data** to begin.
 
 Relating Data allows you to relate collections to missions, which determines the organization of your dataset. You can also establish the order of your collections.
 
@@ -427,11 +426,11 @@ Look through the Publication Preview early and often to make changes or catch mi
 
 When you are satisfied with how your work is curated and wish to publish it, select **Prepare to Publish / Version / Amend** in the Publication Preview.
 
-If this is your first time publishing from this project, select **Publish** to continue.
+If this is your first time publishing a dataset in this project, select Publish to continue.
 
-If you have published a dataset previously, the options to amend metadata, version, or publish additional datasets are available. If you need to update files for an already published dataset, read the [Versioning Guide](/user-guide/curating/guides/#versioning).
+If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](/user-guide/curating/guides/#versioning) provides information on how to update, remove or add files to your individual datasets.
 
-Datasets can be published incrementally over time to accommodate projects with long lifespans. The process for publishing an additional dataset is identical to publishing for the first time.
+The process for publishing an additional dataset is identical to publishing one for the first time.
 
 There are 6 stages in the publication process:   
 Selection, Proofread Project, Proofread Mission, Proofread Collections, Order Authors, and Licenses
