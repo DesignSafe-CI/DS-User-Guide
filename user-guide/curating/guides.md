@@ -130,7 +130,7 @@ When you are satisfied with how your work is curated and wish to publish it, sel
 
 If this is your first time publishing a dataset in this project, select Publish to continue.
 
-If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](/user-guide/curating/guides/#versioning) provides information on how to update, remove or add files to your individual datasets.
+If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](#versioning) provides information on how to update, remove or add files to your individual datasets.
 
 The process for publishing an additional dataset is identical to publishing one for the first time.
 
@@ -277,7 +277,7 @@ When you are satisfied with how your work is curated and wish to publish it, sel
 
 If this is your first time publishing a dataset in this project, select Publish to continue.
 
-If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](/user-guide/curating/guides/#versioning) provides information on how to update, remove or add files to your individual datasets.
+If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](#versioning) provides information on how to update, remove or add files to your individual datasets.
 
 The process for publishing an additional dataset is identical to publishing one for the first time.
 
@@ -428,7 +428,7 @@ When you are satisfied with how your work is curated and wish to publish it, sel
 
 If this is your first time publishing a dataset in this project, select Publish to continue.
 
-If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](/user-guide/curating/guides/#versioning) provides information on how to update, remove or add files to your individual datasets.
+If you have previously published a dataset, the options to amend metadata, version, or publish additional datasets are available. The [Versioning Guide](#versioning) provides information on how to update, remove or add files to your individual datasets.
 
 The process for publishing an additional dataset is identical to publishing one for the first time.
 
