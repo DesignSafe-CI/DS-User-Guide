@@ -306,7 +306,6 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     * Event \*
     * Related Work &
     * License \*
-    * Date of Publication !
 
   /////
 * ///// details | Analysis &
