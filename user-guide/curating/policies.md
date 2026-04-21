@@ -289,21 +289,21 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     * Description \*
 
   ////
-* ///// details | Experiment\*
+* ///// details | Experiment \*
 
     * Publisher !
     * DOI !
     * Experiment Title \*
-    * Author (PIs/Team Members)\*
+    * Author (PIs/Team Members) \*
     * Experiment Description \*
     * Date of Publication !
     * Dates of Experiment \*
     * Experimental Facility &
     * Experiment Type \*
-    * Equipment Type\*
-    * Model Configuration\*
-    * Sensor Information\*
-    * Event\*
+    * Equipment Type \*
+    * Model Configuration \*
+    * Sensor Information \*
+    * Event \*
     * Related Work &
     * License \*
     * Date of Publication !
@@ -336,7 +336,7 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
 * ///// details | Simulation \*
 
     * Simulation Title \*
-    * Author (PIs/Team Members)\*
+    * Author (PIs/Team Members) \*
     * Publisher !
     * Date of Publication !
     * License \*
@@ -346,8 +346,8 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     * Description \*
     * Simulation Type \*
     * Simulation Model \*
-    * Simulation Input\*
-    * Simulation Output\*
+    * Simulation Input \*
+    * Simulation Output \*
     * Referenced Data and Software &
 
   /////
@@ -378,7 +378,7 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     * Description \*
 
   ////
-* ///// details | Hybrid Simulation\*
+* ///// details | Hybrid Simulation \*
 
     * Hybrid Simulation Title \*
     * Hybrid Simulation Type \*
@@ -398,14 +398,14 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
         * Substructure Middleware \*
 
       ////
-    * //// details | Simulation Substructure\*
+    * //// details | Simulation Substructure \*
 
         * Simulation Substructure Title \*
         * Application and Version \*
         * Description \*
 
       ////
-    * //// details | Experiment Substructure\*
+    * //// details | Experiment Substructure \*
 
         * Experiment Substructure Title \*
         * Description \*
@@ -419,7 +419,7 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     open: True
 
 * Project Title \*
-* PI/Co-PI(s)\*
+* PI/Co-PI(s) \*
 * Project Type \*
 * Description \*
 * Award - Funding Agency \*
@@ -443,12 +443,12 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     * Keywords \*
 
   /////
-* ///// details | Mission\*
+* ///// details | Mission \*
 
     * Mission Title \*
     * Mission Event &
     * Facility &
-    * Author(s)\*
+    * Author(s) \*
     * Date(s) of Mission \*
     * Mission Site Location &
     * Date of Publication !
@@ -460,7 +460,7 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
     * Referenced Data and Software &
     * //// details | Social Sciences Collection
 
-        * Collection Title
+        * Collection Title \*
         * Unit of Analysis &
         * Mode(s) of Collection &
         * Sampling Approach(es) &
@@ -475,8 +475,8 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
       ////
     * //// details | Engineering/Geosciences Collection \*
 
-        * Collection Title
-        * Observation Type\*
+        * Collection Title \*
+        * Observation Type \*
         * Date(s) of Collection \*
         * Data Collector(s) \*
         * Collection Site Location &
@@ -486,7 +486,7 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
       ////
     * //// details | Research Planning Collection &
 
-        * Collection Title
+        * Collection Title \*
         * Collection Description \*
 
       ////
@@ -499,7 +499,7 @@ Consult the full metadata [Dictionaries](/user-guide/dictionary/) for more detai
 
 * DOI !
 * Dataset Title \*
-* Author(s)\*
+* Author(s) \*
 * Facility
 * Data Type \*
 * Description \*
