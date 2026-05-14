@@ -4,6 +4,14 @@ DesignSafe-CI offers a suite of training resources aimed at equipping researcher
 
 <section class="section--light">
     <div class="grid">
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/dapi" target="_blank">
+            <h3>
+DAPI - DesignSafe API
+            </h3>
+            <p>
+<code>dapi</code> is a Python library for submitting, monitoring, and managing TAPIS v3 jobs on DesignSafe via Jupyter Notebooks or the command line. It also provides access to DesignSafe research databases.
+            </p>
+        </a>
         <a class="card--plain" href="https://DesignSafe-CI.github.io/training-database-api" target="_blank">
             <h3>
 Database API training

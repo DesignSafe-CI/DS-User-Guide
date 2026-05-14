@@ -177,6 +177,8 @@ nav:
       - Visualizing Surge for Regional Risks: usecases/padgett/usecase.md
 
   - Advanced:
-    - API Developer's Guide: https://tapis-cli.readthedocs.io/en/latest/
+    - API Developer's Guide:
+      - DesignSafe API (DAPI): https://DesignSafe-CI.github.io/dapi
+      - TACC APIs (TAPIs): https://tapis-cli.readthedocs.io/en/latest/
     - Cybersecurity Policy: tools/advanced/cybersecurity.md
     - HPC Allocations Policy: tools/advanced/hpcallocations.md
