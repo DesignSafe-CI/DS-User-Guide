@@ -98,7 +98,8 @@ Find your ePPN associated with your Globus access by going to https://cilogon.or
 
 Login to your TACC user profile here: https://accounts.tacc.utexas.edu.
 Select ePPN on the left menu and then enter your ePPN in the field at the top of the page and save.
-Allow 30 minutes for the ePPN to propagate through TACC's systems.
+Allow 30 minutes for the ePPN to propagate through TACC's systems. 
+A prerequisite to using Globus to access DesignSafe files is to have completed the Getting Started steps of User Account Registration{target="_blank"} and Initial Onboarding{target="_blank"}.
 
 ### 4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect { #globus-step4 }
 
@@ -286,9 +287,9 @@ An example cron table entry that you can use to automatically run your transfer 
 
 Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows you to securely connect from your laptop to DesignSafe and other Texas Advanced Computing Center (TACC) resources.
 
-### 1. Set up MFA using the TACC Token App { #cyberduck-step1 }
+### 1. Prerequisites for Cyberduck access to DesignSafe files { #cyberduck-step1 }
 
-TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the [TACC user portal](https://www.tacc.utexas.edu/portal/login){ target="_blank" } and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full [MFA instructions](https://docs.tacc.utexas.edu/basics/mfa/){ target="_blank" }.
+A prerequisite to using Cyberduck for DesignSafe files is to have completed the Getting Started steps of User Account Registration{target="_blank"} and Initial Onboarding{target="_blank"}. 
 
 ### 2. Download and Install Cyberduck { #cyberduck-step2 }
 
@@ -338,9 +339,9 @@ To download files, select the file(s) you wish to download. Select "File" &gt; "
 
 Common command-line utilities, such as `scp` and `rsync`, may also be used to transfer large amounts of data to DesignSafe. Command line tools require the shortest setup time (assuming you have a compatible terminal), however are generally found challenging for first-time users as you will need to learn unix commands. Therefore, command line transfers are only recommended in specific circumstances where other tools have been tried and found to be insufficient.
 
-### 1. Set up MFA using the TACC Token App { #cli-step1 }
+### 1. Prerequisites for CLI access to DesignSafe files  { #cli-step1 }
 
-TACC requires multi-factor authentication (MFA) for logging directly into our resources. Go to the [TACC user portal](https://www.tacc.utexas.edu/portal/login){ target="_blank" } and log in with your DesignSafe/TACC credentials, click on Manage Account on the left menu, and then pair a device with your account. If needed you can explore the full <a href="https://docs.tacc.utexas.edu/basics/mfa/" target="_blank">MFA instructions.
+A prerequisite to using CLI for DesignSafe files is to have completed the Getting Started steps of User Account Registration{target="_blank"} and Initial Onboarding{target="_blank"}. 
 
 ### 2. Select Transfer Utility and Perform Transfer { #cli-step2 }
 
