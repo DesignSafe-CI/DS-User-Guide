@@ -99,7 +99,7 @@ Find your ePPN associated with your Globus access by going to https://cilogon.or
 Login to your TACC user profile here: https://accounts.tacc.utexas.edu.
 Select ePPN on the left menu and then enter your ePPN in the field at the top of the page and save.
 Allow 30 minutes for the ePPN to propagate through TACC's systems. 
-A prerequisite to using Globus to access DesignSafe files is to have completed the Getting Started steps of User Account Registration{target="_blank"} and Initial Onboarding{target="_blank"}.
+A prerequisite to using Globus to access DesignSafe files is to have completed the Getting Started steps of [User Account Registration](/user-guide/#user-account-registration){target="_blank"} and [Initial Onboarding](/user-guide/#initial-onboarding){target="_blank"}.
 
 ### 4. Activate Your Desktop/Laptop as a Globus Endpoint and Connect { #globus-step4 }
 
@@ -289,7 +289,7 @@ Cyberduck is an open-source SSH File Transfer Protocal (sftp) client that allows
 
 ### 1. Prerequisites for Cyberduck access to DesignSafe files { #cyberduck-step1 }
 
-A prerequisite to using Cyberduck for DesignSafe files is to have completed the Getting Started steps of User Account Registration{target="_blank"} and Initial Onboarding{target="_blank"}. 
+A prerequisite to using Cyberduck for DesignSafe files is to have completed the Getting Started steps of [User Account Registration](/user-guide/#user-account-registration){target="_blank"} and [Initial Onboarding](/user-guide/#initial-onboarding){target="_blank"}.
 
 ### 2. Download and Install Cyberduck { #cyberduck-step2 }
 
@@ -341,7 +341,7 @@ Common command-line utilities, such as `scp` and `rsync`, may also be used to tr
 
 ### 1. Prerequisites for CLI access to DesignSafe files  { #cli-step1 }
 
-A prerequisite to using CLI for DesignSafe files is to have completed the Getting Started steps of User Account Registration{target="_blank"} and Initial Onboarding{target="_blank"}. 
+A prerequisite to using CLI for DesignSafe files is to have completed the Getting Started steps of [User Account Registration](/user-guide/#user-account-registration){target="_blank"} and [Initial Onboarding](/user-guide/#initial-onboarding){target="_blank"}. 
 
 ### 2. Select Transfer Utility and Perform Transfer { #cli-step2 }
 
