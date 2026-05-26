@@ -7,7 +7,10 @@ DesignSafe supports multiple ways of moving data in and out of the Data Depot, a
 
 This document provides a brief description of the various methods available for moving data to and from DesignSafe to assist you in identifying the right data transfer method for your research needs. Once you have selected your data transfer method, each description concludes with a link to detailed instructions for initiating your transfer. File paths and host names are needed when using any of the data transfer methods that are external to the Data Depot's web-based transfers, with guidance found in the [Setting File Paths for DesignSafe](/user-guide/managingdata/datatransfer/#setting-file-paths-for-designsafe) section of this user guide.
 
+
 ## Recommended Data Transfer Methods { #recommended }
+
+A prerequiite to using these Data Transfer Methods is to have completed the Getting Started steps of [User Account Registration](/user-guide/#user-account-registration){target="_blank"} and [Initial Onboarding](/user-guide/#initial-onboarding){target="_blank"}.
 
 ### Recommended LARGE Data Transfer Methods { #recommended-largedatatransfer }
 
