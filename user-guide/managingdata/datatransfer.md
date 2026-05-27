@@ -10,7 +10,8 @@ This document provides a brief description of the various methods available for 
 
 ## Recommended Data Transfer Methods { #recommended }
 
-A prerequiite to using these Data Transfer Methods is to have completed the Getting Started steps of [User Account Registration](/user-guide/#user-account-registration){target="_blank"} and [Initial Onboarding](/user-guide/#initial-onboarding){target="_blank"}.
+!!! attention
+    A prerequisite to using these Data Transfer Methods is to have completed the Getting Started steps of [User Account Registration](/user-guide/#user-account-registration){target="_blank"} and [Initial Onboarding](/user-guide/#initial-onboarding){target="_blank"}.
 
 ### Recommended LARGE Data Transfer Methods { #recommended-largedatatransfer }
 
