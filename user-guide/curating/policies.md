@@ -38,9 +38,9 @@ Each published dataset has a [digital object identifier (DOI)](/user-guide/curat
 
 DDR does not conduct re-appraisals or deaccessions, and does not delete data. In cases of tombstones, data is withdrawn from public access but it is not deleted.
 
-This preservation environment and our policies and best practices allow us to maintain all data in secure conditions at all times, comply with [NDSA Preservation Level 3](https://ndsa.org/publications/levels-of-digital-preservation/) and meet some requirements for NDSA Preservation Level 4, maintain representation and descriptive information about each dataset, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion.
+This preservation environment and our policies and best practices allow us to maintain all data in secure conditions at all times, comply with [NDSA Preservation Level](https://ndsa.org/publications/levels-of-digital-preservation/) **3** and meet some requirements for NDSA Preservation Level **4**, maintain representation and descriptive information about each dataset, and be ready at any time to transfer custody of published data and metadata in an orderly and validated fashion.
 
-Through ample curation best-practices documentation in the [User Guides](/user-guide/) and curatorial guidance available through office hours, help tickets and dataset reviews prior to and post publication, DDR partners with, and encourages authors to work towards long term sustainability of their datasets.
+Through ample curation best-practices documentation in the [User Guides](/user-guide/) and curatorial guidance availability through office hours, help tickets and dataset reviews prior to and post publication, DDR partners with, and encourages authors to work towards long term sustainability of their datasets.
 
 The DDR has been operational since 2016 and is currently supported by the NSF through March of 2027. During this award period, the DDR will continue collecting and preserving natural hazards research data as well as supporting preservation of and access [to legacy data and the accompanying metadata](/data/browser/public/nees.public) from the Network for Earthquake Engineering Simulation (NEES). The [Continuity of Access Policy](/user-guide/curating/policies/#continuity-of-access) provides details about long-term preservation and access of the DDR datasets in relation to eventual changes in custody.
 
@@ -66,7 +66,7 @@ Statement of data quality: We ask that data producers include information in the
 
 In turn, when data has been published as is, we encourage users to indicate this in their descriptions. This is frequent for data coming from heavily instrumented experiments or large simulations.
 
-Research software: Prior to publishing software, researchers must test that it functions correctly, document its provenance using the CodeMeta schema available in the publication pipeline, and provide clear instructions on why and how to use it.
+Research software: Prior to publishing software, researchers must test that it functions correctly, and is thoroughly documented **both** in terms of their provenance — by using the CodeMeta schema available in the publication pipeline — **and** that the instructions on why and how to use it are clear.
 
 Identifying and meeting data quality: The quality of the data publications in DDR is described in three levels of curation. These levels have to do with the functionalities and services provided by the DDR, and with the curation training and experience of the researchers. Below are the characteristics of the three curation levels:
 
@@ -81,13 +81,13 @@ In cases in which the curators review publications and notice that the dataset d
 
 ## Data Documentation
 
-DDR requires the submission of ample documentation as part of the dataset publication. For this, the data models present categories such as Data Report (Experiments and Simulations), Planning Documents and Document Collection (Field Research), where users publish information that provides context and technical provenance for the dataset publication. If a dataset is published under Other, researchers should also upload a report, and the Research Software data model requires a readme file and a Code Meta file as part of the package.
+DDR requires the submission of ample documentation as part of the  dataset publication. For this, the data models present categories such as Data Report (Experiments and Simulations), Planning Documents and  Document Collection (Field Research), where to publish information that provides context to and technical provenance of the dataset publication. If a dataset is published under Other, researchers should also upload a report, and the Research Software data model requires a readme file and a Code Meta file as part of the package.
 
 Understanding the details of how data was acquired makes data reproducible and reusable. Experimental researchers in our community frequently write extensive data reports including details of how the experiment was conducted. Similarly, field researchers create planning documents to record their data gathering strategies and logistics, and produce reports about the rationale and results of the data they collected that they publish as a Document Collection. In turn, Simulation and Machine Learning researchers also need to explain their methodology, as well as the software and sometimes the hardware they used to make their data understandable. Thus, the way in which the data was obtained - its technical provenance - is clear to other researchers that want to reuse it.
 
 To be comprehensive, these reports need to contain data dictionaries that explain the meaning of the measured elements, the variables considered, or the labels of the column headers if they are presenting tabular data.
 
-How the data is organized and the meaning of its file naming convention should also be clarified so that others can easily navigate and access the data they need. In addition, the data report should contain information about how the data was processed for publication, or if it was published as is. See [Writing Effective Data Reports](/user-guide/curating/bestpractices/#writing-effective-data-reports) in the best practices section.
+How the data is organized and the meaning of its file naming convention should also be clarified so that others can easily navigate and access the data they need. In addition, the data report should contain information about how the data was processed for publication, or if it was published as is. For best practices, see [Writing Effective Data Reports](/user-guide/curating/bestpractices/#writing-effective-data-reports).
 
 ## Data Publication Agreement
 
@@ -122,13 +122,13 @@ I understand that using the DDR to publish datasets is entirely voluntary and th
 
 ## Data Types
 
-We accept engineering and social and behavioural sciences research conducted in the context of natural hazards regarding the impacts of wind, earthquake, storm surge, wildfires, and sustainable materials management. In the area of engineering, the primary focus is on data generated through simulation, hybrid simulation, experimental, machine learning, and field research methods. We also accept civil engineering datasets that study the foundation of structures. In social and behavioural sciences (SBE), accepted datasets and research instruments encompass the study of the human dimensions of hazards and disasters. As of 2025 we accept research software publications.
+We accept engineering and social and behavioural sciences datasets conducted in the context of natural hazards regarding the impacts of wind, earthquake, storm surge, wildfires, and sustainable materials management. In the area of engineering, the primary focus is on data generated through simulation, hybrid simulation, experimental, machine learning, and field research methods. We also accept civil engineering datasets that study the foundation of structures. In social and behavioural sciences (SBE), accepted datasets and research instruments encompass the study of the human dimensions of hazards and disasters. As of 2025 we accept research software publications.
 
 We also publish data reports, presentations, survey instruments, questionnaires and protocols related to research in the context of natural hazards. All publications should be documented and understandable on their own, and should merit having a citation including a DOI. While we encourage linking datasets to contextual information and to related papers published elsewhere, the publication package including metadata and supporting documentation when applicable, should suffice for another person to understand it and reuse it.
 
 For the reasons stated above we do not accept supplementary materials, notes, or future plans as publications.
 
-Users whose publication packages do not match the criteria explained above will be notified whenever possible before publication so that they can remove their data. If a noncompliant dataset is published with a DOI, we will abide by the [Tombstone Policy](/user-guide/curating/policies/#tombstone), and a curator will work with the user to find a repository adequate for their needs. As the field and the expertise of the community evolves we may expand the data types accepted.
+Users, whose publication packages do not match the criteria explained above, will be notified whenever possible before publication so that they can remove their data. If a noncompliant dataset is published with a DOI, we will abide by the [Tombstone Policy](/user-guide/curating/policies/#tombstone), and a curator will work with the user to find a repository adequate for their needs. As the field and the expertise of the community evolves we may expand the data types accepted.
 
 ## Data Usage Agreement
 
@@ -190,7 +190,7 @@ Due to variations in their methodology, researchers may not need all the categor
 
 ## Licenses
 
-As an open repository, DDR offers licenses which pose less demands on reusers and are more effective enabling reproducible science. All the licenses were selected after discussions within our community. Noting that datasets are not copyrightable materials, but works such as reports, instruments, presentations, and research software are, DDR provides licensing options to accommodate the variety of research outputs that are accepted in the DDR. To map to data producers' different preferences for attribution we offer licenses for data and works that expect attribution as well as public domain licenses.
+As an open repository, DDR offers licenses which pose less demands on reusers and are more effective enabling reproducible science. All the licenses were selected after discussions within our community. Noting that datasets are not copyrightable materials, but works such as reports, instruments, presentations, and research software are, DDR provides licensing options to accommodate the variety of research outputs that are accepted in the DDR. To map to the data producers' different preferences for attribution we offer licenses for data and works that expect attribution as well as public domain licenses.
 
 During the publication process users have the option of selecting one license that best fits their needs and standards per publication. Available Licenses for Publishing Datasets in DDR are:
 
