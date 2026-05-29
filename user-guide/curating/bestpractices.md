@@ -4,7 +4,7 @@
 
 Data curation involves the organization, description, quality control, preservation, accessibility, and ease of reuse of data, with the goal of making your data publication [FAIR](https://www.go-fair.org/fair-principles/) and assuring that it will be useful for generations to come.
 
-Step-by-step data curation instructions can be found in [How to Curate Data?](/user-guide/curating/guides/), and we strongly recommend following the onboarding instructions in the My Project curation and publication interface. We are available for additional help during our [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) and via [help tickets](https://www.designsafe-ci.org/help/submit-ticket/). The [DDR Policies](/user-guide/curating/policies/) communicate requirements for managing and publishing data. General curation best practices exist for [Curation Quality](/user-guide/curating/bestpractices/#curation-quality) and [Curating Various Types of Research Data](/user-guide/curating/bestpractices/#curating-various-types-of-research-data).
+Step-by-step data curation instructions can be found in [How to Curate Data?](/user-guide/curating/guides/), and we strongly recommend following the onboarding instructions in the My Project curation and publication interface. We are available for additional help during our [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) and via [help tickets](https://www.designsafe-ci.org/help/submit-ticket/). The [DDR Policies](/user-guide/curating/policies/) communicate requirements for managing and publishing data. General curation best practices exist for [Data Quality](/user-guide/curating/bestpractices/#data-quality) and [Curating Various Types of Research Data](/user-guide/curating/bestpractices/#curating-various-types-of-research-data).
 
 ## Data Quality
 
@@ -46,13 +46,13 @@ Massey, C., D. Townsend, B. Rosser, R. Morgenstern, K. Jones, B. Lukovic, J. Dav
 
 ### Proprietary Data
 
-Many instruments used in natural hazards research involve proprietary file formats. Many of those files can be converted to open formats prior to uploading to DDR. For example, point cloud data captured with scanners in … can be converted to open .laz, las file formats.
+Many instruments used in natural hazards research involve proprietary file formats. Many of those files can be converted to open formats prior to uploading to DDR. For example, point cloud data captured with scanners can be converted to open `.laz` or `.las` file formats.
 
-Excel and Matlab are proprietary file formats that are very frequently used in this community. Researchers have expressed that they are convenient for analysis and reuse because of the softwares' popular user base. Instead of publishing these file formats it is best to convert and publish these types of data in csv format so they can be used by different software. However, depending on the function of the files, conversion may distort the data structures. Always retain an original copy of any structured data before attempting conversions, and check between the two for fidelity. For users of Matlab, DesignSafe has MatLab software available in [Tools and Applications](/use-designsafe/tools-applications/).
+Excel and Matlab are proprietary file formats that are very frequently used in this community. Researchers have expressed that they are convenient for analysis and reuse because of those programs' wide adoption. Instead of publishing these file formats, it is best to convert and publish these types of data in `.csv` format so they can be used by different software. However, depending on the function of the files, conversion may distort the data structures. Always retain an original copy of any structured data before attempting conversions, and check between the two for fidelity. For users of Matlab, DesignSafe has MatLab software available in [Tools and Applications](/use-designsafe/tools-applications/).
 
 Additionally, it is possible to upload and publish both the proprietary and the converted version in the DDR, especially if you consider that publishing the original proprietary format is useful for data reuse, as it contains all the information captured by the instruments.
 
-When publishing Matlab and Excel files users may want to refer to the following Data Curation Primers.
+When publishing Matlab and Excel files, users may want to refer to the following Data Curation Primers.
 - [Matlab](https://deepblue.lib.umich.edu/handle/2027.42/154686)
 - [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
 
@@ -62,11 +62,11 @@ Users that upload data as `.tar` or `.zip` files should decompress these files b
 
 ### Bin Files
 
-Binary data files (`.bin`) can store a wide variety of information, including raw data, software executables, or multimedia content. Because the .bin extension is not a specific format, additional information, such as a companion `.cue` file or documentation about the structure of their binary file formats and the application/instrument that generated them are needed to know what's inside the file and how to open it. Users that store binary files should include that information and or the application they use to read those files.
+Binary data files (`.bin`) can store a wide variety of information, including raw data, software executables, or multimedia content. Because the `.bin` extension is not a specific format, additional information, such as a companion `.cue` file or documentation about the structure of their binary file formats and the application/instrument that generated them are needed to know what's inside the file and how to open it. Users that store binary files should include that information and/or the application they use to read those files.
 
 ### Database Files
 
-Similarly, when submitting database files (e.g. `db`, `json`, `graphMl`, `mdb`, `json-LD`, `Turtle`), whether proprietary or open source, researchers should include information about their schema structure and the type of database used to manage them. In addition, users may submit the application (ex. Jupyter notebook) developed to utilize the information in the file. The following is an example of a published dataset containing all the information about and an application required to use `.db` files.
+Similarly, when submitting database files (e.g. `db`, `json`, `graphMl`, `mdb`, `json-LD`, `Turtle`), whether proprietary or open source, researchers should include information about their schema structure and the type of database used to manage them. In addition, users may submit the application (ex. Jupyter notebook) developed to utilize the information in the file. The following is an example of a published dataset that includes the documentation and an application required to use `.db` files.
 
 Subramanian, C., J. Pinelli, S. Lazarus, J. Zhang, S. Sridhar, A. Lebbar, J. Wang, J. Erwin, D. Chen, H. Besing (2024). "Wall of Wind - Non-structural Component (FIT House 2021)", in *Lab Tests with Wireless Sensor Network (WSN) system for the characterization of strong wind loads on non-structural components*. DesignSafe-CI. [https://doi.org/10.17603/ds2-apc1-6739](https://doi.org/10.17603/ds2-apc1-6739)
 
@@ -186,7 +186,7 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 
 ## Recommended File Formats
 
-For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data following the recommendations available from the [Library of Congress](https://www.google.com/url?q=https://www.loc.gov/preservation/resources/rfs/data.html%23datasets&sa=D&source=docs&ust=1779995171488357&usg=AOvVaw0Z86AnVAQgBxii6JHTRSTk). These recommendations are updated on a yearly basis. The current recommendations include information on what proprietary formats are acceptable such as excel files.
+For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data following the recommendations available from the [Library of Congress](https://www.google.com/url?q=https://www.loc.gov/preservation/resources/rfs/data.html%23datasets&sa=D&source=docs&ust=1779995171488357&usg=AOvVaw0Z86AnVAQgBxii6JHTRSTk). These recommendations are updated on a yearly basis. The current recommendations include information on what proprietary formats are acceptable, such as Excel files.
 
 For quick reference and focusing on open formats, below is an adaptation of the list of recommended formats for data and documentation by [Stanford Libraries.](https://guides.library.stanford.edu/data-best-practices/format-files) For those available, we include a link to the [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) which are peer-reviewed documents that can be used as guidelines to curate research data:
 
@@ -384,14 +384,14 @@ Amends include:
 * Changing the order of authors: even though DDR has interactive tools to set the order of authors in the publication pipeline, users may require changes after publication.
 * Add Funders and Awards: It is always important to provide credit to the agencies that fund the research that allows creating the data. 
 * Adding Related Works: when papers citing a dataset are published, we encourage users to add the references in Related Works (option: is cited by) to improve data understandability, cross-referencing, and citation count.
-* Adding _Referenced Data and Software_ when other datasets and or research software was used to create the published dataset.
+* Adding _Referenced Data and Software_ when other datasets and/or research software were used to create the published dataset.
 
 
 
 Version control includes:
 
 * Adding or deleting files to a published dataset.
-* Changing a file content and replacing the existing file with the one with the new content.
+* Changing file content and replacing the existing file with the updated version.
 * Documenting the nature of the changes which will publicly show in the landing page.
 * Descriptions of the nature of the changes are displayed for users to see what changed and stored as metadata.
 * Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
