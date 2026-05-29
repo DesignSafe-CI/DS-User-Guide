@@ -186,7 +186,7 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 
 ## Recommended File Formats
 
-For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data following the recommendations available from the [Library of Congress](https://www.google.com/url?q=https://www.loc.gov/preservation/resources/rfs/data.html%23datasets&sa=D&source=docs&ust=1779995171488357&usg=AOvVaw0Z86AnVAQgBxii6JHTRSTk). These recommendations are updated on a yearly basis. The current recommendations include information on what proprietary formats are acceptable, such as Excel files.
+For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data following the recommendations available from the [Library of Congress](https://www.loc.gov/preservation/resources/rfs/data.html#datasets). These recommendations are updated on a yearly basis. The current recommendations include information on what proprietary formats are acceptable, such as Excel files.
 
 For quick reference and focusing on open formats, below is an adaptation of the list of recommended formats for data and documentation by [Stanford Libraries.](https://guides.library.stanford.edu/data-best-practices/format-files) For those available, we include a link to the [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) which are peer-reviewed documents that can be used as guidelines to curate research data:
 
