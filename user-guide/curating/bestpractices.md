@@ -6,23 +6,23 @@ Data curation involves the organization, description, quality control, preservat
 
 Step-by-step data curation instructions can be found in [How to Curate Data?](/user-guide/curating/guides/), and we strongly recommend following the onboarding instructions in the My Project curation and publication interface. We are available for additional help during our [Virtual Office Hours](https://www.designsafe-ci.org/facilities/virtual-office-hours/) and via [help tickets](https://www.designsafe-ci.org/help/submit-ticket/). The [DDR Policies](/user-guide/curating/policies/) communicate requirements for managing and publishing data. General curation best practices exist for [Curation Quality](/user-guide/curating/bestpractices/#curation-quality) and [Curating Various Types of Research Data](/user-guide/curating/bestpractices/#curating-various-types-of-research-data).
 
-## Curation Quality 
+## Data Quality
 
-Curation quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
+Data quality involves ensuring the accuracy, completeness, consistency, and reliability of your dataset.  In the DDR, curation quality policies as well as the curation and publication interactive functions are geared towards ensuring excellence in data publications. Each data publication is unique; it reflects and provides evidence of the research work of individuals and teams. It is the user's responsibility to publish data that is up to the best standards of their profession, and the DDR's  commitment is to help them achieve these standards.In addition, the following best practices are highly recommended to assure that a dataset is curated towards reusability and reproducibility:
 
-* Check for completeness of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
-* Use quality control methods to review the data for errors or to improve its fitness to the research application. Methods may involve: calibration, validation, normalization, resizing, improved resolution, cleaning, transformation to open formats, noise reduction, sub-sampling, performance testing, consolidation, further documentation, etc. Always include an explanation of the quality control methods you used in the data report or readme file so that other users are aware of the quality control methods employed. 
-* When publishing tabular data include a data dictionary in the data report to explain the meaning of the column fields. 
-* Data dictionaries are also useful to clarify acronyms, abbreviations or codes for measurements used in your data or documentation.
-* It is possible to publish both raw and curated data. Raw data comes directly from experiment recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data along with their curated data. For those who wish to publish both, carefully consider the necessity of publishing both sets, and how another researcher might use them. Always clarify whether your data is raw or curated in the description, by adding a tag to label the files, or in a data report and include information about the method used to curate it.
-* Researchers generate enormous amounts of images and other file types. While there are no restrictions on the number of files in a project, it is important to be selective as to not overwhelm users. Make sure that all images have a purpose and are illustrative of a process or a function, and avoid redundancy. Use file tags to describe them, this is to make sure users know what you want to highlight. The same approach should be applied for other data formats.
-* Researchers that publish large amounts of files (for example as simulation outputs or field research collections) should consider publishing scripts/tools that allow selection/visualization/post-processing of files of interest so users can review and subset  data.
-* When publishing scripts/code, always include a readme file that explains clearly how to use the scripts.
-* Before publishing scripts and notebooks, always make sure your code works properly.
+* Check for **completeness** of data transfer. Sometimes users upload folders with large numbers of files, and transfers get interrupted so everything in the folder may not get transferred. Please check that all folders contain all the files intended.
+* Use **quality control methods** to review the data for errors or to improve its fitness to the research application. Methods may involve: calibration, validation, normalization, resizing, improved resolution, cleaning, transformation to open formats, noise reduction, sub-sampling, performance testing, consolidation, further documentation, etc. Always include an explanation of the quality control methods you used in the data report or readme file so that other users are aware of the quality control methods employed. 
+* When publishing tabular data include a **data dictionary** in the data report to explain the meaning of the column fields. 
+* **Data dictionaries** are also useful to clarify acronyms, abbreviations or codes for measurements used in your data or documentation.
+* It is possible to **publish both raw and curated data**. Raw data comes directly from experiment recording instruments (camera, apps, sensors, scanners, etc). When raw data is corrected, calibrated, reviewed, edited or post-processed in any way for publication, it is considered curated. Some researchers want to publish their raw data along with their curated data. For those who wish to publish both, carefully consider the necessity of publishing both sets, and how another researcher might use them. Always clarify whether your data is raw or curated in the description, by adding a tag to label the files, or in a data report and include information about the method used to curate it.
+* Researchers generate enormous amounts of images and other file types. While there are no restrictions on the number of files in a project, it is important to **be selective** as to not overwhelm users. Make sure that all images have a purpose and are illustrative of a process or a function, and avoid redundancy. Use file tags to describe them, this is to make sure users know what you want to highlight. The same approach should be applied for other data formats.
+* Researchers that publish large amounts of files (for example as simulation outputs or field research collections) should consider **publishing scripts/tools** that allow selection/visualization/post-processing of files of interest so users can review and subset  data.
+* When publishing research software, always **include a readme file** that explains clearly how to use it.
+* Before publishing scripts and research software, always make sure **your code works properly.**
 
 
 
-### AI-Ready Curation Quality
+### AI-Ready Data Quality
 
 AI Ready curation quality  is about ensuring data is clean, organized, structured, unbiased, and includes necessary contextual information to support AI workflows effectively leading to secure and meaningful outcomes. Overall, it points to achieving research reproducibility. DDR's policies and best practices cover many of the requirements to publish AI ready data, and we notice via citations that many types of published datasets in DDR are used in AI applications. There are additional recommendations for datasets specifically created to train particular ML models and or benchmarks and testbeds to be used in many applications. In those cases, beyond following all the applicable policies and best practices to publish a quality dataset, researchers should also:
 
@@ -44,18 +44,31 @@ Massey, C., D. Townsend, B. Rosser, R. Morgenstern, K. Jones, B. Lukovic, J. Dav
 
 ## Curating Various Types of Research Data
 
-### Proprietary Formats
+### Proprietary Data
 
-Many instruments used in natural hazards research involve proprietary file formats. Many of those files can be converted to open formats within their corresponding software prior to uploading to DDR.  In turn, Excel and Matlab are proprietary file formats that are frequently used in this community for analysis purposes. Instead of Excel spreadsheet files, it is best to publish data in CSV format so it can be used by different software. However, in some cases conversion may distort the data structures and thus the files cannot be converted. Always retain an original copy of any structured data before attempting conversions, and check between the two for fidelity. Additionally, it is possible to upload and publish both the proprietary and the converted version in the DDR, especially if you consider that publishing with a proprietary format is convenient for data reuse.
+Many instruments used in natural hazards research involve proprietary file formats. Many of those files can be converted to open formats prior to uploading to DDR. For example, point cloud data captured with scanners in … can be converted to open .laz, las file formats.
 
-When publishing proprietary files that are ubiquitous in the field, please refer to the following Data Curation Primers. 
+Excel and Matlab are proprietary file formats that are very frequently used in this community. Researchers have expressed that they are convenient for analysis and reuse because of the softwares' popular user base. Instead of publishing these file formats it is best to convert and publish these types of data in csv format so they can be used by different software. However, depending on the function of the files, conversion may distort the data structures. Always retain an original copy of any structured data before attempting conversions, and check between the two for fidelity. For users of Matlab, DesignSafe has MatLab software available in [Tools and Applications](/use-designsafe/tools-applications/).
 
-* [Matlab](https://deepblue.lib.umich.edu/handle/2027.42/154686)
-* [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
+Additionally, it is possible to upload and publish both the proprietary and the converted version in the DDR, especially if you consider that publishing the original proprietary format is useful for data reuse, as it contains all the information captured by the instruments.
+
+When publishing Matlab and Excel files users may want to refer to the following Data Curation Primers.
+- [Matlab](https://deepblue.lib.umich.edu/handle/2027.42/154686)
+- [Excel](https://github.com/DataCurationNetwork/data-primers/blob/main/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md)
 
 ### Compressed Data
 
-Users that upload data as a zip file should unzip before curating and publishing, as zip files prevent others from directly viewing and making sense of the published data and the repository. If uploading compressed files to My Data, it is possible to unzip it using the extraction [utility](https://www.designsafe-ci.org/rw/workspace/#!/extract-0.1u1) available in the workspace before copying data to My Project for curation and publication.
+Users that upload data as `.tar` or `.zip` files should decompress these files before curating and publishing, as these formats prevent others from directly viewing and making sense of the published data. In the DDR, users can upload `.zip` files to My Data and unzip them using the zip extraction [utility](/rw/workspace/extract-express) available in Tools and Applications before copying data to My Project for curation and publication.
+
+### Bin Files
+
+Binary data files (`.bin`) can store a wide variety of information, including raw data, software executables, or multimedia content. Because the .bin extension is not a specific format, additional information, such as a companion `.cue` file or documentation about the structure of their binary file formats and the application/instrument that generated them are needed to know what's inside the file and how to open it. Users that store binary files should include that information and or the application they use to read those files.
+
+### Database Files
+
+Similarly, when submitting database files (e.g. `db`, `json`, `graphMl`, `mdb`, `json-LD`, `Turtle`), whether proprietary or open source, researchers should include information about their schema structure and the type of database used to manage them. In addition, users may submit the application (ex. Jupyter notebook) developed to utilize the information in the file. The following is an example of a published dataset containing all the information about and an application required to use `.db` files.
+
+Subramanian, C., J. Pinelli, S. Lazarus, J. Zhang, S. Sridhar, A. Lebbar, J. Wang, J. Erwin, D. Chen, H. Besing (2024). "Wall of Wind - Non-structural Component (FIT House 2021)", in *Lab Tests with Wireless Sensor Network (WSN) system for the characterization of strong wind loads on non-structural components*. DesignSafe-CI. [https://doi.org/10.17603/ds2-apc1-6739](https://doi.org/10.17603/ds2-apc1-6739)
 
 ### Simulation Data
 
@@ -107,7 +120,7 @@ So, once the software is published in DesignSafe, researchers should [add the De
 
 If planning to publish a Jupyter Notebook in the DDR, the content must comply with the definition of research software available in the [Research Software Publication Policy](/user-guide/curating/policies/#publishing-research-software). Thus, the content of the Jupyter Notebook must be a contribution to solving a scientific problem. It should also comply with [Research Software Best Practices](#research-software) outlined above. 
 
-Jupyter Notebooks, published via GitHub or as Project Type Other should be self-contained and should not depend on file paths on DesignSafe computing resources or external file systems. Please see [instructions on how to publish Jupyter Notebooks](/user-guide/tools/jupyterhub/#publishing-notebooks).
+Jupyter Notebooks, published via GitHub or as Project Type Other should be self-contained and should not depend on file paths on DesignSafe computing resources or external file systems. Please see [how to publish Jupyter Notebooks](/user-guide/tools/jupyterhub/#publishing-notebooks).
 
 Many users publish notebooks along with a sample dataset or in connection to a published dataset. Always reference the dataset in the Related Data and Software entry.
 
@@ -173,7 +186,9 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 
 ## Recommended File Formats
 
-For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data in open formats. Below is an adaptation of the list of recommended formats for data and documentation by [Stanford Libraries.](https://guides.library.stanford.edu/data-best-practices/format-files) For those available, we include a link to the  [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) which are peer-reviewed documents that can be used as guidelines to curate research data:
+For long-term preservation and interoperability purposes, we recommend and promote storing and publishing data following the recommendations available from the [Library of Congress](https://www.google.com/url?q=https://www.loc.gov/preservation/resources/rfs/data.html%23datasets&sa=D&source=docs&ust=1779995171488357&usg=AOvVaw0Z86AnVAQgBxii6JHTRSTk). These recommendations are updated on a yearly basis. The current recommendations include information on what proprietary formats are acceptable such as excel files.
+
+For quick reference and focusing on open formats, below is an adaptation of the list of recommended formats for data and documentation by [Stanford Libraries.](https://guides.library.stanford.edu/data-best-practices/format-files) For those available, we include a link to the [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) which are peer-reviewed documents that can be used as guidelines to curate research data:
 
 * [Databases](https://github.com/DataCurationNetwork/data-primers/blob/master/Databases%20Data%20Curation%20Primer/databases-data-curation-primer.md): XML, CSV
 * [Geospatial](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md): SHP, DBF, [GeoTIFF](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoTIFF%20Data%20Curation%20Primer/geotiff-data-curation-primer.md), [netCDF](https://deepblue.lib.umich.edu/handle/2027.42/145724), [GeoJSON](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoJSON%20Data%20Curation%20Primer/GeoJSON-data-curation-primer.md)
@@ -183,7 +198,7 @@ For long-term preservation and interoperability purposes, we recommend and promo
 * Statistics: ASCII, DTA, [POR](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Format-Overview), [SAS](https://github.com/DataCurationNetwork/data-primers/blob/master/SAS%20Data%20Curation%20Primer/SAS-data-curation-primer.md), [SAV](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Format-Overview)
 * Still images: TIFF, JPEG 2000, [PDF,](https://github.com/DataCurationNetwork/data-primers/blob/master/PDF%20Data%20Curation%20Primer/PDF-data-curation-primer.md) PNG, GIF, BMP
 * [Tabular data](https://github.com/DataCurationNetwork/data-primers/blob/master/Tableau%20Data%20Curation%20Primer/Tableau-data-curation-primer.md): CSV
-* Text: XML, [PDF/A](https://github.com/DataCurationNetwork/data-primers/blob/master/PDF%20Data%20Curation%20Primer/PDF-data-curation-primer.md), HTML, ASCII, UTF-8 ,
+* Text: XML, [PDF/A](https://github.com/DataCurationNetwork/data-primers/blob/master/PDF%20Data%20Curation%20Primer/PDF-data-curation-primer.md), HTML, ASCII, UTF-8, DOCX
 * CODE: (tcl files, py files) [Jupyter Notebook](https://github.com/DataCurationNetwork/data-primers/blob/master/Jupyter%20Notebook%20Data%20Curation%20Primer/Jupyter%20Notebooks%20Data%20Curation%20Primer.md)
 * Seismology: SEED
 
@@ -368,14 +383,15 @@ Amends include:
 * Improve or add metadata: Adding information in a non-required field, or changing, improving already completed fields.
 * Changing the order of authors: even though DDR has interactive tools to set the order of authors in the publication pipeline, users may require changes after publication.
 * Add Funders and Awards: It is always important to provide credit to the agencies that fund the research that allows creating the data. 
-* Adding Related Works: when papers citing a dataset are published, we encourage users to add the references in Related Works (option: is cited by) to improve data understandability, cross-referencing, and citation count. Other related works inform contextual, informing the 
-* Adding Referenced Data and Software: when other datasets and or research software was used to create the published dataset.
+* Adding Related Works: when papers citing a dataset are published, we encourage users to add the references in Related Works (option: is cited by) to improve data understandability, cross-referencing, and citation count.
+* Adding _Referenced Data and Software_ when other datasets and or research software was used to create the published dataset.
 
 
 
 Version control includes:
 
 * Adding or deleting files to a published dataset.
+* Changing a file content and replacing the existing file with the one with the new content.
 * Documenting the nature of the changes which will publicly show in the landing page.
 * Descriptions of the nature of the changes are displayed for users to see what changed and stored as metadata.
 * Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
