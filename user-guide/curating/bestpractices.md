@@ -395,6 +395,7 @@ Version control includes:
 * Documenting the nature of the changes which will publicly show in the landing page.
 * Descriptions of the nature of the changes are displayed for users to see what changed and stored as metadata.
 * Any changes to the project’s metadata will also be updated (this update is limited to the same fields allowed in the Amend section), so there is no need to amend a newly versioned project unless you have made a mistake in the latest version.
+* When using the Github-DesignSafe pipeline to publish research software, versions in DesignSafe correspond directly to versions in GitHub. Please see guidance for [Versioning Research Software](/user-guide/curating/bestpractices/#versioning-research-software).
 
 Versioning has these implications for the project’s DOI:
 
