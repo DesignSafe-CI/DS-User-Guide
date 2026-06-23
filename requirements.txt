@@ -115,9 +115,9 @@ mkdocs-exclude-search==0.6.6 ; python_version >= "3.10" and python_version < "3.
 mkdocs-include-markdown-plugin==5.1.0 ; python_version >= "3.10" and python_version < "3.13" \
     --hash=sha256:4a1b8d79a0e1b6fd357ca8013a6d1701c755ada4acb74ee97b0642d1afe6756e \
     --hash=sha256:e9ca188ab1d86f5fc4a6b96ce8c85acf6e25f114897868041056ec7945f29f65
-mkdocs-tacc==1.0.3 ; python_version >= "3.10" and python_version < "3.13" \
-    --hash=sha256:35d293c93220bce94127d718400c8ec6218379fd0d27cffcc1cd15921db1b06c \
-    --hash=sha256:fc02f5fb94dc3cf4e29ddf60009ee5a131a8b733480cebfbb028d51dde7c6727
+mkdocs-tacc==1.0.4 ; python_version >= "3.10" and python_version < "3.13" \
+    --hash=sha256:1029eafd35b9996e19fb560aae9d1174d4262e1e3a3c3c5ed3518f7d5cd0a16a \
+    --hash=sha256:9945a00aeb67ca27609d7a15e63e6495fe4bc404af1ac8ac4731507a814470db
 mkdocs==1.4.3 ; python_version >= "3.10" and python_version < "3.13" \
     --hash=sha256:5955093bbd4dd2e9403c5afaf57324ad8b04f16886512a3ee6ef828956481c57 \
     --hash=sha256:6ee46d309bda331aac915cd24aab882c179a933bd9e77b80ce7d2eaaa3f689dd
