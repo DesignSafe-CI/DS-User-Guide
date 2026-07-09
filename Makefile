@@ -18,8 +18,8 @@ build:
 
 .PHONY: start
 start:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.yml up
+	$(DOCKER_COMPOSE_CMD) -f ./docker-compose.yml up $(ARGS)
 
 .PHONY: stop
 stop:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.yml down
+	$(DOCKER_COMPOSE_CMD) -f ./docker-compose.yml down $(ARGS)
