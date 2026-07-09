@@ -28,9 +28,7 @@
 
 ---
 
-<!-- {% include-markdown 'visualization/_redirect-taggit-browse-map.md' %} -->
-
-<!-- {% include-markdown 'visualization/_redirect-taggit-categorize.md' %} -->
+<!-- Taggit sections hidden; files preserved at visualization/_redirect-taggit-*.md -->
 
 ---
 
