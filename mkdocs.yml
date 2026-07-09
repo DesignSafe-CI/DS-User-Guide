@@ -111,8 +111,8 @@ nav:
     - GIS Tools:
       - Hazmapper: tools/visualization/hazmapper.md
       - QGIS: tools/visualization/qgis.md
-      - "Taggit: Basic Image Browsing and Mapping": tools/visualization/taggit-browse-map.md
-      - "Taggit: Grouping and Tagging Image Files": tools/visualization/taggit-categorize.md
+      #- "Taggit: Basic Image Browsing and Mapping": tools/visualization/taggit-browse-map.md
+      #- "Taggit: Grouping and Tagging Image Files": tools/visualization/taggit-categorize.md
     - Visualization: tools/visualization.md
     - Hazard Apps: tools/hazard.md
     - Utilities: tools/utilities.md
@@ -150,7 +150,7 @@ nav:
   - Use Cases:
     - Overview: usecases/overview.md
     - Data Analytics:
-      - Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
+      #- Multi-Data Set Image Analysis in Taggit: usecases/haan/usecase-3.md
       - ML and AI: usecases/vantassel_and_zhang/usecase.md
       - Application Programming Interfaces: usecases/brandenberg-api/usecase.md
       - SQLite Database Management in DesignSafe: usecases/brandenberg-sqlite/usecase.md
