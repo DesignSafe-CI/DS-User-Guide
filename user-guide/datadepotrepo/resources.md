@@ -56,7 +56,7 @@ Below are examples of good organization and description for different dataset ty
 * Simulation
 * Hybrid Simulation
 * Field Research
-    * [Expert Survey on Community Resilience Testbed Use and Development (Social Science)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3333)
+    * [Expert Survey on Community Resilience Testbed Use and Development (Social Science)](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3333){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3333))
 * Interdisciplinary 
 * Other
     * Pretell, R., S. Brandenberg, J. Stewart (2023). Consistently computed ground motion intensity measures for liquefaction triggering assessment. DesignSafe-CI. [https://doi.org/10.17603/ds2-6vj1-t096](https://doi.org/10.17603/ds2-6vj1-t096)

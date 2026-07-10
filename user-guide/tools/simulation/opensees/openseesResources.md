@@ -63,20 +63,20 @@ Slides of content presented in the tutorial above
 <ul style="margin-top:-20px;">
 	<li>OpenSees-EXPRESS:
 	<ul>
-		<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesEXPRESS" target="_blank">input directory</a></li>
+		<li>[input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesEXPRESS){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/app_examples/opensees/OpenSeesEXPRESS))</li>
 		<li>input TCL file: freeFieldEffective.tcl</li>
 	</ul>
 	</li>
 	<li>OpenSeesSP:
 	<ul>
-		<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesSP" target="_blank">input directory</a></li>
+		<li>[input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesSP){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/app_examples/opensees/OpenSeesSP))</li>
 		<li>input TCL file: RigidFrame3D.tcl</li>
 		<li>resources: 1 Node, 2 Processors   </li>
 	</ul>
 	</li>
 	<li>OpenSeesMP:
 	<ul>
-		<li><a href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community//app_examples/opensees/OpenSeesMP" target="_blank">input directory</a></li>
+		<li>[input directory](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.community/app_examples/opensees/OpenSeesMP){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/app_examples/opensees/OpenSeesMP))</li>
 		<li>input TCL file: parallel_motion.tcl</li>
 		<li>resources: 1 Node, 3 Processors  </li>
 	</ul>
