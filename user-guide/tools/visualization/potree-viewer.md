@@ -3,6 +3,8 @@
 
 Potree Viewer is a point cloud viewer that enables exploration and measurement of very large LiDAR datasets and is designed to be efficient in a web browser. Use the Potree Converter to first convert your point cloud data to a format compatible with the Potree Viewer.
 
+The Potree Viewer is intended for preliminary, exploratory viewing; for performance it renders point clouds at a level of detail rather than at full density, so it is not a substitute for the source data. For full-resolution analysis, work from the original LAS/LAZ file in a dedicated point cloud tool such as <a href="https://www.cloudcompare.org/">CloudCompare</a> or <a href="https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis/">QGIS</a>.
+
 ### How to Start a Potree Interactive Session in the Workspace { #submit }
 
 <ul>
