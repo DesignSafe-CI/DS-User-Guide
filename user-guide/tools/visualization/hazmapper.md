@@ -179,7 +179,7 @@ If the user clicks on the _View_ button on the information box, the Potree Viewe
 
 **Fig 2.13**
 
-The Potree Viewer is intended for preliminary, exploratory viewing. For performance, it streams the cloud at a level of detail and renders only a portion of the points at any given time, so the in-browser view is not full density and is not a substitute for the source data. For full-resolution analysis, work from the original LAS/LAZ file in a dedicated point cloud tool such as [CloudCompare](https://www.cloudcompare.org/) (download to your local machine) or [QGIS](https://www.designsafe-ci.org/use-designsafe/tools-applications/gis-tools/qgis/) (available in the DesignSafe Workspace).
+{% include-markdown '../../include/potree-note.md' %}
 
 The URL to the Potree Viewer created for the asset will be permanent as long as the asset exists. Furthermore, this can be shared with other researchers.
 
