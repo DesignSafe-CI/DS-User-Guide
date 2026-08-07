@@ -12,6 +12,14 @@ DAPI - DesignSafe API
 <code>dapi</code> is a Python library for submitting, monitoring, and managing TAPIS v3 jobs on DesignSafe via Jupyter Notebooks or the command line. It also provides access to DesignSafe research databases.
             </p>
         </a>
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/ds-workflows/" target="_blank">
+            <h3>
+DesignSafe Computational Workflows
+            </h3>
+            <p>
+A practical guide to running computational workflows on DesignSafe HPC systems. Covers how jobs are submitted and executed, choosing compute environments and job resources, running apps from the web portal or Jupyter, parameter sweeps, storage systems, debugging, and building your own apps.
+            </p>
+        </a>
         <a class="card--plain" href="https://DesignSafe-CI.github.io/training-database-api" target="_blank">
             <h3>
 Database API training
