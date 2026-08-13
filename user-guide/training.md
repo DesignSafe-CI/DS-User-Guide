@@ -1,6 +1,6 @@
 # Training Resources
 
-DesignSafe-CI offers a suite of training resources aimed at equipping researchers and engineers with cutting-edge computational skills. These repositories cover a range of topics, including accelerating Python applications, utilizing database APIs, implementing physics-informed neural networks (PINNs), understanding explainable AI (XAI), and applying Deep Operator Networks (DeepONet). Each module provides hands-on tutorials and practical examples to enhance your proficiency in leveraging these technologies for natural hazards research.
+DesignSafe-CI offers a suite of training resources aimed at equipping researchers and engineers with cutting-edge computational skills. These repositories cover a range of topics, including submitting and managing jobs with the DesignSafe API (<code>dapi</code>), running computational workflows on DesignSafe HPC systems, scientific machine learning for engineers, accelerating Python applications, utilizing database APIs, implementing physics-informed neural networks (PINNs), understanding explainable AI (XAI), and applying Deep Operator Networks (DeepONet). Each module provides hands-on tutorials and practical examples to enhance your proficiency in leveraging these technologies for natural hazards research.
 
 <section class="section--light">
     <div class="grid">
@@ -18,6 +18,14 @@ DesignSafe Computational Workflows
             </h3>
             <p>
 A practical guide to running computational workflows on DesignSafe HPC systems. Covers how jobs are submitted and executed, choosing compute environments and job resources, running apps from the web portal or Jupyter, parameter sweeps, storage systems, debugging, and building your own apps.
+            </p>
+        </a>
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/training-ai/README.html" target="_blank">
+            <h3>
+AI Training
+            </h3>
+            <p>
+Scientific machine learning covering explainable AI (XAI), physics-informed neural networks (PINNs), and operator learning.
             </p>
         </a>
         <a class="card--plain" href="https://DesignSafe-CI.github.io/training-database-api" target="_blank">
