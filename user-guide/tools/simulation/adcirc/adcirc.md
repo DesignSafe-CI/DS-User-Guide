@@ -466,9 +466,9 @@ Note you want to most likely copy these files to your MyData or HPC work before 
 	- Use Case Products - ``CommunityData/Use Case Products/ADCIRC/adcirc``
 	- App Examples - ``CommunityData/app_examples/``
 - Notable ADCIRC Published Projects:
-	- [CERA / ADCIRC Storm Surge Hindcasts: Historical Storms 2003-2022](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3932)
-	- [Texas FEMA Hurricane Winds and Surge](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2968)
-	- [ADCIRC Reduced Order Modeling](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3870)
+	- [CERA / ADCIRC Storm Surge Hindcasts: Historical Storms 2003-2022](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3932){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3932))
+	- [Texas FEMA Hurricane Winds and Surge](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2968){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2968))
+	- [ADCIRC Reduced Order Modeling](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3870){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3870))
 
 To see a full list of ADCIRC related data in the data depot, search for `ADCIRC` in the keyword search bar.
 
