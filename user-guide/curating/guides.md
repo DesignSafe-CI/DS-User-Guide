@@ -493,7 +493,7 @@ In addition, the release must include a README file with detailed instructions o
 
 Failure to adequately describe your software with these files may result in removal of your publication.
 
-[Read about best practices for creating CodeMeta and README files.](https://www.designsafe-ci.org/user-guide/curating/bestpractices/#research-software)
+[Read about best practices for creating CodeMeta and README files.](/user-guide/curating/bestpractices/#research-software)
 
 After adding these files, create a new release.
 
