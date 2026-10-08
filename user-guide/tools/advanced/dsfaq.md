@@ -166,7 +166,7 @@ The Jupyter Notebook is a web application that allows you to create and share do
 ///
 /// details | What do people do with Jupyter?
 
-Many people use Jupyter in a similar fashion as they use MATLAB to analyze and plot their data. We will be sharing example Jupyter Notebooks soon that you can copy into your My Data and customize for your research. We also provide [Jupyter training](https://designsafe-ci.org/user-guide/tools/jupyterhub/).
+Many people use Jupyter in a similar fashion as they use MATLAB to analyze and plot their data. We will be sharing example Jupyter Notebooks soon that you can copy into your My Data and customize for your research. We also provide [Jupyter training](/user-guide/tools/jupyterhub/).
 
 ///
 
