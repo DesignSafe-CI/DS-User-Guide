@@ -356,7 +356,7 @@ In their projects, researchers frequently reuse data as input files, for validat
 
 DDR offers possibilities to cite different types of resources that provide context, cite, or were used to create a new data publication.  Located in the curation forms, those are:
 
-* **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset) and is cited by (the work references the published dataset) 
+* **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset), and is cited by (the work references the published dataset).
 * **Referenced Data and Software**: to cite data or software that have been reused to create the published dataset.
 
 Note that:
