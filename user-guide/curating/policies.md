@@ -165,7 +165,7 @@ The DDR abides by and promotes the [Joint Declaration of Data Citation Principle
 
 For researchers reusing data published in DDR, we facilitate citing the published datasets in their publications by using the citation and DOI available in their corresponding  landing pages. Citations should be included in the reference section of the publication so that they can be appropriately harvested by citation aggregators.
 
-Users who have reused data or software from other sources and are publishing a new dataset or software based on those resources in DDR should always reference the source using the Referenced Data and Software field. See Reusing and Citing Resources in the Datasets Landing Pages.
+Users who have reused data or software from other sources and are publishing a new dataset or software based on those resources in DDR should always reference the source using the field "Referenced Data and Software". See Reusing and Citing Resources in the Datasets Landing Pages.
 
 Both Related Works and Referenced Data and Software information is sent to DataCite so that credits to all authors are accounted for.
 
