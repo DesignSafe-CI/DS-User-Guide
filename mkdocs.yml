@@ -72,7 +72,6 @@ nav:
     - Best Practices for Data Curation and Publication: curating/bestpractices.md
     - Data Dissemination and Impact: curating/metrics.md
     - Resources for Users:
-    # - Publish Your Data Information/Presentations: ???
       - Frequently Asked Questions: curating/faq.md
       - Github's "Cite this Repository": curating/github-cite-this-repo.md
       - Curating Data in Experimental Facilities: managingdata/experimentalfacilitychecklist.md
