@@ -354,7 +354,7 @@ Applicable for all datasets:
 
 ### How to Cite Resources Published in DDR
 
-When reusing datasets, reports, presentations, research software or any other resource published in DesignSafe, researchers should cite them in all the papers and presentations about the research in which they were used. The appropriate way to do so is (just like with any other reference) to cite them in the text and then add the citation  —  with the DOI provided on the corresponding landing page  —  in the paper's reference section. This is very important for purposes of citation count, as most citation aggregators grab the citations from the reference section of the papers. In DDR, dataset citations are accounted for and show up in the Details section of each dataset's landing page.
+When reusing datasets, reports, presentations, research software or any other resource published in DesignSafe, researchers should cite them in all the papers and presentations about the research in which they were used. The appropriate way to do so is (just like with any other reference) to cite them in the text and then add the citation — with the DOI provided on the corresponding landing page — in the paper's reference section. This is very important for purposes of citation count, as most citation aggregators grab the citations from the reference section of the papers. In DDR, dataset citations are accounted for and show up in the Details section of each dataset's landing page.
 
 ### How to Use and Cite Data for the Creation of Datasets Published in the DDR
 
