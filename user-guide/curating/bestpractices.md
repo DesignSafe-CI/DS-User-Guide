@@ -362,7 +362,7 @@ When creating a dataset, researchers frequently reuse data from other sources as
 
 DDR promotes attributing datasets used in the creation of a new dataset. This is because authorship is part of the resource's provenance and because it is positive to increase the citation counts of those that shared their data openly. Even if the license does not require attribution, authors should always cite the data they reuse.
 
-On dataset landing pages, DDR offers venues to cite different resources that provide context, are cited, or were used to create the new data publication. Those are:
+On dataset landing pages, DDR offers venues to cite different resources that provide context for, cite, or were used to create the new data publication. Those are:
 
 * **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: "context" (informs the published dataset), "link" (points to a resource that is complementary to, derives from, or is derived from the published dataset), and "is cited by" (the work that references the published dataset).
 * **Referenced Data and Software**: to cite data or software that have been reused to create the published dataset.
