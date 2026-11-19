@@ -50,7 +50,7 @@ DDR is a self-publication repository which means that authors are ultimately res
 
 We address data quality from a variety of perspectives:
 
-*Data Organization Quality:* DDR's curation interface allows users to select Experimental, Simulation, Hybrid Simulation, Field Research, Research Software and Other project types to organize their data/code. Based on data models designed in collaboration with experts in the community, each project type offers required and recommended categories to organize data and documentation in order to represent the method used to generate them. Users can carefully consider the right project type for their dataset by going through the Steps to Curate and Publish your Dataset section of the User Guide. There they have explanations about each project type and their corresponding categories. Users should consider how their data and documentation fit within the categories of each project type, and should not assign the same files to different categories. Choosing the wrong project type or mis-categorizing files may result in having to re-curate the dataset either before or after publication.
+*Data Organization Quality:* DDR's curation interface allows users to select Experimental, Simulation, Hybrid Simulation, Field Research, Research Software and Other project types to organize their data/code. Based on data models designed in collaboration with experts in the community, each project type offers required and recommended categories to organize data and documentation in order to represent the method used to generate them. Users can carefully consider the right project type for their dataset by going through the [Steps to Curate and Publish your Dataset](/user-guide/curating/guides/) section of the User Guide. There they have explanations about each project type and their corresponding categories. Users should consider how their data and documentation fit within the categories of each project type, and should not assign the same files to different categories. Choosing the wrong project type or mis-categorizing files may result in having to re-curate the dataset either before or after publication.
 
 *Metadata Quality:* Metadata is fundamental to data explainability and reuse. To support metadata quality we provide onboarding descriptions of all metadata elements, indicate which ones are required, and suggest how to complete them. [Requirements for core metadata elements](/user-guide/curating/policies/#metadata-schema-and-requirements) are automatically reinforced during the publication pipeline, and the dataset will not be published if requirements are not met. While we do not enforce filling non-required metadata fields available for each data type because they are not generalizable to all datasets, we encourage users to complete all fields when applicable.
 
@@ -165,7 +165,7 @@ The DDR abides by and promotes the [Joint Declaration of Data Citation Principle
 
 For researchers reusing data published in DDR, we facilitate citing the published datasets in their publications by using the citation and DOI available in their corresponding  landing pages. Citations should be included in the reference section of the publication so that they can be appropriately harvested by citation aggregators.
 
-Users who have reused data or software from other sources and are publishing a new dataset or software based on those resources in DDR should always reference the source using the field "Referenced Data and Software". See Reusing and Citing Resources in the Datasets Landing Pages.
+Users who have reused data or software from other sources and are publishing a new dataset or software based on those resources in DDR should always reference the source using the field "Referenced Data and Software". See [Reuse: Citations and Licenses](/user-guide/curating/bestpractices/#reuse-citations-and-licenses).
 
 Both Related Works and Referenced Data and Software information is sent to DataCite so that credits to all authors are accounted for.
 
@@ -175,7 +175,7 @@ The expectations of DDR and the responsibilities of users in relation to complia
 
 The natural hazards research community utilizes diverse research methods to generate and record data in open and proprietary formats, and there is continuous [update of equipment](https://rapid.designsafe-ci.org/equipment-portfolio/) used in the field. To encourage data publication, DDR does not have a hard file format restriction policy, but we ask our users to convert proprietary file formats to open formats when possible and/or document the format and how to access the file.
 
-To guide users to file formats for preservation the DDR follows the latest [Library of Congress Recommended Format Statement](https://www.loc.gov/preservation/resources/rfs/TOC.html).  A list of [recommended file formats](https://www.designsafe-ci.org/user-guide/curating/bestpractices/#recommended-file-formats) is published in the Best Practices section of this User Guide. 
+To guide users to file formats for preservation the DDR follows the latest [Library of Congress Recommended Format Statement](https://www.loc.gov/preservation/resources/rfs/TOC.html).  A list of [recommended file formats](/user-guide/curating/bestpractices/#recommended-file-formats) is published in the Best Practices section of this User Guide.
 
 Upon ingestion in the DDR, file format identification information of all the individual files in a dataset is extracted and stored in the Fedora repository, allowing preservation action decisions to be made when needed.
 
@@ -597,7 +597,7 @@ To publish their datasets users should select a project type that best represent
 
 Data models are implemented as interactive functions in the DDR web interface and include onboarding  instructions that guide the researchers through the curation and publication tasks. As researchers move through curating and publishing, the interactive features reinforce data and metadata completeness and thus enhance the quality of the datasets. The process will not move forward if requirements for metadata are not fulfilled or if key files are missing.
 
-Data models are reviewed and improved upon regularly for changes or additions. To learn how to use the different project types, go to [Steps to Curate and Publish your Datasets](https://www.designsafe-ci.org/user-guide/curating/guides/).
+Data models are reviewed and improved upon regularly for changes or additions. To learn how to use the different project types, go to [Steps to Curate and Publish your Datasets](/user-guide/curating/guides/).
 
 ## Protected Data
 
