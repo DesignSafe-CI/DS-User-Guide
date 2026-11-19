@@ -1,11 +1,11 @@
 # Resources for Users
 
-!!! caution "Content Undecided"
+!!! warning "Content Undecided"
     Much of this page is incomplete. We might not use this page.
 
 ## Frequently Asked Questions
 
-!!! caution "Content Undefined"
+!!! warning "Content Undefined"
     Should this introduce some F.A.Q. and/or link to it?
 
 ## Data Management Plan
@@ -14,12 +14,12 @@ Depositing your data and other resources such as documentation and research soft
 
 ## Data and Intellectual Property
 
-!!! caution "Content Undefined"
+!!! warning "Content Undefined"
     What content belongs here?
 
 ## Support and Contact Information
 
-!!! caution "Content Undefined"
+!!! warning "Content Undefined"
     Should this introduce the Support and Contact Information and/or link to it?
 
 ## DesignSafe Office Hours
@@ -37,19 +37,19 @@ CONVERGE has a series of [check sheets](https://converge.colorado.edu/resources/
 
 In addition, we suggest that users look into the [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/) from the Data Curation Network, which are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task, and that can be used as a guidelines to curate research data. The primers include curation practices for documenting data types that while not open or recommended, are very established in the academic fields surrounding Natural Hazards research such as Matlab and Microsoft Excel.
 
-!!! caution "Needs Review"
+!!! warning "Needs Review"
     How to introduce this random link?
 
 [https://www.copyright.gov/circs/circ33.pdf](https://www.copyright.gov/circs/circ33.pdf) 
 
 ## Exemplary Datasets
 
-!!! caution "Needs Review"
+!!! warning "Needs Review"
     "Need to review this list now." — M.E.
 
 Below are examples of good organization and description for different dataset types:
 
-!!! caution "Formatting Uncertain"
+!!! warning "Formatting Uncertain"
     Should this be a nested list, a table, sub-headings and lists? Is it supposed to be [the user guide dictionaries](/user-guide/dictionary/)?
 
 * Experimental

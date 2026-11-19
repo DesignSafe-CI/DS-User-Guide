@@ -11,6 +11,7 @@
 .wy-side-nav-search .nav-name {
     font-weight: var(--medium);
     color: #565656;
+    text-transform: uppercase;
 }
 /* To give logo more horizontal space */
 .wy-side-nav-search > a {
