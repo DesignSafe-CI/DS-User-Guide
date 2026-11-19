@@ -105,7 +105,9 @@ In alignment with [FAIR for Research Software (FAIR4RS) recommendations](https:/
 * A [CodeMeta json file should be generated online](https://codemeta.github.io/codemeta-generator/) and uploaded to the GitHub repository, or along with the software files to Project Type “Other”. When filling the CodeMeta file, it is important to include as much information as possible, which allows for others to understand, reuse, and attribute your software. Links to dependencies should be included in the Related Data and Software entry available in the metadata form. If allowed by their licenses, dependency files can and should be included as part of the publication package for ease of software installation.
 * A Readme file with details of how to install and use the software should also be part of the publication. To be reproducible, the software publication needs to include documentation about and  links to libraries and dependencies needed to run it. We ask researchers to test that the software can be installed according to instructions and that it is working properly at the time of publication.
 * Often researchers include data in their research software publications. Since Github is not a data repository, when using Project Type Research Software,  data can be published in DesignSafe using Project Type "Other," or another corresponding Project Type. Instead, if you use Project Type "Other" to publish Research Software, you can also include the data.
-* When present, the relation between the research software and the corresponding dataset should be indicated. From the research software publication, the dataset should be noted in the Related Work /linked entry available in the curation form. From the dataset publication, the research software should be related via the Referenced Data and Software/cites entry available in the curation form.  These linkages connect both publications, from data to software and vice versa. Linkages can be added after the data or the software have been published via Amends. The location of the dataset should also be  noted in the software Readme file.
+* When present, the relation between the research software and the corresponding dataset should be indicated. From the research software publication, the dataset should be noted in the Related Work /linked entry available in the curation form. From the dataset publication, the research software should be related via the Referenced Data and Software/cites entry available in the curation form.  These linkages connect both publications, from data to software and vice versa. Linkages can be added after the data or the software have been published via Amends. The location of the dataset should also be noted in the software Readme file.
+* The published research software is a copy that DesignSafe stores, and the DOI resolves to that archived copy, not to the live GitHub repository. The GitHub repository is where software is maintained; the archived copy is the citable, immutable record. At the time of publication, the pipeline checks the presence of a codemeta file, license and a README, so what gets preserved and cited has passed a basic completeness check.
+* The version in DesignSafe will often differ from the GitHub version, and that is expected. The author controls what gets published and when. They can skip versions entirely and only archive the releases they consider worth citing. The platform carries whatever the author provides rather than enforcing or interpreting a versioning scheme.
 
 #### Versioning Research Software
 
@@ -179,10 +181,12 @@ To avoid excessive nesting and improve navigation, users can come up with a file
 
 * File naming should be meaningful, both to the team and to others, and should be kept short. 
 * Consider the folder name as complementary to the file naming convention
-* File names should not have spaces, periods, accents, or special characters, as those features may cause errors within the storage systems.
-* Always leave the three letter file extension. 
-* The meaning and components of file naming conventions should be documented in the Data Report so that others can identify files. 
-* Do not repeat filenames or folder names across different experiments, collections and missions, or simulations, as this is confusing for other users. Always include another piece of information to distinguish files and folders across groupings. 
+* Folder and file names should not have spaces, periods, accents, or special characters, as those features may cause errors within the storage systems.
+  * Reserved Characters (do **not** use): `!` `$` `&` `'` `(` `)` `*` `+` `,` `;` `=` `%`
+  * Unreserved Characters (always safe to use): `A-Z` `a-z` `0-9` `-` `.` `_` `~`
+* Always make sure that the files have the three letter file extension.
+* The meaning and components of file naming conventions should be documented in the Data Report so that others can identify files.
+* Do not repeat filenames or folder names across different experiments, collections and missions, or simulations, as this is confusing for other users. Always include another piece of information to distinguish files and folders across groupings.
 
 ///
 
@@ -288,7 +292,7 @@ Except for the "Other" project type, all the DDR project types have categories i
 
 Below are recommendations for what to include in data reports for all dataset types, as well as more specific ones for simulation, experiments, and field research datasets. We suggest that researchers pick the ones that are suitable for their particular cases. While some information may seem redundant from what is input in the forms during curation, the goal is for the data report to provide comprehensive and expanded documentation about the dataset's technical provenance and functionalities that users can download along with the data.
 
-#### General
+### General
 
 Applicable for all datasets:
 
@@ -308,7 +312,7 @@ Applicable for all datasets:
 * Reporting a dataset's performance evaluation is applicable to benchmark or testbed datasets that have been used to train a model or for numerical validation.
 * Describe usage of Jupyter notebook or code that you are publishing to visualize, read in, or post- process the data. Include instructions on how to use them. 
 
-#### Simulations
+### Simulations
 
 * Provide information about the software used to conduct the simulation and its version. Point to its repository and citation if available. 
 * Describe any ancillary scripts/code used to run the simulation software.
@@ -318,9 +322,9 @@ Applicable for all datasets:
 * Report on the computational environment where the simulations were run.
 * Reference the source/citation of input files (taken from published experiments or external repositories) when applicable. 
 
-#### Field Research
+### Field Research
 
-##### Engineering and Social Science
+#### Engineering and Social Science
 
 * Briefly describe the characteristics of the natural hazard event that was observed.
 * If the field research is not associated with a natural hazard event, describe the unit of analysis that is being observed.
@@ -332,31 +336,35 @@ Applicable for all datasets:
 * For survey and interview data include the questionnaire and interview protocol and report on the population size and participant characteristics.
 * For human subjects data describe all issues regarding protection of personal identifiable information and confidentiality. 
 
-#### Experiments
+### Experiments
 
 * Provide details of the facility/lab and equipment used.
 * Describe the experimental design/model configuration.
 * Describe/graph the model/specimen construction/layout.
 * Indicate sensor types and disposition.
-* Indicate calibration. 
-* Record  pre-test documentation.
+* Indicate calibration.
+* Record pre-test documentation.
 * Describe the test protocol including frequency and loads.
 * Note the format in which the data was captured.
 * Record the units in which the data was captured and if there was conversion to other units.
 * Indicate if data published raw and or processed.
 * Record any data post-processing activity and note software used.
 
-## Reusing and Citing Resources in the Datasets Landing Pages
+## Reuse: Citations and Licenses
 
-### Reusing Data and Software
+### How to Cite Resources Published in DDR
 
-In their projects, researchers frequently reuse data as input files, for validation, or to integrate with the data that they collect. They also reuse open software and may modify it for their purposes. To make sure that data and software can be reused, modified, and shared appropriately, researchers should always look into and proceed according to what is stated in the resource license. Licenses are standard ways for content creators to grant permissions to others to reuse their work under certain conditions. The license will, for example, indicate if the creators want to be attributed with a citation. In that regard, it is a good practice to always provide the citation of the software and data that was reused, even if the author does not require it. This is because authorship is part of the resource's provenance and to give credit to the creators.
+When reusing datasets, reports, presentations, research software or any other resource published in DesignSafe, researchers should cite them in all the papers and presentations about the research in which they were used. The appropriate way to do so is just like with any other reference, is by calling them in text and then adding the citation with the DOI - provided in the corresponding landing page - in the reference section of the paper. This is very important for purposes of citation count, as most citation aggregators grab the citations from the reference section of the papers. In DDR, dataset citations are accounted for and show up in the Details section of each dataset's landing page.
 
-### Citing Papers and Reused Data and Software
+### How to Use and Cite Data for the Creation of Datasets Published in the DDR
 
-DDR offers possibilities to cite different types of resources that provide context, cite, or were used to create a new data publication.  Located in the curation forms, those are:
+When creating a dataset, researchers frequently reuse data from other sources as input files, as training data, or to integrate with the data that they collect. Researchers also reuse open software, which they may modify for their purposes. To make sure that data and software can be reused, modified, and shared in their projects, researchers should always look at the resources' licenses. Licenses are standard ways for content creators to grant permissions to others to reuse their work under certain conditions. The license will, for example, indicate if users can modify the data, if it can be used for commercial purposes, if it can be shared with or without modifications, and if the authors want to be attributed with a citation.
 
-* **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset), and is cited by (the work references the published dataset).
+DDR promotes attributing datasets used in the creation of a new dataset. This is because authorship is part of the resource's provenance and because it is positive to increase the citation counts of those that shared their data openly. Even if the license does not require attribution, authors should always cite the data they reuse.
+
+In the datasets landing pages DDR offers venues to cite different resources that provide context, cite, or were used to create the new data publication. Those are:
+
+* **Related Work**: to cite data, papers, websites, reports or presentations that provide context, have a direct relationship to, or cite the published dataset. Those resources could be external to DDR or published in DDR. The type of connection between the resource and the published dataset must be selected by the user as: context (informs the published dataset), link (points to a resource that is complementary to, derives from, or is derived from the published dataset) and is cited by (the work references the published dataset). 
 * **Referenced Data and Software**: to cite data or software that have been reused to create the published dataset.
 
 Note that:
@@ -365,7 +373,8 @@ Note that:
 * Related Works and Referenced Data or Software can be added at any time during or after the dataset's publication. In the former case, it can be done through Amends or Versioning.
 * In the form researchers should include the cited resource title and corresponding DOI in https format; this way, other users will be directed to the cited resource.
 * When using a DOI, the platform will submit this information to a third party (Cross-Ref via DataCite) that will assign the citations to the corresponding resources so that authors are credited appropriately.
-* In order to reuse images from other sources (online, databases, publications, etc.), users should look into their rights and licensing restrictions and follow them appropriately.  Users should also follow [instructions on how to cite the images](https://guides.library.ubc.ca/images/citing).
+* While data is not copyrightable, some images may have intellectual property. If users reuse images from other sources (online, databases, publications, etc.), and they have copyright, first look at their licenses to see how you can use them. We recommend [these instructions](http://guides.library.ubc.ca/c.php?g=698822&p=4965735) for how to use and cite them.
+* Datasets published in DDR can be reused, modified, and shared with the only condition of attributing their authors. 
 
 ## Rights
 
