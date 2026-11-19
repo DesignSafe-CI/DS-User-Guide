@@ -124,18 +124,18 @@ A **flat file database** stores data in a single, self-contained file without th
 **What is SQLite?**
 SQLite is a lightweight relational database that stores everything in a single file. Unlike server-based databases, SQLite requires no installation, configuration, or maintenance. It's like having a powerful database engine built right into your data file.
 
-🔑 **Key Characteristics of SQLite**
+**Key Characteristics of SQLite**
 
-1. **🗃️ Self-Contained**: Complete database in a single file
-2. **🚀 Serverless**: No installation, configuration, or administration needed
-3. **🌍 Cross-Platform**: Works on Windows, Mac, Linux
-4. **⚡ Fast**: Optimized for read operations and small to medium datasets
-5. **🛡️ ACID Compliant**: Atomic, Consistent, Isolated, Durable transactions
-6. **📝 SQL Standard**: Uses familiar SQL syntax with some extensions
+1. **Self-Contained**: Complete database in a single file
+2. **Serverless**: No installation, configuration, or administration needed
+3. **Cross-Platform**: Works on Windows, Mac, Linux
+4. **Fast**: Optimized for read operations and small to medium datasets
+5. **ACID Compliant**: Atomic, Consistent, Isolated, Durable transactions
+6. **SQL Standard**: Uses familiar SQL syntax with some extensions
 
 **When to Use SQLite:**
 
-✅ **Perfect for:**
+**Perfect for:**
 
 - **Multi-table research projects** (experiments, specimens, sensors, measurements)
 - **Data with complex relationships** (one experiment → many specimens → many tests)
@@ -145,7 +145,7 @@ SQLite is a lightweight relational database that stores everything in a single f
 - **Interactive analysis** requiring frequent queries and filtering
 - **Data that evolves over time** (adding new experiments, updating results)
 
-🆚 **SQLite vs Other Databases**
+**SQLite vs Other Databases**
 
 | Feature | SQLite | MySQL/PostgreSQL | Excel/CSV |
 |---------|--------|------------------|-----------|
@@ -157,7 +157,7 @@ SQLite is a lightweight relational database that stores everything in a single f
 | **Data Integrity** | ACID transactions | ACID transactions | Manual validation |
 | **Size Limit** | 281 TB theoretical | Very large | Memory limitations |
 
-✅ **Research Scenarios:**
+**Research Scenarios:**
 
 - Earthquake engineering databases tracking buildings, ground motions, and damage
 - Laboratory testing programs with specimens, test protocols, and results
@@ -195,7 +195,7 @@ When you want to analyze acceleration trends, Parquet only reads the acceleratio
 
 **When to Use Parquet:**
 
-✅ **Perfect for:**
+**Perfect for:**
 
 - **Large analytical datasets** (> 100MB) requiring frequent calculations
 - **Time series analysis** with millions of sensor readings
@@ -245,7 +245,7 @@ earthquake_study.h5
 
 **When to Use HDF5:**
 
-✅ **Perfect for:**
+**Perfect for:**
 
 - **Complex scientific datasets** with multiple related arrays
 - **Multi-dimensional data** (3D stress fields, 4D spatio-temporal data)

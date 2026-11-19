@@ -179,7 +179,7 @@ If the user clicks on the _View_ button on the information box, the Potree Viewe
 
 **Fig 2.13**
 
-The Potree Viewer can be used for further analysis of the point cloud.
+{% include-markdown '../../include/potree-note.md' %}
 
 The URL to the Potree Viewer created for the asset will be permanent as long as the asset exists. Furthermore, this can be shared with other researchers.
 

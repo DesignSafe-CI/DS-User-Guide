@@ -9,7 +9,7 @@
 
 ## User Account Registration
 
-Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. A DesignSafe account is a University of Texas, Texas Advanced Computing Center (TACC) user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`. [TACC offers detailed account registration instructions.](https://docs.tacc.utexas.edu/basics/accounts/)
+Any natural hazards researcher or practitioner that wants an environment to store, analyze, curate, publish, and discover data with a community of peers may register for an account. A DesignSafe account is a University of Texas, Texas Advanced Computing Center (TACC) user account, so you will sometimes see emails from TACC and URLs that take you to the TACC domain `tacc.utexas.edu`. [TACC offers detailed account registration instructions.](https://docs.tacc.utexas.edu/basics/accounts/) NOTE: If you already have a TACC user account, then use that account to log into DesignSafe. Do not register for an additional account, and in fact TACC policy only allows one TACC user account per person. 
 
 1. [**Request a user account.**](https://accounts.tacc.utexas.edu/register/)
 2. You will be redirected to the TACC account registration page.

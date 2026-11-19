@@ -1,15 +1,31 @@
 # Training Resources
 
-DesignSafe-CI offers a suite of training resources aimed at equipping researchers and engineers with cutting-edge computational skills. These repositories cover a range of topics, including accelerating Python applications, utilizing database APIs, implementing physics-informed neural networks (PINNs), understanding explainable AI (XAI), and applying Deep Operator Networks (DeepONet). Each module provides hands-on tutorials and practical examples to enhance your proficiency in leveraging these technologies for natural hazards research.
+DesignSafe-CI offers a suite of training resources aimed at equipping researchers and engineers with cutting-edge computational skills. These repositories cover a range of topics, including submitting and managing jobs with the DesignSafe API (<code>dapi</code>), running computational workflows on DesignSafe HPC systems, scientific machine learning for engineers, accelerating Python applications, utilizing database APIs, implementing physics-informed neural networks (PINNs), understanding explainable AI (XAI), and applying Deep Operator Networks (DeepONet). Each module provides hands-on tutorials and practical examples to enhance your proficiency in leveraging these technologies for natural hazards research.
 
 <section class="section--light">
     <div class="grid">
-        <a class="card--plain" href="https://DesignSafe-CI.github.io/training-OpenSees-on-DesignSafe" target="_blank">
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/dapi" target="_blank">
             <h3>
-OpenSees on DesignSafe
+DAPI - DesignSafe API
             </h3>
             <p>
-Learn to use OpenSees to develop, run, and scale structural & geotechnical simulations on DesignSafe/TACC. This hands-on module covers managing input files, launching parameter studies, and submitting and monitoring HPC jobs for reproducible workflows.
+<code>dapi</code> is a Python library for submitting, monitoring, and managing TAPIS v3 jobs on DesignSafe via Jupyter Notebooks or the command line. It also provides access to DesignSafe research databases.
+            </p>
+        </a>
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/ds-workflows/" target="_blank">
+            <h3>
+DesignSafe Computational Workflows
+            </h3>
+            <p>
+A practical guide to running computational workflows on DesignSafe HPC systems. Covers how jobs are submitted and executed, choosing compute environments and job resources, running apps from the web portal or Jupyter, parameter sweeps, storage systems, debugging, and building your own apps.
+            </p>
+        </a>
+        <a class="card--plain" href="https://DesignSafe-CI.github.io/training-ai/README.html" target="_blank">
+            <h3>
+AI Training
+            </h3>
+            <p>
+Scientific machine learning covering explainable AI (XAI), physics-informed neural networks (PINNs), and operator learning.
             </p>
         </a>
         <a class="card--plain" href="https://DesignSafe-CI.github.io/training-database-api" target="_blank">

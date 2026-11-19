@@ -7,9 +7,9 @@ DOCKER_COMPOSE_CMD := $(shell if command -v docker-compose > /dev/null; then ech
 #         of poetry.lock until it is reliable or proven useless
 .PHONY: requirements.txt
 requirements.txt: poetry.lock
-	pip install --user poetry-plugin-export \
+	poetry self add poetry-plugin-export \
 	&& poetry export -f requirements.txt --output requirements.txt \
-	&& pip uninstall --yes poetry-plugin-export
+	&& poetry self remove poetry-plugin-export
 
 
 .PHONY: build
@@ -18,8 +18,8 @@ build:
 
 .PHONY: start
 start:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.yml up
+	$(DOCKER_COMPOSE_CMD) -f ./docker-compose.yml up $(ARGS)
 
 .PHONY: stop
 stop:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.yml down
+	$(DOCKER_COMPOSE_CMD) -f ./docker-compose.yml down $(ARGS)
