@@ -11,9 +11,9 @@ DesignSafe has been developed as a comprehensive research environment supporting
 	* [Best Practices](/user-guide/curating/bestpractices/) & [Policies](/user-guide/curating/policies/)
 	* [Data Curation and Publication Tutorial Videos](https://www.youtube.com/playlist?list=PL2GxvrdFrBlkwHBgQ47pZO-77ZLrJKYHV){ target="_blank" } available in the learning center.
 	* Well-Curated Experimental Projects:
-		* [Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218){ target="_blank" }
-		* [CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-Rise cold-Formed Steel Buildings](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141){ target="_blank" }
-		* [Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197){ target="_blank" }
+		* [Experimental Investigation of Wave, Surge, and Tsunami Transformation Over Natural Shorelines: Reduced Scale Physical Model](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3218){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3218))
+		* [CFS-NHERI: Seismic Resiliency of Repetitively Framed Mid-Rise cold-Formed Steel Buildings](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2141){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-2141))
+		* [Progressive Damage and Failure of Wood-Frame Coastal Residential Structures Due to Hurricane Surge and Wave Forces](https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3197){ target="_blank" } ([![Open in DesignSafe](/user-guide/img/Open-in-DesignSafe.svg)](https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/NHERI-Published/PRJ-3197))
 	* [Frequently Asked Questions](/user-guide/curating/faq/)
 	* [Data Transfer Guide](/user-guide/managingdata/datatransfer/)
 3. Familiarize yourself with the available Tools and Apps.
